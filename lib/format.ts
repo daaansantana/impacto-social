@@ -27,9 +27,10 @@ export const euros = (x: number, casas = 2) =>
 export const milhoes = (x: number) =>
   `${formato("m2", { minimumFractionDigits: 2, maximumFractionDigits: 2 }).format(x / 1e6)} M€`;
 
-/** Uma percentagem de 0 a 100: 15,07 → «15,07%». */
+/** Uma percentagem de 0 a 100, sempre com `casas` decimais: 15,07 → «15,07%»; 3 com 1 casa → «3,0%». */
 export const percentagem = (x: number, casas = 0) =>
   formato(`p${casas}`, {
     style: "percent",
+    minimumFractionDigits: casas,
     maximumFractionDigits: casas,
   }).format(x / 100);

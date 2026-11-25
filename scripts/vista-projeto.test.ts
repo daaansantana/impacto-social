@@ -1,5 +1,6 @@
 import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
+import { euros, percentagem } from "@/lib/format";
 import { construirProjeto, nomeMes } from "@/lib/vista-projeto";
 import type { Mes, Projeto } from "@/types";
 
@@ -10,6 +11,11 @@ const projetos = JSON.parse(
   readFileSync("public/data/projetos.json", "utf-8"),
 ) as Projeto[];
 const texto = (s: string) => s.replace(/ /g, " ");
+type Valores = Record<string, number>;
+const G = JSON.parse(readFileSync("scripts/gabaritos.json", "utf-8")) as {
+  projeto: Record<"todos" | "comparaveis", Record<string, Valores>>;
+  eficiencia: Record<"todos" | "comparaveis", { despesaPorProjeto: Valores }>;
+};
 
 describe("construirProjeto", () => {
   it("P07, em meses comparáveis", () => {
@@ -54,6 +60,42 @@ describe("construirProjeto", () => {
 
   it("um projeto que não existe", () => {
     expect(construirProjeto(meses, projetos, "P99", true)).toBeNull();
+  });
+
+  it("os estornos e a despesa do mesmo período, como nos gabaritos", () => {
+    for (const [modo, comparaveis, periodo] of [
+      ["comparaveis", true, "de janeiro a outubro"],
+      ["todos", false, "dos 24 meses"],
+    ] as const)
+      for (const { id } of projetos) {
+        const estornos = G.projeto[modo][id].estornos;
+        const despesa = G.eficiencia[modo].despesaPorProjeto[id];
+        const aviso = construirProjeto(
+          meses,
+          projetos,
+          id,
+          comparaveis,
+        )?.avisos.find((a) => a.id === "estornos");
+        expect(texto(aviso?.texto ?? "")).toBe(
+          texto(
+            `Os estornos somam ${euros(estornos, 0)} e já estão abatidos: são ${percentagem((estornos / despesa) * 100, 1)} da despesa ${periodo}.`,
+          ),
+        );
+      }
+  });
+
+  it("P01: 3,0% de janeiro a outubro e 2,9% nos 24 meses", () => {
+    const aviso = (comparaveis: boolean) =>
+      texto(
+        construirProjeto(meses, projetos, "P01", comparaveis)?.avisos[1]
+          .texto ?? "",
+      );
+    expect(aviso(true)).toBe(
+      "Os estornos somam 402 269 € e já estão abatidos: são 3,0% da despesa de janeiro a outubro.",
+    );
+    expect(aviso(false)).toBe(
+      "Os estornos somam 466 318 € e já estão abatidos: são 2,9% da despesa dos 24 meses.",
+    );
   });
 
   it("nomeMes", () => {
