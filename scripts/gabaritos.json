@@ -254,6 +254,146 @@
    }
   }
  },
+ "projeto": {
+  "todos": {
+   "P01": {
+    "custoPorAtividade": 5777.93,
+    "reunioesPor100hAtividade": 4.98,
+    "estornos": 466317.51
+   },
+   "P02": {
+    "custoPorAtividade": 1319.03,
+    "reunioesPor100hAtividade": 3.0,
+    "estornos": 81712.76
+   },
+   "P03": {
+    "custoPorAtividade": 981.85,
+    "reunioesPor100hAtividade": 2.75,
+    "estornos": 51571.85
+   },
+   "P04": {
+    "custoPorAtividade": 647.2,
+    "reunioesPor100hAtividade": 2.26,
+    "estornos": 29494.26
+   },
+   "P05": {
+    "custoPorAtividade": 1782.22,
+    "reunioesPor100hAtividade": 3.56,
+    "estornos": 116426.3
+   },
+   "P06": {
+    "custoPorAtividade": 502.52,
+    "reunioesPor100hAtividade": 2.06,
+    "estornos": 26557.66
+   },
+   "P07": {
+    "custoPorAtividade": 428.11,
+    "reunioesPor100hAtividade": 1.86,
+    "estornos": 25785.71
+   },
+   "P08": {
+    "custoPorAtividade": 1127.18,
+    "reunioesPor100hAtividade": 2.73,
+    "estornos": 67526.15
+   },
+   "P09": {
+    "custoPorAtividade": 809.26,
+    "reunioesPor100hAtividade": 2.53,
+    "estornos": 54505.27
+   },
+   "P10": {
+    "custoPorAtividade": 1416.8,
+    "reunioesPor100hAtividade": 3.24,
+    "estornos": 114040.85
+   },
+   "P11": {
+    "custoPorAtividade": 369.92,
+    "reunioesPor100hAtividade": 1.66,
+    "estornos": 25190.24
+   },
+   "P12": {
+    "custoPorAtividade": 1404.2,
+    "reunioesPor100hAtividade": 3.27,
+    "estornos": 79704.15
+   }
+  },
+  "comparaveis": {
+   "P01": {
+    "custoPorAtividade": 6473.49,
+    "reunioesPor100hAtividade": 5.38,
+    "estornos": 402269.38
+   },
+   "P02": {
+    "custoPorAtividade": 1489.0,
+    "reunioesPor100hAtividade": 3.26,
+    "estornos": 59650.73
+   },
+   "P03": {
+    "custoPorAtividade": 1093.8,
+    "reunioesPor100hAtividade": 3.14,
+    "estornos": 40441.13
+   },
+   "P04": {
+    "custoPorAtividade": 692.77,
+    "reunioesPor100hAtividade": 2.63,
+    "estornos": 21654.46
+   },
+   "P05": {
+    "custoPorAtividade": 1946.9,
+    "reunioesPor100hAtividade": 3.91,
+    "estornos": 100624.22
+   },
+   "P06": {
+    "custoPorAtividade": 526.4,
+    "reunioesPor100hAtividade": 2.26,
+    "estornos": 23854.92
+   },
+   "P07": {
+    "custoPorAtividade": 470.96,
+    "reunioesPor100hAtividade": 1.85,
+    "estornos": 22714.75
+   },
+   "P08": {
+    "custoPorAtividade": 1243.0,
+    "reunioesPor100hAtividade": 2.79,
+    "estornos": 55474.27
+   },
+   "P09": {
+    "custoPorAtividade": 881.1,
+    "reunioesPor100hAtividade": 2.79,
+    "estornos": 43688.17
+   },
+   "P10": {
+    "custoPorAtividade": 1582.43,
+    "reunioesPor100hAtividade": 3.51,
+    "estornos": 87504.18
+   },
+   "P11": {
+    "custoPorAtividade": 384.34,
+    "reunioesPor100hAtividade": 1.63,
+    "estornos": 19563.34
+   },
+   "P12": {
+    "custoPorAtividade": 1559.92,
+    "reunioesPor100hAtividade": 3.76,
+    "estornos": 65919.12
+   }
+  },
+  "subidaFimDeAno": {
+   "P01": 0.81,
+   "P02": 0.69,
+   "P03": 0.66,
+   "P04": 0.45,
+   "P05": 0.59,
+   "P06": 0.58,
+   "P07": 0.57,
+   "P08": 0.83,
+   "P09": 0.78,
+   "P10": 0.45,
+   "P11": 0.79,
+   "P12": 0.37
+  }
+ },
  "fimDeAno": {
   "atividadesPorMes": {
    "janOut": 1087.45,

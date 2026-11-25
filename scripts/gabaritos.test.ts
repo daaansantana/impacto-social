@@ -8,6 +8,7 @@ import { auditar } from "@/lib/auditor";
 import { eficiencia, totais } from "@/lib/eficiencia";
 import { fimDeAno } from "@/lib/fim-de-ano";
 import { filtrarMeses, serieProjeto } from "@/lib/meses";
+import { resumoProjeto, subidaFimDeAno } from "@/lib/projeto";
 import { fatorDeEquilibrio, simular } from "@/lib/simulador";
 import type { Mes, Projeto, Qualidade, Unidade } from "@/types";
 
@@ -38,6 +39,9 @@ type Gabaritos = {
     custoMedioComparavel: number;
   };
   qualidade: Valores;
+  projeto: Record<"todos" | "comparaveis", Record<string, Valores>> & {
+    subidaFimDeAno: Valores;
+  };
   auditor: Record<string, Record<string, unknown>>;
 };
 
@@ -154,6 +158,24 @@ describe("simular e fatorDeEquilibrio", () => {
     const otimista = simular({ ...entrada(), fracao: 1, fator: 1 });
     perto(fatorDeEquilibrio(otimista), G.simulacao.fatorDeEquilibrio);
   });
+});
+
+describe("resumoProjeto", () => {
+  for (const [modo, comparaveis] of MODOS)
+    for (const { id } of projetos)
+      it(`${modo}, ${id}`, () => {
+        pertoDeTodos(
+          resumoProjeto(meses, id, comparaveis),
+          G.projeto[modo][id],
+        );
+      });
+});
+
+describe("subidaFimDeAno", () => {
+  for (const { id } of projetos)
+    it(id, () => {
+      perto(subidaFimDeAno(meses, id), G.projeto.subidaFimDeAno[id]);
+    });
 });
 
 describe("qualidade.json", () => {
