@@ -34,3 +34,7 @@ export const percentagem = (x: number, casas = 0) =>
     minimumFractionDigits: casas,
     maximumFractionDigits: casas,
   }).format(x / 100);
+
+/** Arredonda com ,5 para cima a partir da forma decimal mais curta do número (como o Decimal do Python). */
+export const arredondar = (x: number, casas = 2) =>
+  Number(`${Math.round(Number(`${x}e${casas}`))}e-${casas}`);

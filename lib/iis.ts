@@ -1,3 +1,4 @@
+import { arredondar } from "@/lib/format";
 import type { ImpactoAcao } from "@/types";
 
 // O Índice de Impacto Social (docs/PLANO-V2.md, secção 2.1).
@@ -35,7 +36,10 @@ export function percentis(acao: ImpactoAcao): Record<Dimensao, number | null> {
   };
 }
 
-/** IIS = Σ (peso × percentil) ÷ Σ pesos, de 0 a 100. Uma dimensão sem dado sai da conta só para esta ação. */
+/**
+ * IIS = Σ (peso × percentil) ÷ Σ pesos, de 0 a 100, com os percentis exatos e o resultado arredondado
+ * logo a 2 casas (,5 para cima). As faixas e os cortes usam este valor. Uma dimensão sem dado sai da conta.
+ */
 export function iis(acao: ImpactoAcao, pesos: Pesos): number {
   let soma = 0;
   let total = 0;
@@ -47,7 +51,7 @@ export function iis(acao: ImpactoAcao, pesos: Pesos): number {
     soma += pesos[d] * p;
     total += pesos[d];
   }
-  return total ? soma / total : 0;
+  return total ? arredondar(soma / total, 2) : 0;
 }
 
 export type LinhaIIS = { projeto: string; iis: number; posicao: number };

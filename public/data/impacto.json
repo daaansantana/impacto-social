@@ -8,13 +8,13 @@
    "percentil": 30.0
   },
   "escala": {
-   "beneficiariosPorMes": 149.8,
+   "beneficiariosPorMes": 149.803,
    "percentil": 100.0
   },
   "profundidade": {
    "taxaConclusao": 66.13,
    "horasFormacaoPorBenef": 0.42,
-   "percentil": 20.83
+   "percentil": 20.83333333333333
   },
   "jovensFormados": {
    "total": 1020.55,
@@ -22,11 +22,11 @@
   },
   "duracao": {
    "crescimento": 0.2928,
-   "percentil": 83.33
+   "percentil": 83.33333333333334
   },
   "custoPorPessoa": {
-   "valor": 4546.04,
-   "percentilInvertido": 8.33
+   "valor": 4546.042332263039,
+   "percentilInvertido": 8.333333333333332
   },
   "confianca": "baixa",
   "pontos": [
@@ -71,8 +71,8 @@
    "percentil": 50.0
   },
   "escala": {
-   "beneficiariosPorMes": 58.57,
-   "percentil": 66.67
+   "beneficiariosPorMes": 58.565999999999995,
+   "percentil": 66.66666666666666
   },
   "profundidade": {
    "taxaConclusao": 69.78,
@@ -85,11 +85,11 @@
   },
   "duracao": {
    "crescimento": 0.3249,
-   "percentil": 91.67
+   "percentil": 91.66666666666666
   },
   "custoPorPessoa": {
-   "valor": 2166.16,
-   "percentilInvertido": 16.67
+   "valor": 2166.157429225148,
+   "percentilInvertido": 16.666666666666664
   },
   "confianca": "baixa",
   "pontos": [
@@ -109,7 +109,7 @@
    },
    "eficacia": {
     "nivel": "forte",
-    "frase": "Profundidade no percentil 62 e beneficiários +32% de 2024 para 2025 (janeiro a outubro)."
+    "frase": "Profundidade no percentil 63 e beneficiários +32% de 2024 para 2025 (janeiro a outubro)."
    },
    "eficiencia": {
     "nivel": "a rever",
@@ -134,13 +134,13 @@
    "percentil": 50.0
   },
   "escala": {
-   "beneficiariosPorMes": 50.75,
+   "beneficiariosPorMes": 50.748000000000005,
    "percentil": 50.0
   },
   "profundidade": {
    "taxaConclusao": 75.06,
    "horasFormacaoPorBenef": 1.12,
-   "percentil": 66.67
+   "percentil": 66.66666666666666
   },
   "jovensFormados": {
    "total": 1100.13,
@@ -148,11 +148,11 @@
   },
   "duracao": {
    "crescimento": 0.2036,
-   "percentil": 33.33
+   "percentil": 33.33333333333333
   },
   "custoPorPessoa": {
-   "valor": 1869.77,
-   "percentilInvertido": 58.33
+   "valor": 1869.7668676598093,
+   "percentilInvertido": 58.333333333333336
   },
   "confianca": "baixa",
   "pontos": [
@@ -194,16 +194,16 @@
    "indicador": "IT.NET.USER.ZS",
    "valor": 88.48704454,
    "ano": 2024,
-   "percentil": 8.33
+   "percentil": 8.333333333333332
   },
   "escala": {
-   "beneficiariosPorMes": 33.51,
-   "percentil": 33.33
+   "beneficiariosPorMes": 33.5085,
+   "percentil": 33.33333333333333
   },
   "profundidade": {
    "taxaConclusao": 69.25,
    "horasFormacaoPorBenef": 2.02,
-   "percentil": 70.83
+   "percentil": 70.83333333333334
   },
   "jovensFormados": {
    "total": 1117.62,
@@ -211,11 +211,11 @@
   },
   "duracao": {
    "crescimento": 0.2779,
-   "percentil": 58.33
+   "percentil": 58.333333333333336
   },
   "custoPorPessoa": {
-   "valor": 1841.06,
-   "percentilInvertido": 66.67
+   "valor": 1841.055687362908,
+   "percentilInvertido": 66.66666666666666
   },
   "confianca": "média",
   "pontos": [
@@ -256,13 +256,13 @@
    "percentil": 75.0
   },
   "escala": {
-   "beneficiariosPorMes": 78.55,
-   "percentil": 83.33
+   "beneficiariosPorMes": 78.5525,
+   "percentil": 83.33333333333334
   },
   "profundidade": {
    "taxaConclusao": 64.3,
    "horasFormacaoPorBenef": 0.68,
-   "percentil": 16.66
+   "percentil": 16.666666666666664
   },
   "jovensFormados": {
    "total": 1260.44,
@@ -270,10 +270,10 @@
   },
   "duracao": {
    "crescimento": 0.2573,
-   "percentil": 41.67
+   "percentil": 41.66666666666667
   },
   "custoPorPessoa": {
-   "valor": 2142.63,
+   "valor": 2142.634492855097,
    "percentilInvertido": 25.0
   },
   "confianca": "média",
@@ -312,16 +312,16 @@
    "indicador": "SL.UEM.NEET.ZS",
    "valor": 22.779,
    "ano": 2022,
-   "percentil": 83.33
+   "percentil": 83.33333333333334
   },
   "escala": {
-   "beneficiariosPorMes": 26.32,
-   "percentil": 16.67
+   "beneficiariosPorMes": 26.318,
+   "percentil": 16.666666666666664
   },
   "profundidade": {
    "taxaConclusao": 67.66,
    "horasFormacaoPorBenef": 2.52,
-   "percentil": 66.67
+   "percentil": 66.66666666666666
   },
   "jovensFormados": {
    "total": 1230.77,
@@ -332,7 +332,7 @@
    "percentil": 25.0
   },
   "custoPorPessoa": {
-   "valor": 1803.13,
+   "valor": 1803.134679686906,
    "percentilInvertido": 75.0
   },
   "confianca": "média",
@@ -374,7 +374,7 @@
    "percentil": 70.0
   },
   "escala": {
-   "beneficiariosPorMes": 28.55,
+   "beneficiariosPorMes": 28.552,
    "percentil": 25.0
   },
   "profundidade": {
@@ -391,7 +391,7 @@
    "percentil": 50.0
   },
   "custoPorPessoa": {
-   "valor": 1457.3,
+   "valor": 1457.3026057719248,
    "percentilInvertido": 100.0
   },
   "confianca": "média",
@@ -433,8 +433,8 @@
    "percentil": 75.0
   },
   "escala": {
-   "beneficiariosPorMes": 54.66,
-   "percentil": 58.33
+   "beneficiariosPorMes": 54.6645,
+   "percentil": 58.333333333333336
   },
   "profundidade": {
    "taxaConclusao": 65.3,
@@ -447,11 +447,11 @@
   },
   "duracao": {
    "crescimento": 0.1666,
-   "percentil": 8.33
+   "percentil": 8.333333333333332
   },
   "custoPorPessoa": {
-   "valor": 2004.41,
-   "percentilInvertido": 41.67
+   "valor": 2004.41462009165,
+   "percentilInvertido": 41.66666666666667
   },
   "confianca": "alta",
   "pontos": [],
@@ -484,16 +484,16 @@
    "indicador": "SH.DYN.MORT",
    "valor": 11.5,
    "ano": 2024,
-   "percentil": 16.67
+   "percentil": 16.666666666666664
   },
   "escala": {
-   "beneficiariosPorMes": 39.33,
-   "percentil": 41.67
+   "beneficiariosPorMes": 39.3305,
+   "percentil": 41.66666666666667
   },
   "profundidade": {
    "taxaConclusao": 70.13,
    "horasFormacaoPorBenef": 1.54,
-   "percentil": 70.84
+   "percentil": 70.83333333333333
   },
   "jovensFormados": {
    "total": 1328.78,
@@ -501,10 +501,10 @@
   },
   "duracao": {
    "crescimento": 0.2802,
-   "percentil": 66.67
+   "percentil": 66.66666666666666
   },
   "custoPorPessoa": {
-   "valor": 1974.78,
+   "valor": 1974.782433480378,
    "percentilInvertido": 50.0
   },
   "confianca": "alta",
@@ -541,13 +541,13 @@
    "percentil": 100.0
   },
   "escala": {
-   "beneficiariosPorMes": 101.75,
-   "percentil": 91.67
+   "beneficiariosPorMes": 101.7495,
+   "percentil": 91.66666666666666
   },
   "profundidade": {
    "taxaConclusao": 65.08,
    "horasFormacaoPorBenef": 0.56,
-   "percentil": 16.67
+   "percentil": 16.666666666666664
   },
   "jovensFormados": {
    "total": 1442.62,
@@ -555,11 +555,11 @@
   },
   "duracao": {
    "crescimento": 0.1757,
-   "percentil": 16.67
+   "percentil": 16.666666666666664
   },
   "custoPorPessoa": {
-   "valor": 1609.65,
-   "percentilInvertido": 83.33
+   "valor": 1609.6501457009617,
+   "percentilInvertido": 83.33333333333334
   },
   "confianca": "alta",
   "pontos": [],
@@ -592,16 +592,16 @@
    "indicador": "SI.POV.DDAY",
    "valor": 54.4,
    "ano": 2023,
-   "percentil": 91.67
+   "percentil": 91.66666666666666
   },
   "escala": {
-   "beneficiariosPorMes": 22.1,
-   "percentil": 8.33
+   "beneficiariosPorMes": 22.0985,
+   "percentil": 8.333333333333332
   },
   "profundidade": {
    "taxaConclusao": 71.2,
    "horasFormacaoPorBenef": 2.66,
-   "percentil": 91.66
+   "percentil": 91.66666666666667
   },
   "jovensFormados": {
    "total": 1219.38,
@@ -612,8 +612,8 @@
    "percentil": 100.0
   },
   "custoPorPessoa": {
-   "valor": 1556.58,
-   "percentilInvertido": 91.67
+   "valor": 1556.5778446500892,
+   "percentilInvertido": 91.66666666666666
   },
   "confianca": "alta",
   "pontos": [],
@@ -632,7 +632,7 @@
    },
    "impacto": {
     "nivel": "forte",
-    "frase": "IIS de 72 em 100, com os pesos equilibrados."
+    "frase": "IIS de 73 em 100, com os pesos equilibrados."
    },
    "sustentabilidade": {
     "nivel": "a acompanhar",
@@ -646,16 +646,16 @@
    "indicador": "IT.NET.USER.ZS",
    "valor": 20.52729988,
    "ano": 2024,
-   "percentil": 91.67
+   "percentil": 91.66666666666666
   },
   "escala": {
-   "beneficiariosPorMes": 67.26,
+   "beneficiariosPorMes": 67.2625,
    "percentil": 75.0
   },
   "profundidade": {
    "taxaConclusao": 69.14,
    "horasFormacaoPorBenef": 0.91,
-   "percentil": 41.66
+   "percentil": 41.666666666666664
   },
   "jovensFormados": {
    "total": 946.6,
@@ -666,8 +666,8 @@
    "percentil": 75.0
   },
   "custoPorPessoa": {
-   "valor": 2017.66,
-   "percentilInvertido": 33.33
+   "valor": 2017.6582270953354,
+   "percentilInvertido": 33.33333333333333
   },
   "confianca": "média",
   "pontos": [

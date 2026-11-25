@@ -26,6 +26,7 @@ Regras que o plano não fixa e que ficam escritas aqui:
 
 import json
 import sys
+from decimal import ROUND_HALF_UP, Decimal
 from pathlib import Path
 
 import pandas as pd
@@ -70,21 +71,44 @@ def r2(x):
     return None if x is None or pd.isna(x) else round(float(x), 2)
 
 
+def arred(x, casas=2):
+    """Arredonda com ,5 para cima (como no ecrã), a partir da forma decimal mais curta do número."""
+    return float(Decimal(repr(float(x))).quantize(Decimal(1).scaleb(-casas), rounding=ROUND_HALF_UP))
+
+
 def pt(x, casas=0):
-    """Número em pt-PT: vírgula decimal e espaço nos milhares (a partir de 10 000)."""
-    s = f"{x:,.{casas}f}".replace(",", " ").replace(".", ",")
+    """Número em pt-PT, com ,5 para cima: vírgula decimal e espaço nos milhares (a partir de 10 000)."""
+    q = Decimal(repr(float(x))).quantize(Decimal(1).scaleb(-casas), rounding=ROUND_HALF_UP)
+    s = f"{q:,.{casas}f}".replace(",", " ").replace(".", ",")
     inteiro = s.split(",")[0].replace(" ", "")
     return s.replace(" ", "", 1) if len(inteiro) == 4 else s
 
 
 def percentil(s: pd.Series, inverter=False) -> pd.Series:
-    return ((-s if inverter else s).rank(pct=True) * 100).round(2)
+    # sem arredondar: o IIS faz-se com os percentis exatos e só ele se arredonda a 2 casas
+    return (-s if inverter else s).rank(pct=True) * 100
 
 
 def nivel(p):
     if p is None or pd.isna(p):
         return "a acompanhar"
+    p = arred(p)
     return "forte" if p >= FORTE else "a rever" if p < REVER else "a acompanhar"
+
+
+def faixa(iis):
+    """As faixas do IIS (o valor já vem a 2 casas)."""
+    return "60 ou mais" if iis >= 60 else "40 a 59" if iis >= 40 else "menos de 40"
+
+
+def saude_geral(saude):
+    """A saúde numa palavra: «a rever» com 2 ou mais lentes a rever; «forte» com 3 ou mais fortes e nenhuma a rever."""
+    niveis = [l["nivel"] for l in saude.values()]
+    if niveis.count("a rever") >= 2:
+        return "a rever"
+    if niveis.count("forte") >= 3 and "a rever" not in niveis:
+        return "forte"
+    return "a acompanhar"
 
 
 def objetivo_bate(objetivo: str, area: str) -> bool:
@@ -136,13 +160,13 @@ def main() -> int:
         pcts = percentil(valores.dropna(), inverter=not sobe)
         ind = contexto[p["pais"]]["indicadores"][codigo]
         nec.append({"indicador": codigo, "valor": ind["valor"], "ano": ind["ano"],
-                    "percentil": r2(pcts.get(p["pais"])) if ind["valor"] is not None else None})
+                    "percentil": float(pcts.get(p["pais"])) if ind["valor"] is not None else None})
     m["necessidade"] = [n["percentil"] for n in nec]
 
     m["escala"] = percentil(m["beneficiariosPorMes"])
     # os jovens formados e os beneficiários contam populações diferentes (139 por 100, em média):
     # ficam fora do índice, como um resultado à parte
-    m["profundidade"] = ((percentil(m["taxaConclusao"]) + percentil(m["horasFormacaoPorBenef"])) / 2).round(2)
+    m["profundidade"] = (percentil(m["taxaConclusao"]) + percentil(m["horasFormacaoPorBenef"])) / 2
     m["duracao"] = percentil(m["crescimento"])
     m["custoInvertido"] = percentil(m["custoPorPessoa"], inverter=True)
     m["eficienciaAjustada"] = percentil(m["custoPessoaAjustado"], inverter=True)
@@ -150,7 +174,7 @@ def main() -> int:
     def iis(pid, pesos):
         dims = [m.at[pid, "necessidade"], m.at[pid, "escala"], m.at[pid, "profundidade"], m.at[pid, "duracao"]]
         pares = [(w, d) for w, d in zip(pesos, dims) if d is not None and not pd.isna(d) and w > 0]
-        return sum(w * d for w, d in pares) / sum(w for w, _ in pares)
+        return arred(sum(w * d for w, d in pares) / sum(w for w, _ in pares), 2)
 
     for nome, pesos in PREDEFINICOES.items():
         m[f"iis_{nome}"] = [iis(pid, pesos) for pid in m.index]
@@ -181,11 +205,12 @@ def main() -> int:
         confianca = "alta" if not pontos else "média" if len(pontos) == 1 else "baixa"
 
         n = nec[list(proj.index).index(pid)]
-        rel = "a rever" if not objetivo_bate(p["objetivos"], p["area"]) else ("forte" if (n["percentil"] or 0) >= 50 else "a acompanhar")
+        rel = "a rever" if not objetivo_bate(p["objetivos"], p["area"]) else ("forte" if arred(n["percentil"] or 0) >= 50 else "a acompanhar")
         eficacia = (m.at[pid, "profundidade"] + m.at[pid, "duracao"]) / 2
         hist = p["historico"]
-        sust = ("forte" if hist == "longo" and m.at[pid, "duracao"] >= 50
-                else "a rever" if hist == "recente" and m.at[pid, "duracao"] < 50 else "a acompanhar")
+        dur = arred(m.at[pid, "duracao"])
+        sust = ("forte" if hist == "longo" and dur >= 50
+                else "a rever" if hist == "recente" and dur < 50 else "a acompanhar")
         nec_txt = (f"a necessidade no país está no percentil {pt(n['percentil'])} ({n['indicador']}, {n['ano']})"
                    if n["percentil"] is not None else f"sem dado da necessidade ({n['indicador']})")
         saude = {
@@ -198,12 +223,12 @@ def main() -> int:
         acoes.append({
             "projeto": pid,
             "necessidade": n,
-            "escala": {"beneficiariosPorMes": r2(m.at[pid, "beneficiariosPorMes"]), "percentil": r2(m.at[pid, "escala"])},
+            "escala": {"beneficiariosPorMes": float(m.at[pid, "beneficiariosPorMes"]), "percentil": float(m.at[pid, "escala"])},
             "profundidade": {"taxaConclusao": r2(m.at[pid, "taxaConclusao"]),
-                             "horasFormacaoPorBenef": r2(m.at[pid, "horasFormacaoPorBenef"]), "percentil": r2(m.at[pid, "profundidade"])},
+                             "horasFormacaoPorBenef": r2(m.at[pid, "horasFormacaoPorBenef"]), "percentil": float(m.at[pid, "profundidade"])},
             "jovensFormados": {"total": r2(m.at[pid, "jovensFormados"]), "porMes": r2(m.at[pid, "jovensFormadosPorMes"])},
-            "duracao": {"crescimento": round(float(m.at[pid, "crescimento"]), 4), "percentil": r2(m.at[pid, "duracao"])},
-            "custoPorPessoa": {"valor": r2(m.at[pid, "custoPorPessoa"]), "percentilInvertido": r2(m.at[pid, "custoInvertido"])},
+            "duracao": {"crescimento": round(float(m.at[pid, "crescimento"]), 4), "percentil": float(m.at[pid, "duracao"])},
+            "custoPorPessoa": {"valor": float(m.at[pid, "custoPorPessoa"]), "percentilInvertido": float(m.at[pid, "custoInvertido"])},
             "confianca": confianca,
             "pontos": pontos,
             "saude": saude,
@@ -213,7 +238,9 @@ def main() -> int:
 
     G = json.loads(GABARITOS.read_text(encoding="utf-8"))
     G["impacto"] = {
-        "iis": {nome: {pid: r2(m.at[pid, f"iis_{nome}"]) for pid in m.index} for nome in PREDEFINICOES},
+        "iis": {nome: {pid: m.at[pid, f"iis_{nome}"] for pid in m.index} for nome in PREDEFINICOES},
+        "faixa": {pid: faixa(m.at[pid, "iis_equilibrado"]) for pid in m.index},
+        "saudeGeral": {a["projeto"]: saude_geral(a["saude"]) for a in acoes},
         "ranking": {nome: sorted(m.index, key=lambda pid: (-m.at[pid, f"iis_{nome}"], pid)) for nome in PREDEFINICOES},
     }
     GABARITOS.write_text(json.dumps(G, ensure_ascii=False, indent=1), encoding="utf-8")

@@ -90,7 +90,7 @@ describe("leituras", () => {
     const l = leituras(acoes, meses);
     expect(l.map((x) => x.id)).toEqual(["maisImpacto", "atencao", "fimDeAno"]);
     expect(texto(l[0].texto)).toBe(
-      "O Projeto 11 (Uganda, logística) tem o maior impacto: 72 em 100. Destaca-se na duração (percentil 100).",
+      "O Projeto 11 (Uganda, logística) tem o maior impacto: 73 em 100. Destaca-se na duração (percentil 100).",
     );
     expect(l[0].ligacao).toBe("/acoes/P11");
     expect(l[1].texto).toBe(

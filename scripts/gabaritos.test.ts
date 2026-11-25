@@ -4,10 +4,17 @@ import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import Papa from "papaparse";
 import { describe, expect, it } from "vitest";
+import { saudeGeral } from "@/lib/acoes";
 import { auditar } from "@/lib/auditor";
 import { eficiencia, totais } from "@/lib/eficiencia";
 import { fimDeAno } from "@/lib/fim-de-ano";
-import { iis, PREDEFINICOES, type Predefinicao, rankingIIS } from "@/lib/iis";
+import {
+  faixaIIS,
+  iis,
+  PREDEFINICOES,
+  type Predefinicao,
+  rankingIIS,
+} from "@/lib/iis";
 import { filtrarMeses, serieProjeto } from "@/lib/meses";
 import { resumoProjeto, subidaFimDeAno } from "@/lib/projeto";
 import { fatorDeEquilibrio, simular } from "@/lib/simulador";
@@ -58,6 +65,8 @@ type Gabaritos = {
   impacto: {
     iis: Record<Predefinicao, Valores>;
     ranking: Record<Predefinicao, string[]>;
+    faixa: Record<string, string>;
+    saudeGeral: Record<string, string>;
   };
 };
 
@@ -257,6 +266,10 @@ describe("iis e rankingIIS (gabaritos impacto.*)", () => {
         Object.fromEntries(acoes.map((a) => [a.projeto, iis(a, pesos)])),
         G.impacto.iis[nome],
       );
+      // o mesmo cálculo e o mesmo arredondamento a 2 casas: tem de dar igual, não só perto
+      expect(
+        Object.fromEntries(acoes.map((a) => [a.projeto, iis(a, pesos)])),
+      ).toEqual(G.impacto.iis[nome]);
     });
     it(`${nome}: o ranking`, () => {
       expect(rankingIIS(acoes, pesos).map((l) => l.projeto)).toEqual(
@@ -264,4 +277,15 @@ describe("iis e rankingIIS (gabaritos impacto.*)", () => {
       );
     });
   }
+  it("a faixa do IIS equilibrado e a saúde numa palavra", () => {
+    const { pesos } = PREDEFINICOES.equilibrado;
+    expect(
+      Object.fromEntries(
+        acoes.map((a) => [a.projeto, faixaIIS(iis(a, pesos))]),
+      ),
+    ).toEqual(G.impacto.faixa);
+    expect(
+      Object.fromEntries(acoes.map((a) => [a.projeto, saudeGeral(a)])),
+    ).toEqual(G.impacto.saudeGeral);
+  });
 });
