@@ -117,7 +117,8 @@ def main() -> int:
     m = pd.DataFrame(index=proj.index)
     m["beneficiariosPorMes"] = soma["beneficiarios"] / n_meses
     m["taxaConclusao"] = g["taxaConclusao"].mean()
-    m["jovensPor100"] = soma["jovensFormados"] / soma["beneficiarios"] * 100
+    m["jovensFormados"] = soma["jovensFormados"]
+    m["jovensFormadosPorMes"] = soma["jovensFormados"] / n_meses
     m["horasFormacaoPorBenef"] = soma["horasFormacao"] / soma["beneficiarios"]
     m["crescimento"] = benef_ano[anos[-1]] / benef_ano[anos[0]] - 1
     m["custoPorPessoa"] = soma["despesa"] / soma["beneficiarios"]
@@ -139,8 +140,9 @@ def main() -> int:
     m["necessidade"] = [n["percentil"] for n in nec]
 
     m["escala"] = percentil(m["beneficiariosPorMes"])
-    m["profundidade"] = ((percentil(m["taxaConclusao"]) + percentil(m["jovensPor100"])
-                          + percentil(m["horasFormacaoPorBenef"])) / 3).round(2)
+    # os jovens formados e os beneficiários contam populações diferentes (139 por 100, em média):
+    # ficam fora do índice, como um resultado à parte
+    m["profundidade"] = ((percentil(m["taxaConclusao"]) + percentil(m["horasFormacaoPorBenef"])) / 2).round(2)
     m["duracao"] = percentil(m["crescimento"])
     m["custoInvertido"] = percentil(m["custoPorPessoa"], inverter=True)
     m["eficienciaAjustada"] = percentil(m["custoPessoaAjustado"], inverter=True)
@@ -197,8 +199,9 @@ def main() -> int:
             "projeto": pid,
             "necessidade": n,
             "escala": {"beneficiariosPorMes": r2(m.at[pid, "beneficiariosPorMes"]), "percentil": r2(m.at[pid, "escala"])},
-            "profundidade": {"taxaConclusao": r2(m.at[pid, "taxaConclusao"]), "jovensPor100": r2(m.at[pid, "jovensPor100"]),
+            "profundidade": {"taxaConclusao": r2(m.at[pid, "taxaConclusao"]),
                              "horasFormacaoPorBenef": r2(m.at[pid, "horasFormacaoPorBenef"]), "percentil": r2(m.at[pid, "profundidade"])},
+            "jovensFormados": {"total": r2(m.at[pid, "jovensFormados"]), "porMes": r2(m.at[pid, "jovensFormadosPorMes"])},
             "duracao": {"crescimento": round(float(m.at[pid, "crescimento"]), 4), "percentil": r2(m.at[pid, "duracao"])},
             "custoPorPessoa": {"valor": r2(m.at[pid, "custoPorPessoa"]), "percentilInvertido": r2(m.at[pid, "custoInvertido"])},
             "confianca": confianca,
@@ -216,7 +219,7 @@ def main() -> int:
     GABARITOS.write_text(json.dumps(G, ensure_ascii=False, indent=1), encoding="utf-8")
 
     # distribuições (skill data-analysis): resumo e valores fora de 1,5 × IQR
-    cols = ["beneficiariosPorMes", "taxaConclusao", "jovensPor100", "horasFormacaoPorBenef", "crescimento",
+    cols = ["beneficiariosPorMes", "taxaConclusao", "jovensFormadosPorMes", "horasFormacaoPorBenef", "crescimento",
             "custoPorPessoa", "custoAtividadeAjustado", "necessidade", "escala", "profundidade", "duracao", "iis_equilibrado"]
     print(m[cols].astype(float).describe().round(2).T.to_string())
     print("\nFora de 1,5 × IQR:")

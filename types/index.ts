@@ -223,10 +223,11 @@ export type ImpactoAcao = {
   escala: { beneficiariosPorMes: number; percentil: number };
   profundidade: {
     taxaConclusao: number;
-    jovensPor100: number;
     horasFormacaoPorBenef: number;
     percentil: number;
   };
+  /** um resultado à parte, fora do índice: os jovens formados contam outra população */
+  jovensFormados: { total: number; porMes: number };
   duracao: { crescimento: number; percentil: number };
   custoPorPessoa: { valor: number; percentilInvertido: number };
   confianca: "alta" | "média" | "baixa";
