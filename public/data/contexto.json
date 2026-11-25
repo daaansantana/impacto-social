@@ -42,9 +42,9 @@
     "fonte": "Banco Mundial, WDI"
    },
    "PA.NUS.PPPC.RF": {
-    "valor": null,
-    "ano": null,
-    "fonte": "Banco Mundial, WDI: indicador arquivado, sem valor na API"
+    "valor": 0.45718229661505233,
+    "ano": 2025,
+    "fonte": "Banco Mundial, WDI (calculado: PA.NUS.PPP ÷ PA.NUS.FCRF, no mesmo ano)"
    },
    "SP.POP.TOTL": {
     "valor": 212812405,
@@ -96,9 +96,9 @@
     "fonte": "Banco Mundial, WDI"
    },
    "PA.NUS.PPPC.RF": {
-    "valor": null,
-    "ano": null,
-    "fonte": "Banco Mundial, WDI: indicador arquivado, sem valor na API"
+    "valor": 0.33678485400019603,
+    "ano": 2025,
+    "fonte": "Banco Mundial, WDI (calculado: PA.NUS.PPP ÷ PA.NUS.FCRF, no mesmo ano)"
    },
    "SP.POP.TOTL": {
     "valor": 57532493,
@@ -150,9 +150,9 @@
     "fonte": "Banco Mundial, WDI"
    },
    "PA.NUS.PPPC.RF": {
-    "valor": null,
-    "ano": null,
-    "fonte": "Banco Mundial, WDI: indicador arquivado, sem valor na API"
+    "valor": 0.23048401137914248,
+    "ano": 2025,
+    "fonte": "Banco Mundial, WDI (calculado: PA.NUS.PPP ÷ PA.NUS.FCRF, no mesmo ano)"
    },
    "SP.POP.TOTL": {
     "valor": 1463865525,
@@ -204,9 +204,9 @@
     "fonte": "Banco Mundial, WDI"
    },
    "PA.NUS.PPPC.RF": {
-    "valor": null,
-    "ano": null,
-    "fonte": "Banco Mundial, WDI: indicador arquivado, sem valor na API"
+    "valor": 0.6036573316180384,
+    "ano": 2025,
+    "fonte": "Banco Mundial, WDI (calculado: PA.NUS.PPP ÷ PA.NUS.FCRF, no mesmo ano)"
    },
    "SP.POP.TOTL": {
     "valor": 10804871,
@@ -258,9 +258,9 @@
     "fonte": "Banco Mundial, WDI"
    },
    "PA.NUS.PPPC.RF": {
-    "valor": null,
-    "ano": null,
-    "fonte": "Banco Mundial, WDI: indicador arquivado, sem valor na API"
+    "valor": 0.3782874852340588,
+    "ano": 2025,
+    "fonte": "Banco Mundial, WDI (calculado: PA.NUS.PPP ÷ PA.NUS.FCRF, no mesmo ano)"
    },
    "SP.POP.TOTL": {
     "valor": 35064272,
@@ -312,9 +312,9 @@
     "fonte": "Banco Mundial, WDI"
    },
    "PA.NUS.PPPC.RF": {
-    "valor": null,
-    "ano": null,
-    "fonte": "Banco Mundial, WDI: indicador arquivado, sem valor na API"
+    "valor": 0.5146874163176924,
+    "ano": 2025,
+    "fonte": "Banco Mundial, WDI (calculado: PA.NUS.PPP ÷ PA.NUS.FCRF, no mesmo ano)"
    },
    "SP.POP.TOTL": {
     "valor": 34576665,
@@ -366,9 +366,9 @@
     "fonte": "Banco Mundial, WDI"
    },
    "PA.NUS.PPPC.RF": {
-    "valor": null,
-    "ano": null,
-    "fonte": "Banco Mundial, WDI: indicador arquivado, sem valor na API"
+    "valor": 0.3577949186033222,
+    "ano": 2025,
+    "fonte": "Banco Mundial, WDI (calculado: PA.NUS.PPP ÷ PA.NUS.FCRF, no mesmo ano)"
    },
    "SP.POP.TOTL": {
     "valor": 18931966,
@@ -420,9 +420,9 @@
     "fonte": "Banco Mundial, WDI"
    },
    "PA.NUS.PPPC.RF": {
-    "valor": null,
-    "ano": null,
-    "fonte": "Banco Mundial, WDI: indicador arquivado, sem valor na API"
+    "valor": 0.2535745027671743,
+    "ano": 2025,
+    "fonte": "Banco Mundial, WDI (calculado: PA.NUS.PPP ÷ PA.NUS.FCRF, no mesmo ano)"
    },
    "SP.POP.TOTL": {
     "valor": 175686899,
@@ -474,9 +474,9 @@
     "fonte": "Banco Mundial, WDI"
    },
    "PA.NUS.PPPC.RF": {
-    "valor": null,
-    "ano": null,
-    "fonte": "Banco Mundial, WDI: indicador arquivado, sem valor na API"
+    "valor": 0.3781564117330556,
+    "ano": 2025,
+    "fonte": "Banco Mundial, WDI (calculado: PA.NUS.PPP ÷ PA.NUS.FCRF, no mesmo ano)"
    },
    "SP.POP.TOTL": {
     "valor": 53425635,
@@ -528,9 +528,9 @@
     "fonte": "Banco Mundial, WDI"
    },
    "PA.NUS.PPPC.RF": {
-    "valor": null,
-    "ano": null,
-    "fonte": "Banco Mundial, WDI: indicador arquivado, sem valor na API"
+    "valor": 0.33161547729719987,
+    "ano": 2025,
+    "fonte": "Banco Mundial, WDI (calculado: PA.NUS.PPP ÷ PA.NUS.FCRF, no mesmo ano)"
    },
    "SP.POP.TOTL": {
     "valor": 116786962,
@@ -582,9 +582,9 @@
     "fonte": "Banco Mundial, WDI"
    },
    "PA.NUS.PPPC.RF": {
-    "valor": null,
-    "ano": null,
-    "fonte": "Banco Mundial, WDI: indicador arquivado, sem valor na API"
+    "valor": 0.35290558334260447,
+    "ano": 2025,
+    "fonte": "Banco Mundial, WDI (calculado: PA.NUS.PPP ÷ PA.NUS.FCRF, no mesmo ano)"
    },
    "SP.POP.TOTL": {
     "valor": 51384894,
@@ -636,9 +636,9 @@
     "fonte": "Banco Mundial, WDI"
    },
    "PA.NUS.PPPC.RF": {
-    "valor": null,
-    "ano": null,
-    "fonte": "Banco Mundial, WDI: indicador arquivado, sem valor na API"
+    "valor": 0.38457809833667,
+    "ano": 2024,
+    "fonte": "Banco Mundial, WDI (calculado: PA.NUS.PPP ÷ PA.NUS.FCRF, no mesmo ano)"
    },
    "SP.POP.TOTL": {
     "valor": 35631653,

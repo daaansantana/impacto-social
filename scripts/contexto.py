@@ -52,6 +52,12 @@ INDICADORES = [
     "SP.POP.TOTL",
 ]
 
+# Para o nível de preços quando o PA.NUS.PPPC.RF está arquivado: é, por definição, o fator de
+# conversão PPC (PIB) a dividir pela taxa de câmbio oficial, no mesmo ano.
+AUXILIARES = ["PA.NUS.PPP", "PA.NUS.FCRF"]
+NIVEL_PRECOS = "PA.NUS.PPPC.RF"
+FONTE_NIVEL = "Banco Mundial, WDI (calculado: PA.NUS.PPP ÷ PA.NUS.FCRF, no mesmo ano)"
+
 
 def obter(url: str, ficheiro: Path):
     """Descarrega um JSON da API, guarda-o em bruto e devolve-o. Tenta 3 vezes."""
@@ -84,8 +90,9 @@ def main() -> int:
     }
 
     valores: dict[str, dict[str, dict]] = {iso: {} for iso in PAISES}
+    series: dict[str, dict[str, dict[int, float]]] = {}
     arquivados: list[str] = []
-    for codigo in INDICADORES:
+    for codigo in INDICADORES + AUXILIARES:
         url = f"{API}/country/{isos}/indicator/{codigo}?format=json&mrv=10&per_page=500"
         resposta = obter(url, BRUTO / f"{codigo}.json")
         fonte = FONTE
@@ -95,6 +102,12 @@ def main() -> int:
             fonte = FONTE_ARQUIVADO
             arquivados.append(codigo)
         linhas = resposta[1] if len(resposta) > 1 and resposta[1] else []
+        series[codigo] = {
+            iso: {int(l["date"]): l["value"] for l in linhas if l["countryiso3code"] == iso and l["value"] is not None}
+            for iso in PAISES
+        }
+        if codigo in AUXILIARES:
+            continue
         for iso in PAISES:
             # o valor não nulo mais recente de cada país, com o ano
             doPais = [
@@ -109,6 +122,16 @@ def main() -> int:
                 }
             else:
                 valores[iso][codigo] = {"valor": None, "ano": None, "fonte": fonte}
+
+    if NIVEL_PRECOS in arquivados:
+        for iso in PAISES:
+            ppp, cambio = series["PA.NUS.PPP"][iso], series["PA.NUS.FCRF"][iso]
+            comuns = sorted(set(ppp) & set(cambio), reverse=True)
+            valores[iso][NIVEL_PRECOS] = (
+                {"valor": ppp[comuns[0]] / cambio[comuns[0]], "ano": comuns[0], "fonte": FONTE_NIVEL}
+                if comuns
+                else {"valor": None, "ano": None, "fonte": FONTE_NIVEL}
+            )
 
     contexto = [
         {
