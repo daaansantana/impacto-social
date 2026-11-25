@@ -25,6 +25,9 @@ export function Padroes({
             {p.numero ? (
               <p className="text-sm font-medium tabular-nums">{p.numero}</p>
             ) : null}
+            {p.confirmar ? (
+              <p className="text-sm text-muted-foreground">{p.confirmar}</p>
+            ) : null}
             {graficos[p.id] ?? null}
           </li>
         ))}

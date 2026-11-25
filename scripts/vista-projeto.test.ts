@@ -37,10 +37,10 @@ describe("construirProjeto", () => {
       "dez 2025",
     ]);
     expect(texto(v.avisos[0].texto)).toBe(
-      "Em novembro e dezembro, os beneficiários por mês sobem 57% face a janeiro–outubro. Com «meses comparáveis», esse pico fica de fora.",
+      "Em novembro e dezembro, os beneficiários sobem 57% face a janeiro–outubro, sem aumento de custos. Vale confirmar com o parceiro como foram registados.",
     );
     expect(texto(v.avisos[1].texto)).toMatch(
-      /^Os estornos somam 22 715 € e já estão abatidos/,
+      /^As correções de despesa somam 22 715 € e já estão abatidas/,
     );
     expect(v.porque.map((p) => texto(p.valor))).toEqual([
       "471 €",
@@ -64,7 +64,7 @@ describe("construirProjeto", () => {
     expect(construirProjeto(meses, projetos, "P99", true)).toBeNull();
   });
 
-  it("os estornos e a despesa do mesmo período, como nos gabaritos", () => {
+  it("as correções de despesa e a despesa do mesmo período, como nos gabaritos", () => {
     for (const [modo, comparaveis, periodo] of [
       ["comparaveis", true, "de janeiro a outubro"],
       ["todos", false, "dos 24 meses"],
@@ -80,7 +80,7 @@ describe("construirProjeto", () => {
         )?.avisos.find((a) => a.id === "estornos");
         expect(texto(aviso?.texto ?? "")).toBe(
           texto(
-            `Os estornos somam ${euros(estornos, 0)} e já estão abatidos: são ${percentagem((estornos / despesa) * 100, 1)} da despesa ${periodo}.`,
+            `As correções de despesa somam ${euros(estornos, 0)} e já estão abatidas: são ${percentagem((estornos / despesa) * 100, 1)} da despesa ${periodo}. Não trazem referência à despesa original: pedir a referência ao parceiro.`,
           ),
         );
       }
@@ -93,10 +93,10 @@ describe("construirProjeto", () => {
           .texto ?? "",
       );
     expect(aviso(true)).toBe(
-      "Os estornos somam 402 269 € e já estão abatidos: são 3,0% da despesa de janeiro a outubro.",
+      "As correções de despesa somam 402 269 € e já estão abatidas: são 3,0% da despesa de janeiro a outubro. Não trazem referência à despesa original: pedir a referência ao parceiro.",
     );
     expect(aviso(false)).toBe(
-      "Os estornos somam 466 318 € e já estão abatidos: são 2,9% da despesa dos 24 meses.",
+      "As correções de despesa somam 466 318 € e já estão abatidas: são 2,9% da despesa dos 24 meses. Não trazem referência à despesa original: pedir a referência ao parceiro.",
     );
   });
 

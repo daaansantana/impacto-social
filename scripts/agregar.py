@@ -285,7 +285,7 @@ qualidade = {
     "limpeza": [
         {"id": "datas", "titulo": "Despesas com data DD/MM/AAAA", "quantidade": int(ddmm.sum()), "de": len(desp),
          "regra": "Ler os dois formatos", "impacto": "Um leitor estrito perde 20,5% da despesa"},
-        {"id": "estornos", "titulo": "Estornos (despesas negativas)", "quantidade": len(neg), "de": len(desp),
+        {"id": "estornos", "titulo": "Correções de despesa (valores negativos)", "quantidade": len(neg), "de": len(desp),
          "valor": r2(-neg["valor"].sum()), "regra": "Abater ao projeto"},
         {"id": "duplicados", "titulo": "Atividades duplicadas", "quantidade": len(ativ_raw) - len(ativ),
          "de": len(ativ_raw), "regra": "Remover"},

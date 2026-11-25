@@ -59,6 +59,7 @@ export type VistaProjeto = {
   conclusao: string;
   meses: MesProjeto[];
   series: SerieProjeto[];
+  /** pontos de atenção, na linguagem da tabela 2.4 de docs/PLANO-V2.md */
   avisos: { id: "fimDeAno" | "estornos"; titulo: string; texto: string }[];
   porque: Indicador[];
 };
@@ -93,6 +94,7 @@ export function construirProjeto(
   const resumo = resumoProjeto(meses, id, comparaveis);
   const todos = projetos.map((p) => resumoProjeto(meses, p.id, comparaveis));
   const subida = subidaFimDeAno(meses, id);
+  const subidaDespesa = subidaFimDeAno(meses, id, "despesa");
   // os estornos e a despesa do mesmo período
   const noPeriodo = filtrarMeses(serie, comparaveis);
   const despesaPeriodo = noPeriodo.reduce((s, m) => s + m.despesa, 0);
@@ -144,16 +146,16 @@ export function construirProjeto(
     avisos: [
       {
         id: "fimDeAno",
-        titulo: "Fim de ano",
+        titulo: "Pico de fim de ano",
         texto:
           subida > 0
-            ? `Em novembro e dezembro, os beneficiários por mês sobem ${percentagem(subida * 100)} face a janeiro–outubro. Com «meses comparáveis», esse pico fica de fora.`
+            ? `Em novembro e dezembro, os beneficiários sobem ${percentagem(subida * 100)} face a janeiro–outubro, ${subidaDespesa <= 0 ? "sem aumento de custos" : `e a despesa só ${percentagem(subidaDespesa * 100)}`}. Vale confirmar com o parceiro como foram registados.`
             : "Em novembro e dezembro, os beneficiários por mês não sobem face a janeiro–outubro.",
       },
       {
         id: "estornos",
-        titulo: "Estornos",
-        texto: `Os estornos somam ${euros(resumo.estornos, 0)} e já estão abatidos: são ${percentagem((resumo.estornos / despesaPeriodo) * 100, 1)} da despesa ${periodoTexto}.`,
+        titulo: "Correções de despesa",
+        texto: `As correções de despesa somam ${euros(resumo.estornos, 0)} e já estão abatidas: são ${percentagem((resumo.estornos / despesaPeriodo) * 100, 1)} da despesa ${periodoTexto}. Não trazem referência à despesa original: pedir a referência ao parceiro.`,
       },
     ],
     porque: [

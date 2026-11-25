@@ -33,9 +33,9 @@ describe("mensagemParceiro", () => {
     expect(texto).not.toContain("id repetido");
   });
 
-  it("diz quando não há nada a corrigir", () => {
+  it("diz quando não há nada a confirmar", () => {
     expect(mensagemParceiro(limpo, projeto)).toContain(
-      "não encontrámos nada a corrigir",
+      "não encontrámos nada a confirmar",
     );
   });
 });

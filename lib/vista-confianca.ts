@@ -20,13 +20,25 @@ export type VistaConfianca = {
     regra: string;
     nota?: string;
   }[];
-  padroes: { id: string; titulo: string; texto: string; numero: string }[];
+  padroes: {
+    id: string;
+    titulo: string;
+    texto: string;
+    numero: string;
+    /** o que confirmar com o parceiro, na linguagem da tabela 2.4 de docs/PLANO-V2.md */
+    confirmar?: string;
+  }[];
   fimDeAno: { rotulo: string; janOut: number; novDez: number }[];
   fimDeAnoResumo: string;
 };
 
 // Saem do ecrã: falso positivo indicado na mentoria (docs/PLANO-V2.md, secção 1).
 const PADROES_FORA = new Set(["voluntarios"]);
+
+const CONFIRMAR: Record<string, string> = {
+  fimDeAno: "Vale confirmar com os parceiros como foram registados.",
+  dia27: "Confirmar o calendário de fecho do mês.",
+};
 
 /** O ecrã 4: a nota genérica contra a real, a limpeza e os padrões. */
 export function construirConfianca(q: Qualidade): VistaConfianca {
@@ -100,6 +112,7 @@ export function construirConfianca(q: Qualidade): VistaConfianca {
       titulo: a.titulo,
       texto: a.texto,
       numero: numeroDe[a.id] ?? "",
+      confirmar: CONFIRMAR[a.id],
     })),
     fimDeAno: [
       { rotulo: "Atividades", ...indice(fda?.atividadesPorMes) },

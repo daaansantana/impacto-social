@@ -82,7 +82,7 @@ describe("construirAuditoria com os ficheiros de demonstração", () => {
       null,
     );
     expect(texto(v.resumo)).toBe(
-      "atividades-P07.csv: 2342 linhas, 6 coisas a corrigir.",
+      "atividades-P07.csv: 2342 linhas, 6 pontos a confirmar com o parceiro.",
     );
     const picos = v.cartoes.find((c) => c.titulo === "Picos");
     expect(picos?.detalhe).toBe(
