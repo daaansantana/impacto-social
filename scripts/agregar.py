@@ -124,7 +124,12 @@ for (pid, mes), row in m.iterrows():
     d = {"projeto": pid, "mes": mes, "fimDeAno": int(mes[5:]) in FIM_DE_ANO}
     for c in m.columns:
         v = row[c]
-        d[c] = int(v) if c in ("atividades", "participantes", "voluntariosRegistados", "reunioes") else r2(v)
+        if c in ("atividades", "participantes", "voluntariosRegistados", "reunioes"):
+            d[c] = int(v)
+        elif c == "horasVoluntariado":
+            d[c] = round(float(v), 6)  # repartidas por dia: sem arredondar a 2 casas, para os totais baterem
+        else:
+            d[c] = r2(v)
     mensal.append(d)
 json.dump(mensal, open(OUT / "public/data/mensal.json", "w", encoding="utf-8"), ensure_ascii=False)
 
