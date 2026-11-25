@@ -189,6 +189,7 @@ def eficiencia(comparaveis):
     out["totais"] = {"despesa": r2(dd.sum()), "beneficiarios": r2(bb.sum()), "horasVoluntariado": r2(hh.sum()),
                      "custoPorBeneficiario": r2(dd.sum() / bb.sum())}
     out["beneficiariosPorProjeto"] = {k: r2(v) for k, v in bb.items()}
+    out["alcance"] = {"posicao": {k: int(v) for k, v in bb.rank(ascending=False, method="first").astype(int).items()}}
     out["despesaPorProjeto"] = {k: r2(v) for k, v in dd.items()}
     return out
 
@@ -427,6 +428,34 @@ G["auditor"] = {
     "atividades-P07.csv": auditar(at_rows),
     "despesas-P07.csv": auditar(de_rows),
 }
+
+# ---------------- gabaritos: ecra Confianca e dados do projeto (outro caminho de calculo) ----------------
+_diarios = {"atividades": ativ_raw["data"], "despesas": desp["data"], "reunioes": coord["data"], "planos": planos["data"]}
+_dts = pd.concat([s.map(pdate) for s in _diarios.values()])
+_aulas = ativ[ativ["tipo_atividade"] == "aula"]["dt"]
+_reg = {}
+for _m in MESES:
+    _ini = pd.Period(_m, freq="M").start_time
+    _fim = pd.Period(_m, freq="M").end_time.normalize()
+    _act = aloc_ok[(aloc_ok["di"] <= _fim) & (aloc_ok["df"] >= _ini)]
+    _reg[_m] = int(_act["id_voluntario"].nunique())
+_rep = met[met["metrica"] == "voluntarios_ativos"].groupby("periodo")["valor"].sum()
+G["confianca"] = {
+    "registosDiarios": int(len(_dts)),
+    "registosDias28a31": int((_dts.dt.day >= 28).sum()),
+    "esperadoDias28a31": int(round(len(_dts) * 83 / 731)),
+    "aulasAoDomingo": r2((_aulas.dt.dayofweek == 6).mean() * 100),
+    "despesasAoDomingo": r2((desp["dt"].dt.dayofweek == 6).mean() * 100),
+    "voluntariosRegistados": _reg,
+    "voluntariosReportados": {k: r2(_rep.get(k, 0)) for k in MESES},
+}
+_sk2 = skills.groupby("id_voluntario")["skill"].apply(set).to_dict()
+_area = proj.set_index("id")["area_foco"].to_dict()
+_ok = [(p_, _area[p_] in _sk2.get(v_, set())) for p_, v_ in zip(aloc_ok["id_projeto"], aloc_ok["id_voluntario"])]
+_okdf = pd.DataFrame(_ok, columns=["p", "ok"])
+G["projeto"]["competenciaCerta"] = {k: r2(v * 100) for k, v in _okdf.groupby("p")["ok"].mean().items()}
+G["projeto"]["capacidadeParceiro"] = {r.id: int(parc.set_index("id").loc[r.parceiro_local_id, "capacidade_operacional"])
+                                      for r in proj.itertuples()}
 
 json.dump(G, open(OUT / "scripts/gabaritos.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 print(json.dumps({k: G[k] for k in ("fimDeAno", "simulacao", "qualidade")}, ensure_ascii=False, indent=1))
