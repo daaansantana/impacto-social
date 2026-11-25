@@ -113,7 +113,7 @@ export function construirProjeto(
     id,
     nome: projeto.nome,
     onde: `${nomePais(projeto.pais)}, ${nomeArea(projeto.area)}`,
-    parceiro: `Parceiro ${projeto.parceiro.id}, com capacidade operacional de ${projeto.parceiro.capacidade}.`,
+    parceiro: `Parceiro ${projeto.parceiro.id}, com índice de capacidade operacional (sem unidade nos dados) de ${projeto.parceiro.capacidade}.`,
     periodo: comparaveis ? ROTULO_COMPARAVEIS : ROTULO_TODOS,
     custo: euros(linha.valor, 0),
     posicao: `${ordinal(linha.posicao)} de ${total}`,

@@ -48,7 +48,7 @@ describe("construirSimulador", () => {
       "Passar 100% do investimento aprovado dos 4 projetos menos eficientes para os 4 mais eficientes chega a mais 227 beneficiários por ano.",
     );
     expect(v.avisoCapacidade).toBe(
-      "Os parceiros do Projeto 07 e do Projeto 10 têm a menor capacidade operacional dos 12 (36). Receber mais dinheiro pode não chegar a mais gente sem reforçar a equipa.",
+      "Os parceiros do Projeto 07 e do Projeto 10 têm o menor índice de capacidade operacional (sem unidade nos dados) dos 12: 36. O simulador não tem a capacidade em conta.",
     );
   });
 

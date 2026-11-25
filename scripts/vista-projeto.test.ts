@@ -25,6 +25,9 @@ describe("construirProjeto", () => {
       "Um beneficiário custa 1457 €: é o projeto mais eficiente dos 12.",
     );
     expect(v.posicao).toBe("1.º de 12");
+    expect(v.parceiro).toBe(
+      "Parceiro PL07, com índice de capacidade operacional (sem unidade nos dados) de 36.",
+    );
     expect(v.onde).toBe("Senegal, educação");
     expect(v.meses).toHaveLength(24);
     expect(v.meses.filter((m) => m.fimDeAno).map((m) => m.rotulo)).toEqual([
