@@ -208,3 +208,31 @@ export type Contexto = {
   lng: number;
   indicadores: Record<string, IndicadorContexto>;
 };
+
+export type NivelSaude = "forte" | "a acompanhar" | "a rever";
+
+/** Uma linha de public/data/impacto.json: uma ação, com as dimensões do IIS (docs/PLANO-V2.md, secção 6). */
+export type ImpactoAcao = {
+  projeto: string;
+  necessidade: {
+    indicador: string;
+    valor: number | null;
+    ano: number | null;
+    percentil: number | null;
+  };
+  escala: { beneficiariosPorMes: number; percentil: number };
+  profundidade: {
+    taxaConclusao: number;
+    jovensPor100: number;
+    horasFormacaoPorBenef: number;
+    percentil: number;
+  };
+  duracao: { crescimento: number; percentil: number };
+  custoPorPessoa: { valor: number; percentilInvertido: number };
+  confianca: "alta" | "média" | "baixa";
+  pontos: { id: string; texto: string }[];
+  saude: Record<
+    "relevancia" | "eficacia" | "eficiencia" | "impacto" | "sustentabilidade",
+    { nivel: NivelSaude; frase: string }
+  >;
+};
