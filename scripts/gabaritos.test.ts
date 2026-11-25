@@ -7,10 +7,11 @@ import { describe, expect, it } from "vitest";
 import { auditar } from "@/lib/auditor";
 import { eficiencia, totais } from "@/lib/eficiencia";
 import { fimDeAno } from "@/lib/fim-de-ano";
+import { iis, PREDEFINICOES, type Predefinicao, rankingIIS } from "@/lib/iis";
 import { filtrarMeses, serieProjeto } from "@/lib/meses";
 import { resumoProjeto, subidaFimDeAno } from "@/lib/projeto";
 import { fatorDeEquilibrio, simular } from "@/lib/simulador";
-import type { Mes, Projeto, Qualidade, Unidade } from "@/types";
+import type { ImpactoAcao, Mes, Projeto, Qualidade, Unidade } from "@/types";
 
 const ler = (caminho: string) =>
   readFileSync(join(process.cwd(), caminho), "utf-8");
@@ -54,6 +55,10 @@ type Gabaritos = {
     voluntariosReportados: Valores;
   };
   auditor: Record<string, Record<string, unknown>>;
+  impacto: {
+    iis: Record<Predefinicao, Valores>;
+    ranking: Record<Predefinicao, string[]>;
+  };
 };
 
 const G = lerJson<Gabaritos>("scripts/gabaritos.json");
@@ -241,4 +246,22 @@ describe("auditar", () => {
       perto(domingo ?? Number.NaN, domingoEsperado as number);
       expect(resto).toEqual(restoEsperado);
     });
+});
+
+describe("iis e rankingIIS (gabaritos impacto.*)", () => {
+  const acoes = lerJson<ImpactoAcao[]>("public/data/impacto.json");
+  for (const nome of Object.keys(PREDEFINICOES) as Predefinicao[]) {
+    const { pesos } = PREDEFINICOES[nome];
+    it(`${nome}: o IIS das 12 ações`, () => {
+      pertoDeTodos(
+        Object.fromEntries(acoes.map((a) => [a.projeto, iis(a, pesos)])),
+        G.impacto.iis[nome],
+      );
+    });
+    it(`${nome}: o ranking`, () => {
+      expect(rankingIIS(acoes, pesos).map((l) => l.projeto)).toEqual(
+        G.impacto.ranking[nome],
+      );
+    });
+  }
 });
