@@ -826,5 +826,142 @@
     "P04"
    ]
   }
+ },
+ "radar": {
+  "medianaEvidencia": 55.83,
+  "evidencia": {
+   "P01": 63.89,
+   "P02": 71.67,
+   "P03": 52.22,
+   "P04": 55.0,
+   "P05": 45.56,
+   "P06": 38.89,
+   "P07": 56.67,
+   "P08": 36.67,
+   "P09": 60.0,
+   "P10": 41.67,
+   "P11": 66.11,
+   "P12": 61.67
+  },
+  "celulas": {
+   "Brasil|educacao": "Manter",
+   "Quenia|educacao": "Repensar ou apoiar",
+   "India|educacao": "Repensar ou apoiar",
+   "Portugal|educacao": "Reavaliar",
+   "Ghana|educacao": null,
+   "Peru|educacao": "Reavaliar",
+   "Senegal|educacao": "Reforçar",
+   "Bangladesh|educacao": "Reavaliar",
+   "Colombia|educacao": "Reavaliar",
+   "Filipinas|educacao": "Repensar ou apoiar",
+   "Uganda|educacao": "Repensar ou apoiar",
+   "Mocambique|educacao": null,
+   "Brasil|formacao": "Repensar ou apoiar",
+   "Quenia|formacao": "Manter",
+   "India|formacao": "Repensar ou apoiar",
+   "Portugal|formacao": "Reavaliar",
+   "Ghana|formacao": "Reavaliar",
+   "Peru|formacao": "Repensar ou apoiar",
+   "Senegal|formacao": "Repensar ou apoiar",
+   "Bangladesh|formacao": "Reavaliar",
+   "Colombia|formacao": "Repensar ou apoiar",
+   "Filipinas|formacao": "Reavaliar",
+   "Uganda|formacao": "Reavaliar",
+   "Mocambique|formacao": "Repensar ou apoiar",
+   "Brasil|saude": "Manter",
+   "Quenia|saude": "Reforçar",
+   "India|saude": "Reavaliar",
+   "Portugal|saude": "Manter",
+   "Ghana|saude": "Reforçar",
+   "Peru|saude": "Manter",
+   "Senegal|saude": "Reforçar",
+   "Bangladesh|saude": "Reforçar",
+   "Colombia|saude": "Manter",
+   "Filipinas|saude": "Manter",
+   "Uganda|saude": "Reforçar",
+   "Mocambique|saude": "Reforçar",
+   "Brasil|tecnologia": "Manter",
+   "Quenia|tecnologia": "Reforçar",
+   "India|tecnologia": "Manter",
+   "Portugal|tecnologia": "Reavaliar",
+   "Ghana|tecnologia": "Manter",
+   "Peru|tecnologia": "Manter",
+   "Senegal|tecnologia": "Reforçar",
+   "Bangladesh|tecnologia": "Reforçar",
+   "Colombia|tecnologia": "Manter",
+   "Filipinas|tecnologia": "Reforçar",
+   "Uganda|tecnologia": "Reforçar",
+   "Mocambique|tecnologia": "Reforçar",
+   "Brasil|logistica": "Reavaliar",
+   "Quenia|logistica": "Repensar ou apoiar",
+   "India|logistica": "Reavaliar",
+   "Portugal|logistica": "Reavaliar",
+   "Ghana|logistica": "Repensar ou apoiar",
+   "Peru|logistica": "Reavaliar",
+   "Senegal|logistica": "Repensar ou apoiar",
+   "Bangladesh|logistica": "Reavaliar",
+   "Colombia|logistica": "Repensar ou apoiar",
+   "Filipinas|logistica": "Reavaliar",
+   "Uganda|logistica": "Reforçar",
+   "Mocambique|logistica": "Repensar ou apoiar",
+   "Brasil|comunicacao": "Reavaliar",
+   "Quenia|comunicacao": "Repensar ou apoiar",
+   "India|comunicacao": "Reavaliar",
+   "Portugal|comunicacao": "Reavaliar",
+   "Ghana|comunicacao": "Reavaliar",
+   "Peru|comunicacao": "Reavaliar",
+   "Senegal|comunicacao": "Repensar ou apoiar",
+   "Bangladesh|comunicacao": "Repensar ou apoiar",
+   "Colombia|comunicacao": "Reavaliar",
+   "Filipinas|comunicacao": "Repensar ou apoiar",
+   "Uganda|comunicacao": "Repensar ou apoiar",
+   "Mocambique|comunicacao": "Repensar ou apoiar"
+  },
+  "custoArea": {
+   "educacao": 4853.97,
+   "formacao": 4967.62,
+   "saude": 6667.24,
+   "tecnologia": 4148.13,
+   "logistica": 5037.39,
+   "comunicacao": 7904.64
+  },
+  "novoProjeto": {
+   "Senegal|educacao|100000": {
+    "custoPorBeneficiario": 1736.72,
+    "alcance": 57.58,
+    "quadrante": "Reforçar",
+    "leitura": "pilotar"
+   },
+   "Ghana|educacao|100000": {
+    "custoPorBeneficiario": 1836.19,
+    "alcance": 54.46,
+    "quadrante": null,
+    "leitura": "rever"
+   },
+   "Uganda|formacao|250000": {
+    "custoPorBeneficiario": 1753.1,
+    "alcance": 142.6,
+    "quadrante": "Reavaliar",
+    "leitura": "rever"
+   },
+   "India|comunicacao|50000": {
+    "custoPorBeneficiario": 1821.89,
+    "alcance": 27.44,
+    "quadrante": "Reavaliar",
+    "leitura": "rever"
+   },
+   "Portugal|tecnologia|80000": {
+    "custoPorBeneficiario": 2504.05,
+    "alcance": 31.95,
+    "quadrante": "Reavaliar",
+    "leitura": "rever"
+   },
+   "Mocambique|logistica|120000": {
+    "custoPorBeneficiario": 1937.27,
+    "alcance": 61.94,
+    "quadrante": "Repensar ou apoiar",
+    "leitura": "pilotar"
+   }
+  }
  }
 }

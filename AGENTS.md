@@ -8,6 +8,7 @@ A app compara o alcance e a eficiência dos 12 projetos de impacto social. O pro
   - `lib/` só tem funções puras, sem a data de hoje: a data de referência está em `lib/dates.ts`.
   - Os componentes só recebem props.
   - `data/raw` não se abre: a app usa só `public/data`.
+- **Arredondamentos:** nunca se fazem contas com valores já arredondados. Arredonda-se uma vez, no fim de cada conta, com ,5 para cima, só para comparar e para mostrar. Os ficheiros de `public/data` guardam os valores exatos; os gabaritos, os arredondados.
 - **Gabaritos:** `npm run gabaritos` compara `lib/` com `scripts/gabaritos.json`. Se um gabarito falhar, não se muda o valor esperado: para e avisa.
 - **Commits:** pequenos, em inglês, sem nada sobre o processo de trabalho.
 - **Dependências:** uma nova só entra com o porquê, na mensagem do commit.

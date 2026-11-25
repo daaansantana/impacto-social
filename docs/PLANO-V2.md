@@ -173,9 +173,10 @@ type ImpactoAcao = {
 
 // public/data/radar.json — uma linha por país e área (D5)
 type RadarCelula = {
-  pais: string; area: string; necessidadePercentil: number | null
-  evidencia: number | null; estimado: boolean
-  quadrante: "Reforçar" | "Repensar ou apoiar" | "Manter" | "Reavaliar"
+  pais: string; area: string; necessidadePercentil: number | null   // null: sem indicador, o ecrã diz «sem dado»
+  evidencia: number; estimado: boolean                               // exata: o IIS sem a necessidade
+  n: number                                                          // quantas ações estão por trás da evidência
+  quadrante: "Reforçar" | "Repensar ou apoiar" | "Manter" | "Reavaliar" | null
 }
 ```
 

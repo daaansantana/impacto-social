@@ -106,6 +106,7 @@ export type Dados = {
   qualidade: Qualidade;
   impacto: ImpactoAcao[];
   contexto: Contexto[];
+  radar: RadarCelula[];
 };
 
 // ---- Resultados de lib/ (docs/SPEC.md, secção 3) ----
@@ -238,4 +239,25 @@ export type ImpactoAcao = {
     "relevancia" | "eficacia" | "eficiencia" | "impacto" | "sustentabilidade",
     { nivel: NivelSaude; frase: string }
   >;
+};
+
+export type Quadrante =
+  | "Reforçar"
+  | "Repensar ou apoiar"
+  | "Manter"
+  | "Reavaliar";
+
+/** Uma linha de public/data/radar.json: um país e uma área (docs/PLANO-V2.md, secção 6). */
+export type RadarCelula = {
+  pais: string;
+  area: string;
+  /** null quando o país não tem o indicador da área: o ecrã diz «sem dado» */
+  necessidadePercentil: number | null;
+  /** exata: o IIS sem a necessidade */
+  evidencia: number;
+  /** a evidência vem da mesma área noutros países */
+  estimado: boolean;
+  /** quantas ações estão por trás da evidência */
+  n: number;
+  quadrante: Quadrante | null;
 };

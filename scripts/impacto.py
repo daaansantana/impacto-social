@@ -14,6 +14,10 @@ Pontos de atenção próprios de cada ação (contam para a confiança: alta = 0
   - as correções de despesa passam 1,5 vezes a mediana das 12 ações.
 O pico de fim de ano e o dia 27 são comuns a todas: ficam em Como medimos e não contam.
 
+Arredondamentos: nunca se fazem contas com valores já arredondados. Arredonda-se uma vez, no fim de cada
+conta, com ,5 para cima, só para comparar e para mostrar. Os ficheiros guardam os valores exatos; os gabaritos,
+os arredondados.
+
 Regras que o plano não fixa e que ficam escritas aqui:
   - Percentil: a posição entre os 12 (pandas rank pct, empates pela média), de 0 a 100.
   - Custo por atividade: compara-se com a mediana das outras ações da mesma área, com os dois custos
@@ -120,6 +124,68 @@ def objetivo_bate(objetivo: str, area: str) -> bool:
     return True
 
 
+QUADRANTES = {(True, True): "Reforçar", (True, False): "Repensar ou apoiar",
+              (False, True): "Manter", (False, False): "Reavaliar"}
+PESOS_EVIDENCIA = (25, 30, 20)  # escala, profundidade e duração do Equilibrado, sem a necessidade
+LEITURA = {"Reforçar": "avançar", "Repensar ou apoiar": "pilotar", "Manter": "rever", "Reavaliar": "rever"}
+
+
+def evidencia(escala, profundidade, duracao):
+    """O IIS sem a necessidade, para ela não contar duas vezes no quadrante. Exato: só se arredonda para comparar."""
+    w = PESOS_EVIDENCIA
+    return (w[0] * escala + w[1] * profundidade + w[2] * duracao) / sum(w)
+
+
+def construir_radar(m, proj, contexto, acoes):
+    """public/data/radar.json: 12 países × 6 áreas (docs/PLANO-V2.md, secções 3 e 6)."""
+    ev = {pid: evidencia(m.at[pid, "escala"], m.at[pid, "profundidade"], m.at[pid, "duracao"]) for pid in m.index}
+    # a mediana e as médias fazem-se com as evidências exatas; arredonda-se uma vez, para comparar
+    mediana = arred(pd.Series(ev).median(), 2)
+    celulas = []
+    for area in AREAS:
+        codigo, sobe = NECESSIDADE[area]
+        valores = pd.Series({c: v["indicadores"][codigo]["valor"] for c, v in contexto.items()}, dtype="float")
+        pcts = percentil(valores.dropna(), inverter=not sobe)
+        da_area = list(proj.index[proj["area"] == area])
+        for pais in contexto:
+            aqui = [pid for pid in da_area if proj.at[pid, "pais"] == pais]
+            if aqui:
+                e, estimado, n = ev[aqui[0]], False, 1
+            else:
+                e, estimado, n = sum(ev[x] for x in da_area) / len(da_area), True, len(da_area)
+            nec = float(pcts[pais]) if pais in pcts.index else None
+            q = None if nec is None else QUADRANTES[(arred(nec) > 50, arred(e) > mediana)]
+            celulas.append({"pais": pais, "area": area, "necessidadePercentil": nec, "evidencia": e,
+                            "estimado": estimado, "n": n, "quadrante": q})
+
+    # o custo por beneficiário de cada área, sem o nível de preços: a mediana das ações da área
+    custo_area = {}
+    for area in AREAS:
+        da_area = proj.index[proj["area"] == area]
+        custo_area[area] = float((m.loc[da_area, "custoPorPessoa"] / m.loc[da_area, "nivelPrecos"]).median())
+
+    def novo(pais, area, orcamento):
+        nivel = contexto[pais]["indicadores"][NIVEL_PRECOS]["valor"]
+        custo = custo_area[area] * nivel
+        c = next(x for x in celulas if x["pais"] == pais and x["area"] == area)
+        leitura = "rever" if c["quadrante"] is None else LEITURA[c["quadrante"]]
+        if c["n"] == 1 and leitura == "avançar":
+            leitura = "pilotar"
+        return {"custoPorBeneficiario": r2(custo), "alcance": r2(orcamento / custo),
+                "quadrante": c["quadrante"], "leitura": leitura}
+
+    exemplos = [("Senegal", "educacao", 100000), ("Ghana", "educacao", 100000), ("Uganda", "formacao", 250000),
+                ("India", "comunicacao", 50000), ("Portugal", "tecnologia", 80000), ("Mocambique", "logistica", 120000)]
+    G_radar = {
+        "medianaEvidencia": mediana,
+        "evidencia": {pid: arred(v) for pid, v in ev.items()},
+        "celulas": {f"{c['pais']}|{c['area']}": c["quadrante"] for c in celulas},
+        "custoArea": {a: r2(v) for a, v in custo_area.items()},
+        "novoProjeto": {f"{p}|{a}|{o}": novo(p, a, o) for p, a, o in exemplos},
+    }
+    return celulas, G_radar
+
+
 def main() -> int:
     meses = pd.DataFrame(json.loads((DADOS / "mensal.json").read_text(encoding="utf-8")))
     projetos = json.loads((DADOS / "projetos.json").read_text(encoding="utf-8"))
@@ -224,10 +290,10 @@ def main() -> int:
             "projeto": pid,
             "necessidade": n,
             "escala": {"beneficiariosPorMes": float(m.at[pid, "beneficiariosPorMes"]), "percentil": float(m.at[pid, "escala"])},
-            "profundidade": {"taxaConclusao": r2(m.at[pid, "taxaConclusao"]),
-                             "horasFormacaoPorBenef": r2(m.at[pid, "horasFormacaoPorBenef"]), "percentil": float(m.at[pid, "profundidade"])},
-            "jovensFormados": {"total": r2(m.at[pid, "jovensFormados"]), "porMes": r2(m.at[pid, "jovensFormadosPorMes"])},
-            "duracao": {"crescimento": round(float(m.at[pid, "crescimento"]), 4), "percentil": float(m.at[pid, "duracao"])},
+            "profundidade": {"taxaConclusao": float(m.at[pid, "taxaConclusao"]),
+                             "horasFormacaoPorBenef": float(m.at[pid, "horasFormacaoPorBenef"]), "percentil": float(m.at[pid, "profundidade"])},
+            "jovensFormados": {"total": float(m.at[pid, "jovensFormados"]), "porMes": float(m.at[pid, "jovensFormadosPorMes"])},
+            "duracao": {"crescimento": float(m.at[pid, "crescimento"]), "percentil": float(m.at[pid, "duracao"])},
             "custoPorPessoa": {"valor": float(m.at[pid, "custoPorPessoa"]), "percentilInvertido": float(m.at[pid, "custoInvertido"])},
             "confianca": confianca,
             "pontos": pontos,
@@ -236,7 +302,11 @@ def main() -> int:
 
     (DADOS / "impacto.json").write_text(json.dumps(acoes, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 
+    radar, G_radar = construir_radar(m, proj, contexto, acoes)
+    (DADOS / "radar.json").write_text(json.dumps(radar, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+
     G = json.loads(GABARITOS.read_text(encoding="utf-8"))
+    G["radar"] = G_radar
     G["impacto"] = {
         "iis": {nome: {pid: m.at[pid, f"iis_{nome}"] for pid in m.index} for nome in PREDEFINICOES},
         "faixa": {pid: faixa(m.at[pid, "iis_equilibrado"]) for pid in m.index},

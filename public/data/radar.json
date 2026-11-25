@@ -1,0 +1,650 @@
+[
+ {
+  "pais": "Brasil",
+  "area": "educacao",
+  "necessidadePercentil": 30.0,
+  "evidencia": 63.88888888888889,
+  "estimado": false,
+  "n": 1,
+  "quadrante": "Manter"
+ },
+ {
+  "pais": "Quenia",
+  "area": "educacao",
+  "necessidadePercentil": 80.0,
+  "evidencia": 54.074074074074076,
+  "estimado": true,
+  "n": 3,
+  "quadrante": "Repensar ou apoiar"
+ },
+ {
+  "pais": "India",
+  "area": "educacao",
+  "necessidadePercentil": 60.0,
+  "evidencia": 54.074074074074076,
+  "estimado": true,
+  "n": 3,
+  "quadrante": "Repensar ou apoiar"
+ },
+ {
+  "pais": "Portugal",
+  "area": "educacao",
+  "necessidadePercentil": 10.0,
+  "evidencia": 54.074074074074076,
+  "estimado": true,
+  "n": 3,
+  "quadrante": "Reavaliar"
+ },
+ {
+  "pais": "Ghana",
+  "area": "educacao",
+  "necessidadePercentil": null,
+  "evidencia": 54.074074074074076,
+  "estimado": true,
+  "n": 3,
+  "quadrante": null
+ },
+ {
+  "pais": "Peru",
+  "area": "educacao",
+  "necessidadePercentil": 20.0,
+  "evidencia": 54.074074074074076,
+  "estimado": true,
+  "n": 3,
+  "quadrante": "Reavaliar"
+ },
+ {
+  "pais": "Senegal",
+  "area": "educacao",
+  "necessidadePercentil": 70.0,
+  "evidencia": 56.666666666666664,
+  "estimado": false,
+  "n": 1,
+  "quadrante": "Reforçar"
+ },
+ {
+  "pais": "Bangladesh",
+  "area": "educacao",
+  "necessidadePercentil": 40.0,
+  "evidencia": 54.074074074074076,
+  "estimado": true,
+  "n": 3,
+  "quadrante": "Reavaliar"
+ },
+ {
+  "pais": "Colombia",
+  "area": "educacao",
+  "necessidadePercentil": 50.0,
+  "evidencia": 54.074074074074076,
+  "estimado": true,
+  "n": 3,
+  "quadrante": "Reavaliar"
+ },
+ {
+  "pais": "Filipinas",
+  "area": "educacao",
+  "necessidadePercentil": 100.0,
+  "evidencia": 41.666666666666664,
+  "estimado": false,
+  "n": 1,
+  "quadrante": "Repensar ou apoiar"
+ },
+ {
+  "pais": "Uganda",
+  "area": "educacao",
+  "necessidadePercentil": 90.0,
+  "evidencia": 54.074074074074076,
+  "estimado": true,
+  "n": 3,
+  "quadrante": "Repensar ou apoiar"
+ },
+ {
+  "pais": "Mocambique",
+  "area": "educacao",
+  "necessidadePercentil": null,
+  "evidencia": 54.074074074074076,
+  "estimado": true,
+  "n": 3,
+  "quadrante": null
+ },
+ {
+  "pais": "Brasil",
+  "area": "formacao",
+  "necessidadePercentil": 58.333333333333336,
+  "evidencia": 55.27777777777778,
+  "estimado": true,
+  "n": 2,
+  "quadrante": "Repensar ou apoiar"
+ },
+ {
+  "pais": "Quenia",
+  "area": "formacao",
+  "necessidadePercentil": 50.0,
+  "evidencia": 71.66666666666667,
+  "estimado": false,
+  "n": 1,
+  "quadrante": "Manter"
+ },
+ {
+  "pais": "India",
+  "area": "formacao",
+  "necessidadePercentil": 91.66666666666666,
+  "evidencia": 55.27777777777778,
+  "estimado": true,
+  "n": 2,
+  "quadrante": "Repensar ou apoiar"
+ },
+ {
+  "pais": "Portugal",
+  "area": "formacao",
+  "necessidadePercentil": 8.333333333333332,
+  "evidencia": 55.27777777777778,
+  "estimado": true,
+  "n": 2,
+  "quadrante": "Reavaliar"
+ },
+ {
+  "pais": "Ghana",
+  "area": "formacao",
+  "necessidadePercentil": 41.66666666666667,
+  "evidencia": 55.27777777777778,
+  "estimado": true,
+  "n": 2,
+  "quadrante": "Reavaliar"
+ },
+ {
+  "pais": "Peru",
+  "area": "formacao",
+  "necessidadePercentil": 83.33333333333334,
+  "evidencia": 38.888888888888886,
+  "estimado": false,
+  "n": 1,
+  "quadrante": "Repensar ou apoiar"
+ },
+ {
+  "pais": "Senegal",
+  "area": "formacao",
+  "necessidadePercentil": 100.0,
+  "evidencia": 55.27777777777778,
+  "estimado": true,
+  "n": 2,
+  "quadrante": "Repensar ou apoiar"
+ },
+ {
+  "pais": "Bangladesh",
+  "area": "formacao",
+  "necessidadePercentil": 25.0,
+  "evidencia": 55.27777777777778,
+  "estimado": true,
+  "n": 2,
+  "quadrante": "Reavaliar"
+ },
+ {
+  "pais": "Colombia",
+  "area": "formacao",
+  "necessidadePercentil": 75.0,
+  "evidencia": 55.27777777777778,
+  "estimado": true,
+  "n": 2,
+  "quadrante": "Repensar ou apoiar"
+ },
+ {
+  "pais": "Filipinas",
+  "area": "formacao",
+  "necessidadePercentil": 33.33333333333333,
+  "evidencia": 55.27777777777778,
+  "estimado": true,
+  "n": 2,
+  "quadrante": "Reavaliar"
+ },
+ {
+  "pais": "Uganda",
+  "area": "formacao",
+  "necessidadePercentil": 16.666666666666664,
+  "evidencia": 55.27777777777778,
+  "estimado": true,
+  "n": 2,
+  "quadrante": "Reavaliar"
+ },
+ {
+  "pais": "Mocambique",
+  "area": "formacao",
+  "necessidadePercentil": 66.66666666666666,
+  "evidencia": 55.27777777777778,
+  "estimado": true,
+  "n": 2,
+  "quadrante": "Repensar ou apoiar"
+ },
+ {
+  "pais": "Brasil",
+  "area": "saude",
+  "necessidadePercentil": 33.33333333333333,
+  "evidencia": 56.111111111111114,
+  "estimado": true,
+  "n": 2,
+  "quadrante": "Manter"
+ },
+ {
+  "pais": "Quenia",
+  "area": "saude",
+  "necessidadePercentil": 83.33333333333334,
+  "evidencia": 56.111111111111114,
+  "estimado": true,
+  "n": 2,
+  "quadrante": "Reforçar"
+ },
+ {
+  "pais": "India",
+  "area": "saude",
+  "necessidadePercentil": 50.0,
+  "evidencia": 52.22222222222222,
+  "estimado": false,
+  "n": 1,
+  "quadrante": "Reavaliar"
+ },
+ {
+  "pais": "Portugal",
+  "area": "saude",
+  "necessidadePercentil": 8.333333333333332,
+  "evidencia": 56.111111111111114,
+  "estimado": true,
+  "n": 2,
+  "quadrante": "Manter"
+ },
+ {
+  "pais": "Ghana",
+  "area": "saude",
+  "necessidadePercentil": 66.66666666666666,
+  "evidencia": 56.111111111111114,
+  "estimado": true,
+  "n": 2,
+  "quadrante": "Reforçar"
+ },
+ {
+  "pais": "Peru",
+  "area": "saude",
+  "necessidadePercentil": 25.0,
+  "evidencia": 56.111111111111114,
+  "estimado": true,
+  "n": 2,
+  "quadrante": "Manter"
+ },
+ {
+  "pais": "Senegal",
+  "area": "saude",
+  "necessidadePercentil": 75.0,
+  "evidencia": 56.111111111111114,
+  "estimado": true,
+  "n": 2,
+  "quadrante": "Reforçar"
+ },
+ {
+  "pais": "Bangladesh",
+  "area": "saude",
+  "necessidadePercentil": 58.333333333333336,
+  "evidencia": 56.111111111111114,
+  "estimado": true,
+  "n": 2,
+  "quadrante": "Reforçar"
+ },
+ {
+  "pais": "Colombia",
+  "area": "saude",
+  "necessidadePercentil": 16.666666666666664,
+  "evidencia": 60.0,
+  "estimado": false,
+  "n": 1,
+  "quadrante": "Manter"
+ },
+ {
+  "pais": "Filipinas",
+  "area": "saude",
+  "necessidadePercentil": 41.66666666666667,
+  "evidencia": 56.111111111111114,
+  "estimado": true,
+  "n": 2,
+  "quadrante": "Manter"
+ },
+ {
+  "pais": "Uganda",
+  "area": "saude",
+  "necessidadePercentil": 91.66666666666666,
+  "evidencia": 56.111111111111114,
+  "estimado": true,
+  "n": 2,
+  "quadrante": "Reforçar"
+ },
+ {
+  "pais": "Mocambique",
+  "area": "saude",
+  "necessidadePercentil": 100.0,
+  "evidencia": 56.111111111111114,
+  "estimado": true,
+  "n": 2,
+  "quadrante": "Reforçar"
+ },
+ {
+  "pais": "Brasil",
+  "area": "tecnologia",
+  "necessidadePercentil": 16.666666666666664,
+  "evidencia": 58.33333333333334,
+  "estimado": true,
+  "n": 2,
+  "quadrante": "Manter"
+ },
+ {
+  "pais": "Quenia",
+  "area": "tecnologia",
+  "necessidadePercentil": 83.33333333333334,
+  "evidencia": 58.33333333333334,
+  "estimado": true,
+  "n": 2,
+  "quadrante": "Reforçar"
+ },
+ {
+  "pais": "India",
+  "area": "tecnologia",
+  "necessidadePercentil": 50.0,
+  "evidencia": 58.33333333333334,
+  "estimado": true,
+  "n": 2,
+  "quadrante": "Manter"
+ },
+ {
+  "pais": "Portugal",
+  "area": "tecnologia",
+  "necessidadePercentil": 8.333333333333332,
+  "evidencia": 55.000000000000014,
+  "estimado": false,
+  "n": 1,
+  "quadrante": "Reavaliar"
+ },
+ {
+  "pais": "Ghana",
+  "area": "tecnologia",
+  "necessidadePercentil": 41.66666666666667,
+  "evidencia": 58.33333333333334,
+  "estimado": true,
+  "n": 2,
+  "quadrante": "Manter"
+ },
+ {
+  "pais": "Peru",
+  "area": "tecnologia",
+  "necessidadePercentil": 25.0,
+  "evidencia": 58.33333333333334,
+  "estimado": true,
+  "n": 2,
+  "quadrante": "Manter"
+ },
+ {
+  "pais": "Senegal",
+  "area": "tecnologia",
+  "necessidadePercentil": 66.66666666666666,
+  "evidencia": 58.33333333333334,
+  "estimado": true,
+  "n": 2,
+  "quadrante": "Reforçar"
+ },
+ {
+  "pais": "Bangladesh",
+  "area": "tecnologia",
+  "necessidadePercentil": 75.0,
+  "evidencia": 58.33333333333334,
+  "estimado": true,
+  "n": 2,
+  "quadrante": "Reforçar"
+ },
+ {
+  "pais": "Colombia",
+  "area": "tecnologia",
+  "necessidadePercentil": 33.33333333333333,
+  "evidencia": 58.33333333333334,
+  "estimado": true,
+  "n": 2,
+  "quadrante": "Manter"
+ },
+ {
+  "pais": "Filipinas",
+  "area": "tecnologia",
+  "necessidadePercentil": 58.333333333333336,
+  "evidencia": 58.33333333333334,
+  "estimado": true,
+  "n": 2,
+  "quadrante": "Reforçar"
+ },
+ {
+  "pais": "Uganda",
+  "area": "tecnologia",
+  "necessidadePercentil": 100.0,
+  "evidencia": 58.33333333333334,
+  "estimado": true,
+  "n": 2,
+  "quadrante": "Reforçar"
+ },
+ {
+  "pais": "Mocambique",
+  "area": "tecnologia",
+  "necessidadePercentil": 91.66666666666666,
+  "evidencia": 61.666666666666664,
+  "estimado": false,
+  "n": 1,
+  "quadrante": "Reforçar"
+ },
+ {
+  "pais": "Brasil",
+  "area": "logistica",
+  "necessidadePercentil": 25.0,
+  "evidencia": 55.833333333333336,
+  "estimado": true,
+  "n": 2,
+  "quadrante": "Reavaliar"
+ },
+ {
+  "pais": "Quenia",
+  "area": "logistica",
+  "necessidadePercentil": 83.33333333333334,
+  "evidencia": 55.833333333333336,
+  "estimado": true,
+  "n": 2,
+  "quadrante": "Repensar ou apoiar"
+ },
+ {
+  "pais": "India",
+  "area": "logistica",
+  "necessidadePercentil": 16.666666666666664,
+  "evidencia": 55.833333333333336,
+  "estimado": true,
+  "n": 2,
+  "quadrante": "Reavaliar"
+ },
+ {
+  "pais": "Portugal",
+  "area": "logistica",
+  "necessidadePercentil": 8.333333333333332,
+  "evidencia": 55.833333333333336,
+  "estimado": true,
+  "n": 2,
+  "quadrante": "Reavaliar"
+ },
+ {
+  "pais": "Ghana",
+  "area": "logistica",
+  "necessidadePercentil": 75.0,
+  "evidencia": 45.55555555555556,
+  "estimado": false,
+  "n": 1,
+  "quadrante": "Repensar ou apoiar"
+ },
+ {
+  "pais": "Peru",
+  "area": "logistica",
+  "necessidadePercentil": 33.33333333333333,
+  "evidencia": 55.833333333333336,
+  "estimado": true,
+  "n": 2,
+  "quadrante": "Reavaliar"
+ },
+ {
+  "pais": "Senegal",
+  "area": "logistica",
+  "necessidadePercentil": 66.66666666666666,
+  "evidencia": 55.833333333333336,
+  "estimado": true,
+  "n": 2,
+  "quadrante": "Repensar ou apoiar"
+ },
+ {
+  "pais": "Bangladesh",
+  "area": "logistica",
+  "necessidadePercentil": 50.0,
+  "evidencia": 55.833333333333336,
+  "estimado": true,
+  "n": 2,
+  "quadrante": "Reavaliar"
+ },
+ {
+  "pais": "Colombia",
+  "area": "logistica",
+  "necessidadePercentil": 58.333333333333336,
+  "evidencia": 55.833333333333336,
+  "estimado": true,
+  "n": 2,
+  "quadrante": "Repensar ou apoiar"
+ },
+ {
+  "pais": "Filipinas",
+  "area": "logistica",
+  "necessidadePercentil": 41.66666666666667,
+  "evidencia": 55.833333333333336,
+  "estimado": true,
+  "n": 2,
+  "quadrante": "Reavaliar"
+ },
+ {
+  "pais": "Uganda",
+  "area": "logistica",
+  "necessidadePercentil": 91.66666666666666,
+  "evidencia": 66.11111111111111,
+  "estimado": false,
+  "n": 1,
+  "quadrante": "Reforçar"
+ },
+ {
+  "pais": "Mocambique",
+  "area": "logistica",
+  "necessidadePercentil": 100.0,
+  "evidencia": 55.833333333333336,
+  "estimado": true,
+  "n": 2,
+  "quadrante": "Repensar ou apoiar"
+ },
+ {
+  "pais": "Brasil",
+  "area": "comunicacao",
+  "necessidadePercentil": 16.666666666666664,
+  "evidencia": 36.666666666666664,
+  "estimado": true,
+  "n": 1,
+  "quadrante": "Reavaliar"
+ },
+ {
+  "pais": "Quenia",
+  "area": "comunicacao",
+  "necessidadePercentil": 83.33333333333334,
+  "evidencia": 36.666666666666664,
+  "estimado": true,
+  "n": 1,
+  "quadrante": "Repensar ou apoiar"
+ },
+ {
+  "pais": "India",
+  "area": "comunicacao",
+  "necessidadePercentil": 50.0,
+  "evidencia": 36.666666666666664,
+  "estimado": true,
+  "n": 1,
+  "quadrante": "Reavaliar"
+ },
+ {
+  "pais": "Portugal",
+  "area": "comunicacao",
+  "necessidadePercentil": 8.333333333333332,
+  "evidencia": 36.666666666666664,
+  "estimado": true,
+  "n": 1,
+  "quadrante": "Reavaliar"
+ },
+ {
+  "pais": "Ghana",
+  "area": "comunicacao",
+  "necessidadePercentil": 41.66666666666667,
+  "evidencia": 36.666666666666664,
+  "estimado": true,
+  "n": 1,
+  "quadrante": "Reavaliar"
+ },
+ {
+  "pais": "Peru",
+  "area": "comunicacao",
+  "necessidadePercentil": 25.0,
+  "evidencia": 36.666666666666664,
+  "estimado": true,
+  "n": 1,
+  "quadrante": "Reavaliar"
+ },
+ {
+  "pais": "Senegal",
+  "area": "comunicacao",
+  "necessidadePercentil": 66.66666666666666,
+  "evidencia": 36.666666666666664,
+  "estimado": true,
+  "n": 1,
+  "quadrante": "Repensar ou apoiar"
+ },
+ {
+  "pais": "Bangladesh",
+  "area": "comunicacao",
+  "necessidadePercentil": 75.0,
+  "evidencia": 36.666666666666664,
+  "estimado": false,
+  "n": 1,
+  "quadrante": "Repensar ou apoiar"
+ },
+ {
+  "pais": "Colombia",
+  "area": "comunicacao",
+  "necessidadePercentil": 33.33333333333333,
+  "evidencia": 36.666666666666664,
+  "estimado": true,
+  "n": 1,
+  "quadrante": "Reavaliar"
+ },
+ {
+  "pais": "Filipinas",
+  "area": "comunicacao",
+  "necessidadePercentil": 58.333333333333336,
+  "evidencia": 36.666666666666664,
+  "estimado": true,
+  "n": 1,
+  "quadrante": "Repensar ou apoiar"
+ },
+ {
+  "pais": "Uganda",
+  "area": "comunicacao",
+  "necessidadePercentil": 100.0,
+  "evidencia": 36.666666666666664,
+  "estimado": true,
+  "n": 1,
+  "quadrante": "Repensar ou apoiar"
+ },
+ {
+  "pais": "Mocambique",
+  "area": "comunicacao",
+  "necessidadePercentil": 91.66666666666666,
+  "evidencia": 36.666666666666664,
+  "estimado": true,
+  "n": 1,
+  "quadrante": "Repensar ou apoiar"
+ }
+]
