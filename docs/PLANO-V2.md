@@ -102,7 +102,7 @@ Os pontos comuns a todas as ações (o fim de ano e o dia 27) aparecem uma vez, 
 
 | # | Ecrã | Para que serve | O que se vê primeiro | O que se abre a pedido |
 | --- | --- | --- | --- | --- |
-| 1 | **Início** | Como está o impacto | O IIS do portefólio, 3 leituras em frases, o mapa com as 12 ações e «Precisa de atenção» (até 3) | Cada leitura leva à ação ou ao ponto |
+| 1 | **Início** | Como está o impacto | O alcance do portefólio (os beneficiários por mês e a parte deles onde a necessidade é alta), 3 leituras em frases, o mapa com as 12 ações e «A confirmar com os parceiros» (até 3) | Cada leitura leva à ação ou ao ponto |
 | 2 | **Ações** | Ver e comparar | Uma lista de cartões: nome, país, área, IIS, saúde e confiança | Filtros (região, país, área, saúde, confiança) e ordenação (IIS, escala, profundidade, necessidade) |
 | 3 | **Ação** | Perceber uma ação | Resumo (o quê, onde, formato, público), IIS e as 4 dimensões, saúde da ação | Evolução em meses comparáveis (fim de ano assinalado), pontos de atenção, o que pedir ao parceiro, o que aprendemos |
 | 4 | **Radar** | Onde abrir ou reforçar | Mapa por área (cor = necessidade), quadrante necessidade × evidência, lista «Onde faria mais diferença» | **Novo projeto** (protótipo): país, área, formato e orçamento → alcance estimado, necessidade, confiança e uma leitura: avançar, pilotar ou rever o desenho |
@@ -231,7 +231,7 @@ Usa a skill data-analysis para verificar as distribuições. Mostra-me a tabela 
 
 **D4: funções e testes**
 ```
-Lê docs/PLANO-V2.md, secção 6. Em lib/, com testes contra scripts/gabaritos.json: iis, rankingIIS, filtrarAcoes, leituras (3 frases por regras: a ação com mais impacto, a que precisa de atenção e o padrão de fim de ano), precisaAtencao e PREDEFINICOES. Se um gabarito falhar, não mudes o valor esperado: para e diz-me. Um commit por função. npm run verificar.
+Lê docs/PLANO-V2.md, secção 6. Em lib/, com testes contra scripts/gabaritos.json: iis, rankingIIS, filtrarAcoes, leituras (3 frases por regras: a ação com mais impacto, a que tem pontos a confirmar com o parceiro e o padrão de fim de ano), precisaAtencao e PREDEFINICOES. Se um gabarito falhar, não mudes o valor esperado: para e diz-me. Um commit por função. npm run verificar.
 ```
 
 **D5: o Radar**
@@ -273,10 +273,10 @@ npm run verificar. Commit.
 **A2: Início**
 ```
 Ecrã Início, segundo a secção 3 do PLANO-V2, com dados de exemplo tipados como ImpactoAcao e Contexto (secção 6) até as funções do Dan chegarem:
-- Em cima, em grande: o IIS do portefólio, com uma frase.
+- Em cima, em grande: o alcance do portefólio (alcancePortefolio: os beneficiários por mês e a parte onde a necessidade é alta), com uma frase.
 - 3 leituras em cartões, cada uma com um link.
 - O MapaAcoes com as 12 ações (a cor é o IIS).
-- «Precisa de atenção», com até 3 ações.
+- «A confirmar com os parceiros», com até 3 ações.
 Pouco texto, nada de painel denso: a regra é «a resposta em grande, o detalhe a pedido». Estados a carregar, erro e vazio. Vê o ecrã a 390 e a 1440 px. Commit.
 ```
 

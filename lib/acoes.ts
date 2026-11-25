@@ -71,7 +71,7 @@ export function filtrarAcoes(acoes: Acao[], filtros: Filtros): Acao[] {
   );
 }
 
-/** Até 3 ações com pontos de atenção próprios: mais pontos primeiro; num empate, o menor IIS. */
+/** O bloco «A confirmar com os parceiros»: até 3 ações com pontos próprios, mais pontos primeiro; num empate, o menor IIS. */
 export function precisaAtencao(
   acoes: Acao[],
   pesos: Pesos = PREDEFINICOES.equilibrado.pesos,
@@ -101,7 +101,7 @@ const DIMENSOES = {
   duracao: "na duração",
 } as const;
 
-/** As 3 leituras do Início, feitas por regras: a ação com mais impacto, a que precisa de atenção e o fim de ano. */
+/** As 3 leituras do Início, feitas por regras: a ação com mais impacto, a que tem pontos a confirmar com os parceiros e o fim de ano. */
 export function leituras(
   acoes: Acao[],
   meses: Mes[],
@@ -131,7 +131,7 @@ export function leituras(
     atencao
       ? {
           id: "atencao",
-          texto: `O ${atencao.nome} precisa de atenção: ${atencao.pontos.length === 1 ? "1 ponto" : `${atencao.pontos.length} pontos`} a confirmar com o parceiro.`,
+          texto: `O ${atencao.nome} tem ${atencao.pontos.length === 1 ? "1 ponto" : `${atencao.pontos.length} pontos`} a confirmar com o parceiro.`,
           ligacao: `/acoes/${atencao.projeto}`,
         }
       : {

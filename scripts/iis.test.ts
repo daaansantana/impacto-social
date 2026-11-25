@@ -102,7 +102,7 @@ describe("leituras", () => {
     );
     expect(l[0].ligacao).toBe("/acoes/P11");
     expect(l[1].texto).toBe(
-      "O Projeto 03 precisa de atenção: 2 pontos a confirmar com o parceiro.",
+      "O Projeto 03 tem 2 pontos a confirmar com o parceiro.",
     );
     expect(texto(l[2].texto)).toBe(
       "Em novembro e dezembro, os beneficiários sobem 64% em todo o portefólio, sem aumento de custos: por isso comparamos janeiro a outubro. Um beneficiário custa 2451 € nesses meses.",
