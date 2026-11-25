@@ -8,6 +8,12 @@ Uso: .venv/bin/python scripts/impacto.py   (depois do agregar.py, que reescreve 
     e o ranking de cada uma (as outras chaves não mudam)
   - imprime as distribuições (skill data-analysis) e a tabela das 12 ações
 
+Pontos de atenção próprios de cada ação (contam para a confiança: alta = 0, média = 1, baixa = 2 ou mais):
+  - o custo por atividade passa 2 vezes a mediana das outras ações da área, ajustado aos preços;
+  - o objetivo declarado não bate com a área;
+  - as correções de despesa passam 1,5 vezes a mediana das 12 ações.
+O pico de fim de ano e o dia 27 são comuns a todas: ficam em Como medimos e não contam.
+
 Regras que o plano não fixa e que ficam escritas aqui:
   - Percentil: a posição entre os 12 (pandas rank pct, empates pela média), de 0 a 100.
   - Custo por atividade: compara-se com a mediana das outras ações da mesma área, com os dois custos
@@ -56,6 +62,8 @@ AREAS = {
     "comunicacao": "comunicação",
 }
 FORTE, REVER = 60, 40
+LIMITE_CUSTO_ATIVIDADE = 2  # vezes a mediana das outras ações da área
+LIMITE_CORRECOES = 1.5  # vezes a mediana das 12 ações
 
 
 def r2(x):
@@ -146,22 +154,17 @@ def main() -> int:
         m[f"iis_{nome}"] = [iis(pid, pesos) for pid in m.index]
 
     # pontos de atenção próprios de cada ação (tabela 2.4)
-    serie = meses.groupby(["projeto", "fimDeAno"])[["beneficiarios", "despesa"]].mean().unstack()
-    subida = serie["beneficiarios"][True] / serie["beneficiarios"][False] - 1
-    subida_desp = serie["despesa"][True] / serie["despesa"][False] - 1
+    # o pico de fim de ano é comum a todas as ações: fica em Como medimos e não conta aqui
     correcoes = desp[desp["valor"] < 0].groupby("id_projeto").size().reindex(proj.index, fill_value=0)
-    med_subida, med_correcoes = subida.median(), correcoes.median()
+    med_correcoes = correcoes.median()
 
     acoes, pontos_conta = [], {}
     for pid, p in proj.iterrows():
         pontos = []
-        if subida[pid] > med_subida:
-            custos = "sem aumento de custos" if subida_desp[pid] <= 0 else f"e a despesa só {pt(subida_desp[pid] * 100)}%"
-            pontos.append({"id": "fimDeAno", "texto": f"Em novembro e dezembro, os beneficiários sobem {pt(subida[pid] * 100)}% face a janeiro–outubro, {custos}. Vale confirmar com o parceiro como foram registados."})
         # compara com as outras ações da mesma área (a mediana delas), com os custos ajustados aos preços
         outros = [o for o in proj.index[proj["area"] == p["area"]] if o != pid]
         razao = m.at[pid, "custoAtividadeAjustado"] / m.loc[outros, "custoAtividadeAjustado"].median() if outros else 0
-        if razao > 2:
+        if razao > LIMITE_CUSTO_ATIVIDADE:
             meu = round(m.at[pid, "participantesPorAtividade"])
             deles = round(m.loc[outros, "participantesPorAtividade"].median())
             part = (f"com o mesmo número de participantes por atividade ({meu})" if meu == deles
@@ -170,7 +173,7 @@ def main() -> int:
             pontos.append({"id": "custoAtividade", "texto": f"Cada atividade custa {pt(razao, 1)} vezes mais do que {quem}, {part}. A diferença de preços entre os países não chega para o explicar. Pedir o detalhe das maiores despesas."})
         if not objetivo_bate(p["objetivos"], p["area"]):
             pontos.append({"id": "objetivoArea", "texto": f"O objetivo declarado é «{p['objetivos']}», mas a área é {AREAS[p['area']]}. Confirmar qual vale para medir o impacto."})
-        if correcoes[pid] > med_correcoes:
+        if correcoes[pid] > LIMITE_CORRECOES * med_correcoes:
             pontos.append({"id": "correcoes", "texto": f"Há {pt(correcoes[pid])} correções de despesa sem referência à despesa original. Pedir a referência."})
         pontos_conta[pid] = len(pontos)
         confianca = "alta" if not pontos else "média" if len(pontos) == 1 else "baixa"
