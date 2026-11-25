@@ -36,6 +36,6 @@ export function simular({
 }
 
 /** Até quantas vezes o custo médio a mudança compensa: ganhos ÷ perdidos do cenário otimista. */
-export function fatorDeEquilibrio(_otimista: Simulacao): number {
-  throw new Error("Por fazer: fatorDeEquilibrio");
+export function fatorDeEquilibrio(otimista: Simulacao): number {
+  return otimista.ganhos / otimista.perdidos;
 }
