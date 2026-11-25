@@ -1,0 +1,13 @@
+﻿id;nome;pais;regiao;area_foco;ano_inicio;orcamento_anual;parceiro_local_id;objetivos;estado
+P01;Projeto 01;Brasil;Sudeste;educacao;2022;9000000,00;PL01;ampliar cobertura de saude preventiva;ativo
+P02;Projeto 02;Quenia;Nairobi;formacao;2022;1700000,00;PL02;ampliar cobertura de saude preventiva;em_avaliacao
+P03;Projeto 03;India;Sul;saude;2022;1250000,00;PL03;aumentar taxa de conclusao escolar;ativo
+P04;Projeto 04;Portugal;Norte;tecnologia;2022;820000,00;PL04;aumentar taxa de conclusao escolar;ativo
+P05;Projeto 05;Ghana;Centro;logistica;2021;2300000,00;PL05;formar jovens em competencias digitais;ativo
+P06;Projeto 06;Peru;Lima;formacao;2018;640000,00;PL06;ampliar cobertura de saude preventiva;ativo
+P07;Projeto 07;Senegal;Dakar;educacao;2023;550000,00;PL07;ampliar cobertura de saude preventiva;em_avaliacao
+P08;Projeto 08;Bangladesh;Centro;comunicacao;2020;1450000,00;PL08;formar jovens em competencias digitais;em_avaliacao
+P09;Projeto 09;Colombia;Andes;saude;2021;1050000,00;PL09;ampliar cobertura de saude preventiva;ativo
+P10;Projeto 10;Filipinas;Luzon;educacao;2020;2200000,00;PL10;aumentar taxa de conclusao escolar;ativo
+P11;Projeto 11;Uganda;Centro;logistica;2019;480000,00;PL11;apoiar inserção laboral;ativo
+P12;Projeto 12;Mocambique;Sul;tecnologia;2023;1800000,00;PL12;melhorar acesso a formacao profissional;ativo

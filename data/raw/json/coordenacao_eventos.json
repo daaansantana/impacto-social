@@ -1,0 +1,5402 @@
+[
+ {
+  "id": "EC00001",
+  "id_projeto": "P01",
+  "data": "2025-07-25",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 16.85,
+  "participantes": 18,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00002",
+  "id_projeto": "P01",
+  "data": "2024-11-05",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 23.96,
+  "participantes": 13,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00003",
+  "id_projeto": "P01",
+  "data": "2025-01-18",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 18.89,
+  "participantes": 24,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00004",
+  "id_projeto": "P01",
+  "data": "2025-03-08",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 11.97,
+  "participantes": 16,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00005",
+  "id_projeto": "P01",
+  "data": "2024-03-21",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 10.58,
+  "participantes": 23,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00006",
+  "id_projeto": "P01",
+  "data": "2024-08-09",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 16.65,
+  "participantes": 5,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00007",
+  "id_projeto": "P01",
+  "data": "2024-06-07",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 8.07,
+  "participantes": 22,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00008",
+  "id_projeto": "P01",
+  "data": "2025-06-14",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 18.91,
+  "participantes": 12,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00009",
+  "id_projeto": "P01",
+  "data": "2025-02-22",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 10.34,
+  "participantes": 6,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00010",
+  "id_projeto": "P01",
+  "data": "2024-05-23",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 13.3,
+  "participantes": 16,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00011",
+  "id_projeto": "P01",
+  "data": "2025-03-27",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 8.99,
+  "participantes": 3,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00012",
+  "id_projeto": "P01",
+  "data": "2025-01-25",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 11.19,
+  "participantes": 14,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00013",
+  "id_projeto": "P01",
+  "data": "2025-09-26",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 14.39,
+  "participantes": 22,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00014",
+  "id_projeto": "P01",
+  "data": "2024-04-25",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 10.61,
+  "participantes": 13,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00015",
+  "id_projeto": "P01",
+  "data": "2024-07-16",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 19.49,
+  "participantes": 6,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00016",
+  "id_projeto": "P01",
+  "data": "2024-05-15",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 21.96,
+  "participantes": 8,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00017",
+  "id_projeto": "P01",
+  "data": "2024-06-04",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 12.85,
+  "participantes": 23,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00018",
+  "id_projeto": "P01",
+  "data": "2024-03-24",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 23.01,
+  "participantes": 24,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00019",
+  "id_projeto": "P01",
+  "data": "2024-01-23",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 22.31,
+  "participantes": 7,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00020",
+  "id_projeto": "P01",
+  "data": "2024-05-22",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 20.07,
+  "participantes": 15,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00021",
+  "id_projeto": "P01",
+  "data": "2024-07-09",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 10.17,
+  "participantes": 14,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00022",
+  "id_projeto": "P01",
+  "data": "2025-09-25",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 18.91,
+  "participantes": 9,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00023",
+  "id_projeto": "P01",
+  "data": "2024-03-08",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 9.42,
+  "participantes": 17,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00024",
+  "id_projeto": "P01",
+  "data": "2024-12-22",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 16.92,
+  "participantes": 12,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00025",
+  "id_projeto": "P01",
+  "data": "2025-09-12",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 18.37,
+  "participantes": 13,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00026",
+  "id_projeto": "P01",
+  "data": "2024-05-08",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 12.0,
+  "participantes": 18,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00027",
+  "id_projeto": "P01",
+  "data": "2024-05-02",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 10.54,
+  "participantes": 3,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00028",
+  "id_projeto": "P01",
+  "data": "2024-09-15",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 20.2,
+  "participantes": 7,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00029",
+  "id_projeto": "P01",
+  "data": "2025-01-04",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 8.73,
+  "participantes": 6,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00030",
+  "id_projeto": "P01",
+  "data": "2025-12-08",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 15.53,
+  "participantes": 10,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00031",
+  "id_projeto": "P01",
+  "data": "2025-02-10",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 22.57,
+  "participantes": 15,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00032",
+  "id_projeto": "P01",
+  "data": "2024-11-18",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 6.65,
+  "participantes": 5,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00033",
+  "id_projeto": "P01",
+  "data": "2024-07-05",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 20.15,
+  "participantes": 19,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00034",
+  "id_projeto": "P01",
+  "data": "2024-08-20",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 19.64,
+  "participantes": 18,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00035",
+  "id_projeto": "P01",
+  "data": "2024-02-09",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 14.8,
+  "participantes": 22,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00036",
+  "id_projeto": "P01",
+  "data": "2024-12-02",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 25.23,
+  "participantes": 21,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00037",
+  "id_projeto": "P01",
+  "data": "2024-12-12",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 13.79,
+  "participantes": 4,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00038",
+  "id_projeto": "P01",
+  "data": "2025-11-06",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 16.74,
+  "participantes": 15,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00039",
+  "id_projeto": "P01",
+  "data": "2025-02-17",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 6.88,
+  "participantes": 3,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00040",
+  "id_projeto": "P01",
+  "data": "2024-05-06",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 21.19,
+  "participantes": 20,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00041",
+  "id_projeto": "P01",
+  "data": "2025-12-04",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 7.62,
+  "participantes": 24,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00042",
+  "id_projeto": "P01",
+  "data": "2025-09-27",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 22.9,
+  "participantes": 18,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00043",
+  "id_projeto": "P01",
+  "data": "2024-01-01",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 23.76,
+  "participantes": 4,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00044",
+  "id_projeto": "P01",
+  "data": "2025-06-16",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 18.25,
+  "participantes": 6,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00045",
+  "id_projeto": "P01",
+  "data": "2025-10-06",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 19.1,
+  "participantes": 10,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00046",
+  "id_projeto": "P01",
+  "data": "2025-12-12",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 11.06,
+  "participantes": 12,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00047",
+  "id_projeto": "P01",
+  "data": "2025-04-01",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 12.29,
+  "participantes": 12,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00048",
+  "id_projeto": "P01",
+  "data": "2025-01-15",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 9.29,
+  "participantes": 22,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00049",
+  "id_projeto": "P01",
+  "data": "2025-10-04",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 10.94,
+  "participantes": 23,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00050",
+  "id_projeto": "P01",
+  "data": "2024-10-27",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 8.33,
+  "participantes": 7,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00051",
+  "id_projeto": "P02",
+  "data": "2025-01-25",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 7.54,
+  "participantes": 17,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00052",
+  "id_projeto": "P02",
+  "data": "2025-11-26",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 5.34,
+  "participantes": 17,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00053",
+  "id_projeto": "P02",
+  "data": "2025-07-18",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 8.23,
+  "participantes": 16,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00054",
+  "id_projeto": "P02",
+  "data": "2025-11-23",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 8.13,
+  "participantes": 10,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00055",
+  "id_projeto": "P02",
+  "data": "2024-09-15",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 3.59,
+  "participantes": 13,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00056",
+  "id_projeto": "P02",
+  "data": "2024-04-13",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 9.41,
+  "participantes": 19,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00057",
+  "id_projeto": "P02",
+  "data": "2025-02-11",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 4.58,
+  "participantes": 18,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00058",
+  "id_projeto": "P02",
+  "data": "2025-05-14",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 4.03,
+  "participantes": 9,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00059",
+  "id_projeto": "P02",
+  "data": "2024-09-27",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 8.86,
+  "participantes": 23,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00060",
+  "id_projeto": "P02",
+  "data": "2024-01-14",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 7.76,
+  "participantes": 5,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00061",
+  "id_projeto": "P02",
+  "data": "2025-10-12",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 12.14,
+  "participantes": 7,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00062",
+  "id_projeto": "P02",
+  "data": "2024-03-07",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 3.83,
+  "participantes": 20,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00063",
+  "id_projeto": "P02",
+  "data": "2024-04-22",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 5.84,
+  "participantes": 8,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00064",
+  "id_projeto": "P02",
+  "data": "2024-01-04",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 8.1,
+  "participantes": 19,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00065",
+  "id_projeto": "P02",
+  "data": "2025-03-26",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 10.75,
+  "participantes": 6,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00066",
+  "id_projeto": "P02",
+  "data": "2024-04-20",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 9.74,
+  "participantes": 5,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00067",
+  "id_projeto": "P02",
+  "data": "2025-02-20",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 8.2,
+  "participantes": 7,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00068",
+  "id_projeto": "P02",
+  "data": "2025-07-20",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 5.46,
+  "participantes": 15,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00069",
+  "id_projeto": "P02",
+  "data": "2025-04-02",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 7.13,
+  "participantes": 19,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00070",
+  "id_projeto": "P02",
+  "data": "2025-07-02",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 5.38,
+  "participantes": 10,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00071",
+  "id_projeto": "P02",
+  "data": "2024-06-15",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 12.4,
+  "participantes": 13,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00072",
+  "id_projeto": "P02",
+  "data": "2025-01-14",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 4.09,
+  "participantes": 8,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00073",
+  "id_projeto": "P02",
+  "data": "2025-04-26",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 4.48,
+  "participantes": 22,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00074",
+  "id_projeto": "P02",
+  "data": "2025-09-18",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 4.15,
+  "participantes": 6,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00075",
+  "id_projeto": "P02",
+  "data": "2024-07-03",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 8.22,
+  "participantes": 11,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00076",
+  "id_projeto": "P02",
+  "data": "2024-04-09",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 8.24,
+  "participantes": 15,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00077",
+  "id_projeto": "P02",
+  "data": "2024-12-27",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 7.82,
+  "participantes": 13,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00078",
+  "id_projeto": "P02",
+  "data": "2025-12-10",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 5.7,
+  "participantes": 4,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00079",
+  "id_projeto": "P02",
+  "data": "2024-10-25",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 11.72,
+  "participantes": 3,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00080",
+  "id_projeto": "P02",
+  "data": "2024-08-13",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 11.31,
+  "participantes": 20,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00081",
+  "id_projeto": "P02",
+  "data": "2025-06-12",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 3.73,
+  "participantes": 22,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00082",
+  "id_projeto": "P02",
+  "data": "2025-10-14",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 11.53,
+  "participantes": 13,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00083",
+  "id_projeto": "P02",
+  "data": "2025-11-13",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 11.35,
+  "participantes": 22,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00084",
+  "id_projeto": "P02",
+  "data": "2025-06-24",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 8.55,
+  "participantes": 20,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00085",
+  "id_projeto": "P02",
+  "data": "2025-05-13",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 6.77,
+  "participantes": 17,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00086",
+  "id_projeto": "P02",
+  "data": "2024-02-14",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 9.15,
+  "participantes": 12,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00087",
+  "id_projeto": "P02",
+  "data": "2025-08-10",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 8.03,
+  "participantes": 16,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00088",
+  "id_projeto": "P02",
+  "data": "2024-04-08",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 8.67,
+  "participantes": 7,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00089",
+  "id_projeto": "P02",
+  "data": "2025-01-15",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 4.85,
+  "participantes": 13,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00090",
+  "id_projeto": "P02",
+  "data": "2024-02-20",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 3.25,
+  "participantes": 5,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00091",
+  "id_projeto": "P02",
+  "data": "2025-12-03",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 10.56,
+  "participantes": 23,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00092",
+  "id_projeto": "P02",
+  "data": "2024-12-07",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 11.06,
+  "participantes": 22,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00093",
+  "id_projeto": "P02",
+  "data": "2024-12-22",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 8.33,
+  "participantes": 21,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00094",
+  "id_projeto": "P02",
+  "data": "2024-05-21",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 8.41,
+  "participantes": 22,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00095",
+  "id_projeto": "P02",
+  "data": "2025-08-02",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 11.34,
+  "participantes": 6,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00096",
+  "id_projeto": "P02",
+  "data": "2025-09-16",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 11.19,
+  "participantes": 3,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00097",
+  "id_projeto": "P02",
+  "data": "2025-12-02",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 3.48,
+  "participantes": 10,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00098",
+  "id_projeto": "P02",
+  "data": "2025-05-27",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 4.57,
+  "participantes": 8,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00099",
+  "id_projeto": "P02",
+  "data": "2024-03-19",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 7.3,
+  "participantes": 23,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00100",
+  "id_projeto": "P02",
+  "data": "2024-07-27",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 3.71,
+  "participantes": 3,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00101",
+  "id_projeto": "P03",
+  "data": "2025-04-02",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 7.7,
+  "participantes": 11,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00102",
+  "id_projeto": "P03",
+  "data": "2025-11-22",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 6.3,
+  "participantes": 13,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00103",
+  "id_projeto": "P03",
+  "data": "2024-12-25",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 10.65,
+  "participantes": 6,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00104",
+  "id_projeto": "P03",
+  "data": "2025-04-08",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 9.51,
+  "participantes": 19,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00105",
+  "id_projeto": "P03",
+  "data": "2024-06-10",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 10.5,
+  "participantes": 4,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00106",
+  "id_projeto": "P03",
+  "data": "2025-01-05",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 7.17,
+  "participantes": 3,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00107",
+  "id_projeto": "P03",
+  "data": "2025-08-27",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 5.99,
+  "participantes": 4,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00108",
+  "id_projeto": "P03",
+  "data": "2025-12-10",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 3.95,
+  "participantes": 11,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00109",
+  "id_projeto": "P03",
+  "data": "2024-08-23",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 9.92,
+  "participantes": 20,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00110",
+  "id_projeto": "P03",
+  "data": "2025-08-27",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 6.67,
+  "participantes": 13,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00111",
+  "id_projeto": "P03",
+  "data": "2024-03-18",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 6.11,
+  "participantes": 10,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00112",
+  "id_projeto": "P03",
+  "data": "2025-09-25",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 7.95,
+  "participantes": 11,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00113",
+  "id_projeto": "P03",
+  "data": "2024-02-02",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 7.9,
+  "participantes": 21,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00114",
+  "id_projeto": "P03",
+  "data": "2024-12-14",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 3.97,
+  "participantes": 12,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00115",
+  "id_projeto": "P03",
+  "data": "2025-08-26",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 3.9,
+  "participantes": 14,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00116",
+  "id_projeto": "P03",
+  "data": "2024-08-20",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 3.86,
+  "participantes": 23,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00117",
+  "id_projeto": "P03",
+  "data": "2025-02-18",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 7.14,
+  "participantes": 16,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00118",
+  "id_projeto": "P03",
+  "data": "2024-03-18",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 9.51,
+  "participantes": 7,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00119",
+  "id_projeto": "P03",
+  "data": "2024-09-05",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 6.99,
+  "participantes": 7,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00120",
+  "id_projeto": "P03",
+  "data": "2025-02-18",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 4.54,
+  "participantes": 4,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00121",
+  "id_projeto": "P03",
+  "data": "2024-11-13",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 6.73,
+  "participantes": 20,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00122",
+  "id_projeto": "P03",
+  "data": "2024-04-12",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 6.9,
+  "participantes": 14,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00123",
+  "id_projeto": "P03",
+  "data": "2025-07-17",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 4.39,
+  "participantes": 22,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00124",
+  "id_projeto": "P03",
+  "data": "2025-04-24",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 9.9,
+  "participantes": 4,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00125",
+  "id_projeto": "P03",
+  "data": "2025-01-24",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 5.44,
+  "participantes": 21,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00126",
+  "id_projeto": "P03",
+  "data": "2025-01-22",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 7.68,
+  "participantes": 11,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00127",
+  "id_projeto": "P03",
+  "data": "2025-08-17",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 9.66,
+  "participantes": 8,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00128",
+  "id_projeto": "P03",
+  "data": "2024-09-08",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 3.86,
+  "participantes": 4,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00129",
+  "id_projeto": "P03",
+  "data": "2024-01-10",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 7.2,
+  "participantes": 11,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00130",
+  "id_projeto": "P03",
+  "data": "2025-10-12",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 9.91,
+  "participantes": 8,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00131",
+  "id_projeto": "P03",
+  "data": "2025-11-14",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 4.54,
+  "participantes": 7,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00132",
+  "id_projeto": "P03",
+  "data": "2024-05-06",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 10.31,
+  "participantes": 6,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00133",
+  "id_projeto": "P03",
+  "data": "2025-03-04",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 3.53,
+  "participantes": 16,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00134",
+  "id_projeto": "P03",
+  "data": "2025-02-05",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 9.33,
+  "participantes": 18,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00135",
+  "id_projeto": "P03",
+  "data": "2025-05-20",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 8.17,
+  "participantes": 17,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00136",
+  "id_projeto": "P03",
+  "data": "2025-02-08",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 10.24,
+  "participantes": 9,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00137",
+  "id_projeto": "P03",
+  "data": "2024-09-22",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 7.83,
+  "participantes": 3,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00138",
+  "id_projeto": "P03",
+  "data": "2025-07-20",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 2.79,
+  "participantes": 19,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00139",
+  "id_projeto": "P03",
+  "data": "2024-04-08",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 4.29,
+  "participantes": 6,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00140",
+  "id_projeto": "P03",
+  "data": "2025-06-23",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 6.65,
+  "participantes": 18,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00141",
+  "id_projeto": "P03",
+  "data": "2025-02-12",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 9.83,
+  "participantes": 8,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00142",
+  "id_projeto": "P03",
+  "data": "2024-02-26",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 6.88,
+  "participantes": 22,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00143",
+  "id_projeto": "P03",
+  "data": "2024-01-05",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 3.08,
+  "participantes": 8,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00144",
+  "id_projeto": "P03",
+  "data": "2024-04-25",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 4.35,
+  "participantes": 11,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00145",
+  "id_projeto": "P03",
+  "data": "2024-02-25",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 7.95,
+  "participantes": 15,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00146",
+  "id_projeto": "P03",
+  "data": "2024-11-08",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 6.03,
+  "participantes": 11,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00147",
+  "id_projeto": "P03",
+  "data": "2025-04-20",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 10.07,
+  "participantes": 5,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00148",
+  "id_projeto": "P03",
+  "data": "2024-09-18",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 9.64,
+  "participantes": 5,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00149",
+  "id_projeto": "P03",
+  "data": "2025-11-11",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 5.88,
+  "participantes": 22,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00150",
+  "id_projeto": "P03",
+  "data": "2024-09-06",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 3.29,
+  "participantes": 14,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00151",
+  "id_projeto": "P04",
+  "data": "2025-03-26",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 7.77,
+  "participantes": 9,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00152",
+  "id_projeto": "P04",
+  "data": "2024-08-18",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 3.78,
+  "participantes": 4,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00153",
+  "id_projeto": "P04",
+  "data": "2024-10-06",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 6.7,
+  "participantes": 16,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00154",
+  "id_projeto": "P04",
+  "data": "2024-05-16",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 7.18,
+  "participantes": 14,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00155",
+  "id_projeto": "P04",
+  "data": "2024-03-21",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 2.7,
+  "participantes": 3,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00156",
+  "id_projeto": "P04",
+  "data": "2025-10-02",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 8.46,
+  "participantes": 13,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00157",
+  "id_projeto": "P04",
+  "data": "2024-07-11",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 7.21,
+  "participantes": 5,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00158",
+  "id_projeto": "P04",
+  "data": "2024-07-26",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 6.99,
+  "participantes": 22,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00159",
+  "id_projeto": "P04",
+  "data": "2024-11-06",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 4.35,
+  "participantes": 9,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00160",
+  "id_projeto": "P04",
+  "data": "2025-10-26",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 7.05,
+  "participantes": 20,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00161",
+  "id_projeto": "P04",
+  "data": "2024-05-27",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 7.44,
+  "participantes": 22,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00162",
+  "id_projeto": "P04",
+  "data": "2024-09-20",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 3.63,
+  "participantes": 7,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00163",
+  "id_projeto": "P04",
+  "data": "2024-02-07",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 6.8,
+  "participantes": 8,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00164",
+  "id_projeto": "P04",
+  "data": "2024-07-09",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 7.26,
+  "participantes": 19,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00165",
+  "id_projeto": "P04",
+  "data": "2025-10-10",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 8.47,
+  "participantes": 15,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00166",
+  "id_projeto": "P04",
+  "data": "2024-06-27",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 5.72,
+  "participantes": 20,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00167",
+  "id_projeto": "P04",
+  "data": "2025-07-13",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 4.49,
+  "participantes": 20,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00168",
+  "id_projeto": "P04",
+  "data": "2024-04-17",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 4.14,
+  "participantes": 4,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00169",
+  "id_projeto": "P04",
+  "data": "2025-09-12",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 3.4,
+  "participantes": 10,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00170",
+  "id_projeto": "P04",
+  "data": "2025-01-01",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 5.72,
+  "participantes": 23,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00171",
+  "id_projeto": "P04",
+  "data": "2024-04-04",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 8.34,
+  "participantes": 23,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00172",
+  "id_projeto": "P04",
+  "data": "2025-10-16",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 4.74,
+  "participantes": 14,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00173",
+  "id_projeto": "P04",
+  "data": "2025-02-01",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 5.14,
+  "participantes": 21,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00174",
+  "id_projeto": "P04",
+  "data": "2025-05-07",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 8.18,
+  "participantes": 15,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00175",
+  "id_projeto": "P04",
+  "data": "2025-08-23",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 8.28,
+  "participantes": 5,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00176",
+  "id_projeto": "P04",
+  "data": "2025-10-04",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 5.26,
+  "participantes": 20,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00177",
+  "id_projeto": "P04",
+  "data": "2025-04-21",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 4.87,
+  "participantes": 9,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00178",
+  "id_projeto": "P04",
+  "data": "2025-12-04",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 4.36,
+  "participantes": 12,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00179",
+  "id_projeto": "P04",
+  "data": "2024-05-21",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 5.64,
+  "participantes": 22,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00180",
+  "id_projeto": "P04",
+  "data": "2024-02-17",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 3.61,
+  "participantes": 6,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00181",
+  "id_projeto": "P04",
+  "data": "2024-02-18",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 2.42,
+  "participantes": 12,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00182",
+  "id_projeto": "P04",
+  "data": "2025-06-12",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 3.52,
+  "participantes": 13,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00183",
+  "id_projeto": "P04",
+  "data": "2024-09-02",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 4.53,
+  "participantes": 11,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00184",
+  "id_projeto": "P04",
+  "data": "2025-09-18",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 6.73,
+  "participantes": 8,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00185",
+  "id_projeto": "P04",
+  "data": "2025-02-24",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 7.94,
+  "participantes": 10,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00186",
+  "id_projeto": "P04",
+  "data": "2025-09-12",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 7.37,
+  "participantes": 3,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00187",
+  "id_projeto": "P04",
+  "data": "2024-01-26",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 7.34,
+  "participantes": 17,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00188",
+  "id_projeto": "P04",
+  "data": "2025-07-23",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 2.99,
+  "participantes": 8,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00189",
+  "id_projeto": "P04",
+  "data": "2025-08-04",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 8.11,
+  "participantes": 9,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00190",
+  "id_projeto": "P04",
+  "data": "2024-03-25",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 7.15,
+  "participantes": 24,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00191",
+  "id_projeto": "P04",
+  "data": "2024-11-22",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 6.58,
+  "participantes": 17,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00192",
+  "id_projeto": "P04",
+  "data": "2024-06-08",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 4.55,
+  "participantes": 10,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00193",
+  "id_projeto": "P04",
+  "data": "2024-12-10",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 5.84,
+  "participantes": 22,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00194",
+  "id_projeto": "P04",
+  "data": "2024-02-16",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 7.52,
+  "participantes": 21,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00195",
+  "id_projeto": "P04",
+  "data": "2025-10-26",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 2.74,
+  "participantes": 13,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00196",
+  "id_projeto": "P04",
+  "data": "2024-11-12",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 6.61,
+  "participantes": 17,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00197",
+  "id_projeto": "P04",
+  "data": "2024-03-16",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 5.41,
+  "participantes": 5,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00198",
+  "id_projeto": "P04",
+  "data": "2025-04-01",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 5.31,
+  "participantes": 6,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00199",
+  "id_projeto": "P04",
+  "data": "2025-05-05",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 3.04,
+  "participantes": 17,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00200",
+  "id_projeto": "P04",
+  "data": "2025-01-23",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 7.11,
+  "participantes": 15,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00201",
+  "id_projeto": "P05",
+  "data": "2025-05-04",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 4.74,
+  "participantes": 10,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00202",
+  "id_projeto": "P05",
+  "data": "2024-05-07",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 6.49,
+  "participantes": 5,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00203",
+  "id_projeto": "P05",
+  "data": "2024-05-11",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 9.66,
+  "participantes": 9,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00204",
+  "id_projeto": "P05",
+  "data": "2025-02-21",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 5.57,
+  "participantes": 19,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00205",
+  "id_projeto": "P05",
+  "data": "2025-10-26",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 13.24,
+  "participantes": 6,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00206",
+  "id_projeto": "P05",
+  "data": "2025-04-20",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 13.71,
+  "participantes": 17,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00207",
+  "id_projeto": "P05",
+  "data": "2024-01-24",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 9.57,
+  "participantes": 11,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00208",
+  "id_projeto": "P05",
+  "data": "2025-12-27",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 4.86,
+  "participantes": 15,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00209",
+  "id_projeto": "P05",
+  "data": "2024-12-23",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 14.08,
+  "participantes": 11,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00210",
+  "id_projeto": "P05",
+  "data": "2025-03-06",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 12.79,
+  "participantes": 23,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00211",
+  "id_projeto": "P05",
+  "data": "2025-10-19",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 8.86,
+  "participantes": 8,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00212",
+  "id_projeto": "P05",
+  "data": "2025-10-14",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 13.18,
+  "participantes": 21,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00213",
+  "id_projeto": "P05",
+  "data": "2025-07-20",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 8.24,
+  "participantes": 14,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00214",
+  "id_projeto": "P05",
+  "data": "2024-06-08",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 11.44,
+  "participantes": 6,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00215",
+  "id_projeto": "P05",
+  "data": "2025-09-20",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 8.8,
+  "participantes": 13,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00216",
+  "id_projeto": "P05",
+  "data": "2024-09-11",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 8.85,
+  "participantes": 17,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00217",
+  "id_projeto": "P05",
+  "data": "2024-10-02",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 9.99,
+  "participantes": 7,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00218",
+  "id_projeto": "P05",
+  "data": "2024-04-06",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 4.04,
+  "participantes": 4,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00219",
+  "id_projeto": "P05",
+  "data": "2024-03-05",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 12.8,
+  "participantes": 18,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00220",
+  "id_projeto": "P05",
+  "data": "2024-07-13",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 10.96,
+  "participantes": 15,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00221",
+  "id_projeto": "P05",
+  "data": "2024-10-12",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 3.8,
+  "participantes": 22,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00222",
+  "id_projeto": "P05",
+  "data": "2025-10-01",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 14.3,
+  "participantes": 16,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00223",
+  "id_projeto": "P05",
+  "data": "2024-11-19",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 9.85,
+  "participantes": 5,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00224",
+  "id_projeto": "P05",
+  "data": "2024-06-22",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 14.43,
+  "participantes": 5,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00225",
+  "id_projeto": "P05",
+  "data": "2025-11-12",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 9.03,
+  "participantes": 7,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00226",
+  "id_projeto": "P05",
+  "data": "2024-06-05",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 9.05,
+  "participantes": 19,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00227",
+  "id_projeto": "P05",
+  "data": "2024-01-22",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 12.24,
+  "participantes": 11,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00228",
+  "id_projeto": "P05",
+  "data": "2025-05-14",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 3.94,
+  "participantes": 11,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00229",
+  "id_projeto": "P05",
+  "data": "2025-12-21",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 5.61,
+  "participantes": 24,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00230",
+  "id_projeto": "P05",
+  "data": "2025-11-26",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 10.8,
+  "participantes": 13,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00231",
+  "id_projeto": "P05",
+  "data": "2024-04-01",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 8.49,
+  "participantes": 15,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00232",
+  "id_projeto": "P05",
+  "data": "2025-09-16",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 7.59,
+  "participantes": 24,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00233",
+  "id_projeto": "P05",
+  "data": "2025-03-13",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 7.99,
+  "participantes": 20,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00234",
+  "id_projeto": "P05",
+  "data": "2025-12-24",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 7.38,
+  "participantes": 10,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00235",
+  "id_projeto": "P05",
+  "data": "2025-07-11",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 9.44,
+  "participantes": 6,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00236",
+  "id_projeto": "P05",
+  "data": "2025-04-19",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 12.5,
+  "participantes": 24,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00237",
+  "id_projeto": "P05",
+  "data": "2024-09-14",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 6.05,
+  "participantes": 7,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00238",
+  "id_projeto": "P05",
+  "data": "2024-03-14",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 6.57,
+  "participantes": 6,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00239",
+  "id_projeto": "P05",
+  "data": "2025-07-07",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 3.94,
+  "participantes": 9,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00240",
+  "id_projeto": "P05",
+  "data": "2024-06-02",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 7.23,
+  "participantes": 17,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00241",
+  "id_projeto": "P05",
+  "data": "2024-11-12",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 6.01,
+  "participantes": 24,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00242",
+  "id_projeto": "P05",
+  "data": "2024-01-09",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 14.6,
+  "participantes": 22,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00243",
+  "id_projeto": "P05",
+  "data": "2025-08-04",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 11.02,
+  "participantes": 16,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00244",
+  "id_projeto": "P05",
+  "data": "2025-09-02",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 4.94,
+  "participantes": 20,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00245",
+  "id_projeto": "P05",
+  "data": "2025-06-02",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 9.37,
+  "participantes": 11,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00246",
+  "id_projeto": "P05",
+  "data": "2024-05-10",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 10.44,
+  "participantes": 15,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00247",
+  "id_projeto": "P05",
+  "data": "2025-07-24",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 7.74,
+  "participantes": 20,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00248",
+  "id_projeto": "P05",
+  "data": "2025-11-27",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 11.03,
+  "participantes": 15,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00249",
+  "id_projeto": "P05",
+  "data": "2025-07-16",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 4.92,
+  "participantes": 6,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00250",
+  "id_projeto": "P05",
+  "data": "2024-08-23",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 9.06,
+  "participantes": 3,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00251",
+  "id_projeto": "P06",
+  "data": "2025-02-27",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 6.42,
+  "participantes": 16,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00252",
+  "id_projeto": "P06",
+  "data": "2024-01-09",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 5.07,
+  "participantes": 6,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00253",
+  "id_projeto": "P06",
+  "data": "2025-03-16",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 2.12,
+  "participantes": 17,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00254",
+  "id_projeto": "P06",
+  "data": "2024-06-25",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 6.44,
+  "participantes": 6,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00255",
+  "id_projeto": "P06",
+  "data": "2025-11-26",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 4.88,
+  "participantes": 19,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00256",
+  "id_projeto": "P06",
+  "data": "2024-11-11",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 6.13,
+  "participantes": 18,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00257",
+  "id_projeto": "P06",
+  "data": "2025-07-17",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 5.35,
+  "participantes": 21,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00258",
+  "id_projeto": "P06",
+  "data": "2024-02-01",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 6.14,
+  "participantes": 4,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00259",
+  "id_projeto": "P06",
+  "data": "2024-10-10",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 7.48,
+  "participantes": 7,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00260",
+  "id_projeto": "P06",
+  "data": "2025-11-26",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 6.99,
+  "participantes": 7,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00261",
+  "id_projeto": "P06",
+  "data": "2025-06-19",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 3.53,
+  "participantes": 3,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00262",
+  "id_projeto": "P06",
+  "data": "2024-01-13",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 7.05,
+  "participantes": 20,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00263",
+  "id_projeto": "P06",
+  "data": "2024-10-18",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 6.27,
+  "participantes": 10,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00264",
+  "id_projeto": "P06",
+  "data": "2025-06-21",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 2.63,
+  "participantes": 14,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00265",
+  "id_projeto": "P06",
+  "data": "2025-12-27",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 7.02,
+  "participantes": 7,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00266",
+  "id_projeto": "P06",
+  "data": "2025-08-01",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 6.54,
+  "participantes": 16,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00267",
+  "id_projeto": "P06",
+  "data": "2025-06-05",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 4.83,
+  "participantes": 16,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00268",
+  "id_projeto": "P06",
+  "data": "2024-10-22",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 5.21,
+  "participantes": 19,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00269",
+  "id_projeto": "P06",
+  "data": "2024-06-21",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 2.11,
+  "participantes": 15,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00270",
+  "id_projeto": "P06",
+  "data": "2025-10-01",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 7.29,
+  "participantes": 18,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00271",
+  "id_projeto": "P06",
+  "data": "2024-01-13",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 4.98,
+  "participantes": 11,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00272",
+  "id_projeto": "P06",
+  "data": "2025-09-07",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 4.49,
+  "participantes": 7,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00273",
+  "id_projeto": "P06",
+  "data": "2024-11-01",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 4.93,
+  "participantes": 14,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00274",
+  "id_projeto": "P06",
+  "data": "2024-02-13",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 7.61,
+  "participantes": 19,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00275",
+  "id_projeto": "P06",
+  "data": "2025-10-14",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 4.13,
+  "participantes": 11,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00276",
+  "id_projeto": "P06",
+  "data": "2024-01-24",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 4.21,
+  "participantes": 20,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00277",
+  "id_projeto": "P06",
+  "data": "2024-07-22",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 6.31,
+  "participantes": 23,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00278",
+  "id_projeto": "P06",
+  "data": "2024-05-05",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 4.37,
+  "participantes": 8,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00279",
+  "id_projeto": "P06",
+  "data": "2024-11-12",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 2.62,
+  "participantes": 10,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00280",
+  "id_projeto": "P06",
+  "data": "2024-10-15",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 4.85,
+  "participantes": 19,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00281",
+  "id_projeto": "P06",
+  "data": "2024-08-17",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 3.62,
+  "participantes": 23,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00282",
+  "id_projeto": "P06",
+  "data": "2025-04-16",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 7.37,
+  "participantes": 21,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00283",
+  "id_projeto": "P06",
+  "data": "2025-03-09",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 6.71,
+  "participantes": 21,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00284",
+  "id_projeto": "P06",
+  "data": "2025-10-05",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 5.46,
+  "participantes": 19,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00285",
+  "id_projeto": "P06",
+  "data": "2024-10-22",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 7.09,
+  "participantes": 18,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00286",
+  "id_projeto": "P06",
+  "data": "2025-05-10",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 2.26,
+  "participantes": 21,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00287",
+  "id_projeto": "P06",
+  "data": "2025-03-25",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 6.67,
+  "participantes": 13,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00288",
+  "id_projeto": "P06",
+  "data": "2024-01-23",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 2.89,
+  "participantes": 20,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00289",
+  "id_projeto": "P06",
+  "data": "2024-02-20",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 3.64,
+  "participantes": 11,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00290",
+  "id_projeto": "P06",
+  "data": "2024-10-01",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 7.38,
+  "participantes": 19,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00291",
+  "id_projeto": "P06",
+  "data": "2024-05-02",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 7.0,
+  "participantes": 10,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00292",
+  "id_projeto": "P06",
+  "data": "2025-06-18",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 2.29,
+  "participantes": 15,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00293",
+  "id_projeto": "P06",
+  "data": "2024-02-02",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 5.44,
+  "participantes": 4,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00294",
+  "id_projeto": "P06",
+  "data": "2025-03-07",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 6.9,
+  "participantes": 9,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00295",
+  "id_projeto": "P06",
+  "data": "2025-04-22",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 6.22,
+  "participantes": 24,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00296",
+  "id_projeto": "P06",
+  "data": "2025-04-17",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 5.91,
+  "participantes": 5,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00297",
+  "id_projeto": "P06",
+  "data": "2025-08-24",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 2.23,
+  "participantes": 24,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00298",
+  "id_projeto": "P06",
+  "data": "2025-10-25",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 3.46,
+  "participantes": 9,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00299",
+  "id_projeto": "P06",
+  "data": "2025-12-11",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 4.22,
+  "participantes": 17,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00300",
+  "id_projeto": "P06",
+  "data": "2025-01-01",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 4.42,
+  "participantes": 9,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00301",
+  "id_projeto": "P07",
+  "data": "2025-07-14",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 3.37,
+  "participantes": 8,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00302",
+  "id_projeto": "P07",
+  "data": "2024-05-11",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 5.53,
+  "participantes": 12,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00303",
+  "id_projeto": "P07",
+  "data": "2025-10-04",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 5.16,
+  "participantes": 18,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00304",
+  "id_projeto": "P07",
+  "data": "2024-02-21",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 4.26,
+  "participantes": 12,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00305",
+  "id_projeto": "P07",
+  "data": "2024-02-26",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 2.83,
+  "participantes": 14,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00306",
+  "id_projeto": "P07",
+  "data": "2024-01-16",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 4.6,
+  "participantes": 10,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00307",
+  "id_projeto": "P07",
+  "data": "2025-02-25",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 7.45,
+  "participantes": 6,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00308",
+  "id_projeto": "P07",
+  "data": "2024-08-25",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 4.26,
+  "participantes": 3,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00309",
+  "id_projeto": "P07",
+  "data": "2025-12-17",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 4.35,
+  "participantes": 5,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00310",
+  "id_projeto": "P07",
+  "data": "2024-12-07",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 4.31,
+  "participantes": 18,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00311",
+  "id_projeto": "P07",
+  "data": "2024-09-03",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 7.93,
+  "participantes": 14,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00312",
+  "id_projeto": "P07",
+  "data": "2024-08-20",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 4.11,
+  "participantes": 9,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00313",
+  "id_projeto": "P07",
+  "data": "2025-11-24",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 4.71,
+  "participantes": 23,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00314",
+  "id_projeto": "P07",
+  "data": "2024-07-09",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 6.91,
+  "participantes": 22,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00315",
+  "id_projeto": "P07",
+  "data": "2024-10-21",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 2.16,
+  "participantes": 5,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00316",
+  "id_projeto": "P07",
+  "data": "2024-05-24",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 2.7,
+  "participantes": 16,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00317",
+  "id_projeto": "P07",
+  "data": "2025-02-14",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 4.39,
+  "participantes": 14,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00318",
+  "id_projeto": "P07",
+  "data": "2025-07-19",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 7.38,
+  "participantes": 11,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00319",
+  "id_projeto": "P07",
+  "data": "2025-11-05",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 3.73,
+  "participantes": 24,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00320",
+  "id_projeto": "P07",
+  "data": "2024-11-11",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 5.08,
+  "participantes": 22,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00321",
+  "id_projeto": "P07",
+  "data": "2024-04-16",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 4.01,
+  "participantes": 19,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00322",
+  "id_projeto": "P07",
+  "data": "2024-06-17",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 7.31,
+  "participantes": 21,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00323",
+  "id_projeto": "P07",
+  "data": "2024-09-12",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 6.7,
+  "participantes": 4,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00324",
+  "id_projeto": "P07",
+  "data": "2024-11-10",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 4.04,
+  "participantes": 21,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00325",
+  "id_projeto": "P07",
+  "data": "2024-05-02",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 2.28,
+  "participantes": 16,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00326",
+  "id_projeto": "P07",
+  "data": "2025-10-27",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 6.31,
+  "participantes": 23,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00327",
+  "id_projeto": "P07",
+  "data": "2025-08-20",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 2.72,
+  "participantes": 18,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00328",
+  "id_projeto": "P07",
+  "data": "2024-11-23",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 3.67,
+  "participantes": 10,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00329",
+  "id_projeto": "P07",
+  "data": "2025-09-12",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 5.98,
+  "participantes": 15,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00330",
+  "id_projeto": "P07",
+  "data": "2025-11-26",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 6.61,
+  "participantes": 3,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00331",
+  "id_projeto": "P07",
+  "data": "2025-12-15",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 2.39,
+  "participantes": 17,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00332",
+  "id_projeto": "P07",
+  "data": "2024-06-15",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 7.69,
+  "participantes": 10,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00333",
+  "id_projeto": "P07",
+  "data": "2024-02-24",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 2.82,
+  "participantes": 5,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00334",
+  "id_projeto": "P07",
+  "data": "2025-03-10",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 6.33,
+  "participantes": 16,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00335",
+  "id_projeto": "P07",
+  "data": "2024-12-22",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 6.55,
+  "participantes": 9,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00336",
+  "id_projeto": "P07",
+  "data": "2024-01-04",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 4.76,
+  "participantes": 3,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00337",
+  "id_projeto": "P07",
+  "data": "2024-11-20",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 7.1,
+  "participantes": 9,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00338",
+  "id_projeto": "P07",
+  "data": "2024-07-10",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 4.11,
+  "participantes": 15,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00339",
+  "id_projeto": "P07",
+  "data": "2024-06-09",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 3.32,
+  "participantes": 16,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00340",
+  "id_projeto": "P07",
+  "data": "2025-07-19",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 4.04,
+  "participantes": 15,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00341",
+  "id_projeto": "P07",
+  "data": "2025-12-18",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 2.19,
+  "participantes": 21,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00342",
+  "id_projeto": "P07",
+  "data": "2025-10-09",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 2.4,
+  "participantes": 8,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00343",
+  "id_projeto": "P07",
+  "data": "2024-06-05",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 6.82,
+  "participantes": 14,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00344",
+  "id_projeto": "P07",
+  "data": "2024-10-08",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 2.85,
+  "participantes": 19,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00345",
+  "id_projeto": "P07",
+  "data": "2025-02-25",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 6.88,
+  "participantes": 4,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00346",
+  "id_projeto": "P07",
+  "data": "2024-02-23",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 3.76,
+  "participantes": 9,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00347",
+  "id_projeto": "P07",
+  "data": "2025-06-03",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 3.93,
+  "participantes": 7,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00348",
+  "id_projeto": "P07",
+  "data": "2025-01-11",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 6.84,
+  "participantes": 3,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00349",
+  "id_projeto": "P07",
+  "data": "2024-08-06",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 2.74,
+  "participantes": 15,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00350",
+  "id_projeto": "P07",
+  "data": "2025-04-17",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 5.72,
+  "participantes": 14,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00351",
+  "id_projeto": "P08",
+  "data": "2025-10-18",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 11.13,
+  "participantes": 6,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00352",
+  "id_projeto": "P08",
+  "data": "2025-01-03",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 3.78,
+  "participantes": 5,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00353",
+  "id_projeto": "P08",
+  "data": "2024-12-23",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 8.69,
+  "participantes": 10,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00354",
+  "id_projeto": "P08",
+  "data": "2024-03-24",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 5.62,
+  "participantes": 11,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00355",
+  "id_projeto": "P08",
+  "data": "2024-09-07",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 8.13,
+  "participantes": 17,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00356",
+  "id_projeto": "P08",
+  "data": "2025-11-24",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 4.54,
+  "participantes": 24,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00357",
+  "id_projeto": "P08",
+  "data": "2025-01-02",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 5.33,
+  "participantes": 11,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00358",
+  "id_projeto": "P08",
+  "data": "2025-08-15",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 3.93,
+  "participantes": 24,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00359",
+  "id_projeto": "P08",
+  "data": "2024-04-17",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 10.21,
+  "participantes": 13,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00360",
+  "id_projeto": "P08",
+  "data": "2025-08-02",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 3.87,
+  "participantes": 24,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00361",
+  "id_projeto": "P08",
+  "data": "2024-07-22",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 7.8,
+  "participantes": 10,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00362",
+  "id_projeto": "P08",
+  "data": "2025-07-07",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 8.29,
+  "participantes": 4,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00363",
+  "id_projeto": "P08",
+  "data": "2024-03-12",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 6.94,
+  "participantes": 6,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00364",
+  "id_projeto": "P08",
+  "data": "2024-07-22",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 4.62,
+  "participantes": 23,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00365",
+  "id_projeto": "P08",
+  "data": "2024-11-11",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 11.06,
+  "participantes": 24,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00366",
+  "id_projeto": "P08",
+  "data": "2025-08-13",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 6.75,
+  "participantes": 19,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00367",
+  "id_projeto": "P08",
+  "data": "2025-01-25",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 10.42,
+  "participantes": 8,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00368",
+  "id_projeto": "P08",
+  "data": "2024-10-23",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 3.41,
+  "participantes": 18,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00369",
+  "id_projeto": "P08",
+  "data": "2025-06-11",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 10.77,
+  "participantes": 12,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00370",
+  "id_projeto": "P08",
+  "data": "2025-02-17",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 8.72,
+  "participantes": 10,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00371",
+  "id_projeto": "P08",
+  "data": "2024-12-27",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 10.11,
+  "participantes": 11,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00372",
+  "id_projeto": "P08",
+  "data": "2025-03-18",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 8.46,
+  "participantes": 8,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00373",
+  "id_projeto": "P08",
+  "data": "2025-01-25",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 6.37,
+  "participantes": 15,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00374",
+  "id_projeto": "P08",
+  "data": "2024-10-20",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 4.98,
+  "participantes": 15,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00375",
+  "id_projeto": "P08",
+  "data": "2024-07-14",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 4.68,
+  "participantes": 5,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00376",
+  "id_projeto": "P08",
+  "data": "2025-01-08",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 5.76,
+  "participantes": 3,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00377",
+  "id_projeto": "P08",
+  "data": "2025-03-13",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 5.84,
+  "participantes": 19,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00378",
+  "id_projeto": "P08",
+  "data": "2024-11-15",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 10.53,
+  "participantes": 11,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00379",
+  "id_projeto": "P08",
+  "data": "2025-11-13",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 10.06,
+  "participantes": 14,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00380",
+  "id_projeto": "P08",
+  "data": "2024-11-23",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 7.16,
+  "participantes": 24,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00381",
+  "id_projeto": "P08",
+  "data": "2025-10-25",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 6.02,
+  "participantes": 20,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00382",
+  "id_projeto": "P08",
+  "data": "2024-10-18",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 5.36,
+  "participantes": 4,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00383",
+  "id_projeto": "P08",
+  "data": "2024-10-01",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 2.97,
+  "participantes": 5,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00384",
+  "id_projeto": "P08",
+  "data": "2024-09-17",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 6.1,
+  "participantes": 20,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00385",
+  "id_projeto": "P08",
+  "data": "2025-06-20",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 10.63,
+  "participantes": 11,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00386",
+  "id_projeto": "P08",
+  "data": "2024-01-22",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 9.49,
+  "participantes": 21,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00387",
+  "id_projeto": "P08",
+  "data": "2025-03-02",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 6.27,
+  "participantes": 4,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00388",
+  "id_projeto": "P08",
+  "data": "2025-04-08",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 7.8,
+  "participantes": 14,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00389",
+  "id_projeto": "P08",
+  "data": "2025-07-02",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 7.17,
+  "participantes": 13,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00390",
+  "id_projeto": "P08",
+  "data": "2025-03-08",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 5.05,
+  "participantes": 17,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00391",
+  "id_projeto": "P08",
+  "data": "2025-01-05",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 10.5,
+  "participantes": 24,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00392",
+  "id_projeto": "P08",
+  "data": "2025-10-08",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 4.01,
+  "participantes": 9,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00393",
+  "id_projeto": "P08",
+  "data": "2024-06-04",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 4.63,
+  "participantes": 8,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00394",
+  "id_projeto": "P08",
+  "data": "2024-10-23",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 3.93,
+  "participantes": 17,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00395",
+  "id_projeto": "P08",
+  "data": "2025-10-04",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 7.54,
+  "participantes": 13,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00396",
+  "id_projeto": "P08",
+  "data": "2025-04-21",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 4.86,
+  "participantes": 20,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00397",
+  "id_projeto": "P08",
+  "data": "2025-12-23",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 3.5,
+  "participantes": 16,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00398",
+  "id_projeto": "P08",
+  "data": "2024-09-03",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 7.27,
+  "participantes": 4,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00399",
+  "id_projeto": "P08",
+  "data": "2025-01-06",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 3.92,
+  "participantes": 14,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00400",
+  "id_projeto": "P08",
+  "data": "2024-12-13",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 11.05,
+  "participantes": 19,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00401",
+  "id_projeto": "P09",
+  "data": "2025-11-08",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 8.6,
+  "participantes": 12,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00402",
+  "id_projeto": "P09",
+  "data": "2025-04-20",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 5.9,
+  "participantes": 4,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00403",
+  "id_projeto": "P09",
+  "data": "2024-05-24",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 3.42,
+  "participantes": 8,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00404",
+  "id_projeto": "P09",
+  "data": "2024-09-03",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 7.22,
+  "participantes": 3,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00405",
+  "id_projeto": "P09",
+  "data": "2025-01-10",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 8.59,
+  "participantes": 15,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00406",
+  "id_projeto": "P09",
+  "data": "2025-09-07",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 9.23,
+  "participantes": 6,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00407",
+  "id_projeto": "P09",
+  "data": "2024-09-17",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 8.02,
+  "participantes": 5,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00408",
+  "id_projeto": "P09",
+  "data": "2024-10-16",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 7.57,
+  "participantes": 24,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00409",
+  "id_projeto": "P09",
+  "data": "2024-07-15",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 3.28,
+  "participantes": 22,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00410",
+  "id_projeto": "P09",
+  "data": "2025-01-04",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 9.43,
+  "participantes": 5,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00411",
+  "id_projeto": "P09",
+  "data": "2025-12-19",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 6.87,
+  "participantes": 13,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00412",
+  "id_projeto": "P09",
+  "data": "2024-11-26",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 3.56,
+  "participantes": 22,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00413",
+  "id_projeto": "P09",
+  "data": "2024-07-20",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 3.64,
+  "participantes": 23,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00414",
+  "id_projeto": "P09",
+  "data": "2025-05-13",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 9.65,
+  "participantes": 21,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00415",
+  "id_projeto": "P09",
+  "data": "2024-09-10",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 5.87,
+  "participantes": 19,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00416",
+  "id_projeto": "P09",
+  "data": "2024-04-25",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 4.1,
+  "participantes": 18,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00417",
+  "id_projeto": "P09",
+  "data": "2024-08-04",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 4.01,
+  "participantes": 5,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00418",
+  "id_projeto": "P09",
+  "data": "2024-03-24",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 4.99,
+  "participantes": 24,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00419",
+  "id_projeto": "P09",
+  "data": "2025-02-12",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 3.18,
+  "participantes": 16,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00420",
+  "id_projeto": "P09",
+  "data": "2024-04-24",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 5.26,
+  "participantes": 3,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00421",
+  "id_projeto": "P09",
+  "data": "2024-01-16",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 9.04,
+  "participantes": 23,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00422",
+  "id_projeto": "P09",
+  "data": "2025-02-21",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 4.62,
+  "participantes": 8,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00423",
+  "id_projeto": "P09",
+  "data": "2025-04-15",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 8.68,
+  "participantes": 22,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00424",
+  "id_projeto": "P09",
+  "data": "2024-11-24",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 3.16,
+  "participantes": 8,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00425",
+  "id_projeto": "P09",
+  "data": "2025-03-26",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 6.79,
+  "participantes": 6,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00426",
+  "id_projeto": "P09",
+  "data": "2025-01-17",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 5.75,
+  "participantes": 9,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00427",
+  "id_projeto": "P09",
+  "data": "2025-03-25",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 7.81,
+  "participantes": 16,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00428",
+  "id_projeto": "P09",
+  "data": "2024-06-04",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 5.01,
+  "participantes": 20,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00429",
+  "id_projeto": "P09",
+  "data": "2024-10-26",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 4.96,
+  "participantes": 14,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00430",
+  "id_projeto": "P09",
+  "data": "2024-10-04",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 6.18,
+  "participantes": 16,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00431",
+  "id_projeto": "P09",
+  "data": "2025-09-06",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 9.35,
+  "participantes": 17,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00432",
+  "id_projeto": "P09",
+  "data": "2025-11-04",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 2.66,
+  "participantes": 15,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00433",
+  "id_projeto": "P09",
+  "data": "2024-10-22",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 8.37,
+  "participantes": 14,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00434",
+  "id_projeto": "P09",
+  "data": "2025-11-02",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 8.85,
+  "participantes": 8,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00435",
+  "id_projeto": "P09",
+  "data": "2025-05-15",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 5.71,
+  "participantes": 22,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00436",
+  "id_projeto": "P09",
+  "data": "2025-03-15",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 7.5,
+  "participantes": 3,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00437",
+  "id_projeto": "P09",
+  "data": "2024-10-26",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 3.11,
+  "participantes": 24,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00438",
+  "id_projeto": "P09",
+  "data": "2025-04-12",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 3.48,
+  "participantes": 12,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00439",
+  "id_projeto": "P09",
+  "data": "2024-08-12",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 7.76,
+  "participantes": 10,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00440",
+  "id_projeto": "P09",
+  "data": "2025-03-16",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 9.56,
+  "participantes": 20,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00441",
+  "id_projeto": "P09",
+  "data": "2025-05-18",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 7.93,
+  "participantes": 22,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00442",
+  "id_projeto": "P09",
+  "data": "2025-03-06",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 9.39,
+  "participantes": 8,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00443",
+  "id_projeto": "P09",
+  "data": "2025-06-13",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 8.22,
+  "participantes": 20,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00444",
+  "id_projeto": "P09",
+  "data": "2025-04-27",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 7.46,
+  "participantes": 9,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00445",
+  "id_projeto": "P09",
+  "data": "2025-12-14",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 8.54,
+  "participantes": 22,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00446",
+  "id_projeto": "P09",
+  "data": "2025-02-08",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 8.24,
+  "participantes": 21,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00447",
+  "id_projeto": "P09",
+  "data": "2025-02-06",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 4.89,
+  "participantes": 22,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00448",
+  "id_projeto": "P09",
+  "data": "2025-12-11",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 5.11,
+  "participantes": 3,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00449",
+  "id_projeto": "P09",
+  "data": "2025-10-14",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 6.53,
+  "participantes": 5,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00450",
+  "id_projeto": "P09",
+  "data": "2024-08-19",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 6.11,
+  "participantes": 13,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00451",
+  "id_projeto": "P10",
+  "data": "2025-01-23",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 4.7,
+  "participantes": 14,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00452",
+  "id_projeto": "P10",
+  "data": "2025-10-24",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 7.19,
+  "participantes": 7,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00453",
+  "id_projeto": "P10",
+  "data": "2024-09-27",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 15.05,
+  "participantes": 4,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00454",
+  "id_projeto": "P10",
+  "data": "2024-10-03",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 13.88,
+  "participantes": 5,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00455",
+  "id_projeto": "P10",
+  "data": "2025-11-17",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 8.27,
+  "participantes": 16,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00456",
+  "id_projeto": "P10",
+  "data": "2024-09-03",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 7.06,
+  "participantes": 22,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00457",
+  "id_projeto": "P10",
+  "data": "2025-11-18",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 6.18,
+  "participantes": 9,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00458",
+  "id_projeto": "P10",
+  "data": "2024-02-19",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 11.37,
+  "participantes": 9,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00459",
+  "id_projeto": "P10",
+  "data": "2024-10-14",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 8.2,
+  "participantes": 5,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00460",
+  "id_projeto": "P10",
+  "data": "2025-03-05",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 8.67,
+  "participantes": 17,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00461",
+  "id_projeto": "P10",
+  "data": "2025-02-15",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 5.38,
+  "participantes": 22,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00462",
+  "id_projeto": "P10",
+  "data": "2024-09-11",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 7.24,
+  "participantes": 16,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00463",
+  "id_projeto": "P10",
+  "data": "2024-09-15",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 6.32,
+  "participantes": 16,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00464",
+  "id_projeto": "P10",
+  "data": "2025-12-02",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 15.51,
+  "participantes": 3,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00465",
+  "id_projeto": "P10",
+  "data": "2025-06-17",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 10.2,
+  "participantes": 20,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00466",
+  "id_projeto": "P10",
+  "data": "2025-04-14",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 9.36,
+  "participantes": 6,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00467",
+  "id_projeto": "P10",
+  "data": "2025-07-13",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 11.58,
+  "participantes": 13,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00468",
+  "id_projeto": "P10",
+  "data": "2024-02-04",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 5.34,
+  "participantes": 13,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00469",
+  "id_projeto": "P10",
+  "data": "2025-10-04",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 9.01,
+  "participantes": 24,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00470",
+  "id_projeto": "P10",
+  "data": "2024-10-09",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 15.83,
+  "participantes": 17,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00471",
+  "id_projeto": "P10",
+  "data": "2024-11-26",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 10.78,
+  "participantes": 19,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00472",
+  "id_projeto": "P10",
+  "data": "2024-02-03",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 4.63,
+  "participantes": 21,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00473",
+  "id_projeto": "P10",
+  "data": "2025-08-06",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 4.99,
+  "participantes": 23,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00474",
+  "id_projeto": "P10",
+  "data": "2025-11-15",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 16.79,
+  "participantes": 23,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00475",
+  "id_projeto": "P10",
+  "data": "2025-08-10",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 16.21,
+  "participantes": 24,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00476",
+  "id_projeto": "P10",
+  "data": "2025-08-18",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 6.21,
+  "participantes": 9,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00477",
+  "id_projeto": "P10",
+  "data": "2025-03-19",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 7.9,
+  "participantes": 8,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00478",
+  "id_projeto": "P10",
+  "data": "2025-01-03",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 13.74,
+  "participantes": 21,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00479",
+  "id_projeto": "P10",
+  "data": "2025-06-15",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 7.67,
+  "participantes": 17,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00480",
+  "id_projeto": "P10",
+  "data": "2024-06-09",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 11.59,
+  "participantes": 17,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00481",
+  "id_projeto": "P10",
+  "data": "2025-05-05",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 4.74,
+  "participantes": 7,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00482",
+  "id_projeto": "P10",
+  "data": "2024-08-15",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 15.09,
+  "participantes": 19,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00483",
+  "id_projeto": "P10",
+  "data": "2025-03-05",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 9.04,
+  "participantes": 4,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00484",
+  "id_projeto": "P10",
+  "data": "2024-05-07",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 7.03,
+  "participantes": 23,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00485",
+  "id_projeto": "P10",
+  "data": "2024-09-11",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 13.75,
+  "participantes": 5,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00486",
+  "id_projeto": "P10",
+  "data": "2025-04-02",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 13.53,
+  "participantes": 17,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00487",
+  "id_projeto": "P10",
+  "data": "2024-11-24",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 8.14,
+  "participantes": 19,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00488",
+  "id_projeto": "P10",
+  "data": "2024-04-23",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 13.42,
+  "participantes": 10,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00489",
+  "id_projeto": "P10",
+  "data": "2024-03-09",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 8.27,
+  "participantes": 22,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00490",
+  "id_projeto": "P10",
+  "data": "2025-05-03",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 4.56,
+  "participantes": 6,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00491",
+  "id_projeto": "P10",
+  "data": "2025-07-18",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 14.99,
+  "participantes": 19,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00492",
+  "id_projeto": "P10",
+  "data": "2024-11-23",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 9.61,
+  "participantes": 8,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00493",
+  "id_projeto": "P10",
+  "data": "2025-05-21",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 8.6,
+  "participantes": 13,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00494",
+  "id_projeto": "P10",
+  "data": "2025-06-02",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 11.61,
+  "participantes": 16,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00495",
+  "id_projeto": "P10",
+  "data": "2025-02-25",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 7.86,
+  "participantes": 14,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00496",
+  "id_projeto": "P10",
+  "data": "2025-02-26",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 7.03,
+  "participantes": 15,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00497",
+  "id_projeto": "P10",
+  "data": "2025-10-16",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 12.76,
+  "participantes": 21,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00498",
+  "id_projeto": "P10",
+  "data": "2025-12-15",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 16.37,
+  "participantes": 10,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00499",
+  "id_projeto": "P10",
+  "data": "2024-09-17",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 9.66,
+  "participantes": 14,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00500",
+  "id_projeto": "P10",
+  "data": "2025-09-05",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 7.98,
+  "participantes": 15,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00501",
+  "id_projeto": "P11",
+  "data": "2024-03-23",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 3.13,
+  "participantes": 20,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00502",
+  "id_projeto": "P11",
+  "data": "2025-07-14",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 3.29,
+  "participantes": 12,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00503",
+  "id_projeto": "P11",
+  "data": "2024-07-05",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 4.88,
+  "participantes": 5,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00504",
+  "id_projeto": "P11",
+  "data": "2024-08-23",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 3.21,
+  "participantes": 5,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00505",
+  "id_projeto": "P11",
+  "data": "2024-01-26",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 5.8,
+  "participantes": 15,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00506",
+  "id_projeto": "P11",
+  "data": "2025-09-19",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 3.52,
+  "participantes": 6,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00507",
+  "id_projeto": "P11",
+  "data": "2025-07-13",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 6.43,
+  "participantes": 16,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00508",
+  "id_projeto": "P11",
+  "data": "2024-01-27",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 3.62,
+  "participantes": 23,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00509",
+  "id_projeto": "P11",
+  "data": "2025-08-19",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 3.85,
+  "participantes": 15,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00510",
+  "id_projeto": "P11",
+  "data": "2025-06-02",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 2.07,
+  "participantes": 3,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00511",
+  "id_projeto": "P11",
+  "data": "2024-04-26",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 2.09,
+  "participantes": 12,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00512",
+  "id_projeto": "P11",
+  "data": "2025-08-22",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 3.9,
+  "participantes": 7,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00513",
+  "id_projeto": "P11",
+  "data": "2024-11-24",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 3.28,
+  "participantes": 12,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00514",
+  "id_projeto": "P11",
+  "data": "2025-12-18",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 5.79,
+  "participantes": 15,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00515",
+  "id_projeto": "P11",
+  "data": "2025-03-24",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 4.27,
+  "participantes": 15,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00516",
+  "id_projeto": "P11",
+  "data": "2024-12-02",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 7.1,
+  "participantes": 7,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00517",
+  "id_projeto": "P11",
+  "data": "2024-09-17",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 3.47,
+  "participantes": 23,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00518",
+  "id_projeto": "P11",
+  "data": "2024-08-20",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 4.27,
+  "participantes": 18,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00519",
+  "id_projeto": "P11",
+  "data": "2025-12-21",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 5.45,
+  "participantes": 14,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00520",
+  "id_projeto": "P11",
+  "data": "2025-07-21",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 2.71,
+  "participantes": 11,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00521",
+  "id_projeto": "P11",
+  "data": "2025-01-03",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 3.03,
+  "participantes": 21,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00522",
+  "id_projeto": "P11",
+  "data": "2025-03-08",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 3.92,
+  "participantes": 5,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00523",
+  "id_projeto": "P11",
+  "data": "2025-05-23",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 5.29,
+  "participantes": 9,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00524",
+  "id_projeto": "P11",
+  "data": "2025-11-19",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 3.86,
+  "participantes": 7,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00525",
+  "id_projeto": "P11",
+  "data": "2024-05-05",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 3.38,
+  "participantes": 12,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00526",
+  "id_projeto": "P11",
+  "data": "2025-01-23",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 6.57,
+  "participantes": 3,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00527",
+  "id_projeto": "P11",
+  "data": "2024-11-17",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 6.92,
+  "participantes": 11,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00528",
+  "id_projeto": "P11",
+  "data": "2025-01-15",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 2.67,
+  "participantes": 24,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00529",
+  "id_projeto": "P11",
+  "data": "2025-06-27",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 2.43,
+  "participantes": 21,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00530",
+  "id_projeto": "P11",
+  "data": "2025-01-04",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 1.88,
+  "participantes": 14,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00531",
+  "id_projeto": "P11",
+  "data": "2024-12-06",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 3.77,
+  "participantes": 14,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00532",
+  "id_projeto": "P11",
+  "data": "2024-11-24",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 3.58,
+  "participantes": 17,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00533",
+  "id_projeto": "P11",
+  "data": "2024-08-23",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 2.07,
+  "participantes": 18,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00534",
+  "id_projeto": "P11",
+  "data": "2024-03-19",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 4.25,
+  "participantes": 22,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00535",
+  "id_projeto": "P11",
+  "data": "2024-10-03",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 6.43,
+  "participantes": 20,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00536",
+  "id_projeto": "P11",
+  "data": "2024-04-03",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 5.71,
+  "participantes": 9,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00537",
+  "id_projeto": "P11",
+  "data": "2024-01-06",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 2.56,
+  "participantes": 10,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00538",
+  "id_projeto": "P11",
+  "data": "2024-11-01",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 5.55,
+  "participantes": 18,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00539",
+  "id_projeto": "P11",
+  "data": "2025-03-08",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 4.31,
+  "participantes": 22,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00540",
+  "id_projeto": "P11",
+  "data": "2024-10-15",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 4.7,
+  "participantes": 9,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00541",
+  "id_projeto": "P11",
+  "data": "2025-11-05",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 5.13,
+  "participantes": 18,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00542",
+  "id_projeto": "P11",
+  "data": "2025-04-18",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 6.91,
+  "participantes": 13,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00543",
+  "id_projeto": "P11",
+  "data": "2025-02-18",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 4.42,
+  "participantes": 9,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00544",
+  "id_projeto": "P11",
+  "data": "2024-06-19",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 5.2,
+  "participantes": 12,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00545",
+  "id_projeto": "P11",
+  "data": "2025-03-10",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 2.76,
+  "participantes": 18,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00546",
+  "id_projeto": "P11",
+  "data": "2024-02-17",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 6.29,
+  "participantes": 19,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00547",
+  "id_projeto": "P11",
+  "data": "2025-08-20",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 6.73,
+  "participantes": 16,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00548",
+  "id_projeto": "P11",
+  "data": "2025-01-21",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 3.57,
+  "participantes": 18,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00549",
+  "id_projeto": "P11",
+  "data": "2025-02-08",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 3.64,
+  "participantes": 11,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00550",
+  "id_projeto": "P11",
+  "data": "2024-09-03",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 3.63,
+  "participantes": 21,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00551",
+  "id_projeto": "P12",
+  "data": "2025-07-17",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 13.29,
+  "participantes": 24,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00552",
+  "id_projeto": "P12",
+  "data": "2024-08-16",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 10.54,
+  "participantes": 4,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00553",
+  "id_projeto": "P12",
+  "data": "2024-10-16",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 12.36,
+  "participantes": 22,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00554",
+  "id_projeto": "P12",
+  "data": "2025-02-19",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 12.23,
+  "participantes": 13,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00555",
+  "id_projeto": "P12",
+  "data": "2024-04-18",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 6.76,
+  "participantes": 24,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00556",
+  "id_projeto": "P12",
+  "data": "2024-07-27",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 9.38,
+  "participantes": 19,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00557",
+  "id_projeto": "P12",
+  "data": "2024-11-15",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 8.02,
+  "participantes": 14,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00558",
+  "id_projeto": "P12",
+  "data": "2025-07-11",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 10.45,
+  "participantes": 16,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00559",
+  "id_projeto": "P12",
+  "data": "2025-02-15",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 8.01,
+  "participantes": 11,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00560",
+  "id_projeto": "P12",
+  "data": "2024-03-25",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 9.58,
+  "participantes": 4,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00561",
+  "id_projeto": "P12",
+  "data": "2024-12-27",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 8.33,
+  "participantes": 8,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00562",
+  "id_projeto": "P12",
+  "data": "2024-09-27",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 6.62,
+  "participantes": 17,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00563",
+  "id_projeto": "P12",
+  "data": "2025-07-13",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 12.8,
+  "participantes": 22,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00564",
+  "id_projeto": "P12",
+  "data": "2025-04-12",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 8.5,
+  "participantes": 20,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00565",
+  "id_projeto": "P12",
+  "data": "2025-05-04",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 6.22,
+  "participantes": 11,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00566",
+  "id_projeto": "P12",
+  "data": "2025-04-06",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 4.27,
+  "participantes": 19,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00567",
+  "id_projeto": "P12",
+  "data": "2025-12-27",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 6.27,
+  "participantes": 8,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00568",
+  "id_projeto": "P12",
+  "data": "2025-12-04",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 4.01,
+  "participantes": 19,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00569",
+  "id_projeto": "P12",
+  "data": "2024-07-02",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 6.89,
+  "participantes": 19,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00570",
+  "id_projeto": "P12",
+  "data": "2025-09-02",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 11.8,
+  "participantes": 8,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00571",
+  "id_projeto": "P12",
+  "data": "2025-04-06",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 10.18,
+  "participantes": 14,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00572",
+  "id_projeto": "P12",
+  "data": "2024-02-17",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 10.82,
+  "participantes": 14,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00573",
+  "id_projeto": "P12",
+  "data": "2024-04-20",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 7.75,
+  "participantes": 7,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00574",
+  "id_projeto": "P12",
+  "data": "2024-05-17",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 11.72,
+  "participantes": 21,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00575",
+  "id_projeto": "P12",
+  "data": "2024-05-04",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 4.18,
+  "participantes": 17,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00576",
+  "id_projeto": "P12",
+  "data": "2024-03-08",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 6.9,
+  "participantes": 3,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00577",
+  "id_projeto": "P12",
+  "data": "2024-08-05",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 10.41,
+  "participantes": 24,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00578",
+  "id_projeto": "P12",
+  "data": "2025-03-27",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 10.63,
+  "participantes": 20,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00579",
+  "id_projeto": "P12",
+  "data": "2025-02-10",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 4.15,
+  "participantes": 4,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00580",
+  "id_projeto": "P12",
+  "data": "2024-09-15",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 3.5,
+  "participantes": 4,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00581",
+  "id_projeto": "P12",
+  "data": "2024-11-15",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 5.9,
+  "participantes": 20,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00582",
+  "id_projeto": "P12",
+  "data": "2024-07-11",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 7.11,
+  "participantes": 19,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00583",
+  "id_projeto": "P12",
+  "data": "2025-10-12",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 7.05,
+  "participantes": 10,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00584",
+  "id_projeto": "P12",
+  "data": "2025-09-21",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 5.69,
+  "participantes": 11,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00585",
+  "id_projeto": "P12",
+  "data": "2025-04-16",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 8.08,
+  "participantes": 20,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00586",
+  "id_projeto": "P12",
+  "data": "2025-09-22",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 7.7,
+  "participantes": 12,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00587",
+  "id_projeto": "P12",
+  "data": "2025-02-17",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 6.13,
+  "participantes": 13,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00588",
+  "id_projeto": "P12",
+  "data": "2025-12-13",
+  "tipo_evento": "reuniao_equipa",
+  "horas_reuniao": 10.85,
+  "participantes": 4,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00589",
+  "id_projeto": "P12",
+  "data": "2024-05-20",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 6.21,
+  "participantes": 12,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00590",
+  "id_projeto": "P12",
+  "data": "2024-12-12",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 5.22,
+  "participantes": 7,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00591",
+  "id_projeto": "P12",
+  "data": "2025-03-17",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 10.65,
+  "participantes": 19,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00592",
+  "id_projeto": "P12",
+  "data": "2024-01-02",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 9.26,
+  "participantes": 18,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00593",
+  "id_projeto": "P12",
+  "data": "2024-08-20",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 4.92,
+  "participantes": 5,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00594",
+  "id_projeto": "P12",
+  "data": "2025-08-22",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 10.75,
+  "participantes": 13,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00595",
+  "id_projeto": "P12",
+  "data": "2025-12-18",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 4.46,
+  "participantes": 21,
+  "descricao": "revisao de plano"
+ },
+ {
+  "id": "EC00596",
+  "id_projeto": "P12",
+  "data": "2024-02-25",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 8.89,
+  "participantes": 14,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00597",
+  "id_projeto": "P12",
+  "data": "2025-10-08",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 9.36,
+  "participantes": 20,
+  "descricao": "coordenacao de atividades"
+ },
+ {
+  "id": "EC00598",
+  "id_projeto": "P12",
+  "data": "2024-01-11",
+  "tipo_evento": "formacao",
+  "horas_reuniao": 10.01,
+  "participantes": 20,
+  "descricao": "alinhamento de equipa"
+ },
+ {
+  "id": "EC00599",
+  "id_projeto": "P12",
+  "data": "2024-03-10",
+  "tipo_evento": "avaliacao",
+  "horas_reuniao": 12.51,
+  "participantes": 11,
+  "descricao": "Coordenacao Geral"
+ },
+ {
+  "id": "EC00600",
+  "id_projeto": "P12",
+  "data": "2025-06-01",
+  "tipo_evento": "alinhamento",
+  "horas_reuniao": 7.8,
+  "participantes": 7,
+  "descricao": "coordenacao de atividades"
+ }
+]

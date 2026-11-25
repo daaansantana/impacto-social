@@ -1,0 +1,2343 @@
+id;id_projeto;data;tipo_atividade;participantes;horas;recursos_utilizados;resultado_atividade
+AT014261;P07;2024-02-02;apoio_estudo;66;7,93;transporte;
+AT014262;P07;2025-12-04;apoio_estudo;23;8,72;voluntarios;Resultado regular
+AT014263;P07;2025-10-20;apoio_estudo;9;7,48;sala;resultado regular
+AT014264;P07;2024-08-10;apoio_estudo;68;5,68;equipamento;objetivos atingidos
+AT014265;P07;2024-09-04;apoio_estudo;57;3,63;material;Participacao elevada
+AT014266;P07;2024-02-07;aula;37;4,68;voluntarios;objetivos atingidos
+AT014267;P07;2025-08-08;apoio_estudo;69;4,58;sala;objetivos atingidos
+AT014268;P07;2024-07-25;oficina_educativa;5;3,62;voluntarios;
+AT014269;P07;2024-07-24;apoio_estudo;42;5,71;voluntarios;resultado regular
+AT014270;P07;2024-02-05;aula;19;2,51;equipamento;participacao elevada
+AT014271;P07;2025-04-05;oficina_educativa;9;3,85;equipamento;resultado regular
+AT014272;P07;2024-04-07;apoio_estudo;57;3,57;equipamento;participacao elevada
+AT014273;P07;2025-12-16;apoio_estudo;12;2,29;sala;sem registo
+AT014274;P07;2025-07-10;apoio_estudo;38;2,05;voluntarios;resultado regular
+AT014275;P07;2024-01-22;oficina_educativa;50;2,14;material;sem registo
+AT014276;P07;2025-04-21;apoio_estudo;12;8,93;transporte;
+AT014277;P07;2025-06-01;aula;62;5,19;transporte;resultado regular
+AT014278;P07;2025-06-06;oficina_educativa;31;4,90;voluntarios;resultado regular
+AT014279;P07;2024-04-11;apoio_estudo;28;3,27;material;resultado regular
+AT014280;P07;2024-04-08;apoio_estudo;68;8,18;equipamento;
+AT014281;P07;2025-07-09;aula;68;3,92;sala;sem registo
+AT014282;P07;2024-05-26;aula;65;4,19;voluntarios;sem registo
+AT014283;P07;2024-01-12;apoio_estudo;34;5,94;material;resultado regular
+AT014284;P07;2025-08-24;oficina_educativa;57;8,34;sala;participacao elevada
+AT014285;P07;2025-06-01;aula;12;3,86;sala;com atraso
+AT014286;P07;2024-10-26;oficina_educativa;28;8,04;voluntarios;Resultado regular
+AT014287;P07;2025-10-06;oficina_educativa;45;4,74;voluntarios;
+AT014288;P07;2024-12-02;aula;31;5,49;transporte;participacao elevada
+AT014289;P07;2025-06-19;aula;9;5,28;sala;
+AT014290;P07;2024-03-08;aula;56;4,47;transporte;participacao elevada
+AT014291;P07;2024-03-05;aula;55;4,14;voluntarios;resultado regular
+AT014292;P07;2025-01-06;aula;20;5,03;sala;participacao elevada
+AT014293;P07;2025-08-25;oficina_educativa;38;4,89;sala;
+AT014294;P07;2025-09-22;aula;31;8,65;transporte;objetivos atingidos
+AT014295;P07;2024-03-21;apoio_estudo;43;6,89;material;objetivos atingidos
+AT014296;P07;2024-03-08;oficina_educativa;51;8,77;voluntarios;com atraso
+AT014297;P07;2024-05-19;aula;55;7,35;transporte;resultado regular
+AT014298;P07;2025-07-20;aula;39;2,55;equipamento;sem registo
+AT014299;P07;2025-08-02;apoio_estudo;52;2,31;transporte;sem registo
+AT014300;P07;2025-09-13;apoio_estudo;54;3,62;sala;Resultado regular
+AT014301;P07;2024-11-17;oficina_educativa;17;7,43;transporte;resultado regular
+AT014302;P07;2024-09-05;apoio_estudo;55;6,20;equipamento;objetivos atingidos
+AT014303;P07;2024-02-15;apoio_estudo;22;8,28;equipamento;sem registo
+AT014304;P07;2024-08-10;oficina_educativa;35;4,13;transporte;resultado regular
+AT014305;P07;2025-08-01;apoio_estudo;15;6,53;sala;resultado regular
+AT014306;P07;2025-11-15;aula;49;8,07;sala;
+AT014307;P07;2024-12-17;apoio_estudo;9;8,94;equipamento;Resultado regular
+AT014308;P07;2024-07-11;aula;50;5,56;transporte;com atraso
+AT014309;P07;2025-09-26;oficina_educativa;56;7,23;sala;Participacao elevada
+AT014310;P07;2024-02-09;oficina_educativa;22;5,41;equipamento;com atraso
+AT014311;P07;2025-05-10;apoio_estudo;30;8,00;voluntarios;participacao elevada
+AT014312;P07;2024-11-18;oficina_educativa;40;7,87;transporte;Participacao elevada
+AT014313;P07;2025-11-13;apoio_estudo;36;3,55;material;objetivos atingidos
+AT014314;P07;2024-08-18;aula;40;4,14;transporte;Participacao elevada
+AT014315;P07;2024-08-16;oficina_educativa;16;3,91;material;sem registo
+AT014316;P07;2025-09-08;aula;16;3,03;transporte;Resultado regular
+AT014317;P07;2025-08-08;apoio_estudo;62;2,09;sala;Participacao elevada
+AT014318;P07;2024-07-14;aula;38;2,22;material;sem registo
+AT014319;P07;2025-09-06;oficina_educativa;44;5,96;voluntarios;resultado regular
+AT014320;P07;2024-07-18;aula;31;2,16;sala;sem registo
+AT014321;P07;2024-02-10;aula;65;4,82;transporte;
+AT014322;P07;2024-01-07;apoio_estudo;34;3,54;equipamento;resultado regular
+AT014323;P07;2024-11-27;apoio_estudo;55;4,76;sala;objetivos atingidos
+AT014324;P07;2024-11-03;aula;43;2,72;sala;com atraso
+AT014325;P07;2025-12-17;oficina_educativa;13;2,10;material;Participacao elevada
+AT014326;P07;2024-04-11;aula;46;5,09;voluntarios;sem registo
+AT014327;P07;2024-06-21;aula;22;2,92;material;Participacao elevada
+AT014328;P07;2025-10-07;aula;62;2,11;sala;
+AT014329;P07;2025-11-23;oficina_educativa;58;8,90;material;resultado regular
+AT014330;P07;2024-01-04;oficina_educativa;20;3,39;transporte;Participacao elevada
+AT014331;P07;2025-11-16;aula;31;2,49;transporte;Resultado regular
+AT014332;P07;2025-12-18;apoio_estudo;65;3,71;equipamento;
+AT014333;P07;2024-03-11;aula;67;7,26;transporte;Resultado regular
+AT014334;P07;2025-06-24;aula;28;8,04;sala;Resultado regular
+AT014335;P07;2024-01-03;apoio_estudo;30;8,17;sala;resultado regular
+AT014336;P07;2024-06-05;apoio_estudo;12;6,96;equipamento;Resultado regular
+AT014337;P07;2025-01-14;oficina_educativa;51;2,29;voluntarios;sem registo
+AT014338;P07;2025-12-21;oficina_educativa;49;3,61;transporte;resultado regular
+AT014339;P07;2024-12-12;aula;46;5,09;transporte;objetivos atingidos
+AT014339;P07;2024-12-12;aula;46;5,09;transporte;objetivos atingidos
+AT014340;P07;2024-08-20;oficina_educativa;66;5,17;material;Resultado regular
+AT014341;P07;2025-11-10;apoio_estudo;26;5,88;equipamento;Resultado regular
+AT014341;P07;2025-11-10;apoio_estudo;26;5,88;equipamento;Resultado regular
+AT014342;P07;2024-07-07;aula;38;4,59;voluntarios;
+AT014343;P07;2025-04-08;apoio_estudo;40;5,00;sala;
+AT014344;P07;2024-06-13;aula;63;3,50;sala;Participacao elevada
+AT014345;P07;2024-10-14;oficina_educativa;36;6,25;sala;Participacao elevada
+AT014346;P07;2024-12-21;oficina_educativa;28;8,64;sala;Participacao elevada
+AT014347;P07;2024-05-16;aula;28;4,55;voluntarios;resultado regular
+AT014348;P07;2025-01-05;aula;16;2,36;sala;Resultado regular
+AT014349;P07;2024-02-25;apoio_estudo;51;5,67;transporte;objetivos atingidos
+AT014350;P07;2024-06-07;oficina_educativa;69;6,76;voluntarios;
+AT014351;P07;2024-05-14;aula;65;7,38;sala;participacao elevada
+AT014352;P07;2025-01-13;apoio_estudo;53;5,64;equipamento;participacao elevada
+AT014353;P07;2025-06-19;oficina_educativa;21;5,61;sala;participacao elevada
+AT014354;P07;2024-09-19;oficina_educativa;22;3,19;transporte;sem registo
+AT014355;P07;2024-06-01;aula;57;8,38;equipamento;resultado regular
+AT014356;P07;2025-09-15;apoio_estudo;66;3,96;voluntarios;Participacao elevada
+AT014357;P07;2025-12-16;aula;45;3,66;equipamento;Participacao elevada
+AT014358;P07;2025-11-19;aula;36;6,99;equipamento;
+AT014359;P07;2024-05-26;oficina_educativa;31;5,06;voluntarios;
+AT014360;P07;2025-02-10;oficina_educativa;46;6,22;material;resultado regular
+AT014361;P07;2025-12-05;apoio_estudo;20;5,00;voluntarios;Resultado regular
+AT014362;P07;2024-06-17;oficina_educativa;18;6,94;transporte;resultado regular
+AT014363;P07;2025-05-22;oficina_educativa;5;6,98;equipamento;participacao elevada
+AT014364;P07;2024-11-04;apoio_estudo;38;7,99;voluntarios;com atraso
+AT014365;P07;2025-03-13;oficina_educativa;26;6,01;sala;Resultado regular
+AT014366;P07;2025-08-22;oficina_educativa;11;4,46;sala;Participacao elevada
+AT014367;P07;2025-09-06;aula;63;4,70;sala;Resultado regular
+AT014368;P07;2024-03-04;apoio_estudo;55;4,55;transporte;Participacao elevada
+AT014369;P07;2024-03-22;aula;25;2,79;material;
+AT014370;P07;2025-01-10;oficina_educativa;41;4,77;sala;
+AT014371;P07;2025-05-10;oficina_educativa;24;8,86;equipamento;participacao elevada
+AT014372;P07;2025-03-04;oficina_educativa;54;2,49;transporte;Resultado regular
+AT014373;P07;2024-01-07;oficina_educativa;64;4,41;transporte;
+AT014374;P07;2025-06-15;aula;9;8,71;equipamento;sem registo
+AT014375;P07;2024-03-17;apoio_estudo;33;8,28;material;objetivos atingidos
+AT014376;P07;2025-02-23;oficina_educativa;17;6,26;sala;
+AT014376;P07;2025-02-23;oficina_educativa;17;6,26;sala;
+AT014377;P07;2024-11-09;oficina_educativa;54;3,90;sala;sem registo
+AT014378;P07;2025-03-04;aula;23;5,28;voluntarios;participacao elevada
+AT014379;P07;2025-11-22;apoio_estudo;32;5,31;voluntarios;Resultado regular
+AT014380;P07;2025-07-26;aula;66;5,50;voluntarios;com atraso
+AT014381;P07;2025-03-15;oficina_educativa;67;4,21;sala;Resultado regular
+AT014382;P07;2025-06-04;apoio_estudo;47;4,10;equipamento;
+AT014383;P07;2025-10-20;aula;45;8,39;equipamento;
+AT014384;P07;2025-12-19;aula;69;4,51;transporte;Participacao elevada
+AT014385;P07;2025-12-06;oficina_educativa;64;6,96;transporte;Participacao elevada
+AT014386;P07;2024-11-23;oficina_educativa;10;2,62;material;sem registo
+AT014387;P07;2024-06-11;aula;61;7,40;transporte;objetivos atingidos
+AT014388;P07;2025-03-07;aula;42;5,82;sala;resultado regular
+AT014389;P07;2024-05-03;oficina_educativa;62;7,03;sala;resultado regular
+AT014390;P07;2025-10-19;apoio_estudo;15;2,01;equipamento;Resultado regular
+AT014391;P07;2024-04-13;aula;45;7,54;sala;Resultado regular
+AT014392;P07;2024-01-13;apoio_estudo;56;6,58;voluntarios;resultado regular
+AT014393;P07;2024-02-20;aula;8;8,62;material;
+AT014394;P07;2025-08-14;aula;5;7,85;voluntarios;
+AT014395;P07;2025-08-23;apoio_estudo;55;4,68;sala;sem registo
+AT014396;P07;2024-11-15;apoio_estudo;34;7,20;voluntarios;com atraso
+AT014397;P07;2025-12-16;apoio_estudo;11;6,86;sala;Participacao elevada
+AT014398;P07;2025-10-05;aula;40;6,76;voluntarios;participacao elevada
+AT014399;P07;2025-07-09;oficina_educativa;15;8,44;material;resultado regular
+AT014400;P07;2024-11-16;aula;44;2,02;voluntarios;Resultado regular
+AT014401;P07;2024-09-25;aula;42;5,80;voluntarios;Resultado regular
+AT014402;P07;2024-04-02;apoio_estudo;40;2,11;transporte;Participacao elevada
+AT014403;P07;2024-06-09;apoio_estudo;17;8,34;transporte;resultado regular
+AT014404;P07;2024-09-26;apoio_estudo;14;7,20;equipamento;objetivos atingidos
+AT014405;P07;2025-12-02;aula;33;6,72;equipamento;
+AT014406;P07;2024-10-15;oficina_educativa;51;8,25;material;Participacao elevada
+AT014407;P07;2024-08-08;oficina_educativa;49;4,79;equipamento;
+AT014408;P07;2024-05-18;oficina_educativa;36;8,44;material;participacao elevada
+AT014409;P07;2025-08-02;aula;69;8,40;transporte;resultado regular
+AT014410;P07;2025-04-01;apoio_estudo;19;3,34;material;participacao elevada
+AT014411;P07;2024-05-20;apoio_estudo;22;7,31;equipamento;
+AT014412;P07;2025-05-20;oficina_educativa;17;5,24;voluntarios;resultado regular
+AT014413;P07;2025-11-16;oficina_educativa;30;3,53;sala;com atraso
+AT014414;P07;2025-12-21;oficina_educativa;19;8,03;material;com atraso
+AT014415;P07;2024-08-11;apoio_estudo;25;4,24;sala;
+AT014416;P07;2025-07-11;aula;13;5,25;material;com atraso
+AT014417;P07;2025-09-17;oficina_educativa;36;7,32;sala;com atraso
+AT014418;P07;2024-01-16;oficina_educativa;17;8,00;transporte;participacao elevada
+AT014419;P07;2025-03-10;oficina_educativa;67;4,65;material;objetivos atingidos
+AT014420;P07;2025-06-13;aula;52;7,79;voluntarios;resultado regular
+AT014421;P07;2024-05-09;aula;10;7,79;voluntarios;resultado regular
+AT014422;P07;2025-09-26;aula;63;8,26;sala;Resultado regular
+AT014423;P07;2025-03-12;apoio_estudo;35;2,94;material;
+AT014424;P07;2024-12-07;aula;33;7,40;equipamento;sem registo
+AT014425;P07;2024-06-02;oficina_educativa;62;4,06;transporte;Resultado regular
+AT014426;P07;2025-12-10;apoio_estudo;54;4,58;sala;
+AT014427;P07;2025-12-01;apoio_estudo;11;7,49;material;sem registo
+AT014428;P07;2025-11-20;aula;36;7,17;material;
+AT014429;P07;2025-12-22;apoio_estudo;24;4,28;material;com atraso
+AT014430;P07;2024-03-13;aula;9;3,96;voluntarios;
+AT014431;P07;2024-03-01;aula;15;7,52;equipamento;com atraso
+AT014432;P07;2025-04-02;oficina_educativa;52;7,45;material;com atraso
+AT014433;P07;2024-03-27;apoio_estudo;21;2,16;equipamento;com atraso
+AT014434;P07;2025-11-10;aula;61;6,30;transporte;
+AT014435;P07;2024-07-06;oficina_educativa;63;7,53;voluntarios;
+AT014436;P07;2025-02-09;oficina_educativa;28;7,65;transporte;participacao elevada
+AT014437;P07;2024-11-26;aula;69;3,08;material;participacao elevada
+AT014438;P07;2025-01-21;aula;22;5,22;voluntarios;objetivos atingidos
+AT014438;P07;2025-01-21;aula;22;5,22;voluntarios;objetivos atingidos
+AT014439;P07;2024-02-19;apoio_estudo;18;7,60;sala;resultado regular
+AT014440;P07;2025-11-19;apoio_estudo;21;7,11;voluntarios;resultado regular
+AT014441;P07;2025-06-27;apoio_estudo;69;6,76;transporte;sem registo
+AT014442;P07;2025-08-10;aula;24;6,94;material;Resultado regular
+AT014443;P07;2024-10-26;apoio_estudo;22;5,39;material;Resultado regular
+AT014444;P07;2024-04-13;oficina_educativa;42;2,85;sala;
+AT014445;P07;2024-06-07;oficina_educativa;62;4,07;equipamento;com atraso
+AT014446;P07;2025-07-05;apoio_estudo;33;2,13;sala;
+AT014447;P07;2025-12-20;apoio_estudo;22;4,34;transporte;Participacao elevada
+AT014448;P07;2024-12-27;apoio_estudo;39;4,30;material;Resultado regular
+AT014449;P07;2025-01-02;oficina_educativa;43;7,62;material;objetivos atingidos
+AT014450;P07;2025-07-24;aula;51;4,97;equipamento;com atraso
+AT014451;P07;2024-01-09;apoio_estudo;44;6,87;equipamento;
+AT014452;P07;2024-10-03;oficina_educativa;43;7,16;sala;Resultado regular
+AT014453;P07;2024-11-22;oficina_educativa;33;5,16;sala;resultado regular
+AT014454;P07;2024-06-24;aula;18;4,04;transporte;objetivos atingidos
+AT014455;P07;2024-12-02;apoio_estudo;45;7,22;voluntarios;participacao elevada
+AT014456;P07;2025-07-26;aula;19;5,19;equipamento;sem registo
+AT014457;P07;2025-08-12;oficina_educativa;24;2,10;voluntarios;Resultado regular
+AT014458;P07;2024-04-03;oficina_educativa;36;2,20;transporte;com atraso
+AT014459;P07;2024-12-11;apoio_estudo;17;4,00;material;resultado regular
+AT014460;P07;2025-08-01;oficina_educativa;38;7,66;equipamento;Resultado regular
+AT014461;P07;2025-04-02;apoio_estudo;27;4,07;voluntarios;sem registo
+AT014462;P07;2025-07-26;apoio_estudo;61;2,56;voluntarios;resultado regular
+AT014463;P07;2025-07-27;apoio_estudo;19;3,02;equipamento;objetivos atingidos
+AT014464;P07;2024-12-10;oficina_educativa;28;3,10;sala;
+AT014465;P07;2024-03-23;aula;60;3,43;material;
+AT014466;P07;2025-02-14;oficina_educativa;52;2,35;voluntarios;objetivos atingidos
+AT014467;P07;2024-12-10;oficina_educativa;9;3,38;material;Participacao elevada
+AT014468;P07;2024-09-18;oficina_educativa;26;6,97;voluntarios;Resultado regular
+AT014469;P07;2025-11-16;oficina_educativa;13;2,32;material;
+AT014470;P07;2025-03-27;oficina_educativa;67;2,16;sala;
+AT014470;P07;2025-03-27;oficina_educativa;67;2,16;sala;
+AT014471;P07;2024-05-26;oficina_educativa;65;2,79;sala;resultado regular
+AT014472;P07;2025-02-18;oficina_educativa;47;8,22;material;sem registo
+AT014473;P07;2024-04-16;aula;34;4,04;material;
+AT014474;P07;2024-07-20;apoio_estudo;26;3,45;sala;
+AT014475;P07;2025-02-17;aula;61;3,88;material;objetivos atingidos
+AT014476;P07;2025-03-16;apoio_estudo;67;5,57;material;
+AT014477;P07;2025-02-15;aula;20;6,86;transporte;com atraso
+AT014478;P07;2024-08-07;aula;59;7,46;voluntarios;com atraso
+AT014479;P07;2025-06-09;aula;10;7,02;sala;
+AT014480;P07;2025-10-15;oficina_educativa;32;8,88;sala;
+AT014481;P07;2025-07-01;oficina_educativa;68;3,64;sala;participacao elevada
+AT014482;P07;2025-09-23;aula;61;4,77;equipamento;Participacao elevada
+AT014483;P07;2025-10-16;apoio_estudo;9;7,11;voluntarios;com atraso
+AT014484;P07;2024-07-10;aula;62;8,87;voluntarios;Resultado regular
+AT014485;P07;2024-11-14;aula;33;4,83;material;
+AT014486;P07;2025-07-02;aula;57;4,12;transporte;Participacao elevada
+AT014487;P07;2025-12-06;apoio_estudo;34;8,52;voluntarios;com atraso
+AT014488;P07;2024-12-10;oficina_educativa;45;8,85;equipamento;Resultado regular
+AT014489;P07;2024-10-06;apoio_estudo;38;8,91;material;Resultado regular
+AT014490;P07;2025-07-27;apoio_estudo;34;2,56;voluntarios;resultado regular
+AT014491;P07;2025-08-19;oficina_educativa;52;8,32;voluntarios;com atraso
+AT014492;P07;2025-02-13;oficina_educativa;7;4,56;sala;
+AT014493;P07;2025-03-21;apoio_estudo;10;6,43;material;Resultado regular
+AT014494;P07;2025-03-27;oficina_educativa;5;2,68;sala;participacao elevada
+AT014495;P07;2025-07-10;oficina_educativa;68;8,80;voluntarios;
+AT014496;P07;2024-06-23;aula;59;3,30;material;resultado regular
+AT014497;P07;2025-01-16;oficina_educativa;37;6,27;material;Participacao elevada
+AT014498;P07;2024-08-15;oficina_educativa;12;5,82;voluntarios;sem registo
+AT014499;P07;2025-03-10;apoio_estudo;61;3,11;transporte;Resultado regular
+AT014500;P07;2025-02-14;aula;69;7,30;equipamento;sem registo
+AT014501;P07;2024-08-25;aula;46;4,38;material;
+AT014502;P07;2025-08-19;apoio_estudo;41;2,81;sala;participacao elevada
+AT014503;P07;2025-10-05;apoio_estudo;17;5,77;equipamento;Resultado regular
+AT014504;P07;2024-09-07;apoio_estudo;57;3,14;material;objetivos atingidos
+AT014505;P07;2025-08-12;oficina_educativa;38;3,66;transporte;objetivos atingidos
+AT014506;P07;2025-08-26;aula;31;2,54;transporte;participacao elevada
+AT014507;P07;2025-12-07;aula;58;2,43;equipamento;Participacao elevada
+AT014508;P07;2024-10-02;oficina_educativa;44;3,17;material;resultado regular
+AT014509;P07;2025-05-27;oficina_educativa;7;8,07;sala;com atraso
+AT014510;P07;2025-09-17;apoio_estudo;61;4,89;transporte;com atraso
+AT014511;P07;2025-11-20;apoio_estudo;56;4,41;equipamento;participacao elevada
+AT014512;P07;2024-11-21;aula;48;5,86;sala;objetivos atingidos
+AT014513;P07;2025-06-15;oficina_educativa;30;5,51;voluntarios;
+AT014514;P07;2024-03-23;apoio_estudo;21;5,80;transporte;Resultado regular
+AT014515;P07;2024-07-25;apoio_estudo;30;3,29;voluntarios;Resultado regular
+AT014516;P07;2025-07-16;apoio_estudo;51;4,17;voluntarios;
+AT014516;P07;2025-07-16;apoio_estudo;51;4,17;voluntarios;
+AT014517;P07;2024-09-04;oficina_educativa;21;2,55;sala;
+AT014518;P07;2024-12-13;aula;45;4,50;sala;com atraso
+AT014519;P07;2025-05-05;aula;39;8,29;voluntarios;resultado regular
+AT014520;P07;2024-06-06;aula;25;8,64;equipamento;Resultado regular
+AT014521;P07;2024-07-27;apoio_estudo;43;2,98;material;Participacao elevada
+AT014522;P07;2024-09-01;aula;61;6,13;sala;Participacao elevada
+AT014523;P07;2024-12-06;apoio_estudo;10;5,39;equipamento;sem registo
+AT014524;P07;2024-01-02;aula;62;5,75;transporte;sem registo
+AT014525;P07;2024-12-15;apoio_estudo;16;3,54;voluntarios;
+AT014526;P07;2024-12-04;aula;18;6,52;voluntarios;Participacao elevada
+AT014527;P07;2025-07-01;oficina_educativa;18;6,61;equipamento;sem registo
+AT014528;P07;2025-04-03;apoio_estudo;36;5,51;transporte;
+AT014529;P07;2024-11-04;oficina_educativa;57;3,41;sala;com atraso
+AT014530;P07;2025-12-05;apoio_estudo;35;7,54;transporte;sem registo
+AT014531;P07;2025-03-10;apoio_estudo;42;3,53;sala;com atraso
+AT014532;P07;2024-12-24;aula;66;5,47;material;com atraso
+AT014533;P07;2024-12-25;aula;18;4,49;equipamento;Participacao elevada
+AT014534;P07;2025-05-09;oficina_educativa;19;5,29;voluntarios;objetivos atingidos
+AT014535;P07;2025-09-17;apoio_estudo;51;2,10;equipamento;resultado regular
+AT014536;P07;2025-12-01;aula;57;2,56;transporte;objetivos atingidos
+AT014537;P07;2025-03-24;oficina_educativa;19;3,74;equipamento;objetivos atingidos
+AT014538;P07;2024-10-21;apoio_estudo;53;8,36;sala;Participacao elevada
+AT014539;P07;2025-12-13;oficina_educativa;50;6,24;equipamento;
+AT014540;P07;2025-12-13;apoio_estudo;34;6,85;sala;objetivos atingidos
+AT014541;P07;2025-08-20;oficina_educativa;42;4,68;equipamento;sem registo
+AT014542;P07;2025-08-07;apoio_estudo;43;7,29;material;com atraso
+AT014543;P07;2025-03-18;aula;46;8,44;voluntarios;com atraso
+AT014544;P07;2024-09-12;aula;65;2,42;sala;objetivos atingidos
+AT014545;P07;2024-10-14;oficina_educativa;67;7,13;transporte;resultado regular
+AT014546;P07;2024-11-09;apoio_estudo;68;6,34;voluntarios;Resultado regular
+AT014547;P07;2025-06-16;aula;54;3,58;equipamento;
+AT014548;P07;2025-06-09;aula;53;3,75;equipamento;Participacao elevada
+AT014549;P07;2024-11-14;aula;27;3,66;equipamento;
+AT014550;P07;2024-07-04;oficina_educativa;22;4,07;equipamento;sem registo
+AT014551;P07;2024-01-10;oficina_educativa;67;3,06;voluntarios;Resultado regular
+AT014552;P07;2025-10-14;oficina_educativa;68;7,81;sala;
+AT014553;P07;2025-03-25;apoio_estudo;7;4,93;material;objetivos atingidos
+AT014554;P07;2025-10-12;apoio_estudo;36;7,88;material;
+AT014555;P07;2025-08-06;oficina_educativa;44;7,37;sala;sem registo
+AT014556;P07;2024-02-15;aula;61;5,88;voluntarios;resultado regular
+AT014557;P07;2024-07-10;apoio_estudo;19;6,46;voluntarios;objetivos atingidos
+AT014558;P07;2025-07-10;aula;18;8,32;material;Resultado regular
+AT014559;P07;2025-01-06;oficina_educativa;20;5,30;material;sem registo
+AT014559;P07;2025-01-06;oficina_educativa;20;5,30;material;sem registo
+AT014560;P07;2024-01-13;oficina_educativa;15;4,56;material;
+AT014561;P07;2025-07-25;oficina_educativa;44;5,94;equipamento;Participacao elevada
+AT014562;P07;2024-09-18;oficina_educativa;54;8,47;material;participacao elevada
+AT014563;P07;2024-12-21;aula;64;5,96;voluntarios;
+AT014564;P07;2025-09-24;oficina_educativa;64;2,75;transporte;com atraso
+AT014565;P07;2025-04-24;apoio_estudo;67;8,88;transporte;
+AT014566;P07;2025-02-08;aula;47;3,95;transporte;Participacao elevada
+AT014567;P07;2025-11-08;oficina_educativa;28;5,22;transporte;objetivos atingidos
+AT014568;P07;2024-11-21;aula;11;3,41;voluntarios;sem registo
+AT014569;P07;2025-08-06;apoio_estudo;30;7,00;material;objetivos atingidos
+AT014570;P07;2024-10-17;apoio_estudo;18;7,24;voluntarios;
+AT014571;P07;2025-08-04;apoio_estudo;62;4,60;voluntarios;participacao elevada
+AT014572;P07;2025-09-27;aula;6;3,88;sala;Participacao elevada
+AT014573;P07;2024-04-06;apoio_estudo;59;5,88;material;Resultado regular
+AT014574;P07;2025-04-25;apoio_estudo;66;3,34;voluntarios;participacao elevada
+AT014575;P07;2024-02-23;apoio_estudo;63;8,15;equipamento;participacao elevada
+AT014576;P07;2025-04-08;oficina_educativa;34;4,92;sala;objetivos atingidos
+AT014577;P07;2025-04-07;aula;60;4,20;material;com atraso
+AT014578;P07;2024-04-07;apoio_estudo;50;3,78;material;participacao elevada
+AT014579;P07;2025-11-16;aula;18;2,37;transporte;objetivos atingidos
+AT014580;P07;2025-03-26;oficina_educativa;67;6,31;voluntarios;
+AT014581;P07;2024-11-25;apoio_estudo;19;6,44;transporte;Participacao elevada
+AT014582;P07;2025-04-03;apoio_estudo;64;3,57;equipamento;
+AT014583;P07;2024-10-11;apoio_estudo;30;8,11;sala;objetivos atingidos
+AT014583;P07;2024-10-11;apoio_estudo;30;8,11;sala;objetivos atingidos
+AT014584;P07;2025-06-26;aula;50;7,74;equipamento;objetivos atingidos
+AT014585;P07;2025-02-13;aula;42;2,59;equipamento;Resultado regular
+AT014586;P07;2025-10-06;aula;59;2,78;material;Resultado regular
+AT014587;P07;2024-12-01;oficina_educativa;68;5,51;material;
+AT014588;P07;2024-12-01;oficina_educativa;41;2,23;material;
+AT014589;P07;2024-12-10;apoio_estudo;49;2,61;transporte;participacao elevada
+AT014590;P07;2025-05-01;oficina_educativa;14;5,34;sala;
+AT014591;P07;2025-01-03;oficina_educativa;35;7,56;material;resultado regular
+AT014592;P07;2025-12-06;aula;36;6,50;transporte;participacao elevada
+AT014593;P07;2025-08-10;apoio_estudo;15;4,45;transporte;com atraso
+AT014594;P07;2024-08-10;apoio_estudo;67;8,99;voluntarios;
+AT014595;P07;2024-08-25;aula;34;4,38;transporte;objetivos atingidos
+AT014596;P07;2024-11-13;aula;18;7,66;equipamento;participacao elevada
+AT014597;P07;2025-12-20;oficina_educativa;29;4,96;sala;
+AT014598;P07;2024-12-05;oficina_educativa;56;6,90;voluntarios;Participacao elevada
+AT014599;P07;2025-02-22;apoio_estudo;44;8,05;voluntarios;Resultado regular
+AT014600;P07;2025-01-19;oficina_educativa;8;3,70;equipamento;
+AT014601;P07;2024-09-27;apoio_estudo;43;2,29;material;Participacao elevada
+AT014602;P07;2025-11-13;oficina_educativa;36;5,93;sala;participacao elevada
+AT014603;P07;2024-12-10;oficina_educativa;62;2,08;transporte;sem registo
+AT014604;P07;2025-03-15;oficina_educativa;33;3,08;sala;com atraso
+AT014605;P07;2024-10-21;aula;36;3,73;voluntarios;participacao elevada
+AT014606;P07;2024-10-13;apoio_estudo;63;4,62;transporte;objetivos atingidos
+AT014607;P07;2024-10-12;apoio_estudo;55;6,48;equipamento;participacao elevada
+AT014608;P07;2024-09-16;aula;59;7,48;transporte;
+AT014609;P07;2025-12-18;oficina_educativa;13;3,82;material;participacao elevada
+AT014610;P07;2024-12-15;aula;13;5,16;voluntarios;com atraso
+AT014611;P07;2024-01-14;apoio_estudo;34;5,53;transporte;resultado regular
+AT014612;P07;2024-08-16;apoio_estudo;61;8,77;transporte;participacao elevada
+AT014613;P07;2024-11-21;aula;67;3,38;equipamento;Resultado regular
+AT014614;P07;2024-03-20;apoio_estudo;62;3,15;equipamento;Participacao elevada
+AT014615;P07;2024-12-18;aula;8;5,50;sala;
+AT014616;P07;2024-11-16;oficina_educativa;52;3,53;equipamento;
+AT014617;P07;2024-10-14;aula;22;8,42;sala;
+AT014618;P07;2025-05-05;oficina_educativa;41;7,43;sala;
+AT014619;P07;2025-08-14;apoio_estudo;68;2,52;sala;
+AT014620;P07;2025-01-21;oficina_educativa;19;3,35;equipamento;Resultado regular
+AT014621;P07;2024-02-27;oficina_educativa;49;4,94;equipamento;objetivos atingidos
+AT014622;P07;2025-04-17;apoio_estudo;25;7,62;transporte;resultado regular
+AT014623;P07;2024-10-23;aula;9;3,49;equipamento;Participacao elevada
+AT014624;P07;2024-05-06;oficina_educativa;9;4,96;transporte;participacao elevada
+AT014625;P07;2025-11-07;apoio_estudo;49;6,90;voluntarios;objetivos atingidos
+AT014626;P07;2024-08-27;oficina_educativa;43;5,71;material;participacao elevada
+AT014627;P07;2024-07-24;apoio_estudo;34;6,91;transporte;com atraso
+AT014628;P07;2025-01-17;apoio_estudo;20;3,16;material;participacao elevada
+AT014629;P07;2024-12-24;oficina_educativa;68;6,36;material;participacao elevada
+AT014630;P07;2024-11-05;oficina_educativa;16;4,26;material;
+AT014631;P07;2025-10-18;apoio_estudo;19;4,53;material;resultado regular
+AT014632;P07;2024-02-20;apoio_estudo;9;5,41;equipamento;com atraso
+AT014633;P07;2024-01-04;aula;27;8,02;material;com atraso
+AT014634;P07;2024-07-23;aula;49;7,93;sala;objetivos atingidos
+AT014635;P07;2024-05-18;oficina_educativa;22;8,04;voluntarios;sem registo
+AT014636;P07;2024-11-14;aula;42;7,02;transporte;participacao elevada
+AT014637;P07;2024-12-16;apoio_estudo;5;5,16;material;com atraso
+AT014638;P07;2024-06-03;oficina_educativa;7;3,24;sala;com atraso
+AT014639;P07;2024-12-19;apoio_estudo;15;4,82;voluntarios;objetivos atingidos
+AT014640;P07;2024-05-12;apoio_estudo;68;7,98;transporte;
+AT014641;P07;2025-02-02;aula;61;2,96;voluntarios;
+AT014642;P07;2024-06-14;aula;29;7,63;transporte;participacao elevada
+AT014643;P07;2024-01-23;apoio_estudo;5;4,36;voluntarios;objetivos atingidos
+AT014644;P07;2025-04-07;oficina_educativa;27;7,93;transporte;com atraso
+AT014645;P07;2024-12-06;aula;21;6,19;material;
+AT014646;P07;2024-12-09;aula;22;2,56;material;com atraso
+AT014647;P07;2024-05-14;apoio_estudo;26;6,85;sala;Participacao elevada
+AT014648;P07;2024-09-16;apoio_estudo;15;5,27;equipamento;participacao elevada
+AT014649;P07;2024-04-21;apoio_estudo;47;2,08;voluntarios;Resultado regular
+AT014650;P07;2024-12-16;oficina_educativa;6;3,67;voluntarios;
+AT014651;P07;2025-05-08;oficina_educativa;44;4,41;sala;
+AT014652;P07;2025-09-06;oficina_educativa;15;8,81;sala;objetivos atingidos
+AT014653;P07;2024-09-08;apoio_estudo;25;4,49;sala;sem registo
+AT014654;P07;2025-02-19;oficina_educativa;53;6,28;transporte;sem registo
+AT014655;P07;2025-06-22;oficina_educativa;56;3,84;equipamento;com atraso
+AT014655;P07;2025-06-22;oficina_educativa;56;3,84;equipamento;com atraso
+AT014656;P07;2024-09-22;aula;26;3,74;material;Participacao elevada
+AT014657;P07;2025-01-25;aula;51;4,48;sala;resultado regular
+AT014658;P07;2025-04-12;apoio_estudo;12;8,07;transporte;resultado regular
+AT014659;P07;2024-11-21;aula;32;8,66;voluntarios;Resultado regular
+AT014660;P07;2025-09-14;aula;13;6,04;material;
+AT014661;P07;2024-05-18;apoio_estudo;12;6,45;material;sem registo
+AT014662;P07;2025-10-04;oficina_educativa;52;8,02;material;participacao elevada
+AT014663;P07;2025-07-06;oficina_educativa;62;4,93;voluntarios;
+AT014664;P07;2025-12-23;apoio_estudo;60;8,88;material;resultado regular
+AT014665;P07;2024-01-17;aula;64;6,04;sala;com atraso
+AT014666;P07;2025-06-20;apoio_estudo;37;7,84;sala;Participacao elevada
+AT014667;P07;2024-03-27;oficina_educativa;47;5,68;material;
+AT014668;P07;2024-04-15;aula;57;3,32;material;com atraso
+AT014669;P07;2024-08-13;oficina_educativa;40;2,43;material;
+AT014670;P07;2025-09-03;apoio_estudo;40;6,61;sala;Participacao elevada
+AT014671;P07;2024-04-07;aula;35;6,73;material;
+AT014672;P07;2025-10-11;oficina_educativa;52;2,74;material;com atraso
+AT014673;P07;2024-02-17;oficina_educativa;53;5,04;transporte;resultado regular
+AT014674;P07;2025-03-13;aula;69;5,24;equipamento;Participacao elevada
+AT014675;P07;2025-03-14;aula;44;5,80;transporte;
+AT014676;P07;2025-12-16;aula;28;6,05;transporte;sem registo
+AT014677;P07;2024-05-10;oficina_educativa;43;6,16;transporte;
+AT014678;P07;2024-03-03;aula;10;3,12;transporte;com atraso
+AT014679;P07;2024-07-08;aula;6;7,88;sala;com atraso
+AT014680;P07;2025-06-21;aula;62;3,79;equipamento;participacao elevada
+AT014681;P07;2025-12-03;oficina_educativa;68;3,06;sala;resultado regular
+AT014682;P07;2024-08-07;apoio_estudo;15;7,59;material;objetivos atingidos
+AT014683;P07;2024-06-24;apoio_estudo;27;7,73;sala;
+AT014684;P07;2025-12-15;oficina_educativa;27;3,22;material;resultado regular
+AT014685;P07;2025-11-23;aula;31;2,92;material;participacao elevada
+AT014686;P07;2024-02-08;aula;61;3,36;transporte;Participacao elevada
+AT014687;P07;2024-07-14;aula;23;2,39;sala;participacao elevada
+AT014688;P07;2024-11-18;aula;31;3,44;material;resultado regular
+AT014689;P07;2025-11-26;aula;15;8,21;transporte;resultado regular
+AT014690;P07;2024-02-16;aula;10;7,50;material;resultado regular
+AT014691;P07;2024-09-08;oficina_educativa;65;8,26;equipamento;sem registo
+AT014692;P07;2024-03-01;apoio_estudo;35;8,34;transporte;com atraso
+AT014693;P07;2025-06-17;oficina_educativa;25;7,12;voluntarios;Resultado regular
+AT014694;P07;2025-07-07;aula;33;3,13;sala;participacao elevada
+AT014695;P07;2025-11-07;aula;5;3,92;material;
+AT014696;P07;2024-02-21;aula;52;8,60;transporte;resultado regular
+AT014697;P07;2024-04-14;oficina_educativa;65;4,73;material;
+AT014698;P07;2024-09-23;apoio_estudo;12;7,25;material;
+AT014699;P07;2024-06-24;oficina_educativa;36;7,67;transporte;resultado regular
+AT014700;P07;2025-02-08;aula;40;8,54;material;
+AT014701;P07;2024-07-07;aula;31;5,96;equipamento;sem registo
+AT014702;P07;2024-07-12;aula;67;7,78;material;participacao elevada
+AT014703;P07;2024-11-21;oficina_educativa;44;8,52;sala;sem registo
+AT014704;P07;2024-01-14;oficina_educativa;31;8,85;material;objetivos atingidos
+AT014705;P07;2024-02-27;aula;58;4,06;voluntarios;Participacao elevada
+AT014706;P07;2024-04-02;aula;37;2,94;equipamento;com atraso
+AT014707;P07;2025-08-03;oficina_educativa;62;7,97;material;Resultado regular
+AT014708;P07;2024-05-12;apoio_estudo;55;8,80;sala;resultado regular
+AT014709;P07;2024-01-09;apoio_estudo;38;8,10;transporte;Resultado regular
+AT014710;P07;2024-03-08;oficina_educativa;58;7,24;sala;resultado regular
+AT014711;P07;2024-03-17;oficina_educativa;34;3,56;voluntarios;resultado regular
+AT014712;P07;2024-07-27;oficina_educativa;41;6,59;sala;Resultado regular
+AT014713;P07;2025-07-23;oficina_educativa;59;6,11;equipamento;
+AT014714;P07;2024-04-09;aula;41;8,49;sala;participacao elevada
+AT014715;P07;2025-05-12;oficina_educativa;30;6,74;equipamento;Participacao elevada
+AT014716;P07;2024-02-23;aula;52;5,08;equipamento;objetivos atingidos
+AT014717;P07;2025-07-26;aula;39;4,73;equipamento;Resultado regular
+AT014718;P07;2025-06-23;aula;55;7,46;material;
+AT014719;P07;2025-01-14;apoio_estudo;45;6,27;material;Resultado regular
+AT014720;P07;2025-01-04;aula;42;5,96;voluntarios;sem registo
+AT014721;P07;2025-06-16;apoio_estudo;48;5,32;material;
+AT014722;P07;2025-02-24;oficina_educativa;13;2,52;voluntarios;Participacao elevada
+AT014723;P07;2024-11-03;aula;37;8,80;sala;resultado regular
+AT014724;P07;2024-02-04;oficina_educativa;66;3,54;equipamento;participacao elevada
+AT014725;P07;2024-06-20;aula;61;3,71;voluntarios;participacao elevada
+AT014726;P07;2025-12-18;apoio_estudo;37;4,54;transporte;
+AT014727;P07;2024-06-07;apoio_estudo;17;3,21;transporte;com atraso
+AT014728;P07;2025-02-10;aula;20;3,40;material;
+AT014729;P07;2024-12-13;oficina_educativa;30;6,41;transporte;com atraso
+AT014730;P07;2025-05-24;oficina_educativa;27;5,67;voluntarios;com atraso
+AT014731;P07;2024-05-25;oficina_educativa;46;7,88;transporte;Participacao elevada
+AT014732;P07;2025-12-14;apoio_estudo;49;8,32;voluntarios;participacao elevada
+AT014733;P07;2024-09-16;aula;32;3,21;voluntarios;objetivos atingidos
+AT014734;P07;2024-10-07;oficina_educativa;58;6,92;voluntarios;
+AT014735;P07;2024-03-25;oficina_educativa;53;3,48;sala;sem registo
+AT014736;P07;2024-08-03;oficina_educativa;42;8,74;equipamento;resultado regular
+AT014737;P07;2025-01-12;aula;20;3,30;voluntarios;Resultado regular
+AT014738;P07;2025-08-10;oficina_educativa;43;3,63;material;participacao elevada
+AT014739;P07;2025-02-20;apoio_estudo;19;5,52;material;Resultado regular
+AT014740;P07;2024-09-27;apoio_estudo;7;4,31;transporte;
+AT014741;P07;2024-11-07;apoio_estudo;20;3,81;equipamento;Participacao elevada
+AT014742;P07;2024-02-08;oficina_educativa;44;2,91;equipamento;Resultado regular
+AT014743;P07;2025-09-03;aula;26;8,66;material;resultado regular
+AT014744;P07;2025-06-12;oficina_educativa;34;3,92;material;sem registo
+AT014745;P07;2024-05-01;apoio_estudo;43;4,05;material;
+AT014746;P07;2024-02-03;aula;16;7,39;material;participacao elevada
+AT014747;P07;2024-01-02;aula;46;2,27;transporte;resultado regular
+AT014748;P07;2025-09-13;aula;24;7,93;sala;com atraso
+AT014749;P07;2024-10-20;aula;5;7,32;material;objetivos atingidos
+AT014750;P07;2025-12-20;apoio_estudo;13;3,69;sala;com atraso
+AT014751;P07;2024-06-25;apoio_estudo;14;4,62;material;Resultado regular
+AT014752;P07;2025-03-26;apoio_estudo;40;2,96;transporte;com atraso
+AT014753;P07;2025-01-27;oficina_educativa;6;8,40;equipamento;Participacao elevada
+AT014754;P07;2024-03-07;aula;46;6,94;voluntarios;com atraso
+AT014755;P07;2025-07-20;apoio_estudo;62;5,92;voluntarios;Participacao elevada
+AT014756;P07;2025-02-18;oficina_educativa;13;2,61;material;Participacao elevada
+AT014757;P07;2024-02-01;apoio_estudo;24;4,22;sala;objetivos atingidos
+AT014758;P07;2025-07-18;apoio_estudo;30;2,82;sala;objetivos atingidos
+AT014759;P07;2024-01-15;aula;25;8,69;equipamento;
+AT014760;P07;2025-06-03;aula;50;2,72;sala;
+AT014761;P07;2024-09-16;aula;22;5,11;material;Participacao elevada
+AT014762;P07;2024-12-16;oficina_educativa;65;8,01;transporte;sem registo
+AT014763;P07;2025-02-25;apoio_estudo;16;8,81;voluntarios;Participacao elevada
+AT014764;P07;2025-12-04;aula;68;8,01;voluntarios;sem registo
+AT014765;P07;2025-12-01;aula;33;5,85;material;Resultado regular
+AT014766;P07;2024-05-22;oficina_educativa;16;2,54;voluntarios;Resultado regular
+AT014767;P07;2024-10-08;oficina_educativa;32;4,44;material;objetivos atingidos
+AT014768;P07;2025-12-25;aula;35;3,89;equipamento;
+AT014769;P07;2024-02-13;apoio_estudo;51;3,56;voluntarios;Participacao elevada
+AT014770;P07;2024-10-13;aula;18;8,59;equipamento;sem registo
+AT014771;P07;2024-01-24;oficina_educativa;30;7,37;material;resultado regular
+AT014772;P07;2024-11-11;apoio_estudo;61;3,73;transporte;
+AT014773;P07;2024-11-16;oficina_educativa;69;8,93;equipamento;Resultado regular
+AT014774;P07;2024-12-20;apoio_estudo;23;5,06;equipamento;sem registo
+AT014775;P07;2024-03-06;apoio_estudo;22;6,49;voluntarios;objetivos atingidos
+AT014776;P07;2024-06-10;apoio_estudo;42;7,55;transporte;Participacao elevada
+AT014777;P07;2024-11-03;oficina_educativa;17;7,21;transporte;
+AT014778;P07;2025-03-24;aula;60;6,56;material;sem registo
+AT014779;P07;2024-08-22;apoio_estudo;66;4,83;sala;resultado regular
+AT014780;P07;2025-04-22;apoio_estudo;48;7,60;sala;com atraso
+AT014781;P07;2024-07-13;aula;68;6,68;voluntarios;resultado regular
+AT014782;P07;2025-08-15;apoio_estudo;19;4,28;voluntarios;objetivos atingidos
+AT014783;P07;2025-07-13;aula;40;7,86;material;participacao elevada
+AT014784;P07;2025-09-22;apoio_estudo;51;6,54;voluntarios;resultado regular
+AT014785;P07;2025-07-05;oficina_educativa;66;8,60;sala;Resultado regular
+AT014786;P07;2025-05-17;aula;59;5,67;equipamento;
+AT014787;P07;2025-12-04;apoio_estudo;5;3,04;material;sem registo
+AT014788;P07;2024-07-08;oficina_educativa;65;4,15;material;
+AT014789;P07;2025-02-01;apoio_estudo;29;5,16;sala;participacao elevada
+AT014790;P07;2024-11-03;oficina_educativa;10;5,17;transporte;
+AT014791;P07;2025-05-13;apoio_estudo;31;5,17;transporte;sem registo
+AT014792;P07;2024-11-08;aula;9;4,42;equipamento;
+AT014793;P07;2024-03-27;oficina_educativa;8;8,00;voluntarios;Resultado regular
+AT014794;P07;2024-04-05;apoio_estudo;38;6,59;voluntarios;objetivos atingidos
+AT014795;P07;2024-03-25;aula;29;5,66;material;resultado regular
+AT014796;P07;2025-12-26;oficina_educativa;56;4,42;material;participacao elevada
+AT014797;P07;2025-09-10;aula;40;4,11;sala;Resultado regular
+AT014798;P07;2025-12-13;oficina_educativa;37;8,18;transporte;resultado regular
+AT014799;P07;2025-05-04;aula;59;3,81;equipamento;com atraso
+AT014799;P07;2025-05-04;aula;59;3,81;equipamento;com atraso
+AT014800;P07;2025-03-21;apoio_estudo;66;4,37;equipamento;participacao elevada
+AT014800;P07;2025-03-21;apoio_estudo;66;4,37;equipamento;participacao elevada
+AT014801;P07;2025-04-09;oficina_educativa;31;5,00;sala;sem registo
+AT014802;P07;2024-01-05;apoio_estudo;47;3,13;sala;participacao elevada
+AT014803;P07;2024-03-21;apoio_estudo;67;5,90;material;resultado regular
+AT014804;P07;2025-06-26;aula;44;5,81;voluntarios;resultado regular
+AT014805;P07;2025-08-08;aula;67;8,10;transporte;Resultado regular
+AT014806;P07;2024-12-27;apoio_estudo;67;3,24;sala;Resultado regular
+AT014807;P07;2025-08-01;aula;11;3,73;material;participacao elevada
+AT014808;P07;2025-08-15;oficina_educativa;11;8,99;equipamento;Participacao elevada
+AT014809;P07;2024-03-27;aula;12;7,70;voluntarios;objetivos atingidos
+AT014810;P07;2025-11-20;apoio_estudo;27;6,02;transporte;Participacao elevada
+AT014811;P07;2024-01-20;oficina_educativa;60;6,65;material;participacao elevada
+AT014812;P07;2024-01-02;apoio_estudo;49;4,89;material;sem registo
+AT014813;P07;2024-06-25;oficina_educativa;22;3,65;transporte;Resultado regular
+AT014814;P07;2025-02-13;oficina_educativa;43;3,67;material;resultado regular
+AT014815;P07;2025-02-13;oficina_educativa;43;8,69;material;Participacao elevada
+AT014816;P07;2025-02-06;oficina_educativa;33;3,48;material;sem registo
+AT014817;P07;2025-12-20;apoio_estudo;41;7,34;sala;objetivos atingidos
+AT014818;P07;2024-11-16;apoio_estudo;67;8,18;equipamento;com atraso
+AT014819;P07;2024-04-01;oficina_educativa;25;7,23;voluntarios;Resultado regular
+AT014820;P07;2024-07-17;oficina_educativa;20;8,85;voluntarios;com atraso
+AT014821;P07;2025-11-23;aula;37;3,73;voluntarios;resultado regular
+AT014822;P07;2024-04-17;oficina_educativa;65;2,39;material;Resultado regular
+AT014823;P07;2024-12-25;oficina_educativa;35;8,05;sala;sem registo
+AT014824;P07;2025-04-06;oficina_educativa;44;3,51;voluntarios;
+AT014825;P07;2025-04-02;oficina_educativa;56;3,91;material;
+AT014826;P07;2024-01-07;oficina_educativa;35;5,12;material;objetivos atingidos
+AT014827;P07;2024-01-23;apoio_estudo;61;3,31;equipamento;Participacao elevada
+AT014828;P07;2024-10-22;aula;68;5,44;sala;participacao elevada
+AT014829;P07;2024-12-15;aula;52;8,20;transporte;sem registo
+AT014830;P07;2024-10-03;oficina_educativa;36;4,20;voluntarios;
+AT014831;P07;2025-03-15;apoio_estudo;64;2,29;equipamento;objetivos atingidos
+AT014832;P07;2024-08-14;aula;7;7,48;transporte;Resultado regular
+AT014833;P07;2025-11-18;aula;51;8,38;sala;objetivos atingidos
+AT014834;P07;2025-04-27;aula;8;2,44;transporte;objetivos atingidos
+AT014835;P07;2024-04-06;oficina_educativa;56;8,60;material;Resultado regular
+AT014836;P07;2025-10-10;apoio_estudo;52;2,01;voluntarios;com atraso
+AT014837;P07;2024-04-20;aula;29;8,57;sala;
+AT014838;P07;2025-09-23;aula;9;5,94;voluntarios;
+AT014839;P07;2025-07-05;apoio_estudo;32;2,13;sala;Participacao elevada
+AT014840;P07;2025-06-22;apoio_estudo;55;5,55;equipamento;participacao elevada
+AT014840;P07;2025-06-22;apoio_estudo;55;5,55;equipamento;participacao elevada
+AT014841;P07;2025-05-19;oficina_educativa;44;3,75;equipamento;Resultado regular
+AT014842;P07;2024-04-12;apoio_estudo;25;6,32;transporte;sem registo
+AT014843;P07;2024-10-09;oficina_educativa;10;6,24;sala;resultado regular
+AT014844;P07;2024-08-15;aula;42;6,56;transporte;participacao elevada
+AT014845;P07;2024-12-18;apoio_estudo;62;6,88;transporte;sem registo
+AT014846;P07;2025-01-20;oficina_educativa;28;5,36;sala;Resultado regular
+AT014847;P07;2024-05-24;apoio_estudo;20;5,98;material;Participacao elevada
+AT014848;P07;2025-05-07;apoio_estudo;67;3,46;voluntarios;participacao elevada
+AT014849;P07;2024-07-16;aula;31;2,73;equipamento;Participacao elevada
+AT014850;P07;2024-10-12;aula;11;7,76;transporte;
+AT014851;P07;2025-07-14;aula;12;8,13;transporte;Participacao elevada
+AT014852;P07;2025-09-20;apoio_estudo;64;6,41;transporte;
+AT014853;P07;2024-06-10;oficina_educativa;54;5,86;equipamento;Participacao elevada
+AT014854;P07;2024-05-21;apoio_estudo;6;8,43;sala;com atraso
+AT014855;P07;2025-01-21;apoio_estudo;55;3,26;transporte;Participacao elevada
+AT014856;P07;2025-07-12;oficina_educativa;12;8,91;transporte;
+AT014857;P07;2024-10-18;oficina_educativa;61;7,92;equipamento;com atraso
+AT014858;P07;2025-03-22;apoio_estudo;30;5,40;voluntarios;
+AT014859;P07;2024-02-05;oficina_educativa;48;5,63;transporte;sem registo
+AT014860;P07;2024-10-12;aula;10;8,45;sala;resultado regular
+AT014861;P07;2024-04-10;oficina_educativa;27;3,29;material;Participacao elevada
+AT014862;P07;2024-11-24;apoio_estudo;29;6,43;sala;com atraso
+AT014863;P07;2025-11-27;aula;62;5,58;equipamento;
+AT014864;P07;2024-10-13;oficina_educativa;29;4,01;material;objetivos atingidos
+AT014865;P07;2025-03-19;apoio_estudo;26;8,69;equipamento;resultado regular
+AT014866;P07;2025-01-03;aula;12;6,91;sala;participacao elevada
+AT014867;P07;2025-10-13;apoio_estudo;67;5,80;voluntarios;objetivos atingidos
+AT014868;P07;2025-07-10;oficina_educativa;56;6,33;sala;Resultado regular
+AT014869;P07;2024-03-10;oficina_educativa;60;3,02;transporte;
+AT014870;P07;2024-11-09;aula;29;5,48;material;resultado regular
+AT014871;P07;2025-09-12;apoio_estudo;37;8,82;equipamento;Participacao elevada
+AT014872;P07;2025-12-02;apoio_estudo;64;6,27;material;sem registo
+AT014873;P07;2025-02-07;oficina_educativa;46;4,55;transporte;participacao elevada
+AT014874;P07;2024-08-02;apoio_estudo;7;5,63;voluntarios;com atraso
+AT014875;P07;2025-08-10;oficina_educativa;26;4,30;equipamento;Participacao elevada
+AT014876;P07;2025-12-20;aula;54;3,04;sala;resultado regular
+AT014877;P07;2025-04-14;aula;41;6,94;equipamento;Participacao elevada
+AT014878;P07;2025-12-02;aula;25;4,30;transporte;
+AT014879;P07;2024-02-09;oficina_educativa;17;8,07;equipamento;
+AT014880;P07;2024-05-26;oficina_educativa;32;5,61;sala;Resultado regular
+AT014881;P07;2025-12-11;oficina_educativa;66;2,63;sala;participacao elevada
+AT014882;P07;2025-09-25;apoio_estudo;45;8,90;voluntarios;Participacao elevada
+AT014883;P07;2024-08-22;oficina_educativa;9;3,58;sala;Resultado regular
+AT014884;P07;2024-07-14;oficina_educativa;14;2,60;sala;participacao elevada
+AT014885;P07;2024-11-16;apoio_estudo;10;8,72;equipamento;sem registo
+AT014886;P07;2025-10-05;apoio_estudo;18;6,50;material;com atraso
+AT014887;P07;2024-04-17;apoio_estudo;34;4,78;material;objetivos atingidos
+AT014888;P07;2024-04-19;oficina_educativa;36;6,42;voluntarios;Resultado regular
+AT014889;P07;2025-03-03;aula;32;8,43;equipamento;participacao elevada
+AT014890;P07;2025-07-13;aula;41;5,19;equipamento;resultado regular
+AT014891;P07;2025-05-21;aula;64;6,10;equipamento;
+AT014892;P07;2024-05-19;oficina_educativa;21;4,33;transporte;
+AT014893;P07;2024-02-25;apoio_estudo;55;2,71;equipamento;sem registo
+AT014894;P07;2024-12-20;apoio_estudo;44;8,17;voluntarios;
+AT014895;P07;2024-09-25;aula;26;8,19;sala;
+AT014896;P07;2025-01-19;aula;38;7,09;equipamento;objetivos atingidos
+AT014897;P07;2024-10-27;apoio_estudo;32;6,77;sala;com atraso
+AT014898;P07;2025-06-09;oficina_educativa;43;4,63;voluntarios;sem registo
+AT014899;P07;2024-07-15;aula;55;7,99;voluntarios;
+AT014900;P07;2024-10-15;oficina_educativa;38;6,31;sala;participacao elevada
+AT014901;P07;2025-04-03;aula;41;4,73;voluntarios;objetivos atingidos
+AT014902;P07;2025-02-14;aula;69;2,39;voluntarios;objetivos atingidos
+AT014903;P07;2025-10-18;apoio_estudo;68;2,40;equipamento;objetivos atingidos
+AT014904;P07;2025-01-08;apoio_estudo;29;2,95;transporte;
+AT014905;P07;2025-01-25;oficina_educativa;18;6,49;voluntarios;participacao elevada
+AT014906;P07;2025-01-02;aula;42;4,19;equipamento;participacao elevada
+AT014907;P07;2024-10-24;apoio_estudo;58;4,93;sala;resultado regular
+AT014908;P07;2025-06-25;oficina_educativa;55;8,16;voluntarios;
+AT014909;P07;2025-06-20;aula;51;2,89;voluntarios;
+AT014910;P07;2024-12-10;apoio_estudo;10;6,59;transporte;
+AT014911;P07;2025-12-05;apoio_estudo;32;5,82;equipamento;resultado regular
+AT014912;P07;2024-09-18;oficina_educativa;66;6,94;material;participacao elevada
+AT014913;P07;2024-03-20;apoio_estudo;6;5,17;equipamento;Resultado regular
+AT014914;P07;2025-05-16;oficina_educativa;57;3,42;voluntarios;sem registo
+AT014915;P07;2024-12-16;oficina_educativa;44;4,77;material;sem registo
+AT014916;P07;2025-05-20;oficina_educativa;55;8,72;voluntarios;Participacao elevada
+AT014917;P07;2025-12-22;apoio_estudo;12;8,00;sala;Participacao elevada
+AT014918;P07;2024-02-09;aula;17;8,33;sala;com atraso
+AT014919;P07;2024-11-09;apoio_estudo;11;4,84;transporte;sem registo
+AT014920;P07;2025-12-16;aula;28;6,28;equipamento;resultado regular
+AT014921;P07;2024-02-04;aula;43;3,48;transporte;participacao elevada
+AT014922;P07;2025-10-02;oficina_educativa;14;8,77;transporte;
+AT014923;P07;2024-11-15;apoio_estudo;31;3,25;transporte;participacao elevada
+AT014924;P07;2024-01-24;apoio_estudo;33;3,05;transporte;
+AT014925;P07;2025-05-15;oficina_educativa;58;3,65;sala;resultado regular
+AT014926;P07;2024-10-13;apoio_estudo;27;7,46;equipamento;
+AT014927;P07;2024-08-17;apoio_estudo;12;4,61;equipamento;participacao elevada
+AT014928;P07;2024-10-25;oficina_educativa;26;6,38;material;sem registo
+AT014929;P07;2024-05-20;aula;56;2,50;equipamento;sem registo
+AT014930;P07;2024-10-01;oficina_educativa;47;2,09;transporte;resultado regular
+AT014931;P07;2024-11-13;apoio_estudo;18;5,00;equipamento;participacao elevada
+AT014932;P07;2024-02-07;aula;59;2,77;equipamento;objetivos atingidos
+AT014933;P07;2024-08-26;oficina_educativa;49;5,83;equipamento;objetivos atingidos
+AT014934;P07;2024-06-25;aula;55;7,77;equipamento;com atraso
+AT014935;P07;2025-08-05;aula;65;2,19;sala;
+AT014936;P07;2024-04-19;oficina_educativa;48;5,74;material;com atraso
+AT014937;P07;2024-04-17;aula;34;5,51;material;objetivos atingidos
+AT014938;P07;2025-07-16;apoio_estudo;57;8,86;material;Participacao elevada
+AT014939;P07;2025-04-06;oficina_educativa;65;3,65;material;objetivos atingidos
+AT014940;P07;2025-04-17;aula;38;8,28;transporte;participacao elevada
+AT014941;P07;2024-06-24;oficina_educativa;41;8,99;sala;objetivos atingidos
+AT014942;P07;2025-04-04;aula;9;3,93;transporte;participacao elevada
+AT014943;P07;2025-06-04;oficina_educativa;64;8,19;equipamento;objetivos atingidos
+AT014944;P07;2024-03-08;aula;38;2,39;material;Participacao elevada
+AT014945;P07;2025-03-10;apoio_estudo;68;2,00;equipamento;Participacao elevada
+AT014946;P07;2025-02-27;aula;49;3,72;sala;sem registo
+AT014947;P07;2024-11-16;apoio_estudo;49;7,69;voluntarios;participacao elevada
+AT014948;P07;2025-01-20;aula;44;3,74;sala;objetivos atingidos
+AT014949;P07;2025-04-09;aula;35;4,41;voluntarios;resultado regular
+AT014950;P07;2025-02-02;oficina_educativa;37;7,80;sala;objetivos atingidos
+AT014951;P07;2025-12-23;aula;58;8,96;transporte;participacao elevada
+AT014952;P07;2024-12-15;aula;16;3,03;equipamento;sem registo
+AT014953;P07;2024-11-08;apoio_estudo;67;8,23;transporte;Resultado regular
+AT014954;P07;2024-12-23;aula;32;4,66;equipamento;objetivos atingidos
+AT014955;P07;2025-04-26;apoio_estudo;53;8,45;transporte;objetivos atingidos
+AT014956;P07;2025-10-12;aula;68;7,79;sala;Participacao elevada
+AT014957;P07;2025-02-17;oficina_educativa;67;7,56;sala;sem registo
+AT014958;P07;2024-11-18;aula;5;6,99;voluntarios;
+AT014959;P07;2025-06-21;aula;18;5,36;material;Resultado regular
+AT014960;P07;2024-01-07;oficina_educativa;64;7,85;transporte;Resultado regular
+AT014961;P07;2025-09-25;apoio_estudo;40;7,87;material;objetivos atingidos
+AT014962;P07;2025-08-27;aula;35;2,31;voluntarios;objetivos atingidos
+AT014963;P07;2025-11-20;apoio_estudo;6;5,50;voluntarios;
+AT014964;P07;2024-04-08;apoio_estudo;11;8,71;transporte;
+AT014965;P07;2025-04-18;oficina_educativa;65;8,91;material;
+AT014966;P07;2025-02-07;apoio_estudo;54;5,65;equipamento;objetivos atingidos
+AT014967;P07;2024-11-19;aula;13;7,90;equipamento;sem registo
+AT014968;P07;2025-06-03;aula;51;8,01;material;
+AT014969;P07;2024-11-10;aula;46;7,42;material;objetivos atingidos
+AT014970;P07;2024-12-09;oficina_educativa;33;3,07;material;Resultado regular
+AT014971;P07;2025-04-18;apoio_estudo;50;6,81;transporte;Resultado regular
+AT014972;P07;2025-02-08;oficina_educativa;64;2,45;transporte;com atraso
+AT014973;P07;2025-06-05;aula;9;8,45;material;objetivos atingidos
+AT014974;P07;2024-06-14;aula;56;8,85;transporte;sem registo
+AT014975;P07;2025-08-07;oficina_educativa;66;6,56;equipamento;com atraso
+AT014976;P07;2024-11-03;oficina_educativa;32;8,04;voluntarios;com atraso
+AT014977;P07;2025-10-17;oficina_educativa;41;8,57;material;participacao elevada
+AT014978;P07;2025-12-05;apoio_estudo;59;4,80;voluntarios;participacao elevada
+AT014979;P07;2024-02-17;apoio_estudo;5;4,95;material;com atraso
+AT014980;P07;2024-12-18;apoio_estudo;60;6,35;transporte;participacao elevada
+AT014981;P07;2025-12-25;aula;6;4,27;voluntarios;objetivos atingidos
+AT014982;P07;2025-12-14;oficina_educativa;19;3,43;equipamento;Participacao elevada
+AT014983;P07;2024-03-18;apoio_estudo;22;8,21;transporte;objetivos atingidos
+AT014984;P07;2024-12-10;aula;24;4,36;sala;Resultado regular
+AT014985;P07;2025-12-25;aula;9;4,84;sala;
+AT014986;P07;2025-02-02;aula;10;4,44;material;
+AT014987;P07;2024-08-14;apoio_estudo;20;6,60;voluntarios;
+AT014988;P07;2025-12-04;aula;65;8,77;material;objetivos atingidos
+AT014989;P07;2025-06-27;aula;35;5,76;material;resultado regular
+AT014990;P07;2025-03-18;aula;41;8,89;sala;sem registo
+AT014991;P07;2024-04-18;apoio_estudo;35;3,82;sala;
+AT014992;P07;2025-11-05;oficina_educativa;24;8,56;sala;objetivos atingidos
+AT014993;P07;2024-03-17;apoio_estudo;31;4,59;transporte;objetivos atingidos
+AT014994;P07;2024-07-07;aula;50;7,36;voluntarios;
+AT014995;P07;2024-02-01;oficina_educativa;10;8,53;sala;
+AT014996;P07;2025-11-01;oficina_educativa;46;4,88;sala;Resultado regular
+AT014997;P07;2024-02-12;oficina_educativa;7;3,26;transporte;resultado regular
+AT014998;P07;2025-12-23;apoio_estudo;52;4,37;voluntarios;objetivos atingidos
+AT014999;P07;2024-09-03;aula;5;3,61;voluntarios;com atraso
+AT015000;P07;2024-11-26;aula;14;8,91;sala;sem registo
+AT015001;P07;2024-07-24;apoio_estudo;21;2,12;transporte;sem registo
+AT015002;P07;2024-02-18;aula;46;8,52;voluntarios;com atraso
+AT015003;P07;2024-04-02;apoio_estudo;45;7,31;sala;Resultado regular
+AT015004;P07;2025-07-01;oficina_educativa;49;6,90;material;resultado regular
+AT015005;P07;2024-02-19;apoio_estudo;64;4,99;equipamento;participacao elevada
+AT015006;P07;2025-04-03;oficina_educativa;41;4,97;voluntarios;
+AT015007;P07;2025-11-06;oficina_educativa;56;7,45;equipamento;Resultado regular
+AT015008;P07;2024-08-07;aula;17;4,58;voluntarios;sem registo
+AT015009;P07;2024-08-27;aula;60;3,96;transporte;Resultado regular
+AT015010;P07;2025-12-07;oficina_educativa;24;4,77;material;objetivos atingidos
+AT015011;P07;2024-10-27;aula;69;7,04;voluntarios;com atraso
+AT015012;P07;2025-07-22;apoio_estudo;41;3,56;material;objetivos atingidos
+AT015013;P07;2025-06-15;apoio_estudo;10;4,96;material;
+AT015014;P07;2024-07-18;aula;54;7,12;sala;
+AT015015;P07;2025-04-19;oficina_educativa;62;6,60;sala;participacao elevada
+AT015016;P07;2025-01-02;oficina_educativa;58;5,85;voluntarios;com atraso
+AT015017;P07;2025-10-25;aula;37;8,32;transporte;sem registo
+AT015018;P07;2024-07-22;apoio_estudo;42;6,23;material;sem registo
+AT015019;P07;2024-12-18;aula;50;7,29;equipamento;Resultado regular
+AT015020;P07;2024-07-13;oficina_educativa;18;2,88;material;
+AT015021;P07;2024-08-01;aula;42;5,90;material;resultado regular
+AT015022;P07;2024-04-25;oficina_educativa;58;2,10;material;
+AT015023;P07;2024-06-19;aula;37;2,17;transporte;Resultado regular
+AT015024;P07;2025-08-08;aula;53;3,65;equipamento;
+AT015025;P07;2024-02-17;oficina_educativa;28;6,34;equipamento;
+AT015026;P07;2025-11-24;oficina_educativa;47;3,78;material;Participacao elevada
+AT015027;P07;2024-11-14;oficina_educativa;58;4,30;equipamento;resultado regular
+AT015028;P07;2025-04-26;aula;24;8,25;voluntarios;Resultado regular
+AT015029;P07;2024-12-02;apoio_estudo;37;6,26;transporte;Resultado regular
+AT015030;P07;2025-10-04;oficina_educativa;44;5,99;equipamento;resultado regular
+AT015031;P07;2024-01-19;oficina_educativa;23;8,27;sala;sem registo
+AT015032;P07;2024-06-16;apoio_estudo;28;6,87;sala;participacao elevada
+AT015033;P07;2025-11-26;apoio_estudo;65;6,50;equipamento;
+AT015034;P07;2025-04-12;oficina_educativa;11;8,33;equipamento;resultado regular
+AT015035;P07;2024-08-10;aula;30;4,31;transporte;objetivos atingidos
+AT015036;P07;2025-05-13;apoio_estudo;36;4,16;voluntarios;com atraso
+AT015037;P07;2025-05-15;oficina_educativa;35;3,49;equipamento;participacao elevada
+AT015038;P07;2024-12-10;aula;5;6,46;equipamento;sem registo
+AT015039;P07;2024-09-09;aula;52;7,41;equipamento;participacao elevada
+AT015040;P07;2025-12-18;aula;15;6,43;voluntarios;sem registo
+AT015041;P07;2025-11-09;apoio_estudo;48;5,46;sala;Resultado regular
+AT015042;P07;2024-10-11;apoio_estudo;43;5,78;sala;objetivos atingidos
+AT015043;P07;2024-03-20;apoio_estudo;45;8,27;sala;participacao elevada
+AT015044;P07;2025-05-16;apoio_estudo;31;7,41;material;Resultado regular
+AT015045;P07;2025-12-02;apoio_estudo;29;7,21;equipamento;participacao elevada
+AT015046;P07;2024-11-03;apoio_estudo;37;3,61;transporte;Resultado regular
+AT015047;P07;2025-11-25;apoio_estudo;56;8,49;equipamento;resultado regular
+AT015048;P07;2024-12-07;oficina_educativa;59;5,77;voluntarios;Resultado regular
+AT015049;P07;2024-12-27;oficina_educativa;27;5,31;transporte;
+AT015050;P07;2024-11-07;oficina_educativa;32;3,15;transporte;sem registo
+AT015051;P07;2024-07-10;oficina_educativa;58;8,68;transporte;
+AT015052;P07;2024-03-17;oficina_educativa;45;5,58;transporte;resultado regular
+AT015053;P07;2024-01-23;oficina_educativa;51;8,37;material;Participacao elevada
+AT015054;P07;2025-10-22;oficina_educativa;19;7,89;material;Resultado regular
+AT015055;P07;2024-07-10;oficina_educativa;52;8,43;material;resultado regular
+AT015056;P07;2025-11-08;apoio_estudo;5;2,25;sala;com atraso
+AT015057;P07;2025-04-09;apoio_estudo;13;2,73;transporte;resultado regular
+AT015058;P07;2024-05-26;aula;51;2,25;voluntarios;objetivos atingidos
+AT015059;P07;2024-02-14;oficina_educativa;12;4,26;voluntarios;sem registo
+AT015060;P07;2025-05-23;oficina_educativa;11;2,79;sala;sem registo
+AT015061;P07;2024-09-11;apoio_estudo;44;8,12;sala;objetivos atingidos
+AT015062;P07;2024-10-23;apoio_estudo;57;3,36;equipamento;com atraso
+AT015063;P07;2025-04-06;aula;46;8,15;equipamento;Participacao elevada
+AT015064;P07;2025-10-23;apoio_estudo;51;5,39;transporte;Resultado regular
+AT015065;P07;2025-05-06;apoio_estudo;40;8,66;voluntarios;objetivos atingidos
+AT015066;P07;2025-03-08;aula;18;2,02;sala;
+AT015067;P07;2024-07-21;oficina_educativa;8;4,30;sala;Resultado regular
+AT015068;P07;2024-09-15;apoio_estudo;5;8,13;material;Resultado regular
+AT015069;P07;2025-05-23;oficina_educativa;13;5,26;material;
+AT015070;P07;2025-07-05;aula;64;7,89;material;
+AT015071;P07;2024-04-15;aula;33;4,61;voluntarios;resultado regular
+AT015072;P07;2024-05-15;apoio_estudo;39;4,69;transporte;participacao elevada
+AT015073;P07;2025-01-22;aula;51;5,25;equipamento;resultado regular
+AT015074;P07;2025-10-08;apoio_estudo;60;6,99;equipamento;
+AT015075;P07;2025-04-16;apoio_estudo;7;5,07;equipamento;Resultado regular
+AT015076;P07;2024-05-15;aula;12;8,91;equipamento;participacao elevada
+AT015077;P07;2025-02-24;oficina_educativa;33;2,89;voluntarios;sem registo
+AT015078;P07;2024-11-14;aula;69;4,19;material;participacao elevada
+AT015079;P07;2024-04-05;apoio_estudo;57;7,99;transporte;Resultado regular
+AT015080;P07;2024-12-24;aula;19;7,39;material;com atraso
+AT015081;P07;2025-02-21;apoio_estudo;39;2,25;sala;
+AT015082;P07;2025-04-18;aula;47;6,01;transporte;Resultado regular
+AT015083;P07;2025-02-20;apoio_estudo;39;4,62;transporte;
+AT015084;P07;2025-11-02;aula;16;3,57;equipamento;participacao elevada
+AT015085;P07;2024-09-21;aula;21;2,27;equipamento;Resultado regular
+AT015086;P07;2025-06-06;apoio_estudo;14;8,18;voluntarios;sem registo
+AT015087;P07;2024-11-25;apoio_estudo;20;8,29;voluntarios;
+AT015088;P07;2025-07-14;aula;17;4,42;transporte;resultado regular
+AT015089;P07;2025-11-23;aula;16;5,13;transporte;
+AT015090;P07;2025-03-27;oficina_educativa;8;6,65;sala;Participacao elevada
+AT015091;P07;2025-11-13;apoio_estudo;56;2,58;sala;objetivos atingidos
+AT015092;P07;2024-09-07;apoio_estudo;37;5,94;transporte;resultado regular
+AT015093;P07;2024-07-25;apoio_estudo;57;3,77;equipamento;Participacao elevada
+AT015094;P07;2025-06-27;apoio_estudo;46;4,63;sala;sem registo
+AT015095;P07;2024-12-14;apoio_estudo;48;7,99;transporte;sem registo
+AT015096;P07;2025-01-26;oficina_educativa;34;7,84;sala;
+AT015097;P07;2025-03-20;oficina_educativa;63;5,06;voluntarios;sem registo
+AT015098;P07;2024-05-23;oficina_educativa;34;4,62;transporte;resultado regular
+AT015099;P07;2025-02-15;apoio_estudo;64;7,62;voluntarios;Resultado regular
+AT015100;P07;2025-04-12;aula;23;2,32;voluntarios;Participacao elevada
+AT015101;P07;2024-11-26;aula;37;2,87;voluntarios;objetivos atingidos
+AT015102;P07;2024-02-19;aula;13;2,69;transporte;
+AT015103;P07;2024-04-21;oficina_educativa;18;2,55;transporte;
+AT015104;P07;2025-11-03;apoio_estudo;14;8,78;sala;com atraso
+AT015105;P07;2025-03-17;apoio_estudo;36;8,40;transporte;resultado regular
+AT015106;P07;2025-07-06;aula;34;2,53;equipamento;
+AT015107;P07;2024-03-10;apoio_estudo;41;7,12;equipamento;participacao elevada
+AT015108;P07;2024-09-26;aula;59;7,09;material;
+AT015109;P07;2025-04-24;oficina_educativa;57;7,55;voluntarios;sem registo
+AT015110;P07;2024-02-24;aula;48;4,81;equipamento;objetivos atingidos
+AT015111;P07;2025-08-11;apoio_estudo;11;7,34;voluntarios;objetivos atingidos
+AT015112;P07;2024-04-01;aula;42;6,84;transporte;objetivos atingidos
+AT015113;P07;2025-03-06;oficina_educativa;62;3,34;sala;objetivos atingidos
+AT015114;P07;2025-03-25;oficina_educativa;55;8,29;material;Participacao elevada
+AT015115;P07;2025-05-10;aula;13;2,16;sala;com atraso
+AT015116;P07;2024-10-17;apoio_estudo;47;2,71;material;Resultado regular
+AT015117;P07;2025-12-08;apoio_estudo;59;7,50;material;participacao elevada
+AT015118;P07;2025-03-06;aula;50;8,43;equipamento;Resultado regular
+AT015119;P07;2024-11-05;oficina_educativa;67;2,19;transporte;objetivos atingidos
+AT015120;P07;2025-07-26;apoio_estudo;54;3,91;transporte;Participacao elevada
+AT015121;P07;2024-04-23;oficina_educativa;17;4,57;material;
+AT015122;P07;2025-10-05;aula;39;2,57;equipamento;
+AT015123;P07;2024-11-19;apoio_estudo;16;7,12;material;Resultado regular
+AT015124;P07;2024-01-21;oficina_educativa;16;3,67;equipamento;
+AT015125;P07;2025-05-23;oficina_educativa;46;2,45;sala;
+AT015126;P07;2024-05-02;oficina_educativa;65;3,90;material;
+AT015127;P07;2024-06-23;apoio_estudo;48;7,51;sala;
+AT015128;P07;2024-07-18;apoio_estudo;29;7,87;sala;resultado regular
+AT015129;P07;2025-04-05;oficina_educativa;20;8,73;transporte;participacao elevada
+AT015130;P07;2025-08-15;apoio_estudo;23;5,69;transporte;
+AT015131;P07;2025-04-15;apoio_estudo;45;5,94;equipamento;
+AT015132;P07;2024-11-16;oficina_educativa;38;2,19;equipamento;participacao elevada
+AT015133;P07;2024-09-12;oficina_educativa;69;3,38;voluntarios;Resultado regular
+AT015134;P07;2024-10-03;oficina_educativa;15;3,62;transporte;Participacao elevada
+AT015135;P07;2024-04-19;aula;10;6,35;transporte;participacao elevada
+AT015136;P07;2024-01-25;oficina_educativa;9;4,26;voluntarios;objetivos atingidos
+AT015137;P07;2025-12-24;oficina_educativa;66;4,59;transporte;Participacao elevada
+AT015138;P07;2025-02-21;oficina_educativa;67;8,21;material;
+AT015139;P07;2024-12-20;apoio_estudo;68;7,93;transporte;resultado regular
+AT015140;P07;2024-12-10;apoio_estudo;22;3,04;voluntarios;sem registo
+AT015140;P07;2024-12-10;apoio_estudo;22;3,04;voluntarios;sem registo
+AT015141;P07;2025-06-10;aula;65;2,69;material;
+AT015142;P07;2024-01-05;apoio_estudo;22;4,87;transporte;
+AT015143;P07;2024-12-24;apoio_estudo;18;2,15;material;
+AT015144;P07;2025-05-19;aula;30;4,13;voluntarios;
+AT015145;P07;2024-06-01;aula;28;2,06;equipamento;Participacao elevada
+AT015146;P07;2025-05-27;aula;49;4,90;voluntarios;Participacao elevada
+AT015147;P07;2024-12-09;apoio_estudo;33;7,66;equipamento;objetivos atingidos
+AT015148;P07;2025-12-21;oficina_educativa;47;5,39;material;com atraso
+AT015149;P07;2024-06-19;apoio_estudo;49;2,56;sala;Resultado regular
+AT015150;P07;2025-11-12;aula;57;4,94;sala;Participacao elevada
+AT015151;P07;2024-10-19;oficina_educativa;54;6,73;transporte;com atraso
+AT015152;P07;2024-02-18;oficina_educativa;19;3,23;voluntarios;com atraso
+AT015153;P07;2025-06-05;oficina_educativa;48;3,82;voluntarios;participacao elevada
+AT015154;P07;2025-07-22;oficina_educativa;66;3,62;voluntarios;Participacao elevada
+AT015155;P07;2025-11-18;apoio_estudo;7;8,18;transporte;objetivos atingidos
+AT015156;P07;2025-09-14;aula;11;7,59;material;com atraso
+AT015156;P07;2025-09-14;aula;11;7,59;material;com atraso
+AT015157;P07;2025-11-01;aula;31;2,72;sala;com atraso
+AT015157;P07;2025-11-01;aula;31;2,72;sala;com atraso
+AT015158;P07;2024-10-06;aula;12;5,34;sala;participacao elevada
+AT015158;P07;2024-10-06;aula;12;5,34;sala;participacao elevada
+AT015159;P07;2025-06-14;aula;54;5,56;transporte;Resultado regular
+AT015160;P07;2024-10-15;aula;65;6,16;voluntarios;resultado regular
+AT015161;P07;2025-07-02;apoio_estudo;68;2,16;material;Resultado regular
+AT015162;P07;2024-09-02;apoio_estudo;48;8,07;sala;Participacao elevada
+AT015163;P07;2024-04-23;aula;20;8,85;sala;participacao elevada
+AT015164;P07;2024-08-22;aula;63;7,11;material;
+AT015165;P07;2025-10-16;apoio_estudo;21;4,61;transporte;resultado regular
+AT015166;P07;2025-10-15;apoio_estudo;42;4,20;voluntarios;resultado regular
+AT015167;P07;2025-10-20;apoio_estudo;49;3,02;equipamento;com atraso
+AT015168;P07;2025-12-21;apoio_estudo;63;5,53;voluntarios;com atraso
+AT015169;P07;2025-04-06;apoio_estudo;35;8,85;voluntarios;objetivos atingidos
+AT015170;P07;2025-12-05;apoio_estudo;51;3,00;equipamento;Resultado regular
+AT015171;P07;2024-01-01;apoio_estudo;23;5,78;sala;com atraso
+AT015172;P07;2025-10-22;aula;50;6,46;material;Participacao elevada
+AT015173;P07;2025-11-27;apoio_estudo;26;7,26;voluntarios;sem registo
+AT015174;P07;2024-10-18;aula;37;6,86;voluntarios;
+AT015175;P07;2025-05-04;aula;17;6,50;transporte;participacao elevada
+AT015176;P07;2025-01-17;oficina_educativa;31;3,71;sala;
+AT015177;P07;2024-11-08;aula;5;6,56;voluntarios;Resultado regular
+AT015177;P07;2024-11-08;aula;5;6,56;voluntarios;Resultado regular
+AT015178;P07;2025-02-06;apoio_estudo;25;8,93;voluntarios;participacao elevada
+AT015179;P07;2025-05-10;apoio_estudo;44;2,71;material;participacao elevada
+AT015180;P07;2025-09-06;oficina_educativa;10;6,75;transporte;Resultado regular
+AT015181;P07;2024-12-19;aula;6;7,56;sala;
+AT015182;P07;2025-09-07;apoio_estudo;5;7,44;transporte;com atraso
+AT015183;P07;2025-06-27;oficina_educativa;50;8,03;voluntarios;com atraso
+AT015184;P07;2025-12-13;oficina_educativa;17;5,11;voluntarios;resultado regular
+AT015185;P07;2024-03-26;apoio_estudo;52;3,85;transporte;participacao elevada
+AT015186;P07;2024-03-19;oficina_educativa;24;2,67;equipamento;resultado regular
+AT015187;P07;2024-07-18;aula;30;8,94;voluntarios;sem registo
+AT015188;P07;2024-06-03;apoio_estudo;30;2,05;voluntarios;com atraso
+AT015189;P07;2025-12-04;apoio_estudo;68;7,23;equipamento;
+AT015190;P07;2024-04-24;oficina_educativa;16;8,94;material;
+AT015191;P07;2024-03-14;oficina_educativa;36;5,91;material;participacao elevada
+AT015192;P07;2024-04-04;aula;52;7,30;transporte;participacao elevada
+AT015193;P07;2024-01-03;oficina_educativa;47;3,33;equipamento;com atraso
+AT015194;P07;2025-05-05;apoio_estudo;37;6,98;voluntarios;
+AT015195;P07;2025-03-27;oficina_educativa;31;3,03;transporte;sem registo
+AT015196;P07;2025-03-19;apoio_estudo;56;4,66;material;
+AT015197;P07;2025-02-22;aula;62;5,18;material;com atraso
+AT015198;P07;2025-09-03;oficina_educativa;38;7,28;voluntarios;objetivos atingidos
+AT015199;P07;2024-06-03;oficina_educativa;30;6,09;transporte;com atraso
+AT015200;P07;2025-11-12;aula;37;4,36;voluntarios;participacao elevada
+AT015201;P07;2024-06-17;apoio_estudo;46;5,88;voluntarios;objetivos atingidos
+AT015202;P07;2024-12-19;apoio_estudo;13;7,79;voluntarios;
+AT015203;P07;2024-05-08;apoio_estudo;41;4,89;transporte;
+AT015204;P07;2024-09-17;apoio_estudo;45;7,70;transporte;Participacao elevada
+AT015205;P07;2025-10-16;aula;44;3,88;equipamento;Participacao elevada
+AT015206;P07;2024-09-17;aula;29;8,68;sala;resultado regular
+AT015207;P07;2025-09-17;apoio_estudo;64;2,27;voluntarios;sem registo
+AT015208;P07;2024-03-08;oficina_educativa;65;3,15;material;Resultado regular
+AT015209;P07;2024-01-13;apoio_estudo;23;8,82;equipamento;participacao elevada
+AT015210;P07;2024-12-02;apoio_estudo;41;3,08;material;com atraso
+AT015211;P07;2025-07-04;aula;5;5,95;voluntarios;resultado regular
+AT015212;P07;2024-05-17;aula;56;2,88;transporte;participacao elevada
+AT015213;P07;2025-06-21;apoio_estudo;57;5,76;transporte;resultado regular
+AT015214;P07;2025-11-13;aula;66;7,47;material;
+AT015215;P07;2024-11-19;aula;39;7,50;material;
+AT015216;P07;2025-06-07;aula;26;4,04;sala;Participacao elevada
+AT015217;P07;2024-04-25;aula;18;5,27;sala;sem registo
+AT015218;P07;2024-05-20;apoio_estudo;53;5,64;transporte;
+AT015219;P07;2025-02-18;aula;33;2,03;sala;
+AT015220;P07;2025-06-27;aula;50;4,25;equipamento;participacao elevada
+AT015221;P07;2024-06-25;apoio_estudo;16;2,20;sala;participacao elevada
+AT015222;P07;2024-09-09;aula;55;7,62;sala;Participacao elevada
+AT015223;P07;2024-05-18;aula;14;4,11;voluntarios;sem registo
+AT015224;P07;2024-09-07;oficina_educativa;14;7,06;equipamento;objetivos atingidos
+AT015225;P07;2024-01-26;oficina_educativa;19;8,87;material;
+AT015226;P07;2025-03-03;aula;50;5,81;sala;sem registo
+AT015227;P07;2024-12-02;aula;23;5,22;voluntarios;
+AT015228;P07;2025-01-07;aula;39;2,66;transporte;sem registo
+AT015229;P07;2025-12-22;aula;8;6,59;equipamento;
+AT015230;P07;2024-11-22;apoio_estudo;57;3,97;equipamento;
+AT015231;P07;2025-07-24;oficina_educativa;60;7,75;material;resultado regular
+AT015232;P07;2025-05-04;apoio_estudo;65;6,17;material;resultado regular
+AT015233;P07;2024-08-13;oficina_educativa;61;3,15;voluntarios;Participacao elevada
+AT015234;P07;2024-03-02;oficina_educativa;5;6,30;transporte;com atraso
+AT015235;P07;2024-05-21;aula;67;7,62;equipamento;sem registo
+AT015236;P07;2024-06-10;apoio_estudo;25;2,32;equipamento;participacao elevada
+AT015237;P07;2024-12-27;aula;68;7,16;voluntarios;Resultado regular
+AT015238;P07;2025-04-18;aula;48;8,29;equipamento;objetivos atingidos
+AT015239;P07;2025-11-14;aula;50;3,77;equipamento;
+AT015240;P07;2024-07-01;aula;10;2,94;transporte;participacao elevada
+AT015241;P07;2024-05-21;oficina_educativa;60;2,06;material;sem registo
+AT015242;P07;2025-09-21;aula;49;5,85;sala;Participacao elevada
+AT015243;P07;2025-09-19;oficina_educativa;14;6,83;equipamento;participacao elevada
+AT015244;P07;2025-08-09;oficina_educativa;49;7,44;equipamento;Participacao elevada
+AT015245;P07;2024-07-05;oficina_educativa;62;7,20;material;participacao elevada
+AT015246;P07;2025-12-26;oficina_educativa;67;2,98;sala;
+AT015247;P07;2024-12-08;apoio_estudo;65;7,20;transporte;Participacao elevada
+AT015248;P07;2025-04-24;apoio_estudo;51;5,30;voluntarios;Participacao elevada
+AT015249;P07;2024-12-25;oficina_educativa;59;7,15;transporte;com atraso
+AT015250;P07;2025-10-17;oficina_educativa;50;3,73;sala;com atraso
+AT015251;P07;2025-11-19;aula;30;7,55;equipamento;
+AT015252;P07;2024-05-26;apoio_estudo;29;2,23;transporte;objetivos atingidos
+AT015253;P07;2025-09-12;apoio_estudo;39;8,39;voluntarios;resultado regular
+AT015254;P07;2025-01-10;oficina_educativa;40;7,25;voluntarios;Participacao elevada
+AT015255;P07;2025-07-10;aula;36;2,90;material;
+AT015256;P07;2025-02-16;aula;20;5,05;sala;
+AT015257;P07;2025-06-20;aula;42;8,99;equipamento;objetivos atingidos
+AT015258;P07;2025-03-14;aula;47;2,62;transporte;
+AT015259;P07;2025-06-13;apoio_estudo;22;7,56;material;participacao elevada
+AT015260;P07;2024-05-25;apoio_estudo;10;3,62;transporte;sem registo
+AT015261;P07;2024-10-08;oficina_educativa;56;8,41;transporte;Resultado regular
+AT015262;P07;2025-11-16;aula;17;6,69;material;Participacao elevada
+AT015263;P07;2024-01-19;aula;20;8,03;transporte;participacao elevada
+AT015264;P07;2024-03-13;oficina_educativa;13;4,27;transporte;Resultado regular
+AT015265;P07;2025-01-17;oficina_educativa;48;6,33;equipamento;Participacao elevada
+AT015266;P07;2025-09-06;apoio_estudo;43;8,06;transporte;resultado regular
+AT015267;P07;2025-07-26;oficina_educativa;65;5,67;voluntarios;resultado regular
+AT015268;P07;2024-02-02;apoio_estudo;34;2,64;voluntarios;sem registo
+AT015269;P07;2024-08-21;aula;37;5,46;material;Participacao elevada
+AT015270;P07;2024-11-17;aula;65;5,41;voluntarios;com atraso
+AT015271;P07;2024-09-06;apoio_estudo;27;4,07;sala;Participacao elevada
+AT015272;P07;2025-01-13;oficina_educativa;13;7,89;sala;
+AT015273;P07;2025-02-18;aula;35;3,92;voluntarios;
+AT015274;P07;2025-02-09;aula;19;7,12;transporte;objetivos atingidos
+AT015275;P07;2024-09-08;aula;43;7,48;sala;
+AT015276;P07;2025-09-26;aula;21;5,22;equipamento;sem registo
+AT015277;P07;2024-11-12;aula;38;5,51;equipamento;com atraso
+AT015278;P07;2025-11-21;aula;37;5,25;voluntarios;com atraso
+AT015279;P07;2024-03-26;aula;67;5,81;material;resultado regular
+AT015280;P07;2024-03-07;apoio_estudo;16;8,89;equipamento;Resultado regular
+AT015281;P07;2025-02-14;apoio_estudo;48;7,29;sala;com atraso
+AT015282;P07;2024-01-13;aula;64;2,42;voluntarios;sem registo
+AT015283;P07;2025-10-10;aula;7;5,52;equipamento;Resultado regular
+AT015283;P07;2025-10-10;aula;7;5,52;equipamento;Resultado regular
+AT015284;P07;2025-11-17;aula;67;8,66;equipamento;sem registo
+AT015285;P07;2025-05-23;oficina_educativa;40;7,22;material;Resultado regular
+AT015286;P07;2024-04-15;oficina_educativa;9;5,28;sala;sem registo
+AT015287;P07;2024-06-26;apoio_estudo;23;8,47;material;
+AT015288;P07;2025-07-27;aula;56;8,13;sala;participacao elevada
+AT015289;P07;2025-06-11;oficina_educativa;61;8,90;equipamento;
+AT015290;P07;2024-12-13;aula;16;3,54;material;
+AT015291;P07;2024-02-02;aula;13;3,20;sala;sem registo
+AT015292;P07;2024-02-24;oficina_educativa;55;2,72;material;resultado regular
+AT015293;P07;2024-03-23;oficina_educativa;47;7,18;transporte;sem registo
+AT015294;P07;2025-09-04;apoio_estudo;38;7,71;sala;com atraso
+AT015295;P07;2024-07-13;aula;12;8,63;material;sem registo
+AT015296;P07;2025-01-13;oficina_educativa;9;8,85;transporte;Participacao elevada
+AT015297;P07;2025-06-18;oficina_educativa;41;3,19;material;sem registo
+AT015298;P07;2025-11-21;oficina_educativa;56;5,38;material;Resultado regular
+AT015299;P07;2025-08-13;apoio_estudo;52;4,62;sala;Participacao elevada
+AT015300;P07;2025-04-16;oficina_educativa;31;7,53;material;Participacao elevada
+AT015301;P07;2024-01-18;oficina_educativa;20;5,00;equipamento;sem registo
+AT015302;P07;2025-11-04;aula;28;5,25;material;Resultado regular
+AT015303;P07;2024-09-04;aula;26;6,37;material;sem registo
+AT015304;P07;2025-11-26;aula;18;6,94;material;
+AT015305;P07;2025-05-19;aula;51;6,84;transporte;com atraso
+AT015306;P07;2024-12-03;oficina_educativa;48;3,05;voluntarios;objetivos atingidos
+AT015307;P07;2025-08-04;apoio_estudo;64;6,11;transporte;
+AT015308;P07;2025-07-01;oficina_educativa;13;3,76;transporte;com atraso
+AT015309;P07;2024-11-05;aula;7;4,10;sala;objetivos atingidos
+AT015310;P07;2025-10-05;oficina_educativa;44;7,96;transporte;Resultado regular
+AT015311;P07;2025-12-06;apoio_estudo;9;2,80;transporte;sem registo
+AT015312;P07;2025-01-16;apoio_estudo;10;6,44;transporte;resultado regular
+AT015313;P07;2025-04-16;oficina_educativa;6;8,86;equipamento;Resultado regular
+AT015314;P07;2024-11-11;oficina_educativa;8;8,70;voluntarios;participacao elevada
+AT015315;P07;2024-08-08;apoio_estudo;33;4,75;voluntarios;resultado regular
+AT015316;P07;2025-06-16;oficina_educativa;6;2,40;sala;participacao elevada
+AT015317;P07;2024-05-11;apoio_estudo;24;5,92;material;Resultado regular
+AT015318;P07;2025-03-13;apoio_estudo;34;7,06;voluntarios;sem registo
+AT015318;P07;2025-03-13;apoio_estudo;34;7,06;voluntarios;sem registo
+AT015319;P07;2024-11-13;apoio_estudo;25;2,21;material;objetivos atingidos
+AT015320;P07;2024-12-11;apoio_estudo;25;5,04;material;
+AT015321;P07;2024-02-21;aula;32;3,96;voluntarios;
+AT015322;P07;2025-07-13;apoio_estudo;69;5,64;transporte;Participacao elevada
+AT015323;P07;2024-11-22;aula;50;4,88;transporte;participacao elevada
+AT015324;P07;2025-11-06;apoio_estudo;26;7,57;voluntarios;com atraso
+AT015325;P07;2025-05-03;oficina_educativa;14;3,55;equipamento;sem registo
+AT015326;P07;2025-03-15;aula;32;5,96;voluntarios;Participacao elevada
+AT015327;P07;2024-09-17;aula;7;4,65;material;
+AT015328;P07;2025-07-01;aula;20;2,70;sala;resultado regular
+AT015329;P07;2025-10-17;oficina_educativa;51;7,49;material;objetivos atingidos
+AT015330;P07;2024-05-01;apoio_estudo;23;4,24;voluntarios;participacao elevada
+AT015331;P07;2025-12-11;apoio_estudo;13;4,77;sala;resultado regular
+AT015332;P07;2024-12-13;apoio_estudo;62;5,08;equipamento;resultado regular
+AT015333;P07;2025-06-05;aula;40;3,14;transporte;participacao elevada
+AT015334;P07;2024-08-01;oficina_educativa;18;7,71;voluntarios;
+AT015335;P07;2025-07-19;apoio_estudo;13;4,90;voluntarios;sem registo
+AT015336;P07;2025-02-04;apoio_estudo;14;4,93;equipamento;sem registo
+AT015337;P07;2024-11-17;aula;40;5,33;equipamento;participacao elevada
+AT015338;P07;2025-10-07;aula;53;7,63;voluntarios;participacao elevada
+AT015339;P07;2025-11-11;apoio_estudo;62;4,08;material;Participacao elevada
+AT015340;P07;2024-02-24;apoio_estudo;10;5,23;equipamento;resultado regular
+AT015341;P07;2024-11-14;oficina_educativa;47;8,56;voluntarios;com atraso
+AT015342;P07;2024-04-06;aula;53;4,40;transporte;Resultado regular
+AT015343;P07;2024-12-16;oficina_educativa;17;8,24;material;
+AT015344;P07;2025-09-26;apoio_estudo;27;7,30;sala;resultado regular
+AT015345;P07;2025-08-11;oficina_educativa;46;6,33;voluntarios;sem registo
+AT015346;P07;2025-12-02;apoio_estudo;21;3,01;voluntarios;objetivos atingidos
+AT015347;P07;2024-12-27;apoio_estudo;37;4,36;equipamento;Resultado regular
+AT015348;P07;2025-01-04;apoio_estudo;50;8,23;material;Resultado regular
+AT015349;P07;2024-08-18;apoio_estudo;55;3,55;material;Participacao elevada
+AT015350;P07;2024-06-25;aula;26;3,84;equipamento;objetivos atingidos
+AT015351;P07;2024-12-20;aula;63;2,89;transporte;objetivos atingidos
+AT015352;P07;2024-03-03;apoio_estudo;50;2,71;material;Resultado regular
+AT015353;P07;2025-12-08;apoio_estudo;5;4,22;material;Resultado regular
+AT015354;P07;2025-09-15;apoio_estudo;26;5,27;voluntarios;Participacao elevada
+AT015355;P07;2024-12-01;oficina_educativa;51;8,62;material;objetivos atingidos
+AT015356;P07;2025-03-04;oficina_educativa;26;5,16;voluntarios;sem registo
+AT015357;P07;2025-01-16;oficina_educativa;58;7,19;equipamento;com atraso
+AT015358;P07;2025-06-02;aula;11;8,90;equipamento;
+AT015359;P07;2025-06-09;oficina_educativa;16;3,59;equipamento;participacao elevada
+AT015360;P07;2025-05-04;oficina_educativa;39;8,07;material;com atraso
+AT015361;P07;2025-10-03;aula;33;2,90;sala;
+AT015362;P07;2025-09-09;oficina_educativa;25;6,63;equipamento;resultado regular
+AT015363;P07;2025-01-14;aula;35;4,25;transporte;participacao elevada
+AT015364;P07;2024-07-19;oficina_educativa;22;8,65;voluntarios;Participacao elevada
+AT015365;P07;2024-10-06;apoio_estudo;12;4,97;voluntarios;objetivos atingidos
+AT015365;P07;2024-10-06;apoio_estudo;12;4,97;voluntarios;objetivos atingidos
+AT015366;P07;2025-03-19;aula;34;8,40;material;objetivos atingidos
+AT015367;P07;2024-09-04;aula;49;3,19;sala;Resultado regular
+AT015368;P07;2024-11-07;apoio_estudo;9;8,27;equipamento;com atraso
+AT015369;P07;2024-08-13;apoio_estudo;22;4,79;equipamento;objetivos atingidos
+AT015370;P07;2025-11-19;oficina_educativa;67;8,69;material;Participacao elevada
+AT015371;P07;2024-11-09;aula;24;7,95;equipamento;Participacao elevada
+AT015372;P07;2025-10-25;oficina_educativa;21;7,55;voluntarios;objetivos atingidos
+AT015373;P07;2024-04-14;oficina_educativa;55;8,92;equipamento;Participacao elevada
+AT015374;P07;2025-03-04;aula;36;6,06;sala;sem registo
+AT015375;P07;2025-05-12;aula;29;4,75;sala;com atraso
+AT015376;P07;2025-02-08;apoio_estudo;23;6,88;transporte;
+AT015377;P07;2025-04-27;aula;10;5,79;transporte;participacao elevada
+AT015378;P07;2024-09-08;apoio_estudo;5;5,88;voluntarios;sem registo
+AT015379;P07;2025-07-01;aula;21;7,08;equipamento;com atraso
+AT015380;P07;2025-04-05;apoio_estudo;10;8,01;transporte;com atraso
+AT015381;P07;2025-03-05;aula;56;3,07;transporte;
+AT015382;P07;2024-11-06;oficina_educativa;46;8,81;voluntarios;participacao elevada
+AT015383;P07;2024-09-07;apoio_estudo;10;6,24;voluntarios;resultado regular
+AT015384;P07;2025-06-26;oficina_educativa;57;3,14;transporte;Resultado regular
+AT015385;P07;2024-03-26;apoio_estudo;44;7,98;equipamento;com atraso
+AT015386;P07;2024-10-10;oficina_educativa;49;2,73;sala;objetivos atingidos
+AT015387;P07;2024-04-23;oficina_educativa;7;2,74;equipamento;
+AT015388;P07;2024-08-22;aula;59;3,89;transporte;Participacao elevada
+AT015389;P07;2025-07-02;aula;41;7,75;equipamento;participacao elevada
+AT015390;P07;2025-11-02;apoio_estudo;51;8,90;transporte;sem registo
+AT015391;P07;2025-02-19;apoio_estudo;41;7,79;material;
+AT015392;P07;2024-12-01;aula;49;6,49;sala;
+AT015393;P07;2024-11-10;apoio_estudo;59;6,98;equipamento;
+AT015394;P07;2025-08-07;apoio_estudo;27;2,76;material;sem registo
+AT015395;P07;2025-05-10;apoio_estudo;46;7,73;equipamento;participacao elevada
+AT015396;P07;2025-02-16;apoio_estudo;58;4,30;voluntarios;
+AT015397;P07;2024-02-13;aula;60;6,58;voluntarios;resultado regular
+AT015398;P07;2024-03-13;aula;23;3,76;voluntarios;
+AT015399;P07;2024-01-23;oficina_educativa;53;6,08;equipamento;Resultado regular
+AT015400;P07;2024-12-03;apoio_estudo;42;5,15;equipamento;Resultado regular
+AT015401;P07;2024-11-25;oficina_educativa;58;2,62;sala;resultado regular
+AT015402;P07;2025-09-15;apoio_estudo;24;4,89;voluntarios;participacao elevada
+AT015403;P07;2025-10-03;aula;18;7,78;material;Participacao elevada
+AT015404;P07;2024-06-05;oficina_educativa;46;6,56;voluntarios;sem registo
+AT015405;P07;2025-02-26;aula;40;2,84;voluntarios;Resultado regular
+AT015406;P07;2025-05-20;apoio_estudo;54;6,01;transporte;resultado regular
+AT015407;P07;2025-01-24;oficina_educativa;43;5,01;material;objetivos atingidos
+AT015408;P07;2024-03-01;oficina_educativa;20;4,92;sala;sem registo
+AT015409;P07;2024-01-25;apoio_estudo;62;7,21;transporte;Participacao elevada
+AT015410;P07;2025-05-04;apoio_estudo;34;4,47;sala;Participacao elevada
+AT015411;P07;2025-07-26;oficina_educativa;8;7,25;transporte;sem registo
+AT015412;P07;2025-11-23;oficina_educativa;20;4,81;sala;com atraso
+AT015413;P07;2025-09-06;oficina_educativa;67;7,77;voluntarios;Resultado regular
+AT015414;P07;2025-02-06;oficina_educativa;22;7,85;voluntarios;Resultado regular
+AT015415;P07;2025-12-25;apoio_estudo;18;8,62;material;
+AT015416;P07;2024-06-14;aula;59;5,04;voluntarios;
+AT015417;P07;2024-10-01;apoio_estudo;56;8,64;transporte;com atraso
+AT015418;P07;2025-09-10;aula;48;7,58;equipamento;resultado regular
+AT015419;P07;2025-06-03;aula;7;7,18;sala;sem registo
+AT015420;P07;2025-04-07;oficina_educativa;9;6,62;material;
+AT015421;P07;2025-04-07;oficina_educativa;59;8,23;voluntarios;participacao elevada
+AT015422;P07;2024-11-11;aula;57;3,90;material;
+AT015423;P07;2025-11-20;aula;61;5,18;sala;Participacao elevada
+AT015424;P07;2025-12-17;oficina_educativa;10;5,22;material;participacao elevada
+AT015425;P07;2024-11-21;oficina_educativa;47;3,14;transporte;
+AT015426;P07;2024-05-13;apoio_estudo;27;4,54;material;Resultado regular
+AT015427;P07;2025-08-09;oficina_educativa;68;5,53;equipamento;Participacao elevada
+AT015428;P07;2025-08-27;apoio_estudo;26;7,58;material;sem registo
+AT015429;P07;2024-04-27;apoio_estudo;27;6,85;sala;resultado regular
+AT015430;P07;2024-07-05;oficina_educativa;64;4,31;transporte;com atraso
+AT015431;P07;2025-07-15;aula;53;6,17;transporte;Resultado regular
+AT015432;P07;2024-07-14;oficina_educativa;62;3,24;transporte;sem registo
+AT015433;P07;2024-06-20;aula;49;5,14;material;Resultado regular
+AT015434;P07;2025-11-07;oficina_educativa;26;4,51;sala;sem registo
+AT015435;P07;2025-10-15;apoio_estudo;61;2,91;equipamento;com atraso
+AT015436;P07;2025-04-22;oficina_educativa;42;4,41;material;participacao elevada
+AT015437;P07;2024-07-12;oficina_educativa;50;5,28;equipamento;resultado regular
+AT015438;P07;2024-01-06;apoio_estudo;11;4,20;sala;participacao elevada
+AT015439;P07;2025-08-19;apoio_estudo;38;8,78;equipamento;participacao elevada
+AT015440;P07;2024-11-13;aula;30;4,56;transporte;Resultado regular
+AT015441;P07;2025-02-07;apoio_estudo;48;4,27;voluntarios;Resultado regular
+AT015442;P07;2025-03-04;aula;37;5,65;equipamento;
+AT015443;P07;2025-01-06;aula;31;5,57;transporte;
+AT015444;P07;2025-11-10;aula;68;2,57;equipamento;sem registo
+AT015445;P07;2025-12-16;oficina_educativa;10;4,07;transporte;objetivos atingidos
+AT015446;P07;2024-12-13;apoio_estudo;38;6,90;equipamento;
+AT015447;P07;2025-07-11;oficina_educativa;30;2,06;material;objetivos atingidos
+AT015448;P07;2024-06-11;aula;16;2,87;equipamento;objetivos atingidos
+AT015449;P07;2025-11-16;oficina_educativa;42;2,17;sala;
+AT015450;P07;2025-04-06;oficina_educativa;63;7,68;material;Resultado regular
+AT015451;P07;2024-01-12;aula;5;7,03;transporte;
+AT015452;P07;2024-12-21;aula;41;3,39;material;objetivos atingidos
+AT015453;P07;2025-08-09;aula;13;4,69;equipamento;Resultado regular
+AT015454;P07;2025-04-20;aula;15;2,62;material;Resultado regular
+AT015455;P07;2024-01-26;oficina_educativa;67;7,43;sala;com atraso
+AT015456;P07;2025-12-02;apoio_estudo;43;2,26;material;resultado regular
+AT015457;P07;2024-01-16;apoio_estudo;40;6,07;material;
+AT015458;P07;2024-09-12;oficina_educativa;14;7,59;voluntarios;Resultado regular
+AT015459;P07;2024-10-21;oficina_educativa;40;5,40;sala;Participacao elevada
+AT015460;P07;2024-09-07;oficina_educativa;12;4,01;transporte;
+AT015461;P07;2024-01-25;apoio_estudo;35;6,87;equipamento;com atraso
+AT015462;P07;2025-11-24;oficina_educativa;36;3,89;voluntarios;objetivos atingidos
+AT015463;P07;2025-11-18;apoio_estudo;49;3,25;voluntarios;Participacao elevada
+AT015464;P07;2024-01-22;aula;40;3,38;material;Resultado regular
+AT015465;P07;2025-01-03;oficina_educativa;28;2,54;material;sem registo
+AT015466;P07;2025-12-15;apoio_estudo;8;6,87;material;
+AT015467;P07;2025-04-19;apoio_estudo;21;8,93;voluntarios;resultado regular
+AT015468;P07;2025-05-03;apoio_estudo;9;5,19;material;Participacao elevada
+AT015469;P07;2024-04-19;apoio_estudo;63;2,91;material;Participacao elevada
+AT015470;P07;2025-08-17;apoio_estudo;17;6,06;equipamento;com atraso
+AT015471;P07;2024-03-12;aula;69;6,80;material;
+AT015472;P07;2024-03-25;apoio_estudo;29;8,77;transporte;com atraso
+AT015473;P07;2025-05-19;oficina_educativa;11;6,58;material;sem registo
+AT015473;P07;2025-05-19;oficina_educativa;11;6,58;material;sem registo
+AT015474;P07;2025-09-11;apoio_estudo;29;6,04;equipamento;resultado regular
+AT015475;P07;2025-06-24;oficina_educativa;42;2,98;sala;objetivos atingidos
+AT015476;P07;2025-04-04;oficina_educativa;17;6,40;sala;resultado regular
+AT015477;P07;2024-07-11;aula;64;3,00;transporte;participacao elevada
+AT015478;P07;2024-12-06;oficina_educativa;54;7,58;material;objetivos atingidos
+AT015478;P07;2024-12-06;oficina_educativa;54;7,58;material;objetivos atingidos
+AT015479;P07;2024-10-18;aula;18;8,38;voluntarios;
+AT015480;P07;2024-05-14;apoio_estudo;19;7,26;sala;
+AT015481;P07;2024-04-02;apoio_estudo;65;7,37;material;resultado regular
+AT015482;P07;2025-09-22;aula;56;7,59;sala;Resultado regular
+AT015483;P07;2024-03-07;apoio_estudo;32;8,15;equipamento;
+AT015484;P07;2024-07-24;oficina_educativa;34;5,59;equipamento;Resultado regular
+AT015485;P07;2025-09-19;aula;11;7,86;sala;objetivos atingidos
+AT015486;P07;2025-11-04;apoio_estudo;56;6,34;material;sem registo
+AT015487;P07;2024-01-14;apoio_estudo;44;8,62;equipamento;objetivos atingidos
+AT015487;P07;2024-01-14;apoio_estudo;44;8,62;equipamento;objetivos atingidos
+AT015488;P07;2025-05-18;oficina_educativa;17;7,11;transporte;objetivos atingidos
+AT015489;P07;2025-12-01;oficina_educativa;49;7,77;transporte;Participacao elevada
+AT015490;P07;2024-11-27;oficina_educativa;45;5,86;transporte;participacao elevada
+AT015491;P07;2025-11-24;apoio_estudo;18;6,29;material;objetivos atingidos
+AT015492;P07;2024-08-03;aula;40;8,45;sala;Participacao elevada
+AT015493;P07;2024-12-16;aula;32;4,59;voluntarios;Resultado regular
+AT015494;P07;2024-07-06;apoio_estudo;58;4,24;voluntarios;
+AT015495;P07;2024-04-26;oficina_educativa;62;8,68;sala;Participacao elevada
+AT015495;P07;2024-04-26;oficina_educativa;62;8,68;sala;Participacao elevada
+AT015496;P07;2024-12-15;aula;37;7,88;material;sem registo
+AT015497;P07;2025-08-23;oficina_educativa;19;3,73;voluntarios;Participacao elevada
+AT015498;P07;2024-08-06;oficina_educativa;26;7,22;equipamento;objetivos atingidos
+AT015499;P07;2024-04-12;oficina_educativa;25;6,69;equipamento;objetivos atingidos
+AT015500;P07;2025-04-16;aula;38;8,57;voluntarios;
+AT015501;P07;2025-07-12;aula;6;2,85;voluntarios;participacao elevada
+AT015502;P07;2025-08-04;apoio_estudo;5;6,26;voluntarios;sem registo
+AT015503;P07;2024-10-10;aula;6;4,03;equipamento;participacao elevada
+AT015504;P07;2025-08-26;oficina_educativa;58;3,83;sala;objetivos atingidos
+AT015505;P07;2024-02-18;oficina_educativa;17;5,57;equipamento;sem registo
+AT015506;P07;2024-05-03;oficina_educativa;18;3,66;voluntarios;com atraso
+AT015507;P07;2025-04-07;aula;14;4,73;voluntarios;
+AT015508;P07;2025-09-03;apoio_estudo;30;3,64;sala;resultado regular
+AT015509;P07;2024-02-10;oficina_educativa;45;8,54;equipamento;sem registo
+AT015510;P07;2024-06-10;aula;46;6,36;material;objetivos atingidos
+AT015511;P07;2025-12-14;aula;11;7,62;equipamento;Participacao elevada
+AT015512;P07;2024-04-17;oficina_educativa;69;3,40;equipamento;Resultado regular
+AT015513;P07;2025-11-26;aula;40;3,18;sala;objetivos atingidos
+AT015514;P07;2024-06-02;oficina_educativa;21;2,63;material;
+AT015515;P07;2025-07-06;apoio_estudo;44;8,37;transporte;resultado regular
+AT015516;P07;2024-03-07;apoio_estudo;18;5,14;equipamento;
+AT015517;P07;2024-04-09;aula;59;3,12;voluntarios;Participacao elevada
+AT015518;P07;2025-09-11;oficina_educativa;36;6,13;material;Participacao elevada
+AT015519;P07;2025-06-09;aula;39;6,31;transporte;Resultado regular
+AT015520;P07;2025-03-21;oficina_educativa;51;3,91;voluntarios;com atraso
+AT015521;P07;2025-02-02;aula;42;3,94;sala;sem registo
+AT015522;P07;2024-05-15;aula;47;8,21;material;
+AT015523;P07;2025-08-22;oficina_educativa;41;5,29;equipamento;participacao elevada
+AT015524;P07;2024-06-03;aula;64;2,71;equipamento;objetivos atingidos
+AT015525;P07;2024-10-22;aula;10;3,91;transporte;Participacao elevada
+AT015526;P07;2025-08-08;oficina_educativa;56;6,86;equipamento;
+AT015527;P07;2024-08-23;oficina_educativa;62;3,93;equipamento;sem registo
+AT015528;P07;2025-10-07;oficina_educativa;22;8,46;equipamento;objetivos atingidos
+AT015529;P07;2024-06-05;oficina_educativa;8;3,43;sala;objetivos atingidos
+AT015530;P07;2025-01-06;apoio_estudo;19;2,07;transporte;objetivos atingidos
+AT015531;P07;2025-11-27;oficina_educativa;5;7,10;sala;participacao elevada
+AT015532;P07;2024-07-14;aula;22;3,45;sala;participacao elevada
+AT015533;P07;2024-07-07;oficina_educativa;12;7,35;sala;Resultado regular
+AT015534;P07;2025-11-14;aula;36;3,48;sala;
+AT015535;P07;2025-11-24;oficina_educativa;26;5,67;transporte;
+AT015536;P07;2025-11-08;aula;49;8,52;voluntarios;participacao elevada
+AT015537;P07;2025-11-22;apoio_estudo;59;7,02;equipamento;Participacao elevada
+AT015538;P07;2024-08-14;oficina_educativa;22;5,40;material;objetivos atingidos
+AT015539;P07;2025-02-20;aula;69;5,50;sala;
+AT015540;P07;2025-02-21;oficina_educativa;11;2,12;sala;resultado regular
+AT015541;P07;2025-02-05;aula;22;6,63;equipamento;resultado regular
+AT015542;P07;2025-11-21;apoio_estudo;48;5,97;material;resultado regular
+AT015543;P07;2024-01-13;aula;18;7,13;sala;resultado regular
+AT015544;P07;2025-06-13;apoio_estudo;29;6,75;voluntarios;
+AT015545;P07;2024-05-04;aula;34;2,51;transporte;Participacao elevada
+AT015546;P07;2025-03-12;apoio_estudo;38;7,63;transporte;objetivos atingidos
+AT015547;P07;2024-03-17;oficina_educativa;13;8,32;material;sem registo
+AT015548;P07;2025-11-09;aula;7;7,71;equipamento;Resultado regular
+AT015549;P07;2024-07-10;oficina_educativa;20;2,89;material;resultado regular
+AT015550;P07;2025-02-27;oficina_educativa;13;3,35;equipamento;participacao elevada
+AT015551;P07;2025-07-08;aula;68;2,94;material;com atraso
+AT015552;P07;2024-09-06;aula;33;3,18;equipamento;resultado regular
+AT015553;P07;2024-07-19;apoio_estudo;24;7,27;sala;
+AT015554;P07;2024-08-17;oficina_educativa;63;4,39;material;resultado regular
+AT015555;P07;2024-12-27;apoio_estudo;35;2,55;voluntarios;participacao elevada
+AT015556;P07;2025-05-18;apoio_estudo;7;8,10;material;sem registo
+AT015557;P07;2024-08-17;aula;61;5,01;material;resultado regular
+AT015558;P07;2025-02-06;aula;5;3,75;material;
+AT015559;P07;2025-01-03;aula;16;8,07;transporte;sem registo
+AT015560;P07;2025-08-09;aula;52;5,81;sala;
+AT015561;P07;2025-10-20;oficina_educativa;43;6,09;voluntarios;
+AT015562;P07;2025-12-09;apoio_estudo;10;7,38;voluntarios;resultado regular
+AT015563;P07;2024-05-25;oficina_educativa;68;7,49;sala;resultado regular
+AT015564;P07;2024-10-18;aula;31;7,50;sala;
+AT015565;P07;2025-12-03;apoio_estudo;18;6,94;sala;sem registo
+AT015566;P07;2025-09-11;oficina_educativa;7;8,03;voluntarios;
+AT015567;P07;2025-08-27;apoio_estudo;19;3,28;transporte;
+AT015568;P07;2025-04-12;apoio_estudo;58;5,46;material;Resultado regular
+AT015569;P07;2024-09-14;oficina_educativa;50;8,02;transporte;sem registo
+AT015570;P07;2025-04-20;oficina_educativa;64;7,02;transporte;objetivos atingidos
+AT015571;P07;2024-12-25;oficina_educativa;46;6,04;voluntarios;participacao elevada
+AT015572;P07;2025-02-14;apoio_estudo;58;6,22;equipamento;resultado regular
+AT015573;P07;2025-04-16;aula;53;2,96;sala;sem registo
+AT015574;P07;2024-08-15;apoio_estudo;13;6,59;material;Resultado regular
+AT015575;P07;2024-08-24;aula;34;3,70;voluntarios;objetivos atingidos
+AT015576;P07;2024-08-27;apoio_estudo;66;8,42;sala;Participacao elevada
+AT015577;P07;2024-10-05;aula;22;5,38;transporte;
+AT015578;P07;2024-08-16;oficina_educativa;31;2,23;material;objetivos atingidos
+AT015579;P07;2025-11-19;apoio_estudo;15;7,70;equipamento;objetivos atingidos
+AT015580;P07;2025-05-03;aula;8;8,04;equipamento;Resultado regular
+AT015581;P07;2024-03-10;aula;63;7,18;sala;Participacao elevada
+AT015582;P07;2024-10-12;oficina_educativa;23;2,77;transporte;participacao elevada
+AT015583;P07;2024-08-25;oficina_educativa;12;7,27;transporte;resultado regular
+AT015584;P07;2024-08-27;oficina_educativa;7;3,40;transporte;participacao elevada
+AT015585;P07;2025-12-18;apoio_estudo;42;6,82;transporte;objetivos atingidos
+AT015586;P07;2025-08-11;aula;53;3,03;material;sem registo
+AT015587;P07;2025-06-14;oficina_educativa;13;5,98;transporte;
+AT015588;P07;2024-03-10;aula;14;6,90;equipamento;objetivos atingidos
+AT015589;P07;2024-06-08;aula;12;5,54;equipamento;
+AT015590;P07;2024-03-24;aula;65;4,27;transporte;Resultado regular
+AT015591;P07;2025-09-25;oficina_educativa;28;4,71;voluntarios;com atraso
+AT015592;P07;2024-12-13;oficina_educativa;7;4,36;transporte;resultado regular
+AT015593;P07;2024-06-24;aula;26;6,34;sala;Participacao elevada
+AT015594;P07;2024-08-19;apoio_estudo;39;6,92;sala;resultado regular
+AT015595;P07;2025-04-15;apoio_estudo;41;2,71;sala;Resultado regular
+AT015596;P07;2024-06-07;aula;35;7,36;transporte;resultado regular
+AT015597;P07;2025-07-07;aula;40;3,63;sala;objetivos atingidos
+AT015598;P07;2025-12-18;aula;19;6,45;material;com atraso
+AT015599;P07;2024-12-10;apoio_estudo;14;5,01;material;
+AT015600;P07;2024-07-14;apoio_estudo;58;8,76;sala;participacao elevada
+AT015601;P07;2025-11-19;apoio_estudo;13;8,59;transporte;
+AT015602;P07;2024-01-15;apoio_estudo;23;6,65;sala;Participacao elevada
+AT015603;P07;2024-05-02;apoio_estudo;20;5,42;voluntarios;com atraso
+AT015604;P07;2024-04-07;apoio_estudo;48;4,67;transporte;
+AT015605;P07;2024-08-23;apoio_estudo;47;4,33;voluntarios;com atraso
+AT015606;P07;2025-03-21;oficina_educativa;64;5,50;sala;participacao elevada
+AT015607;P07;2024-05-10;apoio_estudo;14;8,43;material;Resultado regular
+AT015608;P07;2025-02-02;aula;35;4,27;equipamento;com atraso
+AT015609;P07;2024-05-01;oficina_educativa;45;4,32;equipamento;Resultado regular
+AT015610;P07;2024-11-12;oficina_educativa;6;2,94;voluntarios;sem registo
+AT015611;P07;2024-02-09;aula;12;3,45;transporte;participacao elevada
+AT015612;P07;2024-11-17;aula;30;2,20;transporte;participacao elevada
+AT015613;P07;2025-04-06;apoio_estudo;41;5,66;transporte;com atraso
+AT015614;P07;2024-04-09;apoio_estudo;20;2,08;equipamento;objetivos atingidos
+AT015615;P07;2025-03-25;oficina_educativa;7;6,07;transporte;resultado regular
+AT015616;P07;2025-09-07;aula;33;7,96;equipamento;objetivos atingidos
+AT015617;P07;2024-08-14;apoio_estudo;51;3,86;voluntarios;resultado regular
+AT015618;P07;2024-08-18;oficina_educativa;29;6,61;voluntarios;Participacao elevada
+AT015619;P07;2024-06-27;aula;26;3,05;material;participacao elevada
+AT015620;P07;2025-07-18;oficina_educativa;32;8,52;equipamento;participacao elevada
+AT015621;P07;2024-09-19;apoio_estudo;44;6,41;equipamento;Resultado regular
+AT015622;P07;2025-12-13;apoio_estudo;61;3,66;material;com atraso
+AT015623;P07;2025-12-12;apoio_estudo;25;6,71;equipamento;
+AT015624;P07;2025-11-27;aula;17;4,27;transporte;com atraso
+AT015625;P07;2025-12-23;oficina_educativa;37;2,55;sala;
+AT015626;P07;2024-02-18;apoio_estudo;27;2,49;voluntarios;Resultado regular
+AT015627;P07;2025-12-09;aula;6;8,43;sala;
+AT015628;P07;2024-10-01;apoio_estudo;25;8,24;voluntarios;
+AT015629;P07;2024-05-24;aula;53;3,93;transporte;com atraso
+AT015630;P07;2025-03-15;apoio_estudo;36;2,84;material;com atraso
+AT015631;P07;2025-03-15;aula;28;6,03;equipamento;resultado regular
+AT015632;P07;2025-03-18;oficina_educativa;24;7,19;transporte;objetivos atingidos
+AT015633;P07;2025-07-14;apoio_estudo;24;4,66;transporte;Participacao elevada
+AT015634;P07;2025-12-01;oficina_educativa;12;5,57;material;com atraso
+AT015635;P07;2025-01-05;aula;52;7,12;sala;
+AT015635;P07;2025-01-05;aula;52;7,12;sala;
+AT015636;P07;2025-11-06;apoio_estudo;42;3,62;transporte;participacao elevada
+AT015637;P07;2025-12-23;oficina_educativa;52;7,77;voluntarios;com atraso
+AT015637;P07;2025-12-23;oficina_educativa;52;7,77;voluntarios;com atraso
+AT015638;P07;2025-12-17;aula;69;8,45;transporte;
+AT015639;P07;2024-01-23;oficina_educativa;68;5,65;sala;sem registo
+AT015640;P07;2024-04-05;apoio_estudo;33;6,61;voluntarios;sem registo
+AT015641;P07;2024-04-03;apoio_estudo;53;5,66;material;com atraso
+AT015642;P07;2025-11-25;apoio_estudo;56;8,04;voluntarios;Participacao elevada
+AT015643;P07;2025-05-03;aula;33;6,95;material;
+AT015644;P07;2025-08-11;aula;67;2,11;sala;sem registo
+AT015644;P07;2025-08-11;aula;67;2,11;sala;sem registo
+AT015645;P07;2025-02-27;aula;63;7,24;transporte;resultado regular
+AT015646;P07;2024-07-09;aula;10;6,21;material;participacao elevada
+AT015647;P07;2025-02-26;aula;46;5,22;voluntarios;
+AT015648;P07;2025-11-17;oficina_educativa;16;3,73;transporte;
+AT015649;P07;2025-12-19;oficina_educativa;30;5,01;transporte;Resultado regular
+AT015650;P07;2025-12-14;apoio_estudo;34;3,82;material;Resultado regular
+AT015651;P07;2024-04-22;aula;8;7,65;equipamento;Resultado regular
+AT015651;P07;2024-04-22;aula;8;7,65;equipamento;Resultado regular
+AT015652;P07;2024-08-16;apoio_estudo;51;4,23;material;objetivos atingidos
+AT015653;P07;2025-02-26;apoio_estudo;26;3,12;transporte;objetivos atingidos
+AT015654;P07;2024-11-10;apoio_estudo;20;4,33;equipamento;participacao elevada
+AT015655;P07;2025-12-23;aula;21;2,19;voluntarios;Resultado regular
+AT015656;P07;2024-10-15;apoio_estudo;30;4,50;equipamento;
+AT015657;P07;2024-01-07;apoio_estudo;61;2,49;material;
+AT015658;P07;2025-06-21;apoio_estudo;43;7,23;sala;
+AT015659;P07;2025-07-15;aula;67;5,03;sala;resultado regular
+AT015660;P07;2024-11-26;oficina_educativa;65;4,74;transporte;sem registo
+AT015661;P07;2025-10-03;oficina_educativa;14;5,37;material;objetivos atingidos
+AT015662;P07;2025-02-12;oficina_educativa;48;7,93;sala;objetivos atingidos
+AT015663;P07;2025-12-14;aula;44;6,12;sala;participacao elevada
+AT015664;P07;2025-07-25;oficina_educativa;44;6,75;material;com atraso
+AT015665;P07;2024-11-11;oficina_educativa;67;4,04;material;objetivos atingidos
+AT015666;P07;2025-12-12;oficina_educativa;58;2,08;material;sem registo
+AT015667;P07;2024-12-07;apoio_estudo;68;4,03;material;objetivos atingidos
+AT015668;P07;2024-09-19;aula;28;4,10;voluntarios;Participacao elevada
+AT015669;P07;2025-03-13;apoio_estudo;32;5,32;material;
+AT015670;P07;2024-01-18;oficina_educativa;55;2,02;transporte;
+AT015671;P07;2025-01-17;apoio_estudo;38;3,37;transporte;objetivos atingidos
+AT015672;P07;2025-12-04;oficina_educativa;36;2,71;equipamento;participacao elevada
+AT015673;P07;2025-01-11;apoio_estudo;57;3,74;transporte;Participacao elevada
+AT015673;P07;2025-01-11;apoio_estudo;57;3,74;transporte;Participacao elevada
+AT015674;P07;2024-05-08;apoio_estudo;55;2,89;sala;Resultado regular
+AT015675;P07;2024-03-08;oficina_educativa;23;7,69;material;Participacao elevada
+AT015676;P07;2025-03-26;apoio_estudo;16;4,11;material;resultado regular
+AT015677;P07;2024-08-23;apoio_estudo;59;2,52;transporte;objetivos atingidos
+AT015678;P07;2024-11-18;apoio_estudo;61;5,69;equipamento;
+AT015679;P07;2025-08-02;oficina_educativa;46;4,82;sala;participacao elevada
+AT015680;P07;2025-03-07;apoio_estudo;15;2,08;transporte;resultado regular
+AT015681;P07;2024-06-27;aula;69;5,99;equipamento;sem registo
+AT015682;P07;2024-11-09;oficina_educativa;33;5,50;material;
+AT015683;P07;2024-08-08;oficina_educativa;30;7,98;voluntarios;Participacao elevada
+AT015684;P07;2025-02-16;aula;61;7,82;equipamento;Participacao elevada
+AT015685;P07;2024-07-18;oficina_educativa;33;7,39;transporte;com atraso
+AT015686;P07;2024-07-11;aula;44;4,59;equipamento;Resultado regular
+AT015687;P07;2025-10-05;aula;60;2,69;voluntarios;
+AT015688;P07;2024-09-16;aula;44;7,03;material;resultado regular
+AT015689;P07;2025-02-24;apoio_estudo;69;4,31;equipamento;com atraso
+AT015690;P07;2024-06-10;oficina_educativa;15;7,03;transporte;Participacao elevada
+AT015691;P07;2024-07-17;oficina_educativa;6;2,13;equipamento;Resultado regular
+AT015692;P07;2025-01-21;oficina_educativa;67;3,51;voluntarios;com atraso
+AT015693;P07;2025-08-16;aula;57;4,29;material;
+AT015694;P07;2024-05-10;apoio_estudo;43;5,77;voluntarios;Resultado regular
+AT015695;P07;2025-07-25;aula;66;4,94;sala;
+AT015696;P07;2025-01-22;oficina_educativa;32;6,05;transporte;participacao elevada
+AT015697;P07;2025-12-14;oficina_educativa;36;6,72;equipamento;resultado regular
+AT015698;P07;2025-06-20;apoio_estudo;12;5,04;equipamento;
+AT015699;P07;2025-12-08;aula;10;8,56;equipamento;Resultado regular
+AT015700;P07;2025-10-05;apoio_estudo;69;2,47;voluntarios;resultado regular
+AT015701;P07;2025-05-05;oficina_educativa;49;4,71;material;com atraso
+AT015702;P07;2025-04-09;oficina_educativa;35;2,87;sala;
+AT015703;P07;2025-04-08;oficina_educativa;42;5,23;voluntarios;objetivos atingidos
+AT015704;P07;2025-05-03;apoio_estudo;28;7,75;transporte;objetivos atingidos
+AT015705;P07;2025-10-13;apoio_estudo;47;8,28;material;Resultado regular
+AT015706;P07;2024-06-12;apoio_estudo;9;3,34;voluntarios;com atraso
+AT015707;P07;2025-02-10;oficina_educativa;51;8,07;voluntarios;resultado regular
+AT015708;P07;2024-08-20;apoio_estudo;39;8,71;transporte;
+AT015709;P07;2025-11-27;oficina_educativa;16;5,69;transporte;Resultado regular
+AT015710;P07;2025-09-14;apoio_estudo;65;6,63;transporte;resultado regular
+AT015711;P07;2024-07-10;aula;28;7,54;sala;
+AT015712;P07;2025-05-19;oficina_educativa;45;8,34;sala;Resultado regular
+AT015713;P07;2024-10-02;apoio_estudo;64;8,57;material;resultado regular
+AT015714;P07;2024-12-01;oficina_educativa;12;5,32;sala;objetivos atingidos
+AT015715;P07;2024-04-23;oficina_educativa;19;8,54;equipamento;sem registo
+AT015716;P07;2025-06-03;apoio_estudo;25;8,81;sala;resultado regular
+AT015717;P07;2025-05-22;oficina_educativa;36;2,34;voluntarios;participacao elevada
+AT015718;P07;2024-07-27;aula;37;5,82;transporte;
+AT015719;P07;2025-06-23;oficina_educativa;53;4,94;sala;sem registo
+AT015720;P07;2024-07-03;oficina_educativa;68;6,95;transporte;
+AT015721;P07;2025-06-19;apoio_estudo;15;7,65;voluntarios;Participacao elevada
+AT015722;P07;2024-10-02;aula;8;7,49;material;objetivos atingidos
+AT015723;P07;2024-04-12;aula;59;7,11;voluntarios;sem registo
+AT015724;P07;2025-11-26;aula;20;5,05;sala;sem registo
+AT015725;P07;2024-09-12;oficina_educativa;59;3,64;sala;resultado regular
+AT015726;P07;2025-03-16;aula;54;3,46;transporte;participacao elevada
+AT015727;P07;2025-07-16;apoio_estudo;62;4,47;voluntarios;Participacao elevada
+AT015728;P07;2025-08-23;apoio_estudo;49;6,63;material;com atraso
+AT015729;P07;2025-05-02;oficina_educativa;26;3,69;voluntarios;Resultado regular
+AT015730;P07;2024-11-12;oficina_educativa;7;8,85;voluntarios;
+AT015731;P07;2024-02-12;apoio_estudo;48;5,86;material;Participacao elevada
+AT015732;P07;2025-06-03;aula;22;5,10;material;participacao elevada
+AT015733;P07;2025-09-07;apoio_estudo;65;7,40;sala;participacao elevada
+AT015734;P07;2024-08-03;aula;57;5,51;equipamento;com atraso
+AT015735;P07;2025-01-25;aula;21;7,98;equipamento;
+AT015736;P07;2024-08-07;apoio_estudo;66;3,56;material;resultado regular
+AT015737;P07;2024-06-07;aula;9;5,50;voluntarios;objetivos atingidos
+AT015738;P07;2025-03-14;oficina_educativa;57;7,28;material;participacao elevada
+AT015739;P07;2024-10-18;oficina_educativa;22;7,63;material;
+AT015740;P07;2024-06-23;oficina_educativa;39;8,31;sala;Resultado regular
+AT015741;P07;2025-03-13;apoio_estudo;25;3,65;equipamento;participacao elevada
+AT015742;P07;2025-10-18;apoio_estudo;10;7,03;equipamento;
+AT015743;P07;2024-01-19;aula;45;4,26;equipamento;com atraso
+AT015744;P07;2024-02-17;oficina_educativa;23;8,44;material;sem registo
+AT015745;P07;2024-03-05;apoio_estudo;52;8,63;transporte;
+AT015746;P07;2025-05-17;aula;10;7,70;material;resultado regular
+AT015747;P07;2024-12-23;oficina_educativa;17;8,92;equipamento;Participacao elevada
+AT015748;P07;2025-11-03;oficina_educativa;68;5,30;material;sem registo
+AT015749;P07;2024-10-19;oficina_educativa;9;7,96;equipamento;
+AT015750;P07;2025-07-20;aula;19;8,83;transporte;com atraso
+AT015751;P07;2025-07-02;aula;18;7,78;voluntarios;Participacao elevada
+AT015752;P07;2024-12-05;oficina_educativa;42;3,63;sala;objetivos atingidos
+AT015753;P07;2024-05-04;oficina_educativa;63;7,50;transporte;Participacao elevada
+AT015753;P07;2024-05-04;oficina_educativa;63;7,50;transporte;Participacao elevada
+AT015754;P07;2024-09-09;aula;58;8,68;transporte;participacao elevada
+AT015755;P07;2024-09-08;aula;9;5,75;transporte;participacao elevada
+AT015756;P07;2025-04-27;aula;46;5,01;equipamento;Resultado regular
+AT015757;P07;2025-04-25;apoio_estudo;40;2,97;material;sem registo
+AT015758;P07;2024-06-25;apoio_estudo;43;6,31;sala;com atraso
+AT015759;P07;2024-01-03;aula;64;4,75;voluntarios;participacao elevada
+AT015760;P07;2025-01-10;oficina_educativa;33;8,84;equipamento;
+AT015761;P07;2025-10-26;apoio_estudo;14;4,05;transporte;objetivos atingidos
+AT015762;P07;2025-03-04;apoio_estudo;64;3,88;sala;sem registo
+AT015763;P07;2024-08-27;aula;66;8,27;voluntarios;resultado regular
+AT015764;P07;2024-08-02;oficina_educativa;32;3,67;voluntarios;
+AT015765;P07;2025-09-17;oficina_educativa;65;8,27;sala;participacao elevada
+AT015766;P07;2025-12-25;oficina_educativa;43;3,04;equipamento;resultado regular
+AT015767;P07;2024-09-27;apoio_estudo;32;3,25;equipamento;objetivos atingidos
+AT015768;P07;2025-07-17;aula;64;7,71;transporte;
+AT015769;P07;2024-04-19;aula;59;3,27;voluntarios;resultado regular
+AT015770;P07;2025-12-04;apoio_estudo;62;6,43;transporte;sem registo
+AT015771;P07;2025-01-17;aula;52;6,16;voluntarios;
+AT015772;P07;2024-07-12;oficina_educativa;40;3,38;sala;com atraso
+AT015773;P07;2025-04-27;apoio_estudo;65;4,39;voluntarios;
+AT015774;P07;2024-12-18;apoio_estudo;14;5,26;material;Resultado regular
+AT015775;P07;2025-11-27;oficina_educativa;47;2,59;equipamento;Resultado regular
+AT015776;P07;2024-02-03;apoio_estudo;6;2,68;equipamento;com atraso
+AT015777;P07;2025-09-26;apoio_estudo;48;7,29;sala;com atraso
+AT015778;P07;2024-12-04;aula;20;7,01;sala;sem registo
+AT015779;P07;2024-06-27;apoio_estudo;23;8,47;voluntarios;com atraso
+AT015780;P07;2024-08-07;oficina_educativa;59;2,01;material;resultado regular
+AT015781;P07;2024-04-20;oficina_educativa;9;8,96;transporte;com atraso
+AT015782;P07;2025-08-27;apoio_estudo;23;5,52;sala;
+AT015783;P07;2024-06-23;oficina_educativa;59;6,96;equipamento;resultado regular
+AT015784;P07;2025-06-18;apoio_estudo;60;2,93;sala;Participacao elevada
+AT015785;P07;2024-12-11;apoio_estudo;44;3,35;equipamento;participacao elevada
+AT015786;P07;2024-11-24;apoio_estudo;68;7,29;material;
+AT015787;P07;2024-06-17;oficina_educativa;28;2,24;transporte;com atraso
+AT015788;P07;2024-04-12;oficina_educativa;16;7,12;sala;participacao elevada
+AT015789;P07;2025-05-09;apoio_estudo;58;7,94;transporte;com atraso
+AT015790;P07;2024-09-16;apoio_estudo;19;2,25;equipamento;objetivos atingidos
+AT015791;P07;2024-12-15;apoio_estudo;39;2,60;equipamento;objetivos atingidos
+AT015792;P07;2024-04-08;oficina_educativa;61;5,57;voluntarios;objetivos atingidos
+AT015793;P07;2024-05-18;oficina_educativa;62;6,32;material;
+AT015794;P07;2025-08-25;aula;44;6,33;sala;resultado regular
+AT015795;P07;2024-11-19;apoio_estudo;55;6,42;material;com atraso
+AT015796;P07;2024-01-23;apoio_estudo;9;6,30;sala;resultado regular
+AT015797;P07;2024-05-10;oficina_educativa;69;8,79;sala;com atraso
+AT015798;P07;2024-07-01;apoio_estudo;68;7,04;equipamento;resultado regular
+AT015799;P07;2024-09-13;apoio_estudo;17;4,74;transporte;
+AT015800;P07;2025-07-15;oficina_educativa;25;5,49;material;Participacao elevada
+AT015801;P07;2025-09-03;apoio_estudo;48;2,35;sala;com atraso
+AT015802;P07;2024-11-06;apoio_estudo;65;5,52;sala;sem registo
+AT015803;P07;2024-11-15;apoio_estudo;34;7,67;equipamento;
+AT015804;P07;2025-04-02;apoio_estudo;23;8,54;equipamento;
+AT015805;P07;2025-12-01;apoio_estudo;68;3,01;equipamento;resultado regular
+AT015806;P07;2025-09-11;apoio_estudo;42;8,77;transporte;resultado regular
+AT015807;P07;2025-11-04;oficina_educativa;45;8,29;voluntarios;Resultado regular
+AT015808;P07;2025-10-02;aula;54;2,51;transporte;objetivos atingidos
+AT015809;P07;2024-07-14;apoio_estudo;34;6,48;voluntarios;objetivos atingidos
+AT015810;P07;2024-03-16;oficina_educativa;6;4,09;transporte;Participacao elevada
+AT015811;P07;2025-12-13;aula;42;5,76;material;Resultado regular
+AT015812;P07;2024-04-03;aula;16;8,97;material;Resultado regular
+AT015813;P07;2025-03-27;oficina_educativa;42;5,51;transporte;resultado regular
+AT015814;P07;2025-12-16;apoio_estudo;15;3,08;voluntarios;
+AT015815;P07;2024-07-03;apoio_estudo;11;3,71;transporte;Resultado regular
+AT015816;P07;2024-09-13;aula;54;2,79;material;
+AT015817;P07;2024-09-05;aula;58;5,33;sala;objetivos atingidos
+AT015818;P07;2025-10-16;apoio_estudo;31;2,22;voluntarios;resultado regular
+AT015819;P07;2025-11-03;aula;15;2,71;equipamento;com atraso
+AT015820;P07;2024-06-27;oficina_educativa;58;4,43;sala;com atraso
+AT015821;P07;2024-03-26;apoio_estudo;11;5,94;sala;com atraso
+AT015822;P07;2024-02-21;oficina_educativa;35;5,28;equipamento;
+AT015823;P07;2025-10-02;oficina_educativa;34;4,24;sala;participacao elevada
+AT015824;P07;2024-02-21;aula;5;3,24;transporte;Resultado regular
+AT015825;P07;2024-09-24;aula;61;3,75;equipamento;
+AT015826;P07;2024-06-10;apoio_estudo;63;3,76;voluntarios;com atraso
+AT015827;P07;2025-02-12;aula;66;8,51;equipamento;
+AT015828;P07;2024-06-09;apoio_estudo;38;3,30;transporte;com atraso
+AT015829;P07;2025-11-16;oficina_educativa;56;3,32;sala;participacao elevada
+AT015830;P07;2025-03-03;aula;12;4,32;voluntarios;sem registo
+AT015831;P07;2024-03-05;apoio_estudo;6;2,48;material;Resultado regular
+AT015832;P07;2024-12-25;oficina_educativa;14;6,81;voluntarios;sem registo
+AT015833;P07;2024-11-10;apoio_estudo;63;7,69;sala;participacao elevada
+AT015834;P07;2025-02-13;aula;57;8,09;transporte;Resultado regular
+AT015835;P07;2025-10-24;aula;51;5,38;sala;participacao elevada
+AT015836;P07;2024-02-01;aula;69;8,88;equipamento;participacao elevada
+AT015837;P07;2025-03-03;oficina_educativa;49;8,41;equipamento;participacao elevada
+AT015838;P07;2024-10-26;aula;26;2,12;transporte;sem registo
+AT015839;P07;2025-11-16;aula;67;6,41;sala;com atraso
+AT015840;P07;2024-09-11;apoio_estudo;63;2,76;material;resultado regular
+AT015841;P07;2025-03-21;oficina_educativa;20;8,60;transporte;resultado regular
+AT015842;P07;2025-03-22;apoio_estudo;64;3,46;transporte;Participacao elevada
+AT015843;P07;2024-06-10;aula;50;7,21;sala;
+AT015844;P07;2025-11-23;apoio_estudo;53;8,43;material;Participacao elevada
+AT015845;P07;2025-09-11;apoio_estudo;36;3,51;sala;Resultado regular
+AT015846;P07;2025-08-17;apoio_estudo;52;3,77;sala;objetivos atingidos
+AT015847;P07;2024-08-05;apoio_estudo;49;3,84;sala;objetivos atingidos
+AT015848;P07;2025-05-27;oficina_educativa;43;8,05;equipamento;Resultado regular
+AT015849;P07;2024-05-03;apoio_estudo;45;5,43;voluntarios;resultado regular
+AT015850;P07;2025-05-26;aula;56;2,33;equipamento;Resultado regular
+AT015851;P07;2024-02-03;apoio_estudo;7;8,75;sala;objetivos atingidos
+AT015852;P07;2024-10-01;oficina_educativa;49;4,84;transporte;sem registo
+AT015853;P07;2025-11-08;apoio_estudo;8;4,28;voluntarios;
+AT015854;P07;2024-02-08;aula;9;5,54;material;Participacao elevada
+AT015855;P07;2024-11-06;oficina_educativa;28;3,52;equipamento;Resultado regular
+AT015856;P07;2024-02-01;aula;68;4,89;equipamento;
+AT015857;P07;2024-08-03;aula;33;7,14;voluntarios;resultado regular
+AT015858;P07;2024-07-05;oficina_educativa;45;5,26;voluntarios;Participacao elevada
+AT015859;P07;2025-10-17;oficina_educativa;59;3,55;equipamento;participacao elevada
+AT015860;P07;2025-06-13;apoio_estudo;65;3,16;sala;sem registo
+AT015861;P07;2024-12-07;aula;42;6,43;material;Participacao elevada
+AT015862;P07;2025-03-26;apoio_estudo;29;4,12;material;participacao elevada
+AT015863;P07;2024-05-22;oficina_educativa;9;8,46;material;
+AT015864;P07;2025-11-21;apoio_estudo;28;2,29;transporte;Resultado regular
+AT015865;P07;2024-03-16;aula;68;7,21;transporte;com atraso
+AT015866;P07;2025-12-05;oficina_educativa;21;7,62;transporte;
+AT015867;P07;2024-11-10;oficina_educativa;56;8,21;transporte;Resultado regular
+AT015868;P07;2024-06-08;oficina_educativa;11;7,08;transporte;
+AT015869;P07;2025-10-15;aula;20;6,14;transporte;sem registo
+AT015870;P07;2024-05-12;apoio_estudo;45;3,07;material;
+AT015870;P07;2024-05-12;apoio_estudo;45;3,07;material;
+AT015871;P07;2024-10-23;oficina_educativa;58;5,84;material;objetivos atingidos
+AT015872;P07;2025-11-03;oficina_educativa;6;6,15;equipamento;com atraso
+AT015873;P07;2025-03-05;oficina_educativa;8;5,63;material;resultado regular
+AT015874;P07;2024-01-22;oficina_educativa;36;3,00;transporte;sem registo
+AT015875;P07;2025-06-04;apoio_estudo;35;4,10;material;Participacao elevada
+AT015876;P07;2025-05-16;oficina_educativa;30;6,09;material;resultado regular
+AT015877;P07;2024-03-14;aula;51;4,45;sala;resultado regular
+AT015878;P07;2025-12-25;apoio_estudo;18;7,06;material;com atraso
+AT015879;P07;2025-01-03;aula;26;2,45;sala;sem registo
+AT015880;P07;2024-11-03;oficina_educativa;40;3,69;voluntarios;
+AT015881;P07;2025-09-19;oficina_educativa;29;5,21;voluntarios;Resultado regular
+AT015882;P07;2025-12-01;oficina_educativa;18;2,95;voluntarios;resultado regular
+AT015883;P07;2025-10-16;apoio_estudo;14;8,52;voluntarios;participacao elevada
+AT015884;P07;2025-01-08;aula;17;6,83;sala;participacao elevada
+AT015885;P07;2025-05-26;aula;9;7,45;material;sem registo
+AT015886;P07;2025-11-04;oficina_educativa;32;8,98;material;objetivos atingidos
+AT015887;P07;2024-11-18;apoio_estudo;47;2,10;material;Resultado regular
+AT015888;P07;2024-10-16;aula;23;5,32;equipamento;Participacao elevada
+AT015889;P07;2025-06-19;aula;16;6,85;voluntarios;objetivos atingidos
+AT015890;P07;2024-08-21;apoio_estudo;38;5,15;transporte;com atraso
+AT015891;P07;2024-05-22;oficina_educativa;51;2,95;equipamento;sem registo
+AT015892;P07;2024-05-19;apoio_estudo;50;7,06;sala;Resultado regular
+AT015893;P07;2024-11-11;aula;42;4,55;sala;sem registo
+AT015894;P07;2025-07-17;apoio_estudo;59;5,21;transporte;resultado regular
+AT015895;P07;2025-04-05;apoio_estudo;38;3,61;equipamento;resultado regular
+AT015896;P07;2025-03-13;aula;46;4,43;sala;
+AT015897;P07;2025-02-08;oficina_educativa;39;2,43;transporte;participacao elevada
+AT015898;P07;2025-11-16;aula;8;8,94;material;participacao elevada
+AT015899;P07;2025-08-06;aula;23;6,81;transporte;sem registo
+AT015900;P07;2024-11-27;oficina_educativa;36;6,41;material;Resultado regular
+AT015901;P07;2024-07-11;aula;48;3,38;sala;objetivos atingidos
+AT015902;P07;2025-01-09;oficina_educativa;53;3,89;sala;resultado regular
+AT015903;P07;2024-12-08;apoio_estudo;9;4,10;equipamento;resultado regular
+AT015904;P07;2024-04-05;aula;53;7,49;sala;Resultado regular
+AT015905;P07;2025-10-23;oficina_educativa;60;8,92;equipamento;com atraso
+AT015906;P07;2025-01-15;oficina_educativa;32;7,37;equipamento;
+AT015907;P07;2024-03-07;apoio_estudo;23;5,24;voluntarios;resultado regular
+AT015908;P07;2025-12-16;aula;34;5,85;material;objetivos atingidos
+AT015909;P07;2024-02-04;apoio_estudo;35;6,26;material;participacao elevada
+AT015910;P07;2024-09-13;oficina_educativa;24;8,11;sala;sem registo
+AT015911;P07;2025-09-19;oficina_educativa;57;4,85;equipamento;com atraso
+AT015912;P07;2025-05-17;oficina_educativa;28;5,69;equipamento;
+AT015913;P07;2025-11-14;aula;15;3,95;material;resultado regular
+AT015914;P07;2025-06-03;apoio_estudo;22;8,76;transporte;com atraso
+AT015915;P07;2025-07-16;oficina_educativa;62;7,43;sala;participacao elevada
+AT015916;P07;2025-12-15;aula;41;2,16;transporte;Participacao elevada
+AT015917;P07;2024-10-14;apoio_estudo;19;6,99;sala;participacao elevada
+AT015918;P07;2024-02-19;aula;8;2,61;sala;Participacao elevada
+AT015919;P07;2025-04-25;apoio_estudo;25;4,43;voluntarios;Resultado regular
+AT015920;P07;2025-10-04;aula;19;8,41;material;
+AT015921;P07;2024-12-14;aula;53;4,61;transporte;objetivos atingidos
+AT015922;P07;2025-06-25;apoio_estudo;12;7,38;sala;
+AT015923;P07;2025-10-09;apoio_estudo;46;7,89;material;com atraso
+AT015924;P07;2024-12-08;oficina_educativa;60;4,02;material;sem registo
+AT015925;P07;2024-08-03;oficina_educativa;52;8,45;material;resultado regular
+AT015926;P07;2025-09-24;apoio_estudo;31;3,50;equipamento;com atraso
+AT015927;P07;2025-01-16;aula;27;4,36;material;sem registo
+AT015928;P07;2025-06-14;apoio_estudo;27;7,02;transporte;objetivos atingidos
+AT015929;P07;2025-12-24;apoio_estudo;6;7,60;transporte;
+AT015930;P07;2024-09-08;apoio_estudo;29;5,48;material;sem registo
+AT015931;P07;2024-03-07;oficina_educativa;40;5,11;transporte;participacao elevada
+AT015932;P07;2025-12-24;apoio_estudo;36;4,82;material;com atraso
+AT015933;P07;2025-11-26;oficina_educativa;40;8,43;transporte;Resultado regular
+AT015934;P07;2024-06-19;aula;51;8,96;transporte;
+AT015935;P07;2024-05-07;apoio_estudo;19;2,96;voluntarios;objetivos atingidos
+AT015936;P07;2025-11-16;aula;57;6,46;equipamento;Participacao elevada
+AT015936;P07;2025-11-16;aula;57;6,46;equipamento;Participacao elevada
+AT015937;P07;2025-04-11;apoio_estudo;27;2,30;transporte;objetivos atingidos
+AT015938;P07;2025-12-19;oficina_educativa;24;7,52;equipamento;
+AT015939;P07;2025-08-10;apoio_estudo;6;7,68;equipamento;objetivos atingidos
+AT015940;P07;2024-08-03;apoio_estudo;49;4,22;sala;Participacao elevada
+AT015941;P07;2024-06-16;oficina_educativa;5;3,46;sala;objetivos atingidos
+AT015942;P07;2025-12-22;apoio_estudo;31;3,90;sala;Resultado regular
+AT015943;P07;2025-01-12;apoio_estudo;19;2,99;voluntarios;com atraso
+AT015944;P07;2025-07-12;oficina_educativa;49;5,34;sala;sem registo
+AT015945;P07;2024-05-09;apoio_estudo;59;7,47;equipamento;resultado regular
+AT015946;P07;2025-02-10;apoio_estudo;66;8,98;voluntarios;
+AT015947;P07;2025-08-27;oficina_educativa;7;5,00;voluntarios;
+AT015948;P07;2024-10-13;aula;61;2,20;sala;
+AT015949;P07;2025-02-18;aula;50;6,87;voluntarios;
+AT015950;P07;2025-11-20;apoio_estudo;6;8,97;voluntarios;com atraso
+AT015951;P07;2024-04-27;apoio_estudo;23;5,74;sala;com atraso
+AT015952;P07;2024-06-19;apoio_estudo;17;7,01;voluntarios;Resultado regular
+AT015953;P07;2025-10-21;apoio_estudo;48;2,90;material;
+AT015954;P07;2024-02-09;apoio_estudo;66;5,90;sala;participacao elevada
+AT015955;P07;2024-04-11;aula;24;6,18;material;resultado regular
+AT015956;P07;2024-01-14;aula;52;5,12;sala;Participacao elevada
+AT015957;P07;2025-11-06;oficina_educativa;13;2,83;equipamento;participacao elevada
+AT015958;P07;2024-01-10;oficina_educativa;40;5,40;transporte;objetivos atingidos
+AT015959;P07;2024-02-10;apoio_estudo;38;4,68;voluntarios;
+AT015960;P07;2025-09-17;oficina_educativa;48;3,71;material;sem registo
+AT015961;P07;2025-12-06;oficina_educativa;17;6,77;sala;
+AT015962;P07;2025-08-15;apoio_estudo;49;3,11;transporte;participacao elevada
+AT015963;P07;2025-06-05;apoio_estudo;47;4,04;material;
+AT015964;P07;2024-07-26;oficina_educativa;25;2,62;transporte;participacao elevada
+AT015965;P07;2025-12-25;apoio_estudo;41;6,89;voluntarios;Resultado regular
+AT015966;P07;2025-04-17;oficina_educativa;33;3,91;transporte;com atraso
+AT015967;P07;2025-08-27;oficina_educativa;69;3,47;transporte;com atraso
+AT015968;P07;2025-07-23;aula;21;5,03;sala;objetivos atingidos
+AT015969;P07;2025-11-20;oficina_educativa;49;6,08;material;Participacao elevada
+AT015970;P07;2024-12-21;oficina_educativa;19;3,70;sala;sem registo
+AT015971;P07;2025-07-11;aula;52;2,75;transporte;participacao elevada
+AT015972;P07;2024-07-05;apoio_estudo;62;4,93;equipamento;resultado regular
+AT015973;P07;2025-05-26;oficina_educativa;27;2,21;sala;Participacao elevada
+AT015974;P07;2024-01-26;oficina_educativa;31;8,26;voluntarios;Participacao elevada
+AT015975;P07;2024-03-15;aula;67;8,80;voluntarios;Resultado regular
+AT015976;P07;2025-02-13;aula;62;5,17;material;
+AT015977;P07;2024-03-22;apoio_estudo;38;8,87;equipamento;sem registo
+AT015978;P07;2025-12-02;apoio_estudo;61;2,58;sala;Participacao elevada
+AT015979;P07;2025-02-08;oficina_educativa;62;6,62;transporte;Participacao elevada
+AT015980;P07;2024-12-06;aula;9;2,36;sala;
+AT015981;P07;2025-11-04;apoio_estudo;62;3,38;transporte;participacao elevada
+AT015982;P07;2025-05-16;aula;20;4,33;material;com atraso
+AT015983;P07;2025-12-23;oficina_educativa;31;4,50;voluntarios;Resultado regular
+AT015984;P07;2025-02-12;aula;25;8,12;sala;Participacao elevada
+AT015985;P07;2025-05-09;oficina_educativa;17;2,29;voluntarios;Participacao elevada
+AT015986;P07;2024-09-19;apoio_estudo;18;3,33;transporte;sem registo
+AT015987;P07;2025-07-14;oficina_educativa;31;8,05;transporte;objetivos atingidos
+AT015988;P07;2024-12-27;oficina_educativa;52;2,02;sala;com atraso
+AT015989;P07;2024-10-22;aula;57;4,08;sala;objetivos atingidos
+AT015990;P07;2024-06-27;aula;59;4,36;material;objetivos atingidos
+AT015991;P07;2024-07-08;aula;44;2,62;sala;Participacao elevada
+AT015992;P07;2024-10-13;oficina_educativa;19;3,21;equipamento;objetivos atingidos
+AT015993;P07;2024-05-25;apoio_estudo;14;7,70;material;participacao elevada
+AT015994;P07;2025-10-07;aula;50;5,43;material;
+AT015995;P07;2025-01-18;apoio_estudo;25;7,15;material;participacao elevada
+AT015996;P07;2025-11-16;aula;67;4,20;voluntarios;participacao elevada
+AT015997;P07;2024-11-19;apoio_estudo;37;4,67;transporte;
+AT015998;P07;2024-09-15;apoio_estudo;50;2,35;material;sem registo
+AT015999;P07;2025-02-01;apoio_estudo;53;3,46;sala;resultado regular
+AT016000;P07;2024-02-24;apoio_estudo;50;5,07;transporte;resultado regular
+AT016001;P07;2025-11-17;oficina_educativa;48;4,51;voluntarios;Participacao elevada
+AT016002;P07;2024-03-27;aula;50;6,37;voluntarios;
+AT016003;P07;2025-01-08;aula;41;8,86;material;sem registo
+AT016004;P07;2024-01-05;oficina_educativa;54;8,75;voluntarios;
+AT016005;P07;2025-06-03;apoio_estudo;11;3,53;sala;sem registo
+AT016006;P07;2025-08-10;oficina_educativa;23;8,43;voluntarios;com atraso
+AT016007;P07;2025-12-25;oficina_educativa;13;3,40;voluntarios;resultado regular
+AT016008;P07;2025-10-21;oficina_educativa;11;6,44;sala;sem registo
+AT016009;P07;2025-03-05;aula;31;3,96;equipamento;Resultado regular
+AT016010;P07;2024-12-03;aula;53;5,47;equipamento;participacao elevada
+AT016011;P07;2024-01-24;apoio_estudo;58;2,48;material;com atraso
+AT016012;P07;2025-09-07;apoio_estudo;63;2,88;material;participacao elevada
+AT016013;P07;2024-12-01;apoio_estudo;44;5,01;equipamento;
+AT016014;P07;2024-10-10;apoio_estudo;65;2,85;transporte;
+AT016015;P07;2024-12-04;oficina_educativa;39;5,39;equipamento;com atraso
+AT016016;P07;2025-11-05;oficina_educativa;49;8,45;material;resultado regular
+AT016017;P07;2024-05-18;apoio_estudo;43;6,89;transporte;objetivos atingidos
+AT016018;P07;2024-11-12;aula;62;4,94;voluntarios;
+AT016019;P07;2024-06-17;apoio_estudo;36;2,58;transporte;
+AT016020;P07;2025-07-03;aula;48;4,86;voluntarios;com atraso
+AT016021;P07;2024-10-20;apoio_estudo;18;7,67;equipamento;
+AT016022;P07;2025-11-24;apoio_estudo;65;6,57;sala;resultado regular
+AT016023;P07;2024-05-26;apoio_estudo;5;2,76;voluntarios;objetivos atingidos
+AT016024;P07;2024-12-02;oficina_educativa;69;5,63;transporte;sem registo
+AT016025;P07;2024-06-03;aula;68;8,07;transporte;sem registo
+AT016026;P07;2025-01-03;oficina_educativa;42;5,15;material;Participacao elevada
+AT016027;P07;2024-01-27;aula;45;5,16;sala;Resultado regular
+AT016028;P07;2025-11-11;oficina_educativa;30;2,87;sala;
+AT016029;P07;2025-06-21;aula;13;5,29;material;
+AT016030;P07;2025-03-02;apoio_estudo;20;7,91;transporte;com atraso
+AT016031;P07;2024-02-15;aula;23;3,41;material;
+AT016032;P07;2025-04-09;aula;16;4,90;material;
+AT016033;P07;2025-11-11;aula;8;4,99;transporte;participacao elevada
+AT016034;P07;2025-12-16;apoio_estudo;59;6,85;voluntarios;
+AT016035;P07;2024-11-02;oficina_educativa;38;5,23;sala;participacao elevada
+AT016036;P07;2024-09-02;apoio_estudo;35;7,52;equipamento;sem registo
+AT016037;P07;2025-12-27;apoio_estudo;24;8,08;material;participacao elevada
+AT016038;P07;2025-02-25;aula;41;7,68;sala;com atraso
+AT016039;P07;2024-04-18;aula;32;8,41;equipamento;Resultado regular
+AT016040;P07;2025-07-04;apoio_estudo;46;2,83;voluntarios;resultado regular
+AT016041;P07;2024-08-21;aula;59;3,08;voluntarios;Resultado regular
+AT016042;P07;2024-07-11;apoio_estudo;64;5,90;transporte;
+AT016043;P07;2025-01-24;oficina_educativa;6;5,31;equipamento;objetivos atingidos
+AT016044;P07;2025-10-06;aula;16;8,68;sala;com atraso
+AT016045;P07;2024-01-08;apoio_estudo;26;4,76;material;resultado regular
+AT016046;P07;2024-09-13;aula;22;3,05;material;objetivos atingidos
+AT016047;P07;2025-11-18;aula;28;7,30;transporte;objetivos atingidos
+AT016048;P07;2025-10-23;apoio_estudo;64;8,48;material;Resultado regular
+AT016049;P07;2025-08-17;oficina_educativa;42;8,81;sala;resultado regular
+AT016050;P07;2024-12-17;aula;20;2,51;voluntarios;participacao elevada
+AT016051;P07;2024-01-10;apoio_estudo;6;6,90;voluntarios;objetivos atingidos
+AT016052;P07;2024-02-11;apoio_estudo;44;2,50;equipamento;participacao elevada
+AT016053;P07;2025-05-11;oficina_educativa;33;5,74;transporte;
+AT016054;P07;2025-02-22;apoio_estudo;66;4,29;equipamento;
+AT016055;P07;2025-04-01;aula;42;3,56;transporte;
+AT016056;P07;2024-05-14;oficina_educativa;50;2,63;material;Resultado regular
+AT016057;P07;2025-11-20;apoio_estudo;36;6,09;voluntarios;Participacao elevada
+AT016058;P07;2025-03-24;aula;48;2,41;voluntarios;
+AT016059;P07;2024-05-01;apoio_estudo;13;6,45;transporte;objetivos atingidos
+AT016060;P07;2024-08-16;aula;55;7,40;material;
+AT016061;P07;2024-12-27;oficina_educativa;56;8,55;transporte;Participacao elevada
+AT016062;P07;2025-09-12;aula;62;3,08;sala;
+AT016063;P07;2024-11-10;oficina_educativa;20;2,31;voluntarios;participacao elevada
+AT016064;P07;2024-12-22;apoio_estudo;20;5,18;equipamento;objetivos atingidos
+AT016065;P07;2024-10-25;apoio_estudo;42;3,73;sala;Resultado regular
+AT016066;P07;2025-06-13;aula;32;5,28;equipamento;participacao elevada
+AT016066;P07;2025-06-13;aula;32;5,28;equipamento;participacao elevada
+AT016067;P07;2025-02-18;apoio_estudo;28;8,91;sala;resultado regular
+AT016068;P07;2024-03-17;apoio_estudo;45;8,36;voluntarios;Participacao elevada
+AT016069;P07;2025-05-05;aula;61;8,83;voluntarios;objetivos atingidos
+AT016070;P07;2024-06-13;oficina_educativa;68;3,84;voluntarios;Participacao elevada
+AT016071;P07;2025-06-03;apoio_estudo;63;6,34;equipamento;
+AT016072;P07;2025-03-23;oficina_educativa;16;4,12;equipamento;sem registo
+AT016073;P07;2025-12-09;aula;28;5,33;voluntarios;com atraso
+AT016074;P07;2024-07-24;oficina_educativa;44;4,79;equipamento;participacao elevada
+AT016075;P07;2024-02-04;apoio_estudo;24;5,87;sala;Resultado regular
+AT016076;P07;2025-01-24;apoio_estudo;65;8,17;sala;Participacao elevada
+AT016077;P07;2024-01-26;apoio_estudo;58;2,21;sala;resultado regular
+AT016078;P07;2025-10-20;aula;31;7,74;sala;
+AT016079;P07;2025-12-26;apoio_estudo;30;8,12;material;Participacao elevada
+AT016080;P07;2025-05-12;aula;31;3,56;voluntarios;com atraso
+AT016081;P07;2024-03-14;apoio_estudo;46;7,13;material;resultado regular
+AT016082;P07;2025-06-25;apoio_estudo;36;5,00;sala;Resultado regular
+AT016083;P07;2025-03-22;oficina_educativa;65;6,98;sala;com atraso
+AT016084;P07;2024-06-10;apoio_estudo;14;3,66;transporte;Resultado regular
+AT016085;P07;2025-10-25;aula;15;3,20;voluntarios;com atraso
+AT016086;P07;2024-10-24;oficina_educativa;51;3,02;material;com atraso
+AT016087;P07;2025-11-08;oficina_educativa;19;2,63;sala;
+AT016088;P07;2024-05-09;apoio_estudo;39;2,31;material;Resultado regular
+AT016089;P07;2024-12-25;apoio_estudo;13;5,56;material;objetivos atingidos
+AT016090;P07;2024-04-15;oficina_educativa;31;4,78;voluntarios;com atraso
+AT016091;P07;2025-10-03;apoio_estudo;42;6,07;transporte;participacao elevada
+AT016092;P07;2024-01-17;oficina_educativa;5;7,18;voluntarios;objetivos atingidos
+AT016093;P07;2024-03-01;oficina_educativa;39;6,47;material;objetivos atingidos
+AT016094;P07;2024-02-09;aula;56;7,11;material;sem registo
+AT016095;P07;2025-05-25;apoio_estudo;49;3,23;sala;Participacao elevada
+AT016096;P07;2025-01-11;oficina_educativa;17;4,14;transporte;participacao elevada
+AT016097;P07;2024-11-03;aula;18;4,37;voluntarios;Participacao elevada
+AT016098;P07;2025-06-08;oficina_educativa;9;8,89;equipamento;Resultado regular
+AT016099;P07;2024-04-11;aula;35;6,58;sala;com atraso
+AT016100;P07;2025-01-16;aula;50;4,12;transporte;
+AT016101;P07;2024-09-13;aula;56;7,68;voluntarios;com atraso
+AT016102;P07;2025-01-13;aula;14;8,13;sala;sem registo
+AT016103;P07;2024-12-02;aula;64;3,17;material;Participacao elevada
+AT016104;P07;2025-06-03;oficina_educativa;50;3,71;sala;resultado regular
+AT016105;P07;2024-12-01;apoio_estudo;67;6,85;transporte;resultado regular
+AT016106;P07;2024-08-23;apoio_estudo;39;8,73;sala;participacao elevada
+AT016107;P07;2024-08-05;aula;41;2,81;sala;
+AT016108;P07;2024-11-18;aula;30;2,49;material;sem registo
+AT016109;P07;2025-03-03;apoio_estudo;36;8,37;material;objetivos atingidos
+AT016110;P07;2025-02-14;oficina_educativa;22;2,89;transporte;com atraso
+AT016111;P07;2025-04-22;aula;67;5,63;voluntarios;participacao elevada
+AT016112;P07;2024-03-07;apoio_estudo;57;5,79;equipamento;
+AT016113;P07;2024-05-06;oficina_educativa;69;6,71;equipamento;
+AT016114;P07;2024-10-06;aula;12;2,77;transporte;participacao elevada
+AT016115;P07;2024-11-13;oficina_educativa;52;2,08;sala;resultado regular
+AT016116;P07;2025-02-13;oficina_educativa;66;5,42;transporte;objetivos atingidos
+AT016117;P07;2025-01-04;oficina_educativa;23;6,50;transporte;
+AT016118;P07;2025-05-10;oficina_educativa;26;7,37;equipamento;resultado regular
+AT016119;P07;2024-02-13;aula;17;6,91;voluntarios;Participacao elevada
+AT016120;P07;2024-11-19;oficina_educativa;66;4,99;material;objetivos atingidos
+AT016121;P07;2025-10-13;aula;57;6,58;sala;resultado regular
+AT016122;P07;2025-08-22;apoio_estudo;13;2,98;equipamento;com atraso
+AT016123;P07;2024-01-01;aula;44;7,44;equipamento;com atraso
+AT016124;P07;2024-04-10;aula;34;6,39;equipamento;sem registo
+AT016125;P07;2024-04-21;oficina_educativa;8;5,59;transporte;
+AT016126;P07;2024-11-10;apoio_estudo;57;5,27;voluntarios;
+AT016127;P07;2024-12-13;aula;42;5,08;transporte;Participacao elevada
+AT016128;P07;2025-03-04;oficina_educativa;52;5,77;material;Resultado regular
+AT016129;P07;2025-05-16;aula;44;7,35;transporte;objetivos atingidos
+AT016130;P07;2025-05-25;aula;50;4,78;transporte;resultado regular
+AT016131;P07;2025-04-18;oficina_educativa;47;8,34;material;objetivos atingidos
+AT016132;P07;2025-08-05;apoio_estudo;29;4,22;transporte;com atraso
+AT016133;P07;2024-11-16;apoio_estudo;51;4,54;voluntarios;participacao elevada
+AT016134;P07;2024-09-17;aula;61;3,52;voluntarios;resultado regular
+AT016135;P07;2025-05-02;apoio_estudo;68;8,05;sala;sem registo
+AT016136;P07;2024-04-21;aula;52;3,42;equipamento;com atraso
+AT016137;P07;2025-03-13;oficina_educativa;68;3,34;sala;com atraso
+AT016138;P07;2025-01-09;apoio_estudo;58;2,01;transporte;resultado regular
+AT016139;P07;2024-09-07;apoio_estudo;58;3,04;equipamento;com atraso
+AT016140;P07;2025-07-20;aula;34;3,69;transporte;sem registo
+AT016141;P07;2024-12-12;oficina_educativa;7;4,80;voluntarios;
+AT016142;P07;2025-12-21;aula;55;8,62;transporte;
+AT016143;P07;2024-08-22;apoio_estudo;39;8,42;transporte;Resultado regular
+AT016144;P07;2024-03-08;oficina_educativa;29;8,39;voluntarios;
+AT016145;P07;2025-02-25;aula;7;6,78;equipamento;resultado regular
+AT016146;P07;2025-04-21;apoio_estudo;39;3,05;sala;resultado regular
+AT016147;P07;2025-05-04;oficina_educativa;28;4,62;transporte;sem registo
+AT016148;P07;2024-09-20;oficina_educativa;47;5,49;equipamento;
+AT016149;P07;2025-09-01;oficina_educativa;12;8,38;transporte;sem registo
+AT016150;P07;2024-02-07;oficina_educativa;26;4,46;transporte;participacao elevada
+AT016151;P07;2024-09-17;oficina_educativa;58;5,22;equipamento;objetivos atingidos
+AT016152;P07;2025-09-22;apoio_estudo;34;3,37;material;sem registo
+AT016153;P07;2024-02-02;apoio_estudo;8;8,08;voluntarios;com atraso
+AT016154;P07;2025-03-01;aula;15;8,66;voluntarios;participacao elevada
+AT016155;P07;2024-08-22;aula;24;3,21;voluntarios;sem registo
+AT016156;P07;2024-09-06;apoio_estudo;69;4,31;voluntarios;
+AT016157;P07;2024-10-06;apoio_estudo;64;7,04;equipamento;
+AT016158;P07;2025-05-14;oficina_educativa;17;5,98;equipamento;Resultado regular
+AT016159;P07;2024-08-09;aula;59;5,16;equipamento;sem registo
+AT016160;P07;2025-05-24;oficina_educativa;7;4,21;voluntarios;participacao elevada
+AT016161;P07;2024-12-16;apoio_estudo;36;7,16;equipamento;participacao elevada
+AT016162;P07;2024-08-06;apoio_estudo;12;7,93;sala;
+AT016163;P07;2024-04-13;aula;66;6,22;voluntarios;participacao elevada
+AT016164;P07;2025-02-27;oficina_educativa;63;6,97;transporte;com atraso
+AT016165;P07;2024-11-02;aula;68;7,05;equipamento;Participacao elevada
+AT016166;P07;2024-12-15;aula;67;4,34;sala;com atraso
+AT016167;P07;2025-12-11;aula;57;3,08;material;sem registo
+AT016168;P07;2025-09-19;oficina_educativa;21;8,06;equipamento;resultado regular
+AT016169;P07;2024-04-20;aula;24;2,52;voluntarios;participacao elevada
+AT016170;P07;2024-03-08;aula;17;4,50;material;com atraso
+AT016171;P07;2025-03-17;aula;7;2,86;equipamento;
+AT016172;P07;2024-10-07;aula;5;7,64;material;
+AT016173;P07;2024-01-08;aula;31;5,29;voluntarios;Resultado regular
+AT016174;P07;2024-02-11;aula;41;8,90;voluntarios;Participacao elevada
+AT016175;P07;2024-04-07;oficina_educativa;60;7,53;voluntarios;participacao elevada
+AT016176;P07;2024-09-11;aula;7;3,44;sala;participacao elevada
+AT016177;P07;2025-01-12;apoio_estudo;59;7,47;material;objetivos atingidos
+AT016178;P07;2024-09-04;oficina_educativa;49;6,91;material;Resultado regular
+AT016179;P07;2025-06-24;apoio_estudo;35;8,80;sala;objetivos atingidos
+AT016180;P07;2024-01-05;aula;24;5,26;sala;Resultado regular
+AT016181;P07;2025-03-13;apoio_estudo;36;2,39;sala;
+AT016182;P07;2025-04-04;aula;37;3,94;voluntarios;Participacao elevada
+AT016183;P07;2024-12-12;apoio_estudo;26;5,67;equipamento;
+AT016184;P07;2024-07-19;apoio_estudo;62;8,55;material;
+AT016185;P07;2025-08-17;apoio_estudo;64;6,05;sala;sem registo
+AT016186;P07;2024-02-06;apoio_estudo;53;5,49;sala;Participacao elevada
+AT016187;P07;2024-08-21;oficina_educativa;68;3,40;sala;Resultado regular
+AT016188;P07;2024-02-18;oficina_educativa;46;4,45;sala;Participacao elevada
+AT016189;P07;2024-01-15;apoio_estudo;41;8,64;sala;Participacao elevada
+AT016190;P07;2025-11-05;aula;65;6,59;transporte;participacao elevada
+AT016191;P07;2025-10-17;oficina_educativa;31;4,90;transporte;
+AT016192;P07;2024-03-19;oficina_educativa;53;8,65;material;objetivos atingidos
+AT016193;P07;2024-07-06;aula;26;8,35;material;objetivos atingidos
+AT016194;P07;2024-02-20;aula;31;3,59;material;com atraso
+AT016195;P07;2024-08-18;apoio_estudo;19;4,90;transporte;objetivos atingidos
+AT016196;P07;2024-12-12;apoio_estudo;10;6,89;sala;
+AT016197;P07;2024-06-18;oficina_educativa;32;6,60;voluntarios;participacao elevada
+AT016198;P07;2025-11-21;aula;57;3,63;transporte;com atraso
+AT016199;P07;2025-01-21;apoio_estudo;65;5,98;transporte;com atraso
+AT016200;P07;2025-11-14;aula;63;3,00;voluntarios;sem registo
+AT016201;P07;2025-12-07;aula;33;2,84;voluntarios;
+AT016202;P07;2024-05-24;oficina_educativa;67;8,92;voluntarios;resultado regular
+AT016203;P07;2025-07-11;oficina_educativa;68;6,94;sala;Participacao elevada
+AT016204;P07;2025-10-14;oficina_educativa;33;8,40;material;participacao elevada
+AT016205;P07;2024-11-23;oficina_educativa;69;3,45;voluntarios;Participacao elevada
+AT016206;P07;2025-07-12;aula;45;7,38;material;resultado regular
+AT016207;P07;2025-10-04;aula;18;2,36;material;Participacao elevada
+AT016208;P07;2025-02-11;aula;19;3,97;voluntarios;Resultado regular
+AT016209;P07;2025-07-12;apoio_estudo;5;7,34;equipamento;Resultado regular
+AT016210;P07;2025-01-07;apoio_estudo;29;8,02;transporte;com atraso
+AT016211;P07;2025-09-04;oficina_educativa;25;4,45;voluntarios;participacao elevada
+AT016212;P07;2024-06-25;aula;41;5,82;material;com atraso
+AT016213;P07;2025-04-16;oficina_educativa;28;2,59;equipamento;sem registo
+AT016214;P07;2024-09-26;oficina_educativa;39;6,14;voluntarios;Participacao elevada
+AT016215;P07;2024-08-26;oficina_educativa;12;6,21;equipamento;resultado regular
+AT016216;P07;2025-07-03;oficina_educativa;45;6,20;voluntarios;objetivos atingidos
+AT016217;P07;2025-05-03;aula;17;2,61;transporte;Resultado regular
+AT016218;P07;2025-11-15;aula;7;3,99;transporte;Participacao elevada
+AT016219;P07;2025-07-05;aula;40;3,39;transporte;Participacao elevada
+AT016220;P07;2024-09-20;oficina_educativa;44;2,58;sala;resultado regular
+AT016221;P07;2024-02-09;aula;45;5,82;equipamento;Participacao elevada
+AT016222;P07;2025-01-27;apoio_estudo;31;6,39;equipamento;sem registo
+AT016223;P07;2025-07-16;apoio_estudo;19;8,29;transporte;Resultado regular
+AT016224;P07;2024-10-23;aula;63;7,78;transporte;sem registo
+AT016225;P07;2025-06-08;apoio_estudo;48;7,34;sala;participacao elevada
+AT016226;P07;2024-09-10;oficina_educativa;64;5,20;transporte;objetivos atingidos
+AT016227;P07;2025-07-24;aula;66;3,97;material;
+AT016228;P07;2025-05-11;aula;62;4,99;sala;
+AT016229;P07;2024-10-11;apoio_estudo;53;8,22;material;Participacao elevada
+AT016230;P07;2025-01-25;apoio_estudo;61;7,41;sala;Participacao elevada
+AT016231;P07;2025-08-15;oficina_educativa;25;5,37;equipamento;participacao elevada
+AT016232;P07;2025-11-09;apoio_estudo;10;8,61;equipamento;objetivos atingidos
+AT016233;P07;2025-10-06;aula;54;4,03;voluntarios;resultado regular
+AT016234;P07;2025-11-23;apoio_estudo;52;2,25;equipamento;
+AT016235;P07;2024-12-17;aula;62;4,75;sala;objetivos atingidos
+AT016236;P07;2025-08-24;apoio_estudo;22;6,73;equipamento;com atraso
+AT016237;P07;2025-12-09;aula;36;3,61;material;Resultado regular
+AT016238;P07;2024-09-22;apoio_estudo;25;6,91;transporte;Resultado regular
+AT016239;P07;2024-10-27;oficina_educativa;39;7,14;material;sem registo
+AT016240;P07;2025-01-21;oficina_educativa;45;8,29;sala;participacao elevada
+AT016241;P07;2024-09-12;aula;22;3,86;equipamento;
+AT016242;P07;2024-06-07;aula;25;3,92;material;resultado regular
+AT016243;P07;2025-10-03;apoio_estudo;20;8,61;equipamento;sem registo
+AT016244;P07;2024-06-15;apoio_estudo;23;7,61;transporte;Resultado regular
+AT016245;P07;2025-05-19;oficina_educativa;57;2,36;sala;Participacao elevada
+AT016246;P07;2024-10-15;aula;16;6,18;equipamento;objetivos atingidos
+AT016247;P07;2025-12-05;oficina_educativa;23;4,62;transporte;Participacao elevada
+AT016248;P07;2024-11-27;apoio_estudo;38;8,61;voluntarios;
+AT016249;P07;2024-02-27;apoio_estudo;10;8,09;voluntarios;resultado regular
+AT016250;P07;2025-09-22;apoio_estudo;63;2,40;equipamento;resultado regular
+AT016251;P07;2025-05-22;oficina_educativa;27;8,26;material;Participacao elevada
+AT016252;P07;2024-11-24;aula;40;8,89;sala;resultado regular
+AT016253;P07;2025-05-14;oficina_educativa;18;5,96;material;Resultado regular
+AT016254;P07;2025-07-08;aula;64;6,85;transporte;participacao elevada
+AT016255;P07;2024-11-07;aula;32;7,28;transporte;Participacao elevada
+AT016256;P07;2024-09-01;apoio_estudo;24;2,35;sala;sem registo
+AT016257;P07;2024-02-06;apoio_estudo;39;2,90;transporte;Participacao elevada
+AT016258;P07;2025-08-18;oficina_educativa;18;8,99;sala;objetivos atingidos
+AT016259;P07;2024-11-23;apoio_estudo;27;5,69;material;participacao elevada
+AT016260;P07;2024-07-25;apoio_estudo;42;2,22;material;Resultado regular
+AT016261;P07;2025-12-08;aula;10;6,68;transporte;resultado regular
+AT016262;P07;2024-12-18;oficina_educativa;8;3,25;transporte;Resultado regular
+AT016263;P07;2024-08-09;oficina_educativa;12;7,89;sala;Participacao elevada
+AT016264;P07;2024-04-14;apoio_estudo;32;4,24;equipamento;
+AT016265;P07;2024-04-16;oficina_educativa;13;3,15;sala;sem registo
+AT016266;P07;2024-11-08;aula;47;4,14;equipamento;objetivos atingidos
+AT016267;P07;2024-05-01;oficina_educativa;7;5,95;sala;resultado regular
+AT016268;P07;2024-01-07;aula;53;8,55;voluntarios;resultado regular
+AT016269;P07;2025-12-26;aula;27;2,53;equipamento;
+AT016270;P07;2025-08-16;oficina_educativa;47;8,36;voluntarios;Participacao elevada
+AT016271;P07;2025-10-03;oficina_educativa;57;2,55;transporte;com atraso
+AT016272;P07;2024-06-12;oficina_educativa;30;6,24;sala;
+AT016273;P07;2024-11-06;apoio_estudo;69;8,03;material;com atraso
+AT016274;P07;2025-04-02;apoio_estudo;30;2,86;transporte;objetivos atingidos
+AT016275;P07;2024-10-19;aula;19;3,59;sala;participacao elevada
+AT016276;P07;2024-01-03;apoio_estudo;40;8,45;transporte;resultado regular
+AT016277;P07;2024-08-03;aula;69;3,31;equipamento;sem registo
+AT016277;P07;2024-08-03;aula;69;3,31;equipamento;sem registo
+AT016278;P07;2024-05-02;aula;27;7,64;equipamento;objetivos atingidos
+AT016279;P07;2024-08-03;aula;63;6,98;material;Resultado regular
+AT016280;P07;2024-11-09;apoio_estudo;11;7,67;sala;objetivos atingidos
+AT016281;P07;2024-01-07;aula;18;3,84;voluntarios;objetivos atingidos
+AT016282;P07;2024-03-24;apoio_estudo;28;6,09;voluntarios;Participacao elevada
+AT016283;P07;2025-10-03;aula;14;4,12;voluntarios;Resultado regular
+AT016284;P07;2024-12-16;apoio_estudo;26;3,20;voluntarios;resultado regular
+AT016285;P07;2025-03-20;oficina_educativa;56;2,44;sala;objetivos atingidos
+AT016286;P07;2024-01-03;aula;53;7,72;equipamento;resultado regular
+AT016287;P07;2024-12-23;aula;33;5,78;transporte;
+AT016288;P07;2025-05-09;apoio_estudo;7;8,41;equipamento;
+AT016289;P07;2025-01-01;apoio_estudo;18;8,91;voluntarios;
+AT016290;P07;2024-11-10;oficina_educativa;35;8,41;voluntarios;participacao elevada
+AT016291;P07;2024-07-18;aula;50;3,22;voluntarios;Participacao elevada
+AT016292;P07;2024-09-25;aula;9;7,38;equipamento;
+AT016293;P07;2025-08-22;oficina_educativa;69;7,00;material;com atraso
+AT016294;P07;2025-05-17;aula;65;4,29;transporte;resultado regular
+AT016295;P07;2024-11-11;apoio_estudo;39;8,06;voluntarios;com atraso
+AT016296;P07;2024-12-17;aula;34;8,25;material;com atraso
+AT016297;P07;2024-06-08;aula;69;2,93;equipamento;participacao elevada
+AT016298;P07;2024-12-11;aula;27;5,61;transporte;resultado regular
+AT016299;P07;2024-09-02;aula;24;8,93;equipamento;resultado regular
+AT016300;P07;2025-08-11;apoio_estudo;57;5,34;voluntarios;Participacao elevada
+AT016301;P07;2024-04-17;oficina_educativa;39;5,24;equipamento;resultado regular
+AT016302;P07;2024-08-26;oficina_educativa;29;8,40;transporte;resultado regular
+AT016303;P07;2024-09-04;oficina_educativa;31;4,71;voluntarios;com atraso
+AT016304;P07;2024-04-21;apoio_estudo;27;5,50;equipamento;
+AT016305;P07;2024-05-01;oficina_educativa;54;8,53;equipamento;objetivos atingidos
+AT016306;P07;2025-10-10;apoio_estudo;66;3,48;sala;
+AT016307;P07;2024-12-09;aula;21;7,16;sala;resultado regular
+AT016308;P07;2025-11-17;apoio_estudo;7;2,29;voluntarios;
+AT016309;P07;2024-01-10;aula;10;8,96;equipamento;Participacao elevada
+AT016310;P07;2025-05-16;apoio_estudo;48;8,73;transporte;resultado regular
+AT016311;P07;2024-10-22;aula;46;7,85;transporte;Participacao elevada
+AT016312;P07;2025-10-02;oficina_educativa;62;4,33;equipamento;
+AT016313;P07;2025-03-23;aula;57;5,89;material;objetivos atingidos
+AT016314;P07;2024-08-24;apoio_estudo;37;8,26;sala;Participacao elevada
+AT016315;P07;2025-12-13;apoio_estudo;33;7,07;transporte;participacao elevada
+AT016316;P07;2024-09-08;apoio_estudo;65;8,47;sala;com atraso
+AT016317;P07;2024-12-09;aula;59;6,15;equipamento;participacao elevada
+AT016318;P07;2025-08-16;apoio_estudo;24;3,70;material;participacao elevada
+AT016319;P07;2025-01-19;aula;33;5,74;transporte;Participacao elevada
+AT016320;P07;2025-04-23;aula;66;4,56;equipamento;resultado regular
+AT016321;P07;2024-01-02;aula;68;6,51;sala;participacao elevada
+AT016322;P07;2024-10-07;oficina_educativa;67;8,98;sala;sem registo
+AT016323;P07;2025-10-14;aula;22;8,80;sala;Participacao elevada
+AT016324;P07;2024-11-15;apoio_estudo;5;4,94;equipamento;Participacao elevada
+AT016325;P07;2025-03-14;aula;40;5,42;equipamento;participacao elevada
+AT016326;P07;2025-11-03;aula;33;2,42;material;resultado regular
+AT016327;P07;2025-04-26;oficina_educativa;17;7,97;transporte;com atraso
+AT016328;P07;2025-05-20;apoio_estudo;6;3,92;material;objetivos atingidos
+AT016329;P07;2025-11-19;aula;68;6,52;voluntarios;participacao elevada
+AT016330;P07;2025-05-16;aula;20;7,08;material;resultado regular
+AT016331;P07;2024-06-05;apoio_estudo;8;3,24;equipamento;participacao elevada
+AT016332;P07;2024-08-04;aula;49;5,74;material;Resultado regular
+AT016333;P07;2024-09-22;oficina_educativa;16;5,88;material;objetivos atingidos
+AT016334;P07;2025-12-17;apoio_estudo;43;4,30;voluntarios;Resultado regular
+AT016335;P07;2025-08-18;oficina_educativa;20;8,34;transporte;Resultado regular
+AT016335;P07;2025-08-18;oficina_educativa;20;8,34;transporte;Resultado regular
+AT016336;P07;2024-05-04;apoio_estudo;37;3,43;sala;sem registo
+AT016337;P07;2024-10-02;aula;68;5,34;material;objetivos atingidos
+AT016338;P07;2024-05-19;apoio_estudo;25;2,38;equipamento;Resultado regular
+AT016339;P07;2025-05-24;apoio_estudo;46;8,22;voluntarios;Participacao elevada
+AT016339;P07;2025-05-24;apoio_estudo;46;8,22;voluntarios;Participacao elevada
+AT016340;P07;2025-04-15;apoio_estudo;23;8,33;material;resultado regular
+AT016341;P07;2025-04-02;aula;45;7,18;equipamento;sem registo
+AT016342;P07;2025-10-17;aula;6;3,13;transporte;
+AT016343;P07;2025-11-19;apoio_estudo;5;8,80;material;
+AT016344;P07;2025-03-08;apoio_estudo;39;3,77;equipamento;sem registo
+AT016345;P07;2025-10-23;oficina_educativa;55;6,40;voluntarios;Participacao elevada
+AT016346;P07;2025-01-03;aula;5;8,17;voluntarios;com atraso
+AT016347;P07;2024-02-06;apoio_estudo;68;2,65;sala;Participacao elevada
+AT016348;P07;2024-08-03;oficina_educativa;48;5,31;sala;
+AT016349;P07;2024-08-23;apoio_estudo;61;2,86;voluntarios;Participacao elevada
+AT016350;P07;2025-06-20;apoio_estudo;9;2,03;sala;Resultado regular
+AT016351;P07;2024-03-16;oficina_educativa;21;6,80;equipamento;objetivos atingidos
+AT016352;P07;2024-03-05;aula;50;4,97;sala;com atraso
+AT016353;P07;2024-09-13;oficina_educativa;61;6,18;material;objetivos atingidos
+AT016354;P07;2024-12-01;oficina_educativa;69;7,44;transporte;
+AT016355;P07;2024-08-02;oficina_educativa;15;4,33;sala;com atraso
+AT016356;P07;2025-12-18;aula;7;2,54;equipamento;
+AT016357;P07;2025-02-02;aula;67;3,34;material;
+AT016358;P07;2024-07-23;aula;56;5,69;equipamento;Participacao elevada
+AT016359;P07;2024-08-02;oficina_educativa;37;7,10;sala;resultado regular
+AT016360;P07;2024-11-07;apoio_estudo;8;4,95;equipamento;participacao elevada
+AT016361;P07;2025-08-17;aula;50;5,59;transporte;Resultado regular
+AT016362;P07;2024-02-13;aula;10;6,52;equipamento;participacao elevada
+AT016363;P07;2024-03-06;aula;42;7,42;voluntarios;com atraso
+AT016364;P07;2024-12-20;oficina_educativa;10;8,83;equipamento;
+AT016365;P07;2025-02-26;aula;14;7,61;voluntarios;objetivos atingidos
+AT016366;P07;2024-03-20;apoio_estudo;37;8,73;sala;sem registo
+AT016367;P07;2025-01-27;apoio_estudo;17;4,05;voluntarios;Participacao elevada
+AT016368;P07;2024-01-06;apoio_estudo;24;3,09;material;sem registo
+AT016369;P07;2024-03-12;aula;49;8,10;equipamento;objetivos atingidos
+AT016370;P07;2024-08-16;apoio_estudo;12;4,95;material;
+AT016371;P07;2025-03-03;apoio_estudo;51;2,54;voluntarios;sem registo
+AT016371;P07;2025-03-03;apoio_estudo;51;2,54;voluntarios;sem registo
+AT016372;P07;2024-06-26;apoio_estudo;47;7,38;sala;resultado regular
+AT016373;P07;2024-09-10;aula;54;8,97;equipamento;Participacao elevada
+AT016374;P07;2025-02-22;oficina_educativa;24;5,54;transporte;resultado regular
+AT016375;P07;2025-04-11;aula;56;5,00;voluntarios;Resultado regular
+AT016376;P07;2024-04-22;aula;62;5,11;voluntarios;Participacao elevada
+AT016377;P07;2024-11-09;apoio_estudo;61;2,16;transporte;
+AT016378;P07;2024-11-02;aula;23;7,72;material;
+AT016379;P07;2025-05-06;apoio_estudo;47;5,06;voluntarios;Resultado regular
+AT016380;P07;2025-05-11;apoio_estudo;69;6,98;material;sem registo
+AT016381;P07;2025-04-25;aula;14;3,11;voluntarios;Resultado regular
+AT016382;P07;2025-10-14;aula;26;5,99;voluntarios;resultado regular
+AT016383;P07;2024-01-03;oficina_educativa;20;3,34;transporte;resultado regular
+AT016384;P07;2024-12-01;apoio_estudo;10;5,90;equipamento;objetivos atingidos
+AT016384;P07;2024-12-01;apoio_estudo;10;5,90;equipamento;objetivos atingidos
+AT016385;P07;2024-12-19;oficina_educativa;30;7,31;material;objetivos atingidos
+AT016386;P07;2024-02-03;aula;38;7,33;sala;com atraso
+AT016387;P07;2024-09-26;apoio_estudo;53;8,97;equipamento;participacao elevada
+AT016388;P07;2024-01-10;aula;50;3,13;voluntarios;sem registo
+AT016389;P07;2024-08-11;oficina_educativa;42;8,56;sala;com atraso
+AT016390;P07;2025-12-04;apoio_estudo;33;8,18;sala;resultado regular
+AT016390;P07;2025-12-04;apoio_estudo;33;8,18;sala;resultado regular
+AT016391;P07;2025-10-26;apoio_estudo;66;5,63;material;objetivos atingidos
+AT016392;P07;2024-12-11;apoio_estudo;31;6,62;voluntarios;Resultado regular
+AT016393;P07;2024-12-01;aula;22;5,83;material;
+AT016394;P07;2024-11-08;apoio_estudo;17;7,17;transporte;sem registo
+AT016395;P07;2025-12-17;apoio_estudo;16;8,34;voluntarios;Resultado regular
+AT016396;P07;2025-08-26;oficina_educativa;40;7,62;material;resultado regular
+AT016397;P07;2024-06-20;aula;59;6,55;voluntarios;
+AT016398;P07;2024-03-25;oficina_educativa;32;3,92;sala;Resultado regular
+AT016399;P07;2024-12-24;apoio_estudo;28;6,97;voluntarios;
+AT016400;P07;2025-06-15;aula;49;5,88;material;objetivos atingidos
+AT016401;P07;2024-11-05;aula;69;5,81;sala;Participacao elevada
+AT016402;P07;2024-07-10;apoio_estudo;56;2,10;equipamento;participacao elevada
+AT016403;P07;2024-09-15;aula;59;7,11;sala;
+AT016404;P07;2024-09-10;aula;54;3,60;equipamento;resultado regular
+AT016405;P07;2024-03-13;oficina_educativa;46;4,70;transporte;Resultado regular
+AT016406;P07;2024-01-24;apoio_estudo;46;3,02;transporte;Participacao elevada
+AT016407;P07;2025-04-12;aula;44;8,70;transporte;objetivos atingidos
+AT016408;P07;2025-10-17;oficina_educativa;29;8,05;material;
+AT016409;P07;2025-04-10;apoio_estudo;32;2,91;sala;resultado regular
+AT016410;P07;2024-09-11;apoio_estudo;48;4,29;voluntarios;Participacao elevada
+AT016411;P07;2024-12-10;apoio_estudo;40;4,71;sala;com atraso
+AT016412;P07;2025-07-26;aula;61;7,30;voluntarios;Participacao elevada
+AT016413;P07;2024-10-02;apoio_estudo;22;4,56;sala;objetivos atingidos
+AT016414;P07;2025-08-03;aula;29;8,70;material;Participacao elevada
+AT016415;P07;2025-10-07;apoio_estudo;45;4,37;voluntarios;
+AT016416;P07;2024-06-12;apoio_estudo;65;5,03;transporte;participacao elevada
+AT016417;P07;2024-08-21;apoio_estudo;18;4,72;equipamento;Participacao elevada
+AT016418;P07;2025-06-23;apoio_estudo;46;7,75;material;Resultado regular
+AT016419;P07;2024-01-12;aula;64;8,78;transporte;objetivos atingidos
+AT016420;P07;2025-10-07;oficina_educativa;34;4,06;voluntarios;objetivos atingidos
+AT016421;P07;2024-08-25;oficina_educativa;30;4,39;sala;Resultado regular
+AT016422;P07;2025-05-06;apoio_estudo;7;8,63;sala;participacao elevada
+AT016423;P07;2024-01-02;oficina_educativa;47;4,55;voluntarios;participacao elevada
+AT016424;P07;2024-03-25;aula;15;4,44;transporte;Resultado regular
+AT016425;P07;2024-10-13;aula;57;2,70;voluntarios;Resultado regular
+AT016426;P07;2024-10-23;oficina_educativa;58;4,44;equipamento;resultado regular
+AT016427;P07;2025-04-02;oficina_educativa;56;6,80;transporte;Resultado regular
+AT016428;P07;2025-03-14;oficina_educativa;68;5,87;voluntarios;
+AT016429;P07;2024-10-27;apoio_estudo;40;8,50;equipamento;com atraso
+AT016430;P07;2025-01-01;aula;26;4,88;voluntarios;
+AT016431;P07;2025-11-16;oficina_educativa;60;3,90;material;objetivos atingidos
+AT016432;P07;2025-05-06;apoio_estudo;62;4,49;transporte;Participacao elevada
+AT016433;P07;2025-02-12;apoio_estudo;51;3,48;equipamento;sem registo
+AT016434;P07;2025-09-12;apoio_estudo;60;2,97;equipamento;resultado regular
+AT016435;P07;2025-11-03;apoio_estudo;69;3,05;sala;Resultado regular
+AT016436;P07;2025-10-27;apoio_estudo;18;2,73;voluntarios;participacao elevada
+AT016437;P07;2024-02-18;apoio_estudo;18;5,79;transporte;Participacao elevada
+AT016438;P07;2025-04-26;oficina_educativa;65;5,64;equipamento;
+AT016439;P07;2025-03-09;aula;15;5,11;transporte;Participacao elevada
+AT016440;P07;2025-11-15;oficina_educativa;32;6,08;equipamento;Participacao elevada
+AT016441;P07;2025-05-06;oficina_educativa;27;7,07;transporte;com atraso
+AT016442;P07;2025-06-06;oficina_educativa;63;6,73;voluntarios;
+AT016443;P07;2024-08-22;aula;13;8,26;sala;participacao elevada
+AT016444;P07;2025-02-20;oficina_educativa;49;2,69;transporte;resultado regular
+AT016445;P07;2025-04-07;aula;67;8,72;transporte;objetivos atingidos
+AT016446;P07;2024-12-03;apoio_estudo;16;5,26;transporte;
+AT016447;P07;2025-02-07;apoio_estudo;17;7,76;equipamento;objetivos atingidos
+AT016448;P07;2024-05-23;oficina_educativa;38;7,93;transporte;sem registo
+AT016449;P07;2025-02-19;aula;56;3,75;sala;
+AT016450;P07;2025-02-18;aula;33;6,95;voluntarios;
+AT016451;P07;2025-07-27;aula;49;5,85;voluntarios;participacao elevada
+AT016452;P07;2025-12-05;oficina_educativa;6;6,50;equipamento;Participacao elevada
+AT016453;P07;2025-12-20;aula;50;3,41;material;sem registo
+AT016454;P07;2025-08-09;oficina_educativa;23;6,62;voluntarios;objetivos atingidos
+AT016455;P07;2024-04-02;apoio_estudo;54;7,92;sala;
+AT016456;P07;2025-09-15;oficina_educativa;32;5,05;transporte;participacao elevada
+AT016457;P07;2025-05-22;oficina_educativa;12;3,94;sala;Participacao elevada
+AT016458;P07;2024-05-20;apoio_estudo;29;2,87;material;objetivos atingidos
+AT016459;P07;2024-01-19;oficina_educativa;7;2,23;equipamento;
+AT016460;P07;2025-04-06;oficina_educativa;64;2,53;sala;Resultado regular
+AT016461;P07;2024-12-03;oficina_educativa;29;2,78;voluntarios;resultado regular
+AT016462;P07;2025-10-03;aula;40;3,91;voluntarios;participacao elevada
+AT016463;P07;2025-03-05;apoio_estudo;69;4,01;material;participacao elevada
+AT016464;P07;2025-06-07;oficina_educativa;53;8,86;equipamento;Participacao elevada
+AT016465;P07;2024-02-27;aula;26;7,35;sala;objetivos atingidos
+AT016466;P07;2024-07-02;oficina_educativa;59;6,52;equipamento;sem registo
+AT016467;P07;2025-09-13;aula;67;2,77;material;Resultado regular
+AT016468;P07;2024-12-05;aula;62;8,86;material;participacao elevada
+AT016469;P07;2024-10-04;apoio_estudo;44;5,60;voluntarios;participacao elevada
+AT016470;P07;2024-12-20;aula;53;4,61;equipamento;resultado regular
+AT016471;P07;2025-11-23;oficina_educativa;22;5,44;sala;com atraso
+AT016472;P07;2024-06-16;aula;17;3,76;material;Participacao elevada
+AT016473;P07;2024-12-03;aula;7;7,73;voluntarios;resultado regular
+AT016474;P07;2024-12-10;apoio_estudo;24;7,37;material;participacao elevada
+AT016475;P07;2025-10-13;apoio_estudo;68;8,68;sala;participacao elevada
+AT016476;P07;2024-09-26;aula;36;5,20;transporte;objetivos atingidos
+AT016477;P07;2025-01-03;oficina_educativa;28;5,97;equipamento;participacao elevada
+AT016478;P07;2025-08-08;oficina_educativa;12;8,23;transporte;
+AT016479;P07;2025-02-09;oficina_educativa;35;2,01;equipamento;Resultado regular
+AT016480;P07;2024-05-08;oficina_educativa;65;6,29;material;
+AT016481;P07;2025-03-06;aula;68;8,69;material;
+AT016482;P07;2025-06-17;apoio_estudo;41;4,29;sala;participacao elevada
+AT016483;P07;2024-12-24;apoio_estudo;46;6,03;material;
+AT016484;P07;2025-03-01;oficina_educativa;7;4,70;sala;participacao elevada
+AT016485;P07;2024-01-25;oficina_educativa;55;5,09;material;resultado regular
+AT016486;P07;2024-04-12;oficina_educativa;57;2,88;sala;com atraso
+AT016487;P07;2024-04-14;oficina_educativa;15;7,88;equipamento;resultado regular
+AT016488;P07;2024-06-18;oficina_educativa;49;2,90;sala;participacao elevada
+AT016489;P07;2024-04-13;aula;54;6,01;sala;
+AT016490;P07;2025-12-02;aula;34;8,59;sala;resultado regular
+AT016491;P07;2025-11-18;apoio_estudo;42;3,54;voluntarios;
+AT016492;P07;2024-10-04;oficina_educativa;33;7,37;material;participacao elevada
+AT016493;P07;2024-12-18;oficina_educativa;5;6,46;sala;resultado regular
+AT016494;P07;2024-03-10;apoio_estudo;11;7,87;transporte;com atraso
+AT016495;P07;2025-02-27;apoio_estudo;57;7,56;transporte;participacao elevada
+AT016496;P07;2025-10-19;oficina_educativa;35;6,30;sala;Participacao elevada
+AT016497;P07;2025-12-04;apoio_estudo;22;7,83;sala;objetivos atingidos
+AT016498;P07;2024-11-21;apoio_estudo;47;2,45;transporte;Participacao elevada
+AT016499;P07;2024-08-14;aula;9;3,86;voluntarios;Resultado regular
+AT016500;P07;2024-10-24;oficina_educativa;12;5,65;transporte;objetivos atingidos
+AT016501;P07;2024-06-13;oficina_educativa;39;7,03;equipamento;
+AT016501;P07;2024-06-13;oficina_educativa;39;7,03;equipamento;
+AT016502;P07;2025-09-10;apoio_estudo;65;3,99;voluntarios;resultado regular
+AT016503;P07;2025-08-08;apoio_estudo;30;8,65;voluntarios;sem registo
+AT016503;P07;2025-08-08;apoio_estudo;30;8,65;voluntarios;sem registo
+AT016504;P07;2025-10-02;oficina_educativa;8;8,07;voluntarios;
+AT016505;P07;2024-05-26;aula;61;2,52;material;Participacao elevada
+AT016506;P07;2025-07-14;apoio_estudo;43;6,71;sala;com atraso
+AT016507;P07;2025-06-23;apoio_estudo;6;8,76;sala;Participacao elevada
+AT016508;P07;2025-05-11;oficina_educativa;28;2,73;material;resultado regular
+AT016509;P07;2024-10-24;aula;30;6,95;equipamento;objetivos atingidos
+AT016510;P07;2025-07-07;oficina_educativa;33;5,79;voluntarios;Participacao elevada
+AT016511;P07;2024-06-04;apoio_estudo;17;6,15;sala;sem registo
+AT016512;P07;2024-12-26;apoio_estudo;20;3,03;transporte;
+AT016513;P07;2024-07-24;oficina_educativa;31;5,24;voluntarios;participacao elevada
+AT016514;P07;2025-12-16;aula;38;2,77;sala;com atraso
+AT016515;P07;2024-12-09;aula;29;7,75;equipamento;sem registo
+AT016516;P07;2024-11-27;aula;56;8,91;transporte;resultado regular
+AT016517;P07;2024-05-23;oficina_educativa;56;7,42;sala;com atraso
+AT016518;P07;2025-06-14;aula;32;7,70;voluntarios;participacao elevada
+AT016519;P07;2024-01-18;aula;21;7,54;equipamento;Participacao elevada
+AT016520;P07;2024-12-07;aula;29;4,78;transporte;Participacao elevada
+AT016520;P07;2024-12-07;aula;29;4,78;transporte;Participacao elevada
+AT016521;P07;2025-10-20;apoio_estudo;29;5,17;voluntarios;objetivos atingidos
+AT016522;P07;2025-11-11;apoio_estudo;34;6,68;sala;resultado regular
+AT016523;P07;2024-06-20;apoio_estudo;6;6,84;sala;Resultado regular
+AT016524;P07;2024-07-16;oficina_educativa;39;7,39;sala;resultado regular
+AT016525;P07;2024-09-01;aula;64;8,19;sala;Resultado regular
+AT016526;P07;2024-03-16;oficina_educativa;61;4,54;sala;
+AT016527;P07;2025-06-23;aula;28;5,20;voluntarios;
+AT016528;P07;2025-04-03;apoio_estudo;31;5,39;equipamento;resultado regular
+AT016529;P07;2025-03-21;apoio_estudo;49;5,90;equipamento;
+AT016530;P07;2024-11-03;oficina_educativa;40;6,98;sala;
+AT016531;P07;2024-08-20;oficina_educativa;25;6,15;material;sem registo
+AT016532;P07;2025-08-24;apoio_estudo;15;4,80;sala;
+AT016533;P07;2024-05-11;apoio_estudo;8;5,34;transporte;com atraso
+AT016534;P07;2025-12-13;apoio_estudo;60;6,61;equipamento;participacao elevada
+AT016535;P07;2024-11-10;apoio_estudo;20;5,83;sala;participacao elevada
+AT016536;P07;2025-06-14;aula;19;6,06;sala;sem registo
+AT016537;P07;2024-01-26;apoio_estudo;14;8,36;voluntarios;Participacao elevada
+AT016538;P07;2024-01-14;aula;15;4,13;transporte;com atraso
+AT016539;P07;2025-12-02;oficina_educativa;29;5,44;transporte;sem registo
+AT016540;P07;2024-03-16;aula;43;3,99;material;
+AT016541;P07;2024-02-19;apoio_estudo;49;6,64;sala;
+AT016542;P07;2024-03-18;apoio_estudo;69;4,50;transporte;participacao elevada
+AT016543;P07;2024-12-26;aula;32;5,93;equipamento;com atraso
+AT016544;P07;2025-09-25;apoio_estudo;63;6,37;voluntarios;Participacao elevada
+AT016545;P07;2024-04-16;aula;55;3,01;material;objetivos atingidos
+AT016546;P07;2025-04-16;oficina_educativa;17;7,58;equipamento;
+AT016547;P07;2025-06-18;aula;26;2,88;equipamento;com atraso
+AT016548;P07;2024-08-14;oficina_educativa;34;7,46;equipamento;resultado regular
+AT016549;P07;2025-11-12;apoio_estudo;12;7,02;equipamento;
+AT016550;P07;2025-10-06;apoio_estudo;63;8,28;sala;com atraso
+AT016551;P07;2024-06-21;apoio_estudo;62;2,02;transporte;Resultado regular
+AT016552;P07;2024-06-01;apoio_estudo;38;3,76;material;com atraso
+AT016553;P07;2024-10-17;oficina_educativa;13;3,53;material;com atraso
+AT016554;P07;2025-09-04;aula;20;7,76;equipamento;Resultado regular
+AT016555;P07;2024-11-24;aula;37;4,86;equipamento;com atraso
+AT016556;P07;2024-04-16;oficina_educativa;7;3,02;equipamento;resultado regular
+AT016557;P07;2024-04-13;apoio_estudo;10;4,23;equipamento;
+AT016558;P07;2024-06-19;oficina_educativa;12;7,12;voluntarios;objetivos atingidos
+AT016559;P07;2025-06-16;apoio_estudo;36;4,24;sala;com atraso
+AT016560;P07;2025-11-04;aula;25;6,43;voluntarios;com atraso

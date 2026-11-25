@@ -1,0 +1,1082 @@
+[
+ {
+  "id": "PI00001",
+  "id_projeto": "P01",
+  "data": "2025-09-01",
+  "tipo": "reforco_formacao",
+  "valor_previsto": 204920.22,
+  "descricao": "plano de realocacao",
+  "estado": "aprovado"
+ },
+ {
+  "id": "PI00002",
+  "id_projeto": "P01",
+  "data": "2025-08-11",
+  "tipo": "realocacao",
+  "valor_previsto": 51444.31,
+  "descricao": "plano de realocacao",
+  "estado": "proposto"
+ },
+ {
+  "id": "PI00003",
+  "id_projeto": "P01",
+  "data": "2024-03-19",
+  "tipo": "otimizacao_despesas",
+  "valor_previsto": 130998.09,
+  "descricao": "Revise o orcamento",
+  "estado": "proposto"
+ },
+ {
+  "id": "PI00004",
+  "id_projeto": "P01",
+  "data": "2025-09-03",
+  "tipo": "realocacao",
+  "valor_previsto": 22520.15,
+  "descricao": "reforco de competencias",
+  "estado": "concluido"
+ },
+ {
+  "id": "PI00005",
+  "id_projeto": "P01",
+  "data": "2025-11-15",
+  "tipo": "reforco_formacao",
+  "valor_previsto": 231675.49,
+  "descricao": "plano de investimento",
+  "estado": "concluido"
+ },
+ {
+  "id": "PI00006",
+  "id_projeto": "P01",
+  "data": "2024-06-23",
+  "tipo": "ampliacao",
+  "valor_previsto": 31484.66,
+  "descricao": "Revise o orcamento",
+  "estado": "proposto"
+ },
+ {
+  "id": "PI00007",
+  "id_projeto": "P01",
+  "data": "2025-12-23",
+  "tipo": "ampliacao",
+  "valor_previsto": 73607.09,
+  "descricao": "plano de investimento",
+  "estado": "em_execucao"
+ },
+ {
+  "id": "PI00008",
+  "id_projeto": "P01",
+  "data": "2024-01-23",
+  "tipo": "reforco_formacao",
+  "valor_previsto": 193565.8,
+  "descricao": "plano de investimento",
+  "estado": "concluido"
+ },
+ {
+  "id": "PI00009",
+  "id_projeto": "P01",
+  "data": "2024-06-15",
+  "tipo": "reforco_formacao",
+  "valor_previsto": 40349.97,
+  "descricao": "reforco de competencias",
+  "estado": "aprovado"
+ },
+ {
+  "id": "PI00010",
+  "id_projeto": "P01",
+  "data": "2024-04-23",
+  "tipo": "otimizacao_despesas",
+  "valor_previsto": 209355.44,
+  "descricao": "Revise o orcamento",
+  "estado": "aprovado"
+ },
+ {
+  "id": "PI00011",
+  "id_projeto": "P02",
+  "data": "2025-05-13",
+  "tipo": "realocacao",
+  "valor_previsto": 211167.34,
+  "descricao": "plano de realocacao",
+  "estado": "concluido"
+ },
+ {
+  "id": "PI00012",
+  "id_projeto": "P02",
+  "data": "2024-10-05",
+  "tipo": "otimizacao_despesas",
+  "valor_previsto": 44232.57,
+  "descricao": "reforco de competencias",
+  "estado": "concluido"
+ },
+ {
+  "id": "PI00013",
+  "id_projeto": "P02",
+  "data": "2024-06-15",
+  "tipo": "otimizacao_despesas",
+  "valor_previsto": 184741.32,
+  "descricao": "plano de realocacao",
+  "estado": "proposto"
+ },
+ {
+  "id": "PI00014",
+  "id_projeto": "P02",
+  "data": "2025-10-02",
+  "tipo": "otimizacao_despesas",
+  "valor_previsto": 179471.72,
+  "descricao": "plano de investimento",
+  "estado": "aprovado"
+ },
+ {
+  "id": "PI00015",
+  "id_projeto": "P02",
+  "data": "2024-08-03",
+  "tipo": "otimizacao_despesas",
+  "valor_previsto": 106144.39,
+  "descricao": "Revise o orcamento",
+  "estado": "proposto"
+ },
+ {
+  "id": "PI00016",
+  "id_projeto": "P02",
+  "data": "2024-07-13",
+  "tipo": "realocacao",
+  "valor_previsto": 61216.55,
+  "descricao": "plano de realocacao",
+  "estado": "concluido"
+ },
+ {
+  "id": "PI00017",
+  "id_projeto": "P02",
+  "data": "2025-02-11",
+  "tipo": "realocacao",
+  "valor_previsto": 167187.31,
+  "descricao": "plano de realocacao",
+  "estado": "em_execucao"
+ },
+ {
+  "id": "PI00018",
+  "id_projeto": "P02",
+  "data": "2025-05-14",
+  "tipo": "reforco_formacao",
+  "valor_previsto": 184286.05,
+  "descricao": "Revise o orcamento",
+  "estado": "em_execucao"
+ },
+ {
+  "id": "PI00019",
+  "id_projeto": "P02",
+  "data": "2024-02-27",
+  "tipo": "reforco_formacao",
+  "valor_previsto": 222777.82,
+  "descricao": "plano de realocacao",
+  "estado": "aprovado"
+ },
+ {
+  "id": "PI00020",
+  "id_projeto": "P02",
+  "data": "2024-03-25",
+  "tipo": "ampliacao",
+  "valor_previsto": 230376.02,
+  "descricao": "plano de realocacao",
+  "estado": "aprovado"
+ },
+ {
+  "id": "PI00021",
+  "id_projeto": "P03",
+  "data": "2024-12-23",
+  "tipo": "otimizacao_despesas",
+  "valor_previsto": 159048.83,
+  "descricao": "reforco de competencias",
+  "estado": "concluido"
+ },
+ {
+  "id": "PI00022",
+  "id_projeto": "P03",
+  "data": "2025-01-04",
+  "tipo": "reforco_formacao",
+  "valor_previsto": 103324.43,
+  "descricao": "plano de investimento",
+  "estado": "concluido"
+ },
+ {
+  "id": "PI00023",
+  "id_projeto": "P03",
+  "data": "2025-04-17",
+  "tipo": "ampliacao",
+  "valor_previsto": 238772.78,
+  "descricao": "plano de investimento",
+  "estado": "aprovado"
+ },
+ {
+  "id": "PI00024",
+  "id_projeto": "P03",
+  "data": "2025-01-26",
+  "tipo": "otimizacao_despesas",
+  "valor_previsto": 48008.34,
+  "descricao": "Revise o orcamento",
+  "estado": "proposto"
+ },
+ {
+  "id": "PI00025",
+  "id_projeto": "P03",
+  "data": "2025-08-20",
+  "tipo": "ampliacao",
+  "valor_previsto": 104939.57,
+  "descricao": "Revise o orcamento",
+  "estado": "proposto"
+ },
+ {
+  "id": "PI00026",
+  "id_projeto": "P03",
+  "data": "2025-06-27",
+  "tipo": "realocacao",
+  "valor_previsto": 192372.22,
+  "descricao": "Revise o orcamento",
+  "estado": "concluido"
+ },
+ {
+  "id": "PI00027",
+  "id_projeto": "P03",
+  "data": "2025-05-23",
+  "tipo": "ampliacao",
+  "valor_previsto": 45001.48,
+  "descricao": "reforco de competencias",
+  "estado": "aprovado"
+ },
+ {
+  "id": "PI00028",
+  "id_projeto": "P03",
+  "data": "2025-12-08",
+  "tipo": "otimizacao_despesas",
+  "valor_previsto": 46739.0,
+  "descricao": "Revise o orcamento",
+  "estado": "concluido"
+ },
+ {
+  "id": "PI00029",
+  "id_projeto": "P03",
+  "data": "2025-06-21",
+  "tipo": "realocacao",
+  "valor_previsto": 100841.62,
+  "descricao": "reforco de competencias",
+  "estado": "aprovado"
+ },
+ {
+  "id": "PI00030",
+  "id_projeto": "P03",
+  "data": "2024-08-16",
+  "tipo": "otimizacao_despesas",
+  "valor_previsto": 240066.19,
+  "descricao": "reforco de competencias",
+  "estado": "proposto"
+ },
+ {
+  "id": "PI00031",
+  "id_projeto": "P04",
+  "data": "2025-10-05",
+  "tipo": "ampliacao",
+  "valor_previsto": 230967.95,
+  "descricao": "Revise o orcamento",
+  "estado": "aprovado"
+ },
+ {
+  "id": "PI00032",
+  "id_projeto": "P04",
+  "data": "2025-03-14",
+  "tipo": "otimizacao_despesas",
+  "valor_previsto": 32060.42,
+  "descricao": "plano de realocacao",
+  "estado": "concluido"
+ },
+ {
+  "id": "PI00033",
+  "id_projeto": "P04",
+  "data": "2025-01-22",
+  "tipo": "reforco_formacao",
+  "valor_previsto": 137449.52,
+  "descricao": "reforco de competencias",
+  "estado": "proposto"
+ },
+ {
+  "id": "PI00034",
+  "id_projeto": "P04",
+  "data": "2025-01-14",
+  "tipo": "otimizacao_despesas",
+  "valor_previsto": 176610.25,
+  "descricao": "reforco de competencias",
+  "estado": "concluido"
+ },
+ {
+  "id": "PI00035",
+  "id_projeto": "P04",
+  "data": "2024-02-18",
+  "tipo": "ampliacao",
+  "valor_previsto": 154571.45,
+  "descricao": "plano de investimento",
+  "estado": "concluido"
+ },
+ {
+  "id": "PI00036",
+  "id_projeto": "P04",
+  "data": "2025-06-13",
+  "tipo": "ampliacao",
+  "valor_previsto": 209890.29,
+  "descricao": "reforco de competencias",
+  "estado": "em_execucao"
+ },
+ {
+  "id": "PI00037",
+  "id_projeto": "P04",
+  "data": "2025-09-05",
+  "tipo": "otimizacao_despesas",
+  "valor_previsto": 78333.31,
+  "descricao": "reforco de competencias",
+  "estado": "proposto"
+ },
+ {
+  "id": "PI00038",
+  "id_projeto": "P04",
+  "data": "2025-12-18",
+  "tipo": "reforco_formacao",
+  "valor_previsto": 50068.15,
+  "descricao": "plano de realocacao",
+  "estado": "proposto"
+ },
+ {
+  "id": "PI00039",
+  "id_projeto": "P04",
+  "data": "2024-08-12",
+  "tipo": "otimizacao_despesas",
+  "valor_previsto": 219240.29,
+  "descricao": "plano de investimento",
+  "estado": "proposto"
+ },
+ {
+  "id": "PI00040",
+  "id_projeto": "P04",
+  "data": "2024-01-07",
+  "tipo": "otimizacao_despesas",
+  "valor_previsto": 208439.53,
+  "descricao": "reforco de competencias",
+  "estado": "em_execucao"
+ },
+ {
+  "id": "PI00041",
+  "id_projeto": "P05",
+  "data": "2025-08-12",
+  "tipo": "otimizacao_despesas",
+  "valor_previsto": 25913.73,
+  "descricao": "plano de investimento",
+  "estado": "concluido"
+ },
+ {
+  "id": "PI00042",
+  "id_projeto": "P05",
+  "data": "2025-09-20",
+  "tipo": "reforco_formacao",
+  "valor_previsto": 214104.35,
+  "descricao": "Revise o orcamento",
+  "estado": "concluido"
+ },
+ {
+  "id": "PI00043",
+  "id_projeto": "P05",
+  "data": "2024-07-13",
+  "tipo": "otimizacao_despesas",
+  "valor_previsto": 118617.47,
+  "descricao": "plano de realocacao",
+  "estado": "proposto"
+ },
+ {
+  "id": "PI00044",
+  "id_projeto": "P05",
+  "data": "2024-10-09",
+  "tipo": "reforco_formacao",
+  "valor_previsto": 210619.51,
+  "descricao": "reforco de competencias",
+  "estado": "concluido"
+ },
+ {
+  "id": "PI00045",
+  "id_projeto": "P05",
+  "data": "2024-11-02",
+  "tipo": "ampliacao",
+  "valor_previsto": 86652.1,
+  "descricao": "plano de investimento",
+  "estado": "aprovado"
+ },
+ {
+  "id": "PI00046",
+  "id_projeto": "P05",
+  "data": "2025-03-19",
+  "tipo": "ampliacao",
+  "valor_previsto": 108719.02,
+  "descricao": "Revise o orcamento",
+  "estado": "concluido"
+ },
+ {
+  "id": "PI00047",
+  "id_projeto": "P05",
+  "data": "2025-05-03",
+  "tipo": "reforco_formacao",
+  "valor_previsto": 87939.16,
+  "descricao": "Revise o orcamento",
+  "estado": "em_execucao"
+ },
+ {
+  "id": "PI00048",
+  "id_projeto": "P05",
+  "data": "2024-07-23",
+  "tipo": "otimizacao_despesas",
+  "valor_previsto": 97995.9,
+  "descricao": "reforco de competencias",
+  "estado": "em_execucao"
+ },
+ {
+  "id": "PI00049",
+  "id_projeto": "P05",
+  "data": "2025-10-12",
+  "tipo": "otimizacao_despesas",
+  "valor_previsto": 179338.32,
+  "descricao": "plano de investimento",
+  "estado": "proposto"
+ },
+ {
+  "id": "PI00050",
+  "id_projeto": "P05",
+  "data": "2025-08-27",
+  "tipo": "reforco_formacao",
+  "valor_previsto": 241749.08,
+  "descricao": "Revise o orcamento",
+  "estado": "proposto"
+ },
+ {
+  "id": "PI00051",
+  "id_projeto": "P06",
+  "data": "2025-02-04",
+  "tipo": "otimizacao_despesas",
+  "valor_previsto": 59414.87,
+  "descricao": "reforco de competencias",
+  "estado": "aprovado"
+ },
+ {
+  "id": "PI00052",
+  "id_projeto": "P06",
+  "data": "2024-08-12",
+  "tipo": "realocacao",
+  "valor_previsto": 170131.74,
+  "descricao": "reforco de competencias",
+  "estado": "aprovado"
+ },
+ {
+  "id": "PI00053",
+  "id_projeto": "P06",
+  "data": "2024-09-11",
+  "tipo": "reforco_formacao",
+  "valor_previsto": 94982.2,
+  "descricao": "plano de realocacao",
+  "estado": "em_execucao"
+ },
+ {
+  "id": "PI00054",
+  "id_projeto": "P06",
+  "data": "2025-10-13",
+  "tipo": "reforco_formacao",
+  "valor_previsto": 153638.29,
+  "descricao": "plano de investimento",
+  "estado": "aprovado"
+ },
+ {
+  "id": "PI00055",
+  "id_projeto": "P06",
+  "data": "2024-07-18",
+  "tipo": "reforco_formacao",
+  "valor_previsto": 40821.56,
+  "descricao": "plano de realocacao",
+  "estado": "proposto"
+ },
+ {
+  "id": "PI00056",
+  "id_projeto": "P06",
+  "data": "2025-02-04",
+  "tipo": "reforco_formacao",
+  "valor_previsto": 114935.57,
+  "descricao": "reforco de competencias",
+  "estado": "aprovado"
+ },
+ {
+  "id": "PI00057",
+  "id_projeto": "P06",
+  "data": "2024-09-24",
+  "tipo": "reforco_formacao",
+  "valor_previsto": 158602.38,
+  "descricao": "plano de realocacao",
+  "estado": "em_execucao"
+ },
+ {
+  "id": "PI00058",
+  "id_projeto": "P06",
+  "data": "2025-07-04",
+  "tipo": "reforco_formacao",
+  "valor_previsto": 10934.45,
+  "descricao": "plano de investimento",
+  "estado": "proposto"
+ },
+ {
+  "id": "PI00059",
+  "id_projeto": "P06",
+  "data": "2025-06-27",
+  "tipo": "realocacao",
+  "valor_previsto": 99128.88,
+  "descricao": "plano de realocacao",
+  "estado": "proposto"
+ },
+ {
+  "id": "PI00060",
+  "id_projeto": "P06",
+  "data": "2025-02-10",
+  "tipo": "otimizacao_despesas",
+  "valor_previsto": 22590.59,
+  "descricao": "reforco de competencias",
+  "estado": "concluido"
+ },
+ {
+  "id": "PI00061",
+  "id_projeto": "P07",
+  "data": "2024-11-06",
+  "tipo": "ampliacao",
+  "valor_previsto": 123151.0,
+  "descricao": "plano de realocacao",
+  "estado": "em_execucao"
+ },
+ {
+  "id": "PI00062",
+  "id_projeto": "P07",
+  "data": "2024-02-11",
+  "tipo": "realocacao",
+  "valor_previsto": 59550.16,
+  "descricao": "plano de realocacao",
+  "estado": "em_execucao"
+ },
+ {
+  "id": "PI00063",
+  "id_projeto": "P07",
+  "data": "2024-08-17",
+  "tipo": "ampliacao",
+  "valor_previsto": 236194.87,
+  "descricao": "reforco de competencias",
+  "estado": "proposto"
+ },
+ {
+  "id": "PI00064",
+  "id_projeto": "P07",
+  "data": "2024-10-25",
+  "tipo": "otimizacao_despesas",
+  "valor_previsto": 116437.76,
+  "descricao": "Revise o orcamento",
+  "estado": "concluido"
+ },
+ {
+  "id": "PI00065",
+  "id_projeto": "P07",
+  "data": "2025-12-27",
+  "tipo": "realocacao",
+  "valor_previsto": 121064.98,
+  "descricao": "plano de realocacao",
+  "estado": "aprovado"
+ },
+ {
+  "id": "PI00066",
+  "id_projeto": "P07",
+  "data": "2024-01-26",
+  "tipo": "otimizacao_despesas",
+  "valor_previsto": 237284.06,
+  "descricao": "plano de realocacao",
+  "estado": "aprovado"
+ },
+ {
+  "id": "PI00067",
+  "id_projeto": "P07",
+  "data": "2024-04-12",
+  "tipo": "otimizacao_despesas",
+  "valor_previsto": 48710.59,
+  "descricao": "plano de realocacao",
+  "estado": "em_execucao"
+ },
+ {
+  "id": "PI00068",
+  "id_projeto": "P07",
+  "data": "2025-12-25",
+  "tipo": "realocacao",
+  "valor_previsto": 128045.23,
+  "descricao": "plano de realocacao",
+  "estado": "aprovado"
+ },
+ {
+  "id": "PI00069",
+  "id_projeto": "P07",
+  "data": "2024-01-25",
+  "tipo": "realocacao",
+  "valor_previsto": 193374.27,
+  "descricao": "Revise o orcamento",
+  "estado": "aprovado"
+ },
+ {
+  "id": "PI00070",
+  "id_projeto": "P07",
+  "data": "2024-02-09",
+  "tipo": "ampliacao",
+  "valor_previsto": 14934.43,
+  "descricao": "reforco de competencias",
+  "estado": "proposto"
+ },
+ {
+  "id": "PI00071",
+  "id_projeto": "P08",
+  "data": "2024-10-06",
+  "tipo": "reforco_formacao",
+  "valor_previsto": 224845.95,
+  "descricao": "plano de realocacao",
+  "estado": "em_execucao"
+ },
+ {
+  "id": "PI00072",
+  "id_projeto": "P08",
+  "data": "2025-04-15",
+  "tipo": "reforco_formacao",
+  "valor_previsto": 208608.65,
+  "descricao": "reforco de competencias",
+  "estado": "concluido"
+ },
+ {
+  "id": "PI00073",
+  "id_projeto": "P08",
+  "data": "2024-12-04",
+  "tipo": "reforco_formacao",
+  "valor_previsto": 154773.93,
+  "descricao": "plano de realocacao",
+  "estado": "proposto"
+ },
+ {
+  "id": "PI00074",
+  "id_projeto": "P08",
+  "data": "2025-08-09",
+  "tipo": "ampliacao",
+  "valor_previsto": 34178.92,
+  "descricao": "reforco de competencias",
+  "estado": "aprovado"
+ },
+ {
+  "id": "PI00075",
+  "id_projeto": "P08",
+  "data": "2025-10-09",
+  "tipo": "ampliacao",
+  "valor_previsto": 30257.24,
+  "descricao": "plano de realocacao",
+  "estado": "concluido"
+ },
+ {
+  "id": "PI00076",
+  "id_projeto": "P08",
+  "data": "2025-01-18",
+  "tipo": "reforco_formacao",
+  "valor_previsto": 45421.96,
+  "descricao": "reforco de competencias",
+  "estado": "proposto"
+ },
+ {
+  "id": "PI00077",
+  "id_projeto": "P08",
+  "data": "2025-06-12",
+  "tipo": "ampliacao",
+  "valor_previsto": 228952.53,
+  "descricao": "plano de investimento",
+  "estado": "concluido"
+ },
+ {
+  "id": "PI00078",
+  "id_projeto": "P08",
+  "data": "2024-05-09",
+  "tipo": "ampliacao",
+  "valor_previsto": 136646.56,
+  "descricao": "plano de realocacao",
+  "estado": "aprovado"
+ },
+ {
+  "id": "PI00079",
+  "id_projeto": "P08",
+  "data": "2025-01-18",
+  "tipo": "ampliacao",
+  "valor_previsto": 195955.92,
+  "descricao": "plano de investimento",
+  "estado": "proposto"
+ },
+ {
+  "id": "PI00080",
+  "id_projeto": "P08",
+  "data": "2024-07-09",
+  "tipo": "otimizacao_despesas",
+  "valor_previsto": 185518.39,
+  "descricao": "Revise o orcamento",
+  "estado": "concluido"
+ },
+ {
+  "id": "PI00081",
+  "id_projeto": "P09",
+  "data": "2025-11-25",
+  "tipo": "otimizacao_despesas",
+  "valor_previsto": 41864.49,
+  "descricao": "reforco de competencias",
+  "estado": "concluido"
+ },
+ {
+  "id": "PI00082",
+  "id_projeto": "P09",
+  "data": "2025-02-07",
+  "tipo": "realocacao",
+  "valor_previsto": 13350.85,
+  "descricao": "plano de investimento",
+  "estado": "em_execucao"
+ },
+ {
+  "id": "PI00083",
+  "id_projeto": "P09",
+  "data": "2024-11-25",
+  "tipo": "ampliacao",
+  "valor_previsto": 39037.1,
+  "descricao": "plano de investimento",
+  "estado": "aprovado"
+ },
+ {
+  "id": "PI00084",
+  "id_projeto": "P09",
+  "data": "2024-02-15",
+  "tipo": "ampliacao",
+  "valor_previsto": 41544.62,
+  "descricao": "plano de investimento",
+  "estado": "em_execucao"
+ },
+ {
+  "id": "PI00085",
+  "id_projeto": "P09",
+  "data": "2025-10-24",
+  "tipo": "reforco_formacao",
+  "valor_previsto": 30653.06,
+  "descricao": "reforco de competencias",
+  "estado": "em_execucao"
+ },
+ {
+  "id": "PI00086",
+  "id_projeto": "P09",
+  "data": "2025-11-24",
+  "tipo": "realocacao",
+  "valor_previsto": 138053.1,
+  "descricao": "plano de investimento",
+  "estado": "proposto"
+ },
+ {
+  "id": "PI00087",
+  "id_projeto": "P09",
+  "data": "2024-08-12",
+  "tipo": "reforco_formacao",
+  "valor_previsto": 130251.05,
+  "descricao": "reforco de competencias",
+  "estado": "aprovado"
+ },
+ {
+  "id": "PI00088",
+  "id_projeto": "P09",
+  "data": "2025-12-09",
+  "tipo": "realocacao",
+  "valor_previsto": 31859.56,
+  "descricao": "plano de realocacao",
+  "estado": "aprovado"
+ },
+ {
+  "id": "PI00089",
+  "id_projeto": "P09",
+  "data": "2025-11-10",
+  "tipo": "ampliacao",
+  "valor_previsto": 77941.49,
+  "descricao": "Revise o orcamento",
+  "estado": "proposto"
+ },
+ {
+  "id": "PI00090",
+  "id_projeto": "P09",
+  "data": "2025-08-15",
+  "tipo": "realocacao",
+  "valor_previsto": 34218.35,
+  "descricao": "plano de investimento",
+  "estado": "concluido"
+ },
+ {
+  "id": "PI00091",
+  "id_projeto": "P10",
+  "data": "2025-01-25",
+  "tipo": "realocacao",
+  "valor_previsto": 216991.24,
+  "descricao": "plano de realocacao",
+  "estado": "proposto"
+ },
+ {
+  "id": "PI00092",
+  "id_projeto": "P10",
+  "data": "2025-05-26",
+  "tipo": "realocacao",
+  "valor_previsto": 38540.09,
+  "descricao": "plano de investimento",
+  "estado": "proposto"
+ },
+ {
+  "id": "PI00093",
+  "id_projeto": "P10",
+  "data": "2024-06-11",
+  "tipo": "reforco_formacao",
+  "valor_previsto": 133501.77,
+  "descricao": "Revise o orcamento",
+  "estado": "em_execucao"
+ },
+ {
+  "id": "PI00094",
+  "id_projeto": "P10",
+  "data": "2025-08-17",
+  "tipo": "realocacao",
+  "valor_previsto": 160402.79,
+  "descricao": "reforco de competencias",
+  "estado": "proposto"
+ },
+ {
+  "id": "PI00095",
+  "id_projeto": "P10",
+  "data": "2024-07-21",
+  "tipo": "reforco_formacao",
+  "valor_previsto": 51608.69,
+  "descricao": "plano de investimento",
+  "estado": "em_execucao"
+ },
+ {
+  "id": "PI00096",
+  "id_projeto": "P10",
+  "data": "2025-05-22",
+  "tipo": "realocacao",
+  "valor_previsto": 43837.5,
+  "descricao": "plano de investimento",
+  "estado": "em_execucao"
+ },
+ {
+  "id": "PI00097",
+  "id_projeto": "P10",
+  "data": "2024-04-19",
+  "tipo": "otimizacao_despesas",
+  "valor_previsto": 10125.95,
+  "descricao": "reforco de competencias",
+  "estado": "aprovado"
+ },
+ {
+  "id": "PI00098",
+  "id_projeto": "P10",
+  "data": "2025-03-19",
+  "tipo": "ampliacao",
+  "valor_previsto": 32146.69,
+  "descricao": "plano de investimento",
+  "estado": "proposto"
+ },
+ {
+  "id": "PI00099",
+  "id_projeto": "P10",
+  "data": "2025-12-21",
+  "tipo": "otimizacao_despesas",
+  "valor_previsto": 198580.07,
+  "descricao": "Revise o orcamento",
+  "estado": "proposto"
+ },
+ {
+  "id": "PI00100",
+  "id_projeto": "P10",
+  "data": "2025-04-06",
+  "tipo": "otimizacao_despesas",
+  "valor_previsto": 177047.44,
+  "descricao": "Revise o orcamento",
+  "estado": "proposto"
+ },
+ {
+  "id": "PI00101",
+  "id_projeto": "P11",
+  "data": "2024-05-13",
+  "tipo": "realocacao",
+  "valor_previsto": 201896.92,
+  "descricao": "plano de realocacao",
+  "estado": "proposto"
+ },
+ {
+  "id": "PI00102",
+  "id_projeto": "P11",
+  "data": "2025-11-16",
+  "tipo": "reforco_formacao",
+  "valor_previsto": 18715.55,
+  "descricao": "plano de realocacao",
+  "estado": "concluido"
+ },
+ {
+  "id": "PI00103",
+  "id_projeto": "P11",
+  "data": "2025-10-05",
+  "tipo": "realocacao",
+  "valor_previsto": 135347.44,
+  "descricao": "Revise o orcamento",
+  "estado": "em_execucao"
+ },
+ {
+  "id": "PI00104",
+  "id_projeto": "P11",
+  "data": "2025-12-08",
+  "tipo": "otimizacao_despesas",
+  "valor_previsto": 100147.59,
+  "descricao": "plano de realocacao",
+  "estado": "proposto"
+ },
+ {
+  "id": "PI00105",
+  "id_projeto": "P11",
+  "data": "2024-08-04",
+  "tipo": "ampliacao",
+  "valor_previsto": 152694.92,
+  "descricao": "plano de investimento",
+  "estado": "aprovado"
+ },
+ {
+  "id": "PI00106",
+  "id_projeto": "P11",
+  "data": "2025-07-21",
+  "tipo": "realocacao",
+  "valor_previsto": 168179.92,
+  "descricao": "Revise o orcamento",
+  "estado": "aprovado"
+ },
+ {
+  "id": "PI00107",
+  "id_projeto": "P11",
+  "data": "2024-10-22",
+  "tipo": "otimizacao_despesas",
+  "valor_previsto": 60077.85,
+  "descricao": "plano de investimento",
+  "estado": "proposto"
+ },
+ {
+  "id": "PI00108",
+  "id_projeto": "P11",
+  "data": "2025-02-18",
+  "tipo": "ampliacao",
+  "valor_previsto": 82908.45,
+  "descricao": "Revise o orcamento",
+  "estado": "em_execucao"
+ },
+ {
+  "id": "PI00109",
+  "id_projeto": "P11",
+  "data": "2025-02-02",
+  "tipo": "realocacao",
+  "valor_previsto": 182664.24,
+  "descricao": "reforco de competencias",
+  "estado": "proposto"
+ },
+ {
+  "id": "PI00110",
+  "id_projeto": "P11",
+  "data": "2024-09-26",
+  "tipo": "otimizacao_despesas",
+  "valor_previsto": 191553.05,
+  "descricao": "reforco de competencias",
+  "estado": "proposto"
+ },
+ {
+  "id": "PI00111",
+  "id_projeto": "P12",
+  "data": "2024-06-15",
+  "tipo": "ampliacao",
+  "valor_previsto": 220474.14,
+  "descricao": "plano de realocacao",
+  "estado": "aprovado"
+ },
+ {
+  "id": "PI00112",
+  "id_projeto": "P12",
+  "data": "2025-12-16",
+  "tipo": "ampliacao",
+  "valor_previsto": 220239.1,
+  "descricao": "Revise o orcamento",
+  "estado": "concluido"
+ },
+ {
+  "id": "PI00113",
+  "id_projeto": "P12",
+  "data": "2025-05-16",
+  "tipo": "reforco_formacao",
+  "valor_previsto": 167595.3,
+  "descricao": "plano de investimento",
+  "estado": "concluido"
+ },
+ {
+  "id": "PI00114",
+  "id_projeto": "P12",
+  "data": "2025-05-05",
+  "tipo": "otimizacao_despesas",
+  "valor_previsto": 56226.26,
+  "descricao": "Revise o orcamento",
+  "estado": "concluido"
+ },
+ {
+  "id": "PI00115",
+  "id_projeto": "P12",
+  "data": "2024-07-25",
+  "tipo": "realocacao",
+  "valor_previsto": 8874.01,
+  "descricao": "plano de realocacao",
+  "estado": "aprovado"
+ },
+ {
+  "id": "PI00116",
+  "id_projeto": "P12",
+  "data": "2025-07-25",
+  "tipo": "reforco_formacao",
+  "valor_previsto": 156010.24,
+  "descricao": "plano de realocacao",
+  "estado": "em_execucao"
+ },
+ {
+  "id": "PI00117",
+  "id_projeto": "P12",
+  "data": "2024-10-25",
+  "tipo": "realocacao",
+  "valor_previsto": 130727.86,
+  "descricao": "Revise o orcamento",
+  "estado": "em_execucao"
+ },
+ {
+  "id": "PI00118",
+  "id_projeto": "P12",
+  "data": "2024-07-16",
+  "tipo": "realocacao",
+  "valor_previsto": 217109.01,
+  "descricao": "reforco de competencias",
+  "estado": "em_execucao"
+ },
+ {
+  "id": "PI00119",
+  "id_projeto": "P12",
+  "data": "2024-11-22",
+  "tipo": "reforco_formacao",
+  "valor_previsto": 147848.02,
+  "descricao": "reforco de competencias",
+  "estado": "aprovado"
+ },
+ {
+  "id": "PI00120",
+  "id_projeto": "P12",
+  "data": "2025-09-14",
+  "tipo": "otimizacao_despesas",
+  "valor_previsto": 33941.69,
+  "descricao": "Revise o orcamento",
+  "estado": "proposto"
+ }
+]

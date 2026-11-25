@@ -1,0 +1,13 @@
+﻿id;nome_ficticio;pais;regiao;especialidade;historico_colaboracao;capacidade_operacional
+PL01;Parceiro Local 01;Brasil;Sudeste;educacao;recente;36
+PL02;Parceiro Local 02;Quenia;Nairobi;formacao;longo;84
+PL03;Parceiro Local 03;India;Sul;saude;longo;75
+PL04;Parceiro Local 04;Portugal;Norte;tecnologia;recente;60
+PL05;Parceiro Local 05;Ghana;Centro;logistica;medio;60
+PL06;Parceiro Local 06;Peru;Lima;formacao;longo;90
+PL07;Parceiro Local 07;Senegal;Dakar;educacao;longo;36
+PL08;Parceiro Local 08;Bangladesh;Centro;comunicacao;longo;78
+PL09;Parceiro Local 09;Colombia;Andes;saude;recente;44
+PL10;Parceiro Local 10;Filipinas;Luzon;educacao;longo;36
+PL11;Parceiro Local 11;Uganda;Centro;logistica;recente;66
+PL12;Parceiro Local 12;Mocambique;Sul;tecnologia;recente;98

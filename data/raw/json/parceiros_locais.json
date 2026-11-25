@@ -1,0 +1,110 @@
+[
+ {
+  "id": "PL01",
+  "nome_ficticio": "Parceiro Local 01",
+  "pais": "Brasil",
+  "regiao": "Sudeste",
+  "especialidade": "educacao",
+  "historico_colaboracao": "recente",
+  "capacidade_operacional": 36
+ },
+ {
+  "id": "PL02",
+  "nome_ficticio": "Parceiro Local 02",
+  "pais": "Quenia",
+  "regiao": "Nairobi",
+  "especialidade": "formacao",
+  "historico_colaboracao": "longo",
+  "capacidade_operacional": 84
+ },
+ {
+  "id": "PL03",
+  "nome_ficticio": "Parceiro Local 03",
+  "pais": "India",
+  "regiao": "Sul",
+  "especialidade": "saude",
+  "historico_colaboracao": "longo",
+  "capacidade_operacional": 75
+ },
+ {
+  "id": "PL04",
+  "nome_ficticio": "Parceiro Local 04",
+  "pais": "Portugal",
+  "regiao": "Norte",
+  "especialidade": "tecnologia",
+  "historico_colaboracao": "recente",
+  "capacidade_operacional": 60
+ },
+ {
+  "id": "PL05",
+  "nome_ficticio": "Parceiro Local 05",
+  "pais": "Ghana",
+  "regiao": "Centro",
+  "especialidade": "logistica",
+  "historico_colaboracao": "medio",
+  "capacidade_operacional": 60
+ },
+ {
+  "id": "PL06",
+  "nome_ficticio": "Parceiro Local 06",
+  "pais": "Peru",
+  "regiao": "Lima",
+  "especialidade": "formacao",
+  "historico_colaboracao": "longo",
+  "capacidade_operacional": 90
+ },
+ {
+  "id": "PL07",
+  "nome_ficticio": "Parceiro Local 07",
+  "pais": "Senegal",
+  "regiao": "Dakar",
+  "especialidade": "educacao",
+  "historico_colaboracao": "longo",
+  "capacidade_operacional": 36
+ },
+ {
+  "id": "PL08",
+  "nome_ficticio": "Parceiro Local 08",
+  "pais": "Bangladesh",
+  "regiao": "Centro",
+  "especialidade": "comunicacao",
+  "historico_colaboracao": "longo",
+  "capacidade_operacional": 78
+ },
+ {
+  "id": "PL09",
+  "nome_ficticio": "Parceiro Local 09",
+  "pais": "Colombia",
+  "regiao": "Andes",
+  "especialidade": "saude",
+  "historico_colaboracao": "recente",
+  "capacidade_operacional": 44
+ },
+ {
+  "id": "PL10",
+  "nome_ficticio": "Parceiro Local 10",
+  "pais": "Filipinas",
+  "regiao": "Luzon",
+  "especialidade": "educacao",
+  "historico_colaboracao": "longo",
+  "capacidade_operacional": 36
+ },
+ {
+  "id": "PL11",
+  "nome_ficticio": "Parceiro Local 11",
+  "pais": "Uganda",
+  "regiao": "Centro",
+  "especialidade": "logistica",
+  "historico_colaboracao": "recente",
+  "capacidade_operacional": 66
+ },
+ {
+  "id": "PL12",
+  "nome_ficticio": "Parceiro Local 12",
+  "pais": "Mocambique",
+  "regiao": "Sul",
+  "especialidade": "tecnologia",
+  "historico_colaboracao": "recente",
+  "capacidade_operacional": 98
+ }
+]

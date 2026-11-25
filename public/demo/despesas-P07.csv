@@ -1,0 +1,1501 @@
+id;id_projeto;data;categoria;valor;descricao_curta
+D009001;P07;09/07/2024;pessoal;569,13;equipamento informatico
+D009002;P07;2024-02-18;equipamento;134,48;deslocacoes
+D009003;P07;2024-12-09;equipamento;578,90;
+D009004;P07;2024-12-03;logistica;265,89;material pedagogico
+D009005;P07;2024-06-10;logistica;467,41;transporte
+D009006;P07;09/01/2024;pessoal;489,84;deslocacoes
+D009007;P07;2024-10-21;avaliacao;199,50;equipamento informatico
+D009008;P07;2024-04-13;avaliacao;720,46;formacao de formadores
+D009009;P07;2024-08-09;pessoal;618,60;transporte
+D009010;P07;2024-06-22;formacao;760,74;transporte
+D009011;P07;2024-02-26;avaliacao;917,51;transporte
+D009012;P07;2024-10-25;avaliacao;-346,15;transporte
+D009013;P07;2024-06-02;avaliacao;613,69;formacao de formadores
+D009014;P07;2024-04-15;pessoal;871,63;suporte tecnico
+D009015;P07;11/05/2024;outros;468,39;equipamento informatico
+D009016;P07;2024-02-03;outros;660,75;material pedagogico
+D009017;P07;2024-07-13;logistica;666,11;equipamento informatico
+D009018;P07;2024-04-04;equipamento;377,07;equipamento informatico
+D009019;P07;11/01/2024;logistica;639,40;avaliacao externa
+D009020;P07;17/10/2024;formacao;362,10;material pedagogico
+D009021;P07;2024-10-20;pessoal;272,20;suporte tecnico
+D009022;P07;2024-10-08;pessoal;892,27;formacao de formadores
+D009023;P07;2024-08-21;formacao;953,66;formacao de formadores
+D009024;P07;2024-03-20;equipamento;896,96;formacao de formadores
+D009025;P07;2024-12-14;outros;-545,47;suporte tecnico
+D009026;P07;2024-01-06;outros;201,55;formacao de formadores
+D009027;P07;2024-02-22;equipamento;637,28;material pedagogico
+D009028;P07;2024-11-04;equipamento;1039,31;formacao de formadores
+D009029;P07;2024-06-03;equipamento;995,81;avaliacao externa
+D009030;P07;2024-04-19;pessoal;900,83;formacao de formadores
+D009031;P07;2024-07-03;logistica;793,52;
+D009032;P07;2024-01-20;formacao;613,08;Material pedagogico
+D009033;P07;2024-09-06;pessoal;549,43;suporte tecnico
+D009034;P07;2024-10-09;logistica;695,06;Material pedagogico
+D009035;P07;2024-04-22;formacao;582,37;
+D009036;P07;13/02/2024;formacao;524,51;material pedagogico
+D009037;P07;04/10/2024;comunicacao;701,62;formacao de formadores
+D009038;P07;2024-03-27;pessoal;1006,29;formacao de formadores
+D009039;P07;2024-08-09;logistica;339,07;avaliacao externa
+D009040;P07;12/10/2024;equipamento;259,76;suporte tecnico
+D009041;P07;2024-09-05;comunicacao;280,66;Material pedagogico
+D009042;P07;2024-07-17;equipamento;798,12;deslocacoes
+D009043;P07;2024-08-25;pessoal;961,32;avaliacao externa
+D009044;P07;2024-04-17;formacao;862,61;transporte
+D009045;P07;2024-05-26;formacao;516,12;avaliacao externa
+D009046;P07;12/10/2024;pessoal;670,16;material pedagogico
+D009047;P07;2024-11-13;comunicacao;174,56;transporte
+D009048;P07;15/06/2024;logistica;574,11;Material pedagogico
+D009049;P07;2024-02-02;avaliacao;842,42;Material pedagogico
+D009050;P07;10/12/2024;pessoal;886,79;equipamento informatico
+D009051;P07;2024-03-12;formacao;714,63;
+D009052;P07;2024-01-09;formacao;925,04;formacao de formadores
+D009053;P07;2024-04-06;equipamento;460,05;transporte
+D009054;P07;2024-10-26;pessoal;214,14;transporte
+D009055;P07;2024-02-18;equipamento;623,24;deslocacoes
+D009056;P07;2024-09-26;logistica;1078,47;
+D009057;P07;2024-11-10;logistica;980,87;
+D009058;P07;2024-12-08;comunicacao;967,22;transporte
+D009059;P07;2024-11-11;outros;708,98;transporte
+D009060;P07;2024-09-02;comunicacao;1041,53;avaliacao externa
+D009061;P07;2024-09-21;equipamento;664,53;equipamento informatico
+D009062;P07;2024-07-13;comunicacao;546,61;
+D009063;P07;2024-12-16;pessoal;759,38;formacao de formadores
+D009064;P07;2024-08-01;pessoal;659,38;Material pedagogico
+D009065;P07;2024-08-19;avaliacao;797,02;suporte tecnico
+D009066;P07;12/10/2024;outros;490,99;equipamento informatico
+D009067;P07;2024-08-24;comunicacao;1060,02;material pedagogico
+D009068;P07;2024-05-03;outros;1030,44;equipamento informatico
+D009069;P07;2024-12-02;outros;897,27;formacao de formadores
+D009070;P07;17/07/2024;equipamento;163,20;formacao de formadores
+D009071;P07;2024-12-15;avaliacao;381,82;transporte
+D009072;P07;2024-12-22;formacao;1023,67;material pedagogico
+D009073;P07;02/01/2024;logistica;905,24;
+D009074;P07;2024-03-23;avaliacao;371,92;transporte
+D009075;P07;2024-05-20;comunicacao;676,81;equipamento informatico
+D009076;P07;06/04/2024;formacao;155,95;
+D009077;P07;2024-01-27;equipamento;921,93;equipamento informatico
+D009078;P07;2024-01-10;outros;602,32;formacao de formadores
+D009079;P07;2024-02-03;avaliacao;598,73;suporte tecnico
+D009080;P07;14/11/2024;comunicacao;263,74;equipamento informatico
+D009081;P07;2024-04-02;equipamento;162,77;formacao de formadores
+D009082;P07;23/02/2024;equipamento;1032,03;deslocacoes
+D009083;P07;09/10/2024;formacao;828,45;Material pedagogico
+D009084;P07;2024-07-21;avaliacao;380,50;suporte tecnico
+D009085;P07;19/12/2024;logistica;153,74;
+D009086;P07;17/08/2024;comunicacao;737,70;formacao de formadores
+D009087;P07;2024-11-06;avaliacao;960,23;material pedagogico
+D009088;P07;2024-08-02;comunicacao;579,48;
+D009089;P07;22/11/2024;outros;766,48;avaliacao externa
+D009090;P07;04/02/2024;outros;1041,00;formacao de formadores
+D009091;P07;2024-12-22;equipamento;592,22;formacao de formadores
+D009092;P07;2024-12-12;equipamento;906,27;suporte tecnico
+D009093;P07;2024-10-13;equipamento;461,79;
+D009094;P07;17/05/2024;comunicacao;142,04;transporte
+D009095;P07;2024-08-20;comunicacao;944,92;avaliacao externa
+D009096;P07;2024-06-13;formacao;1036,98;material pedagogico
+D009097;P07;2024-05-21;logistica;185,52;formacao de formadores
+D009098;P07;18/12/2024;equipamento;750,50;avaliacao externa
+D009099;P07;2024-08-13;outros;806,35;material pedagogico
+D009100;P07;2024-11-17;comunicacao;957,62;avaliacao externa
+D009101;P07;2024-10-26;equipamento;-672,42;suporte tecnico
+D009102;P07;2024-02-17;avaliacao;915,07;suporte tecnico
+D009103;P07;2024-01-17;outros;831,27;avaliacao externa
+D009104;P07;16/04/2024;comunicacao;495,26;formacao de formadores
+D009105;P07;2024-06-02;logistica;257,94;material pedagogico
+D009106;P07;02/10/2024;equipamento;984,71;
+D009107;P07;2024-07-07;outros;1039,30;
+D009108;P07;17/04/2024;formacao;152,96;avaliacao externa
+D009109;P07;2024-04-12;equipamento;803,13;avaliacao externa
+D009110;P07;2024-06-26;comunicacao;223,79;Material pedagogico
+D009111;P07;2024-03-09;outros;806,76;deslocacoes
+D009112;P07;2024-02-17;logistica;334,65;avaliacao externa
+D009113;P07;2024-03-23;pessoal;1063,99;formacao de formadores
+D009114;P07;2024-04-01;logistica;840,34;Material pedagogico
+D009115;P07;03/07/2024;outros;801,04;suporte tecnico
+D009116;P07;2024-03-14;comunicacao;339,14;equipamento informatico
+D009117;P07;2024-07-25;pessoal;357,92;material pedagogico
+D009118;P07;13/01/2024;outros;660,96;avaliacao externa
+D009119;P07;2024-11-07;formacao;283,67;transporte
+D009120;P07;2024-07-21;comunicacao;-304,16;suporte tecnico
+D009121;P07;2024-07-15;logistica;1004,74;equipamento informatico
+D009122;P07;2024-10-14;formacao;564,65;formacao de formadores
+D009123;P07;2024-03-11;avaliacao;456,35;
+D009124;P07;25/01/2024;avaliacao;949,34;
+D009125;P07;2024-08-26;comunicacao;768,62;
+D009126;P07;2024-03-21;logistica;561,11;deslocacoes
+D009127;P07;2024-01-27;comunicacao;866,00;suporte tecnico
+D009128;P07;25/11/2024;comunicacao;333,01;formacao de formadores
+D009129;P07;2024-10-06;logistica;231,44;material pedagogico
+D009130;P07;2024-09-27;logistica;406,63;Material pedagogico
+D009131;P07;2024-11-14;logistica;432,21;material pedagogico
+D009132;P07;2024-07-23;outros;990,19;
+D009133;P07;2024-10-09;comunicacao;1055,71;material pedagogico
+D009134;P07;2024-08-09;pessoal;182,14;formacao de formadores
+D009135;P07;2024-08-23;comunicacao;981,79;deslocacoes
+D009136;P07;2024-04-01;pessoal;920,24;Material pedagogico
+D009137;P07;2024-05-14;pessoal;310,94;equipamento informatico
+D009138;P07;19/10/2024;outros;582,83;suporte tecnico
+D009139;P07;2024-11-08;formacao;593,28;deslocacoes
+D009140;P07;2024-04-13;pessoal;327,34;avaliacao externa
+D009141;P07;2024-09-13;logistica;495,18;deslocacoes
+D009142;P07;2024-12-07;outros;284,23;avaliacao externa
+D009143;P07;2024-06-21;logistica;665,38;
+D009144;P07;2024-07-06;avaliacao;454,48;avaliacao externa
+D009145;P07;2024-07-11;pessoal;571,50;avaliacao externa
+D009146;P07;2024-09-24;pessoal;603,47;suporte tecnico
+D009147;P07;2024-10-13;avaliacao;632,03;suporte tecnico
+D009148;P07;2024-03-05;logistica;306,02;material pedagogico
+D009149;P07;2024-11-24;avaliacao;142,67;Material pedagogico
+D009150;P07;2024-12-24;logistica;677,69;deslocacoes
+D009151;P07;24/10/2024;avaliacao;420,43;formacao de formadores
+D009152;P07;2024-03-01;formacao;191,94;transporte
+D009153;P07;2024-04-02;equipamento;489,03;formacao de formadores
+D009154;P07;2024-08-05;avaliacao;1074,59;equipamento informatico
+D009155;P07;27/08/2024;formacao;720,60;
+D009156;P07;2024-04-07;comunicacao;820,92;suporte tecnico
+D009157;P07;2024-03-01;formacao;936,18;material pedagogico
+D009158;P07;07/10/2024;formacao;776,67;avaliacao externa
+D009159;P07;2024-11-25;outros;550,90;material pedagogico
+D009160;P07;2024-04-18;avaliacao;959,35;avaliacao externa
+D009161;P07;2024-04-08;outros;421,75;
+D009162;P07;2024-05-12;logistica;373,28;equipamento informatico
+D009163;P07;2024-08-04;logistica;378,44;avaliacao externa
+D009164;P07;2024-12-22;formacao;463,73;material pedagogico
+D009165;P07;2024-10-17;equipamento;872,77;formacao de formadores
+D009166;P07;2024-05-23;equipamento;233,34;suporte tecnico
+D009167;P07;14/08/2024;logistica;630,19;Material pedagogico
+D009168;P07;18/05/2024;logistica;703,72;suporte tecnico
+D009169;P07;07/01/2024;comunicacao;1018,91;transporte
+D009170;P07;2024-06-26;formacao;497,09;deslocacoes
+D009171;P07;2024-03-10;pessoal;586,35;formacao de formadores
+D009172;P07;2024-01-26;pessoal;787,62;transporte
+D009173;P07;09/09/2024;formacao;288,36;material pedagogico
+D009174;P07;2024-08-04;outros;519,51;equipamento informatico
+D009175;P07;16/07/2024;comunicacao;160,57;avaliacao externa
+D009176;P07;2024-04-19;outros;131,99;deslocacoes
+D009177;P07;2024-12-08;logistica;535,74;transporte
+D009178;P07;2024-12-19;outros;909,84;
+D009179;P07;2024-04-19;outros;497,01;formacao de formadores
+D009180;P07;03/05/2024;comunicacao;658,59;Material pedagogico
+D009181;P07;2024-01-11;avaliacao;580,39;
+D009182;P07;12/10/2024;outros;540,86;equipamento informatico
+D009183;P07;2024-02-08;comunicacao;715,03;formacao de formadores
+D009184;P07;2024-07-23;comunicacao;1037,32;equipamento informatico
+D009185;P07;2024-02-08;outros;656,45;
+D009186;P07;2024-09-15;outros;940,94;suporte tecnico
+D009187;P07;2024-12-11;outros;450,27;material pedagogico
+D009188;P07;2024-05-16;avaliacao;396,50;
+D009189;P07;2024-10-13;equipamento;206,00;avaliacao externa
+D009190;P07;2024-04-02;comunicacao;687,86;avaliacao externa
+D009191;P07;2024-09-15;equipamento;834,00;material pedagogico
+D009192;P07;2024-10-19;avaliacao;730,78;Material pedagogico
+D009193;P07;2024-07-10;pessoal;942,52;Material pedagogico
+D009194;P07;26/01/2024;outros;331,70;transporte
+D009195;P07;23/10/2024;logistica;765,50;suporte tecnico
+D009196;P07;2024-07-09;comunicacao;603,82;
+D009197;P07;2024-11-24;comunicacao;432,11;avaliacao externa
+D009198;P07;2024-10-22;pessoal;595,76;equipamento informatico
+D009199;P07;2024-07-06;pessoal;819,44;formacao de formadores
+D009200;P07;03/12/2024;avaliacao;981,09;suporte tecnico
+D009201;P07;2024-08-15;outros;703,84;avaliacao externa
+D009202;P07;19/06/2024;equipamento;763,52;deslocacoes
+D009203;P07;2024-05-06;logistica;1022,60;avaliacao externa
+D009204;P07;2024-06-02;comunicacao;837,41;
+D009205;P07;25/03/2024;outros;341,41;deslocacoes
+D009206;P07;2024-07-16;pessoal;862,67;equipamento informatico
+D009207;P07;2024-08-17;logistica;252,86;avaliacao externa
+D009208;P07;2024-09-21;logistica;258,39;transporte
+D009209;P07;12/03/2024;pessoal;1038,56;equipamento informatico
+D009210;P07;2024-04-17;avaliacao;237,31;
+D009211;P07;06/11/2024;equipamento;921,63;formacao de formadores
+D009212;P07;2024-04-26;formacao;775,83;formacao de formadores
+D009213;P07;06/04/2024;equipamento;851,51;formacao de formadores
+D009214;P07;2024-04-21;logistica;666,13;suporte tecnico
+D009215;P07;2024-05-22;outros;854,45;
+D009216;P07;2024-01-27;avaliacao;1042,14;equipamento informatico
+D009217;P07;2024-09-13;equipamento;839,06;Material pedagogico
+D009218;P07;2024-11-22;comunicacao;435,80;Material pedagogico
+D009219;P07;2024-02-12;avaliacao;984,34;transporte
+D009220;P07;2024-01-07;equipamento;587,42;equipamento informatico
+D009221;P07;2024-09-23;formacao;282,25;deslocacoes
+D009222;P07;2024-09-15;avaliacao;994,90;
+D009223;P07;2024-04-25;pessoal;525,23;deslocacoes
+D009224;P07;2024-11-08;avaliacao;367,86;material pedagogico
+D009225;P07;2024-06-18;logistica;741,41;equipamento informatico
+D009226;P07;2024-09-04;outros;1081,14;Material pedagogico
+D009227;P07;2024-02-07;logistica;936,09;formacao de formadores
+D009228;P07;2024-07-16;formacao;369,97;avaliacao externa
+D009229;P07;2024-12-15;logistica;811,06;deslocacoes
+D009230;P07;2024-05-12;logistica;373,34;transporte
+D009231;P07;2024-09-08;avaliacao;619,62;
+D009232;P07;2024-01-21;equipamento;264,49;
+D009233;P07;2024-03-24;equipamento;406,01;
+D009234;P07;2024-01-04;logistica;1076,36;suporte tecnico
+D009235;P07;2024-06-21;formacao;564,98;material pedagogico
+D009236;P07;2024-11-01;comunicacao;838,98;suporte tecnico
+D009237;P07;2024-04-07;comunicacao;548,96;deslocacoes
+D009238;P07;2024-09-10;outros;131,94;deslocacoes
+D009239;P07;2024-03-13;formacao;755,21;deslocacoes
+D009240;P07;2024-06-14;outros;530,62;avaliacao externa
+D009241;P07;2024-09-14;comunicacao;-262,93;formacao de formadores
+D009242;P07;2024-05-16;avaliacao;317,17;formacao de formadores
+D009243;P07;2024-09-21;avaliacao;594,54;equipamento informatico
+D009244;P07;2024-10-25;formacao;987,64;suporte tecnico
+D009245;P07;2024-01-22;avaliacao;456,07;avaliacao externa
+D009246;P07;2024-06-02;equipamento;670,33;avaliacao externa
+D009247;P07;2024-11-10;outros;179,29;equipamento informatico
+D009248;P07;26/08/2024;logistica;820,21;deslocacoes
+D009249;P07;2024-10-20;outros;878,02;formacao de formadores
+D009250;P07;25/09/2024;outros;490,80;material pedagogico
+D009251;P07;2024-09-02;outros;550,00;equipamento informatico
+D009252;P07;01/04/2024;logistica;196,48;
+D009253;P07;2024-03-22;logistica;1009,56;
+D009254;P07;08/09/2024;comunicacao;656,53;deslocacoes
+D009255;P07;08/02/2024;formacao;263,68;material pedagogico
+D009256;P07;2024-03-25;formacao;840,95;transporte
+D009257;P07;2024-01-19;pessoal;-530,03;deslocacoes
+D009258;P07;2024-03-15;logistica;322,56;deslocacoes
+D009259;P07;21/11/2024;formacao;563,41;Material pedagogico
+D009260;P07;07/01/2024;formacao;553,74;deslocacoes
+D009261;P07;2024-10-10;formacao;486,24;equipamento informatico
+D009262;P07;2024-07-07;formacao;956,30;Material pedagogico
+D009263;P07;2024-06-27;pessoal;-523,26;avaliacao externa
+D009264;P07;05/03/2024;outros;974,31;deslocacoes
+D009265;P07;2024-06-25;outros;636,45;equipamento informatico
+D009266;P07;2024-04-07;avaliacao;903,37;equipamento informatico
+D009267;P07;2024-01-21;pessoal;356,46;material pedagogico
+D009268;P07;2024-02-19;outros;397,30;material pedagogico
+D009269;P07;2024-06-08;avaliacao;601,77;material pedagogico
+D009270;P07;2024-01-08;comunicacao;599,41;formacao de formadores
+D009271;P07;07/05/2024;avaliacao;171,79;material pedagogico
+D009272;P07;2024-04-10;outros;689,68;
+D009273;P07;2024-10-02;formacao;145,15;
+D009274;P07;2024-05-07;formacao;314,61;suporte tecnico
+D009275;P07;2024-08-08;equipamento;430,29;equipamento informatico
+D009276;P07;2024-08-24;avaliacao;930,49;formacao de formadores
+D009277;P07;2024-05-05;avaliacao;317,42;formacao de formadores
+D009278;P07;2024-10-02;formacao;503,49;equipamento informatico
+D009279;P07;2024-02-19;comunicacao;747,67;avaliacao externa
+D009280;P07;16/08/2024;avaliacao;273,18;
+D009281;P07;2024-04-26;formacao;200,92;equipamento informatico
+D009282;P07;2024-09-19;formacao;136,96;transporte
+D009283;P07;25/10/2024;equipamento;1049,77;transporte
+D009284;P07;16/11/2024;logistica;168,02;
+D009285;P07;2024-06-13;pessoal;753,57;material pedagogico
+D009286;P07;2024-05-25;outros;-72,11;material pedagogico
+D009287;P07;2024-10-14;formacao;919,87;deslocacoes
+D009288;P07;2024-07-21;pessoal;769,93;Material pedagogico
+D009289;P07;2024-05-27;pessoal;1066,16;material pedagogico
+D009290;P07;2024-04-27;avaliacao;1024,46;equipamento informatico
+D009291;P07;21/04/2024;outros;1052,23;formacao de formadores
+D009292;P07;2024-05-11;comunicacao;203,54;avaliacao externa
+D009293;P07;18/12/2024;outros;689,41;
+D009294;P07;2024-10-09;pessoal;-537,19;Material pedagogico
+D009295;P07;2024-06-08;comunicacao;248,39;suporte tecnico
+D009296;P07;2024-05-14;comunicacao;330,26;
+D009297;P07;2024-07-03;outros;520,14;avaliacao externa
+D009298;P07;2024-10-08;pessoal;941,58;Material pedagogico
+D009299;P07;2024-03-03;comunicacao;909,81;Material pedagogico
+D009300;P07;23/09/2024;avaliacao;910,01;avaliacao externa
+D009301;P07;2024-08-11;comunicacao;393,02;equipamento informatico
+D009302;P07;2024-02-16;avaliacao;861,58;deslocacoes
+D009303;P07;2024-02-07;outros;220,65;formacao de formadores
+D009304;P07;2024-08-20;logistica;1036,19;
+D009305;P07;07/08/2024;pessoal;604,24;formacao de formadores
+D009306;P07;2024-04-27;avaliacao;815,09;formacao de formadores
+D009307;P07;2024-02-14;logistica;1060,34;deslocacoes
+D009308;P07;2024-03-25;logistica;526,54;Material pedagogico
+D009309;P07;2024-05-21;comunicacao;420,20;
+D009310;P07;2024-10-20;comunicacao;431,56;deslocacoes
+D009311;P07;2024-04-17;avaliacao;218,75;material pedagogico
+D009312;P07;2024-02-12;formacao;776,56;deslocacoes
+D009313;P07;2024-07-07;avaliacao;1081,70;
+D009314;P07;23/12/2024;logistica;964,17;
+D009315;P07;2024-09-20;comunicacao;1053,83;transporte
+D009316;P07;2024-06-17;avaliacao;331,66;material pedagogico
+D009317;P07;2024-02-24;avaliacao;196,60;avaliacao externa
+D009318;P07;2024-11-25;avaliacao;393,87;transporte
+D009319;P07;2024-09-16;formacao;712,25;
+D009320;P07;2024-01-11;formacao;-413,42;avaliacao externa
+D009321;P07;04/11/2024;pessoal;-542,89;suporte tecnico
+D009322;P07;2024-04-20;avaliacao;174,77;Material pedagogico
+D009323;P07;2024-04-25;formacao;710,07;transporte
+D009324;P07;2024-09-12;avaliacao;383,44;equipamento informatico
+D009325;P07;2024-03-23;avaliacao;381,08;equipamento informatico
+D009326;P07;24/09/2024;pessoal;878,83;transporte
+D009327;P07;2024-01-17;comunicacao;984,46;transporte
+D009328;P07;2024-01-24;logistica;701,37;
+D009329;P07;2024-03-14;formacao;148,23;material pedagogico
+D009330;P07;24/06/2024;formacao;443,19;formacao de formadores
+D009331;P07;15/03/2024;outros;1028,18;deslocacoes
+D009332;P07;16/05/2024;avaliacao;723,64;equipamento informatico
+D009333;P07;2024-08-12;comunicacao;927,12;suporte tecnico
+D009334;P07;2024-06-08;logistica;586,60;transporte
+D009335;P07;2024-04-02;equipamento;556,99;Material pedagogico
+D009336;P07;25/08/2024;formacao;659,41;material pedagogico
+D009337;P07;2024-08-18;formacao;935,96;Material pedagogico
+D009338;P07;2024-02-26;equipamento;1035,11;Material pedagogico
+D009339;P07;2024-04-13;comunicacao;640,70;
+D009340;P07;2024-04-04;logistica;1044,78;material pedagogico
+D009341;P07;2024-12-24;formacao;878,84;deslocacoes
+D009342;P07;2024-03-16;formacao;871,70;deslocacoes
+D009343;P07;2024-12-17;outros;1032,59;equipamento informatico
+D009344;P07;2024-04-18;equipamento;264,37;suporte tecnico
+D009345;P07;11/07/2024;comunicacao;176,89;Material pedagogico
+D009346;P07;2024-08-23;formacao;244,37;deslocacoes
+D009347;P07;2024-12-12;avaliacao;671,27;suporte tecnico
+D009348;P07;2024-09-01;formacao;950,77;transporte
+D009349;P07;2024-07-07;formacao;179,81;deslocacoes
+D009350;P07;2024-04-14;formacao;616,57;formacao de formadores
+D009351;P07;2024-06-09;outros;728,65;transporte
+D009352;P07;2024-10-11;pessoal;712,25;equipamento informatico
+D009353;P07;2024-10-12;formacao;408,05;formacao de formadores
+D009354;P07;08/02/2024;formacao;361,11;Material pedagogico
+D009355;P07;20/05/2024;pessoal;151,86;transporte
+D009356;P07;2024-12-16;avaliacao;282,50;equipamento informatico
+D009357;P07;2024-01-17;outros;142,61;suporte tecnico
+D009358;P07;2024-07-22;logistica;-237,11;equipamento informatico
+D009359;P07;2024-12-13;outros;763,47;avaliacao externa
+D009360;P07;2024-11-22;pessoal;713,80;suporte tecnico
+D009361;P07;2024-11-15;avaliacao;816,18;
+D009362;P07;2024-10-04;logistica;209,10;formacao de formadores
+D009363;P07;2024-08-21;outros;671,18;deslocacoes
+D009364;P07;2024-08-27;logistica;324,86;formacao de formadores
+D009365;P07;2024-06-18;pessoal;746,83;equipamento informatico
+D009366;P07;2024-02-04;pessoal;901,81;equipamento informatico
+D009367;P07;2024-12-20;formacao;739,45;Material pedagogico
+D009368;P07;2024-02-19;comunicacao;507,77;equipamento informatico
+D009369;P07;27/06/2024;pessoal;-160,57;transporte
+D009370;P07;2024-12-26;formacao;663,90;suporte tecnico
+D009371;P07;2024-04-01;formacao;982,59;equipamento informatico
+D009372;P07;2024-06-15;formacao;757,28;
+D009373;P07;24/12/2024;outros;224,02;avaliacao externa
+D009374;P07;2024-11-04;comunicacao;879,91;Material pedagogico
+D009375;P07;2024-01-17;formacao;-148,55;equipamento informatico
+D009376;P07;2024-11-13;comunicacao;486,82;suporte tecnico
+D009377;P07;2024-05-18;outros;-338,16;suporte tecnico
+D009378;P07;2024-05-13;formacao;726,26;transporte
+D009379;P07;26/12/2024;avaliacao;928,89;Material pedagogico
+D009380;P07;2024-11-12;logistica;394,15;suporte tecnico
+D009381;P07;18/09/2024;comunicacao;736,52;avaliacao externa
+D009382;P07;2024-03-17;formacao;682,76;material pedagogico
+D009383;P07;01/09/2024;outros;712,91;suporte tecnico
+D009384;P07;2024-07-01;formacao;148,33;Material pedagogico
+D009385;P07;2024-08-09;equipamento;619,22;suporte tecnico
+D009386;P07;2024-08-04;logistica;1024,40;avaliacao externa
+D009387;P07;13/11/2024;formacao;365,76;suporte tecnico
+D009388;P07;2024-09-17;outros;880,47;Material pedagogico
+D009389;P07;2024-10-18;logistica;819,10;deslocacoes
+D009390;P07;2024-12-01;formacao;1072,03;transporte
+D009391;P07;2024-01-16;equipamento;433,83;suporte tecnico
+D009392;P07;2024-12-05;equipamento;944,28;Material pedagogico
+D009393;P07;17/07/2024;comunicacao;394,00;equipamento informatico
+D009394;P07;2024-11-27;formacao;568,05;suporte tecnico
+D009395;P07;2024-01-18;outros;590,79;Material pedagogico
+D009396;P07;2024-03-03;comunicacao;801,01;material pedagogico
+D009397;P07;2024-08-02;avaliacao;366,83;material pedagogico
+D009398;P07;2024-04-03;equipamento;451,81;suporte tecnico
+D009399;P07;2024-01-06;pessoal;1062,19;formacao de formadores
+D009400;P07;2024-07-21;outros;-418,06;
+D009401;P07;2024-09-07;equipamento;655,79;formacao de formadores
+D009402;P07;12/02/2024;equipamento;183,19;transporte
+D009403;P07;2024-09-22;formacao;1083,33;transporte
+D009404;P07;2024-11-15;pessoal;861,52;avaliacao externa
+D009405;P07;2024-03-15;comunicacao;1063,62;deslocacoes
+D009406;P07;24/06/2024;avaliacao;451,41;equipamento informatico
+D009407;P07;2024-01-03;outros;251,11;material pedagogico
+D009408;P07;2024-08-26;outros;842,81;Material pedagogico
+D009409;P07;2024-09-07;equipamento;834,43;Material pedagogico
+D009410;P07;2024-11-08;comunicacao;961,63;avaliacao externa
+D009411;P07;2024-01-12;equipamento;137,13;deslocacoes
+D009412;P07;2024-10-15;equipamento;691,07;formacao de formadores
+D009413;P07;2024-10-13;pessoal;266,32;Material pedagogico
+D009414;P07;2024-02-02;formacao;587,72;
+D009415;P07;2024-05-17;pessoal;1084,77;equipamento informatico
+D009416;P07;08/09/2024;equipamento;842,21;Material pedagogico
+D009417;P07;27/01/2024;formacao;382,73;avaliacao externa
+D009418;P07;2024-09-12;formacao;727,17;equipamento informatico
+D009419;P07;2024-12-18;outros;590,10;material pedagogico
+D009420;P07;2024-07-03;pessoal;563,22;avaliacao externa
+D009421;P07;2024-01-19;equipamento;192,67;material pedagogico
+D009422;P07;2024-12-01;equipamento;746,32;material pedagogico
+D009423;P07;2024-10-10;outros;715,39;formacao de formadores
+D009424;P07;05/07/2024;formacao;216,77;material pedagogico
+D009425;P07;2024-06-27;logistica;253,52;deslocacoes
+D009426;P07;2024-09-22;comunicacao;570,30;Material pedagogico
+D009427;P07;2024-07-25;avaliacao;644,44;Material pedagogico
+D009428;P07;03/05/2024;pessoal;312,97;
+D009429;P07;2024-03-19;formacao;-674,37;suporte tecnico
+D009430;P07;2024-03-02;formacao;807,25;avaliacao externa
+D009431;P07;04/01/2024;formacao;345,47;deslocacoes
+D009432;P07;2024-06-18;logistica;898,33;
+D009433;P07;2024-08-18;equipamento;689,70;formacao de formadores
+D009434;P07;2024-07-15;formacao;433,15;formacao de formadores
+D009435;P07;2024-05-01;pessoal;921,57;suporte tecnico
+D009436;P07;2024-05-16;avaliacao;619,48;transporte
+D009437;P07;2024-11-25;comunicacao;547,92;Material pedagogico
+D009438;P07;2024-06-18;equipamento;145,45;
+D009439;P07;2024-05-05;comunicacao;-527,27;formacao de formadores
+D009440;P07;2024-01-05;formacao;394,08;transporte
+D009441;P07;2024-03-21;pessoal;407,67;
+D009442;P07;24/02/2024;formacao;928,32;Material pedagogico
+D009443;P07;2024-10-11;comunicacao;212,67;Material pedagogico
+D009444;P07;2024-04-09;pessoal;1042,02;
+D009445;P07;2024-04-19;pessoal;446,64;
+D009446;P07;2024-04-16;avaliacao;-150,23;
+D009447;P07;2024-06-01;avaliacao;798,06;Material pedagogico
+D009448;P07;2024-10-16;pessoal;475,02;material pedagogico
+D009449;P07;01/10/2024;outros;388,99;suporte tecnico
+D009450;P07;2024-11-24;avaliacao;282,47;transporte
+D009451;P07;10/10/2024;equipamento;447,32;formacao de formadores
+D009452;P07;13/07/2024;equipamento;1059,19;Material pedagogico
+D009453;P07;2024-08-25;logistica;255,50;suporte tecnico
+D009454;P07;16/12/2024;equipamento;1024,44;
+D009455;P07;12/02/2024;outros;678,84;suporte tecnico
+D009456;P07;2024-01-07;equipamento;774,77;transporte
+D009457;P07;2024-03-10;avaliacao;890,29;Material pedagogico
+D009458;P07;2024-11-16;avaliacao;172,47;deslocacoes
+D009459;P07;21/12/2024;formacao;1060,98;
+D009460;P07;2024-10-27;equipamento;855,92;
+D009461;P07;17/04/2024;outros;896,35;
+D009462;P07;2024-07-02;equipamento;536,86;material pedagogico
+D009463;P07;2024-11-15;comunicacao;700,66;equipamento informatico
+D009464;P07;2024-04-18;avaliacao;666,48;formacao de formadores
+D009465;P07;2024-11-14;logistica;223,96;Material pedagogico
+D009466;P07;24/05/2024;avaliacao;315,21;material pedagogico
+D009467;P07;2024-02-01;pessoal;864,51;avaliacao externa
+D009468;P07;2024-09-17;comunicacao;602,34;equipamento informatico
+D009469;P07;2024-04-06;equipamento;-189,10;avaliacao externa
+D009470;P07;2024-08-05;logistica;949,25;transporte
+D009471;P07;2024-10-22;outros;293,13;transporte
+D009472;P07;26/02/2024;comunicacao;1012,23;deslocacoes
+D009473;P07;2024-02-11;pessoal;851,25;equipamento informatico
+D009474;P07;2024-12-15;equipamento;909,28;transporte
+D009475;P07;2024-05-19;pessoal;613,03;material pedagogico
+D009476;P07;2024-02-17;avaliacao;609,92;deslocacoes
+D009477;P07;10/01/2024;outros;244,84;formacao de formadores
+D009478;P07;2024-10-10;comunicacao;1022,34;avaliacao externa
+D009479;P07;2024-03-01;comunicacao;502,32;deslocacoes
+D009480;P07;2024-05-04;avaliacao;675,20;transporte
+D009481;P07;2024-02-23;formacao;199,59;equipamento informatico
+D009482;P07;19/12/2024;comunicacao;319,76;deslocacoes
+D009483;P07;2024-10-10;pessoal;-818,72;transporte
+D009484;P07;20/05/2024;comunicacao;547,10;avaliacao externa
+D009485;P07;17/03/2024;pessoal;497,22;formacao de formadores
+D009486;P07;2024-03-17;formacao;381,37;transporte
+D009487;P07;20/08/2024;avaliacao;1046,77;material pedagogico
+D009488;P07;2024-12-26;formacao;775,41;suporte tecnico
+D009489;P07;2024-05-08;outros;601,89;material pedagogico
+D009490;P07;2024-09-03;avaliacao;1042,41;transporte
+D009491;P07;2024-04-24;avaliacao;679,70;suporte tecnico
+D009492;P07;2024-09-09;logistica;1019,07;material pedagogico
+D009493;P07;2024-12-08;outros;282,69;
+D009494;P07;2024-10-22;pessoal;522,43;formacao de formadores
+D009495;P07;2024-01-26;comunicacao;652,77;material pedagogico
+D009496;P07;2024-02-23;equipamento;300,96;transporte
+D009497;P07;2024-11-16;formacao;736,62;material pedagogico
+D009498;P07;2024-04-06;logistica;834,32;avaliacao externa
+D009499;P07;2024-01-20;outros;358,65;formacao de formadores
+D009500;P07;2024-08-04;logistica;505,58;formacao de formadores
+D009501;P07;01/11/2024;logistica;1016,74;
+D009502;P07;25/11/2024;avaliacao;692,95;avaliacao externa
+D009503;P07;2024-04-12;pessoal;794,93;material pedagogico
+D009504;P07;2024-03-06;formacao;890,21;Material pedagogico
+D009505;P07;2024-12-04;avaliacao;340,70;suporte tecnico
+D009506;P07;10/05/2024;avaliacao;-376,75;suporte tecnico
+D009507;P07;2024-02-19;formacao;976,75;
+D009508;P07;2024-09-13;logistica;1040,60;formacao de formadores
+D009509;P07;2024-03-07;equipamento;224,71;material pedagogico
+D009510;P07;2024-06-15;pessoal;329,56;
+D009511;P07;2024-12-13;formacao;136,16;avaliacao externa
+D009512;P07;2024-10-14;logistica;508,69;transporte
+D009513;P07;24/07/2024;equipamento;417,74;suporte tecnico
+D009514;P07;2024-03-18;comunicacao;691,49;deslocacoes
+D009515;P07;16/04/2024;comunicacao;363,55;suporte tecnico
+D009516;P07;2024-12-27;comunicacao;798,99;deslocacoes
+D009517;P07;2024-07-03;avaliacao;1047,04;
+D009518;P07;2024-09-25;formacao;226,89;
+D009519;P07;2024-07-24;avaliacao;335,28;equipamento informatico
+D009520;P07;2024-07-19;pessoal;315,85;equipamento informatico
+D009521;P07;2024-02-25;logistica;1065,36;material pedagogico
+D009522;P07;2024-04-10;logistica;685,22;transporte
+D009523;P07;2024-07-11;equipamento;428,33;material pedagogico
+D009524;P07;2024-04-10;pessoal;493,89;Material pedagogico
+D009525;P07;2024-12-09;outros;906,94;equipamento informatico
+D009526;P07;23/10/2024;comunicacao;849,03;
+D009527;P07;2024-07-13;pessoal;530,15;formacao de formadores
+D009528;P07;2024-03-21;logistica;402,31;formacao de formadores
+D009529;P07;2024-12-03;avaliacao;1044,86;deslocacoes
+D009530;P07;26/07/2024;pessoal;929,12;material pedagogico
+D009531;P07;2024-03-05;equipamento;136,44;suporte tecnico
+D009532;P07;2024-05-11;pessoal;616,76;equipamento informatico
+D009533;P07;2024-12-17;formacao;171,05;Material pedagogico
+D009534;P07;07/08/2024;outros;653,55;formacao de formadores
+D009535;P07;2024-02-11;outros;1031,19;suporte tecnico
+D009536;P07;19/01/2024;comunicacao;149,32;avaliacao externa
+D009537;P07;2024-10-09;avaliacao;422,66;equipamento informatico
+D009538;P07;2024-08-14;comunicacao;610,28;transporte
+D009539;P07;07/06/2024;avaliacao;374,77;formacao de formadores
+D009540;P07;2024-09-10;formacao;245,87;Material pedagogico
+D009541;P07;2024-07-14;comunicacao;389,04;Material pedagogico
+D009542;P07;05/06/2024;formacao;499,89;deslocacoes
+D009543;P07;2024-04-23;outros;427,64;material pedagogico
+D009544;P07;2024-02-02;formacao;1079,71;equipamento informatico
+D009545;P07;2024-01-11;formacao;1048,83;deslocacoes
+D009546;P07;2024-04-12;equipamento;735,21;suporte tecnico
+D009547;P07;2024-10-21;equipamento;182,35;avaliacao externa
+D009548;P07;2024-05-01;pessoal;205,21;
+D009549;P07;2024-01-10;logistica;798,46;equipamento informatico
+D009550;P07;2024-02-04;avaliacao;768,59;material pedagogico
+D009551;P07;20/08/2024;outros;302,04;avaliacao externa
+D009552;P07;2024-04-21;avaliacao;974,77;equipamento informatico
+D009553;P07;2024-11-04;equipamento;817,71;
+D009554;P07;2024-06-03;logistica;323,36;material pedagogico
+D009555;P07;2024-08-10;outros;994,80;suporte tecnico
+D009556;P07;2024-04-08;formacao;833,84;suporte tecnico
+D009557;P07;2024-01-25;outros;997,46;suporte tecnico
+D009558;P07;2024-09-23;logistica;981,32;suporte tecnico
+D009559;P07;2024-04-20;avaliacao;133,53;
+D009560;P07;2024-04-11;outros;644,42;avaliacao externa
+D009561;P07;2024-11-08;logistica;227,12;transporte
+D009562;P07;2024-01-18;comunicacao;455,34;transporte
+D009563;P07;2024-02-17;formacao;415,12;suporte tecnico
+D009564;P07;2024-10-01;avaliacao;619,93;transporte
+D009565;P07;2024-01-26;outros;938,83;transporte
+D009566;P07;2024-08-14;comunicacao;269,03;transporte
+D009567;P07;2024-07-27;avaliacao;576,13;suporte tecnico
+D009568;P07;06/12/2024;pessoal;945,83;Material pedagogico
+D009569;P07;2024-07-16;comunicacao;576,79;equipamento informatico
+D009570;P07;2024-11-21;equipamento;387,18;equipamento informatico
+D009571;P07;2024-11-25;formacao;666,24;equipamento informatico
+D009572;P07;2024-07-19;pessoal;145,93;
+D009573;P07;2024-05-18;comunicacao;564,06;suporte tecnico
+D009574;P07;2024-01-18;formacao;631,96;
+D009575;P07;2024-08-07;comunicacao;341,10;formacao de formadores
+D009576;P07;2024-01-16;avaliacao;370,26;
+D009577;P07;2024-12-27;logistica;229,22;
+D009578;P07;2024-06-06;avaliacao;983,66;deslocacoes
+D009579;P07;2024-05-15;comunicacao;177,12;material pedagogico
+D009580;P07;2024-11-10;comunicacao;982,10;
+D009581;P07;2024-12-20;formacao;1047,23;avaliacao externa
+D009582;P07;2024-01-24;outros;679,51;suporte tecnico
+D009583;P07;2024-01-09;equipamento;982,17;deslocacoes
+D009584;P07;2024-06-23;formacao;627,60;formacao de formadores
+D009585;P07;2024-01-12;comunicacao;-141,62;avaliacao externa
+D009586;P07;2024-07-23;outros;367,11;deslocacoes
+D009587;P07;2024-04-23;formacao;1057,91;transporte
+D009588;P07;2024-08-01;pessoal;907,23;equipamento informatico
+D009589;P07;2024-04-10;formacao;1069,25;equipamento informatico
+D009590;P07;2024-11-12;pessoal;539,09;deslocacoes
+D009591;P07;2024-12-15;formacao;-107,82;avaliacao externa
+D009592;P07;13/09/2024;avaliacao;384,42;avaliacao externa
+D009593;P07;2024-12-19;comunicacao;919,39;transporte
+D009594;P07;2024-07-05;comunicacao;323,15;deslocacoes
+D009595;P07;2024-04-08;formacao;710,91;suporte tecnico
+D009596;P07;2024-06-05;avaliacao;989,54;deslocacoes
+D009597;P07;2024-03-17;formacao;908,41;Material pedagogico
+D009598;P07;15/10/2024;avaliacao;534,09;Material pedagogico
+D009599;P07;2024-10-13;avaliacao;502,61;formacao de formadores
+D009600;P07;2024-09-16;comunicacao;698,10;
+D009601;P07;2024-06-18;avaliacao;548,19;transporte
+D009602;P07;2024-03-22;logistica;392,60;deslocacoes
+D009603;P07;2024-08-02;formacao;238,32;Material pedagogico
+D009604;P07;2024-01-17;outros;427,85;Material pedagogico
+D009605;P07;10/06/2024;outros;264,71;deslocacoes
+D009606;P07;2024-07-07;logistica;190,06;formacao de formadores
+D009607;P07;2024-07-13;formacao;985,90;equipamento informatico
+D009608;P07;2024-09-04;formacao;760,51;
+D009609;P07;2024-02-19;formacao;1051,51;avaliacao externa
+D009610;P07;2024-05-25;pessoal;843,59;avaliacao externa
+D009611;P07;2024-01-08;outros;827,90;
+D009612;P07;2024-05-22;formacao;586,35;Material pedagogico
+D009613;P07;2024-02-01;comunicacao;721,80;
+D009614;P07;2024-05-18;logistica;221,83;suporte tecnico
+D009615;P07;16/03/2024;comunicacao;764,67;
+D009616;P07;2024-09-09;equipamento;744,03;material pedagogico
+D009617;P07;2024-07-03;outros;597,50;material pedagogico
+D009618;P07;2024-04-17;comunicacao;757,23;equipamento informatico
+D009619;P07;11/07/2024;formacao;900,81;suporte tecnico
+D009620;P07;2024-06-21;outros;527,71;transporte
+D009621;P07;2024-05-09;pessoal;442,40;Material pedagogico
+D009622;P07;2024-04-04;logistica;410,77;equipamento informatico
+D009623;P07;2024-08-12;outros;966,41;material pedagogico
+D009624;P07;2024-11-06;pessoal;1053,82;avaliacao externa
+D009625;P07;2024-07-13;comunicacao;899,32;deslocacoes
+D009626;P07;2024-11-03;avaliacao;791,88;transporte
+D009627;P07;2024-03-03;equipamento;933,59;formacao de formadores
+D009628;P07;2024-04-07;equipamento;861,41;transporte
+D009629;P07;2024-05-27;comunicacao;416,96;formacao de formadores
+D009630;P07;2024-12-03;outros;382,38;suporte tecnico
+D009631;P07;2024-05-11;outros;962,63;equipamento informatico
+D009632;P07;2024-02-17;formacao;949,78;transporte
+D009633;P07;2024-04-04;logistica;403,09;
+D009634;P07;2024-07-07;logistica;390,68;suporte tecnico
+D009635;P07;2024-08-08;pessoal;1051,71;suporte tecnico
+D009636;P07;11/04/2024;outros;679,99;formacao de formadores
+D009637;P07;2024-10-20;logistica;852,44;material pedagogico
+D009638;P07;2024-04-06;pessoal;169,25;suporte tecnico
+D009639;P07;12/10/2024;pessoal;-331,97;formacao de formadores
+D009640;P07;2024-07-04;pessoal;515,15;equipamento informatico
+D009641;P07;2024-02-09;equipamento;383,34;formacao de formadores
+D009642;P07;2024-06-07;comunicacao;435,21;material pedagogico
+D009643;P07;2024-04-22;pessoal;944,99;avaliacao externa
+D009644;P07;2024-02-10;outros;148,78;equipamento informatico
+D009645;P07;21/07/2024;logistica;796,81;equipamento informatico
+D009646;P07;2024-07-20;formacao;617,44;suporte tecnico
+D009647;P07;2024-07-22;logistica;489,28;
+D009648;P07;2024-11-11;avaliacao;984,60;deslocacoes
+D009649;P07;2024-11-04;pessoal;855,74;avaliacao externa
+D009650;P07;2024-06-21;formacao;708,09;formacao de formadores
+D009651;P07;2024-05-07;formacao;-312,80;
+D009652;P07;2024-10-03;pessoal;1003,65;avaliacao externa
+D009653;P07;2024-11-07;equipamento;1026,82;transporte
+D009654;P07;2024-04-11;logistica;830,98;material pedagogico
+D009655;P07;2024-01-25;comunicacao;535,70;
+D009656;P07;2024-06-07;logistica;1069,41;formacao de formadores
+D009657;P07;2024-05-24;avaliacao;172,95;
+D009658;P07;2024-01-09;avaliacao;941,65;transporte
+D009659;P07;2024-10-20;logistica;413,70;transporte
+D009660;P07;2024-02-25;pessoal;595,90;avaliacao externa
+D009661;P07;2024-08-14;avaliacao;212,23;equipamento informatico
+D009662;P07;2024-09-08;logistica;575,83;formacao de formadores
+D009663;P07;2024-08-01;comunicacao;349,45;Material pedagogico
+D009664;P07;2024-10-22;pessoal;431,88;transporte
+D009665;P07;12/03/2024;avaliacao;671,04;suporte tecnico
+D009666;P07;2024-03-11;outros;1058,85;avaliacao externa
+D009667;P07;2024-01-02;logistica;345,45;deslocacoes
+D009668;P07;2024-11-21;avaliacao;457,74;transporte
+D009669;P07;23/01/2024;outros;359,30;suporte tecnico
+D009670;P07;2024-09-10;formacao;612,66;material pedagogico
+D009671;P07;2024-02-20;equipamento;385,85;Material pedagogico
+D009672;P07;2024-06-07;formacao;313,86;avaliacao externa
+D009673;P07;2024-06-09;avaliacao;753,13;equipamento informatico
+D009674;P07;2024-06-02;comunicacao;-212,79;equipamento informatico
+D009675;P07;2024-03-08;outros;668,23;material pedagogico
+D009676;P07;2024-04-25;avaliacao;181,93;deslocacoes
+D009677;P07;2024-05-21;logistica;816,23;avaliacao externa
+D009678;P07;2024-11-06;outros;130,72;avaliacao externa
+D009679;P07;2024-07-12;comunicacao;778,89;transporte
+D009680;P07;2024-03-20;pessoal;268,67;transporte
+D009681;P07;2024-03-18;logistica;801,59;transporte
+D009682;P07;12/08/2024;logistica;207,79;formacao de formadores
+D009683;P07;2024-12-15;equipamento;435,02;avaliacao externa
+D009684;P07;2024-12-03;logistica;808,88;deslocacoes
+D009685;P07;2024-08-26;avaliacao;721,72;suporte tecnico
+D009686;P07;06/01/2024;formacao;407,02;formacao de formadores
+D009687;P07;2024-07-27;avaliacao;567,23;
+D009688;P07;2024-02-05;pessoal;448,59;deslocacoes
+D009689;P07;2024-02-27;comunicacao;141,82;material pedagogico
+D009690;P07;2024-06-25;outros;666,65;deslocacoes
+D009691;P07;2024-04-05;outros;1075,70;avaliacao externa
+D009692;P07;2024-07-21;pessoal;620,66;Material pedagogico
+D009693;P07;2024-06-15;comunicacao;485,84;suporte tecnico
+D009694;P07;2024-08-10;pessoal;602,97;deslocacoes
+D009695;P07;17/01/2024;logistica;813,47;avaliacao externa
+D009696;P07;2024-02-12;formacao;224,69;Material pedagogico
+D009697;P07;2024-01-03;equipamento;557,27;formacao de formadores
+D009698;P07;20/11/2024;formacao;295,92;Material pedagogico
+D009699;P07;2024-08-14;outros;748,65;formacao de formadores
+D009700;P07;2024-11-01;comunicacao;1039,60;transporte
+D009701;P07;21/04/2024;formacao;352,73;equipamento informatico
+D009702;P07;2024-09-10;avaliacao;503,48;Material pedagogico
+D009703;P07;2024-06-22;logistica;389,13;formacao de formadores
+D009704;P07;16/07/2024;comunicacao;-293,86;suporte tecnico
+D009705;P07;2024-03-14;equipamento;568,88;suporte tecnico
+D009706;P07;16/05/2024;outros;874,09;equipamento informatico
+D009707;P07;2024-03-06;comunicacao;666,97;avaliacao externa
+D009708;P07;07/08/2024;avaliacao;608,93;deslocacoes
+D009709;P07;2024-12-02;formacao;159,23;deslocacoes
+D009710;P07;2024-10-13;logistica;170,60;
+D009711;P07;2024-07-17;formacao;952,54;
+D009712;P07;2024-10-27;outros;922,01;avaliacao externa
+D009713;P07;25/04/2024;comunicacao;263,13;material pedagogico
+D009714;P07;2024-03-20;logistica;970,57;material pedagogico
+D009715;P07;2024-12-02;formacao;1065,52;avaliacao externa
+D009716;P07;23/10/2024;formacao;813,68;formacao de formadores
+D009717;P07;2024-06-06;avaliacao;573,57;equipamento informatico
+D009718;P07;10/08/2024;avaliacao;341,64;formacao de formadores
+D009719;P07;2024-09-01;equipamento;978,72;
+D009720;P07;23/11/2024;comunicacao;468,73;deslocacoes
+D009721;P07;2024-02-21;avaliacao;359,92;deslocacoes
+D009722;P07;09/06/2024;pessoal;680,39;avaliacao externa
+D009723;P07;2024-12-01;outros;995,71;
+D009724;P07;2024-10-26;outros;961,81;transporte
+D009725;P07;2024-03-18;equipamento;903,58;material pedagogico
+D009726;P07;2024-12-21;outros;425,75;formacao de formadores
+D009727;P07;2024-01-24;outros;860,26;material pedagogico
+D009728;P07;2024-08-04;logistica;988,13;
+D009729;P07;2024-01-23;avaliacao;930,70;equipamento informatico
+D009730;P07;2024-09-08;formacao;714,64;Material pedagogico
+D009731;P07;04/02/2024;formacao;670,88;equipamento informatico
+D009732;P07;2024-07-25;formacao;936,24;deslocacoes
+D009733;P07;2024-03-24;logistica;630,31;Material pedagogico
+D009734;P07;2024-06-22;pessoal;365,13;material pedagogico
+D009735;P07;2024-04-08;pessoal;561,51;Material pedagogico
+D009736;P07;2024-11-12;formacao;941,42;formacao de formadores
+D009737;P07;2024-04-08;logistica;148,23;deslocacoes
+D009738;P07;2024-12-09;outros;526,12;equipamento informatico
+D009739;P07;15/06/2024;outros;949,91;formacao de formadores
+D009740;P07;2024-04-11;comunicacao;648,81;formacao de formadores
+D009741;P07;2024-03-02;equipamento;506,45;Material pedagogico
+D009742;P07;18/11/2024;outros;811,35;formacao de formadores
+D009743;P07;2024-04-21;avaliacao;716,86;suporte tecnico
+D009744;P07;2024-02-18;logistica;667,90;transporte
+D009745;P07;2024-09-20;equipamento;351,28;avaliacao externa
+D009746;P07;2024-08-08;formacao;1010,00;deslocacoes
+D009747;P07;2024-04-16;comunicacao;210,74;avaliacao externa
+D009748;P07;2024-09-13;logistica;791,00;formacao de formadores
+D009749;P07;23/06/2024;pessoal;769,64;equipamento informatico
+D009750;P07;2024-10-07;formacao;254,57;formacao de formadores
+D009751;P07;12/04/2025;avaliacao;755,83;deslocacoes
+D009752;P07;2025-03-08;formacao;731,83;Material pedagogico
+D009753;P07;2025-08-03;logistica;460,66;suporte tecnico
+D009754;P07;2025-06-15;formacao;283,32;avaliacao externa
+D009755;P07;2025-02-24;logistica;305,20;equipamento informatico
+D009756;P07;2025-10-24;comunicacao;584,35;avaliacao externa
+D009757;P07;2025-06-05;equipamento;907,64;equipamento informatico
+D009758;P07;2025-03-19;outros;182,38;transporte
+D009759;P07;2025-03-21;comunicacao;-152,66;avaliacao externa
+D009760;P07;2025-02-04;formacao;317,48;avaliacao externa
+D009761;P07;2025-12-24;comunicacao;764,56;material pedagogico
+D009762;P07;2025-07-14;outros;557,68;avaliacao externa
+D009763;P07;2025-06-19;logistica;688,84;formacao de formadores
+D009764;P07;2025-05-08;outros;526,02;deslocacoes
+D009765;P07;02/07/2025;formacao;977,97;suporte tecnico
+D009766;P07;2025-03-17;pessoal;522,57;
+D009767;P07;11/05/2025;logistica;406,49;material pedagogico
+D009768;P07;2025-06-27;equipamento;1069,27;suporte tecnico
+D009769;P07;2025-03-08;outros;1308,87;formacao de formadores
+D009770;P07;08/06/2025;avaliacao;829,38;Material pedagogico
+D009771;P07;21/06/2025;outros;230,37;equipamento informatico
+D009772;P07;2025-02-14;logistica;1114,46;transporte
+D009773;P07;2025-02-06;equipamento;671,47;equipamento informatico
+D009774;P07;2025-06-05;avaliacao;985,17;formacao de formadores
+D009775;P07;2025-03-16;logistica;855,10;material pedagogico
+D009776;P07;2025-09-27;formacao;756,96;material pedagogico
+D009777;P07;2025-06-17;logistica;599,33;Material pedagogico
+D009778;P07;2025-06-26;formacao;408,67;
+D009779;P07;2025-10-07;outros;619,89;deslocacoes
+D009780;P07;2025-03-02;avaliacao;353,65;Material pedagogico
+D009781;P07;21/04/2025;formacao;960,54;deslocacoes
+D009782;P07;2025-10-07;avaliacao;266,73;deslocacoes
+D009783;P07;2025-06-25;avaliacao;1012,19;equipamento informatico
+D009784;P07;2025-03-07;formacao;1110,73;Material pedagogico
+D009785;P07;2025-10-16;comunicacao;892,20;avaliacao externa
+D009786;P07;2025-08-13;avaliacao;1141,06;avaliacao externa
+D009787;P07;13/10/2025;comunicacao;570,86;avaliacao externa
+D009788;P07;09/07/2025;pessoal;755,95;suporte tecnico
+D009789;P07;25/03/2025;avaliacao;759,40;equipamento informatico
+D009790;P07;2025-12-08;logistica;919,23;formacao de formadores
+D009791;P07;2025-12-14;formacao;720,75;
+D009792;P07;2025-09-24;pessoal;232,88;Material pedagogico
+D009793;P07;2025-08-07;logistica;773,96;material pedagogico
+D009794;P07;2025-06-08;equipamento;194,67;
+D009795;P07;2025-12-03;pessoal;680,63;material pedagogico
+D009796;P07;02/08/2025;pessoal;200,45;deslocacoes
+D009797;P07;2025-01-21;formacao;734,25;material pedagogico
+D009798;P07;2025-09-10;avaliacao;603,52;material pedagogico
+D009799;P07;2025-03-07;outros;767,48;Material pedagogico
+D009800;P07;2025-06-21;logistica;792,29;material pedagogico
+D009801;P07;2025-08-22;logistica;1105,23;deslocacoes
+D009802;P07;2025-06-18;comunicacao;1281,85;formacao de formadores
+D009803;P07;10/10/2025;comunicacao;455,82;material pedagogico
+D009804;P07;2025-08-23;logistica;1246,08;suporte tecnico
+D009805;P07;2025-09-12;logistica;608,66;transporte
+D009806;P07;2025-12-27;comunicacao;356,99;avaliacao externa
+D009807;P07;2025-07-11;formacao;877,24;Material pedagogico
+D009808;P07;12/12/2025;logistica;627,67;transporte
+D009809;P07;2025-11-25;pessoal;542,85;avaliacao externa
+D009810;P07;2025-01-21;comunicacao;903,17;equipamento informatico
+D009811;P07;2025-06-04;avaliacao;988,72;suporte tecnico
+D009812;P07;2025-05-01;outros;693,22;
+D009813;P07;2025-03-27;logistica;491,80;
+D009814;P07;2025-05-06;avaliacao;1096,29;equipamento informatico
+D009815;P07;2025-09-03;formacao;931,02;equipamento informatico
+D009816;P07;2025-04-16;outros;910,50;
+D009817;P07;2025-02-18;logistica;1254,20;equipamento informatico
+D009818;P07;2025-12-23;formacao;1346,34;avaliacao externa
+D009819;P07;2025-11-03;avaliacao;217,18;suporte tecnico
+D009820;P07;2025-01-15;comunicacao;464,46;
+D009821;P07;2025-12-24;pessoal;1125,31;deslocacoes
+D009822;P07;2025-03-18;pessoal;281,60;deslocacoes
+D009823;P07;2025-02-02;equipamento;195,59;transporte
+D009824;P07;2025-12-09;comunicacao;554,03;suporte tecnico
+D009825;P07;2025-10-25;equipamento;1098,02;formacao de formadores
+D009826;P07;2025-01-19;outros;649,96;Material pedagogico
+D009827;P07;15/06/2025;equipamento;416,22;equipamento informatico
+D009828;P07;2025-10-20;outros;364,38;avaliacao externa
+D009829;P07;2025-10-18;outros;816,56;Material pedagogico
+D009830;P07;2025-08-23;outros;579,86;equipamento informatico
+D009831;P07;2025-12-07;comunicacao;909,93;material pedagogico
+D009832;P07;2025-05-10;pessoal;-396,64;formacao de formadores
+D009833;P07;2025-05-07;equipamento;166,77;material pedagogico
+D009834;P07;2025-12-01;comunicacao;547,54;deslocacoes
+D009835;P07;2025-07-05;outros;811,18;formacao de formadores
+D009836;P07;2025-12-13;equipamento;965,29;deslocacoes
+D009837;P07;2025-11-02;avaliacao;523,40;formacao de formadores
+D009838;P07;2025-04-26;comunicacao;725,06;equipamento informatico
+D009839;P07;2025-04-19;logistica;287,33;
+D009840;P07;2025-12-23;outros;277,63;equipamento informatico
+D009841;P07;2025-01-07;formacao;1185,16;deslocacoes
+D009842;P07;2025-11-23;avaliacao;802,61;
+D009843;P07;2025-06-03;logistica;712,10;Material pedagogico
+D009844;P07;2025-12-06;avaliacao;681,75;formacao de formadores
+D009845;P07;2025-07-07;comunicacao;1294,76;material pedagogico
+D009846;P07;2025-10-11;equipamento;664,04;material pedagogico
+D009847;P07;2025-02-25;avaliacao;471,63;material pedagogico
+D009848;P07;11/07/2025;logistica;275,76;equipamento informatico
+D009849;P07;2025-11-10;outros;1116,94;avaliacao externa
+D009850;P07;09/09/2025;outros;1284,74;
+D009851;P07;2025-03-09;outros;-903,89;avaliacao externa
+D009852;P07;02/03/2025;comunicacao;363,37;transporte
+D009853;P07;2025-07-24;logistica;927,40;material pedagogico
+D009854;P07;2025-04-06;comunicacao;794,17;transporte
+D009855;P07;2025-10-11;outros;-572,27;avaliacao externa
+D009856;P07;19/05/2025;equipamento;1129,43;
+D009857;P07;2025-04-01;equipamento;1230,28;deslocacoes
+D009858;P07;2025-05-20;outros;323,59;formacao de formadores
+D009859;P07;2025-02-07;avaliacao;168,24;Material pedagogico
+D009860;P07;2025-12-07;equipamento;394,15;suporte tecnico
+D009861;P07;20/10/2025;outros;1124,02;suporte tecnico
+D009862;P07;2025-06-26;logistica;1250,77;
+D009863;P07;26/10/2025;comunicacao;970,60;Material pedagogico
+D009864;P07;2025-03-25;pessoal;182,93;transporte
+D009865;P07;2025-05-13;avaliacao;849,37;transporte
+D009866;P07;20/02/2025;equipamento;661,28;transporte
+D009867;P07;2025-08-19;pessoal;1090,38;formacao de formadores
+D009868;P07;2025-08-05;avaliacao;1056,38;transporte
+D009869;P07;2025-12-08;formacao;398,22;transporte
+D009870;P07;2025-02-05;outros;538,22;
+D009871;P07;2025-09-14;pessoal;418,73;Material pedagogico
+D009872;P07;2025-03-13;comunicacao;789,82;deslocacoes
+D009873;P07;2025-07-20;outros;259,30;suporte tecnico
+D009874;P07;24/08/2025;comunicacao;867,93;transporte
+D009875;P07;2025-09-21;outros;730,83;avaliacao externa
+D009876;P07;2025-12-19;outros;828,22;formacao de formadores
+D009877;P07;2025-12-21;logistica;1158,30;avaliacao externa
+D009878;P07;2025-03-01;logistica;741,36;formacao de formadores
+D009879;P07;2025-10-04;avaliacao;1097,28;formacao de formadores
+D009880;P07;2025-04-08;logistica;1273,68;avaliacao externa
+D009881;P07;25/06/2025;avaliacao;270,20;equipamento informatico
+D009882;P07;07/09/2025;equipamento;253,47;avaliacao externa
+D009883;P07;2025-09-24;avaliacao;381,26;avaliacao externa
+D009884;P07;14/01/2025;formacao;1026,09;formacao de formadores
+D009885;P07;2025-04-25;pessoal;918,29;Material pedagogico
+D009886;P07;2025-10-26;comunicacao;878,32;Material pedagogico
+D009887;P07;2025-08-09;outros;962,09;suporte tecnico
+D009888;P07;2025-04-24;avaliacao;706,54;avaliacao externa
+D009889;P07;2025-07-24;pessoal;507,27;equipamento informatico
+D009890;P07;2025-10-21;logistica;382,13;deslocacoes
+D009891;P07;2025-10-18;equipamento;1278,42;suporte tecnico
+D009892;P07;2025-10-09;pessoal;456,84;avaliacao externa
+D009893;P07;19/01/2025;equipamento;567,41;material pedagogico
+D009894;P07;2025-12-05;equipamento;1019,13;suporte tecnico
+D009895;P07;2025-01-12;outros;1054,23;suporte tecnico
+D009896;P07;06/08/2025;pessoal;789,48;equipamento informatico
+D009897;P07;2025-02-02;logistica;777,35;
+D009898;P07;2025-05-03;comunicacao;1310,77;formacao de formadores
+D009899;P07;2025-11-25;outros;711,61;Material pedagogico
+D009900;P07;2025-12-13;comunicacao;1230,04;formacao de formadores
+D009901;P07;22/02/2025;outros;1334,45;deslocacoes
+D009902;P07;2025-08-16;pessoal;237,21;formacao de formadores
+D009903;P07;13/11/2025;logistica;941,96;transporte
+D009904;P07;2025-04-17;equipamento;1306,82;material pedagogico
+D009905;P07;11/06/2025;pessoal;689,61;formacao de formadores
+D009906;P07;13/08/2025;avaliacao;613,44;suporte tecnico
+D009907;P07;2025-06-08;equipamento;607,02;equipamento informatico
+D009908;P07;2025-08-18;equipamento;1067,17;avaliacao externa
+D009909;P07;2025-11-01;formacao;957,99;material pedagogico
+D009910;P07;2025-01-15;pessoal;683,94;Material pedagogico
+D009911;P07;2025-03-21;equipamento;857,05;deslocacoes
+D009912;P07;2025-03-21;equipamento;873,78;suporte tecnico
+D009913;P07;2025-09-08;equipamento;508,85;
+D009914;P07;2025-11-11;pessoal;169,40;equipamento informatico
+D009915;P07;2025-03-12;pessoal;166,52;suporte tecnico
+D009916;P07;16/03/2025;logistica;695,72;
+D009917;P07;2025-08-09;formacao;977,67;deslocacoes
+D009918;P07;06/04/2025;logistica;1257,78;material pedagogico
+D009919;P07;2025-01-17;avaliacao;1159,31;material pedagogico
+D009920;P07;2025-06-11;logistica;573,17;deslocacoes
+D009921;P07;2025-10-17;logistica;803,00;Material pedagogico
+D009922;P07;2025-07-25;comunicacao;695,70;equipamento informatico
+D009923;P07;06/09/2025;outros;407,90;deslocacoes
+D009924;P07;2025-06-16;logistica;408,73;transporte
+D009925;P07;2025-01-27;avaliacao;-372,36;avaliacao externa
+D009926;P07;2025-08-21;pessoal;310,05;deslocacoes
+D009927;P07;2025-02-17;logistica;245,31;deslocacoes
+D009928;P07;2025-10-07;avaliacao;490,17;Material pedagogico
+D009929;P07;2025-07-26;avaliacao;743,17;
+D009930;P07;2025-12-18;equipamento;218,02;Material pedagogico
+D009931;P07;2025-11-17;logistica;566,80;transporte
+D009932;P07;2025-09-21;pessoal;1148,10;formacao de formadores
+D009933;P07;2025-06-11;comunicacao;-390,67;suporte tecnico
+D009934;P07;2025-08-10;outros;867,96;suporte tecnico
+D009935;P07;2025-10-19;logistica;1304,71;suporte tecnico
+D009936;P07;2025-08-23;pessoal;998,11;formacao de formadores
+D009937;P07;10/08/2025;pessoal;970,64;suporte tecnico
+D009938;P07;08/08/2025;logistica;1316,61;equipamento informatico
+D009939;P07;2025-01-09;pessoal;273,02;equipamento informatico
+D009940;P07;2025-09-13;outros;1274,78;transporte
+D009941;P07;2025-06-13;logistica;343,02;formacao de formadores
+D009942;P07;19/04/2025;avaliacao;204,19;avaliacao externa
+D009943;P07;2025-01-04;outros;715,04;
+D009944;P07;17/03/2025;formacao;1213,34;
+D009945;P07;2025-08-22;logistica;534,36;formacao de formadores
+D009946;P07;2025-05-20;pessoal;269,93;Material pedagogico
+D009947;P07;2025-07-21;logistica;184,68;material pedagogico
+D009948;P07;2025-02-06;formacao;627,23;equipamento informatico
+D009949;P07;2025-09-08;comunicacao;1332,10;material pedagogico
+D009950;P07;2025-01-21;logistica;967,88;formacao de formadores
+D009951;P07;2025-10-07;outros;766,28;material pedagogico
+D009952;P07;13/04/2025;comunicacao;405,99;deslocacoes
+D009953;P07;2025-05-01;avaliacao;1291,33;material pedagogico
+D009954;P07;27/03/2025;equipamento;212,15;formacao de formadores
+D009955;P07;2025-08-06;equipamento;203,29;avaliacao externa
+D009956;P07;2025-06-03;outros;516,68;Material pedagogico
+D009957;P07;2025-04-22;avaliacao;702,44;deslocacoes
+D009958;P07;2025-01-10;avaliacao;1219,08;material pedagogico
+D009959;P07;20/05/2025;pessoal;1007,99;suporte tecnico
+D009960;P07;2025-11-25;pessoal;632,11;avaliacao externa
+D009961;P07;17/09/2025;comunicacao;934,78;Material pedagogico
+D009962;P07;2025-11-08;equipamento;1023,21;
+D009963;P07;2025-03-20;comunicacao;384,37;transporte
+D009964;P07;2025-09-01;comunicacao;564,23;
+D009965;P07;2025-10-07;logistica;448,77;material pedagogico
+D009966;P07;2025-10-04;logistica;1148,34;formacao de formadores
+D009967;P07;2025-12-22;equipamento;1216,73;Material pedagogico
+D009968;P07;2025-09-17;formacao;1225,26;equipamento informatico
+D009969;P07;2025-04-27;pessoal;865,77;equipamento informatico
+D009970;P07;2025-09-14;avaliacao;584,21;
+D009971;P07;2025-09-23;avaliacao;765,65;transporte
+D009972;P07;19/10/2025;outros;1206,75;avaliacao externa
+D009973;P07;2025-01-01;equipamento;971,58;
+D009974;P07;2025-01-26;outros;1151,85;material pedagogico
+D009975;P07;2025-07-04;equipamento;266,47;transporte
+D009976;P07;2025-08-19;pessoal;792,07;
+D009977;P07;2025-06-15;comunicacao;1129,03;material pedagogico
+D009978;P07;14/06/2025;comunicacao;792,91;suporte tecnico
+D009979;P07;2025-03-16;logistica;524,96;avaliacao externa
+D009980;P07;2025-01-20;outros;580,13;formacao de formadores
+D009981;P07;2025-08-24;comunicacao;240,39;material pedagogico
+D009982;P07;2025-10-11;equipamento;1208,82;equipamento informatico
+D009983;P07;2025-07-01;equipamento;989,59;avaliacao externa
+D009984;P07;2025-07-02;comunicacao;1234,13;equipamento informatico
+D009985;P07;2025-03-20;outros;355,46;suporte tecnico
+D009986;P07;09/04/2025;outros;439,74;formacao de formadores
+D009987;P07;2025-08-03;equipamento;807,84;Material pedagogico
+D009988;P07;2025-09-07;pessoal;272,30;
+D009989;P07;2025-09-27;formacao;901,34;deslocacoes
+D009990;P07;2025-09-05;equipamento;546,87;avaliacao externa
+D009991;P07;2025-08-03;outros;362,09;Material pedagogico
+D009992;P07;2025-08-23;logistica;566,49;formacao de formadores
+D009993;P07;08/05/2025;formacao;1282,30;formacao de formadores
+D009994;P07;22/06/2025;logistica;887,13;equipamento informatico
+D009995;P07;2025-05-27;outros;900,73;avaliacao externa
+D009996;P07;2025-12-14;pessoal;1066,14;material pedagogico
+D009997;P07;2025-05-25;equipamento;1149,43;Material pedagogico
+D009998;P07;2025-11-15;formacao;852,57;material pedagogico
+D009999;P07;20/02/2025;outros;702,23;Material pedagogico
+D010000;P07;2025-10-14;equipamento;278,09;suporte tecnico
+D010001;P07;2025-07-04;equipamento;1082,21;equipamento informatico
+D010002;P07;2025-07-14;pessoal;450,59;avaliacao externa
+D010003;P07;2025-11-14;formacao;352,78;suporte tecnico
+D010004;P07;2025-04-06;avaliacao;1272,71;deslocacoes
+D010005;P07;2025-06-14;comunicacao;952,27;material pedagogico
+D010006;P07;2025-07-25;equipamento;865,59;avaliacao externa
+D010007;P07;20/05/2025;outros;983,00;deslocacoes
+D010008;P07;2025-07-21;pessoal;582,27;deslocacoes
+D010009;P07;2025-06-01;logistica;1213,17;Material pedagogico
+D010010;P07;2025-10-08;outros;754,23;deslocacoes
+D010011;P07;2025-10-04;avaliacao;808,10;material pedagogico
+D010012;P07;2025-06-19;equipamento;563,45;material pedagogico
+D010013;P07;2025-09-10;formacao;1325,16;
+D010014;P07;14/07/2025;comunicacao;746,50;deslocacoes
+D010015;P07;2025-07-22;pessoal;-88,85;formacao de formadores
+D010016;P07;2025-05-14;pessoal;1228,84;transporte
+D010017;P07;08/03/2025;formacao;656,60;
+D010018;P07;2025-02-01;pessoal;859,77;avaliacao externa
+D010019;P07;10/01/2025;pessoal;477,83;
+D010020;P07;04/12/2025;formacao;200,49;suporte tecnico
+D010021;P07;05/10/2025;outros;273,81;equipamento informatico
+D010022;P07;2025-06-27;outros;501,86;suporte tecnico
+D010023;P07;05/07/2025;comunicacao;1151,96;avaliacao externa
+D010024;P07;18/01/2025;equipamento;1340,27;equipamento informatico
+D010025;P07;2025-05-09;logistica;294,05;
+D010026;P07;2025-03-16;comunicacao;927,85;formacao de formadores
+D010027;P07;2025-06-11;pessoal;1274,60;suporte tecnico
+D010028;P07;2025-05-09;logistica;530,35;
+D010029;P07;2025-02-27;logistica;1263,80;deslocacoes
+D010030;P07;18/01/2025;outros;716,35;
+D010031;P07;2025-08-10;outros;573,39;material pedagogico
+D010032;P07;2025-07-14;pessoal;1131,15;
+D010033;P07;2025-09-01;formacao;282,88;equipamento informatico
+D010034;P07;26/12/2025;formacao;741,98;avaliacao externa
+D010035;P07;2025-11-11;avaliacao;404,41;deslocacoes
+D010036;P07;2025-11-13;avaliacao;710,30;equipamento informatico
+D010037;P07;2025-10-06;outros;788,27;Material pedagogico
+D010038;P07;2025-10-02;avaliacao;903,95;deslocacoes
+D010039;P07;2025-04-26;outros;330,55;equipamento informatico
+D010040;P07;2025-11-04;pessoal;1118,03;equipamento informatico
+D010041;P07;2025-09-10;equipamento;1253,64;transporte
+D010042;P07;2025-12-11;formacao;1213,78;
+D010043;P07;2025-02-15;avaliacao;844,16;deslocacoes
+D010044;P07;2025-04-07;formacao;963,30;deslocacoes
+D010045;P07;27/09/2025;formacao;1239,30;avaliacao externa
+D010046;P07;2025-10-24;pessoal;289,31;material pedagogico
+D010047;P07;18/07/2025;formacao;1001,97;suporte tecnico
+D010048;P07;2025-01-25;formacao;837,55;suporte tecnico
+D010049;P07;2025-01-17;outros;1015,31;material pedagogico
+D010050;P07;2025-05-19;comunicacao;395,13;formacao de formadores
+D010051;P07;2025-01-13;avaliacao;515,51;deslocacoes
+D010052;P07;06/07/2025;avaliacao;1251,33;equipamento informatico
+D010053;P07;2025-11-25;outros;272,94;Material pedagogico
+D010054;P07;08/07/2025;comunicacao;1261,84;Material pedagogico
+D010055;P07;2025-06-26;formacao;1018,42;
+D010056;P07;24/01/2025;pessoal;467,44;avaliacao externa
+D010057;P07;2025-09-13;outros;-469,85;formacao de formadores
+D010058;P07;16/01/2025;equipamento;1231,01;deslocacoes
+D010059;P07;2025-04-08;pessoal;401,65;deslocacoes
+D010060;P07;2025-02-16;comunicacao;983,67;avaliacao externa
+D010061;P07;01/06/2025;outros;1304,03;formacao de formadores
+D010062;P07;16/02/2025;outros;461,90;deslocacoes
+D010063;P07;2025-09-10;logistica;1250,00;Material pedagogico
+D010064;P07;2025-02-27;pessoal;315,45;Material pedagogico
+D010065;P07;2025-06-24;pessoal;1026,43;deslocacoes
+D010066;P07;2025-07-03;comunicacao;219,04;deslocacoes
+D010067;P07;2025-03-04;logistica;790,60;formacao de formadores
+D010068;P07;2025-02-08;logistica;227,01;avaliacao externa
+D010069;P07;2025-06-17;formacao;1322,82;avaliacao externa
+D010070;P07;2025-07-26;logistica;1159,25;avaliacao externa
+D010071;P07;2025-04-07;logistica;1185,97;transporte
+D010072;P07;2025-08-02;comunicacao;1261,59;deslocacoes
+D010073;P07;2025-05-22;equipamento;1017,95;transporte
+D010074;P07;2025-07-03;logistica;506,90;equipamento informatico
+D010075;P07;2025-10-26;formacao;1350,21;suporte tecnico
+D010076;P07;2025-03-19;formacao;577,91;formacao de formadores
+D010077;P07;2025-07-09;avaliacao;1196,38;material pedagogico
+D010078;P07;09/01/2025;outros;-865,77;equipamento informatico
+D010079;P07;12/12/2025;comunicacao;916,96;material pedagogico
+D010080;P07;2025-01-15;comunicacao;960,63;suporte tecnico
+D010081;P07;2025-08-26;formacao;162,25;
+D010082;P07;2025-11-06;comunicacao;843,33;avaliacao externa
+D010083;P07;2025-12-03;avaliacao;274,72;
+D010084;P07;2025-02-05;pessoal;-820,00;
+D010085;P07;09/09/2025;logistica;412,51;transporte
+D010086;P07;2025-02-09;outros;1170,72;
+D010087;P07;2025-11-24;pessoal;1102,07;equipamento informatico
+D010088;P07;2025-04-11;comunicacao;959,07;transporte
+D010089;P07;19/02/2025;logistica;846,53;suporte tecnico
+D010090;P07;27/06/2025;logistica;670,66;material pedagogico
+D010091;P07;2025-07-23;comunicacao;1068,39;deslocacoes
+D010092;P07;2025-02-15;logistica;623,63;deslocacoes
+D010093;P07;2025-08-08;logistica;-849,53;avaliacao externa
+D010094;P07;2025-07-21;logistica;379,49;material pedagogico
+D010095;P07;2025-12-26;outros;1135,08;equipamento informatico
+D010096;P07;20/05/2025;comunicacao;1077,09;
+D010097;P07;2025-01-24;equipamento;1067,56;
+D010098;P07;2025-06-03;equipamento;647,56;deslocacoes
+D010099;P07;25/03/2025;logistica;996,31;transporte
+D010100;P07;2025-07-03;avaliacao;767,66;deslocacoes
+D010101;P07;2025-10-27;pessoal;481,91;Material pedagogico
+D010102;P07;20/09/2025;pessoal;-427,44;deslocacoes
+D010103;P07;2025-09-11;outros;637,66;equipamento informatico
+D010104;P07;2025-07-12;formacao;354,31;Material pedagogico
+D010105;P07;2025-05-08;equipamento;179,98;suporte tecnico
+D010106;P07;2025-06-15;comunicacao;939,73;
+D010107;P07;09/06/2025;equipamento;1042,65;transporte
+D010108;P07;24/09/2025;avaliacao;530,05;material pedagogico
+D010109;P07;2025-03-21;logistica;1346,69;suporte tecnico
+D010110;P07;2025-02-18;avaliacao;423,01;transporte
+D010111;P07;2025-05-07;formacao;885,80;equipamento informatico
+D010112;P07;2025-09-24;equipamento;1131,77;equipamento informatico
+D010113;P07;22/11/2025;equipamento;1017,76;equipamento informatico
+D010114;P07;2025-08-11;pessoal;633,19;transporte
+D010115;P07;22/06/2025;equipamento;1180,39;equipamento informatico
+D010116;P07;2025-12-14;formacao;1046,79;formacao de formadores
+D010117;P07;2025-01-22;logistica;466,03;material pedagogico
+D010118;P07;2025-12-26;outros;1039,00;
+D010119;P07;2025-03-11;outros;-249,65;material pedagogico
+D010120;P07;2025-08-03;outros;474,88;
+D010121;P07;23/04/2025;comunicacao;612,83;formacao de formadores
+D010122;P07;2025-12-25;avaliacao;636,64;equipamento informatico
+D010123;P07;2025-01-02;avaliacao;178,45;material pedagogico
+D010124;P07;2025-09-16;logistica;474,68;avaliacao externa
+D010125;P07;09/01/2025;avaliacao;974,58;transporte
+D010126;P07;2025-04-19;equipamento;605,71;avaliacao externa
+D010127;P07;2025-01-23;logistica;913,88;suporte tecnico
+D010128;P07;2025-07-19;logistica;940,29;avaliacao externa
+D010129;P07;2025-05-13;outros;-1009,85;transporte
+D010130;P07;2025-10-05;comunicacao;669,45;formacao de formadores
+D010131;P07;2025-09-10;pessoal;865,39;transporte
+D010132;P07;2025-02-24;comunicacao;1014,78;avaliacao externa
+D010133;P07;2025-02-19;equipamento;965,48;deslocacoes
+D010134;P07;2025-03-13;avaliacao;792,85;material pedagogico
+D010135;P07;16/05/2025;pessoal;1105,84;
+D010136;P07;2025-09-11;outros;940,31;formacao de formadores
+D010137;P07;2025-10-10;formacao;956,89;suporte tecnico
+D010138;P07;21/12/2025;outros;501,79;suporte tecnico
+D010139;P07;2025-06-17;formacao;1104,53;formacao de formadores
+D010140;P07;2025-10-14;comunicacao;831,85;deslocacoes
+D010141;P07;2025-09-04;outros;1165,76;avaliacao externa
+D010142;P07;2025-04-18;equipamento;348,72;Material pedagogico
+D010143;P07;05/12/2025;pessoal;624,91;suporte tecnico
+D010144;P07;2025-03-05;outros;994,44;material pedagogico
+D010145;P07;2025-05-25;formacao;1240,65;transporte
+D010146;P07;2025-05-23;formacao;1191,22;avaliacao externa
+D010147;P07;03/02/2025;formacao;887,85;transporte
+D010148;P07;20/06/2025;comunicacao;1038,87;material pedagogico
+D010149;P07;14/04/2025;formacao;650,20;equipamento informatico
+D010150;P07;23/01/2025;logistica;366,34;
+D010151;P07;2025-04-11;outros;740,91;formacao de formadores
+D010152;P07;2025-11-08;equipamento;1296,55;avaliacao externa
+D010153;P07;2025-03-18;formacao;606,41;material pedagogico
+D010154;P07;2025-09-09;logistica;790,13;suporte tecnico
+D010155;P07;2025-04-07;outros;1282,64;
+D010156;P07;2025-08-07;comunicacao;282,36;suporte tecnico
+D010157;P07;2025-05-14;avaliacao;223,77;deslocacoes
+D010158;P07;2025-02-03;comunicacao;898,85;
+D010159;P07;2025-06-01;pessoal;575,82;transporte
+D010160;P07;23/06/2025;pessoal;951,53;equipamento informatico
+D010161;P07;2025-05-09;avaliacao;631,59;transporte
+D010162;P07;23/09/2025;equipamento;768,80;Material pedagogico
+D010163;P07;02/10/2025;equipamento;1309,61;Material pedagogico
+D010164;P07;2025-04-27;logistica;717,45;material pedagogico
+D010165;P07;21/12/2025;pessoal;967,75;avaliacao externa
+D010166;P07;2025-07-27;comunicacao;1346,40;
+D010167;P07;04/01/2025;logistica;635,27;equipamento informatico
+D010168;P07;2025-02-17;comunicacao;172,87;transporte
+D010169;P07;2025-08-21;comunicacao;998,11;deslocacoes
+D010170;P07;25/03/2025;comunicacao;924,85;suporte tecnico
+D010171;P07;2025-12-16;outros;583,47;deslocacoes
+D010172;P07;2025-04-12;equipamento;1031,30;suporte tecnico
+D010173;P07;2025-05-18;logistica;1070,71;equipamento informatico
+D010174;P07;2025-04-05;outros;435,63;Material pedagogico
+D010175;P07;2025-02-09;formacao;392,06;transporte
+D010176;P07;25/03/2025;outros;971,76;formacao de formadores
+D010177;P07;2025-11-15;comunicacao;668,81;avaliacao externa
+D010178;P07;2025-04-05;outros;310,99;
+D010179;P07;2025-03-19;equipamento;294,92;Material pedagogico
+D010180;P07;2025-09-21;logistica;169,94;
+D010181;P07;2025-08-02;formacao;257,32;formacao de formadores
+D010182;P07;13/01/2025;pessoal;961,62;
+D010183;P07;2025-05-12;pessoal;1276,11;equipamento informatico
+D010184;P07;2025-07-06;equipamento;1107,34;transporte
+D010185;P07;01/07/2025;comunicacao;733,89;suporte tecnico
+D010186;P07;2025-12-05;comunicacao;987,54;material pedagogico
+D010187;P07;2025-10-15;logistica;863,61;material pedagogico
+D010188;P07;2025-03-21;pessoal;437,65;avaliacao externa
+D010189;P07;2025-10-23;pessoal;636,63;material pedagogico
+D010190;P07;2025-06-23;equipamento;730,42;suporte tecnico
+D010191;P07;2025-12-15;logistica;484,98;formacao de formadores
+D010192;P07;21/08/2025;formacao;1279,25;Material pedagogico
+D010193;P07;2025-07-23;equipamento;492,70;material pedagogico
+D010194;P07;2025-05-16;equipamento;987,37;transporte
+D010195;P07;2025-01-20;avaliacao;552,05;material pedagogico
+D010196;P07;03/11/2025;pessoal;-486,36;deslocacoes
+D010197;P07;2025-06-21;formacao;1000,87;formacao de formadores
+D010198;P07;2025-01-19;formacao;1066,92;formacao de formadores
+D010199;P07;2025-11-11;pessoal;440,40;
+D010200;P07;2025-01-19;formacao;813,32;suporte tecnico
+D010201;P07;2025-03-06;logistica;920,57;transporte
+D010202;P07;02/08/2025;avaliacao;203,65;Material pedagogico
+D010203;P07;2025-06-19;pessoal;1062,47;formacao de formadores
+D010204;P07;18/08/2025;logistica;905,04;
+D010205;P07;10/06/2025;equipamento;922,55;deslocacoes
+D010206;P07;2025-09-06;formacao;403,69;material pedagogico
+D010207;P07;2025-10-09;outros;747,41;Material pedagogico
+D010208;P07;2025-07-03;formacao;-266,74;transporte
+D010209;P07;2025-02-15;logistica;-237,39;deslocacoes
+D010210;P07;2025-12-20;formacao;975,14;formacao de formadores
+D010211;P07;2025-08-27;equipamento;208,75;material pedagogico
+D010212;P07;2025-07-17;equipamento;763,94;
+D010213;P07;2025-11-26;pessoal;232,80;deslocacoes
+D010214;P07;2025-05-25;comunicacao;682,31;avaliacao externa
+D010215;P07;2025-06-12;formacao;1221,75;suporte tecnico
+D010216;P07;2025-06-10;outros;696,09;equipamento informatico
+D010217;P07;2025-04-06;equipamento;1328,31;material pedagogico
+D010218;P07;12/07/2025;comunicacao;1058,46;avaliacao externa
+D010219;P07;2025-09-10;comunicacao;-611,12;deslocacoes
+D010220;P07;2025-06-04;equipamento;1202,31;equipamento informatico
+D010221;P07;22/06/2025;avaliacao;1180,04;suporte tecnico
+D010222;P07;2025-02-08;equipamento;554,22;
+D010223;P07;2025-10-23;comunicacao;1139,64;material pedagogico
+D010224;P07;21/07/2025;logistica;562,13;material pedagogico
+D010225;P07;2025-03-04;outros;1169,23;Material pedagogico
+D010226;P07;2025-08-07;outros;719,44;formacao de formadores
+D010227;P07;2025-04-06;formacao;171,96;deslocacoes
+D010228;P07;2025-08-20;comunicacao;1248,05;transporte
+D010229;P07;2025-06-09;equipamento;989,99;transporte
+D010230;P07;2025-04-09;logistica;978,05;deslocacoes
+D010231;P07;2025-08-08;pessoal;1203,58;formacao de formadores
+D010232;P07;2025-03-09;avaliacao;1304,61;suporte tecnico
+D010233;P07;2025-05-19;formacao;-788,78;suporte tecnico
+D010234;P07;2025-10-18;avaliacao;839,29;Material pedagogico
+D010235;P07;2025-05-04;comunicacao;374,03;deslocacoes
+D010236;P07;2025-11-16;pessoal;1014,47;Material pedagogico
+D010237;P07;10/01/2025;formacao;758,08;material pedagogico
+D010238;P07;2025-09-19;avaliacao;786,82;Material pedagogico
+D010239;P07;2025-12-15;comunicacao;938,90;
+D010240;P07;2025-02-20;logistica;1063,69;deslocacoes
+D010241;P07;2025-12-13;avaliacao;471,82;transporte
+D010242;P07;2025-02-04;pessoal;539,06;transporte
+D010243;P07;2025-04-08;formacao;-194,88;Material pedagogico
+D010244;P07;2025-10-21;comunicacao;1059,16;transporte
+D010245;P07;2025-11-16;pessoal;713,50;Material pedagogico
+D010246;P07;2025-02-05;outros;869,63;suporte tecnico
+D010247;P07;2025-04-14;equipamento;794,23;suporte tecnico
+D010248;P07;2025-03-04;avaliacao;1169,56;avaliacao externa
+D010249;P07;2025-12-02;equipamento;853,88;equipamento informatico
+D010250;P07;14/03/2025;equipamento;1326,63;transporte
+D010251;P07;2025-09-25;comunicacao;871,28;deslocacoes
+D010252;P07;05/06/2025;outros;759,07;material pedagogico
+D010253;P07;03/09/2025;outros;235,77;formacao de formadores
+D010254;P07;25/10/2025;comunicacao;665,37;equipamento informatico
+D010255;P07;2025-04-14;outros;560,81;deslocacoes
+D010256;P07;2025-02-14;comunicacao;853,84;avaliacao externa
+D010257;P07;06/05/2025;comunicacao;576,96;transporte
+D010258;P07;2025-04-27;comunicacao;529,62;Material pedagogico
+D010259;P07;2025-03-08;formacao;1349,09;suporte tecnico
+D010260;P07;2025-08-19;avaliacao;542,40;avaliacao externa
+D010261;P07;2025-08-18;formacao;1173,51;Material pedagogico
+D010262;P07;2025-04-04;pessoal;1124,02;
+D010263;P07;10/01/2025;outros;547,63;equipamento informatico
+D010264;P07;2025-10-26;outros;613,95;deslocacoes
+D010265;P07;2025-09-03;pessoal;1042,86;formacao de formadores
+D010266;P07;2025-06-07;comunicacao;620,58;transporte
+D010267;P07;2025-06-08;pessoal;211,27;deslocacoes
+D010268;P07;2025-06-17;formacao;760,04;deslocacoes
+D010269;P07;2025-05-05;formacao;-497,65;Material pedagogico
+D010270;P07;2025-05-13;outros;557,43;formacao de formadores
+D010271;P07;2025-04-13;equipamento;225,50;formacao de formadores
+D010272;P07;25/09/2025;comunicacao;682,36;deslocacoes
+D010273;P07;2025-04-21;outros;1305,29;equipamento informatico
+D010274;P07;25/01/2025;comunicacao;1267,03;
+D010275;P07;2025-12-13;equipamento;1153,54;
+D010276;P07;2025-08-23;equipamento;601,72;avaliacao externa
+D010277;P07;2025-09-22;comunicacao;379,95;Material pedagogico
+D010278;P07;2025-09-12;comunicacao;1320,88;suporte tecnico
+D010279;P07;16/10/2025;equipamento;1182,99;Material pedagogico
+D010280;P07;2025-03-09;equipamento;394,14;formacao de formadores
+D010281;P07;2025-04-11;avaliacao;667,88;deslocacoes
+D010282;P07;2025-05-22;avaliacao;877,37;deslocacoes
+D010283;P07;2025-04-11;equipamento;885,44;
+D010284;P07;2025-11-03;avaliacao;928,58;deslocacoes
+D010285;P07;25/05/2025;logistica;1291,35;transporte
+D010286;P07;2025-04-22;outros;345,79;formacao de formadores
+D010287;P07;2025-05-09;formacao;1225,28;equipamento informatico
+D010288;P07;2025-01-24;avaliacao;490,69;formacao de formadores
+D010289;P07;2025-07-17;equipamento;817,50;avaliacao externa
+D010290;P07;2025-08-22;outros;-611,26;formacao de formadores
+D010291;P07;13/07/2025;comunicacao;991,12;deslocacoes
+D010292;P07;16/11/2025;comunicacao;579,01;deslocacoes
+D010293;P07;16/08/2025;equipamento;298,77;
+D010294;P07;2025-03-27;formacao;1166,44;deslocacoes
+D010295;P07;2025-07-12;pessoal;376,44;avaliacao externa
+D010296;P07;2025-03-11;logistica;446,91;formacao de formadores
+D010297;P07;17/06/2025;equipamento;256,18;suporte tecnico
+D010298;P07;2025-12-23;outros;767,39;material pedagogico
+D010299;P07;2025-11-04;outros;881,88;transporte
+D010300;P07;2025-06-01;comunicacao;781,70;material pedagogico
+D010301;P07;2025-04-11;outros;262,54;equipamento informatico
+D010302;P07;2025-07-10;formacao;1157,36;suporte tecnico
+D010303;P07;24/02/2025;avaliacao;235,90;material pedagogico
+D010304;P07;2025-07-20;avaliacao;1328,59;formacao de formadores
+D010305;P07;2025-10-03;equipamento;605,93;formacao de formadores
+D010306;P07;2025-12-22;logistica;839,58;
+D010307;P07;2025-03-20;pessoal;980,79;material pedagogico
+D010308;P07;2025-04-27;avaliacao;787,83;material pedagogico
+D010309;P07;2025-12-08;comunicacao;1162,27;formacao de formadores
+D010310;P07;2025-05-10;pessoal;1091,32;Material pedagogico
+D010311;P07;2025-03-17;logistica;851,40;avaliacao externa
+D010312;P07;2025-07-16;logistica;180,31;equipamento informatico
+D010313;P07;2025-11-21;logistica;921,19;
+D010314;P07;2025-10-25;equipamento;1099,89;formacao de formadores
+D010315;P07;2025-02-24;equipamento;1129,71;
+D010316;P07;2025-03-14;logistica;808,72;transporte
+D010317;P07;21/12/2025;equipamento;568,79;avaliacao externa
+D010318;P07;2025-01-04;formacao;-341,05;transporte
+D010319;P07;20/04/2025;pessoal;597,78;equipamento informatico
+D010320;P07;2025-10-06;logistica;986,22;equipamento informatico
+D010321;P07;2025-12-20;pessoal;994,08;Material pedagogico
+D010322;P07;23/03/2025;avaliacao;867,95;formacao de formadores
+D010323;P07;2025-05-06;outros;1072,53;material pedagogico
+D010324;P07;2025-04-04;pessoal;732,20;avaliacao externa
+D010325;P07;17/09/2025;equipamento;796,92;deslocacoes
+D010326;P07;2025-05-05;equipamento;1192,73;Material pedagogico
+D010327;P07;22/02/2025;avaliacao;756,71;Material pedagogico
+D010328;P07;2025-09-01;outros;517,99;deslocacoes
+D010329;P07;2025-10-24;equipamento;659,17;transporte
+D010330;P07;2025-01-06;logistica;464,17;formacao de formadores
+D010331;P07;2025-03-01;pessoal;428,85;formacao de formadores
+D010332;P07;15/03/2025;logistica;884,94;avaliacao externa
+D010333;P07;2025-05-27;logistica;181,43;material pedagogico
+D010334;P07;2025-06-24;pessoal;531,26;Material pedagogico
+D010335;P07;2025-02-09;comunicacao;923,76;formacao de formadores
+D010336;P07;2025-12-12;equipamento;415,30;equipamento informatico
+D010337;P07;2025-02-04;equipamento;1347,76;avaliacao externa
+D010338;P07;2025-06-22;comunicacao;908,02;suporte tecnico
+D010339;P07;2025-06-22;avaliacao;909,57;formacao de formadores
+D010340;P07;2025-03-18;logistica;795,83;formacao de formadores
+D010341;P07;2025-04-02;equipamento;1072,71;transporte
+D010342;P07;2025-10-21;comunicacao;988,38;suporte tecnico
+D010343;P07;2025-02-04;avaliacao;1157,34;equipamento informatico
+D010344;P07;2025-11-03;outros;466,56;avaliacao externa
+D010345;P07;06/11/2025;comunicacao;669,71;
+D010346;P07;2025-09-18;avaliacao;798,33;
+D010347;P07;2025-03-20;avaliacao;584,29;deslocacoes
+D010348;P07;2025-03-20;outros;473,58;deslocacoes
+D010349;P07;2025-08-07;outros;182,54;Material pedagogico
+D010350;P07;2025-06-02;formacao;603,84;equipamento informatico
+D010351;P07;2025-12-26;outros;704,42;material pedagogico
+D010352;P07;13/01/2025;outros;1114,90;transporte
+D010353;P07;2025-09-24;equipamento;976,77;
+D010354;P07;2025-06-15;outros;566,00;transporte
+D010355;P07;2025-10-07;avaliacao;1037,64;formacao de formadores
+D010356;P07;09/04/2025;logistica;345,88;equipamento informatico
+D010357;P07;2025-11-11;logistica;517,07;avaliacao externa
+D010358;P07;05/09/2025;pessoal;555,24;material pedagogico
+D010359;P07;22/08/2025;avaliacao;194,47;equipamento informatico
+D010360;P07;07/04/2025;equipamento;1197,81;material pedagogico
+D010361;P07;2025-02-10;comunicacao;670,19;material pedagogico
+D010362;P07;2025-06-11;avaliacao;525,03;material pedagogico
+D010363;P07;2025-12-08;logistica;-359,37;formacao de formadores
+D010364;P07;2025-03-07;outros;794,96;deslocacoes
+D010365;P07;2025-04-26;logistica;1213,33;Material pedagogico
+D010366;P07;2025-02-03;outros;970,94;formacao de formadores
+D010367;P07;2025-09-15;formacao;1224,96;transporte
+D010368;P07;2025-07-15;logistica;1019,19;suporte tecnico
+D010369;P07;2025-12-01;logistica;1089,73;equipamento informatico
+D010370;P07;2025-02-04;outros;673,01;avaliacao externa
+D010371;P07;22/03/2025;formacao;286,61;formacao de formadores
+D010372;P07;2025-07-11;avaliacao;735,68;material pedagogico
+D010373;P07;2025-06-15;avaliacao;805,71;formacao de formadores
+D010374;P07;2025-06-05;equipamento;460,19;equipamento informatico
+D010375;P07;27/09/2025;pessoal;435,22;
+D010376;P07;2025-11-27;comunicacao;601,06;deslocacoes
+D010377;P07;2025-07-12;comunicacao;660,89;transporte
+D010378;P07;2025-07-03;avaliacao;900,14;material pedagogico
+D010379;P07;2025-06-25;avaliacao;508,80;
+D010380;P07;2025-04-03;logistica;244,15;avaliacao externa
+D010381;P07;2025-11-10;outros;557,80;formacao de formadores
+D010382;P07;2025-05-24;comunicacao;426,60;equipamento informatico
+D010383;P07;2025-08-23;comunicacao;896,83;equipamento informatico
+D010384;P07;2025-07-21;formacao;610,09;equipamento informatico
+D010385;P07;2025-08-06;avaliacao;855,36;
+D010386;P07;2025-09-19;comunicacao;590,59;material pedagogico
+D010387;P07;2025-04-12;formacao;844,05;avaliacao externa
+D010388;P07;2025-02-13;outros;166,36;equipamento informatico
+D010389;P07;2025-03-02;avaliacao;868,23;transporte
+D010390;P07;2025-05-03;outros;221,67;avaliacao externa
+D010391;P07;2025-08-04;equipamento;1071,66;suporte tecnico
+D010392;P07;25/01/2025;logistica;1242,98;suporte tecnico
+D010393;P07;2025-08-21;avaliacao;793,25;equipamento informatico
+D010394;P07;2025-03-12;formacao;190,93;deslocacoes
+D010395;P07;26/03/2025;equipamento;526,56;equipamento informatico
+D010396;P07;2025-11-23;outros;287,67;suporte tecnico
+D010397;P07;2025-12-08;pessoal;246,51;equipamento informatico
+D010398;P07;2025-03-15;equipamento;922,18;material pedagogico
+D010399;P07;2025-02-22;logistica;954,53;equipamento informatico
+D010400;P07;2025-12-14;formacao;901,44;avaliacao externa
+D010401;P07;16/03/2025;equipamento;342,34;equipamento informatico
+D010402;P07;26/07/2025;pessoal;374,39;transporte
+D010403;P07;2025-04-12;equipamento;519,77;
+D010404;P07;2025-06-24;formacao;647,85;Material pedagogico
+D010405;P07;2025-03-02;outros;434,92;transporte
+D010406;P07;2025-07-09;equipamento;1219,77;formacao de formadores
+D010407;P07;05/11/2025;outros;194,05;deslocacoes
+D010408;P07;26/05/2025;formacao;736,27;material pedagogico
+D010409;P07;2025-03-13;avaliacao;1289,77;suporte tecnico
+D010410;P07;2025-07-03;formacao;1334,52;equipamento informatico
+D010411;P07;2025-09-05;avaliacao;547,88;deslocacoes
+D010412;P07;2025-05-21;equipamento;911,34;material pedagogico
+D010413;P07;2025-07-26;equipamento;1118,15;equipamento informatico
+D010414;P07;2025-06-04;formacao;-145,96;material pedagogico
+D010415;P07;2025-04-06;formacao;821,21;Material pedagogico
+D010416;P07;2025-11-24;logistica;1314,13;material pedagogico
+D010417;P07;2025-04-11;equipamento;1224,09;equipamento informatico
+D010418;P07;2025-11-03;outros;1214,05;transporte
+D010419;P07;2025-10-08;formacao;884,89;Material pedagogico
+D010420;P07;2025-10-04;outros;902,54;material pedagogico
+D010421;P07;2025-07-05;logistica;438,11;Material pedagogico
+D010422;P07;2025-05-23;formacao;1124,10;avaliacao externa
+D010423;P07;2025-04-08;formacao;1076,34;suporte tecnico
+D010424;P07;14/08/2025;outros;673,83;deslocacoes
+D010425;P07;2025-10-09;pessoal;1180,43;formacao de formadores
+D010426;P07;2025-01-04;avaliacao;453,09;material pedagogico
+D010427;P07;07/11/2025;formacao;1169,25;transporte
+D010428;P07;2025-10-08;equipamento;904,90;formacao de formadores
+D010429;P07;2025-11-09;formacao;215,90;
+D010430;P07;2025-04-05;formacao;584,11;Material pedagogico
+D010431;P07;2025-04-20;pessoal;978,14;transporte
+D010432;P07;2025-07-17;formacao;1022,37;avaliacao externa
+D010433;P07;09/08/2025;outros;599,75;Material pedagogico
+D010434;P07;2025-03-09;equipamento;433,75;avaliacao externa
+D010435;P07;2025-11-20;equipamento;369,03;suporte tecnico
+D010436;P07;2025-09-03;outros;1323,91;material pedagogico
+D010437;P07;2025-05-21;logistica;628,96;suporte tecnico
+D010438;P07;2025-01-26;pessoal;643,10;Material pedagogico
+D010439;P07;26/06/2025;outros;362,00;equipamento informatico
+D010440;P07;2025-10-11;outros;608,44;avaliacao externa
+D010441;P07;2025-05-12;pessoal;1325,25;avaliacao externa
+D010442;P07;2025-01-26;avaliacao;756,54;equipamento informatico
+D010443;P07;2025-06-13;avaliacao;1002,26;formacao de formadores
+D010444;P07;2025-03-17;comunicacao;1280,65;formacao de formadores
+D010445;P07;2025-04-08;outros;1260,60;Material pedagogico
+D010446;P07;19/08/2025;comunicacao;1208,39;deslocacoes
+D010447;P07;2025-11-09;pessoal;1241,08;avaliacao externa
+D010448;P07;2025-02-01;avaliacao;888,23;deslocacoes
+D010449;P07;2025-06-04;outros;-1023,02;avaliacao externa
+D010450;P07;2025-09-01;formacao;1104,73;deslocacoes
+D010451;P07;07/09/2025;pessoal;1340,48;
+D010452;P07;2025-07-19;logistica;1208,59;equipamento informatico
+D010453;P07;2025-04-10;equipamento;-657,82;suporte tecnico
+D010454;P07;2025-12-12;avaliacao;164,95;transporte
+D010455;P07;2025-10-20;formacao;1342,74;
+D010456;P07;2025-06-08;equipamento;796,89;material pedagogico
+D010457;P07;2025-01-19;outros;1283,00;
+D010458;P07;05/10/2025;pessoal;663,53;
+D010459;P07;2025-04-21;equipamento;-776,05;Material pedagogico
+D010460;P07;2025-11-12;avaliacao;-1029,05;suporte tecnico
+D010461;P07;2025-12-27;avaliacao;347,05;avaliacao externa
+D010462;P07;2025-01-06;avaliacao;595,79;
+D010463;P07;2025-03-03;equipamento;1202,06;avaliacao externa
+D010464;P07;2025-09-11;equipamento;751,74;material pedagogico
+D010465;P07;2025-11-13;outros;944,59;material pedagogico
+D010466;P07;2025-02-26;logistica;807,80;
+D010467;P07;2025-07-01;pessoal;718,45;avaliacao externa
+D010468;P07;2025-02-13;pessoal;588,32;formacao de formadores
+D010469;P07;2025-08-24;equipamento;1305,72;material pedagogico
+D010470;P07;2025-12-02;formacao;1022,88;suporte tecnico
+D010471;P07;2025-03-09;avaliacao;1293,71;
+D010472;P07;2025-03-27;comunicacao;1186,48;avaliacao externa
+D010473;P07;2025-12-06;avaliacao;214,29;
+D010474;P07;2025-05-09;comunicacao;1191,25;deslocacoes
+D010475;P07;2025-10-05;logistica;267,58;Material pedagogico
+D010476;P07;2025-01-19;formacao;1280,15;equipamento informatico
+D010477;P07;23/06/2025;avaliacao;779,75;equipamento informatico
+D010478;P07;2025-10-03;avaliacao;519,34;
+D010479;P07;2025-07-16;pessoal;954,19;suporte tecnico
+D010480;P07;2025-07-08;pessoal;1238,76;material pedagogico
+D010481;P07;2025-08-12;pessoal;1339,73;material pedagogico
+D010482;P07;2025-11-25;pessoal;427,18;formacao de formadores
+D010483;P07;2025-07-17;outros;1043,34;
+D010484;P07;13/06/2025;avaliacao;416,84;Material pedagogico
+D010485;P07;2025-04-09;outros;210,11;material pedagogico
+D010486;P07;2025-05-11;avaliacao;358,66;equipamento informatico
+D010487;P07;2025-11-14;comunicacao;1074,54;transporte
+D010488;P07;2025-12-14;logistica;307,44;suporte tecnico
+D010489;P07;2025-08-12;comunicacao;1028,20;suporte tecnico
+D010490;P07;2025-11-05;comunicacao;1295,32;Material pedagogico
+D010491;P07;2025-03-18;comunicacao;1034,76;equipamento informatico
+D010492;P07;2025-12-19;pessoal;481,44;formacao de formadores
+D010493;P07;16/08/2025;outros;1205,78;
+D010494;P07;2025-04-01;avaliacao;1108,43;Material pedagogico
+D010495;P07;2025-10-13;logistica;879,06;equipamento informatico
+D010496;P07;2025-10-25;comunicacao;1317,54;suporte tecnico
+D010497;P07;2025-11-10;pessoal;373,52;
+D010498;P07;2025-08-06;comunicacao;171,66;deslocacoes
+D010499;P07;2025-01-25;avaliacao;473,36;suporte tecnico
+D010500;P07;12/12/2025;avaliacao;508,85;avaliacao externa

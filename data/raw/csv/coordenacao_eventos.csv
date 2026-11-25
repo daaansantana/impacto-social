@@ -1,0 +1,601 @@
+﻿id;id_projeto;data;tipo_evento;horas_reuniao;participantes;descricao
+EC00001;P01;2025-07-25;formacao;16,85;18;Coordenacao Geral
+EC00002;P01;2024-11-05;reuniao_equipa;23,96;13;revisao de plano
+EC00003;P01;2025-01-18;avaliacao;18,89;24;coordenacao de atividades
+EC00004;P01;2025-03-08;alinhamento;11,97;16;alinhamento de equipa
+EC00005;P01;2024-03-21;avaliacao;10,58;23;revisao de plano
+EC00006;P01;2024-08-09;avaliacao;16,65;5;coordenacao de atividades
+EC00007;P01;2024-06-07;alinhamento;8,07;22;Coordenacao Geral
+EC00008;P01;2025-06-14;formacao;18,91;12;coordenacao de atividades
+EC00009;P01;2025-02-22;avaliacao;10,34;6;Coordenacao Geral
+EC00010;P01;2024-05-23;avaliacao;13,30;16;alinhamento de equipa
+EC00011;P01;2025-03-27;formacao;8,99;3;alinhamento de equipa
+EC00012;P01;2025-01-25;formacao;11,19;14;alinhamento de equipa
+EC00013;P01;2025-09-26;reuniao_equipa;14,39;22;Coordenacao Geral
+EC00014;P01;2024-04-25;formacao;10,61;13;Coordenacao Geral
+EC00015;P01;2024-07-16;reuniao_equipa;19,49;6;coordenacao de atividades
+EC00016;P01;2024-05-15;formacao;21,96;8;revisao de plano
+EC00017;P01;2024-06-04;avaliacao;12,85;23;revisao de plano
+EC00018;P01;2024-03-24;formacao;23,01;24;Coordenacao Geral
+EC00019;P01;2024-01-23;avaliacao;22,31;7;revisao de plano
+EC00020;P01;2024-05-22;alinhamento;20,07;15;coordenacao de atividades
+EC00021;P01;2024-07-09;alinhamento;10,17;14;revisao de plano
+EC00022;P01;2025-09-25;reuniao_equipa;18,91;9;Coordenacao Geral
+EC00023;P01;2024-03-08;reuniao_equipa;9,42;17;Coordenacao Geral
+EC00024;P01;2024-12-22;reuniao_equipa;16,92;12;coordenacao de atividades
+EC00025;P01;2025-09-12;formacao;18,37;13;revisao de plano
+EC00026;P01;2024-05-08;alinhamento;12,00;18;Coordenacao Geral
+EC00027;P01;2024-05-02;formacao;10,54;3;coordenacao de atividades
+EC00028;P01;2024-09-15;avaliacao;20,20;7;coordenacao de atividades
+EC00029;P01;2025-01-04;reuniao_equipa;8,73;6;Coordenacao Geral
+EC00030;P01;2025-12-08;reuniao_equipa;15,53;10;Coordenacao Geral
+EC00031;P01;2025-02-10;formacao;22,57;15;revisao de plano
+EC00032;P01;2024-11-18;formacao;6,65;5;coordenacao de atividades
+EC00033;P01;2024-07-05;alinhamento;20,15;19;revisao de plano
+EC00034;P01;2024-08-20;reuniao_equipa;19,64;18;alinhamento de equipa
+EC00035;P01;2024-02-09;alinhamento;14,80;22;coordenacao de atividades
+EC00036;P01;2024-12-02;formacao;25,23;21;coordenacao de atividades
+EC00037;P01;2024-12-12;alinhamento;13,79;4;coordenacao de atividades
+EC00038;P01;2025-11-06;reuniao_equipa;16,74;15;revisao de plano
+EC00039;P01;2025-02-17;reuniao_equipa;6,88;3;Coordenacao Geral
+EC00040;P01;2024-05-06;alinhamento;21,19;20;coordenacao de atividades
+EC00041;P01;2025-12-04;formacao;7,62;24;alinhamento de equipa
+EC00042;P01;2025-09-27;alinhamento;22,90;18;Coordenacao Geral
+EC00043;P01;2024-01-01;alinhamento;23,76;4;revisao de plano
+EC00044;P01;2025-06-16;reuniao_equipa;18,25;6;alinhamento de equipa
+EC00045;P01;2025-10-06;reuniao_equipa;19,10;10;coordenacao de atividades
+EC00046;P01;2025-12-12;reuniao_equipa;11,06;12;alinhamento de equipa
+EC00047;P01;2025-04-01;avaliacao;12,29;12;coordenacao de atividades
+EC00048;P01;2025-01-15;alinhamento;9,29;22;Coordenacao Geral
+EC00049;P01;2025-10-04;alinhamento;10,94;23;coordenacao de atividades
+EC00050;P01;2024-10-27;alinhamento;8,33;7;alinhamento de equipa
+EC00051;P02;2025-01-25;avaliacao;7,54;17;alinhamento de equipa
+EC00052;P02;2025-11-26;alinhamento;5,34;17;revisao de plano
+EC00053;P02;2025-07-18;formacao;8,23;16;Coordenacao Geral
+EC00054;P02;2025-11-23;formacao;8,13;10;alinhamento de equipa
+EC00055;P02;2024-09-15;alinhamento;3,59;13;Coordenacao Geral
+EC00056;P02;2024-04-13;alinhamento;9,41;19;alinhamento de equipa
+EC00057;P02;2025-02-11;avaliacao;4,58;18;alinhamento de equipa
+EC00058;P02;2025-05-14;formacao;4,03;9;alinhamento de equipa
+EC00059;P02;2024-09-27;formacao;8,86;23;alinhamento de equipa
+EC00060;P02;2024-01-14;avaliacao;7,76;5;Coordenacao Geral
+EC00061;P02;2025-10-12;reuniao_equipa;12,14;7;Coordenacao Geral
+EC00062;P02;2024-03-07;avaliacao;3,83;20;Coordenacao Geral
+EC00063;P02;2024-04-22;alinhamento;5,84;8;coordenacao de atividades
+EC00064;P02;2024-01-04;alinhamento;8,10;19;alinhamento de equipa
+EC00065;P02;2025-03-26;avaliacao;10,75;6;revisao de plano
+EC00066;P02;2024-04-20;formacao;9,74;5;alinhamento de equipa
+EC00067;P02;2025-02-20;reuniao_equipa;8,20;7;revisao de plano
+EC00068;P02;2025-07-20;formacao;5,46;15;coordenacao de atividades
+EC00069;P02;2025-04-02;formacao;7,13;19;alinhamento de equipa
+EC00070;P02;2025-07-02;reuniao_equipa;5,38;10;coordenacao de atividades
+EC00071;P02;2024-06-15;reuniao_equipa;12,40;13;coordenacao de atividades
+EC00072;P02;2025-01-14;alinhamento;4,09;8;coordenacao de atividades
+EC00073;P02;2025-04-26;alinhamento;4,48;22;coordenacao de atividades
+EC00074;P02;2025-09-18;reuniao_equipa;4,15;6;alinhamento de equipa
+EC00075;P02;2024-07-03;avaliacao;8,22;11;revisao de plano
+EC00076;P02;2024-04-09;reuniao_equipa;8,24;15;alinhamento de equipa
+EC00077;P02;2024-12-27;formacao;7,82;13;Coordenacao Geral
+EC00078;P02;2025-12-10;alinhamento;5,70;4;alinhamento de equipa
+EC00079;P02;2024-10-25;avaliacao;11,72;3;alinhamento de equipa
+EC00080;P02;2024-08-13;alinhamento;11,31;20;Coordenacao Geral
+EC00081;P02;2025-06-12;reuniao_equipa;3,73;22;Coordenacao Geral
+EC00082;P02;2025-10-14;formacao;11,53;13;alinhamento de equipa
+EC00083;P02;2025-11-13;alinhamento;11,35;22;coordenacao de atividades
+EC00084;P02;2025-06-24;avaliacao;8,55;20;Coordenacao Geral
+EC00085;P02;2025-05-13;formacao;6,77;17;revisao de plano
+EC00086;P02;2024-02-14;reuniao_equipa;9,15;12;Coordenacao Geral
+EC00087;P02;2025-08-10;avaliacao;8,03;16;Coordenacao Geral
+EC00088;P02;2024-04-08;reuniao_equipa;8,67;7;coordenacao de atividades
+EC00089;P02;2025-01-15;reuniao_equipa;4,85;13;Coordenacao Geral
+EC00090;P02;2024-02-20;reuniao_equipa;3,25;5;Coordenacao Geral
+EC00091;P02;2025-12-03;alinhamento;10,56;23;coordenacao de atividades
+EC00092;P02;2024-12-07;alinhamento;11,06;22;Coordenacao Geral
+EC00093;P02;2024-12-22;alinhamento;8,33;21;revisao de plano
+EC00094;P02;2024-05-21;reuniao_equipa;8,41;22;revisao de plano
+EC00095;P02;2025-08-02;reuniao_equipa;11,34;6;alinhamento de equipa
+EC00096;P02;2025-09-16;formacao;11,19;3;Coordenacao Geral
+EC00097;P02;2025-12-02;avaliacao;3,48;10;revisao de plano
+EC00098;P02;2025-05-27;avaliacao;4,57;8;Coordenacao Geral
+EC00099;P02;2024-03-19;formacao;7,30;23;coordenacao de atividades
+EC00100;P02;2024-07-27;alinhamento;3,71;3;alinhamento de equipa
+EC00101;P03;2025-04-02;reuniao_equipa;7,70;11;Coordenacao Geral
+EC00102;P03;2025-11-22;reuniao_equipa;6,30;13;Coordenacao Geral
+EC00103;P03;2024-12-25;formacao;10,65;6;coordenacao de atividades
+EC00104;P03;2025-04-08;reuniao_equipa;9,51;19;Coordenacao Geral
+EC00105;P03;2024-06-10;avaliacao;10,50;4;Coordenacao Geral
+EC00106;P03;2025-01-05;alinhamento;7,17;3;Coordenacao Geral
+EC00107;P03;2025-08-27;alinhamento;5,99;4;alinhamento de equipa
+EC00108;P03;2025-12-10;alinhamento;3,95;11;alinhamento de equipa
+EC00109;P03;2024-08-23;avaliacao;9,92;20;revisao de plano
+EC00110;P03;2025-08-27;alinhamento;6,67;13;alinhamento de equipa
+EC00111;P03;2024-03-18;avaliacao;6,11;10;coordenacao de atividades
+EC00112;P03;2025-09-25;formacao;7,95;11;alinhamento de equipa
+EC00113;P03;2024-02-02;alinhamento;7,90;21;Coordenacao Geral
+EC00114;P03;2024-12-14;avaliacao;3,97;12;Coordenacao Geral
+EC00115;P03;2025-08-26;reuniao_equipa;3,90;14;coordenacao de atividades
+EC00116;P03;2024-08-20;reuniao_equipa;3,86;23;coordenacao de atividades
+EC00117;P03;2025-02-18;alinhamento;7,14;16;alinhamento de equipa
+EC00118;P03;2024-03-18;reuniao_equipa;9,51;7;revisao de plano
+EC00119;P03;2024-09-05;formacao;6,99;7;coordenacao de atividades
+EC00120;P03;2025-02-18;avaliacao;4,54;4;revisao de plano
+EC00121;P03;2024-11-13;formacao;6,73;20;Coordenacao Geral
+EC00122;P03;2024-04-12;formacao;6,90;14;coordenacao de atividades
+EC00123;P03;2025-07-17;alinhamento;4,39;22;Coordenacao Geral
+EC00124;P03;2025-04-24;avaliacao;9,90;4;Coordenacao Geral
+EC00125;P03;2025-01-24;avaliacao;5,44;21;coordenacao de atividades
+EC00126;P03;2025-01-22;avaliacao;7,68;11;coordenacao de atividades
+EC00127;P03;2025-08-17;alinhamento;9,66;8;coordenacao de atividades
+EC00128;P03;2024-09-08;reuniao_equipa;3,86;4;Coordenacao Geral
+EC00129;P03;2024-01-10;formacao;7,20;11;Coordenacao Geral
+EC00130;P03;2025-10-12;avaliacao;9,91;8;alinhamento de equipa
+EC00131;P03;2025-11-14;reuniao_equipa;4,54;7;alinhamento de equipa
+EC00132;P03;2024-05-06;formacao;10,31;6;alinhamento de equipa
+EC00133;P03;2025-03-04;formacao;3,53;16;Coordenacao Geral
+EC00134;P03;2025-02-05;avaliacao;9,33;18;alinhamento de equipa
+EC00135;P03;2025-05-20;avaliacao;8,17;17;revisao de plano
+EC00136;P03;2025-02-08;alinhamento;10,24;9;coordenacao de atividades
+EC00137;P03;2024-09-22;avaliacao;7,83;3;revisao de plano
+EC00138;P03;2025-07-20;alinhamento;2,79;19;revisao de plano
+EC00139;P03;2024-04-08;formacao;4,29;6;coordenacao de atividades
+EC00140;P03;2025-06-23;alinhamento;6,65;18;revisao de plano
+EC00141;P03;2025-02-12;alinhamento;9,83;8;alinhamento de equipa
+EC00142;P03;2024-02-26;reuniao_equipa;6,88;22;coordenacao de atividades
+EC00143;P03;2024-01-05;formacao;3,08;8;alinhamento de equipa
+EC00144;P03;2024-04-25;alinhamento;4,35;11;Coordenacao Geral
+EC00145;P03;2024-02-25;formacao;7,95;15;Coordenacao Geral
+EC00146;P03;2024-11-08;reuniao_equipa;6,03;11;revisao de plano
+EC00147;P03;2025-04-20;reuniao_equipa;10,07;5;coordenacao de atividades
+EC00148;P03;2024-09-18;avaliacao;9,64;5;coordenacao de atividades
+EC00149;P03;2025-11-11;avaliacao;5,88;22;revisao de plano
+EC00150;P03;2024-09-06;avaliacao;3,29;14;revisao de plano
+EC00151;P04;2025-03-26;alinhamento;7,77;9;coordenacao de atividades
+EC00152;P04;2024-08-18;alinhamento;3,78;4;coordenacao de atividades
+EC00153;P04;2024-10-06;reuniao_equipa;6,70;16;alinhamento de equipa
+EC00154;P04;2024-05-16;formacao;7,18;14;Coordenacao Geral
+EC00155;P04;2024-03-21;avaliacao;2,70;3;Coordenacao Geral
+EC00156;P04;2025-10-02;formacao;8,46;13;Coordenacao Geral
+EC00157;P04;2024-07-11;formacao;7,21;5;Coordenacao Geral
+EC00158;P04;2024-07-26;alinhamento;6,99;22;Coordenacao Geral
+EC00159;P04;2024-11-06;avaliacao;4,35;9;Coordenacao Geral
+EC00160;P04;2025-10-26;alinhamento;7,05;20;coordenacao de atividades
+EC00161;P04;2024-05-27;formacao;7,44;22;coordenacao de atividades
+EC00162;P04;2024-09-20;reuniao_equipa;3,63;7;coordenacao de atividades
+EC00163;P04;2024-02-07;alinhamento;6,80;8;coordenacao de atividades
+EC00164;P04;2024-07-09;reuniao_equipa;7,26;19;revisao de plano
+EC00165;P04;2025-10-10;avaliacao;8,47;15;revisao de plano
+EC00166;P04;2024-06-27;avaliacao;5,72;20;revisao de plano
+EC00167;P04;2025-07-13;avaliacao;4,49;20;coordenacao de atividades
+EC00168;P04;2024-04-17;alinhamento;4,14;4;alinhamento de equipa
+EC00169;P04;2025-09-12;reuniao_equipa;3,40;10;revisao de plano
+EC00170;P04;2025-01-01;avaliacao;5,72;23;coordenacao de atividades
+EC00171;P04;2024-04-04;reuniao_equipa;8,34;23;revisao de plano
+EC00172;P04;2025-10-16;formacao;4,74;14;coordenacao de atividades
+EC00173;P04;2025-02-01;avaliacao;5,14;21;coordenacao de atividades
+EC00174;P04;2025-05-07;alinhamento;8,18;15;Coordenacao Geral
+EC00175;P04;2025-08-23;reuniao_equipa;8,28;5;revisao de plano
+EC00176;P04;2025-10-04;avaliacao;5,26;20;Coordenacao Geral
+EC00177;P04;2025-04-21;formacao;4,87;9;alinhamento de equipa
+EC00178;P04;2025-12-04;alinhamento;4,36;12;alinhamento de equipa
+EC00179;P04;2024-05-21;alinhamento;5,64;22;coordenacao de atividades
+EC00180;P04;2024-02-17;formacao;3,61;6;Coordenacao Geral
+EC00181;P04;2024-02-18;alinhamento;2,42;12;alinhamento de equipa
+EC00182;P04;2025-06-12;avaliacao;3,52;13;revisao de plano
+EC00183;P04;2024-09-02;formacao;4,53;11;coordenacao de atividades
+EC00184;P04;2025-09-18;avaliacao;6,73;8;revisao de plano
+EC00185;P04;2025-02-24;formacao;7,94;10;Coordenacao Geral
+EC00186;P04;2025-09-12;formacao;7,37;3;alinhamento de equipa
+EC00187;P04;2024-01-26;alinhamento;7,34;17;alinhamento de equipa
+EC00188;P04;2025-07-23;alinhamento;2,99;8;alinhamento de equipa
+EC00189;P04;2025-08-04;formacao;8,11;9;Coordenacao Geral
+EC00190;P04;2024-03-25;reuniao_equipa;7,15;24;revisao de plano
+EC00191;P04;2024-11-22;formacao;6,58;17;revisao de plano
+EC00192;P04;2024-06-08;avaliacao;4,55;10;revisao de plano
+EC00193;P04;2024-12-10;avaliacao;5,84;22;coordenacao de atividades
+EC00194;P04;2024-02-16;formacao;7,52;21;revisao de plano
+EC00195;P04;2025-10-26;reuniao_equipa;2,74;13;revisao de plano
+EC00196;P04;2024-11-12;reuniao_equipa;6,61;17;revisao de plano
+EC00197;P04;2024-03-16;alinhamento;5,41;5;alinhamento de equipa
+EC00198;P04;2025-04-01;reuniao_equipa;5,31;6;coordenacao de atividades
+EC00199;P04;2025-05-05;reuniao_equipa;3,04;17;revisao de plano
+EC00200;P04;2025-01-23;reuniao_equipa;7,11;15;revisao de plano
+EC00201;P05;2025-05-04;reuniao_equipa;4,74;10;alinhamento de equipa
+EC00202;P05;2024-05-07;formacao;6,49;5;revisao de plano
+EC00203;P05;2024-05-11;avaliacao;9,66;9;revisao de plano
+EC00204;P05;2025-02-21;avaliacao;5,57;19;coordenacao de atividades
+EC00205;P05;2025-10-26;avaliacao;13,24;6;coordenacao de atividades
+EC00206;P05;2025-04-20;formacao;13,71;17;revisao de plano
+EC00207;P05;2024-01-24;reuniao_equipa;9,57;11;Coordenacao Geral
+EC00208;P05;2025-12-27;alinhamento;4,86;15;alinhamento de equipa
+EC00209;P05;2024-12-23;avaliacao;14,08;11;revisao de plano
+EC00210;P05;2025-03-06;alinhamento;12,79;23;Coordenacao Geral
+EC00211;P05;2025-10-19;reuniao_equipa;8,86;8;Coordenacao Geral
+EC00212;P05;2025-10-14;reuniao_equipa;13,18;21;alinhamento de equipa
+EC00213;P05;2025-07-20;reuniao_equipa;8,24;14;Coordenacao Geral
+EC00214;P05;2024-06-08;formacao;11,44;6;revisao de plano
+EC00215;P05;2025-09-20;reuniao_equipa;8,80;13;alinhamento de equipa
+EC00216;P05;2024-09-11;reuniao_equipa;8,85;17;revisao de plano
+EC00217;P05;2024-10-02;formacao;9,99;7;revisao de plano
+EC00218;P05;2024-04-06;reuniao_equipa;4,04;4;alinhamento de equipa
+EC00219;P05;2024-03-05;formacao;12,80;18;alinhamento de equipa
+EC00220;P05;2024-07-13;reuniao_equipa;10,96;15;coordenacao de atividades
+EC00221;P05;2024-10-12;reuniao_equipa;3,80;22;coordenacao de atividades
+EC00222;P05;2025-10-01;formacao;14,30;16;Coordenacao Geral
+EC00223;P05;2024-11-19;alinhamento;9,85;5;Coordenacao Geral
+EC00224;P05;2024-06-22;avaliacao;14,43;5;alinhamento de equipa
+EC00225;P05;2025-11-12;alinhamento;9,03;7;coordenacao de atividades
+EC00226;P05;2024-06-05;avaliacao;9,05;19;Coordenacao Geral
+EC00227;P05;2024-01-22;alinhamento;12,24;11;alinhamento de equipa
+EC00228;P05;2025-05-14;avaliacao;3,94;11;Coordenacao Geral
+EC00229;P05;2025-12-21;reuniao_equipa;5,61;24;alinhamento de equipa
+EC00230;P05;2025-11-26;avaliacao;10,80;13;coordenacao de atividades
+EC00231;P05;2024-04-01;avaliacao;8,49;15;Coordenacao Geral
+EC00232;P05;2025-09-16;alinhamento;7,59;24;Coordenacao Geral
+EC00233;P05;2025-03-13;alinhamento;7,99;20;coordenacao de atividades
+EC00234;P05;2025-12-24;avaliacao;7,38;10;Coordenacao Geral
+EC00235;P05;2025-07-11;alinhamento;9,44;6;revisao de plano
+EC00236;P05;2025-04-19;avaliacao;12,50;24;Coordenacao Geral
+EC00237;P05;2024-09-14;avaliacao;6,05;7;coordenacao de atividades
+EC00238;P05;2024-03-14;avaliacao;6,57;6;revisao de plano
+EC00239;P05;2025-07-07;alinhamento;3,94;9;Coordenacao Geral
+EC00240;P05;2024-06-02;alinhamento;7,23;17;alinhamento de equipa
+EC00241;P05;2024-11-12;reuniao_equipa;6,01;24;revisao de plano
+EC00242;P05;2024-01-09;alinhamento;14,60;22;Coordenacao Geral
+EC00243;P05;2025-08-04;formacao;11,02;16;Coordenacao Geral
+EC00244;P05;2025-09-02;reuniao_equipa;4,94;20;coordenacao de atividades
+EC00245;P05;2025-06-02;reuniao_equipa;9,37;11;coordenacao de atividades
+EC00246;P05;2024-05-10;formacao;10,44;15;coordenacao de atividades
+EC00247;P05;2025-07-24;reuniao_equipa;7,74;20;alinhamento de equipa
+EC00248;P05;2025-11-27;reuniao_equipa;11,03;15;revisao de plano
+EC00249;P05;2025-07-16;reuniao_equipa;4,92;6;coordenacao de atividades
+EC00250;P05;2024-08-23;avaliacao;9,06;3;Coordenacao Geral
+EC00251;P06;2025-02-27;avaliacao;6,42;16;coordenacao de atividades
+EC00252;P06;2024-01-09;avaliacao;5,07;6;coordenacao de atividades
+EC00253;P06;2025-03-16;reuniao_equipa;2,12;17;Coordenacao Geral
+EC00254;P06;2024-06-25;reuniao_equipa;6,44;6;coordenacao de atividades
+EC00255;P06;2025-11-26;reuniao_equipa;4,88;19;Coordenacao Geral
+EC00256;P06;2024-11-11;reuniao_equipa;6,13;18;alinhamento de equipa
+EC00257;P06;2025-07-17;formacao;5,35;21;coordenacao de atividades
+EC00258;P06;2024-02-01;formacao;6,14;4;coordenacao de atividades
+EC00259;P06;2024-10-10;formacao;7,48;7;coordenacao de atividades
+EC00260;P06;2025-11-26;reuniao_equipa;6,99;7;Coordenacao Geral
+EC00261;P06;2025-06-19;formacao;3,53;3;revisao de plano
+EC00262;P06;2024-01-13;avaliacao;7,05;20;coordenacao de atividades
+EC00263;P06;2024-10-18;reuniao_equipa;6,27;10;alinhamento de equipa
+EC00264;P06;2025-06-21;avaliacao;2,63;14;coordenacao de atividades
+EC00265;P06;2025-12-27;alinhamento;7,02;7;Coordenacao Geral
+EC00266;P06;2025-08-01;formacao;6,54;16;coordenacao de atividades
+EC00267;P06;2025-06-05;reuniao_equipa;4,83;16;coordenacao de atividades
+EC00268;P06;2024-10-22;alinhamento;5,21;19;revisao de plano
+EC00269;P06;2024-06-21;avaliacao;2,11;15;alinhamento de equipa
+EC00270;P06;2025-10-01;avaliacao;7,29;18;coordenacao de atividades
+EC00271;P06;2024-01-13;reuniao_equipa;4,98;11;coordenacao de atividades
+EC00272;P06;2025-09-07;alinhamento;4,49;7;Coordenacao Geral
+EC00273;P06;2024-11-01;alinhamento;4,93;14;coordenacao de atividades
+EC00274;P06;2024-02-13;reuniao_equipa;7,61;19;alinhamento de equipa
+EC00275;P06;2025-10-14;formacao;4,13;11;revisao de plano
+EC00276;P06;2024-01-24;avaliacao;4,21;20;coordenacao de atividades
+EC00277;P06;2024-07-22;alinhamento;6,31;23;alinhamento de equipa
+EC00278;P06;2024-05-05;alinhamento;4,37;8;revisao de plano
+EC00279;P06;2024-11-12;alinhamento;2,62;10;alinhamento de equipa
+EC00280;P06;2024-10-15;formacao;4,85;19;alinhamento de equipa
+EC00281;P06;2024-08-17;alinhamento;3,62;23;coordenacao de atividades
+EC00282;P06;2025-04-16;avaliacao;7,37;21;alinhamento de equipa
+EC00283;P06;2025-03-09;avaliacao;6,71;21;revisao de plano
+EC00284;P06;2025-10-05;avaliacao;5,46;19;coordenacao de atividades
+EC00285;P06;2024-10-22;avaliacao;7,09;18;alinhamento de equipa
+EC00286;P06;2025-05-10;avaliacao;2,26;21;alinhamento de equipa
+EC00287;P06;2025-03-25;avaliacao;6,67;13;coordenacao de atividades
+EC00288;P06;2024-01-23;formacao;2,89;20;coordenacao de atividades
+EC00289;P06;2024-02-20;reuniao_equipa;3,64;11;Coordenacao Geral
+EC00290;P06;2024-10-01;avaliacao;7,38;19;revisao de plano
+EC00291;P06;2024-05-02;formacao;7,00;10;coordenacao de atividades
+EC00292;P06;2025-06-18;reuniao_equipa;2,29;15;revisao de plano
+EC00293;P06;2024-02-02;formacao;5,44;4;revisao de plano
+EC00294;P06;2025-03-07;reuniao_equipa;6,90;9;Coordenacao Geral
+EC00295;P06;2025-04-22;reuniao_equipa;6,22;24;alinhamento de equipa
+EC00296;P06;2025-04-17;reuniao_equipa;5,91;5;Coordenacao Geral
+EC00297;P06;2025-08-24;alinhamento;2,23;24;alinhamento de equipa
+EC00298;P06;2025-10-25;formacao;3,46;9;alinhamento de equipa
+EC00299;P06;2025-12-11;avaliacao;4,22;17;alinhamento de equipa
+EC00300;P06;2025-01-01;alinhamento;4,42;9;Coordenacao Geral
+EC00301;P07;2025-07-14;formacao;3,37;8;alinhamento de equipa
+EC00302;P07;2024-05-11;avaliacao;5,53;12;revisao de plano
+EC00303;P07;2025-10-04;formacao;5,16;18;revisao de plano
+EC00304;P07;2024-02-21;formacao;4,26;12;alinhamento de equipa
+EC00305;P07;2024-02-26;alinhamento;2,83;14;alinhamento de equipa
+EC00306;P07;2024-01-16;reuniao_equipa;4,60;10;coordenacao de atividades
+EC00307;P07;2025-02-25;alinhamento;7,45;6;coordenacao de atividades
+EC00308;P07;2024-08-25;avaliacao;4,26;3;coordenacao de atividades
+EC00309;P07;2025-12-17;avaliacao;4,35;5;alinhamento de equipa
+EC00310;P07;2024-12-07;reuniao_equipa;4,31;18;Coordenacao Geral
+EC00311;P07;2024-09-03;alinhamento;7,93;14;revisao de plano
+EC00312;P07;2024-08-20;avaliacao;4,11;9;Coordenacao Geral
+EC00313;P07;2025-11-24;avaliacao;4,71;23;coordenacao de atividades
+EC00314;P07;2024-07-09;reuniao_equipa;6,91;22;Coordenacao Geral
+EC00315;P07;2024-10-21;reuniao_equipa;2,16;5;revisao de plano
+EC00316;P07;2024-05-24;reuniao_equipa;2,70;16;coordenacao de atividades
+EC00317;P07;2025-02-14;formacao;4,39;14;alinhamento de equipa
+EC00318;P07;2025-07-19;formacao;7,38;11;Coordenacao Geral
+EC00319;P07;2025-11-05;formacao;3,73;24;revisao de plano
+EC00320;P07;2024-11-11;formacao;5,08;22;Coordenacao Geral
+EC00321;P07;2024-04-16;reuniao_equipa;4,01;19;alinhamento de equipa
+EC00322;P07;2024-06-17;alinhamento;7,31;21;alinhamento de equipa
+EC00323;P07;2024-09-12;alinhamento;6,70;4;coordenacao de atividades
+EC00324;P07;2024-11-10;avaliacao;4,04;21;coordenacao de atividades
+EC00325;P07;2024-05-02;avaliacao;2,28;16;coordenacao de atividades
+EC00326;P07;2025-10-27;avaliacao;6,31;23;revisao de plano
+EC00327;P07;2025-08-20;avaliacao;2,72;18;Coordenacao Geral
+EC00328;P07;2024-11-23;formacao;3,67;10;revisao de plano
+EC00329;P07;2025-09-12;alinhamento;5,98;15;Coordenacao Geral
+EC00330;P07;2025-11-26;formacao;6,61;3;Coordenacao Geral
+EC00331;P07;2025-12-15;reuniao_equipa;2,39;17;coordenacao de atividades
+EC00332;P07;2024-06-15;avaliacao;7,69;10;Coordenacao Geral
+EC00333;P07;2024-02-24;formacao;2,82;5;Coordenacao Geral
+EC00334;P07;2025-03-10;alinhamento;6,33;16;coordenacao de atividades
+EC00335;P07;2024-12-22;formacao;6,55;9;Coordenacao Geral
+EC00336;P07;2024-01-04;alinhamento;4,76;3;revisao de plano
+EC00337;P07;2024-11-20;alinhamento;7,10;9;revisao de plano
+EC00338;P07;2024-07-10;formacao;4,11;15;Coordenacao Geral
+EC00339;P07;2024-06-09;avaliacao;3,32;16;coordenacao de atividades
+EC00340;P07;2025-07-19;reuniao_equipa;4,04;15;alinhamento de equipa
+EC00341;P07;2025-12-18;formacao;2,19;21;Coordenacao Geral
+EC00342;P07;2025-10-09;avaliacao;2,40;8;revisao de plano
+EC00343;P07;2024-06-05;alinhamento;6,82;14;Coordenacao Geral
+EC00344;P07;2024-10-08;formacao;2,85;19;revisao de plano
+EC00345;P07;2025-02-25;avaliacao;6,88;4;revisao de plano
+EC00346;P07;2024-02-23;alinhamento;3,76;9;revisao de plano
+EC00347;P07;2025-06-03;alinhamento;3,93;7;Coordenacao Geral
+EC00348;P07;2025-01-11;alinhamento;6,84;3;alinhamento de equipa
+EC00349;P07;2024-08-06;alinhamento;2,74;15;Coordenacao Geral
+EC00350;P07;2025-04-17;formacao;5,72;14;revisao de plano
+EC00351;P08;2025-10-18;avaliacao;11,13;6;coordenacao de atividades
+EC00352;P08;2025-01-03;reuniao_equipa;3,78;5;coordenacao de atividades
+EC00353;P08;2024-12-23;alinhamento;8,69;10;revisao de plano
+EC00354;P08;2024-03-24;avaliacao;5,62;11;coordenacao de atividades
+EC00355;P08;2024-09-07;reuniao_equipa;8,13;17;alinhamento de equipa
+EC00356;P08;2025-11-24;avaliacao;4,54;24;coordenacao de atividades
+EC00357;P08;2025-01-02;formacao;5,33;11;alinhamento de equipa
+EC00358;P08;2025-08-15;alinhamento;3,93;24;alinhamento de equipa
+EC00359;P08;2024-04-17;reuniao_equipa;10,21;13;alinhamento de equipa
+EC00360;P08;2025-08-02;alinhamento;3,87;24;alinhamento de equipa
+EC00361;P08;2024-07-22;avaliacao;7,80;10;alinhamento de equipa
+EC00362;P08;2025-07-07;reuniao_equipa;8,29;4;revisao de plano
+EC00363;P08;2024-03-12;reuniao_equipa;6,94;6;coordenacao de atividades
+EC00364;P08;2024-07-22;alinhamento;4,62;23;Coordenacao Geral
+EC00365;P08;2024-11-11;avaliacao;11,06;24;Coordenacao Geral
+EC00366;P08;2025-08-13;formacao;6,75;19;revisao de plano
+EC00367;P08;2025-01-25;formacao;10,42;8;coordenacao de atividades
+EC00368;P08;2024-10-23;formacao;3,41;18;Coordenacao Geral
+EC00369;P08;2025-06-11;reuniao_equipa;10,77;12;Coordenacao Geral
+EC00370;P08;2025-02-17;reuniao_equipa;8,72;10;revisao de plano
+EC00371;P08;2024-12-27;reuniao_equipa;10,11;11;coordenacao de atividades
+EC00372;P08;2025-03-18;avaliacao;8,46;8;alinhamento de equipa
+EC00373;P08;2025-01-25;avaliacao;6,37;15;Coordenacao Geral
+EC00374;P08;2024-10-20;formacao;4,98;15;revisao de plano
+EC00375;P08;2024-07-14;formacao;4,68;5;alinhamento de equipa
+EC00376;P08;2025-01-08;avaliacao;5,76;3;revisao de plano
+EC00377;P08;2025-03-13;avaliacao;5,84;19;Coordenacao Geral
+EC00378;P08;2024-11-15;alinhamento;10,53;11;coordenacao de atividades
+EC00379;P08;2025-11-13;formacao;10,06;14;coordenacao de atividades
+EC00380;P08;2024-11-23;alinhamento;7,16;24;coordenacao de atividades
+EC00381;P08;2025-10-25;alinhamento;6,02;20;Coordenacao Geral
+EC00382;P08;2024-10-18;reuniao_equipa;5,36;4;revisao de plano
+EC00383;P08;2024-10-01;formacao;2,97;5;Coordenacao Geral
+EC00384;P08;2024-09-17;reuniao_equipa;6,10;20;Coordenacao Geral
+EC00385;P08;2025-06-20;alinhamento;10,63;11;coordenacao de atividades
+EC00386;P08;2024-01-22;avaliacao;9,49;21;alinhamento de equipa
+EC00387;P08;2025-03-02;reuniao_equipa;6,27;4;coordenacao de atividades
+EC00388;P08;2025-04-08;formacao;7,80;14;revisao de plano
+EC00389;P08;2025-07-02;reuniao_equipa;7,17;13;coordenacao de atividades
+EC00390;P08;2025-03-08;alinhamento;5,05;17;revisao de plano
+EC00391;P08;2025-01-05;avaliacao;10,50;24;revisao de plano
+EC00392;P08;2025-10-08;formacao;4,01;9;revisao de plano
+EC00393;P08;2024-06-04;formacao;4,63;8;coordenacao de atividades
+EC00394;P08;2024-10-23;avaliacao;3,93;17;revisao de plano
+EC00395;P08;2025-10-04;alinhamento;7,54;13;Coordenacao Geral
+EC00396;P08;2025-04-21;formacao;4,86;20;coordenacao de atividades
+EC00397;P08;2025-12-23;alinhamento;3,50;16;Coordenacao Geral
+EC00398;P08;2024-09-03;alinhamento;7,27;4;coordenacao de atividades
+EC00399;P08;2025-01-06;formacao;3,92;14;Coordenacao Geral
+EC00400;P08;2024-12-13;alinhamento;11,05;19;revisao de plano
+EC00401;P09;2025-11-08;avaliacao;8,60;12;coordenacao de atividades
+EC00402;P09;2025-04-20;avaliacao;5,90;4;Coordenacao Geral
+EC00403;P09;2024-05-24;reuniao_equipa;3,42;8;Coordenacao Geral
+EC00404;P09;2024-09-03;reuniao_equipa;7,22;3;Coordenacao Geral
+EC00405;P09;2025-01-10;formacao;8,59;15;Coordenacao Geral
+EC00406;P09;2025-09-07;formacao;9,23;6;coordenacao de atividades
+EC00407;P09;2024-09-17;avaliacao;8,02;5;alinhamento de equipa
+EC00408;P09;2024-10-16;avaliacao;7,57;24;coordenacao de atividades
+EC00409;P09;2024-07-15;alinhamento;3,28;22;coordenacao de atividades
+EC00410;P09;2025-01-04;alinhamento;9,43;5;revisao de plano
+EC00411;P09;2025-12-19;avaliacao;6,87;13;alinhamento de equipa
+EC00412;P09;2024-11-26;alinhamento;3,56;22;alinhamento de equipa
+EC00413;P09;2024-07-20;formacao;3,64;23;coordenacao de atividades
+EC00414;P09;2025-05-13;avaliacao;9,65;21;Coordenacao Geral
+EC00415;P09;2024-09-10;formacao;5,87;19;alinhamento de equipa
+EC00416;P09;2024-04-25;formacao;4,10;18;alinhamento de equipa
+EC00417;P09;2024-08-04;alinhamento;4,01;5;coordenacao de atividades
+EC00418;P09;2024-03-24;avaliacao;4,99;24;revisao de plano
+EC00419;P09;2025-02-12;avaliacao;3,18;16;alinhamento de equipa
+EC00420;P09;2024-04-24;reuniao_equipa;5,26;3;revisao de plano
+EC00421;P09;2024-01-16;avaliacao;9,04;23;coordenacao de atividades
+EC00422;P09;2025-02-21;formacao;4,62;8;alinhamento de equipa
+EC00423;P09;2025-04-15;reuniao_equipa;8,68;22;coordenacao de atividades
+EC00424;P09;2024-11-24;formacao;3,16;8;alinhamento de equipa
+EC00425;P09;2025-03-26;alinhamento;6,79;6;Coordenacao Geral
+EC00426;P09;2025-01-17;reuniao_equipa;5,75;9;Coordenacao Geral
+EC00427;P09;2025-03-25;formacao;7,81;16;coordenacao de atividades
+EC00428;P09;2024-06-04;alinhamento;5,01;20;alinhamento de equipa
+EC00429;P09;2024-10-26;reuniao_equipa;4,96;14;Coordenacao Geral
+EC00430;P09;2024-10-04;formacao;6,18;16;Coordenacao Geral
+EC00431;P09;2025-09-06;avaliacao;9,35;17;revisao de plano
+EC00432;P09;2025-11-04;formacao;2,66;15;coordenacao de atividades
+EC00433;P09;2024-10-22;alinhamento;8,37;14;revisao de plano
+EC00434;P09;2025-11-02;formacao;8,85;8;revisao de plano
+EC00435;P09;2025-05-15;alinhamento;5,71;22;revisao de plano
+EC00436;P09;2025-03-15;formacao;7,50;3;Coordenacao Geral
+EC00437;P09;2024-10-26;formacao;3,11;24;coordenacao de atividades
+EC00438;P09;2025-04-12;formacao;3,48;12;Coordenacao Geral
+EC00439;P09;2024-08-12;reuniao_equipa;7,76;10;alinhamento de equipa
+EC00440;P09;2025-03-16;alinhamento;9,56;20;coordenacao de atividades
+EC00441;P09;2025-05-18;alinhamento;7,93;22;revisao de plano
+EC00442;P09;2025-03-06;reuniao_equipa;9,39;8;alinhamento de equipa
+EC00443;P09;2025-06-13;reuniao_equipa;8,22;20;alinhamento de equipa
+EC00444;P09;2025-04-27;reuniao_equipa;7,46;9;alinhamento de equipa
+EC00445;P09;2025-12-14;formacao;8,54;22;revisao de plano
+EC00446;P09;2025-02-08;formacao;8,24;21;Coordenacao Geral
+EC00447;P09;2025-02-06;formacao;4,89;22;revisao de plano
+EC00448;P09;2025-12-11;alinhamento;5,11;3;coordenacao de atividades
+EC00449;P09;2025-10-14;formacao;6,53;5;alinhamento de equipa
+EC00450;P09;2024-08-19;alinhamento;6,11;13;alinhamento de equipa
+EC00451;P10;2025-01-23;formacao;4,70;14;revisao de plano
+EC00452;P10;2025-10-24;alinhamento;7,19;7;revisao de plano
+EC00453;P10;2024-09-27;avaliacao;15,05;4;Coordenacao Geral
+EC00454;P10;2024-10-03;avaliacao;13,88;5;coordenacao de atividades
+EC00455;P10;2025-11-17;alinhamento;8,27;16;Coordenacao Geral
+EC00456;P10;2024-09-03;reuniao_equipa;7,06;22;revisao de plano
+EC00457;P10;2025-11-18;avaliacao;6,18;9;Coordenacao Geral
+EC00458;P10;2024-02-19;formacao;11,37;9;alinhamento de equipa
+EC00459;P10;2024-10-14;avaliacao;8,20;5;alinhamento de equipa
+EC00460;P10;2025-03-05;alinhamento;8,67;17;alinhamento de equipa
+EC00461;P10;2025-02-15;reuniao_equipa;5,38;22;alinhamento de equipa
+EC00462;P10;2024-09-11;avaliacao;7,24;16;alinhamento de equipa
+EC00463;P10;2024-09-15;reuniao_equipa;6,32;16;revisao de plano
+EC00464;P10;2025-12-02;avaliacao;15,51;3;revisao de plano
+EC00465;P10;2025-06-17;reuniao_equipa;10,20;20;Coordenacao Geral
+EC00466;P10;2025-04-14;formacao;9,36;6;revisao de plano
+EC00467;P10;2025-07-13;avaliacao;11,58;13;Coordenacao Geral
+EC00468;P10;2024-02-04;reuniao_equipa;5,34;13;revisao de plano
+EC00469;P10;2025-10-04;avaliacao;9,01;24;coordenacao de atividades
+EC00470;P10;2024-10-09;reuniao_equipa;15,83;17;Coordenacao Geral
+EC00471;P10;2024-11-26;alinhamento;10,78;19;alinhamento de equipa
+EC00472;P10;2024-02-03;avaliacao;4,63;21;coordenacao de atividades
+EC00473;P10;2025-08-06;reuniao_equipa;4,99;23;Coordenacao Geral
+EC00474;P10;2025-11-15;alinhamento;16,79;23;alinhamento de equipa
+EC00475;P10;2025-08-10;alinhamento;16,21;24;revisao de plano
+EC00476;P10;2025-08-18;alinhamento;6,21;9;Coordenacao Geral
+EC00477;P10;2025-03-19;alinhamento;7,90;8;Coordenacao Geral
+EC00478;P10;2025-01-03;avaliacao;13,74;21;Coordenacao Geral
+EC00479;P10;2025-06-15;alinhamento;7,67;17;revisao de plano
+EC00480;P10;2024-06-09;formacao;11,59;17;revisao de plano
+EC00481;P10;2025-05-05;reuniao_equipa;4,74;7;alinhamento de equipa
+EC00482;P10;2024-08-15;alinhamento;15,09;19;Coordenacao Geral
+EC00483;P10;2025-03-05;avaliacao;9,04;4;Coordenacao Geral
+EC00484;P10;2024-05-07;formacao;7,03;23;alinhamento de equipa
+EC00485;P10;2024-09-11;reuniao_equipa;13,75;5;revisao de plano
+EC00486;P10;2025-04-02;alinhamento;13,53;17;Coordenacao Geral
+EC00487;P10;2024-11-24;avaliacao;8,14;19;revisao de plano
+EC00488;P10;2024-04-23;alinhamento;13,42;10;alinhamento de equipa
+EC00489;P10;2024-03-09;reuniao_equipa;8,27;22;coordenacao de atividades
+EC00490;P10;2025-05-03;avaliacao;4,56;6;Coordenacao Geral
+EC00491;P10;2025-07-18;avaliacao;14,99;19;alinhamento de equipa
+EC00492;P10;2024-11-23;avaliacao;9,61;8;revisao de plano
+EC00493;P10;2025-05-21;avaliacao;8,60;13;coordenacao de atividades
+EC00494;P10;2025-06-02;formacao;11,61;16;alinhamento de equipa
+EC00495;P10;2025-02-25;formacao;7,86;14;revisao de plano
+EC00496;P10;2025-02-26;reuniao_equipa;7,03;15;Coordenacao Geral
+EC00497;P10;2025-10-16;alinhamento;12,76;21;revisao de plano
+EC00498;P10;2025-12-15;alinhamento;16,37;10;Coordenacao Geral
+EC00499;P10;2024-09-17;reuniao_equipa;9,66;14;coordenacao de atividades
+EC00500;P10;2025-09-05;alinhamento;7,98;15;alinhamento de equipa
+EC00501;P11;2024-03-23;alinhamento;3,13;20;alinhamento de equipa
+EC00502;P11;2025-07-14;avaliacao;3,29;12;alinhamento de equipa
+EC00503;P11;2024-07-05;avaliacao;4,88;5;Coordenacao Geral
+EC00504;P11;2024-08-23;formacao;3,21;5;alinhamento de equipa
+EC00505;P11;2024-01-26;avaliacao;5,80;15;alinhamento de equipa
+EC00506;P11;2025-09-19;reuniao_equipa;3,52;6;revisao de plano
+EC00507;P11;2025-07-13;reuniao_equipa;6,43;16;coordenacao de atividades
+EC00508;P11;2024-01-27;reuniao_equipa;3,62;23;coordenacao de atividades
+EC00509;P11;2025-08-19;avaliacao;3,85;15;revisao de plano
+EC00510;P11;2025-06-02;formacao;2,07;3;Coordenacao Geral
+EC00511;P11;2024-04-26;reuniao_equipa;2,09;12;Coordenacao Geral
+EC00512;P11;2025-08-22;alinhamento;3,90;7;revisao de plano
+EC00513;P11;2024-11-24;alinhamento;3,28;12;alinhamento de equipa
+EC00514;P11;2025-12-18;formacao;5,79;15;revisao de plano
+EC00515;P11;2025-03-24;reuniao_equipa;4,27;15;revisao de plano
+EC00516;P11;2024-12-02;alinhamento;7,10;7;revisao de plano
+EC00517;P11;2024-09-17;alinhamento;3,47;23;revisao de plano
+EC00518;P11;2024-08-20;alinhamento;4,27;18;revisao de plano
+EC00519;P11;2025-12-21;alinhamento;5,45;14;coordenacao de atividades
+EC00520;P11;2025-07-21;formacao;2,71;11;coordenacao de atividades
+EC00521;P11;2025-01-03;avaliacao;3,03;21;Coordenacao Geral
+EC00522;P11;2025-03-08;reuniao_equipa;3,92;5;revisao de plano
+EC00523;P11;2025-05-23;reuniao_equipa;5,29;9;coordenacao de atividades
+EC00524;P11;2025-11-19;avaliacao;3,86;7;Coordenacao Geral
+EC00525;P11;2024-05-05;avaliacao;3,38;12;revisao de plano
+EC00526;P11;2025-01-23;avaliacao;6,57;3;alinhamento de equipa
+EC00527;P11;2024-11-17;alinhamento;6,92;11;Coordenacao Geral
+EC00528;P11;2025-01-15;avaliacao;2,67;24;coordenacao de atividades
+EC00529;P11;2025-06-27;formacao;2,43;21;coordenacao de atividades
+EC00530;P11;2025-01-04;alinhamento;1,88;14;alinhamento de equipa
+EC00531;P11;2024-12-06;avaliacao;3,77;14;alinhamento de equipa
+EC00532;P11;2024-11-24;alinhamento;3,58;17;alinhamento de equipa
+EC00533;P11;2024-08-23;avaliacao;2,07;18;revisao de plano
+EC00534;P11;2024-03-19;formacao;4,25;22;alinhamento de equipa
+EC00535;P11;2024-10-03;formacao;6,43;20;revisao de plano
+EC00536;P11;2024-04-03;avaliacao;5,71;9;Coordenacao Geral
+EC00537;P11;2024-01-06;avaliacao;2,56;10;alinhamento de equipa
+EC00538;P11;2024-11-01;reuniao_equipa;5,55;18;Coordenacao Geral
+EC00539;P11;2025-03-08;formacao;4,31;22;Coordenacao Geral
+EC00540;P11;2024-10-15;formacao;4,70;9;alinhamento de equipa
+EC00541;P11;2025-11-05;formacao;5,13;18;coordenacao de atividades
+EC00542;P11;2025-04-18;reuniao_equipa;6,91;13;revisao de plano
+EC00543;P11;2025-02-18;reuniao_equipa;4,42;9;alinhamento de equipa
+EC00544;P11;2024-06-19;formacao;5,20;12;alinhamento de equipa
+EC00545;P11;2025-03-10;alinhamento;2,76;18;alinhamento de equipa
+EC00546;P11;2024-02-17;avaliacao;6,29;19;coordenacao de atividades
+EC00547;P11;2025-08-20;formacao;6,73;16;Coordenacao Geral
+EC00548;P11;2025-01-21;reuniao_equipa;3,57;18;revisao de plano
+EC00549;P11;2025-02-08;reuniao_equipa;3,64;11;Coordenacao Geral
+EC00550;P11;2024-09-03;reuniao_equipa;3,63;21;revisao de plano
+EC00551;P12;2025-07-17;avaliacao;13,29;24;coordenacao de atividades
+EC00552;P12;2024-08-16;reuniao_equipa;10,54;4;revisao de plano
+EC00553;P12;2024-10-16;alinhamento;12,36;22;alinhamento de equipa
+EC00554;P12;2025-02-19;reuniao_equipa;12,23;13;Coordenacao Geral
+EC00555;P12;2024-04-18;avaliacao;6,76;24;Coordenacao Geral
+EC00556;P12;2024-07-27;avaliacao;9,38;19;Coordenacao Geral
+EC00557;P12;2024-11-15;avaliacao;8,02;14;revisao de plano
+EC00558;P12;2025-07-11;avaliacao;10,45;16;alinhamento de equipa
+EC00559;P12;2025-02-15;avaliacao;8,01;11;revisao de plano
+EC00560;P12;2024-03-25;reuniao_equipa;9,58;4;Coordenacao Geral
+EC00561;P12;2024-12-27;avaliacao;8,33;8;revisao de plano
+EC00562;P12;2024-09-27;formacao;6,62;17;coordenacao de atividades
+EC00563;P12;2025-07-13;formacao;12,80;22;Coordenacao Geral
+EC00564;P12;2025-04-12;alinhamento;8,50;20;coordenacao de atividades
+EC00565;P12;2025-05-04;alinhamento;6,22;11;revisao de plano
+EC00566;P12;2025-04-06;formacao;4,27;19;alinhamento de equipa
+EC00567;P12;2025-12-27;alinhamento;6,27;8;alinhamento de equipa
+EC00568;P12;2025-12-04;formacao;4,01;19;alinhamento de equipa
+EC00569;P12;2024-07-02;formacao;6,89;19;coordenacao de atividades
+EC00570;P12;2025-09-02;alinhamento;11,80;8;alinhamento de equipa
+EC00571;P12;2025-04-06;reuniao_equipa;10,18;14;Coordenacao Geral
+EC00572;P12;2024-02-17;avaliacao;10,82;14;Coordenacao Geral
+EC00573;P12;2024-04-20;avaliacao;7,75;7;coordenacao de atividades
+EC00574;P12;2024-05-17;reuniao_equipa;11,72;21;revisao de plano
+EC00575;P12;2024-05-04;formacao;4,18;17;coordenacao de atividades
+EC00576;P12;2024-03-08;alinhamento;6,90;3;Coordenacao Geral
+EC00577;P12;2024-08-05;alinhamento;10,41;24;Coordenacao Geral
+EC00578;P12;2025-03-27;alinhamento;10,63;20;coordenacao de atividades
+EC00579;P12;2025-02-10;alinhamento;4,15;4;alinhamento de equipa
+EC00580;P12;2024-09-15;reuniao_equipa;3,50;4;revisao de plano
+EC00581;P12;2024-11-15;formacao;5,90;20;coordenacao de atividades
+EC00582;P12;2024-07-11;formacao;7,11;19;Coordenacao Geral
+EC00583;P12;2025-10-12;avaliacao;7,05;10;alinhamento de equipa
+EC00584;P12;2025-09-21;formacao;5,69;11;alinhamento de equipa
+EC00585;P12;2025-04-16;formacao;8,08;20;revisao de plano
+EC00586;P12;2025-09-22;alinhamento;7,70;12;alinhamento de equipa
+EC00587;P12;2025-02-17;reuniao_equipa;6,13;13;revisao de plano
+EC00588;P12;2025-12-13;reuniao_equipa;10,85;4;revisao de plano
+EC00589;P12;2024-05-20;alinhamento;6,21;12;Coordenacao Geral
+EC00590;P12;2024-12-12;alinhamento;5,22;7;Coordenacao Geral
+EC00591;P12;2025-03-17;formacao;10,65;19;revisao de plano
+EC00592;P12;2024-01-02;alinhamento;9,26;18;alinhamento de equipa
+EC00593;P12;2024-08-20;avaliacao;4,92;5;revisao de plano
+EC00594;P12;2025-08-22;formacao;10,75;13;revisao de plano
+EC00595;P12;2025-12-18;avaliacao;4,46;21;revisao de plano
+EC00596;P12;2024-02-25;formacao;8,89;14;Coordenacao Geral
+EC00597;P12;2025-10-08;avaliacao;9,36;20;coordenacao de atividades
+EC00598;P12;2024-01-11;formacao;10,01;20;alinhamento de equipa
+EC00599;P12;2024-03-10;avaliacao;12,51;11;Coordenacao Geral
+EC00600;P12;2025-06-01;alinhamento;7,80;7;coordenacao de atividades
