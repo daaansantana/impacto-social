@@ -133,6 +133,9 @@ Ficheiros de demonstração: `public/demo/atividades-P07.csv` e `public/demo/des
 
 ## 5. Gabaritos
 
+- **Também têm gabarito:** a posição por alcance (`eficiencia.*.alcance.posicao`, 1 = mais beneficiários); os números do ecrã Confiança (`confianca.*`: os registos diários, os dias 28 a 31, o esperado, os domingos e as duas séries de voluntários); e, no Projeto, a competência certa e a capacidade do parceiro (`projeto.competenciaCerta`, `projeto.capacidadeParceiro`).
+- **As notas do scorecard** (de 1 a 5) são uma avaliação nossa, segundo a skill `exploratory-data-analysis`, e o ecrã diz isso.
+
 - **O teste:** `scripts/gabaritos.test.ts` lê `scripts/gabaritos.json` e compara com as funções de `lib/`, com uma tolerância de 0,01. As posições e as listas têm de ser iguais.
 - **Os valores esperados:** são calculados a partir dos dados em bruto, por um caminho diferente do da app.
 - **Se um gabarito falhar:** não se muda o valor esperado nem se reescreve a função até bater. Para-se e regista-se.

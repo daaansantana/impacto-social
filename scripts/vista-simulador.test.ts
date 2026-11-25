@@ -41,11 +41,14 @@ describe("construirSimulador", () => {
     expect(v.dao.map((d) => d.id)).toEqual(["P12", "P05", "P02", "P01"]);
     expect(v.recebem.map((r) => r.id)).toEqual(["P07", "P11", "P10", "P06"]);
     expect(v.equilibrioTexto).toBe("1,49");
+    expect(v.pressupostos).toContain(
+      "Beneficiários: a soma dos valores de cada mês. Se as pessoas se repetirem, conta pessoas-mês.",
+    );
     expect(texto(v.conclusao)).toBe(
       "Passar 100% do investimento aprovado dos 4 projetos menos eficientes para os 4 mais eficientes chega a mais 227 beneficiários por ano.",
     );
     expect(v.avisoCapacidade).toBe(
-      "Os parceiros do Projeto 07 e do Projeto 10 têm a menor capacidade operacional dos 12 (36). Receber mais dinheiro pode não chegar a mais gente sem reforçar a equipa.",
+      "Os parceiros do Projeto 07 e do Projeto 10 têm o menor índice de capacidade operacional (sem unidade nos dados) dos 12: 36. O simulador não tem a capacidade em conta.",
     );
   });
 

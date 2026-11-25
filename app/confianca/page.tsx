@@ -44,6 +44,7 @@ export default function ConfiancaPage() {
             generica={v.notaGenerica}
             real={v.notaReal}
             scorecard={v.scorecard}
+            fonte={v.fonteNotas}
           />
           <Padroes
             padroes={v.padroes}

@@ -41,6 +41,17 @@ type Gabaritos = {
   qualidade: Valores;
   projeto: Record<"todos" | "comparaveis", Record<string, Valores>> & {
     subidaFimDeAno: Valores;
+    competenciaCerta: Valores;
+    capacidadeParceiro: Valores;
+  };
+  confianca: {
+    registosDiarios: number;
+    registosDias28a31: number;
+    esperadoDias28a31: number;
+    aulasAoDomingo: number;
+    despesasAoDomingo: number;
+    voluntariosRegistados: Valores;
+    voluntariosReportados: Valores;
   };
   auditor: Record<string, Record<string, unknown>>;
 };
@@ -176,6 +187,44 @@ describe("subidaFimDeAno", () => {
     it(id, () => {
       perto(subidaFimDeAno(meses, id), G.projeto.subidaFimDeAno[id]);
     });
+});
+
+describe("confianca: os números do ecrã 4 em qualidade.json", () => {
+  const numeros = (id: string) =>
+    qualidade.anomalias.find((a) => a.id === id)?.numeros as Record<
+      string,
+      unknown
+    >;
+  it("o mês que acaba no dia 27", () => {
+    const dia27 = numeros("dia27");
+    expect(dia27.registos).toBe(G.confianca.registosDiarios);
+    expect(dia27.registosDias28a31).toBe(G.confianca.registosDias28a31);
+    expect(dia27.esperado).toBe(G.confianca.esperadoDias28a31);
+  });
+  it("os domingos", () => {
+    const semana = numeros("semana");
+    perto(semana.aulasAoDomingo as number, G.confianca.aulasAoDomingo);
+    perto(semana.despesasAoDomingo as number, G.confianca.despesasAoDomingo);
+  });
+  it("os voluntários registados e reportados", () => {
+    const vol = numeros("voluntarios");
+    pertoDeTodos(vol.registados as Valores, G.confianca.voluntariosRegistados);
+    pertoDeTodos(vol.reportados as Valores, G.confianca.voluntariosReportados);
+  });
+});
+
+describe("projetos.json: os dados do parceiro e da competência", () => {
+  it("competência certa", () => {
+    pertoDeTodos(
+      Object.fromEntries(projetos.map((p) => [p.id, p.competenciaCerta])),
+      G.projeto.competenciaCerta,
+    );
+  });
+  it("capacidade do parceiro", () => {
+    expect(
+      Object.fromEntries(projetos.map((p) => [p.id, p.parceiro.capacidade])),
+    ).toEqual(G.projeto.capacidadeParceiro);
+  });
 });
 
 describe("qualidade.json", () => {

@@ -1,3 +1,4 @@
+import { NOTA_BENEFICIARIOS } from "@/lib/avisos";
 import { eficiencia, totais } from "@/lib/eficiencia";
 import { euros, milhoes, numero, percentagem } from "@/lib/format";
 import {
@@ -91,7 +92,7 @@ export function construirSimulador(
     (id) => porId.get(id)?.parceiro.capacidade === menor,
   );
   const avisoCapacidade = apertados.length
-    ? `Os parceiros do ${apertados.map(nome).join(" e do ")} têm a menor capacidade operacional dos 12 (${menor}). Receber mais dinheiro pode não chegar a mais gente sem reforçar a equipa.`
+    ? `Os parceiros do ${apertados.map(nome).join(" e do ")} têm o menor índice de capacidade operacional (sem unidade nos dados) dos 12: ${menor}. O simulador não tem a capacidade em conta.`
     : null;
 
   const anual = resultado.saldoPorAno;
@@ -126,6 +127,7 @@ export function construirSimulador(
       `Um beneficiário vale o custo médio desses meses: ${euros(custoMedio, 2)}.`,
       "Os planos de investimento cobrem 2 anos: o saldo divide-se por 2.",
       `A mudança compensa enquanto um beneficiário a mais custar menos de ${numero(equilibrio, 2)} vezes a média de quem recebe.`,
+      NOTA_BENEFICIARIOS,
     ],
     avisoCapacidade,
   };

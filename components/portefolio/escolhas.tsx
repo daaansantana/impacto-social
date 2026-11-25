@@ -14,6 +14,7 @@ export function Escolhas({
   onComparaveis,
   rotuloComparaveis,
   avisoFimDeAno,
+  notaBeneficiarios,
 }: {
   unidades: { id: Unidade; rotulo: string }[];
   unidade: Unidade;
@@ -23,6 +24,7 @@ export function Escolhas({
   onComparaveis: (comparaveis: boolean) => void;
   rotuloComparaveis: string;
   avisoFimDeAno: string;
+  notaBeneficiarios: string;
 }) {
   return (
     <details className="group rounded-lg border">
@@ -49,6 +51,7 @@ export function Escolhas({
             ))}
           </ToggleGroup>
           <p className="text-sm text-muted-foreground">{legenda}</p>
+          <p className="text-sm text-muted-foreground">{notaBeneficiarios}</p>
         </fieldset>
         <div className="flex flex-col gap-2">
           <InterruptorComparaveis

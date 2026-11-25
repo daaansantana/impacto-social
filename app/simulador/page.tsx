@@ -71,7 +71,9 @@ export default function SimuladorPage() {
               role="note"
               className="rounded-lg border border-amber-600/40 bg-amber-50 p-4 text-sm dark:bg-amber-950/30"
             >
-              <strong className="block">Capacidade dos parceiros</strong>
+              <strong className="block">
+                Índice de capacidade operacional dos parceiros
+              </strong>
               {v.avisoCapacidade}
             </p>
           ) : null}

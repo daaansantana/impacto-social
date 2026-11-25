@@ -1,3 +1,4 @@
+import { avisoHoras } from "@/lib/avisos";
 import { eficiencia } from "@/lib/eficiencia";
 import { euros, numero, percentagem } from "@/lib/format";
 import { filtrarMeses, serieProjeto } from "@/lib/meses";
@@ -40,9 +41,17 @@ export type SerieProjeto = {
   formatar: (v: number) => string;
   /** o resumo para leitores de ecrã */
   resumo: string;
+  /** um aviso por baixo do gráfico */
+  aviso?: string;
 };
 
-export type Indicador = { titulo: string; valor: string; texto: string };
+export type Indicador = {
+  titulo: string;
+  valor: string;
+  texto: string;
+  /** por exemplo «sinal fraco, não confirmado» */
+  etiqueta?: string;
+};
 
 export type VistaProjeto = {
   id: string;
@@ -104,7 +113,7 @@ export function construirProjeto(
     id,
     nome: projeto.nome,
     onde: `${nomePais(projeto.pais)}, ${nomeArea(projeto.area)}`,
-    parceiro: `Parceiro ${projeto.parceiro.id}, com capacidade operacional de ${projeto.parceiro.capacidade}.`,
+    parceiro: `Parceiro ${projeto.parceiro.id}, com índice de capacidade operacional (sem unidade nos dados) de ${projeto.parceiro.capacidade}.`,
     periodo: comparaveis ? ROTULO_COMPARAVEIS : ROTULO_TODOS,
     custo: euros(linha.valor, 0),
     posicao: `${ordinal(linha.posicao)} de ${total}`,
@@ -135,6 +144,7 @@ export function construirProjeto(
         titulo: "Horas de voluntariado",
         formatar: (v) => numero(v),
         resumo: resumoSerie("Horas de voluntariado"),
+        aviso: avisoHoras(meses) ?? undefined,
       },
     ],
     avisos: [
@@ -171,6 +181,8 @@ export function construirProjeto(
       },
       {
         titulo: "Competência certa",
+        // docs/RELACOES.md: ρ = +0,64, mas não resiste à correção para testes múltiplos (q = 0,10)
+        etiqueta: "sinal fraco, não confirmado",
         valor: percentagem(projeto.competenciaCerta),
         texto: `das alocações de voluntários têm a competência da área do projeto. ${intervalo(
           projetos.map((p) => p.competenciaCerta),

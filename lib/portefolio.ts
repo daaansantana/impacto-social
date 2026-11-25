@@ -1,3 +1,4 @@
+import { avisoHoras } from "@/lib/avisos";
 import { eficiencia, totais } from "@/lib/eficiencia";
 import { fimDeAno } from "@/lib/fim-de-ano";
 import { euros, milhoes, numero, percentagem } from "@/lib/format";
@@ -26,6 +27,10 @@ export type LinhaPortefolio = {
   beneficiarios: number;
   /** «571 beneficiários» */
   alcanceTexto: string;
+  /** 1 = chega a mais beneficiários */
+  posicaoAlcance: number;
+  /** «10.º em alcance» */
+  posicaoAlcanceTexto: string;
   /** no gráfico, só os 4 melhores e o pior levam o nome à vista; o 1.º por baixo e o 2.º à esquerda, para não se taparem */
   nomeNoGrafico: "top" | "bottom" | "left" | null;
 };
@@ -39,6 +44,8 @@ export type VistaPortefolio = {
   legenda: string;
   /** porque o interruptor existe, com os números do pico */
   avisoFimDeAno: string;
+  /** só na unidade «por hora»: as horas de 2025 parecem incompletas */
+  avisoHoras: string | null;
   totais: Totais;
   totaisTexto: { beneficiarios: string; despesa: string; custo: string };
   grafico: {
@@ -109,6 +116,10 @@ export function construirPortefolio(
       (beneficiarios.get(m.projeto) ?? 0) + m.beneficiarios,
     );
   const porId = new Map(projetos.map((p) => [p.id, p]));
+  // o ranking do impacto total: mais beneficiários primeiro; num empate, o id mais baixo
+  const porAlcance = [...beneficiarios]
+    .sort(([a, x], [b, y]) => y - x || a.localeCompare(b))
+    .map(([id]) => id);
 
   const ranking = eficiencia(meses, unidade, comparaveis);
   const linhas = ranking.map((l) => {
@@ -123,6 +134,8 @@ export function construirPortefolio(
       valorTexto: VALOR[unidade](l.valor),
       beneficiarios: alcance,
       alcanceTexto: `${numero(alcance)} beneficiários`,
+      posicaoAlcance: porAlcance.indexOf(l.projeto) + 1,
+      posicaoAlcanceTexto: `${porAlcance.indexOf(l.projeto) + 1}.º em alcance`,
       nomeNoGrafico: nomeNoGrafico(l.posicao, ranking.length),
     };
   });
@@ -140,6 +153,7 @@ export function construirPortefolio(
     periodo: comparaveis ? ROTULO_COMPARAVEIS : ROTULO_TODOS,
     legenda: LEGENDA[unidade],
     avisoFimDeAno: `Em novembro e dezembro, as atividades sobem ${percentagem(pico.atividadesPorMes.subida * 100)} e os beneficiários ${percentagem(pico.beneficiariosPorMes.subida * 100)}, sem mais despesa. Com o interruptor ligado, esses meses ficam de fora.`,
+    avisoHoras: unidade === "hora" ? avisoHoras(meses) : null,
     totais: t,
     totaisTexto: {
       beneficiarios: numero(t.beneficiarios),

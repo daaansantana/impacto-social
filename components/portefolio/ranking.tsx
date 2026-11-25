@@ -40,7 +40,7 @@ export function Ranking({ linhas }: { linhas: LinhaPortefolio[] }) {
             <div className="col-start-2 sm:col-start-auto sm:text-right">
               <p className="font-semibold tabular-nums">{l.valorTexto}</p>
               <p className="text-sm text-muted-foreground tabular-nums">
-                {l.alcanceTexto}
+                {l.alcanceTexto}, {l.posicaoAlcanceTexto}
               </p>
             </div>
           </li>

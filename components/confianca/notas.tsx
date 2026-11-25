@@ -18,10 +18,13 @@ export function Notas({
   generica,
   real,
   scorecard,
+  fonte,
 }: {
   generica: VistaConfianca["notaGenerica"];
   real: string;
   scorecard: VistaConfianca["scorecard"];
+  /** de onde vêm as notas */
+  fonte: string;
 }) {
   return (
     <section aria-labelledby="notas" className="flex flex-col gap-4">
@@ -72,6 +75,7 @@ export function Notas({
           </li>
         ))}
       </ul>
+      <p className="text-sm text-muted-foreground">{fonte}</p>
     </section>
   );
 }

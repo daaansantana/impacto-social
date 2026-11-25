@@ -20,6 +20,9 @@ describe("construirConfianca", () => {
     expect(v.notaGenerica.nota).toBe("A");
     expect(v.notaReal).toBe("2 a 4");
     expect(v.scorecard).toHaveLength(6);
+    expect(v.fonteNotas).toBe(
+      "Avaliação nossa, segundo a skill exploratory-data-analysis.",
+    );
     expect(v.conclusao).toBe(
       "A validação genérica dá nota A às 10 tabelas. Olhando de perto, a qualidade fica entre 2 e 4 em 5: há 4 padrões que a nota não vê.",
     );
