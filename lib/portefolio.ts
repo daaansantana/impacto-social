@@ -26,6 +26,8 @@ export type LinhaPortefolio = {
   beneficiarios: number;
   /** «571 beneficiários» */
   alcanceTexto: string;
+  /** no gráfico, só os 4 melhores e o pior levam o nome à vista; o 1.º por baixo e o 2.º à esquerda, para não se taparem */
+  nomeNoGrafico: "top" | "bottom" | "left" | null;
 };
 
 export type VistaPortefolio = {
@@ -83,6 +85,15 @@ function conclusao(
   }
 }
 
+function nomeNoGrafico(
+  posicao: number,
+  total: number,
+): LinhaPortefolio["nomeNoGrafico"] {
+  if (posicao === 1) return "bottom";
+  if (posicao === 2) return "left";
+  return posicao <= 4 || posicao === total ? "top" : null;
+}
+
 /** O ecrã 1: o ranking de eficiência, o alcance de cada projeto e os totais. */
 export function construirPortefolio(
   meses: Mes[],
@@ -99,7 +110,8 @@ export function construirPortefolio(
     );
   const porId = new Map(projetos.map((p) => [p.id, p]));
 
-  const linhas = eficiencia(meses, unidade, comparaveis).map((l) => {
+  const ranking = eficiencia(meses, unidade, comparaveis);
+  const linhas = ranking.map((l) => {
     const p = porId.get(l.projeto);
     const alcance = beneficiarios.get(l.projeto) ?? 0;
     return {
@@ -111,6 +123,7 @@ export function construirPortefolio(
       valorTexto: VALOR[unidade](l.valor),
       beneficiarios: alcance,
       alcanceTexto: `${numero(alcance)} beneficiários`,
+      nomeNoGrafico: nomeNoGrafico(l.posicao, ranking.length),
     };
   });
 
