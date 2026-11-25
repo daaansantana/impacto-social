@@ -11,6 +11,7 @@ import { Ranking } from "@/components/portefolio/ranking";
 import { TotaisPortefolio } from "@/components/portefolio/totais";
 import { COLUMNS, PageHeader } from "@/components/shell/page-header";
 import { usePortefolio } from "@/hooks/use-portefolio";
+import { NOTA_BENEFICIARIOS } from "@/lib/avisos";
 import { ROTULO_COMPARAVEIS, UNIDADES } from "@/lib/portefolio";
 
 const TITULO = "Onde cada euro chega a mais gente";
@@ -47,6 +48,7 @@ export default function Portefolio() {
           onComparaveis={p.setComparaveis}
           rotuloComparaveis={ROTULO_COMPARAVEIS}
           avisoFimDeAno={v.avisoFimDeAno}
+          notaBeneficiarios={NOTA_BENEFICIARIOS}
         />
       </PageHeader>
       {v.avisoHoras ? (
