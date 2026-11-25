@@ -6,6 +6,8 @@ export function filtrarMeses(meses: Mes[], comparaveis: boolean): Mes[] {
 }
 
 /** Os meses de um projeto, por ordem. */
-export function serieProjeto(_meses: Mes[], _id: string): Mes[] {
-  throw new Error("Por fazer: serieProjeto");
+export function serieProjeto(meses: Mes[], id: string): Mes[] {
+  return meses
+    .filter((m) => m.projeto === id)
+    .sort((a, b) => a.mes.localeCompare(b.mes));
 }
