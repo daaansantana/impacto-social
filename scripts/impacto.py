@@ -328,6 +328,11 @@ def main() -> int:
         "iis": {nome: {pid: m.at[pid, f"iis_{nome}"] for pid in m.index} for nome in PREDEFINICOES},
         "faixa": {pid: faixa(m.at[pid, "iis_equilibrado"]) for pid in m.index},
         "recursos": {a["projeto"]: {k: r2(v) for k, v in a["recursos"].items()} for a in acoes},
+        # requisitos 1 e 3: a eficiência (custo por beneficiário, do mais baixo) e o alcance (beneficiários por mês)
+        "ordem": {
+            "eficiencia": sorted(m.index, key=lambda pid: (arred(m.at[pid, "custoPorPessoa"]), pid)),
+            "alcance": sorted(m.index, key=lambda pid: (-arred(m.at[pid, "beneficiariosPorMes"]), pid)),
+        },
         # o número grande do Início: quantas pessoas por mês, e quantas em ações onde a necessidade é alta
         "alcance": {
             "beneficiariosPorMes": r2(m["beneficiariosPorMes"].sum()),

@@ -836,6 +836,36 @@
     "horasPorBeneficiario": 30.82
    }
   },
+  "ordem": {
+   "eficiencia": [
+    "P07",
+    "P11",
+    "P10",
+    "P06",
+    "P04",
+    "P03",
+    "P09",
+    "P08",
+    "P12",
+    "P05",
+    "P02",
+    "P01"
+   ],
+   "alcance": [
+    "P01",
+    "P10",
+    "P05",
+    "P12",
+    "P02",
+    "P08",
+    "P03",
+    "P09",
+    "P04",
+    "P07",
+    "P06",
+    "P11"
+   ]
+  },
   "alcance": {
    "beneficiariosPorMes": 711.15,
    "percentagemNecessidadeAlta": 53.32
