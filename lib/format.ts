@@ -23,8 +23,9 @@ export const euros = (x: number, casas = 2) =>
     maximumFractionDigits: casas,
   }).format(x);
 
-/** Milhões de euros: 41 411 900 → «41,41 M€». */
-export const milhoes = (x: number) => `${numero(x / 1e6, 2)} M€`;
+/** Milhões de euros, sempre com 2 casas: 41 411 900 → «41,41 M€»; 1 300 715 → «1,30 M€». */
+export const milhoes = (x: number) =>
+  `${formato("m2", { minimumFractionDigits: 2, maximumFractionDigits: 2 }).format(x / 1e6)} M€`;
 
 /** Uma percentagem de 0 a 100: 15,07 → «15,07%». */
 export const percentagem = (x: number, casas = 0) =>
