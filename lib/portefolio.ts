@@ -1,5 +1,6 @@
 import { eficiencia, totais } from "@/lib/eficiencia";
-import { euros, milhoes, numero } from "@/lib/format";
+import { fimDeAno } from "@/lib/fim-de-ano";
+import { euros, milhoes, numero, percentagem } from "@/lib/format";
 import { filtrarMeses } from "@/lib/meses";
 import { nomeArea, nomePais } from "@/lib/nomes";
 import type { Mes, Projeto, Totais, Unidade } from "@/types";
@@ -34,8 +35,23 @@ export type VistaPortefolio = {
   periodo: string;
   /** o que quer dizer o valor e se menos é melhor */
   legenda: string;
+  /** porque o interruptor existe, com os números do pico */
+  avisoFimDeAno: string;
   totais: Totais;
   totaisTexto: { beneficiarios: string; despesa: string; custo: string };
+  grafico: {
+    eixoY: string;
+    formatarX: (v: number) => string;
+    formatarY: (v: number) => string;
+    /** o resumo para leitores de ecrã */
+    resumo: string;
+  };
+};
+
+const EIXO_Y: Record<Unidade, string> = {
+  euro: "€ por beneficiário (menos é melhor)",
+  hora: "Beneficiários por 1000 horas (mais é melhor)",
+  jovem: "€ por jovem formado (menos é melhor)",
 };
 
 const VALOR: Record<Unidade, (v: number) => string> = {
@@ -99,6 +115,10 @@ export function construirPortefolio(
   });
 
   const t = totais(meses, comparaveis);
+  const pico = fimDeAno(meses);
+  const maiorAlcance = [...linhas].sort(
+    (a, b) => b.beneficiarios - a.beneficiarios,
+  )[0];
   return {
     linhas,
     conclusao: linhas.length
@@ -106,11 +126,20 @@ export function construirPortefolio(
       : "",
     periodo: comparaveis ? ROTULO_COMPARAVEIS : ROTULO_TODOS,
     legenda: LEGENDA[unidade],
+    avisoFimDeAno: `Em novembro e dezembro, as atividades sobem ${percentagem(pico.atividadesPorMes.subida * 100)} e os beneficiários ${percentagem(pico.beneficiariosPorMes.subida * 100)}, sem mais despesa. Com o interruptor ligado, esses meses ficam de fora.`,
     totais: t,
     totaisTexto: {
       beneficiarios: numero(t.beneficiarios),
       despesa: milhoes(t.despesa),
       custo: euros(t.custoPorBeneficiario, 2),
+    },
+    grafico: {
+      eixoY: EIXO_Y[unidade],
+      formatarX: (v) => numero(v),
+      formatarY: (v) => numero(v),
+      resumo: linhas.length
+        ? `Cada projeto pelo alcance e pela eficiência. Chega a mais gente o ${maiorAlcance.nome}, com ${maiorAlcance.alcanceTexto}. É o mais eficiente o ${linhas[0].nome}, com ${linhas[0].valorTexto}. Os valores de todos estão no ranking.`
+        : "",
     },
   };
 }

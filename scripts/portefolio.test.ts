@@ -28,6 +28,12 @@ describe("construirPortefolio", () => {
     expect(texto(v.linhas[0].alcanceTexto)).toBe("571 beneficiários");
     expect(texto(v.totaisTexto.custo)).toBe("2450,89 €");
     expect(texto(v.totaisTexto.despesa)).toBe("34,86 M€");
+    expect(v.avisoFimDeAno).toBe(
+      "Em novembro e dezembro, as atividades sobem 56% e os beneficiários 64%, sem mais despesa. Com o interruptor ligado, esses meses ficam de fora.",
+    );
+    expect(texto(v.grafico.resumo)).toBe(
+      "Cada projeto pelo alcance e pela eficiência. Chega a mais gente o Projeto 01, com 2996 beneficiários. É o mais eficiente o Projeto 07, com 1457 € por beneficiário. Os valores de todos estão no ranking.",
+    );
   });
 
   it("por hora, com todos os meses", () => {
