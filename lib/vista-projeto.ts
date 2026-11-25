@@ -1,3 +1,4 @@
+import { avisoHoras } from "@/lib/avisos";
 import { eficiencia } from "@/lib/eficiencia";
 import { euros, numero, percentagem } from "@/lib/format";
 import { filtrarMeses, serieProjeto } from "@/lib/meses";
@@ -40,6 +41,8 @@ export type SerieProjeto = {
   formatar: (v: number) => string;
   /** o resumo para leitores de ecrã */
   resumo: string;
+  /** um aviso por baixo do gráfico */
+  aviso?: string;
 };
 
 export type Indicador = { titulo: string; valor: string; texto: string };
@@ -135,6 +138,7 @@ export function construirProjeto(
         titulo: "Horas de voluntariado",
         formatar: (v) => numero(v),
         resumo: resumoSerie("Horas de voluntariado"),
+        aviso: avisoHoras(meses) ?? undefined,
       },
     ],
     avisos: [

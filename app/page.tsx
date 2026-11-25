@@ -49,6 +49,14 @@ export default function Portefolio() {
           avisoFimDeAno={v.avisoFimDeAno}
         />
       </PageHeader>
+      {v.avisoHoras ? (
+        <p
+          role="note"
+          className="rounded-lg border border-amber-600/40 bg-amber-50 p-4 text-sm dark:bg-amber-950/30"
+        >
+          {v.avisoHoras}
+        </p>
+      ) : null}
       <div className={COLUMNS}>
         <Ranking linhas={v.linhas} />
         <div className="flex flex-col gap-6 lg:sticky lg:top-6">

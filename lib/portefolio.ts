@@ -1,3 +1,4 @@
+import { avisoHoras } from "@/lib/avisos";
 import { eficiencia, totais } from "@/lib/eficiencia";
 import { fimDeAno } from "@/lib/fim-de-ano";
 import { euros, milhoes, numero, percentagem } from "@/lib/format";
@@ -43,6 +44,8 @@ export type VistaPortefolio = {
   legenda: string;
   /** porque o interruptor existe, com os números do pico */
   avisoFimDeAno: string;
+  /** só na unidade «por hora»: as horas de 2025 parecem incompletas */
+  avisoHoras: string | null;
   totais: Totais;
   totaisTexto: { beneficiarios: string; despesa: string; custo: string };
   grafico: {
@@ -150,6 +153,7 @@ export function construirPortefolio(
     periodo: comparaveis ? ROTULO_COMPARAVEIS : ROTULO_TODOS,
     legenda: LEGENDA[unidade],
     avisoFimDeAno: `Em novembro e dezembro, as atividades sobem ${percentagem(pico.atividadesPorMes.subida * 100)} e os beneficiários ${percentagem(pico.beneficiariosPorMes.subida * 100)}, sem mais despesa. Com o interruptor ligado, esses meses ficam de fora.`,
+    avisoHoras: unidade === "hora" ? avisoHoras(meses) : null,
     totais: t,
     totaisTexto: {
       beneficiarios: numero(t.beneficiarios),

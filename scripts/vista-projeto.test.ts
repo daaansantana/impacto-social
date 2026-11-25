@@ -98,6 +98,15 @@ describe("construirProjeto", () => {
     );
   });
 
+  it("o aviso das horas de 2025 no gráfico das horas", () => {
+    const v = construirProjeto(meses, projetos, "P07", true);
+    expect(v?.series.map((s) => s.aviso ?? null)).toEqual([
+      null,
+      null,
+      "As horas de voluntariado de 2025 parecem incompletas (−85% face a 2024).",
+    ]);
+  });
+
   it("nomeMes", () => {
     expect(nomeMes("2025-12")).toBe("dez 2025");
   });

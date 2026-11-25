@@ -77,4 +77,21 @@ describe("construirPortefolio", () => {
     const p07 = construirPortefolio(meses, projetos, "euro", true).linhas[0];
     expect(p07.posicaoAlcanceTexto).toBe("10.º em alcance");
   });
+
+  it("o aviso das horas de 2025 só na unidade por hora", () => {
+    const aviso =
+      "As horas de voluntariado de 2025 parecem incompletas (−85% face a 2024).";
+    expect(construirPortefolio(meses, projetos, "hora", true).avisoHoras).toBe(
+      aviso,
+    );
+    expect(construirPortefolio(meses, projetos, "hora", false).avisoHoras).toBe(
+      aviso,
+    );
+    expect(
+      construirPortefolio(meses, projetos, "euro", true).avisoHoras,
+    ).toBeNull();
+    expect(
+      construirPortefolio(meses, projetos, "jovem", true).avisoHoras,
+    ).toBeNull();
+  });
 });
