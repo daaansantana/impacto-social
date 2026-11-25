@@ -6,6 +6,8 @@ export type VistaConfianca = {
   conclusao: string;
   notaGenerica: { nota: string; ferramenta: string; resultado: string };
   notaReal: string;
+  /** as notas são uma avaliação nossa */
+  fonteNotas: string;
   scorecard: {
     dimensao: string;
     nota: number;
@@ -88,6 +90,7 @@ export function construirConfianca(q: Qualidade): VistaConfianca {
       resultado: q.notaGenerica.resultado,
     },
     notaReal,
+    fonteNotas: "Avaliação nossa, segundo a skill exploratory-data-analysis.",
     scorecard: q.scorecard.map((s) => ({
       dimensao: s.dimensao,
       nota: s.nota,
