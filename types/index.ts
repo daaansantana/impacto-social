@@ -187,3 +187,24 @@ export type ResumoProjeto = {
   /** euros abatidos */
   estornos: number;
 };
+
+// ---- Dados do mundo (docs/PLANO-V2.md, secção 6) ----
+
+export type Regiao = "África" | "América do Sul" | "Ásia" | "Europa";
+
+/** Um indicador do Banco Mundial: o valor mais recente e o ano; null quando não há. */
+export type IndicadorContexto = {
+  valor: number | null;
+  ano: number | null;
+  fonte: string;
+};
+
+/** Uma linha de public/data/contexto.json: um país, com a capital e os indicadores. */
+export type Contexto = {
+  pais: string;
+  iso3: string;
+  regiao: Regiao;
+  lat: number;
+  lng: number;
+  indicadores: Record<string, IndicadorContexto>;
+};
