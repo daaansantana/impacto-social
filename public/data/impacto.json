@@ -20,6 +20,13 @@
    "total": 1020.55,
    "porMes": 51.027499999999996
   },
+  "recursos": {
+   "despesa": 13620215.59,
+   "horasVoluntariado": 183348.896483,
+   "beneficiarios": 2996.06,
+   "custoPorBeneficiario": 4546.042332263039,
+   "horasPorBeneficiario": 61.196670454864055
+  },
   "duracao": {
    "crescimento": 0.29280947716419736,
    "percentil": 83.33333333333334
@@ -82,6 +89,13 @@
   "jovensFormados": {
    "total": 1298.23,
    "porMes": 64.9115
+  },
+  "recursos": {
+   "despesa": 2537263.52,
+   "horasVoluntariado": 46305.445709,
+   "beneficiarios": 1171.32,
+   "custoPorBeneficiario": 2166.157429225148,
+   "horasPorBeneficiario": 39.532703026500016
   },
   "duracao": {
    "crescimento": 0.32487793259497444,
@@ -146,6 +160,13 @@
    "total": 1100.13,
    "porMes": 55.0065
   },
+  "recursos": {
+   "despesa": 1897738.58,
+   "horasVoluntariado": 33801.959143,
+   "beneficiarios": 1014.96,
+   "custoPorBeneficiario": 1869.7668676598093,
+   "horasPorBeneficiario": 33.303735263458655
+  },
   "duracao": {
    "crescimento": 0.2035605731654364,
    "percentil": 33.33333333333333
@@ -209,6 +230,13 @@
    "total": 1117.62,
    "porMes": 55.88099999999999
   },
+  "recursos": {
+   "despesa": 1233820.29,
+   "horasVoluntariado": 23537.13006,
+   "beneficiarios": 670.17,
+   "custoPorBeneficiario": 1841.055687362908,
+   "horasPorBeneficiario": 35.1211335332826
+  },
   "duracao": {
    "crescimento": 0.27786275109615577,
    "percentil": 58.333333333333336
@@ -267,6 +295,13 @@
   "jovensFormados": {
    "total": 1260.44,
    "porMes": 63.022000000000006
+  },
+  "recursos": {
+   "despesa": 3366185.92,
+   "horasVoluntariado": 54199.626197,
+   "beneficiarios": 1571.05,
+   "custoPorBeneficiario": 2142.634492855097,
+   "horasPorBeneficiario": 34.49898233474428
   },
   "duracao": {
    "crescimento": 0.2572881794278652,
@@ -327,6 +362,13 @@
    "total": 1230.77,
    "porMes": 61.5385
   },
+  "recursos": {
+   "despesa": 949097.97,
+   "horasVoluntariado": 19610.043589,
+   "beneficiarios": 526.36,
+   "custoPorBeneficiario": 1803.134679686906,
+   "horasPorBeneficiario": 37.2559533190212
+  },
   "duracao": {
    "crescimento": 0.1869702509556257,
    "percentil": 25.0
@@ -385,6 +427,13 @@
   "jovensFormados": {
    "total": 1316.72,
    "porMes": 65.836
+  },
+  "recursos": {
+   "despesa": 832178.08,
+   "horasVoluntariado": 19080.095679000002,
+   "beneficiarios": 571.04,
+   "custoPorBeneficiario": 1457.3026057719248,
+   "horasPorBeneficiario": 33.41288820222752
   },
   "duracao": {
    "crescimento": 0.26765149710110414,
@@ -445,6 +494,13 @@
    "total": 1343.66,
    "porMes": 67.183
   },
+  "recursos": {
+   "despesa": 2191406.46,
+   "horasVoluntariado": 35983.37594,
+   "beneficiarios": 1093.29,
+   "custoPorBeneficiario": 2004.41462009165,
+   "horasPorBeneficiario": 32.91292881120288
+  },
   "duracao": {
    "crescimento": 0.16656097657643376,
    "percentil": 8.333333333333332
@@ -498,6 +554,13 @@
   "jovensFormados": {
    "total": 1328.78,
    "porMes": 66.439
+  },
+  "recursos": {
+   "despesa": 1553383.61,
+   "horasVoluntariado": 25764.962232,
+   "beneficiarios": 786.61,
+   "custoPorBeneficiario": 1974.782433480378,
+   "horasPorBeneficiario": 32.75443006318252
   },
   "duracao": {
    "crescimento": 0.28022726613908433,
@@ -553,6 +616,13 @@
    "total": 1442.62,
    "porMes": 72.131
   },
+  "recursos": {
+   "despesa": 3275621.95,
+   "horasVoluntariado": 98001.872239,
+   "beneficiarios": 2034.99,
+   "custoPorBeneficiario": 1609.6501457009617,
+   "horasPorBeneficiario": 48.15840482705075
+  },
   "duracao": {
    "crescimento": 0.17566874077875427,
    "percentil": 16.666666666666664
@@ -607,6 +677,13 @@
    "total": 1219.38,
    "porMes": 60.96900000000001
   },
+  "recursos": {
+   "despesa": 687960.71,
+   "horasVoluntariado": 15177.26754,
+   "beneficiarios": 441.97,
+   "custoPorBeneficiario": 1556.5778446500892,
+   "horasPorBeneficiario": 34.34004013847094
+  },
   "duracao": {
    "crescimento": 0.355791269122115,
    "percentil": 100.0
@@ -660,6 +737,13 @@
   "jovensFormados": {
    "total": 946.6,
    "porMes": 47.33
+  },
+  "recursos": {
+   "despesa": 2714254.73,
+   "horasVoluntariado": 41467.137476,
+   "beneficiarios": 1345.25,
+   "custoPorBeneficiario": 2017.6582270953354,
+   "horasPorBeneficiario": 30.82485595688534
   },
   "duracao": {
    "crescimento": 0.2893196283312345,

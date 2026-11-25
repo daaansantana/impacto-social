@@ -206,7 +206,8 @@ def main() -> int:
 
     comp = meses[~meses["fimDeAno"]]
     g = comp.groupby("projeto")
-    soma = g[["beneficiarios", "despesa", "atividades", "participantes", "jovensFormados", "horasFormacao"]].sum()
+    soma = g[["beneficiarios", "despesa", "atividades", "participantes", "jovensFormados", "horasFormacao",
+              "horasVoluntariado"]].sum()
     n_meses = g.size()
     ano = comp["mes"].str[:4]
     benef_ano = comp.groupby([comp["projeto"], ano])["beneficiarios"].sum().unstack()
@@ -301,6 +302,14 @@ def main() -> int:
             "profundidade": {"taxaConclusao": float(m.at[pid, "taxaConclusao"]),
                              "horasFormacaoPorBenef": float(m.at[pid, "horasFormacaoPorBenef"]), "percentil": float(m.at[pid, "profundidade"])},
             "jovensFormados": {"total": float(m.at[pid, "jovensFormados"]), "porMes": float(m.at[pid, "jovensFormadosPorMes"])},
+            # requisito 2: a relação entre despesa, horas de voluntariado e beneficiários, de janeiro a outubro
+            "recursos": {
+                "despesa": float(soma.at[pid, "despesa"]),
+                "horasVoluntariado": float(soma.at[pid, "horasVoluntariado"]),
+                "beneficiarios": float(soma.at[pid, "beneficiarios"]),
+                "custoPorBeneficiario": float(soma.at[pid, "despesa"] / soma.at[pid, "beneficiarios"]),
+                "horasPorBeneficiario": float(soma.at[pid, "horasVoluntariado"] / soma.at[pid, "beneficiarios"]),
+            },
             "duracao": {"crescimento": float(m.at[pid, "crescimento"]), "percentil": float(m.at[pid, "duracao"])},
             "custoPorPessoa": {"valor": float(m.at[pid, "custoPorPessoa"]), "percentilInvertido": float(m.at[pid, "custoInvertido"])},
             "confianca": confianca,
@@ -318,6 +327,12 @@ def main() -> int:
     G["impacto"] = {
         "iis": {nome: {pid: m.at[pid, f"iis_{nome}"] for pid in m.index} for nome in PREDEFINICOES},
         "faixa": {pid: faixa(m.at[pid, "iis_equilibrado"]) for pid in m.index},
+        "recursos": {a["projeto"]: {k: r2(v) for k, v in a["recursos"].items()} for a in acoes},
+        # requisitos 1 e 3: a eficiência (custo por beneficiário, do mais baixo) e o alcance (beneficiários por mês)
+        "ordem": {
+            "eficiencia": sorted(m.index, key=lambda pid: (arred(m.at[pid, "custoPorPessoa"]), pid)),
+            "alcance": sorted(m.index, key=lambda pid: (-arred(m.at[pid, "beneficiariosPorMes"]), pid)),
+        },
         # o número grande do Início: quantas pessoas por mês, e quantas em ações onde a necessidade é alta
         "alcance": {
             "beneficiariosPorMes": r2(m["beneficiariosPorMes"].sum()),

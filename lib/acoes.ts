@@ -1,5 +1,5 @@
 import { fimDeAno } from "@/lib/fim-de-ano";
-import { euros, numero, percentagem } from "@/lib/format";
+import { arredondar, euros, numero, percentagem } from "@/lib/format";
 import { iis, type Pesos, PREDEFINICOES, rankingIIS } from "@/lib/iis";
 import { nomeArea, nomePais } from "@/lib/nomes";
 import type {
@@ -85,6 +85,39 @@ export function precisaAtencao(
         a.projeto.localeCompare(b.projeto),
     )
     .slice(0, 3);
+}
+
+/** As ordenações da lista de Ações. A eficiência e o alcance separam o impacto total da eficiência. */
+export const ORDENACOES = {
+  iis: "Impacto (IIS)",
+  escala: "Alcance (beneficiários por mês)",
+  profundidade: "Profundidade",
+  necessidade: "Necessidade",
+  eficiencia: "Eficiência (custo por beneficiário, do mais baixo)",
+} as const;
+export type Ordenacao = keyof typeof ORDENACOES;
+
+/** Ordena as ações; compara os valores arredondados a 2 casas e, num empate, o id mais baixo primeiro. */
+export function ordenarAcoes(
+  acoes: Acao[],
+  por: Ordenacao,
+  pesos: Pesos = PREDEFINICOES.equilibrado.pesos,
+): Acao[] {
+  // valor a ordenar do maior para o menor (a eficiência entra com o sinal trocado: menos custo primeiro)
+  const chave: Record<Ordenacao, (a: Acao) => number> = {
+    iis: (a) => iis(a, pesos),
+    escala: (a) => a.escala.beneficiariosPorMes,
+    profundidade: (a) => a.profundidade.percentil,
+    necessidade: (a) => a.necessidade.percentil ?? Number.NEGATIVE_INFINITY,
+    eficiencia: (a) => -a.recursos.custoPorBeneficiario,
+  };
+  const valor = (a: Acao) => {
+    const v = chave[por](a);
+    return Number.isFinite(v) ? arredondar(v, 2) : v;
+  };
+  return [...acoes].sort(
+    (a, b) => valor(b) - valor(a) || a.projeto.localeCompare(b.projeto),
+  );
 }
 
 export type Leitura = {

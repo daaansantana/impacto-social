@@ -4,6 +4,7 @@ import {
   filtrarAcoes,
   juntarAcoes,
   leituras,
+  ordenarAcoes,
   precisaAtencao,
   saudeGeral,
 } from "@/lib/acoes";
@@ -24,6 +25,7 @@ const G = ler<{
       beneficiariosPorMes: number;
       percentagemNecessidadeAlta: number;
     };
+    ordem: { eficiencia: string[]; alcance: string[] };
   };
 }>("scripts/gabaritos.json");
 const texto = (s: string) => s.replace(/ /g, " ");
@@ -107,5 +109,24 @@ describe("leituras", () => {
     expect(texto(l[2].texto)).toBe(
       "Em novembro e dezembro, os beneficiários sobem 64% em todo o portefólio, sem aumento de custos: por isso comparamos janeiro a outubro. Um beneficiário custa 2451 € nesses meses.",
     );
+  });
+});
+
+describe("ordenarAcoes (requisitos 1 e 3, gabarito impacto.ordem)", () => {
+  const ordem = (por: Parameters<typeof ordenarAcoes>[1]) =>
+    ordenarAcoes(acoes, por).map((a) => a.projeto);
+  it("por eficiência: P07, P11 e P10 à frente, P01 em último", () => {
+    expect(ordem("eficiencia")).toEqual(G.impacto.ordem.eficiencia);
+    expect(ordem("eficiencia").slice(0, 3)).toEqual(["P07", "P11", "P10"]);
+    expect(ordem("eficiencia").at(-1)).toBe("P01");
+  });
+  it("por alcance: P01 em 1.º e P11 em último", () => {
+    expect(ordem("escala")).toEqual(G.impacto.ordem.alcance);
+    expect(ordem("escala")[0]).toBe("P01");
+    expect(ordem("escala").at(-1)).toBe("P11");
+  });
+  it("as outras ordenações têm as 12 ações", () => {
+    for (const por of ["iis", "profundidade", "necessidade"] as const)
+      expect(ordem(por)).toHaveLength(12);
   });
 });
