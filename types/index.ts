@@ -231,6 +231,14 @@ export type ImpactoAcao = {
   };
   /** um resultado à parte, fora do índice: os jovens formados contam outra população */
   jovensFormados: { total: number; porMes: number };
+  /** recursos e resultados de janeiro a outubro (requisito 2), exatos */
+  recursos: {
+    despesa: number;
+    horasVoluntariado: number;
+    beneficiarios: number;
+    custoPorBeneficiario: number;
+    horasPorBeneficiario: number;
+  };
   duracao: { crescimento: number; percentil: number };
   custoPorPessoa: { valor: number; percentilInvertido: number };
   confianca: "alta" | "média" | "baixa";

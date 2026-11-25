@@ -750,6 +750,92 @@
    "P11": "60 ou mais",
    "P12": "60 ou mais"
   },
+  "recursos": {
+   "P01": {
+    "despesa": 13620215.59,
+    "horasVoluntariado": 183348.9,
+    "beneficiarios": 2996.06,
+    "custoPorBeneficiario": 4546.04,
+    "horasPorBeneficiario": 61.2
+   },
+   "P02": {
+    "despesa": 2537263.52,
+    "horasVoluntariado": 46305.45,
+    "beneficiarios": 1171.32,
+    "custoPorBeneficiario": 2166.16,
+    "horasPorBeneficiario": 39.53
+   },
+   "P03": {
+    "despesa": 1897738.58,
+    "horasVoluntariado": 33801.96,
+    "beneficiarios": 1014.96,
+    "custoPorBeneficiario": 1869.77,
+    "horasPorBeneficiario": 33.3
+   },
+   "P04": {
+    "despesa": 1233820.29,
+    "horasVoluntariado": 23537.13,
+    "beneficiarios": 670.17,
+    "custoPorBeneficiario": 1841.06,
+    "horasPorBeneficiario": 35.12
+   },
+   "P05": {
+    "despesa": 3366185.92,
+    "horasVoluntariado": 54199.63,
+    "beneficiarios": 1571.05,
+    "custoPorBeneficiario": 2142.63,
+    "horasPorBeneficiario": 34.5
+   },
+   "P06": {
+    "despesa": 949097.97,
+    "horasVoluntariado": 19610.04,
+    "beneficiarios": 526.36,
+    "custoPorBeneficiario": 1803.13,
+    "horasPorBeneficiario": 37.26
+   },
+   "P07": {
+    "despesa": 832178.08,
+    "horasVoluntariado": 19080.1,
+    "beneficiarios": 571.04,
+    "custoPorBeneficiario": 1457.3,
+    "horasPorBeneficiario": 33.41
+   },
+   "P08": {
+    "despesa": 2191406.46,
+    "horasVoluntariado": 35983.38,
+    "beneficiarios": 1093.29,
+    "custoPorBeneficiario": 2004.41,
+    "horasPorBeneficiario": 32.91
+   },
+   "P09": {
+    "despesa": 1553383.61,
+    "horasVoluntariado": 25764.96,
+    "beneficiarios": 786.61,
+    "custoPorBeneficiario": 1974.78,
+    "horasPorBeneficiario": 32.75
+   },
+   "P10": {
+    "despesa": 3275621.95,
+    "horasVoluntariado": 98001.87,
+    "beneficiarios": 2034.99,
+    "custoPorBeneficiario": 1609.65,
+    "horasPorBeneficiario": 48.16
+   },
+   "P11": {
+    "despesa": 687960.71,
+    "horasVoluntariado": 15177.27,
+    "beneficiarios": 441.97,
+    "custoPorBeneficiario": 1556.58,
+    "horasPorBeneficiario": 34.34
+   },
+   "P12": {
+    "despesa": 2714254.73,
+    "horasVoluntariado": 41467.14,
+    "beneficiarios": 1345.25,
+    "custoPorBeneficiario": 2017.66,
+    "horasPorBeneficiario": 30.82
+   }
+  },
   "alcance": {
    "beneficiariosPorMes": 711.15,
    "percentagemNecessidadeAlta": 53.32
