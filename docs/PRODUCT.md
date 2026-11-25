@@ -91,3 +91,18 @@ Detalhe em `docs/CAMINHOS.md`.
 - Previsões mês a mês: os recursos não explicam o impacto de um mês para o outro (`docs/RELACOES.md`).
 - O campo «resultado» das atividades, porque não traz informação.
 - A métrica `voluntarios_ativos`, porque não bate com as alocações.
+
+## Evolução depois da mentoria (25/11, 22h30)
+
+A ideia inicial, no topo deste ficheiro, não muda. Depois da mentoria com o professor, o rumo muda assim (o plano completo está em `docs/PLANO-V2.md`):
+
+- **KPI:** passa a ser o impacto social para as pessoas. O dinheiro é uma consequência e aparece como contexto.
+- **Ranking:** em vez do ranking por euro, um Índice de Impacto Social (IIS), com dimensões da literatura e pesos que a Helena pode mudar.
+- **Voluntários:** saem as análises das horas de 2025, da competência certa e dos reportados contra os registados. O professor disse que são um falso positivo.
+- **Linguagem:** em vez de «sinais de risco» ou «fraude», «pontos de atenção» e «a confirmar com o parceiro», numa linguagem de políticas públicas. A Lupa informa; quem julga é a Helena.
+- **Tempo:** além do que já aconteceu, o que está a acontecer e onde abrir projetos novos, num radar de oportunidades com dados do mundo.
+- **Interface:** mais amiga, com leituras em frases, uma lista com filtros, um mapa e o detalhe só quando se pede.
+
+**O que fica:** o achado da sazonalidade (o fim de ano, a data e o mês), que o professor confirmou; a limpeza dos dados; os gabaritos; e o auditor, em protótipo.
+
+**Países:** só os 12 da base (5 em África, 3 na América do Sul, 3 na Ásia e 1 na Europa), sem países de fora. A região passa a ser um filtro; se o professor quis dizer «só África e América do Sul», basta pôr esse filtro por omissão.
