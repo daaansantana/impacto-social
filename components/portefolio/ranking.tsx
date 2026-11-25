@@ -1,3 +1,4 @@
+import Link from "next/link";
 import type { LinhaPortefolio } from "@/lib/portefolio";
 
 /** O ranking de eficiência: a posição, o projeto, o valor e o alcance. */
@@ -12,14 +13,19 @@ export function Ranking({ linhas }: { linhas: LinhaPortefolio[] }) {
         {linhas.map((l) => (
           <li
             key={l.id}
-            className="grid grid-cols-[2.5rem_minmax(0,1fr)] gap-x-3 gap-y-1 p-4 sm:grid-cols-[2.5rem_minmax(0,1fr)_auto] sm:items-center"
+            className="relative grid grid-cols-[2.5rem_minmax(0,1fr)] gap-x-3 gap-y-1 p-4 hover:bg-muted/50 sm:grid-cols-[2.5rem_minmax(0,1fr)_auto] sm:items-center"
           >
             <span className="text-2xl font-bold text-muted-foreground tabular-nums">
               {l.posicao}
             </span>
             <div className="min-w-0">
               <p className="font-semibold">
-                {l.nome}{" "}
+                <Link
+                  href={`/projetos/${l.id}`}
+                  className="underline-offset-4 after:absolute after:inset-0 hover:underline focus-visible:outline-none focus-visible:after:rounded-sm focus-visible:after:ring-2 focus-visible:after:ring-ring"
+                >
+                  {l.nome}
+                </Link>{" "}
                 <span className="font-normal text-muted-foreground">
                   {l.onde}
                 </span>

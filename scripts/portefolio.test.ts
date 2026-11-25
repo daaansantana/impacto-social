@@ -19,6 +19,13 @@ describe("construirPortefolio", () => {
       "Um beneficiário custa 1457 € no Projeto 07 e 4546 € no Projeto 01: 3,1 vezes mais.",
     );
     expect(v.periodo).toBe("Meses comparáveis (jan–out)");
+    expect(v.linhas.filter((l) => l.nomeNoGrafico).map((l) => l.id)).toEqual([
+      "P07",
+      "P11",
+      "P10",
+      "P06",
+      "P01",
+    ]);
     expect(v.linhas[0]).toMatchObject({
       id: "P07",
       posicao: 1,

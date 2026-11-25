@@ -79,6 +79,8 @@ Funções puras: recebem dados e devolvem dados, sem a data de hoje. A coluna «
 | `eficiencia(meses, unidade, comparaveis)` | `unidade`: `"euro"`, `"hora"` ou `"jovem"` | `{ projeto, valor, posicao }[]`, com a posição 1 para o melhor | 1 | `eficiencia.{todos\|comparaveis}.{euro\|hora\|jovem}` |
 | `totais(meses, comparaveis)` | — | `{ despesa, beneficiarios, horasVoluntariado, custoPorBeneficiario }` | 1 | `eficiencia.*.totais` |
 | `serieProjeto(meses, id)` | — | `Mes[]` do projeto, por ordem de mês | 2 | — |
+| `resumoProjeto(meses, id, comparaveis)` | — | `{ custoPorAtividade, reunioesPor100hAtividade, estornos }` | 2 | `projeto.{todos\|comparaveis}.<id>` |
+| `subidaFimDeAno(meses, id)` | — | quanto sobem os beneficiários por mês em novembro e dezembro face a janeiro–outubro (0,57 = +57%) | 2 (aviso) | `projeto.subidaFimDeAno.<id>` |
 | `fimDeAno(meses)` | — | médias mensais de janeiro a outubro e de novembro e dezembro: atividades, beneficiários, despesa, custo por beneficiário | 2, 4 | `fimDeAno` |
 | `simular({ custos, investimento, de, para, fracao, fator })` | os custos de `eficiencia(..., "euro", true)` e o `investimentoAprovado` | `{ movido, perdidos, ganhos, saldo, saldoPorAno, valorEquivalentePorAno }` | 3 | `simulacao.cenarios.*` |
 | `fatorDeEquilibrio(...)` | o cenário otimista | `ganhos / perdidos` (1,49) | 3 | `simulacao.fatorDeEquilibrio` |
@@ -90,6 +92,10 @@ Funções puras: recebem dados e devolvem dados, sem a data de hoje. A coluna «
 - **Por euro:** Σ despesa ÷ Σ beneficiários. Menos é melhor.
 - **Por hora:** Σ beneficiários ÷ Σ horas de voluntariado × 1000. Mais é melhor.
 - **Por jovem:** Σ despesa ÷ Σ jovens formados. Menos é melhor.
+- **Custo por atividade:** Σ despesa ÷ Σ atividades.
+- **Reuniões por 100 horas de atividade:** Σ horas de reunião ÷ Σ horas de atividade × 100.
+- **Subida no fim de ano:** a média mensal dos beneficiários em novembro e dezembro ÷ a média mensal de janeiro a outubro − 1, nos 24 meses.
+- **Competência certa:** vem pronta em `projetos.json` (`competenciaCerta`).
 
 ### O simulador
 

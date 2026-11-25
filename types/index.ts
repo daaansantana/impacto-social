@@ -177,3 +177,13 @@ export type ResultadoAuditoria = {
   grafias: Grafia[];
   vazios: Record<string, number>;
 };
+
+/** O «porquê» do ecrã 2 e os estornos de um projeto. */
+export type ResumoProjeto = {
+  /** euros por atividade */
+  custoPorAtividade: number;
+  /** horas de reunião por 100 horas de atividade */
+  reunioesPor100hAtividade: number;
+  /** euros abatidos */
+  estornos: number;
+};

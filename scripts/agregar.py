@@ -195,6 +195,31 @@ def eficiencia(comparaveis):
 
 G["eficiencia"] = {"todos": eficiencia(False), "comparaveis": eficiencia(True)}
 
+
+# ---------------- gabaritos: ecra do projeto ----------------
+def resumo_projeto(comparaveis):
+    d = desp if not comparaveis else desp[~desp["fda"]]
+    a = ativ if not comparaveis else ativ[~ativ["fda"]]
+    c = coord if not comparaveis else coord[~coord["fda"]]
+    res = {}
+    for pid in P:
+        dd, aa, cc = d[d["id_projeto"] == pid], a[a["id_projeto"] == pid], c[c["id_projeto"] == pid]
+        res[pid] = {
+            "custoPorAtividade": r2(dd["valor"].sum() / len(aa)),
+            "reunioesPor100hAtividade": r2(cc["horas_reuniao"].sum() / aa["horas"].sum() * 100),
+            "estornos": r2(-dd.loc[dd["valor"] < 0, "valor"].sum()),
+        }
+    return res
+
+
+_bm = met[met["metrica"] == "beneficiarios"]
+_sub = _bm.groupby(["id_projeto", "fda"])["valor"].mean().unstack()
+G["projeto"] = {
+    "todos": resumo_projeto(False),
+    "comparaveis": resumo_projeto(True),
+    "subidaFimDeAno": {k: r2(v) for k, v in (_sub[True] / _sub[False] - 1).items()},
+}
+
 # ---------------- gabaritos: fim de ano ----------------
 def media_mensal(df, val=None):
     g = df.groupby(["mes", "fda"])
