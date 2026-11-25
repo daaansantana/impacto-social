@@ -38,7 +38,7 @@ GABARITOS = RAIZ / "scripts" / "gabaritos.json"
 NECESSIDADE = {
     "educacao": ("SE.LPV.PRIM", True),
     "formacao": ("SL.UEM.NEET.ZS", True),
-    "saude": ("SH.UHC.SRVS.CV.XD", False),
+    "saude": ("SH.DYN.MORT", True),
     "tecnologia": ("IT.NET.USER.ZS", False),
     "comunicacao": ("IT.NET.USER.ZS", False),
     "logistica": ("SI.POV.DDAY", True),

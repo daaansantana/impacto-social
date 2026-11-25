@@ -73,7 +73,7 @@ São as lentes da OCDE (Comité de Ajuda ao Desenvolvimento): relevância, coer�
 | --- | --- | --- | --- |
 | Educação | Pobreza de aprendizagem (crianças que aos 10 anos não leem um texto simples) | `SE.LPV.PRIM` | o valor sobe |
 | Formação | Jovens que não estudam, não trabalham e não estão em formação (NEET) | `SL.UEM.NEET.ZS` | o valor sobe |
-| Saúde | Índice de cobertura dos serviços de saúde | `SH.UHC.SRVS.CV.XD` | o valor desce |
+| Saúde | Mortalidade antes dos 5 anos, por 1000 nascidos vivos (o índice de cobertura dos serviços de saúde, `SH.UHC.SRVS.CV.XD`, foi arquivado pelo Banco Mundial) | `SH.DYN.MORT` | o valor sobe |
 | Tecnologia e comunicação | Pessoas que usam a internet (%) | `IT.NET.USER.ZS` | o valor desce |
 | Logística | Pobreza extrema (a linha internacional do Banco Mundial em vigor) | `SI.POV.DDAY` | o valor sobe |
 | Todas, como contexto | Conclusão do ensino primário; desemprego jovem; nível de preços; população | `SE.PRM.CMPT.ZS`, `SL.UEM.1524.ZS`, `PA.NUS.PPPC.RF`, `SP.POP.TOTL` | — |

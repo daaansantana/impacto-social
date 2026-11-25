@@ -43,7 +43,7 @@ PAISES = {
 INDICADORES = [
     "SE.LPV.PRIM",
     "SL.UEM.NEET.ZS",
-    "SH.UHC.SRVS.CV.XD",
+    "SH.DYN.MORT",
     "IT.NET.USER.ZS",
     "SI.POV.DDAY",
     "SE.PRM.CMPT.ZS",

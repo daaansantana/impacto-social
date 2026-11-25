@@ -16,10 +16,10 @@
     "ano": 2025,
     "fonte": "Banco Mundial, WDI"
    },
-   "SH.UHC.SRVS.CV.XD": {
-    "valor": null,
-    "ano": null,
-    "fonte": "Banco Mundial, WDI: indicador arquivado, sem valor na API"
+   "SH.DYN.MORT": {
+    "valor": 14.2,
+    "ano": 2024,
+    "fonte": "Banco Mundial, WDI"
    },
    "IT.NET.USER.ZS": {
     "valor": 84.46347227,
@@ -70,10 +70,10 @@
     "ano": 2021,
     "fonte": "Banco Mundial, WDI"
    },
-   "SH.UHC.SRVS.CV.XD": {
-    "valor": null,
-    "ano": null,
-    "fonte": "Banco Mundial, WDI: indicador arquivado, sem valor na API"
+   "SH.DYN.MORT": {
+    "valor": 38.8,
+    "ano": 2024,
+    "fonte": "Banco Mundial, WDI"
    },
    "IT.NET.USER.ZS": {
     "valor": 34.97622513,
@@ -124,10 +124,10 @@
     "ano": 2025,
     "fonte": "Banco Mundial, WDI"
    },
-   "SH.UHC.SRVS.CV.XD": {
-    "valor": null,
-    "ano": null,
-    "fonte": "Banco Mundial, WDI: indicador arquivado, sem valor na API"
+   "SH.DYN.MORT": {
+    "valor": 26.6,
+    "ano": 2024,
+    "fonte": "Banco Mundial, WDI"
    },
    "IT.NET.USER.ZS": {
     "valor": 70,
@@ -178,10 +178,10 @@
     "ano": 2025,
     "fonte": "Banco Mundial, WDI"
    },
-   "SH.UHC.SRVS.CV.XD": {
-    "valor": null,
-    "ano": null,
-    "fonte": "Banco Mundial, WDI: indicador arquivado, sem valor na API"
+   "SH.DYN.MORT": {
+    "valor": 3.2,
+    "ano": 2024,
+    "fonte": "Banco Mundial, WDI"
    },
    "IT.NET.USER.ZS": {
     "valor": 88.48704454,
@@ -232,10 +232,10 @@
     "ano": 2025,
     "fonte": "Banco Mundial, WDI"
    },
-   "SH.UHC.SRVS.CV.XD": {
-    "valor": null,
-    "ano": null,
-    "fonte": "Banco Mundial, WDI: indicador arquivado, sem valor na API"
+   "SH.DYN.MORT": {
+    "valor": 35.9,
+    "ano": 2024,
+    "fonte": "Banco Mundial, WDI"
    },
    "IT.NET.USER.ZS": {
     "valor": 72.17569733,
@@ -286,10 +286,10 @@
     "ano": 2022,
     "fonte": "Banco Mundial, WDI"
    },
-   "SH.UHC.SRVS.CV.XD": {
-    "valor": null,
-    "ano": null,
-    "fonte": "Banco Mundial, WDI: indicador arquivado, sem valor na API"
+   "SH.DYN.MORT": {
+    "valor": 12.9,
+    "ano": 2024,
+    "fonte": "Banco Mundial, WDI"
    },
    "IT.NET.USER.ZS": {
     "valor": 81.95705992,
@@ -340,10 +340,10 @@
     "ano": 2025,
     "fonte": "Banco Mundial, WDI"
    },
-   "SH.UHC.SRVS.CV.XD": {
-    "valor": null,
-    "ano": null,
-    "fonte": "Banco Mundial, WDI: indicador arquivado, sem valor na API"
+   "SH.DYN.MORT": {
+    "valor": 36.5,
+    "ano": 2024,
+    "fonte": "Banco Mundial, WDI"
    },
    "IT.NET.USER.ZS": {
     "valor": 60.11780167,
@@ -394,10 +394,10 @@
     "ano": 2024,
     "fonte": "Banco Mundial, WDI"
    },
-   "SH.UHC.SRVS.CV.XD": {
-    "valor": null,
-    "ano": null,
-    "fonte": "Banco Mundial, WDI: indicador arquivado, sem valor na API"
+   "SH.DYN.MORT": {
+    "valor": 30.5,
+    "ano": 2024,
+    "fonte": "Banco Mundial, WDI"
    },
    "IT.NET.USER.ZS": {
     "valor": 53.42171316,
@@ -448,10 +448,10 @@
     "ano": 2025,
     "fonte": "Banco Mundial, WDI"
    },
-   "SH.UHC.SRVS.CV.XD": {
-    "valor": null,
-    "ano": null,
-    "fonte": "Banco Mundial, WDI: indicador arquivado, sem valor na API"
+   "SH.DYN.MORT": {
+    "valor": 11.5,
+    "ano": 2024,
+    "fonte": "Banco Mundial, WDI"
    },
    "IT.NET.USER.ZS": {
     "valor": 79.34543299,
@@ -502,10 +502,10 @@
     "ano": 2024,
     "fonte": "Banco Mundial, WDI"
    },
-   "SH.UHC.SRVS.CV.XD": {
-    "valor": null,
-    "ano": null,
-    "fonte": "Banco Mundial, WDI: indicador arquivado, sem valor na API"
+   "SH.DYN.MORT": {
+    "valor": 26.5,
+    "ano": 2024,
+    "fonte": "Banco Mundial, WDI"
    },
    "IT.NET.USER.ZS": {
     "valor": 67.26300914,
@@ -556,10 +556,10 @@
     "ano": 2021,
     "fonte": "Banco Mundial, WDI"
    },
-   "SH.UHC.SRVS.CV.XD": {
-    "valor": null,
-    "ano": null,
-    "fonte": "Banco Mundial, WDI: indicador arquivado, sem valor na API"
+   "SH.DYN.MORT": {
+    "valor": 48.7,
+    "ano": 2024,
+    "fonte": "Banco Mundial, WDI"
    },
    "IT.NET.USER.ZS": {
     "valor": 8.949831061,
@@ -610,10 +610,10 @@
     "ano": 2022,
     "fonte": "Banco Mundial, WDI"
    },
-   "SH.UHC.SRVS.CV.XD": {
-    "valor": null,
-    "ano": null,
-    "fonte": "Banco Mundial, WDI: indicador arquivado, sem valor na API"
+   "SH.DYN.MORT": {
+    "valor": 59.4,
+    "ano": 2024,
+    "fonte": "Banco Mundial, WDI"
    },
    "IT.NET.USER.ZS": {
     "valor": 20.52729988,
