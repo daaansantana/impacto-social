@@ -1,6 +1,6 @@
 import { eficiencia } from "@/lib/eficiencia";
 import { euros, numero, percentagem } from "@/lib/format";
-import { serieProjeto } from "@/lib/meses";
+import { filtrarMeses, serieProjeto } from "@/lib/meses";
 import { nomeArea, nomePais } from "@/lib/nomes";
 import { ROTULO_COMPARAVEIS, ROTULO_TODOS } from "@/lib/portefolio";
 import { resumoProjeto, subidaFimDeAno } from "@/lib/projeto";
@@ -89,7 +89,12 @@ export function construirProjeto(
   const resumo = resumoProjeto(meses, id, comparaveis);
   const todos = projetos.map((p) => resumoProjeto(meses, p.id, comparaveis));
   const subida = subidaFimDeAno(meses, id);
-  const despesaTotal = serie.reduce((s, m) => s + m.despesa, 0);
+  // os estornos e a despesa do mesmo período
+  const noPeriodo = filtrarMeses(serie, comparaveis);
+  const despesaPeriodo = noPeriodo.reduce((s, m) => s + m.despesa, 0);
+  const periodoTexto = comparaveis
+    ? "de janeiro a outubro"
+    : `dos ${noPeriodo.length} meses`;
   const primeiro = nomeMes(serie[0].mes);
   const ultimo = nomeMes(serie[serie.length - 1].mes);
   const resumoSerie = (titulo: string) =>
@@ -144,7 +149,7 @@ export function construirProjeto(
       {
         id: "estornos",
         titulo: "Estornos",
-        texto: `Os estornos somam ${euros(resumo.estornos, 0)} e já estão abatidos: a despesa é líquida (${percentagem((resumo.estornos / despesaTotal) * 100, 1)} da despesa dos 24 meses).`,
+        texto: `Os estornos somam ${euros(resumo.estornos, 0)} e já estão abatidos: são ${percentagem((resumo.estornos / despesaPeriodo) * 100, 1)} da despesa ${periodoTexto}.`,
       },
     ],
     porque: [
