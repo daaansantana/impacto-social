@@ -6,6 +6,7 @@ import { Navegacao } from "@/components/shell/navegacao";
 const ECRAS = [
   { href: "/", rotulo: "Portefólio", tambem: "/projetos" },
   { href: "/simulador", rotulo: "Simulador" },
+  { href: "/confianca", rotulo: "Confiança" },
 ];
 
 /** Lê a rota e passa-a à navegação por props. */

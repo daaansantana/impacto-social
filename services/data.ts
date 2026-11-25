@@ -13,3 +13,12 @@ export const fetchMensal = () => lerJson<Mes[]>("mensal.json");
 export const fetchProjetos = () => lerJson<Projeto[]>("projetos.json");
 export const fetchPlanos = () => lerJson<Plano[]>("planos.json");
 export const fetchQualidade = () => lerJson<Qualidade>("qualidade.json");
+
+/** Um ficheiro de demonstração do auditor, como texto. */
+export async function fetchDemo(ficheiro: string): Promise<string> {
+  const resposta = await fetch(`/demo/${ficheiro}`);
+  if (!resposta.ok) {
+    throw new Error(`Não foi possível ler ${ficheiro} (${resposta.status}).`);
+  }
+  return resposta.text();
+}
