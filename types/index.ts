@@ -106,6 +106,7 @@ export type Dados = {
   qualidade: Qualidade;
   impacto: ImpactoAcao[];
   contexto: Contexto[];
+  radar: RadarCelula[];
 };
 
 // ---- Resultados de lib/ (docs/SPEC.md, secção 3) ----
