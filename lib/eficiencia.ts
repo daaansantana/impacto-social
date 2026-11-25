@@ -59,6 +59,14 @@ export function eficiencia(
 }
 
 /** A despesa, os beneficiários e as horas de todos os projetos juntos. */
-export function totais(_meses: Mes[], _comparaveis: boolean): Totais {
-  throw new Error("Por fazer: totais");
+export function totais(meses: Mes[], comparaveis: boolean): Totais {
+  const t = somasPorProjeto(filtrarMeses(meses, comparaveis)).reduce(
+    (acc, [, s]) => ({
+      despesa: acc.despesa + s.despesa,
+      beneficiarios: acc.beneficiarios + s.beneficiarios,
+      horasVoluntariado: acc.horasVoluntariado + s.horasVoluntariado,
+    }),
+    { despesa: 0, beneficiarios: 0, horasVoluntariado: 0 },
+  );
+  return { ...t, custoPorBeneficiario: t.despesa / t.beneficiarios };
 }
