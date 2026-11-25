@@ -12,16 +12,16 @@
    "percentil": 100.0
   },
   "profundidade": {
-   "taxaConclusao": 66.13,
-   "horasFormacaoPorBenef": 0.42,
+   "taxaConclusao": 66.128,
+   "horasFormacaoPorBenef": 0.4235829723036254,
    "percentil": 20.83333333333333
   },
   "jovensFormados": {
    "total": 1020.55,
-   "porMes": 51.03
+   "porMes": 51.027499999999996
   },
   "duracao": {
-   "crescimento": 0.2928,
+   "crescimento": 0.29280947716419736,
    "percentil": 83.33333333333334
   },
   "custoPorPessoa": {
@@ -75,16 +75,16 @@
    "percentil": 66.66666666666666
   },
   "profundidade": {
-   "taxaConclusao": 69.78,
-   "horasFormacaoPorBenef": 1.23,
+   "taxaConclusao": 69.78299999999999,
+   "horasFormacaoPorBenef": 1.2332240549124065,
    "percentil": 62.5
   },
   "jovensFormados": {
    "total": 1298.23,
-   "porMes": 64.91
+   "porMes": 64.9115
   },
   "duracao": {
-   "crescimento": 0.3249,
+   "crescimento": 0.32487793259497444,
    "percentil": 91.66666666666666
   },
   "custoPorPessoa": {
@@ -138,16 +138,16 @@
    "percentil": 50.0
   },
   "profundidade": {
-   "taxaConclusao": 75.06,
-   "horasFormacaoPorBenef": 1.12,
+   "taxaConclusao": 75.0575,
+   "horasFormacaoPorBenef": 1.1227831638685268,
    "percentil": 66.66666666666666
   },
   "jovensFormados": {
    "total": 1100.13,
-   "porMes": 55.01
+   "porMes": 55.0065
   },
   "duracao": {
-   "crescimento": 0.2036,
+   "crescimento": 0.2035605731654364,
    "percentil": 33.33333333333333
   },
   "custoPorPessoa": {
@@ -201,16 +201,16 @@
    "percentil": 33.33333333333333
   },
   "profundidade": {
-   "taxaConclusao": 69.25,
-   "horasFormacaoPorBenef": 2.02,
+   "taxaConclusao": 69.2525,
+   "horasFormacaoPorBenef": 2.0210692809287196,
    "percentil": 70.83333333333334
   },
   "jovensFormados": {
    "total": 1117.62,
-   "porMes": 55.88
+   "porMes": 55.88099999999999
   },
   "duracao": {
-   "crescimento": 0.2779,
+   "crescimento": 0.27786275109615577,
    "percentil": 58.333333333333336
   },
   "custoPorPessoa": {
@@ -260,16 +260,16 @@
    "percentil": 83.33333333333334
   },
   "profundidade": {
-   "taxaConclusao": 64.3,
-   "horasFormacaoPorBenef": 0.68,
+   "taxaConclusao": 64.2995,
+   "horasFormacaoPorBenef": 0.6814869036631553,
    "percentil": 16.666666666666664
   },
   "jovensFormados": {
    "total": 1260.44,
-   "porMes": 63.02
+   "porMes": 63.022000000000006
   },
   "duracao": {
-   "crescimento": 0.2573,
+   "crescimento": 0.2572881794278652,
    "percentil": 41.66666666666667
   },
   "custoPorPessoa": {
@@ -319,16 +319,16 @@
    "percentil": 16.666666666666664
   },
   "profundidade": {
-   "taxaConclusao": 67.66,
-   "horasFormacaoPorBenef": 2.52,
+   "taxaConclusao": 67.65549999999999,
+   "horasFormacaoPorBenef": 2.522095144007903,
    "percentil": 66.66666666666666
   },
   "jovensFormados": {
    "total": 1230.77,
-   "porMes": 61.54
+   "porMes": 61.5385
   },
   "duracao": {
-   "crescimento": 0.187,
+   "crescimento": 0.1869702509556257,
    "percentil": 25.0
   },
   "custoPorPessoa": {
@@ -378,16 +378,16 @@
    "percentil": 25.0
   },
   "profundidade": {
-   "taxaConclusao": 75.63,
-   "horasFormacaoPorBenef": 1.99,
+   "taxaConclusao": 75.63050000000001,
+   "horasFormacaoPorBenef": 1.9877241524236482,
    "percentil": 87.5
   },
   "jovensFormados": {
    "total": 1316.72,
-   "porMes": 65.84
+   "porMes": 65.836
   },
   "duracao": {
-   "crescimento": 0.2677,
+   "crescimento": 0.26765149710110414,
    "percentil": 50.0
   },
   "custoPorPessoa": {
@@ -437,16 +437,16 @@
    "percentil": 58.333333333333336
   },
   "profundidade": {
-   "taxaConclusao": 65.3,
-   "horasFormacaoPorBenef": 1.22,
+   "taxaConclusao": 65.296,
+   "horasFormacaoPorBenef": 1.219008680222082,
    "percentil": 37.5
   },
   "jovensFormados": {
    "total": 1343.66,
-   "porMes": 67.18
+   "porMes": 67.183
   },
   "duracao": {
-   "crescimento": 0.1666,
+   "crescimento": 0.16656097657643376,
    "percentil": 8.333333333333332
   },
   "custoPorPessoa": {
@@ -491,16 +491,16 @@
    "percentil": 41.66666666666667
   },
   "profundidade": {
-   "taxaConclusao": 70.13,
-   "horasFormacaoPorBenef": 1.54,
+   "taxaConclusao": 70.128,
+   "horasFormacaoPorBenef": 1.5411576257611777,
    "percentil": 70.83333333333333
   },
   "jovensFormados": {
    "total": 1328.78,
-   "porMes": 66.44
+   "porMes": 66.439
   },
   "duracao": {
-   "crescimento": 0.2802,
+   "crescimento": 0.28022726613908433,
    "percentil": 66.66666666666666
   },
   "custoPorPessoa": {
@@ -545,16 +545,16 @@
    "percentil": 91.66666666666666
   },
   "profundidade": {
-   "taxaConclusao": 65.08,
-   "horasFormacaoPorBenef": 0.56,
+   "taxaConclusao": 65.078,
+   "horasFormacaoPorBenef": 0.5564302527285147,
    "percentil": 16.666666666666664
   },
   "jovensFormados": {
    "total": 1442.62,
-   "porMes": 72.13
+   "porMes": 72.131
   },
   "duracao": {
-   "crescimento": 0.1757,
+   "crescimento": 0.17566874077875427,
    "percentil": 16.666666666666664
   },
   "custoPorPessoa": {
@@ -599,16 +599,16 @@
    "percentil": 8.333333333333332
   },
   "profundidade": {
-   "taxaConclusao": 71.2,
-   "horasFormacaoPorBenef": 2.66,
+   "taxaConclusao": 71.202,
+   "horasFormacaoPorBenef": 2.6579858361427244,
    "percentil": 91.66666666666667
   },
   "jovensFormados": {
    "total": 1219.38,
-   "porMes": 60.97
+   "porMes": 60.96900000000001
   },
   "duracao": {
-   "crescimento": 0.3558,
+   "crescimento": 0.355791269122115,
    "percentil": 100.0
   },
   "custoPorPessoa": {
@@ -653,8 +653,8 @@
    "percentil": 75.0
   },
   "profundidade": {
-   "taxaConclusao": 69.14,
-   "horasFormacaoPorBenef": 0.91,
+   "taxaConclusao": 69.14349999999999,
+   "horasFormacaoPorBenef": 0.9068871956885337,
    "percentil": 41.666666666666664
   },
   "jovensFormados": {
@@ -662,7 +662,7 @@
    "porMes": 47.33
   },
   "duracao": {
-   "crescimento": 0.2893,
+   "crescimento": 0.2893196283312345,
    "percentil": 75.0
   },
   "custoPorPessoa": {
