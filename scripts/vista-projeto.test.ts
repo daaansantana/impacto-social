@@ -44,6 +44,11 @@ describe("construirProjeto", () => {
       "1,85 horas",
       "67%",
     ]);
+    expect(v.porque.map((p) => p.etiqueta ?? null)).toEqual([
+      null,
+      null,
+      "sinal fraco, não confirmado",
+    ]);
     expect(texto(v.porque[0].texto)).toBe(
       "Nos 12 projetos, vai de 384 € a 6473 €.",
     );

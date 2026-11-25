@@ -45,7 +45,13 @@ export type SerieProjeto = {
   aviso?: string;
 };
 
-export type Indicador = { titulo: string; valor: string; texto: string };
+export type Indicador = {
+  titulo: string;
+  valor: string;
+  texto: string;
+  /** por exemplo «sinal fraco, não confirmado» */
+  etiqueta?: string;
+};
 
 export type VistaProjeto = {
   id: string;
@@ -175,6 +181,8 @@ export function construirProjeto(
       },
       {
         titulo: "Competência certa",
+        // docs/RELACOES.md: ρ = +0,64, mas não resiste à correção para testes múltiplos (q = 0,10)
+        etiqueta: "sinal fraco, não confirmado",
         valor: percentagem(projeto.competenciaCerta),
         texto: `das alocações de voluntários têm a competência da área do projeto. ${intervalo(
           projetos.map((p) => p.competenciaCerta),
