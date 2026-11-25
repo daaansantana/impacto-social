@@ -1,6 +1,6 @@
 "use client";
 
-import { Switch } from "@/components/ui/switch";
+import { InterruptorComparaveis } from "@/components/comum/interruptor-comparaveis";
 import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
 import type { Unidade } from "@/types";
 
@@ -51,11 +51,11 @@ export function Escolhas({
           <p className="text-sm text-muted-foreground">{legenda}</p>
         </fieldset>
         <div className="flex flex-col gap-2">
-          {/* biome-ignore lint/a11y/noLabelWithoutControl: o Switch é o controlo dentro da label */}
-          <label className="flex items-center gap-3 font-medium">
-            <Switch checked={comparaveis} onCheckedChange={onComparaveis} />
-            {rotuloComparaveis}
-          </label>
+          <InterruptorComparaveis
+            rotulo={rotuloComparaveis}
+            comparaveis={comparaveis}
+            onComparaveis={onComparaveis}
+          />
           <p className="text-sm text-muted-foreground">{avisoFimDeAno}</p>
         </div>
       </div>

@@ -28,3 +28,9 @@ export function subidaFimDeAno(meses: Mes[], id: string): number {
   };
   return media(true) / media(false) - 1;
 }
+
+/** Os 12 projetos, P01 a P12. */
+export const IDS_PROJETOS = Array.from(
+  { length: 12 },
+  (_, i) => `P${String(i + 1).padStart(2, "0")}`,
+);
