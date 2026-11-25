@@ -63,11 +63,6 @@ export function SerieMensal({
           </BarChart>
         </ResponsiveContainer>
       </div>
-      {serie.aviso ? (
-        <p className="rounded-md border border-amber-600/40 bg-amber-50 px-3 py-2 text-sm dark:bg-amber-950/30">
-          {serie.aviso}
-        </p>
-      ) : null}
     </figure>
   );
 }

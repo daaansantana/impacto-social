@@ -45,12 +45,6 @@ describe("construirProjeto", () => {
     expect(v.porque.map((p) => texto(p.valor))).toEqual([
       "471 €",
       "1,85 horas",
-      "67%",
-    ]);
-    expect(v.porque.map((p) => p.etiqueta ?? null)).toEqual([
-      null,
-      null,
-      "sinal fraco, não confirmado",
     ]);
     expect(texto(v.porque[0].texto)).toBe(
       "Nos 12 projetos, vai de 384 € a 6473 €.",
@@ -104,15 +98,6 @@ describe("construirProjeto", () => {
     expect(aviso(false)).toBe(
       "Os estornos somam 466 318 € e já estão abatidos: são 2,9% da despesa dos 24 meses.",
     );
-  });
-
-  it("o aviso das horas de 2025 no gráfico das horas", () => {
-    const v = construirProjeto(meses, projetos, "P07", true);
-    expect(v?.series.map((s) => s.aviso ?? null)).toEqual([
-      null,
-      null,
-      "As horas de voluntariado de 2025 parecem incompletas (−85% face a 2024).",
-    ]);
   });
 
   it("nomeMes", () => {

@@ -1,10 +1,7 @@
 "use client";
 
 import { Auditor } from "@/components/confianca/auditor";
-import {
-  GraficoFimDeAno,
-  GraficoVoluntarios,
-} from "@/components/confianca/graficos";
+import { GraficoFimDeAno } from "@/components/confianca/graficos";
 import { Limpeza } from "@/components/confianca/limpeza";
 import { Notas } from "@/components/confianca/notas";
 import { Padroes } from "@/components/confianca/padroes";
@@ -51,12 +48,6 @@ export default function ConfiancaPage() {
             graficos={{
               fimDeAno: (
                 <GraficoFimDeAno dados={v.fimDeAno} resumo={v.fimDeAnoResumo} />
-              ),
-              voluntarios: (
-                <GraficoVoluntarios
-                  dados={v.voluntarios}
-                  resumo={v.voluntariosResumo}
-                />
               ),
             }}
           />

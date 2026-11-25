@@ -1,5 +1,4 @@
 import { numero, percentagem } from "@/lib/format";
-import { nomeMes } from "@/lib/vista-projeto";
 import type { Qualidade, Subida } from "@/types";
 
 export type VistaConfianca = {
@@ -24,11 +23,12 @@ export type VistaConfianca = {
   padroes: { id: string; titulo: string; texto: string; numero: string }[];
   fimDeAno: { rotulo: string; janOut: number; novDez: number }[];
   fimDeAnoResumo: string;
-  voluntarios: { rotulo: string; registados: number; reportados: number }[];
-  voluntariosResumo: string;
 };
 
-/** O ecrã 4: a nota genérica contra a real, a limpeza e os 4 padrões. */
+// Saem do ecrã: falso positivo indicado na mentoria (docs/PLANO-V2.md, secção 1).
+const PADROES_FORA = new Set(["voluntarios"]);
+
+/** O ecrã 4: a nota genérica contra a real, a limpeza e os padrões. */
 export function construirConfianca(q: Qualidade): VistaConfianca {
   const notas = q.scorecard.map((s) => s.nota);
   const min = Math.min(...notas);
@@ -51,9 +51,6 @@ export function construirConfianca(q: Qualidade): VistaConfianca {
   const semana = anomalia("semana")?.numeros as
     | { aulasAoDomingo: number; despesasAoDomingo: number }
     | undefined;
-  const vol = anomalia("voluntarios")?.numeros as
-    | { registados: Record<string, number>; reportados: Record<string, number> }
-    | undefined;
 
   const subida = (s?: Subida) =>
     s
@@ -69,21 +66,15 @@ export function construirConfianca(q: Qualidade): VistaConfianca {
     semana: semana
       ? `${percentagem(semana.aulasAoDomingo, 1)} das aulas e ${percentagem(semana.despesasAoDomingo, 1)} das despesas a um domingo.`
       : "",
-    voluntarios: "",
   };
-
-  const meses = vol ? Object.keys(vol.registados).sort() : [];
-  if (vol && meses.length) {
-    const [primeiro, ultimo] = [meses[0], meses[meses.length - 1]];
-    numeroDe.voluntarios = `Registados: de ${numero(vol.registados[primeiro])} para ${numero(vol.registados[ultimo])}. Reportados: ${numero(vol.reportados[primeiro])} e ${numero(vol.reportados[ultimo])}.`;
-  }
+  const anomalias = q.anomalias.filter((a) => !PADROES_FORA.has(a.id));
 
   const indice = (s?: Subida) =>
     s
       ? { janOut: 100, novDez: (s.novDez / s.janOut) * 100 }
       : { janOut: 100, novDez: 100 };
   return {
-    conclusao: `A validação genérica dá nota ${nota} às 10 tabelas. Olhando de perto, a qualidade fica entre ${min} e ${max} em 5: há ${q.anomalias.length} padrões que a nota não vê.`,
+    conclusao: `A validação genérica dá nota ${nota} às 10 tabelas. Olhando de perto, a qualidade fica entre ${min} e ${max} em 5: há ${anomalias.length} padrões que a nota não vê.`,
     notaGenerica: {
       nota,
       ferramenta: q.notaGenerica.ferramenta,
@@ -104,7 +95,7 @@ export function construirConfianca(q: Qualidade): VistaConfianca {
       regra: l.regra,
       nota: l.impacto,
     })),
-    padroes: q.anomalias.map((a) => ({
+    padroes: anomalias.map((a) => ({
       id: a.id,
       titulo: a.titulo,
       texto: a.texto,
@@ -117,14 +108,6 @@ export function construirConfianca(q: Qualidade): VistaConfianca {
     ],
     fimDeAnoResumo: fda
       ? `Média por mês, com janeiro a outubro igual a 100. Em novembro e dezembro: atividades ${numero(indice(fda.atividadesPorMes).novDez)}, beneficiários ${numero(indice(fda.beneficiariosPorMes).novDez)} e despesa ${numero(indice(fda.despesaPorMes).novDez)}.`
-      : "",
-    voluntarios: meses.map((m) => ({
-      rotulo: nomeMes(m),
-      registados: vol?.registados[m] ?? 0,
-      reportados: vol?.reportados[m] ?? 0,
-    })),
-    voluntariosResumo: numeroDe.voluntarios
-      ? `Voluntários por mês, registados nas alocações e reportados pelos parceiros. ${numeroDe.voluntarios}`
       : "",
   };
 }

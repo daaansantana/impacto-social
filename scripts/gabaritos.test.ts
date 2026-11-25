@@ -74,7 +74,7 @@ const MODOS = [
   ["todos", false],
   ["comparaveis", true],
 ] as const;
-const UNIDADES: Unidade[] = ["euro", "hora", "jovem"];
+const UNIDADES: Unidade[] = ["euro", "jovem"];
 const soma = (linhas: Mes[], campo: keyof Mes) =>
   linhas.reduce((t, m) => t + (m[campo] as number), 0);
 
@@ -206,20 +206,9 @@ describe("confianca: os números do ecrã 4 em qualidade.json", () => {
     perto(semana.aulasAoDomingo as number, G.confianca.aulasAoDomingo);
     perto(semana.despesasAoDomingo as number, G.confianca.despesasAoDomingo);
   });
-  it("os voluntários registados e reportados", () => {
-    const vol = numeros("voluntarios");
-    pertoDeTodos(vol.registados as Valores, G.confianca.voluntariosRegistados);
-    pertoDeTodos(vol.reportados as Valores, G.confianca.voluntariosReportados);
-  });
 });
 
-describe("projetos.json: os dados do parceiro e da competência", () => {
-  it("competência certa", () => {
-    pertoDeTodos(
-      Object.fromEntries(projetos.map((p) => [p.id, p.competenciaCerta])),
-      G.projeto.competenciaCerta,
-    );
-  });
+describe("projetos.json: a capacidade do parceiro", () => {
   it("capacidade do parceiro", () => {
     expect(
       Object.fromEntries(projetos.map((p) => [p.id, p.parceiro.capacidade])),

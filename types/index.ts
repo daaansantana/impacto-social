@@ -108,8 +108,8 @@ export type Dados = {
 
 // ---- Resultados de lib/ (docs/SPEC.md, secção 3) ----
 
-/** euro: custo por beneficiário; hora: beneficiários por 1000 horas; jovem: custo por jovem formado. */
-export type Unidade = "euro" | "hora" | "jovem";
+/** euro: custo por beneficiário; jovem: custo por jovem formado. */
+export type Unidade = "euro" | "jovem";
 
 export type LinhaEficiencia = {
   projeto: string;

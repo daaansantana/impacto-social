@@ -1,4 +1,3 @@
-import { avisoHoras } from "@/lib/avisos";
 import { eficiencia } from "@/lib/eficiencia";
 import { euros, numero, percentagem } from "@/lib/format";
 import { filtrarMeses, serieProjeto } from "@/lib/meses";
@@ -41,16 +40,12 @@ export type SerieProjeto = {
   formatar: (v: number) => string;
   /** o resumo para leitores de ecrã */
   resumo: string;
-  /** um aviso por baixo do gráfico */
-  aviso?: string;
 };
 
 export type Indicador = {
   titulo: string;
   valor: string;
   texto: string;
-  /** por exemplo «sinal fraco, não confirmado» */
-  etiqueta?: string;
 };
 
 export type VistaProjeto = {
@@ -144,7 +139,6 @@ export function construirProjeto(
         titulo: "Horas de voluntariado",
         formatar: (v) => numero(v),
         resumo: resumoSerie("Horas de voluntariado"),
-        aviso: avisoHoras(meses) ?? undefined,
       },
     ],
     avisos: [
@@ -178,16 +172,6 @@ export function construirProjeto(
           todos.map((r) => r.reunioesPor100hAtividade),
           (v) => `${numero(v, 2)} horas`,
         ),
-      },
-      {
-        titulo: "Competência certa",
-        // docs/RELACOES.md: ρ = +0,64, mas não resiste à correção para testes múltiplos (q = 0,10)
-        etiqueta: "sinal fraco, não confirmado",
-        valor: percentagem(projeto.competenciaCerta),
-        texto: `das alocações de voluntários têm a competência da área do projeto. ${intervalo(
-          projetos.map((p) => p.competenciaCerta),
-          (v) => percentagem(v),
-        )}`,
       },
     ],
   };
