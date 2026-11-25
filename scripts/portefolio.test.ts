@@ -1,0 +1,47 @@
+import { readFileSync } from "node:fs";
+import { describe, expect, it } from "vitest";
+import { construirPortefolio } from "@/lib/portefolio";
+import type { Mes, Projeto } from "@/types";
+
+const meses = JSON.parse(
+  readFileSync("public/data/mensal.json", "utf-8"),
+) as Mes[];
+const projetos = JSON.parse(
+  readFileSync("public/data/projetos.json", "utf-8"),
+) as Projeto[];
+// Intl põe um espaço sem quebra antes do € e entre os milhares
+const texto = (s: string) => s.replace(/ /g, " ");
+
+describe("construirPortefolio", () => {
+  it("por euro, em meses comparáveis", () => {
+    const v = construirPortefolio(meses, projetos, "euro", true);
+    expect(texto(v.conclusao)).toBe(
+      "Um beneficiário custa 1457 € no Projeto 07 e 4546 € no Projeto 01: 3,1 vezes mais.",
+    );
+    expect(v.periodo).toBe("Meses comparáveis (jan–out)");
+    expect(v.linhas[0]).toMatchObject({
+      id: "P07",
+      posicao: 1,
+      onde: "Senegal, educação",
+    });
+    expect(texto(v.linhas[0].valorTexto)).toBe("1457 € por beneficiário");
+    expect(texto(v.linhas[0].alcanceTexto)).toBe("571 beneficiários");
+    expect(texto(v.totaisTexto.custo)).toBe("2450,89 €");
+    expect(texto(v.totaisTexto.despesa)).toBe("34,86 M€");
+  });
+
+  it("por hora, com todos os meses", () => {
+    const v = construirPortefolio(meses, projetos, "hora", false);
+    expect(texto(v.conclusao)).toBe(
+      "Por cada 1000 horas de voluntariado, o Projeto 08 chega a 37 beneficiários e o Projeto 01 a 22.",
+    );
+    expect(v.periodo).toBe("Todos os meses (com novembro e dezembro)");
+  });
+
+  it("por jovem formado", () => {
+    const v = construirPortefolio(meses, projetos, "jovem", true);
+    expect(texto(v.conclusao)).toBe(
+      "Formar um jovem custa 564 € no Projeto 11 e 13 346 € no Projeto 01: 23,7 vezes mais.",
+    );
+  });
+});
