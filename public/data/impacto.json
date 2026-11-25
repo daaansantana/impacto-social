@@ -1,0 +1,702 @@
+[
+ {
+  "projeto": "P01",
+  "necessidade": {
+   "indicador": "SE.LPV.PRIM",
+   "valor": 46.8978614807128,
+   "ano": 2019,
+   "percentil": 30.0
+  },
+  "escala": {
+   "beneficiariosPorMes": 149.8,
+   "percentil": 100.0
+  },
+  "profundidade": {
+   "taxaConclusao": 66.13,
+   "horasFormacaoPorBenef": 0.42,
+   "percentil": 20.83
+  },
+  "jovensFormados": {
+   "total": 1020.55,
+   "porMes": 51.03
+  },
+  "duracao": {
+   "crescimento": 0.2928,
+   "percentil": 83.33
+  },
+  "custoPorPessoa": {
+   "valor": 4546.04,
+   "percentilInvertido": 8.33
+  },
+  "confianca": "baixa",
+  "pontos": [
+   {
+    "id": "custoAtividade",
+    "texto": "Cada atividade custa 4,7 vezes mais do que nas outras ações de educação (P07 e P10), com o mesmo número de participantes por atividade (37). A diferença de preços entre os países não chega para o explicar. Pedir o detalhe das maiores despesas."
+   },
+   {
+    "id": "objetivoArea",
+    "texto": "O objetivo declarado é «ampliar cobertura de saude preventiva», mas a área é educação. Confirmar qual vale para medir o impacto."
+   }
+  ],
+  "saude": {
+   "relevancia": {
+    "nivel": "a rever",
+    "frase": "O objetivo declarado não bate com a área; a necessidade no país está no percentil 30 (SE.LPV.PRIM, 2019)."
+   },
+   "eficacia": {
+    "nivel": "a acompanhar",
+    "frase": "Profundidade no percentil 21 e beneficiários +29% de 2024 para 2025 (janeiro a outubro)."
+   },
+   "eficiencia": {
+    "nivel": "a rever",
+    "frase": "Cada pessoa custa 4546 €; ajustado aos preços do país, fica no percentil 8 das 12 ações (mais alto é mais barato)."
+   },
+   "impacto": {
+    "nivel": "a acompanhar",
+    "frase": "IIS de 55 em 100, com os pesos equilibrados."
+   },
+   "sustentabilidade": {
+    "nivel": "a acompanhar",
+    "frase": "Parceiro com histórico recente e índice de capacidade operacional (sem unidade nos dados) de 36; duração no percentil 83."
+   }
+  }
+ },
+ {
+  "projeto": "P02",
+  "necessidade": {
+   "indicador": "SL.UEM.NEET.ZS",
+   "valor": 18.503,
+   "ano": 2021,
+   "percentil": 50.0
+  },
+  "escala": {
+   "beneficiariosPorMes": 58.57,
+   "percentil": 66.67
+  },
+  "profundidade": {
+   "taxaConclusao": 69.78,
+   "horasFormacaoPorBenef": 1.23,
+   "percentil": 62.5
+  },
+  "jovensFormados": {
+   "total": 1298.23,
+   "porMes": 64.91
+  },
+  "duracao": {
+   "crescimento": 0.3249,
+   "percentil": 91.67
+  },
+  "custoPorPessoa": {
+   "valor": 2166.16,
+   "percentilInvertido": 16.67
+  },
+  "confianca": "baixa",
+  "pontos": [
+   {
+    "id": "custoAtividade",
+    "texto": "Cada atividade custa 4,3 vezes mais do que na outra ação de formação (P06), com 36 participantes por atividade, contra 37. A diferença de preços entre os países não chega para o explicar. Pedir o detalhe das maiores despesas."
+   },
+   {
+    "id": "objetivoArea",
+    "texto": "O objetivo declarado é «ampliar cobertura de saude preventiva», mas a área é formação. Confirmar qual vale para medir o impacto."
+   }
+  ],
+  "saude": {
+   "relevancia": {
+    "nivel": "a rever",
+    "frase": "O objetivo declarado não bate com a área; a necessidade no país está no percentil 50 (SL.UEM.NEET.ZS, 2021)."
+   },
+   "eficacia": {
+    "nivel": "forte",
+    "frase": "Profundidade no percentil 62 e beneficiários +32% de 2024 para 2025 (janeiro a outubro)."
+   },
+   "eficiencia": {
+    "nivel": "a rever",
+    "frase": "Cada pessoa custa 2166 €; ajustado aos preços do país, fica no percentil 33 das 12 ações (mais alto é mais barato)."
+   },
+   "impacto": {
+    "nivel": "forte",
+    "frase": "IIS de 66 em 100, com os pesos equilibrados."
+   },
+   "sustentabilidade": {
+    "nivel": "forte",
+    "frase": "Parceiro com histórico longo e índice de capacidade operacional (sem unidade nos dados) de 84; duração no percentil 92."
+   }
+  }
+ },
+ {
+  "projeto": "P03",
+  "necessidade": {
+   "indicador": "SH.DYN.MORT",
+   "valor": 26.6,
+   "ano": 2024,
+   "percentil": 50.0
+  },
+  "escala": {
+   "beneficiariosPorMes": 50.75,
+   "percentil": 50.0
+  },
+  "profundidade": {
+   "taxaConclusao": 75.06,
+   "horasFormacaoPorBenef": 1.12,
+   "percentil": 66.67
+  },
+  "jovensFormados": {
+   "total": 1100.13,
+   "porMes": 55.01
+  },
+  "duracao": {
+   "crescimento": 0.2036,
+   "percentil": 33.33
+  },
+  "custoPorPessoa": {
+   "valor": 1869.77,
+   "percentilInvertido": 58.33
+  },
+  "confianca": "baixa",
+  "pontos": [
+   {
+    "id": "custoAtividade",
+    "texto": "Cada atividade custa 2,0 vezes mais do que na outra ação de saúde (P09), com 38 participantes por atividade, contra 37. A diferença de preços entre os países não chega para o explicar. Pedir o detalhe das maiores despesas."
+   },
+   {
+    "id": "objetivoArea",
+    "texto": "O objetivo declarado é «aumentar taxa de conclusao escolar», mas a área é saúde. Confirmar qual vale para medir o impacto."
+   }
+  ],
+  "saude": {
+   "relevancia": {
+    "nivel": "a rever",
+    "frase": "O objetivo declarado não bate com a área; a necessidade no país está no percentil 50 (SH.DYN.MORT, 2024)."
+   },
+   "eficacia": {
+    "nivel": "a acompanhar",
+    "frase": "Profundidade no percentil 67 e beneficiários +20% de 2024 para 2025 (janeiro a outubro)."
+   },
+   "eficiencia": {
+    "nivel": "a rever",
+    "frase": "Cada pessoa custa 1870 €; ajustado aos preços do país, fica no percentil 17 das 12 ações (mais alto é mais barato)."
+   },
+   "impacto": {
+    "nivel": "a acompanhar",
+    "frase": "IIS de 52 em 100, com os pesos equilibrados."
+   },
+   "sustentabilidade": {
+    "nivel": "a acompanhar",
+    "frase": "Parceiro com histórico longo e índice de capacidade operacional (sem unidade nos dados) de 75; duração no percentil 33."
+   }
+  }
+ },
+ {
+  "projeto": "P04",
+  "necessidade": {
+   "indicador": "IT.NET.USER.ZS",
+   "valor": 88.48704454,
+   "ano": 2024,
+   "percentil": 8.33
+  },
+  "escala": {
+   "beneficiariosPorMes": 33.51,
+   "percentil": 33.33
+  },
+  "profundidade": {
+   "taxaConclusao": 69.25,
+   "horasFormacaoPorBenef": 2.02,
+   "percentil": 70.83
+  },
+  "jovensFormados": {
+   "total": 1117.62,
+   "porMes": 55.88
+  },
+  "duracao": {
+   "crescimento": 0.2779,
+   "percentil": 58.33
+  },
+  "custoPorPessoa": {
+   "valor": 1841.06,
+   "percentilInvertido": 66.67
+  },
+  "confianca": "média",
+  "pontos": [
+   {
+    "id": "objetivoArea",
+    "texto": "O objetivo declarado é «aumentar taxa de conclusao escolar», mas a área é tecnologia. Confirmar qual vale para medir o impacto."
+   }
+  ],
+  "saude": {
+   "relevancia": {
+    "nivel": "a rever",
+    "frase": "O objetivo declarado não bate com a área; a necessidade no país está no percentil 8 (IT.NET.USER.ZS, 2024)."
+   },
+   "eficacia": {
+    "nivel": "forte",
+    "frase": "Profundidade no percentil 71 e beneficiários +28% de 2024 para 2025 (janeiro a outubro)."
+   },
+   "eficiencia": {
+    "nivel": "forte",
+    "frase": "Cada pessoa custa 1841 €; ajustado aos preços do país, fica no percentil 100 das 12 ações (mais alto é mais barato)."
+   },
+   "impacto": {
+    "nivel": "a acompanhar",
+    "frase": "IIS de 43 em 100, com os pesos equilibrados."
+   },
+   "sustentabilidade": {
+    "nivel": "a acompanhar",
+    "frase": "Parceiro com histórico recente e índice de capacidade operacional (sem unidade nos dados) de 60; duração no percentil 58."
+   }
+  }
+ },
+ {
+  "projeto": "P05",
+  "necessidade": {
+   "indicador": "SI.POV.DDAY",
+   "valor": 39,
+   "ano": 2016,
+   "percentil": 75.0
+  },
+  "escala": {
+   "beneficiariosPorMes": 78.55,
+   "percentil": 83.33
+  },
+  "profundidade": {
+   "taxaConclusao": 64.3,
+   "horasFormacaoPorBenef": 0.68,
+   "percentil": 16.66
+  },
+  "jovensFormados": {
+   "total": 1260.44,
+   "porMes": 63.02
+  },
+  "duracao": {
+   "crescimento": 0.2573,
+   "percentil": 41.67
+  },
+  "custoPorPessoa": {
+   "valor": 2142.63,
+   "percentilInvertido": 25.0
+  },
+  "confianca": "média",
+  "pontos": [
+   {
+    "id": "custoAtividade",
+    "texto": "Cada atividade custa 4,7 vezes mais do que na outra ação de logística (P11), com o mesmo número de participantes por atividade (37). A diferença de preços entre os países não chega para o explicar. Pedir o detalhe das maiores despesas."
+   }
+  ],
+  "saude": {
+   "relevancia": {
+    "nivel": "forte",
+    "frase": "A necessidade no país está no percentil 75 (SI.POV.DDAY, 2016)."
+   },
+   "eficacia": {
+    "nivel": "a rever",
+    "frase": "Profundidade no percentil 17 e beneficiários +26% de 2024 para 2025 (janeiro a outubro)."
+   },
+   "eficiencia": {
+    "nivel": "a acompanhar",
+    "frase": "Cada pessoa custa 2143 €; ajustado aos preços do país, fica no percentil 42 das 12 ações (mais alto é mais barato)."
+   },
+   "impacto": {
+    "nivel": "a acompanhar",
+    "frase": "IIS de 53 em 100, com os pesos equilibrados."
+   },
+   "sustentabilidade": {
+    "nivel": "a acompanhar",
+    "frase": "Parceiro com histórico medio e índice de capacidade operacional (sem unidade nos dados) de 60; duração no percentil 42."
+   }
+  }
+ },
+ {
+  "projeto": "P06",
+  "necessidade": {
+   "indicador": "SL.UEM.NEET.ZS",
+   "valor": 22.779,
+   "ano": 2022,
+   "percentil": 83.33
+  },
+  "escala": {
+   "beneficiariosPorMes": 26.32,
+   "percentil": 16.67
+  },
+  "profundidade": {
+   "taxaConclusao": 67.66,
+   "horasFormacaoPorBenef": 2.52,
+   "percentil": 66.67
+  },
+  "jovensFormados": {
+   "total": 1230.77,
+   "porMes": 61.54
+  },
+  "duracao": {
+   "crescimento": 0.187,
+   "percentil": 25.0
+  },
+  "custoPorPessoa": {
+   "valor": 1803.13,
+   "percentilInvertido": 75.0
+  },
+  "confianca": "média",
+  "pontos": [
+   {
+    "id": "objetivoArea",
+    "texto": "O objetivo declarado é «ampliar cobertura de saude preventiva», mas a área é formação. Confirmar qual vale para medir o impacto."
+   }
+  ],
+  "saude": {
+   "relevancia": {
+    "nivel": "a rever",
+    "frase": "O objetivo declarado não bate com a área; a necessidade no país está no percentil 83 (SL.UEM.NEET.ZS, 2022)."
+   },
+   "eficacia": {
+    "nivel": "a acompanhar",
+    "frase": "Profundidade no percentil 67 e beneficiários +19% de 2024 para 2025 (janeiro a outubro)."
+   },
+   "eficiencia": {
+    "nivel": "forte",
+    "frase": "Cada pessoa custa 1803 €; ajustado aos preços do país, fica no percentil 92 das 12 ações (mais alto é mais barato)."
+   },
+   "impacto": {
+    "nivel": "a acompanhar",
+    "frase": "IIS de 50 em 100, com os pesos equilibrados."
+   },
+   "sustentabilidade": {
+    "nivel": "a acompanhar",
+    "frase": "Parceiro com histórico longo e índice de capacidade operacional (sem unidade nos dados) de 90; duração no percentil 25."
+   }
+  }
+ },
+ {
+  "projeto": "P07",
+  "necessidade": {
+   "indicador": "SE.LPV.PRIM",
+   "valor": 68.5682296752929,
+   "ano": 2019,
+   "percentil": 70.0
+  },
+  "escala": {
+   "beneficiariosPorMes": 28.55,
+   "percentil": 25.0
+  },
+  "profundidade": {
+   "taxaConclusao": 75.63,
+   "horasFormacaoPorBenef": 1.99,
+   "percentil": 87.5
+  },
+  "jovensFormados": {
+   "total": 1316.72,
+   "porMes": 65.84
+  },
+  "duracao": {
+   "crescimento": 0.2677,
+   "percentil": 50.0
+  },
+  "custoPorPessoa": {
+   "valor": 1457.3,
+   "percentilInvertido": 100.0
+  },
+  "confianca": "média",
+  "pontos": [
+   {
+    "id": "objetivoArea",
+    "texto": "O objetivo declarado é «ampliar cobertura de saude preventiva», mas a área é educação. Confirmar qual vale para medir o impacto."
+   }
+  ],
+  "saude": {
+   "relevancia": {
+    "nivel": "a rever",
+    "frase": "O objetivo declarado não bate com a área; a necessidade no país está no percentil 70 (SE.LPV.PRIM, 2019)."
+   },
+   "eficacia": {
+    "nivel": "forte",
+    "frase": "Profundidade no percentil 88 e beneficiários +27% de 2024 para 2025 (janeiro a outubro)."
+   },
+   "eficiencia": {
+    "nivel": "forte",
+    "frase": "Cada pessoa custa 1457 €; ajustado aos preços do país, fica no percentil 83 das 12 ações (mais alto é mais barato)."
+   },
+   "impacto": {
+    "nivel": "forte",
+    "frase": "IIS de 60 em 100, com os pesos equilibrados."
+   },
+   "sustentabilidade": {
+    "nivel": "forte",
+    "frase": "Parceiro com histórico longo e índice de capacidade operacional (sem unidade nos dados) de 36; duração no percentil 50."
+   }
+  }
+ },
+ {
+  "projeto": "P08",
+  "necessidade": {
+   "indicador": "IT.NET.USER.ZS",
+   "valor": 53.42171316,
+   "ano": 2024,
+   "percentil": 75.0
+  },
+  "escala": {
+   "beneficiariosPorMes": 54.66,
+   "percentil": 58.33
+  },
+  "profundidade": {
+   "taxaConclusao": 65.3,
+   "horasFormacaoPorBenef": 1.22,
+   "percentil": 37.5
+  },
+  "jovensFormados": {
+   "total": 1343.66,
+   "porMes": 67.18
+  },
+  "duracao": {
+   "crescimento": 0.1666,
+   "percentil": 8.33
+  },
+  "custoPorPessoa": {
+   "valor": 2004.41,
+   "percentilInvertido": 41.67
+  },
+  "confianca": "alta",
+  "pontos": [],
+  "saude": {
+   "relevancia": {
+    "nivel": "forte",
+    "frase": "A necessidade no país está no percentil 75 (IT.NET.USER.ZS, 2024)."
+   },
+   "eficacia": {
+    "nivel": "a rever",
+    "frase": "Profundidade no percentil 38 e beneficiários +17% de 2024 para 2025 (janeiro a outubro)."
+   },
+   "eficiencia": {
+    "nivel": "a rever",
+    "frase": "Cada pessoa custa 2004 €; ajustado aos preços do país, fica no percentil 25 das 12 ações (mais alto é mais barato)."
+   },
+   "impacto": {
+    "nivel": "a acompanhar",
+    "frase": "IIS de 46 em 100, com os pesos equilibrados."
+   },
+   "sustentabilidade": {
+    "nivel": "a acompanhar",
+    "frase": "Parceiro com histórico longo e índice de capacidade operacional (sem unidade nos dados) de 78; duração no percentil 8."
+   }
+  }
+ },
+ {
+  "projeto": "P09",
+  "necessidade": {
+   "indicador": "SH.DYN.MORT",
+   "valor": 11.5,
+   "ano": 2024,
+   "percentil": 16.67
+  },
+  "escala": {
+   "beneficiariosPorMes": 39.33,
+   "percentil": 41.67
+  },
+  "profundidade": {
+   "taxaConclusao": 70.13,
+   "horasFormacaoPorBenef": 1.54,
+   "percentil": 70.84
+  },
+  "jovensFormados": {
+   "total": 1328.78,
+   "porMes": 66.44
+  },
+  "duracao": {
+   "crescimento": 0.2802,
+   "percentil": 66.67
+  },
+  "custoPorPessoa": {
+   "valor": 1974.78,
+   "percentilInvertido": 50.0
+  },
+  "confianca": "alta",
+  "pontos": [],
+  "saude": {
+   "relevancia": {
+    "nivel": "a acompanhar",
+    "frase": "A necessidade no país está no percentil 17 (SH.DYN.MORT, 2024)."
+   },
+   "eficacia": {
+    "nivel": "forte",
+    "frase": "Profundidade no percentil 71 e beneficiários +28% de 2024 para 2025 (janeiro a outubro)."
+   },
+   "eficiencia": {
+    "nivel": "a acompanhar",
+    "frase": "Cada pessoa custa 1975 €; ajustado aos preços do país, fica no percentil 58 das 12 ações (mais alto é mais barato)."
+   },
+   "impacto": {
+    "nivel": "a acompanhar",
+    "frase": "IIS de 49 em 100, com os pesos equilibrados."
+   },
+   "sustentabilidade": {
+    "nivel": "a acompanhar",
+    "frase": "Parceiro com histórico recente e índice de capacidade operacional (sem unidade nos dados) de 44; duração no percentil 67."
+   }
+  }
+ },
+ {
+  "projeto": "P10",
+  "necessidade": {
+   "indicador": "SE.LPV.PRIM",
+   "valor": 90.9132614135742,
+   "ano": 2019,
+   "percentil": 100.0
+  },
+  "escala": {
+   "beneficiariosPorMes": 101.75,
+   "percentil": 91.67
+  },
+  "profundidade": {
+   "taxaConclusao": 65.08,
+   "horasFormacaoPorBenef": 0.56,
+   "percentil": 16.67
+  },
+  "jovensFormados": {
+   "total": 1442.62,
+   "porMes": 72.13
+  },
+  "duracao": {
+   "crescimento": 0.1757,
+   "percentil": 16.67
+  },
+  "custoPorPessoa": {
+   "valor": 1609.65,
+   "percentilInvertido": 83.33
+  },
+  "confianca": "alta",
+  "pontos": [],
+  "saude": {
+   "relevancia": {
+    "nivel": "forte",
+    "frase": "A necessidade no país está no percentil 100 (SE.LPV.PRIM, 2019)."
+   },
+   "eficacia": {
+    "nivel": "a rever",
+    "frase": "Profundidade no percentil 17 e beneficiários +18% de 2024 para 2025 (janeiro a outubro)."
+   },
+   "eficiencia": {
+    "nivel": "forte",
+    "frase": "Cada pessoa custa 1610 €; ajustado aos preços do país, fica no percentil 67 das 12 ações (mais alto é mais barato)."
+   },
+   "impacto": {
+    "nivel": "a acompanhar",
+    "frase": "IIS de 56 em 100, com os pesos equilibrados."
+   },
+   "sustentabilidade": {
+    "nivel": "a acompanhar",
+    "frase": "Parceiro com histórico longo e índice de capacidade operacional (sem unidade nos dados) de 36; duração no percentil 17."
+   }
+  }
+ },
+ {
+  "projeto": "P11",
+  "necessidade": {
+   "indicador": "SI.POV.DDAY",
+   "valor": 54.4,
+   "ano": 2023,
+   "percentil": 91.67
+  },
+  "escala": {
+   "beneficiariosPorMes": 22.1,
+   "percentil": 8.33
+  },
+  "profundidade": {
+   "taxaConclusao": 71.2,
+   "horasFormacaoPorBenef": 2.66,
+   "percentil": 91.66
+  },
+  "jovensFormados": {
+   "total": 1219.38,
+   "porMes": 60.97
+  },
+  "duracao": {
+   "crescimento": 0.3558,
+   "percentil": 100.0
+  },
+  "custoPorPessoa": {
+   "valor": 1556.58,
+   "percentilInvertido": 91.67
+  },
+  "confianca": "alta",
+  "pontos": [],
+  "saude": {
+   "relevancia": {
+    "nivel": "forte",
+    "frase": "A necessidade no país está no percentil 92 (SI.POV.DDAY, 2023)."
+   },
+   "eficacia": {
+    "nivel": "forte",
+    "frase": "Profundidade no percentil 92 e beneficiários +36% de 2024 para 2025 (janeiro a outubro)."
+   },
+   "eficiencia": {
+    "nivel": "forte",
+    "frase": "Cada pessoa custa 1557 €; ajustado aos preços do país, fica no percentil 75 das 12 ações (mais alto é mais barato)."
+   },
+   "impacto": {
+    "nivel": "forte",
+    "frase": "IIS de 72 em 100, com os pesos equilibrados."
+   },
+   "sustentabilidade": {
+    "nivel": "a acompanhar",
+    "frase": "Parceiro com histórico recente e índice de capacidade operacional (sem unidade nos dados) de 66; duração no percentil 100."
+   }
+  }
+ },
+ {
+  "projeto": "P12",
+  "necessidade": {
+   "indicador": "IT.NET.USER.ZS",
+   "valor": 20.52729988,
+   "ano": 2024,
+   "percentil": 91.67
+  },
+  "escala": {
+   "beneficiariosPorMes": 67.26,
+   "percentil": 75.0
+  },
+  "profundidade": {
+   "taxaConclusao": 69.14,
+   "horasFormacaoPorBenef": 0.91,
+   "percentil": 41.66
+  },
+  "jovensFormados": {
+   "total": 946.6,
+   "porMes": 47.33
+  },
+  "duracao": {
+   "crescimento": 0.2893,
+   "percentil": 75.0
+  },
+  "custoPorPessoa": {
+   "valor": 2017.66,
+   "percentilInvertido": 33.33
+  },
+  "confianca": "média",
+  "pontos": [
+   {
+    "id": "custoAtividade",
+    "texto": "Cada atividade custa 3,5 vezes mais do que na outra ação de tecnologia (P04), com 37 participantes por atividade, contra 36. A diferença de preços entre os países não chega para o explicar. Pedir o detalhe das maiores despesas."
+   }
+  ],
+  "saude": {
+   "relevancia": {
+    "nivel": "forte",
+    "frase": "A necessidade no país está no percentil 92 (IT.NET.USER.ZS, 2024)."
+   },
+   "eficacia": {
+    "nivel": "a acompanhar",
+    "frase": "Profundidade no percentil 42 e beneficiários +29% de 2024 para 2025 (janeiro a outubro)."
+   },
+   "eficiencia": {
+    "nivel": "a acompanhar",
+    "frase": "Cada pessoa custa 2018 €; ajustado aos preços do país, fica no percentil 50 das 12 ações (mais alto é mais barato)."
+   },
+   "impacto": {
+    "nivel": "forte",
+    "frase": "IIS de 69 em 100, com os pesos equilibrados."
+   },
+   "sustentabilidade": {
+    "nivel": "a acompanhar",
+    "frase": "Parceiro com histórico recente e índice de capacidade operacional (sem unidade nos dados) de 98; duração no percentil 75."
+   }
+  }
+ }
+]

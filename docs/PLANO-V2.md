@@ -35,7 +35,7 @@ O impacto lê-se em cinco perguntas: **o quê**, **quem**, **quanto** (escala, p
 | --- | --- | --- | ---: |
 | **Quem: necessidade** | As pessoas a quem chegamos precisam mesmo? | Um indicador do Banco Mundial para a área do projeto, no país do projeto (tabela 2.3), em percentil entre os 12 países | 25 |
 | **Quanto: escala** | A quantas pessoas chegamos? | Beneficiários por mês, só em meses comparáveis (janeiro a outubro), em percentil | 25 |
-| **Quanto: profundidade** | Quanto muda para cada pessoa? | Média dos percentis da taxa de conclusão, dos jovens formados por 100 beneficiários e das horas de formação por beneficiário | 30 |
+| **Quanto: profundidade** | Quanto muda para cada pessoa? | Média dos percentis da taxa de conclusão e das horas de formação por beneficiário. Os jovens formados ficam à parte, fora do índice: contam outra população | 30 |
 | **Quanto: duração** | O impacto mantém-se? | Crescimento dos beneficiários de 2024 para 2025, de janeiro a outubro, em percentil | 20 |
 | **Contributo** | O que teria acontecido sem nós? | Ainda não se pode medir: precisa de uma linha de base ou de um grupo de comparação. Fica no roadmap, com peso 0 | 0 |
 | **Risco: confiança na medição** | Qual é a probabilidade de o impacto não ser o que parece? | Os pontos de atenção da ação (2.4). Não entra na conta: aparece como uma faixa de confiança alta, média ou baixa | — |
@@ -73,7 +73,7 @@ São as lentes da OCDE (Comité de Ajuda ao Desenvolvimento): relevância, coer�
 | --- | --- | --- | --- |
 | Educação | Pobreza de aprendizagem (crianças que aos 10 anos não leem um texto simples) | `SE.LPV.PRIM` | o valor sobe |
 | Formação | Jovens que não estudam, não trabalham e não estão em formação (NEET) | `SL.UEM.NEET.ZS` | o valor sobe |
-| Saúde | Índice de cobertura dos serviços de saúde | `SH.UHC.SRVS.CV.XD` | o valor desce |
+| Saúde | Mortalidade antes dos 5 anos, por 1000 nascidos vivos (o índice de cobertura dos serviços de saúde, `SH.UHC.SRVS.CV.XD`, foi arquivado pelo Banco Mundial) | `SH.DYN.MORT` | o valor sobe |
 | Tecnologia e comunicação | Pessoas que usam a internet (%) | `IT.NET.USER.ZS` | o valor desce |
 | Logística | Pobreza extrema (a linha internacional do Banco Mundial em vigor) | `SI.POV.DDAY` | o valor sobe |
 | Todas, como contexto | Conclusão do ensino primário; desemprego jovem; nível de preços; população | `SE.PRM.CMPT.ZS`, `SL.UEM.1524.ZS`, `PA.NUS.PPPC.RF`, `SP.POP.TOTL` | — |
@@ -161,7 +161,8 @@ type ImpactoAcao = {
   projeto: string
   necessidade: { indicador: string; valor: number | null; ano: number | null; percentil: number | null }
   escala: { beneficiariosPorMes: number; percentil: number }
-  profundidade: { taxaConclusao: number; jovensPor100: number; horasFormacaoPorBenef: number; percentil: number }
+  profundidade: { taxaConclusao: number; horasFormacaoPorBenef: number; percentil: number }
+  jovensFormados: { total: number; porMes: number }   // à parte, fora do índice
   duracao: { crescimento: number; percentil: number }
   custoPorPessoa: { valor: number; percentilInvertido: number }
   confianca: "alta" | "média" | "baixa"

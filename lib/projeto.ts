@@ -4,7 +4,7 @@ import type { Mes, ResumoProjeto } from "@/types";
 const soma = (meses: Mes[], campo: keyof Mes) =>
   meses.reduce((t, m) => t + (m[campo] as number), 0);
 
-/** O custo por atividade, as reuniões por 100 horas de atividade e os estornos de um projeto. */
+/** O custo por atividade, as reuniões por 100 horas de atividade e as correções de despesa (estornos) de um projeto. */
 export function resumoProjeto(
   meses: Mes[],
   id: string,
@@ -20,11 +20,15 @@ export function resumoProjeto(
 }
 
 /** Quanto sobem os beneficiários por mês em novembro e dezembro face a janeiro–outubro (0,57 = +57%). */
-export function subidaFimDeAno(meses: Mes[], id: string): number {
+export function subidaFimDeAno(
+  meses: Mes[],
+  id: string,
+  campo: keyof Mes = "beneficiarios",
+): number {
   const serie = serieProjeto(meses, id);
   const media = (fimDeAno: boolean) => {
     const parte = serie.filter((m) => m.fimDeAno === fimDeAno);
-    return soma(parte, "beneficiarios") / parte.length;
+    return soma(parte, campo) / parte.length;
   };
   return media(true) / media(false) - 1;
 }

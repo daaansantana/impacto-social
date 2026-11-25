@@ -1,0 +1,650 @@
+[
+ {
+  "pais": "Brasil",
+  "iso3": "BRA",
+  "regiao": "América do Sul",
+  "lat": -15.7801,
+  "lng": -47.9292,
+  "indicadores": {
+   "SE.LPV.PRIM": {
+    "valor": 46.8978614807128,
+    "ano": 2019,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "SL.UEM.NEET.ZS": {
+    "valor": 18.702,
+    "ano": 2025,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "SH.DYN.MORT": {
+    "valor": 14.2,
+    "ano": 2024,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "IT.NET.USER.ZS": {
+    "valor": 84.46347227,
+    "ano": 2024,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "SI.POV.DDAY": {
+    "valor": 3,
+    "ano": 2024,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "SE.PRM.CMPT.ZS": {
+    "valor": null,
+    "ano": null,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "SL.UEM.1524.ZS": {
+    "valor": 13.981,
+    "ano": 2025,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "PA.NUS.PPPC.RF": {
+    "valor": 0.45718229661505233,
+    "ano": 2025,
+    "fonte": "Banco Mundial, WDI (calculado: PA.NUS.PPP ÷ PA.NUS.FCRF, no mesmo ano)"
+   },
+   "SP.POP.TOTL": {
+    "valor": 212812405,
+    "ano": 2025,
+    "fonte": "Banco Mundial, WDI"
+   }
+  }
+ },
+ {
+  "pais": "Quenia",
+  "iso3": "KEN",
+  "regiao": "África",
+  "lat": -1.27975,
+  "lng": 36.8126,
+  "indicadores": {
+   "SE.LPV.PRIM": {
+    "valor": 79.2863388061523,
+    "ano": 2023,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "SL.UEM.NEET.ZS": {
+    "valor": 18.503,
+    "ano": 2021,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "SH.DYN.MORT": {
+    "valor": 38.8,
+    "ano": 2024,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "IT.NET.USER.ZS": {
+    "valor": 34.97622513,
+    "ano": 2024,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "SI.POV.DDAY": {
+    "valor": 45.5,
+    "ano": 2022,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "SE.PRM.CMPT.ZS": {
+    "valor": 102.200240064297,
+    "ano": 2016,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "SL.UEM.1524.ZS": {
+    "valor": 15.246,
+    "ano": 2025,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "PA.NUS.PPPC.RF": {
+    "valor": 0.33678485400019603,
+    "ano": 2025,
+    "fonte": "Banco Mundial, WDI (calculado: PA.NUS.PPP ÷ PA.NUS.FCRF, no mesmo ano)"
+   },
+   "SP.POP.TOTL": {
+    "valor": 57532493,
+    "ano": 2025,
+    "fonte": "Banco Mundial, WDI"
+   }
+  }
+ },
+ {
+  "pais": "India",
+  "iso3": "IND",
+  "regiao": "Ásia",
+  "lat": 28.6353,
+  "lng": 77.225,
+  "indicadores": {
+   "SE.LPV.PRIM": {
+    "valor": 56.0705604553222,
+    "ano": 2017,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "SL.UEM.NEET.ZS": {
+    "valor": 25.554,
+    "ano": 2025,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "SH.DYN.MORT": {
+    "valor": 26.6,
+    "ano": 2024,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "IT.NET.USER.ZS": {
+    "valor": 70,
+    "ano": 2025,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "SI.POV.DDAY": {
+    "valor": 2.6,
+    "ano": 2023,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "SE.PRM.CMPT.ZS": {
+    "valor": 90.2563989745259,
+    "ano": 2025,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "SL.UEM.1524.ZS": {
+    "valor": 16.022,
+    "ano": 2025,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "PA.NUS.PPPC.RF": {
+    "valor": 0.23048401137914248,
+    "ano": 2025,
+    "fonte": "Banco Mundial, WDI (calculado: PA.NUS.PPP ÷ PA.NUS.FCRF, no mesmo ano)"
+   },
+   "SP.POP.TOTL": {
+    "valor": 1463865525,
+    "ano": 2025,
+    "fonte": "Banco Mundial, WDI"
+   }
+  }
+ },
+ {
+  "pais": "Portugal",
+  "iso3": "PRT",
+  "regiao": "Europa",
+  "lat": 38.7072,
+  "lng": -9.13552,
+  "indicadores": {
+   "SE.LPV.PRIM": {
+    "valor": 7.97772073745727,
+    "ano": 2021,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "SL.UEM.NEET.ZS": {
+    "valor": 6.913,
+    "ano": 2025,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "SH.DYN.MORT": {
+    "valor": 3.2,
+    "ano": 2024,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "IT.NET.USER.ZS": {
+    "valor": 88.48704454,
+    "ano": 2024,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "SI.POV.DDAY": {
+    "valor": 0.4,
+    "ano": 2023,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "SE.PRM.CMPT.ZS": {
+    "valor": 104.516647338867,
+    "ano": 2023,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "SL.UEM.1524.ZS": {
+    "valor": 20.221,
+    "ano": 2025,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "PA.NUS.PPPC.RF": {
+    "valor": 0.6036573316180384,
+    "ano": 2025,
+    "fonte": "Banco Mundial, WDI (calculado: PA.NUS.PPP ÷ PA.NUS.FCRF, no mesmo ano)"
+   },
+   "SP.POP.TOTL": {
+    "valor": 10804871,
+    "ano": 2025,
+    "fonte": "Banco Mundial, WDI"
+   }
+  }
+ },
+ {
+  "pais": "Ghana",
+  "iso3": "GHA",
+  "regiao": "África",
+  "lat": 5.57045,
+  "lng": -0.20795,
+  "indicadores": {
+   "SE.LPV.PRIM": {
+    "valor": null,
+    "ano": null,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "SL.UEM.NEET.ZS": {
+    "valor": 18.233,
+    "ano": 2025,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "SH.DYN.MORT": {
+    "valor": 35.9,
+    "ano": 2024,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "IT.NET.USER.ZS": {
+    "valor": 72.17569733,
+    "ano": 2024,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "SI.POV.DDAY": {
+    "valor": 39,
+    "ano": 2016,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "SE.PRM.CMPT.ZS": {
+    "valor": 97.5019836425781,
+    "ano": 2024,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "SL.UEM.1524.ZS": {
+    "valor": 5.826,
+    "ano": 2025,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "PA.NUS.PPPC.RF": {
+    "valor": 0.3782874852340588,
+    "ano": 2025,
+    "fonte": "Banco Mundial, WDI (calculado: PA.NUS.PPP ÷ PA.NUS.FCRF, no mesmo ano)"
+   },
+   "SP.POP.TOTL": {
+    "valor": 35064272,
+    "ano": 2025,
+    "fonte": "Banco Mundial, WDI"
+   }
+  }
+ },
+ {
+  "pais": "Peru",
+  "iso3": "PER",
+  "regiao": "América do Sul",
+  "lat": -12.0931,
+  "lng": -77.0465,
+  "indicadores": {
+   "SE.LPV.PRIM": {
+    "valor": 44.4424438476562,
+    "ano": 2019,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "SL.UEM.NEET.ZS": {
+    "valor": 22.779,
+    "ano": 2022,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "SH.DYN.MORT": {
+    "valor": 12.9,
+    "ano": 2024,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "IT.NET.USER.ZS": {
+    "valor": 81.95705992,
+    "ano": 2024,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "SI.POV.DDAY": {
+    "valor": 5.1,
+    "ano": 2024,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "SE.PRM.CMPT.ZS": {
+    "valor": 94.9881591796875,
+    "ano": 2019,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "SL.UEM.1524.ZS": {
+    "valor": 9.453,
+    "ano": 2025,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "PA.NUS.PPPC.RF": {
+    "valor": 0.5146874163176924,
+    "ano": 2025,
+    "fonte": "Banco Mundial, WDI (calculado: PA.NUS.PPP ÷ PA.NUS.FCRF, no mesmo ano)"
+   },
+   "SP.POP.TOTL": {
+    "valor": 34576665,
+    "ano": 2025,
+    "fonte": "Banco Mundial, WDI"
+   }
+  }
+ },
+ {
+  "pais": "Senegal",
+  "iso3": "SEN",
+  "regiao": "África",
+  "lat": 14.7247,
+  "lng": -17.4734,
+  "indicadores": {
+   "SE.LPV.PRIM": {
+    "valor": 68.5682296752929,
+    "ano": 2019,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "SL.UEM.NEET.ZS": {
+    "valor": 34.271,
+    "ano": 2025,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "SH.DYN.MORT": {
+    "valor": 36.5,
+    "ano": 2024,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "IT.NET.USER.ZS": {
+    "valor": 60.11780167,
+    "ano": 2024,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "SI.POV.DDAY": {
+    "valor": 17.9,
+    "ano": 2021,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "SE.PRM.CMPT.ZS": {
+    "valor": 62.8559370532489,
+    "ano": 2024,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "SL.UEM.1524.ZS": {
+    "valor": 3.616,
+    "ano": 2025,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "PA.NUS.PPPC.RF": {
+    "valor": 0.3577949186033222,
+    "ano": 2025,
+    "fonte": "Banco Mundial, WDI (calculado: PA.NUS.PPP ÷ PA.NUS.FCRF, no mesmo ano)"
+   },
+   "SP.POP.TOTL": {
+    "valor": 18931966,
+    "ano": 2025,
+    "fonte": "Banco Mundial, WDI"
+   }
+  }
+ },
+ {
+  "pais": "Bangladesh",
+  "iso3": "BGD",
+  "regiao": "Ásia",
+  "lat": 23.7055,
+  "lng": 90.4113,
+  "indicadores": {
+   "SE.LPV.PRIM": {
+    "valor": 51.2200012207031,
+    "ano": 2022,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "SL.UEM.NEET.ZS": {
+    "valor": 15.431,
+    "ano": 2024,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "SH.DYN.MORT": {
+    "valor": 30.5,
+    "ano": 2024,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "IT.NET.USER.ZS": {
+    "valor": 53.42171316,
+    "ano": 2024,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "SI.POV.DDAY": {
+    "valor": 5.9,
+    "ano": 2022,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "SE.PRM.CMPT.ZS": {
+    "valor": 94.3021681436472,
+    "ano": 2024,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "SL.UEM.1524.ZS": {
+    "valor": 9.385,
+    "ano": 2025,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "PA.NUS.PPPC.RF": {
+    "valor": 0.2535745027671743,
+    "ano": 2025,
+    "fonte": "Banco Mundial, WDI (calculado: PA.NUS.PPP ÷ PA.NUS.FCRF, no mesmo ano)"
+   },
+   "SP.POP.TOTL": {
+    "valor": 175686899,
+    "ano": 2025,
+    "fonte": "Banco Mundial, WDI"
+   }
+  }
+ },
+ {
+  "pais": "Colombia",
+  "iso3": "COL",
+  "regiao": "América do Sul",
+  "lat": 4.60987,
+  "lng": -74.082,
+  "indicadores": {
+   "SE.LPV.PRIM": {
+    "valor": 51.3569412231445,
+    "ano": 2019,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "SL.UEM.NEET.ZS": {
+    "valor": 21.982,
+    "ano": 2025,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "SH.DYN.MORT": {
+    "valor": 11.5,
+    "ano": 2024,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "IT.NET.USER.ZS": {
+    "valor": 79.34543299,
+    "ano": 2024,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "SI.POV.DDAY": {
+    "valor": 8.5,
+    "ano": 2024,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "SE.PRM.CMPT.ZS": {
+    "valor": 97.1171035766602,
+    "ano": 2022,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "SL.UEM.1524.ZS": {
+    "valor": 17.653,
+    "ano": 2025,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "PA.NUS.PPPC.RF": {
+    "valor": 0.3781564117330556,
+    "ano": 2025,
+    "fonte": "Banco Mundial, WDI (calculado: PA.NUS.PPP ÷ PA.NUS.FCRF, no mesmo ano)"
+   },
+   "SP.POP.TOTL": {
+    "valor": 53425635,
+    "ano": 2025,
+    "fonte": "Banco Mundial, WDI"
+   }
+  }
+ },
+ {
+  "pais": "Filipinas",
+  "iso3": "PHL",
+  "regiao": "Ásia",
+  "lat": 14.5515,
+  "lng": 121.035,
+  "indicadores": {
+   "SE.LPV.PRIM": {
+    "valor": 90.9132614135742,
+    "ano": 2019,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "SL.UEM.NEET.ZS": {
+    "valor": 16.459,
+    "ano": 2024,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "SH.DYN.MORT": {
+    "valor": 26.5,
+    "ano": 2024,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "IT.NET.USER.ZS": {
+    "valor": 67.26300914,
+    "ano": 2024,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "SI.POV.DDAY": {
+    "valor": 5.3,
+    "ano": 2023,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "SE.PRM.CMPT.ZS": {
+    "valor": 91.4486011868973,
+    "ano": 2024,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "SL.UEM.1524.ZS": {
+    "valor": 7.041,
+    "ano": 2025,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "PA.NUS.PPPC.RF": {
+    "valor": 0.33161547729719987,
+    "ano": 2025,
+    "fonte": "Banco Mundial, WDI (calculado: PA.NUS.PPP ÷ PA.NUS.FCRF, no mesmo ano)"
+   },
+   "SP.POP.TOTL": {
+    "valor": 116786962,
+    "ano": 2025,
+    "fonte": "Banco Mundial, WDI"
+   }
+  }
+ },
+ {
+  "pais": "Uganda",
+  "iso3": "UGA",
+  "regiao": "África",
+  "lat": 0.314269,
+  "lng": 32.5729,
+  "indicadores": {
+   "SE.LPV.PRIM": {
+    "valor": 81.9233627319335,
+    "ano": 2014,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "SL.UEM.NEET.ZS": {
+    "valor": 13.765,
+    "ano": 2021,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "SH.DYN.MORT": {
+    "valor": 48.7,
+    "ano": 2024,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "IT.NET.USER.ZS": {
+    "valor": 8.949831061,
+    "ano": 2024,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "SI.POV.DDAY": {
+    "valor": 54.4,
+    "ano": 2023,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "SE.PRM.CMPT.ZS": {
+    "valor": 53.3121795654297,
+    "ano": 2017,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "SL.UEM.1524.ZS": {
+    "valor": 4.183,
+    "ano": 2025,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "PA.NUS.PPPC.RF": {
+    "valor": 0.35290558334260447,
+    "ano": 2025,
+    "fonte": "Banco Mundial, WDI (calculado: PA.NUS.PPP ÷ PA.NUS.FCRF, no mesmo ano)"
+   },
+   "SP.POP.TOTL": {
+    "valor": 51384894,
+    "ano": 2025,
+    "fonte": "Banco Mundial, WDI"
+   }
+  }
+ },
+ {
+  "pais": "Mocambique",
+  "iso3": "MOZ",
+  "regiao": "África",
+  "lat": -25.9664,
+  "lng": 32.5713,
+  "indicadores": {
+   "SE.LPV.PRIM": {
+    "valor": null,
+    "ano": null,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "SL.UEM.NEET.ZS": {
+    "valor": 19.239,
+    "ano": 2022,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "SH.DYN.MORT": {
+    "valor": 59.4,
+    "ano": 2024,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "IT.NET.USER.ZS": {
+    "valor": 20.52729988,
+    "ano": 2024,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "SI.POV.DDAY": {
+    "valor": 81.4,
+    "ano": 2022,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "SE.PRM.CMPT.ZS": {
+    "valor": 72.3655686845574,
+    "ano": 2022,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "SL.UEM.1524.ZS": {
+    "valor": 11.61,
+    "ano": 2025,
+    "fonte": "Banco Mundial, WDI"
+   },
+   "PA.NUS.PPPC.RF": {
+    "valor": 0.38457809833667,
+    "ano": 2024,
+    "fonte": "Banco Mundial, WDI (calculado: PA.NUS.PPP ÷ PA.NUS.FCRF, no mesmo ano)"
+   },
+   "SP.POP.TOTL": {
+    "valor": 35631653,
+    "ano": 2025,
+    "fonte": "Banco Mundial, WDI"
+   }
+  }
+ }
+]

@@ -43,9 +43,9 @@ export function Auditor({
         </span>
       </div>
       <p className="text-sm text-muted-foreground">
-        Verifica as datas, os dias 28 a 31, os domingos, os picos, os estornos,
-        os duplicados, as referências e as grafias, e prepara o email de
-        correção ao parceiro.
+        Verifica as datas, os dias 28 a 31, os domingos, os picos, as correções
+        de despesa, os duplicados, as referências e as grafias, e prepara o
+        email de correção ao parceiro.
       </p>
 
       {/* biome-ignore lint/a11y/noStaticElementInteractions: a zona só recebe o arrastar; o botão e o input fazem o resto */}
@@ -116,7 +116,9 @@ export function Auditor({
                   className={`flex flex-col gap-1 rounded-lg border p-4 ${c.tom === "aviso" ? "border-amber-600/40 bg-amber-50 dark:bg-amber-950/30" : ""}`}
                 >
                   <p className="text-sm text-muted-foreground">
-                    {c.tom === "aviso" ? "A corrigir: " : "Certo: "}
+                    {c.tom === "aviso"
+                      ? "A confirmar: "
+                      : "Sem nada a assinalar: "}
                     {c.titulo}
                   </p>
                   <p className="font-semibold tabular-nums">{c.valor}</p>

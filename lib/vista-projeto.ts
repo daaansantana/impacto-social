@@ -1,4 +1,3 @@
-import { avisoHoras } from "@/lib/avisos";
 import { eficiencia } from "@/lib/eficiencia";
 import { euros, numero, percentagem } from "@/lib/format";
 import { filtrarMeses, serieProjeto } from "@/lib/meses";
@@ -32,25 +31,21 @@ export type MesProjeto = {
   fimDeAno: boolean;
   despesa: number;
   beneficiarios: number;
-  horasVoluntariado: number;
+  participantes: number;
 };
 
 export type SerieProjeto = {
-  chave: "despesa" | "beneficiarios" | "horasVoluntariado";
+  chave: "despesa" | "beneficiarios" | "participantes";
   titulo: string;
   formatar: (v: number) => string;
   /** o resumo para leitores de ecrã */
   resumo: string;
-  /** um aviso por baixo do gráfico */
-  aviso?: string;
 };
 
 export type Indicador = {
   titulo: string;
   valor: string;
   texto: string;
-  /** por exemplo «sinal fraco, não confirmado» */
-  etiqueta?: string;
 };
 
 export type VistaProjeto = {
@@ -64,6 +59,7 @@ export type VistaProjeto = {
   conclusao: string;
   meses: MesProjeto[];
   series: SerieProjeto[];
+  /** pontos de atenção, na linguagem da tabela 2.4 de docs/PLANO-V2.md */
   avisos: { id: "fimDeAno" | "estornos"; titulo: string; texto: string }[];
   porque: Indicador[];
 };
@@ -98,6 +94,7 @@ export function construirProjeto(
   const resumo = resumoProjeto(meses, id, comparaveis);
   const todos = projetos.map((p) => resumoProjeto(meses, p.id, comparaveis));
   const subida = subidaFimDeAno(meses, id);
+  const subidaDespesa = subidaFimDeAno(meses, id, "despesa");
   // os estornos e a despesa do mesmo período
   const noPeriodo = filtrarMeses(serie, comparaveis);
   const despesaPeriodo = noPeriodo.reduce((s, m) => s + m.despesa, 0);
@@ -124,7 +121,7 @@ export function construirProjeto(
       fimDeAno: m.fimDeAno,
       despesa: m.despesa,
       beneficiarios: m.beneficiarios,
-      horasVoluntariado: m.horasVoluntariado,
+      participantes: m.participantes,
     })),
     series: [
       {
@@ -140,26 +137,25 @@ export function construirProjeto(
         resumo: resumoSerie("Beneficiários"),
       },
       {
-        chave: "horasVoluntariado",
-        titulo: "Horas de voluntariado",
+        chave: "participantes",
+        titulo: "Participantes",
         formatar: (v) => numero(v),
-        resumo: resumoSerie("Horas de voluntariado"),
-        aviso: avisoHoras(meses) ?? undefined,
+        resumo: resumoSerie("Participantes"),
       },
     ],
     avisos: [
       {
         id: "fimDeAno",
-        titulo: "Fim de ano",
+        titulo: "Pico de fim de ano",
         texto:
           subida > 0
-            ? `Em novembro e dezembro, os beneficiários por mês sobem ${percentagem(subida * 100)} face a janeiro–outubro. Com «meses comparáveis», esse pico fica de fora.`
+            ? `Em novembro e dezembro, os beneficiários sobem ${percentagem(subida * 100)} face a janeiro–outubro, ${subidaDespesa <= 0 ? "sem aumento de custos" : `e a despesa só ${percentagem(subidaDespesa * 100)}`}. Vale confirmar com o parceiro como foram registados.`
             : "Em novembro e dezembro, os beneficiários por mês não sobem face a janeiro–outubro.",
       },
       {
         id: "estornos",
-        titulo: "Estornos",
-        texto: `Os estornos somam ${euros(resumo.estornos, 0)} e já estão abatidos: são ${percentagem((resumo.estornos / despesaPeriodo) * 100, 1)} da despesa ${periodoTexto}.`,
+        titulo: "Correções de despesa",
+        texto: `As correções de despesa somam ${euros(resumo.estornos, 0)} e já estão abatidas: são ${percentagem((resumo.estornos / despesaPeriodo) * 100, 1)} da despesa ${periodoTexto}. Não trazem referência à despesa original: pedir a referência ao parceiro.`,
       },
     ],
     porque: [
@@ -178,16 +174,6 @@ export function construirProjeto(
           todos.map((r) => r.reunioesPor100hAtividade),
           (v) => `${numero(v, 2)} horas`,
         ),
-      },
-      {
-        titulo: "Competência certa",
-        // docs/RELACOES.md: ρ = +0,64, mas não resiste à correção para testes múltiplos (q = 0,10)
-        etiqueta: "sinal fraco, não confirmado",
-        valor: percentagem(projeto.competenciaCerta),
-        texto: `das alocações de voluntários têm a competência da área do projeto. ${intervalo(
-          projetos.map((p) => p.competenciaCerta),
-          (v) => percentagem(v),
-        )}`,
       },
     ],
   };

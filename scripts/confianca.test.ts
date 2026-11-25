@@ -24,24 +24,18 @@ describe("construirConfianca", () => {
       "Avaliação nossa, segundo a skill exploratory-data-analysis.",
     );
     expect(v.conclusao).toBe(
-      "A validação genérica dá nota A às 10 tabelas. Olhando de perto, a qualidade fica entre 2 e 4 em 5: há 4 padrões que a nota não vê.",
+      "A validação genérica dá nota A às 10 tabelas. Olhando de perto, a qualidade fica entre 2 e 4 em 5: há 3 padrões que a nota não vê.",
     );
   });
   it("a limpeza e os padrões", () => {
     expect(texto(v.limpeza[0].quantidade)).toBe("3591 de 18 000 (20,0%)");
-    expect(v.padroes.map((p) => p.id)).toEqual([
-      "fimDeAno",
-      "dia27",
-      "semana",
-      "voluntarios",
-    ]);
+    expect(v.padroes.map((p) => p.id)).toEqual(["fimDeAno", "dia27", "semana"]);
     expect(texto(v.padroes[0].numero)).toBe(
       "Atividades +56%, beneficiários +64%, despesa −6%.",
     );
     expect(texto(v.padroes[1].numero)).toBe(
       "0 de 47 781 registos nos dias 28 a 31; eram de esperar cerca de 5425.",
     );
-    expect(v.voluntarios).toHaveLength(24);
     expect(v.fimDeAno.map((f) => Math.round(f.novDez))).toEqual([156, 164, 94]);
   });
 });
@@ -88,7 +82,7 @@ describe("construirAuditoria com os ficheiros de demonstração", () => {
       null,
     );
     expect(texto(v.resumo)).toBe(
-      "atividades-P07.csv: 2342 linhas, 6 coisas a corrigir.",
+      "atividades-P07.csv: 2342 linhas, 6 pontos a confirmar com o parceiro.",
     );
     const picos = v.cartoes.find((c) => c.titulo === "Picos");
     expect(picos?.detalhe).toBe(

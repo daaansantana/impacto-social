@@ -7,7 +7,7 @@ export type Cartao = {
   titulo: string;
   valor: string;
   detalhe?: string;
-  /** "aviso" quando há alguma coisa a corrigir */
+  /** "aviso" quando há alguma coisa a confirmar com o parceiro */
   tom: "ok" | "aviso";
 };
 
@@ -74,7 +74,7 @@ export function construirAuditoria(
           )
         : `Nenhum registo depois do dia ${r.diaMaximo}`,
       detalhe:
-        "Num mês normal, cerca de 11% dos registos cairiam nos dias 28 a 31.",
+        "Num mês normal, cerca de 11% dos registos cairiam nos dias 28 a 31. Confirmar o calendário de fecho do mês.",
       tom: r.diaMaximo < 28 ? "aviso" : "ok",
     });
   if (r.domingo !== undefined)
@@ -97,10 +97,10 @@ export function construirAuditoria(
     });
   if (r.negativos !== undefined)
     cartoes.push({
-      titulo: "Valores negativos",
+      titulo: "Correções de despesa (valores negativos)",
       valor: conta(r.negativos, "valor", "valores"),
       detalhe: r.negativos
-        ? "São estornos? Pedir ao parceiro a despesa a que se referem."
+        ? "Não trazem referência à despesa original. Pedir a referência."
         : undefined,
       tom: r.negativos ? "aviso" : "ok",
     });
@@ -153,7 +153,7 @@ export function construirAuditoria(
   const avisos = cartoes.filter((c) => c.tom === "aviso").length;
   return {
     ficheiro,
-    resumo: `${ficheiro}: ${conta(r.linhas, "linha", "linhas")}, ${avisos ? conta(avisos, "coisa a corrigir", "coisas a corrigir") : "nada a corrigir"}.`,
+    resumo: `${ficheiro}: ${conta(r.linhas, "linha", "linhas")}, ${avisos ? conta(avisos, "ponto a confirmar com o parceiro", "pontos a confirmar com o parceiro") : "nada a confirmar"}.`,
     cartoes,
     projeto: projeto ? `${projeto.nome} (${projeto.id})` : null,
     mailto: projeto ? mailtoDe(mensagemParceiro(r, projeto)) : null,

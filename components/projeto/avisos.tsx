@@ -4,7 +4,7 @@ export function Avisos({ avisos }: { avisos: VistaProjeto["avisos"] }) {
   return (
     <section aria-labelledby="avisos" className="flex flex-col gap-3">
       <h2 id="avisos" className="text-lg font-semibold">
-        Avisos
+        Pontos de atenção
       </h2>
       <ul className="flex flex-col gap-3">
         {avisos.map((a) => (

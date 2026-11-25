@@ -43,11 +43,8 @@ describe("construirPortefolio", () => {
     );
   });
 
-  it("por hora, com todos os meses", () => {
-    const v = construirPortefolio(meses, projetos, "hora", false);
-    expect(texto(v.conclusao)).toBe(
-      "Por cada 1000 horas de voluntariado, o Projeto 08 chega a 37 beneficiários e o Projeto 01 a 22.",
-    );
+  it("com todos os meses", () => {
+    const v = construirPortefolio(meses, projetos, "euro", false);
     expect(v.periodo).toBe("Todos os meses (com novembro e dezembro)");
   });
 
@@ -76,22 +73,5 @@ describe("construirPortefolio", () => {
     }
     const p07 = construirPortefolio(meses, projetos, "euro", true).linhas[0];
     expect(p07.posicaoAlcanceTexto).toBe("10.º em alcance");
-  });
-
-  it("o aviso das horas de 2025 só na unidade por hora", () => {
-    const aviso =
-      "As horas de voluntariado de 2025 parecem incompletas (−85% face a 2024).";
-    expect(construirPortefolio(meses, projetos, "hora", true).avisoHoras).toBe(
-      aviso,
-    );
-    expect(construirPortefolio(meses, projetos, "hora", false).avisoHoras).toBe(
-      aviso,
-    );
-    expect(
-      construirPortefolio(meses, projetos, "euro", true).avisoHoras,
-    ).toBeNull();
-    expect(
-      construirPortefolio(meses, projetos, "jovem", true).avisoHoras,
-    ).toBeNull();
   });
 });

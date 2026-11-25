@@ -1,4 +1,3 @@
-import { avisoHoras } from "@/lib/avisos";
 import { eficiencia, totais } from "@/lib/eficiencia";
 import { fimDeAno } from "@/lib/fim-de-ano";
 import { euros, milhoes, numero, percentagem } from "@/lib/format";
@@ -11,7 +10,6 @@ export const ROTULO_TODOS = "Todos os meses (com novembro e dezembro)";
 
 export const UNIDADES: { id: Unidade; rotulo: string }[] = [
   { id: "euro", rotulo: "Por euro" },
-  { id: "hora", rotulo: "Por hora de voluntariado" },
   { id: "jovem", rotulo: "Por jovem formado" },
 ];
 
@@ -44,8 +42,6 @@ export type VistaPortefolio = {
   legenda: string;
   /** porque o interruptor existe, com os números do pico */
   avisoFimDeAno: string;
-  /** só na unidade «por hora»: as horas de 2025 parecem incompletas */
-  avisoHoras: string | null;
   totais: Totais;
   totaisTexto: { beneficiarios: string; despesa: string; custo: string };
   grafico: {
@@ -59,19 +55,16 @@ export type VistaPortefolio = {
 
 const EIXO_Y: Record<Unidade, string> = {
   euro: "€ por beneficiário (menos é melhor)",
-  hora: "Beneficiários por 1000 horas (mais é melhor)",
   jovem: "€ por jovem formado (menos é melhor)",
 };
 
 const VALOR: Record<Unidade, (v: number) => string> = {
   euro: (v) => `${euros(v, 0)} por beneficiário`,
-  hora: (v) => `${numero(v, 1)} beneficiários por 1000 horas`,
   jovem: (v) => `${euros(v, 0)} por jovem formado`,
 };
 
 const LEGENDA: Record<Unidade, string> = {
   euro: "Quanto custa um beneficiário: despesa a dividir pelos beneficiários. Menos é melhor.",
-  hora: "Beneficiários por cada 1000 horas de voluntariado. Mais é melhor.",
   jovem:
     "Quanto custa formar um jovem: despesa a dividir pelos jovens formados. Menos é melhor.",
 };
@@ -85,8 +78,6 @@ function conclusao(
   switch (unidade) {
     case "euro":
       return `Um beneficiário custa ${euros(melhor.valor, 0)} no ${melhor.nome} e ${euros(pior.valor, 0)} no ${pior.nome}: ${vezes} vezes mais.`;
-    case "hora":
-      return `Por cada 1000 horas de voluntariado, o ${melhor.nome} chega a ${numero(melhor.valor, 0)} beneficiários e o ${pior.nome} a ${numero(pior.valor, 0)}.`;
     case "jovem":
       return `Formar um jovem custa ${euros(melhor.valor, 0)} no ${melhor.nome} e ${euros(pior.valor, 0)} no ${pior.nome}: ${vezes} vezes mais.`;
   }
@@ -153,7 +144,6 @@ export function construirPortefolio(
     periodo: comparaveis ? ROTULO_COMPARAVEIS : ROTULO_TODOS,
     legenda: LEGENDA[unidade],
     avisoFimDeAno: `Em novembro e dezembro, as atividades sobem ${percentagem(pico.atividadesPorMes.subida * 100)} e os beneficiários ${percentagem(pico.beneficiariosPorMes.subida * 100)}, sem mais despesa. Com o interruptor ligado, esses meses ficam de fora.`,
-    avisoHoras: unidade === "hora" ? avisoHoras(meses) : null,
     totais: t,
     totaisTexto: {
       beneficiarios: numero(t.beneficiarios),

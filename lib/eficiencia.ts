@@ -33,11 +33,6 @@ const CONTAS: Record<
 > = {
   // euros por beneficiário
   euro: { valor: (s) => s.despesa / s.beneficiarios, menosEMelhor: true },
-  // beneficiários por 1000 horas de voluntariado
-  hora: {
-    valor: (s) => (s.beneficiarios / s.horasVoluntariado) * 1000,
-    menosEMelhor: false,
-  },
   // euros por jovem formado
   jovem: { valor: (s) => s.despesa / s.jovensFormados, menosEMelhor: true },
 };

@@ -34,7 +34,7 @@ export function mensagemParceiro(
     );
   if (r.negativos)
     pedidos.push(
-      `${vezes(r.negativos, "valor é negativo", "valores são negativos")}. Digam se são estornos e a que despesa se referem.`,
+      `${vezes(r.negativos, "valor é negativo", "valores são negativos")}. Se são correções de despesa, indiquem a referência à despesa original de cada uma.`,
     );
   if (r.linhasIguais)
     pedidos.push(
@@ -67,7 +67,7 @@ export function mensagemParceiro(
         "Quando estiver corrigido, enviem-nos o ficheiro outra vez, por favor.",
       ]
     : [
-        `Revimos o ficheiro que enviaram para o ${nome} e não encontrámos nada a corrigir.`,
+        `Revimos o ficheiro que enviaram para o ${nome} e não encontrámos nada a confirmar.`,
       ];
 
   return [

@@ -98,18 +98,20 @@ export type Qualidade = {
   scorecard: NotaScorecard[];
 };
 
-/** Os quatro ficheiros, carregados juntos. */
+/** Os ficheiros de public/data, carregados juntos. */
 export type Dados = {
   mensal: Mes[];
   projetos: Projeto[];
   planos: Plano[];
   qualidade: Qualidade;
+  impacto: ImpactoAcao[];
+  contexto: Contexto[];
 };
 
 // ---- Resultados de lib/ (docs/SPEC.md, secção 3) ----
 
-/** euro: custo por beneficiário; hora: beneficiários por 1000 horas; jovem: custo por jovem formado. */
-export type Unidade = "euro" | "hora" | "jovem";
+/** euro: custo por beneficiário; jovem: custo por jovem formado. */
+export type Unidade = "euro" | "jovem";
 
 export type LinhaEficiencia = {
   projeto: string;
@@ -186,4 +188,54 @@ export type ResumoProjeto = {
   reunioesPor100hAtividade: number;
   /** euros abatidos */
   estornos: number;
+};
+
+// ---- Dados do mundo (docs/PLANO-V2.md, secção 6) ----
+
+export type Regiao = "África" | "América do Sul" | "Ásia" | "Europa";
+
+/** Um indicador do Banco Mundial: o valor mais recente e o ano; null quando não há. */
+export type IndicadorContexto = {
+  valor: number | null;
+  ano: number | null;
+  fonte: string;
+};
+
+/** Uma linha de public/data/contexto.json: um país, com a capital e os indicadores. */
+export type Contexto = {
+  pais: string;
+  iso3: string;
+  regiao: Regiao;
+  lat: number;
+  lng: number;
+  indicadores: Record<string, IndicadorContexto>;
+};
+
+export type NivelSaude = "forte" | "a acompanhar" | "a rever";
+
+/** Uma linha de public/data/impacto.json: uma ação, com as dimensões do IIS (docs/PLANO-V2.md, secção 6). */
+export type ImpactoAcao = {
+  projeto: string;
+  necessidade: {
+    indicador: string;
+    valor: number | null;
+    ano: number | null;
+    percentil: number | null;
+  };
+  escala: { beneficiariosPorMes: number; percentil: number };
+  profundidade: {
+    taxaConclusao: number;
+    horasFormacaoPorBenef: number;
+    percentil: number;
+  };
+  /** um resultado à parte, fora do índice: os jovens formados contam outra população */
+  jovensFormados: { total: number; porMes: number };
+  duracao: { crescimento: number; percentil: number };
+  custoPorPessoa: { valor: number; percentilInvertido: number };
+  confianca: "alta" | "média" | "baixa";
+  pontos: { id: string; texto: string }[];
+  saude: Record<
+    "relevancia" | "eficacia" | "eficiencia" | "impacto" | "sustentabilidade",
+    { nivel: NivelSaude; frase: string }
+  >;
 };

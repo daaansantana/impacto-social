@@ -285,7 +285,7 @@ qualidade = {
     "limpeza": [
         {"id": "datas", "titulo": "Despesas com data DD/MM/AAAA", "quantidade": int(ddmm.sum()), "de": len(desp),
          "regra": "Ler os dois formatos", "impacto": "Um leitor estrito perde 20,5% da despesa"},
-        {"id": "estornos", "titulo": "Estornos (despesas negativas)", "quantidade": len(neg), "de": len(desp),
+        {"id": "estornos", "titulo": "Correções de despesa (valores negativos)", "quantidade": len(neg), "de": len(desp),
          "valor": r2(-neg["valor"].sum()), "regra": "Abater ao projeto"},
         {"id": "duplicados", "titulo": "Atividades duplicadas", "quantidade": len(ativ_raw) - len(ativ),
          "de": len(ativ_raw), "regra": "Remover"},
@@ -331,11 +331,10 @@ qualidade["scorecard"] = [
     {"dimensao": "Unicidade", "nota": 4,
      "evidencia": f"{len(ativ_raw) - len(ativ)} atividades duplicadas ({(len(ativ_raw) - len(ativ)) / len(ativ_raw) * 100:.1f}%)"},
     {"dimensao": "Atualidade", "nota": 2,
-     "evidencia": f"nenhum registo depois do dia 27 ({dias28} de {n_diarios}); voluntários ativos nos registos "
-                  f"caem até {int(reg.get('2025-12', 0))} em dezembro de 2025"},
+     "evidencia": f"nenhum registo depois do dia 27 ({dias28} de {n_diarios})"},
     {"dimensao": "Exatidão", "nota": 2,
      "evidencia": "pico de fim de ano sem mais despesa; aulas com as escolas fechadas; domingos iguais a segundas; "
-                  "uma reunião de 25,23 h num dia; voluntários reportados diferentes dos registados"},
+                  "uma reunião de 25,23 h num dia"},
     {"dimensao": "Integridade", "nota": 3,
      "evidencia": f"{int((aloc['id_projeto'] == 'P99').sum())} alocações ({(aloc['id_projeto'] == 'P99').mean() * 100:.1f}%) "
                   "para o projeto P99, que não existe"},
