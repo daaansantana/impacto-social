@@ -1,5 +1,7 @@
 import { create } from "zustand";
 import {
+  fetchContexto,
+  fetchImpacto,
   fetchMensal,
   fetchPlanos,
   fetchProjetos,
@@ -33,15 +35,18 @@ export const useDadosStore = create<DadosState>()((set, get) => ({
     if (estado === "loading" || estado === "ready") return;
     set({ estado: "loading", erro: null });
     try {
-      const [mensal, projetos, planos, qualidade] = await Promise.all([
-        fetchMensal(),
-        fetchProjetos(),
-        fetchPlanos(),
-        fetchQualidade(),
-      ]);
+      const [mensal, projetos, planos, qualidade, impacto, contexto] =
+        await Promise.all([
+          fetchMensal(),
+          fetchProjetos(),
+          fetchPlanos(),
+          fetchQualidade(),
+          fetchImpacto(),
+          fetchContexto(),
+        ]);
       set({
         estado: "ready",
-        dados: { mensal, projetos, planos, qualidade },
+        dados: { mensal, projetos, planos, qualidade, impacto, contexto },
       });
     } catch (e) {
       set({

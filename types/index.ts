@@ -98,12 +98,14 @@ export type Qualidade = {
   scorecard: NotaScorecard[];
 };
 
-/** Os quatro ficheiros, carregados juntos. */
+/** Os ficheiros de public/data, carregados juntos. */
 export type Dados = {
   mensal: Mes[];
   projetos: Projeto[];
   planos: Plano[];
   qualidade: Qualidade;
+  impacto: ImpactoAcao[];
+  contexto: Contexto[];
 };
 
 // ---- Resultados de lib/ (docs/SPEC.md, secção 3) ----
