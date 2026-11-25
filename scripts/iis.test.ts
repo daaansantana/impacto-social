@@ -7,7 +7,7 @@ import {
   precisaAtencao,
   saudeGeral,
 } from "@/lib/acoes";
-import { faixaIIS, iisPortefolio, PREDEFINICOES } from "@/lib/iis";
+import { alcancePortefolio } from "@/lib/iis";
 import type { Contexto, ImpactoAcao, Mes, Projeto } from "@/types";
 
 const ler = <T>(c: string) => JSON.parse(readFileSync(c, "utf-8")) as T;
@@ -18,24 +18,32 @@ const acoes = juntarAcoes(
   ler<Contexto[]>("public/data/contexto.json"),
 );
 const meses = ler<Mes[]>("public/data/mensal.json");
-const G = ler<{ impacto: { iis: Record<string, Record<string, number>> } }>(
-  "scripts/gabaritos.json",
-);
+const G = ler<{
+  impacto: {
+    alcance: {
+      beneficiariosPorMes: number;
+      percentagemNecessidadeAlta: number;
+    };
+  };
+}>("scripts/gabaritos.json");
 const texto = (s: string) => s.replace(/ /g, " ");
 const ids = (lista: { projeto: string }[]) =>
   lista.map((a) => a.projeto).sort();
-const { pesos } = PREDEFINICOES.equilibrado;
 
-describe("iisPortefolio", () => {
-  it("a média simples das 12 ações e a contagem por faixa", () => {
-    const esperados = Object.values(G.impacto.iis.equilibrado);
-    const media = esperados.reduce((s, v) => s + v, 0) / esperados.length;
-    const r = iisPortefolio(impacto, pesos);
-    expect(Math.abs(r.media - media)).toBeLessThanOrEqual(0.01);
-    const contagem = { "60 ou mais": 0, "40 a 59": 0, "menos de 40": 0 };
-    for (const v of esperados) contagem[faixaIIS(v)]++;
-    expect(r.faixas).toEqual(contagem);
-    expect(Object.values(r.faixas).reduce((s, n) => s + n, 0)).toBe(12);
+describe("alcancePortefolio (gabarito impacto.alcance)", () => {
+  it("cerca de 711 beneficiários por mês, 53% onde a necessidade é alta", () => {
+    const r = alcancePortefolio(impacto);
+    expect(
+      Math.abs(r.beneficiariosPorMes - G.impacto.alcance.beneficiariosPorMes),
+    ).toBeLessThanOrEqual(0.01);
+    expect(
+      Math.abs(
+        r.percentagemNecessidadeAlta -
+          G.impacto.alcance.percentagemNecessidadeAlta,
+      ),
+    ).toBeLessThanOrEqual(0.01);
+    expect(Math.round(r.beneficiariosPorMes)).toBe(711);
+    expect(Math.round(r.percentagemNecessidadeAlta)).toBe(53);
   });
 });
 

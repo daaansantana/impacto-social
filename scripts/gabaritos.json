@@ -750,6 +750,10 @@
    "P11": "60 ou mais",
    "P12": "60 ou mais"
   },
+  "alcance": {
+   "beneficiariosPorMes": 711.15,
+   "percentagemNecessidadeAlta": 53.32
+  },
   "saudeGeral": {
    "P01": "a rever",
    "P02": "a rever",

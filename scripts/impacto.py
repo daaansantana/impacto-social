@@ -240,6 +240,13 @@ def main() -> int:
     G["impacto"] = {
         "iis": {nome: {pid: m.at[pid, f"iis_{nome}"] for pid in m.index} for nome in PREDEFINICOES},
         "faixa": {pid: faixa(m.at[pid, "iis_equilibrado"]) for pid in m.index},
+        # o número grande do Início: quantas pessoas por mês, e quantas em ações onde a necessidade é alta
+        "alcance": {
+            "beneficiariosPorMes": r2(m["beneficiariosPorMes"].sum()),
+            "percentagemNecessidadeAlta": r2(
+                m.loc[[arred(x) > 50 if x is not None and not pd.isna(x) else False for x in m["necessidade"]],
+                      "beneficiariosPorMes"].sum() / m["beneficiariosPorMes"].sum() * 100),
+        },
         "saudeGeral": {a["projeto"]: saude_geral(a["saude"]) for a in acoes},
         "ranking": {nome: sorted(m.index, key=lambda pid: (-m.at[pid, f"iis_{nome}"], pid)) for nome in PREDEFINICOES},
     }

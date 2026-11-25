@@ -72,19 +72,21 @@ export function faixaIIS(valor: number): FaixaIIS {
   return valor >= 60 ? "60 ou mais" : valor >= 40 ? "40 a 59" : "menos de 40";
 }
 
-/** O IIS do portefólio: a média simples das ações, com quantas há em cada faixa. */
-export function iisPortefolio(acoes: ImpactoAcao[], pesos: Pesos) {
-  const valores = acoes.map((a) => iis(a, pesos));
-  const faixas: Record<FaixaIIS, number> = {
-    "60 ou mais": 0,
-    "40 a 59": 0,
-    "menos de 40": 0,
-  };
-  for (const v of valores) faixas[faixaIIS(v)]++;
+/**
+ * O número grande do Início: os beneficiários por mês (média de janeiro a outubro, somando as ações)
+ * e a percentagem deles em ações com a necessidade acima do percentil 50.
+ */
+export function alcancePortefolio(acoes: ImpactoAcao[]) {
+  const total = acoes.reduce((s, a) => s + a.escala.beneficiariosPorMes, 0);
+  const alta = acoes
+    .filter(
+      (a) =>
+        a.necessidade.percentil !== null &&
+        arredondar(a.necessidade.percentil, 2) > 50,
+    )
+    .reduce((s, a) => s + a.escala.beneficiariosPorMes, 0);
   return {
-    media: valores.length
-      ? valores.reduce((s, v) => s + v, 0) / valores.length
-      : 0,
-    faixas,
+    beneficiariosPorMes: total,
+    percentagemNecessidadeAlta: total ? (alta / total) * 100 : 0,
   };
 }
