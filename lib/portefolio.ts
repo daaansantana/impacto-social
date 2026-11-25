@@ -26,6 +26,10 @@ export type LinhaPortefolio = {
   beneficiarios: number;
   /** «571 beneficiários» */
   alcanceTexto: string;
+  /** 1 = chega a mais beneficiários */
+  posicaoAlcance: number;
+  /** «10.º em alcance» */
+  posicaoAlcanceTexto: string;
   /** no gráfico, só os 4 melhores e o pior levam o nome à vista; o 1.º por baixo e o 2.º à esquerda, para não se taparem */
   nomeNoGrafico: "top" | "bottom" | "left" | null;
 };
@@ -109,6 +113,10 @@ export function construirPortefolio(
       (beneficiarios.get(m.projeto) ?? 0) + m.beneficiarios,
     );
   const porId = new Map(projetos.map((p) => [p.id, p]));
+  // o ranking do impacto total: mais beneficiários primeiro; num empate, o id mais baixo
+  const porAlcance = [...beneficiarios]
+    .sort(([a, x], [b, y]) => y - x || a.localeCompare(b))
+    .map(([id]) => id);
 
   const ranking = eficiencia(meses, unidade, comparaveis);
   const linhas = ranking.map((l) => {
@@ -123,6 +131,8 @@ export function construirPortefolio(
       valorTexto: VALOR[unidade](l.valor),
       beneficiarios: alcance,
       alcanceTexto: `${numero(alcance)} beneficiários`,
+      posicaoAlcance: porAlcance.indexOf(l.projeto) + 1,
+      posicaoAlcanceTexto: `${porAlcance.indexOf(l.projeto) + 1}.º em alcance`,
       nomeNoGrafico: nomeNoGrafico(l.posicao, ranking.length),
     };
   });

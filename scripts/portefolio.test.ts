@@ -57,4 +57,24 @@ describe("construirPortefolio", () => {
       "Formar um jovem custa 564 € no Projeto 11 e 13 346 € no Projeto 01: 23,7 vezes mais.",
     );
   });
+
+  it("a posição por alcance, como nos gabaritos", () => {
+    const G = JSON.parse(readFileSync("scripts/gabaritos.json", "utf-8")) as {
+      eficiencia: Record<
+        string,
+        { alcance: { posicao: Record<string, number> } }
+      >;
+    };
+    for (const [modo, comparaveis] of [
+      ["todos", false],
+      ["comparaveis", true],
+    ] as const) {
+      const v = construirPortefolio(meses, projetos, "euro", comparaveis);
+      expect(
+        Object.fromEntries(v.linhas.map((l) => [l.id, l.posicaoAlcance])),
+      ).toEqual(G.eficiencia[modo].alcance.posicao);
+    }
+    const p07 = construirPortefolio(meses, projetos, "euro", true).linhas[0];
+    expect(p07.posicaoAlcanceTexto).toBe("10.º em alcance");
+  });
 });
