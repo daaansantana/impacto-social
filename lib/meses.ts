@@ -1,8 +1,8 @@
 import type { Mes } from "@/types";
 
 /** Sem novembro e dezembro, quando `comparaveis`. */
-export function filtrarMeses(_meses: Mes[], _comparaveis: boolean): Mes[] {
-  throw new Error("Por fazer: filtrarMeses");
+export function filtrarMeses(meses: Mes[], comparaveis: boolean): Mes[] {
+  return comparaveis ? meses.filter((m) => !m.fimDeAno) : meses;
 }
 
 /** Os meses de um projeto, por ordem. */
