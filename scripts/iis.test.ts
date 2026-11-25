@@ -32,7 +32,7 @@ describe("iisPortefolio", () => {
     const media = esperados.reduce((s, v) => s + v, 0) / esperados.length;
     const r = iisPortefolio(impacto, pesos);
     expect(Math.abs(r.media - media)).toBeLessThanOrEqual(0.01);
-    const contagem = { forte: 0, "a acompanhar": 0, "a rever": 0 };
+    const contagem = { "60 ou mais": 0, "40 a 59": 0, "menos de 40": 0 };
     for (const v of esperados) contagem[faixaIIS(v)]++;
     expect(r.faixas).toEqual(contagem);
     expect(Object.values(r.faixas).reduce((s, n) => s + n, 0)).toBe(12);

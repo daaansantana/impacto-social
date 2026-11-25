@@ -1,4 +1,4 @@
-import type { ImpactoAcao, NivelSaude } from "@/types";
+import type { ImpactoAcao } from "@/types";
 
 // O Índice de Impacto Social (docs/PLANO-V2.md, secção 2.1).
 
@@ -60,18 +60,21 @@ export function rankingIIS(acoes: ImpactoAcao[], pesos: Pesos): LinhaIIS[] {
     .map((l, i) => ({ ...l, posicao: i + 1 }));
 }
 
-/** As faixas do IIS: «forte» a partir de 60, «a rever» abaixo de 40 (as mesmas da saúde da ação). */
-export function faixaIIS(valor: number): NivelSaude {
-  return valor >= 60 ? "forte" : valor < 40 ? "a rever" : "a acompanhar";
+/** As faixas do IIS. «Forte», «a acompanhar» e «a rever» ficam só para a saúde da ação. */
+export const FAIXAS_IIS = ["60 ou mais", "40 a 59", "menos de 40"] as const;
+export type FaixaIIS = (typeof FAIXAS_IIS)[number];
+
+export function faixaIIS(valor: number): FaixaIIS {
+  return valor >= 60 ? "60 ou mais" : valor >= 40 ? "40 a 59" : "menos de 40";
 }
 
 /** O IIS do portefólio: a média simples das ações, com quantas há em cada faixa. */
 export function iisPortefolio(acoes: ImpactoAcao[], pesos: Pesos) {
   const valores = acoes.map((a) => iis(a, pesos));
-  const faixas: Record<NivelSaude, number> = {
-    forte: 0,
-    "a acompanhar": 0,
-    "a rever": 0,
+  const faixas: Record<FaixaIIS, number> = {
+    "60 ou mais": 0,
+    "40 a 59": 0,
+    "menos de 40": 0,
   };
   for (const v of valores) faixas[faixaIIS(v)]++;
   return {
