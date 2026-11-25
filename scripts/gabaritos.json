@@ -927,16 +927,16 @@
   },
   "novoProjeto": {
    "Senegal|educacao|100000": {
-    "custoPorBeneficiario": 1736.72,
-    "alcance": 57.58,
+    "custoPorBeneficiario": 1457.3,
+    "alcance": 68.62,
     "quadrante": "Reforçar",
-    "leitura": "pilotar"
+    "leitura": "avançar"
    },
    "Ghana|educacao|100000": {
     "custoPorBeneficiario": 1836.19,
     "alcance": 54.46,
     "quadrante": null,
-    "leitura": "rever"
+    "leitura": "confirmar a necessidade"
    },
    "Uganda|formacao|250000": {
     "custoPorBeneficiario": 1753.1,
@@ -951,8 +951,8 @@
     "leitura": "rever"
    },
    "Portugal|tecnologia|80000": {
-    "custoPorBeneficiario": 2504.05,
-    "alcance": 31.95,
+    "custoPorBeneficiario": 1841.06,
+    "alcance": 43.45,
     "quadrante": "Reavaliar",
     "leitura": "rever"
    },

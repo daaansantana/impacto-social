@@ -87,7 +87,11 @@ export type EntradaNovoProjeto = {
   orcamento: number;
 };
 
-export type Leitura = "avançar" | "pilotar" | "rever";
+export type Leitura =
+  | "avançar"
+  | "pilotar"
+  | "rever"
+  | "confirmar a necessidade";
 
 export type NovoProjeto = {
   /** exato; mostra-se arredondado */
@@ -102,6 +106,8 @@ export type NovoProjeto = {
   resumo: string;
   estimado: boolean;
   n: number;
+  /** a ação que já existe na célula, se houver */
+  projeto: string | null;
 };
 
 const LEITURA: Record<Quadrante, Leitura> = {
@@ -111,47 +117,83 @@ const LEITURA: Record<Quadrante, Leitura> = {
   Reavaliar: "rever",
 };
 
+const PILOTAR = "Pilotar, com uma avaliação antes e depois";
+
 /**
- * Protótipo: um projeto novo num país e numa área. O custo é o da área sem o nível de preços,
- * vezes o nível de preços do país escolhido; o alcance é o orçamento a dividir por esse custo.
- * Com uma só ação por trás da evidência (n = 1), a leitura fica no máximo em «pilotar».
+ * Protótipo: um projeto novo num país e numa área.
+ * - Custo por beneficiário: com uma ação na célula, o dessa ação (sem ajuste de preços); nas outras,
+ *   o da área sem o nível de preços (a mediana das ações) vezes o nível de preços do país escolhido.
+ * - Alcance: o orçamento a dividir por esse custo, em beneficiários contados como nos relatórios mensais.
+ * - Leitura: Reforçar → avançar; Repensar ou apoiar → pilotar; Manter ou Reavaliar → rever; sem dado
+ *   da necessidade → confirmar a necessidade. «Avançar» desce a «pilotar» nas células estimadas com
+ *   uma só ação por trás e nas células com uma ação de confiança baixa.
  */
 export function novoProjeto(
   entrada: EntradaNovoProjeto,
   dados: { acoes: Acao[]; contexto: Contexto[]; celulas: RadarCelula[] },
 ): NovoProjeto | null {
   const { pais, area, formato, orcamento } = entrada;
-  const base = custoBaseArea(dados.acoes, dados.contexto, area);
-  const nivel = dados.contexto.find((c) => c.pais === pais)?.indicadores[
-    NIVEL_PRECOS
-  ]?.valor;
   const celula = dados.celulas.find((c) => c.pais === pais && c.area === area);
-  if (base === null || !nivel || !celula) return null;
+  if (!celula) return null;
+  const acao = celula.estimado
+    ? undefined
+    : dados.acoes.find((a) => a.pais === pais && a.area === area);
 
-  const custo = base * nivel;
+  let custo: number;
+  if (acao) custo = acao.custoPorPessoa.valor;
+  else {
+    const base = custoBaseArea(dados.acoes, dados.contexto, area);
+    const nivel = dados.contexto.find((c) => c.pais === pais)?.indicadores[
+      NIVEL_PRECOS
+    ]?.valor;
+    if (base === null || !nivel) return null;
+    custo = base * nivel;
+  }
   const alcance = orcamento / custo;
-  let leitura: Leitura = celula.quadrante ? LEITURA[celula.quadrante] : "rever";
-  if (celula.n === 1 && leitura === "avançar") leitura = "pilotar";
+
+  let leitura: Leitura = celula.quadrante
+    ? LEITURA[celula.quadrante]
+    : "confirmar a necessidade";
+  const umaSo = celula.estimado && celula.n === 1;
+  const poucaConfianca = acao?.confianca === "baixa";
+  if (leitura === "avançar" && (umaSo || poucaConfianca)) leitura = "pilotar";
 
   const onde = `${nomeArea(area)} ${emPais(pais)}`;
-  const nec =
-    celula.necessidadePercentil === null
-      ? null
-      : numero(arredondar(celula.necessidadePercentil, 2));
-  const ev = numero(arredondar(celula.evidencia, 2));
-  const deOnde = celula.estimado
-    ? `estimada a partir de ${celula.n === 1 ? "1 ação" : `${celula.n} ações`} noutros países`
-    : "da ação que já lá existe";
-  const motivo =
-    celula.quadrante === null
-      ? `Rever: não há dado da necessidade de ${onde}, por isso não se sabe se é aqui que faz mais diferença.`
-      : leitura === "avançar"
-        ? `Avançar: a necessidade de ${onde} é alta (percentil ${nec}) e a evidência também (${ev}, ${deOnde}).`
-        : leitura === "pilotar" && celula.quadrante === "Reforçar"
-          ? `Pilotar, com uma avaliação antes e depois: a necessidade de ${onde} é alta (percentil ${nec}) e a evidência também (${ev}), mas vem de uma só ação.`
-          : leitura === "pilotar"
-            ? `Pilotar, com uma avaliação antes e depois: a necessidade de ${onde} é alta (percentil ${nec}), mas a evidência é baixa (${ev}, ${deOnde}).`
-            : `Rever: a necessidade de ${onde} não está acima do percentil 50 (percentil ${nec}).`;
+  const metade =
+    celula.necessidadePercentil !== null &&
+    arredondar(celula.necessidadePercentil, 2) > 50
+      ? "na metade mais alta dos 12 países"
+      : "na metade mais baixa dos 12 países";
+  const existe = acao ? `já existe o ${acao.projeto} aqui` : null;
+  const noutros =
+    celula.n === 1
+      ? "a ação desta área noutro país"
+      : "as ações desta área noutros países";
+
+  let motivo: string;
+  if (celula.quadrante === null)
+    motivo =
+      "Confirmar a necessidade: falta o indicador para este país; confirmar com dados locais antes de decidir.";
+  else if (celula.quadrante === "Reforçar")
+    motivo =
+      leitura === "avançar"
+        ? existe
+          ? `Avançar: ${existe} e dá resultados acima da mediana das 12 ações, e a necessidade de ${onde} está ${metade}.`
+          : `Avançar: a necessidade de ${onde} está ${metade} e ${noutros} dão resultados acima da mediana.`
+        : existe
+          ? `${PILOTAR}: ${existe} e dá resultados acima da mediana, e a necessidade de ${onde} está ${metade}, mas a confiança nos números dessa ação é baixa.`
+          : `${PILOTAR}: a necessidade de ${onde} está ${metade} e ${noutros} dá resultados acima da mediana, mas é uma só ação.`;
+  else if (celula.quadrante === "Repensar ou apoiar")
+    motivo = existe
+      ? `${PILOTAR}: ${existe}, mas dá resultados abaixo da mediana, e a necessidade de ${onde} está ${metade}.`
+      : `${PILOTAR}: a necessidade de ${onde} está ${metade}, mas ${noutros} ${celula.n === 1 ? "dá" : "dão"} resultados abaixo da mediana.`;
+  else if (celula.quadrante === "Manter")
+    motivo = `Rever: ${existe ? `${existe} e ` : ""}as ações desta área dão resultados, mas aqui a necessidade está na metade mais baixa dos 12 países: há sítios onde faria mais diferença.`;
+  else
+    motivo = existe
+      ? `Rever: ${existe} e dá resultados abaixo da mediana, e a necessidade de ${onde} está ${metade}.`
+      : `Rever: a necessidade de ${onde} está ${metade} e ${noutros} ${celula.n === 1 ? "dá" : "dão"} resultados abaixo da mediana.`;
+
   return {
     custoPorBeneficiario: custo,
     alcance,
@@ -161,5 +203,6 @@ export function novoProjeto(
     resumo: `Um projeto de ${formato} com ${euros(orcamento, 0)} chega a cerca de ${numero(arredondar(alcance, 0))} beneficiários, contados como nos relatórios mensais, a ${euros(arredondar(custo, 0), 0)} cada.`,
     estimado: celula.estimado,
     n: celula.n,
+    projeto: acao?.projeto ?? null,
   };
 }

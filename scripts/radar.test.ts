@@ -136,28 +136,74 @@ describe("novoProjeto (protótipo, gabaritos radar.novoProjeto)", () => {
   }
 
   it("o motivo e o resumo, letra a letra", () => {
-    const r = novoProjeto(
+    const dados = { acoes, contexto, celulas };
+    const senegal = novoProjeto(
       {
         pais: "Senegal",
         area: "educacao",
         formato: "apoio ao estudo",
         orcamento: 100000,
       },
-      { acoes, contexto, celulas },
+      dados,
     );
-    expect(r?.motivo).toBe(
-      "Pilotar, com uma avaliação antes e depois: a necessidade de educação no Senegal é alta (percentil 70) e a evidência também (57), mas vem de uma só ação.",
+    expect(senegal?.projeto).toBe("P07");
+    expect(senegal?.motivo).toBe(
+      "Avançar: já existe o P07 aqui e dá resultados acima da mediana das 12 ações, e a necessidade de educação no Senegal está na metade mais alta dos 12 países.",
     );
-    expect(texto(r?.resumo ?? "")).toBe(
-      "Um projeto de apoio ao estudo com 100 000 € chega a cerca de 58 beneficiários, contados como nos relatórios mensais, a 1737 € cada.",
+    expect(texto(senegal?.resumo ?? "")).toBe(
+      "Um projeto de apoio ao estudo com 100 000 € chega a cerca de 69 beneficiários, contados como nos relatórios mensais, a 1457 € cada.",
     );
-    const semDado = novoProjeto(
+    const gana = novoProjeto(
       { pais: "Ghana", area: "educacao", formato: "aulas", orcamento: 100000 },
-      { acoes, contexto, celulas },
+      dados,
     );
-    expect(semDado?.leitura).toBe("rever");
-    expect(semDado?.motivo).toBe(
-      "Rever: não há dado da necessidade de educação no Gana, por isso não se sabe se é aqui que faz mais diferença.",
+    expect(gana?.leitura).toBe("confirmar a necessidade");
+    expect(gana?.motivo).toBe(
+      "Confirmar a necessidade: falta o indicador para este país; confirmar com dados locais antes de decidir.",
     );
+    const brasil = novoProjeto(
+      { pais: "Brasil", area: "educacao", formato: "aulas", orcamento: 100000 },
+      dados,
+    );
+    expect(brasil?.quadrante).toBe("Manter");
+    expect(brasil?.motivo).toBe(
+      "Rever: já existe o P01 aqui e as ações desta área dão resultados, mas aqui a necessidade está na metade mais baixa dos 12 países: há sítios onde faria mais diferença.",
+    );
+    for (const m of [senegal, gana, brasil])
+      expect(m?.motivo).not.toMatch(/percentil/);
+  });
+
+  it("o P07, o P11 e o P12 avançam; com confiança baixa, no máximo pilotar", () => {
+    const dados = { acoes, contexto, celulas };
+    for (const a of acoes.filter((x) =>
+      ["P07", "P11", "P12"].includes(x.projeto),
+    ))
+      expect(
+        novoProjeto(
+          { pais: a.pais, area: a.area, formato: "x", orcamento: 1 },
+          dados,
+        )?.leitura,
+      ).toBe("avançar");
+    const comBaixa = acoes.map((a) =>
+      a.projeto === "P07" ? { ...a, confianca: "baixa" as const } : a,
+    );
+    expect(
+      novoProjeto(
+        { pais: "Senegal", area: "educacao", formato: "x", orcamento: 1 },
+        { acoes: comBaixa, contexto, celulas },
+      )?.leitura,
+    ).toBe("pilotar");
+  });
+
+  it("nas células estimadas com uma só ação, no máximo pilotar", () => {
+    const soUma = celulas.filter((c) => c.estimado && c.n === 1);
+    expect(soUma.length).toBeGreaterThan(0);
+    for (const c of soUma) {
+      const r = novoProjeto(
+        { pais: c.pais, area: c.area, formato: "x", orcamento: 1 },
+        { acoes, contexto, celulas },
+      );
+      expect(r?.leitura).not.toBe("avançar");
+    }
   });
 });

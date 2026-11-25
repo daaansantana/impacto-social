@@ -164,13 +164,21 @@ def construir_radar(m, proj, contexto, acoes):
         da_area = proj.index[proj["area"] == area]
         custo_area[area] = float((m.loc[da_area, "custoPorPessoa"] / m.loc[da_area, "nivelPrecos"]).median())
 
+    confianca = {a["projeto"]: a["confianca"] for a in acoes}
+
     def novo(pais, area, orcamento):
-        nivel = contexto[pais]["indicadores"][NIVEL_PRECOS]["valor"]
-        custo = custo_area[area] * nivel
         c = next(x for x in celulas if x["pais"] == pais and x["area"] == area)
-        leitura = "rever" if c["quadrante"] is None else LEITURA[c["quadrante"]]
-        if c["n"] == 1 and leitura == "avançar":
-            leitura = "pilotar"
+        aqui = next((pid for pid in proj.index if proj.at[pid, "pais"] == pais and proj.at[pid, "area"] == area), None)
+        if aqui is not None and not c["estimado"]:
+            # com ação na célula, o custo é o dessa ação, sem ajuste de preços
+            custo = float(m.at[aqui, "custoPorPessoa"])
+        else:
+            custo = custo_area[area] * contexto[pais]["indicadores"][NIVEL_PRECOS]["valor"]
+        leitura = "confirmar a necessidade" if c["quadrante"] is None else LEITURA[c["quadrante"]]
+        if leitura == "avançar":
+            # o limite: nas estimadas, uma só ação por trás; nas diretas, a confiança da ação
+            if (c["estimado"] and c["n"] == 1) or (not c["estimado"] and confianca[aqui] == "baixa"):
+                leitura = "pilotar"
         return {"custoPorBeneficiario": r2(custo), "alcance": r2(orcamento / custo),
                 "quadrante": c["quadrante"], "leitura": leitura}
 
