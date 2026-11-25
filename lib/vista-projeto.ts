@@ -31,11 +31,11 @@ export type MesProjeto = {
   fimDeAno: boolean;
   despesa: number;
   beneficiarios: number;
-  horasVoluntariado: number;
+  participantes: number;
 };
 
 export type SerieProjeto = {
-  chave: "despesa" | "beneficiarios" | "horasVoluntariado";
+  chave: "despesa" | "beneficiarios" | "participantes";
   titulo: string;
   formatar: (v: number) => string;
   /** o resumo para leitores de ecrã */
@@ -121,7 +121,7 @@ export function construirProjeto(
       fimDeAno: m.fimDeAno,
       despesa: m.despesa,
       beneficiarios: m.beneficiarios,
-      horasVoluntariado: m.horasVoluntariado,
+      participantes: m.participantes,
     })),
     series: [
       {
@@ -137,10 +137,10 @@ export function construirProjeto(
         resumo: resumoSerie("Beneficiários"),
       },
       {
-        chave: "horasVoluntariado",
-        titulo: "Horas de voluntariado",
+        chave: "participantes",
+        titulo: "Participantes",
         formatar: (v) => numero(v),
-        resumo: resumoSerie("Horas de voluntariado"),
+        resumo: resumoSerie("Participantes"),
       },
     ],
     avisos: [
