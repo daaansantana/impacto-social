@@ -100,7 +100,7 @@ export type VistaRadar = {
 };
 
 const evidenciaTexto = (c: RadarCelula, projeto?: string) =>
-  `${numero(arredondar(c.evidencia, 2))} em 100, ${
+  `${numero(c.evidencia, 1)} em 100, ${
     c.estimado
       ? `estimado a partir de ${c.n === 1 ? "1 ação" : `${c.n} ações`}`
       : `da ação ${projeto ?? ""}`.trim()
@@ -153,7 +153,8 @@ export function construirRadar(
     area,
     areaNome: nomeArea(area),
     mediana,
-    medianaTexto: numero(arredondar(mediana, 2)),
+    // com uma casa: em inteiros, 56,11 (alta) e 55,83 (baixa) apareciam os dois como 56
+    medianaTexto: numero(mediana, 1),
     pontos,
     grupos: quadrante(dados.radar, area),
     ondeFaria: ondeFariaDiferenca(dados.radar).map((c) => {

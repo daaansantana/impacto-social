@@ -35,7 +35,7 @@ describe("construirRadar", () => {
       "Ghana",
       "Mocambique",
     ]);
-    expect(v.medianaTexto).toBe("56");
+    expect(v.medianaTexto).toBe("55,8");
     expect(v.mediana).toBeCloseTo(55.8333, 3);
   });
   it("as frases do Senegal: a posição e a evidência da ação", () => {
@@ -43,7 +43,7 @@ describe("construirRadar", () => {
     expect(s?.necessidadeTexto).toBe(
       "o Senegal é o 4.º país com mais necessidade em educação, entre os 10 países com dado.",
     );
-    expect(s?.evidenciaTexto).toBe("Evidência: 57 em 100, da ação P07.");
+    expect(s?.evidenciaTexto).toBe("Evidência: 56,7 em 100, da ação P07.");
   });
   it("sem «percentil» e sem as palavras da saúde", () => {
     const tudo = JSON.stringify({ pontos: v.pontos, onde: v.ondeFaria });
@@ -62,6 +62,21 @@ describe("simularNovoProjeto", () => {
     expect(r?.leitura).toBe("avançar");
     expect(texto(r?.resumo ?? "")).toContain(
       "cerca de 69 beneficiários, contados como nos relatórios mensais",
+    );
+  });
+});
+
+describe("a evidência com uma casa decimal", () => {
+  it("a saúde (56,1) fica alta e a logística (55,8) fica baixa", () => {
+    const saude = construirRadar(dados, "saude").pontos.find((p) => p.estimado);
+    const logistica = construirRadar(dados, "logistica").pontos.find(
+      (p) => p.estimado,
+    );
+    expect(saude?.evidenciaTexto).toBe(
+      "Evidência: 56,1 em 100, estimado a partir de 2 ações.",
+    );
+    expect(logistica?.evidenciaTexto).toBe(
+      "Evidência: 55,8 em 100, estimado a partir de 2 ações.",
     );
   });
 });
