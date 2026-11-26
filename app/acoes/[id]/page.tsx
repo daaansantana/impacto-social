@@ -10,6 +10,7 @@ import {
   EstadoErro,
   EstadoVazio,
 } from "@/components/estados/estados";
+import { MapaAcoes } from "@/components/mapa/mapa-acoes";
 import { COR_FIM_DE_ANO, SerieMensal } from "@/components/projeto/serie-mensal";
 import { TabelaMeses } from "@/components/projeto/tabela-meses";
 import { COLUMNS, PageHeader } from "@/components/shell/page-header";
@@ -82,6 +83,14 @@ export default function AcaoPage() {
                 </div>
               ))}
             </dl>
+            {v.ponto ? (
+              <MapaAcoes
+                pontos={[v.ponto]}
+                centro={[v.ponto.longitude, v.ponto.latitude]}
+                zoom={3}
+                className="mt-4 h-48"
+              />
+            ) : null}
           </section>
           <Dimensoes
             iisTexto={v.iisTexto}

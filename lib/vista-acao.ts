@@ -9,7 +9,7 @@ import {
 } from "@/lib/nomes";
 import { mailtoDe } from "@/lib/vista-auditor";
 import { construirProjeto, type VistaProjeto } from "@/lib/vista-projeto";
-import type { Dados, NivelSaude } from "@/types";
+import type { Dados, NivelSaude, PontoMapa } from "@/types";
 
 // O ecrã Ação (docs/PLANO-V2.md, secção 3 e prompt A4). As contas usam valores exatos;
 // arredonda-se só para mostrar.
@@ -61,6 +61,8 @@ export type VistaAcao = {
   onde: string;
   intro: string;
   resumo: { rotulo: string; texto: string }[];
+  /** o ponto do mini-mapa: a capital do país da ação; null sem coordenadas */
+  ponto: PontoMapa | null;
   iisTexto: string;
   faixa: string;
   dimensoes: Dimensao[];
@@ -99,6 +101,7 @@ export function construirAcao(
   if (!a || !projeto || !evolucao) return null;
 
   const valorIIS = iis(a, PESOS);
+  const lugar = dados.contexto.find((c) => c.pais === a.pais);
   const anos = [...new Set(dados.mensal.map((m) => m.mes.slice(0, 4)))].sort();
   const n = a.necessidade;
   const emCem = (v: number | null) =>
@@ -190,6 +193,16 @@ export function construirAcao(
       },
       { rotulo: "Público", texto: "Sem dado: pedir ao parceiro." },
     ],
+    ponto: lugar
+      ? {
+          id,
+          nome: `${a.nome}, ${nomePais(a.pais)}`,
+          latitude: lugar.lat,
+          longitude: lugar.lng,
+          iis: valorIIS,
+          cor: "var(--primary)",
+        }
+      : null,
     iisTexto: numero(valorIIS),
     faixa: faixaIIS(valorIIS),
     dimensoes,
