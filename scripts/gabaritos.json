@@ -836,6 +836,56 @@
     "horasPorBeneficiario": 30.82
    }
   },
+  "resumo": {
+   "P01": {
+    "participantesPorAtividade": 37.1,
+    "horasPorAtividade": 5.56
+   },
+   "P02": {
+    "participantesPorAtividade": 36.25,
+    "horasPorAtividade": 5.5
+   },
+   "P03": {
+    "participantesPorAtividade": 37.86,
+    "horasPorAtividade": 5.47
+   },
+   "P04": {
+    "participantesPorAtividade": 36.39,
+    "horasPorAtividade": 5.6
+   },
+   "P05": {
+    "participantesPorAtividade": 36.73,
+    "horasPorAtividade": 5.51
+   },
+   "P06": {
+    "participantesPorAtividade": 36.84,
+    "horasPorAtividade": 5.47
+   },
+   "P07": {
+    "participantesPorAtividade": 37.87,
+    "horasPorAtividade": 5.6
+   },
+   "P08": {
+    "participantesPorAtividade": 37.67,
+    "horasPorAtividade": 5.47
+   },
+   "P09": {
+    "participantesPorAtividade": 36.67,
+    "horasPorAtividade": 5.61
+   },
+   "P10": {
+    "participantesPorAtividade": 37.11,
+    "horasPorAtividade": 5.5
+   },
+   "P11": {
+    "participantesPorAtividade": 36.57,
+    "horasPorAtividade": 5.59
+   },
+   "P12": {
+    "participantesPorAtividade": 36.62,
+    "horasPorAtividade": 5.54
+   }
+  },
   "ordem": {
    "eficiencia": [
     "P07",

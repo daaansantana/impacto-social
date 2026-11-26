@@ -62,3 +62,30 @@ const ATIVIDADES: Record<string, string> = {
 
 /** O nome de um tipo de atividade, com acentos. */
 export const nomeAtividade = (tipo: string) => ATIVIDADES[tipo] ?? tipo;
+
+const COM_ARTIGO: Record<string, [string, string]> = {
+  Brasil: ["o Brasil", "é"],
+  Quenia: ["o Quénia", "é"],
+  India: ["a Índia", "é"],
+  Portugal: ["Portugal", "é"],
+  Ghana: ["o Gana", "é"],
+  Peru: ["o Peru", "é"],
+  Senegal: ["o Senegal", "é"],
+  Bangladesh: ["o Bangladesh", "é"],
+  Colombia: ["a Colômbia", "é"],
+  Filipinas: ["as Filipinas", "são"],
+  Uganda: ["o Uganda", "é"],
+  Mocambique: ["Moçambique", "é"],
+};
+
+/** «o Senegal é o 4.º país com mais necessidade em educação, entre os 10 países com dado». */
+export function fraseNecessidade(
+  pais: string,
+  area: string,
+  posicao: number,
+  comDado: number,
+): string {
+  const [nome, verbo] = COM_ARTIGO[pais] ?? [nomePais(pais), "é"];
+  const lugar = posicao === 1 ? "o país" : `o ${posicao}.º país`;
+  return `${nome} ${verbo} ${lugar} com mais necessidade em ${nomeArea(area)}, entre os ${comDado} países com dado`;
+}

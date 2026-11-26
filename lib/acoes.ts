@@ -134,6 +134,19 @@ const DIMENSOES = {
   duracao: "na duração",
 } as const;
 
+/** A posição de um valor numa dimensão entre as ações (1 = a mais alta; os empates partilham a posição). */
+function posicaoEm(
+  acoes: Acao[],
+  dim: keyof typeof DIMENSOES,
+  valor: number,
+): number {
+  const v = (a: Acao) =>
+    (dim === "necessidade" ? a.necessidade.percentil : a[dim].percentil) ?? -1;
+  return (
+    acoes.filter((a) => arredondar(v(a), 2) > arredondar(valor, 2)).length + 1
+  );
+}
+
 /** As 3 leituras do Início, feitas por regras: a ação com mais impacto, a que tem pontos a confirmar com os parceiros e o fim de ano. */
 export function leituras(
   acoes: Acao[],
@@ -154,7 +167,7 @@ export function leituras(
     ).reduce((m, d) => ((d[1] ?? -1) > (m[1] ?? -1) ? d : m));
     resultado.push({
       id: "maisImpacto",
-      texto: `O ${melhor.nome} (${nomePais(melhor.pais)}, ${nomeArea(melhor.area)}) tem o maior impacto: ${numero(primeira.iis)} em 100. Destaca-se ${DIMENSOES[dim]} (percentil ${numero(p ?? 0)}).`,
+      texto: `O ${melhor.nome} (${nomePais(melhor.pais)}, ${nomeArea(melhor.area)}) tem o maior impacto: ${numero(primeira.iis)} em 100. Destaca-se ${DIMENSOES[dim]}: é a ${posicaoEm(acoes, dim, p ?? 0)}.ª das ${acoes.length} ações.`,
       ligacao: `/acoes/${melhor.projeto}`,
     });
   }

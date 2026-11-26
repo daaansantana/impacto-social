@@ -62,4 +62,16 @@ describe("construirAcao", () => {
   it("uma ação que não existe", () => {
     expect(construirAcao(dados, "P99")).toBeNull();
   });
+
+  it("«percentil» não aparece no ecrã da ação nem nas frases da saúde", () => {
+    for (const a of dados.impacto) {
+      const v = construirAcao(dados, a.projeto);
+      expect(JSON.stringify(v), a.projeto).not.toMatch(/percentil/i);
+      for (const l of Object.values(a.saude))
+        expect(l.frase, a.projeto).not.toMatch(/percentil/i);
+    }
+    expect(construirAcao(dados, "P07")?.dimensoes[0].frase).toBe(
+      "68,6% das crianças de 10 anos não conseguem ler um texto simples: o Senegal é o 4.º país com mais necessidade em educação, entre os 10 países com dado.",
+    );
+  });
 });

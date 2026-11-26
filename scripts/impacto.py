@@ -100,6 +100,26 @@ def nivel(p):
     return "forte" if p >= FORTE else "a rever" if p < REVER else "a acompanhar"
 
 
+COM_ARTIGO = {
+    "Brasil": ("o Brasil", "é"), "Quenia": ("o Quénia", "é"), "India": ("a Índia", "é"), "Portugal": ("Portugal", "é"),
+    "Ghana": ("o Gana", "é"), "Peru": ("o Peru", "é"), "Senegal": ("o Senegal", "é"), "Bangladesh": ("o Bangladesh", "é"),
+    "Colombia": ("a Colômbia", "é"), "Filipinas": ("as Filipinas", "são"), "Uganda": ("o Uganda", "é"),
+    "Mocambique": ("Moçambique", "é"),
+}
+
+
+def frase_necessidade(pais, area, posicao, com_dado):
+    """«o Senegal é o 4.º país com mais necessidade em educação, entre os 10 países com dado»."""
+    nome, verbo = COM_ARTIGO.get(pais, (pais, "é"))
+    lugar = "o país" if posicao == 1 else f"o {posicao}.º país"
+    return f"{nome} {verbo} {lugar} com mais necessidade em {AREAS[area]}, entre os {com_dado} países com dado"
+
+
+def ordinal_acao(posicao, criterio):
+    """«É a 3.ª das 12 ações em profundidade»; com a posição 1, «É a 1.ª das 12 ações …»."""
+    return f"É a {posicao}.ª das 12 ações{' ' + criterio if criterio else ''}"
+
+
 def faixa(iis):
     """As faixas do IIS (o valor já vem a 2 casas)."""
     return "60 ou mais" if iis >= 60 else "40 a 59" if iis >= 40 else "menos de 40"
@@ -203,6 +223,9 @@ def main() -> int:
     ativ = pd.DataFrame(json.loads((RAIZ / "data/raw/json/atividades_projeto.json").read_text(encoding="utf-8")))
     ativ = ativ.drop_duplicates()
     ativ["tipo"] = ativ["tipo_atividade"].astype(str).str.strip()
+    # a data de cada atividade, nos dois formatos dos dados (AAAA-MM-DD e DD/MM/AAAA)
+    ativ["dt"] = pd.to_datetime(ativ["data"].astype(str).str.strip(), format="ISO8601", errors="coerce").fillna(
+        pd.to_datetime(ativ["data"].astype(str).str.strip(), format="%d/%m/%Y", errors="coerce"))
     proj = pd.DataFrame(
         [{"id": p["id"], "nome": p["nome"], "pais": p["pais"], "area": p["area"], "objetivos": p["objetivos"],
           "historico": p["parceiro"]["historico"], "capacidade": p["parceiro"]["capacidade"]} for p in projetos]
@@ -237,9 +260,14 @@ def main() -> int:
         codigo, sobe = NECESSIDADE[p["area"]]
         valores = pd.Series({c: v["indicadores"][codigo]["valor"] for c, v in contexto.items()}, dtype="float")
         pcts = percentil(valores.dropna(), inverter=not sobe)
+        # a posição do país entre os que têm o indicador: 1 = o que tem mais necessidade
+        posicoes = valores.dropna().rank(ascending=not sobe, method="min")
         ind = contexto[p["pais"]]["indicadores"][codigo]
+        tem = ind["valor"] is not None
         nec.append({"indicador": codigo, "valor": ind["valor"], "ano": ind["ano"],
-                    "percentil": float(pcts.get(p["pais"])) if ind["valor"] is not None else None})
+                    "percentil": float(pcts.get(p["pais"])) if tem else None,
+                    "posicao": int(posicoes[p["pais"]]) if tem else None,
+                    "paisesComDado": int(valores.notna().sum())})
     m["necessidade"] = [n["percentil"] for n in nec]
 
     m["escala"] = percentil(m["beneficiariosPorMes"])
@@ -249,6 +277,10 @@ def main() -> int:
     m["duracao"] = percentil(m["crescimento"])
     m["custoInvertido"] = percentil(m["custoPorPessoa"], inverter=True)
     m["eficienciaAjustada"] = percentil(m["custoPessoaAjustado"], inverter=True)
+    # as posições entre as 12 ações (1 = a melhor), para as frases: «percentil» só aparece em Como medimos
+    pos_prof = m["profundidade"].rank(ascending=False, method="min").astype(int)
+    pos_dur = m["duracao"].rank(ascending=False, method="min").astype(int)
+    pos_barata = m["custoPessoaAjustado"].rank(ascending=True, method="min").astype(int)
 
     def iis(pid, pesos):
         dims = [m.at[pid, "necessidade"], m.at[pid, "escala"], m.at[pid, "profundidade"], m.at[pid, "duracao"]]
@@ -290,14 +322,14 @@ def main() -> int:
         dur = arred(m.at[pid, "duracao"])
         sust = ("forte" if hist == "longo" and dur >= 50
                 else "a rever" if hist == "recente" and dur < 50 else "a acompanhar")
-        nec_txt = (f"a necessidade no país está no percentil {pt(n['percentil'])} ({n['indicador']}, {n['ano']})"
-                   if n["percentil"] is not None else f"sem dado da necessidade ({n['indicador']})")
+        nec_txt = (frase_necessidade(p["pais"], p["area"], n["posicao"], n["paisesComDado"]) + f" ({n['indicador']}, {n['ano']})"
+                   if n["posicao"] is not None else f"sem dado da necessidade ({n['indicador']})")
         saude = {
             "relevancia": {"nivel": rel, "frase": ("O objetivo declarado não bate com a área; " if rel == "a rever" else "") + nec_txt[0].upper() + nec_txt[1:] + "." if rel != "a rever" else f"O objetivo declarado não bate com a área; {nec_txt}."},
-            "eficacia": {"nivel": nivel(eficacia), "frase": f"Profundidade no percentil {pt(m.at[pid, 'profundidade'])} e beneficiários {'+' if m.at[pid, 'crescimento'] >= 0 else '−'}{pt(abs(m.at[pid, 'crescimento']) * 100)}% de {anos[0]} para {anos[-1]} (janeiro a outubro)."},
-            "eficiencia": {"nivel": nivel(m.at[pid, "eficienciaAjustada"]), "frase": f"Cada pessoa custa {pt(m.at[pid, 'custoPorPessoa'])} €; ajustado aos preços do país, fica no percentil {pt(m.at[pid, 'eficienciaAjustada'])} das 12 ações (mais alto é mais barato)."},
+            "eficacia": {"nivel": nivel(eficacia), "frase": f"{ordinal_acao(pos_prof[pid], 'em profundidade')}, e os beneficiários {'+' if m.at[pid, 'crescimento'] >= 0 else '−'}{pt(abs(m.at[pid, 'crescimento']) * 100)}% de {anos[0]} para {anos[-1]} (janeiro a outubro)."},
+            "eficiencia": {"nivel": nivel(m.at[pid, "eficienciaAjustada"]), "frase": f"Cada pessoa custa {pt(m.at[pid, 'custoPorPessoa'])} €; ajustado aos preços do país, é a {pos_barata[pid]}.ª mais barata por pessoa das 12 ações."},
             "impacto": {"nivel": nivel(m.at[pid, "iis_equilibrado"]), "frase": f"IIS de {pt(m.at[pid, 'iis_equilibrado'])} em 100, com os pesos equilibrados."},
-            "sustentabilidade": {"nivel": sust, "frase": f"Parceiro com histórico {hist} e índice de capacidade operacional (sem unidade nos dados) de {p['capacidade']}; duração no percentil {pt(m.at[pid, 'duracao'])}."},
+            "sustentabilidade": {"nivel": sust, "frase": f"Parceiro com histórico {hist} e índice de capacidade operacional (sem unidade nos dados) de {p['capacidade']}; em duração (o crescimento dos beneficiários), {ordinal_acao(pos_dur[pid], '').lower()}."},
         }
         acoes.append({
             "projeto": pid,
@@ -338,6 +370,14 @@ def main() -> int:
         "iis": {nome: {pid: m.at[pid, f"iis_{nome}"] for pid in m.index} for nome in PREDEFINICOES},
         "faixa": {pid: faixa(m.at[pid, "iis_equilibrado"]) for pid in m.index},
         "recursos": {a["projeto"]: {k: r2(v) for k, v in a["recursos"].items()} for a in acoes},
+        # o formato do resumo, por outro caminho: as atividades em bruto de janeiro a outubro (sem duplicados)
+        "resumo": {
+            pid: {
+                "participantesPorAtividade": r2(g_["participantes"].mean()),
+                "horasPorAtividade": r2(g_["horas"].mean()),
+            }
+            for pid, g_ in ativ[ativ["dt"].dt.month <= 10].groupby("id_projeto")
+        },
         # requisitos 1 e 3: a eficiência (custo por beneficiário, do mais baixo) e o alcance (beneficiários por mês)
         "ordem": {
             "eficiencia": sorted(m.index, key=lambda pid: (arred(m.at[pid, "custoPorPessoa"]), pid)),
