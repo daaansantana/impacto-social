@@ -15,6 +15,7 @@ export function useDetalheAcao(id: string) {
             dados.projetos,
             dados.contexto,
             dados.mensal,
+            dados.atividades,
             id,
           )
         : null,

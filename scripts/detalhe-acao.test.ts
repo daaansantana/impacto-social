@@ -5,16 +5,23 @@ import {
   PEDIDOS_PARCEIRO,
   recursosJanOut,
 } from "@/lib/detalhe-acao";
-import type { Contexto, ImpactoAcao, Mes, Projeto } from "@/types";
+import type {
+  AtividadesAcao,
+  Contexto,
+  ImpactoAcao,
+  Mes,
+  Projeto,
+} from "@/types";
 
 const ler = <T>(c: string) => JSON.parse(readFileSync(c, "utf-8")) as T;
 const impacto = ler<ImpactoAcao[]>("public/data/impacto.json");
 const projetos = ler<Projeto[]>("public/data/projetos.json");
 const contexto = ler<Contexto[]>("public/data/contexto.json");
 const meses = ler<Mes[]>("public/data/mensal.json");
+const atividades = ler<AtividadesAcao[]>("public/data/atividades.json");
 const texto = (s: string) => s.replace(/\s/g, " ");
-const detalhe = (id: string) =>
-  construirDetalhe(impacto, projetos, contexto, meses, id);
+const detalhe = (id: string, ativ: AtividadesAcao[] = atividades) =>
+  construirDetalhe(impacto, projetos, contexto, meses, ativ, id);
 
 describe("recursosJanOut", () => {
   // Os mesmos valores que o gabarito impacto.recursos do Dan (origin/main, 88a25ba).
@@ -46,7 +53,7 @@ describe("recursosJanOut", () => {
 describe("construirDetalhe", () => {
   const v = detalhe("P07");
 
-  it("resumo: o quê sem dado, onde com a região, o formato e o público sem dado", () => {
+  it("resumo: o quê, onde com a região, o formato e o público sem dado", () => {
     expect(v?.resumo.map((l) => l.rotulo)).toEqual([
       "O quê",
       "Objetivo declarado",
@@ -62,6 +69,31 @@ describe("construirDetalhe", () => {
     expect(texto(v?.resumo[3].texto ?? "")).toBe(
       "Cerca de 38 participantes e 5,6 horas por atividade, de janeiro a outubro.",
     );
+  });
+
+  it("o quê: os 3 tipos registados no CSV, com os nomes do CSV", () => {
+    expect(v?.resumo[0]).toEqual({
+      rotulo: "O quê",
+      texto: "apoio_estudo, aula e oficina_educativa.",
+    });
+  });
+
+  it("o quê: com menos de 3 tipos, mostra os que existem", () => {
+    const um = detalhe("P07", [{ projeto: "P07", tipos: ["aula"] }]);
+    const dois = detalhe("P07", [
+      { projeto: "P07", tipos: ["aula", "mentoria"] },
+    ]);
+    expect(um?.resumo[0].texto).toBe("aula.");
+    expect(dois?.resumo[0].texto).toBe("aula e mentoria.");
+  });
+
+  it("o quê: sem registos, «Sem dado»", () => {
+    expect(detalhe("P07", [{ projeto: "P07", tipos: [] }])?.resumo[0]).toEqual({
+      rotulo: "O quê",
+      texto: "Sem dado.",
+      semDado: true,
+    });
+    expect(detalhe("P07", [])?.resumo[0].texto).toBe("Sem dado.");
   });
 
   it("o ponto do mini-mapa é a capital do país", () => {
@@ -125,21 +157,26 @@ describe("construirDetalhe", () => {
     expect(ids).toContain("objetivoArea");
     expect(ids).not.toContain("fimDeAno");
     expect(ids).not.toContain("dia27");
-    // P07: correções em 2,7% da despesa, acima da mediana das 12
-    expect(ids).toContain("estornos");
+    // os pontos são os do impacto.json: P07 só tem o objetivo e a área
+    expect(ids).toEqual(["objetivoArea"]);
   });
 
-  it("P01: custo por atividade com a ação de comparação; correções acima da mediana", () => {
+  it("P01: custo por atividade quantificado, com as ações de comparação", () => {
     const p = detalhe("P01")?.pontos ?? [];
     const custo = p.find((x) => x.id === "custoAtividade");
     expect(custo?.texto).toContain("4,7 vezes");
     expect(custo?.texto).toContain("P07 e P10");
     expect(custo?.texto).toContain("Pedir o detalhe das maiores despesas");
-    expect(p.find((x) => x.id === "estornos")?.texto).toContain("referência");
   });
 
-  it("P04: correções abaixo da mediana, por isso sem esse ponto", () => {
-    expect(detalhe("P04")?.pontos.map((p) => p.id)).toEqual(["objetivoArea"]);
+  it("as correções de despesa só são ponto acima de 1,5 vezes a mediana (scripts/impacto.py): nenhuma ação neste ramo", () => {
+    for (const p of projetos)
+      expect(detalhe(p.id)?.pontos.map((x) => x.id)).not.toContain("correcoes");
+  });
+
+  it("os pontos têm o mesmo número que o impacto.json, ação a ação", () => {
+    for (const a of impacto)
+      expect(detalhe(a.projeto)?.pontos).toHaveLength(a.pontos.length);
   });
 
   it("o email leva os 5 pedidos e os pontos a confirmar", () => {

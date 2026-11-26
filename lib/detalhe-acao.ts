@@ -12,6 +12,7 @@ import {
   type SerieProjeto,
 } from "@/lib/vista-projeto";
 import type {
+  AtividadesAcao,
   Contexto,
   ImpactoAcao,
   Mes,
@@ -128,6 +129,7 @@ export function construirDetalhe(
   projetos: Projeto[],
   contexto: Contexto[],
   meses: Mes[],
+  atividades: AtividadesAcao[],
   id: string,
 ): VistaDetalhe | null {
   const acoes = juntarAcoes(impacto, projetos, contexto);
@@ -181,31 +183,25 @@ export function construirDetalhe(
       : `Fonte: ${indicador?.fonte ?? "Banco Mundial, WDI"} (${n.indicador}), ${n.ano}. Percentil entre os 12 países.`;
 
   // ---- os pontos de atenção próprios desta ação ----
-  const partilhaEstornos = (x: string) => {
-    const t = recursosJanOut(meses, x);
-    return t.despesa ? t.estornos / t.despesa : 0;
-  };
-  const minha = partilhaEstornos(id);
-  const medianaEstornos = mediana(
-    acoes.map((x) => partilhaEstornos(x.projeto)),
-  );
-  const pontos: PontoAtencao[] = [];
-  if (r.estornos > 0 && minha > medianaEstornos)
-    pontos.push({
-      id: "estornos",
-      titulo: "Correções de despesa sem referência",
-      texto: `De janeiro a outubro, as correções de despesa somam ${euros(r.estornos, 0)} (${percentagem(minha * 100, 1)} da despesa), acima da mediana das 12 ações (${percentagem(medianaEstornos * 100, 1)}). Nenhuma traz a referência à despesa original. Pedir ao parceiro a referência de cada correção.`,
-    });
+  // Vêm do impacto.json, com as regras do scripts/impacto.py: as correções de despesa só contam
+  // acima de 1,5 vezes a mediana das 12 ações; o fim de ano e o dia 27 ficam em Como medimos.
   const TITULOS: Record<string, string> = {
+    correcoes: "Correções de despesa sem referência",
     custoAtividade: "Custo por atividade fora do padrão",
     objetivoArea: "O objetivo e a área não batem",
   };
-  for (const p of a.pontos)
-    pontos.push({
-      id: p.id,
-      titulo: TITULOS[p.id] ?? "A confirmar",
-      texto: p.texto,
-    });
+  const pontos: PontoAtencao[] = a.pontos.map((p) => ({
+    id: p.id,
+    titulo: TITULOS[p.id] ?? "A confirmar",
+    texto: p.texto,
+  }));
+
+  // ---- o quê: os tipos de atividade registados, com os nomes do CSV ----
+  const tipos = atividades.find((x) => x.projeto === id)?.tipos ?? [];
+  const listaTipos =
+    tipos.length > 1
+      ? `${tipos.slice(0, -1).join(", ")} e ${tipos[tipos.length - 1]}`
+      : (tipos[0] ?? "");
 
   // ---- o email ao parceiro ----
   const pedidoTexto = [
@@ -247,12 +243,9 @@ export function construirDetalhe(
     nome: a.nome,
     intro: `${nomePais(a.pais)}, ${nomeArea(a.area)}. IIS de ${numero(valorIIS)} em 100, com confiança ${a.confianca} nos números.`,
     resumo: [
-      {
-        rotulo: "O quê",
-        texto:
-          "Sem dado: os tipos de atividade ainda não estão nos ficheiros da app.",
-        semDado: true,
-      },
+      tipos.length
+        ? { rotulo: "O quê", texto: `${listaTipos}.` }
+        : { rotulo: "O quê", texto: "Sem dado.", semDado: true },
       {
         rotulo: "Objetivo declarado",
         texto: `${capitalizar(projeto.objetivos)}.`,
