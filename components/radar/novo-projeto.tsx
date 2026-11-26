@@ -1,6 +1,7 @@
 "use client";
 
 import { IconeArea } from "@/components/comum/area";
+import { Bandeira } from "@/components/comum/bandeira";
 import { Escolha } from "@/components/comum/escolha";
 import { Badge } from "@/components/ui/badge";
 import { Label } from "@/components/ui/label";
@@ -52,7 +53,10 @@ export function PainelNovoProjeto({
             id="np-pais"
             valor={valores.pais}
             onValor={(v) => onMudar("pais", v)}
-            opcoes={paises}
+            opcoes={paises.map((p) => ({
+              ...p,
+              icone: <Bandeira pais={p.valor} />,
+            }))}
           />
         </div>
         <div className="flex flex-col gap-1.5">

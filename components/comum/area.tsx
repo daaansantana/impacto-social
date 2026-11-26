@@ -1,3 +1,4 @@
+import { Pais } from "@/components/comum/bandeira";
 import { Badge } from "@/components/ui/badge";
 import { iconeArea } from "@/lib/areas";
 import type { Local } from "@/lib/nomes";
@@ -44,7 +45,7 @@ export function Onde({
         className,
       )}
     >
-      <span>{local.paisNome}</span>
+      <Pais pais={local.pais} nome={local.paisNome} />
       <EtiquetaArea area={local.area} nome={local.areaEtiqueta} />
     </span>
   );

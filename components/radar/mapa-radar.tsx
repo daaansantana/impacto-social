@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { Pais } from "@/components/comum/bandeira";
 import {
   Map as Mapa,
   MapControls,
@@ -71,7 +72,9 @@ export function MapaRadar({
             closeButton
             closeOnClick={false}
           >
-            <p className="pr-5 font-semibold">{ponto.nome}</p>
+            <p className="pr-5 font-semibold">
+              <Pais pais={ponto.pais} nome={ponto.nome} />
+            </p>
             <p className="text-sm">{ponto.necessidadeTexto}</p>
             <p className="text-sm text-muted-foreground">
               {ponto.evidenciaTexto}

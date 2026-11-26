@@ -1,10 +1,11 @@
-import { IconeArea } from "@/components/comum/area";
+import { Onde } from "@/components/comum/area";
+import type { Local } from "@/lib/nomes";
 
 /** «Onde faria mais diferença»: as células Reforçar que ainda não têm ação. */
 export function OndeFaria({
   itens,
 }: {
-  itens: { id: string; area: string; titulo: string; texto: string }[];
+  itens: { id: string; local: Local; titulo: string; texto: string }[];
 }) {
   return (
     <section
@@ -22,9 +23,9 @@ export function OndeFaria({
         <ol className="flex list-decimal flex-col gap-3 pl-5">
           {itens.map((i) => (
             <li key={i.id}>
-              <p className="inline-flex items-center gap-2 font-medium">
-                <IconeArea area={i.area} />
-                {i.titulo}
+              <p className="font-medium">
+                <Onde local={i.local} />
+                <span className="sr-only">: {i.titulo}</span>
               </p>
               <p className="text-sm text-muted-foreground">{i.texto}</p>
             </li>

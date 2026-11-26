@@ -3,6 +3,8 @@ import { arredondar, numero } from "@/lib/format";
 import {
   emPais,
   fraseNecessidade,
+  type Local,
+  local,
   nomeArea,
   nomeAtividade,
   nomePais,
@@ -91,7 +93,7 @@ export type VistaRadar = {
   mediana: number;
   pontos: PontoRadar[];
   grupos: GruposRadar;
-  ondeFaria: { id: string; area: string; titulo: string; texto: string }[];
+  ondeFaria: { id: string; local: Local; titulo: string; texto: string }[];
   opcoes: {
     areas: { valor: string; rotulo: string }[];
     paises: { valor: string; rotulo: string }[];
@@ -161,7 +163,7 @@ export function construirRadar(
       const pos = posicaoNecessidade(dados.radar, c);
       return {
         id: `${c.pais}-${c.area}`,
-        area: c.area,
+        local: local(c.pais, c.area),
         titulo: `${nomeArea(c.area).replace(/^./, (l) => l.toUpperCase())} ${emPais(c.pais)}`,
         texto:
           `${pos ? `${fraseNecessidade(c.pais, c.area, pos.posicao, pos.comDado)}` : ""}. Ainda não há ação; a evidência da área é ${evidenciaTexto(c)}.`.replace(

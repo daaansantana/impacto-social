@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Onde } from "@/components/comum/area";
 import type { LinhaRanking } from "@/lib/vista-como-medimos";
 
 /** O ranking do IIS, ao vivo com os pesos escolhidos. */
@@ -38,9 +39,12 @@ export function RankingIIS({
                 >
                   {l.nome}
                 </Link>
-                <span className="block text-sm text-muted-foreground">
-                  {l.onde}
-                </span>
+                {l.local ? (
+                  <Onde
+                    local={l.local}
+                    className="mt-1 flex text-sm text-muted-foreground"
+                  />
+                ) : null}
               </span>
               <span className="text-lg font-semibold tabular-nums">
                 {l.iisTexto}

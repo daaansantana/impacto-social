@@ -1,6 +1,7 @@
 "use client";
 
 import { IconeArea } from "@/components/comum/area";
+import { Bandeira } from "@/components/comum/bandeira";
 import { Escolha } from "@/components/comum/escolha";
 import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
@@ -49,7 +50,9 @@ export function FiltrosAcoes({
               ...opcoes[c.chave].map((o) =>
                 c.chave === "area"
                   ? { ...o, icone: <IconeArea area={o.valor} /> }
-                  : o,
+                  : c.chave === "pais"
+                    ? { ...o, icone: <Bandeira pais={o.valor} /> }
+                    : o,
               ),
             ]}
           />
