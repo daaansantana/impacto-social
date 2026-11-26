@@ -1,9 +1,9 @@
 "use client";
 
 import Link from "next/link";
+import { Escolha } from "@/components/comum/escolha";
 import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
-import { NativeSelect } from "@/components/ui/native-select";
 import {
   Sheet,
   SheetContent,
@@ -54,19 +54,12 @@ export function FiltrosAcoes({
       {campos.map((c) => (
         <div key={c.chave} className="flex min-w-0 flex-col gap-1.5">
           <Label htmlFor={`${id}-${c.chave}`}>{c.rotulo}</Label>
-          <NativeSelect
+          <Escolha
             id={`${id}-${c.chave}`}
-            className="w-full [&_select]:h-10 [&_select]:text-base"
-            value={valores[c.chave] ?? ""}
-            onChange={(e) => onMudar(c.chave, e.target.value)}
-          >
-            <option value="">{c.todos}</option>
-            {opcoes[c.chave].map((o) => (
-              <option key={o.valor} value={o.valor}>
-                {o.rotulo}
-              </option>
-            ))}
-          </NativeSelect>
+            valor={valores[c.chave] ?? ""}
+            onValor={(v) => onMudar(c.chave, v)}
+            opcoes={[{ valor: "", rotulo: c.todos }, ...opcoes[c.chave]]}
+          />
         </div>
       ))}
       <Button
@@ -122,18 +115,16 @@ export function Ordenar({
   return (
     <div className="flex min-w-0 flex-col gap-1.5">
       <Label htmlFor="ordenar">Ordenar por</Label>
-      <NativeSelect
+      <Escolha
         id="ordenar"
-        className="w-full sm:w-auto [&_select]:h-10 [&_select]:text-base"
-        value={ordem}
-        onChange={(e) => onOrdem(e.target.value as Ordenacao)}
-      >
-        {Object.entries(ordenacoes).map(([valor, rotulo]) => (
-          <option key={valor} value={valor}>
-            {rotulo}
-          </option>
-        ))}
-      </NativeSelect>
+        className="sm:w-auto"
+        valor={ordem}
+        onValor={(v) => onOrdem(v as Ordenacao)}
+        opcoes={Object.entries(ordenacoes).map(([valor, rotulo]) => ({
+          valor,
+          rotulo,
+        }))}
+      />
     </div>
   );
 }

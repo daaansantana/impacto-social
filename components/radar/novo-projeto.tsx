@@ -1,8 +1,8 @@
 "use client";
 
+import { Escolha } from "@/components/comum/escolha";
 import { Badge } from "@/components/ui/badge";
 import { Label } from "@/components/ui/label";
-import { NativeSelect } from "@/components/ui/native-select";
 import type { NovoProjeto } from "@/lib/radar";
 
 type Opcao = { valor: string; rotulo: string };
@@ -28,7 +28,6 @@ export function PainelNovoProjeto({
   resultado: NovoProjeto | null;
   leituraTexto: string;
 }) {
-  const campo = "w-full [&_select]:h-11 [&_select]:text-base";
   return (
     <section
       aria-labelledby="novo"
@@ -48,48 +47,30 @@ export function PainelNovoProjeto({
       >
         <div className="flex flex-col gap-1.5">
           <Label htmlFor="np-pais">País</Label>
-          <NativeSelect
+          <Escolha
             id="np-pais"
-            className={campo}
-            value={valores.pais}
-            onChange={(e) => onMudar("pais", e.target.value)}
-          >
-            {paises.map((o) => (
-              <option key={o.valor} value={o.valor}>
-                {o.rotulo}
-              </option>
-            ))}
-          </NativeSelect>
+            valor={valores.pais}
+            onValor={(v) => onMudar("pais", v)}
+            opcoes={paises}
+          />
         </div>
         <div className="flex flex-col gap-1.5">
           <Label htmlFor="np-area">Área</Label>
-          <NativeSelect
+          <Escolha
             id="np-area"
-            className={campo}
-            value={valores.area}
-            onChange={(e) => onMudar("area", e.target.value)}
-          >
-            {areas.map((o) => (
-              <option key={o.valor} value={o.valor}>
-                {o.rotulo}
-              </option>
-            ))}
-          </NativeSelect>
+            valor={valores.area}
+            onValor={(v) => onMudar("area", v)}
+            opcoes={areas}
+          />
         </div>
         <div className="flex flex-col gap-1.5">
           <Label htmlFor="np-formato">Formato</Label>
-          <NativeSelect
+          <Escolha
             id="np-formato"
-            className={campo}
-            value={valores.formato}
-            onChange={(e) => onMudar("formato", e.target.value)}
-          >
-            {formatos.map((f) => (
-              <option key={f} value={f}>
-                {f}
-              </option>
-            ))}
-          </NativeSelect>
+            valor={valores.formato}
+            onValor={(v) => onMudar("formato", v)}
+            opcoes={formatos.map((f) => ({ valor: f, rotulo: f }))}
+          />
         </div>
         <div className="flex flex-col gap-1.5">
           <Label htmlFor="np-orcamento">Orçamento (€)</Label>

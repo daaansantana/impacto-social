@@ -1,8 +1,8 @@
 "use client";
 
+import { Escolha } from "@/components/comum/escolha";
 import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
-import { NativeSelect } from "@/components/ui/native-select";
 import type { Opcao } from "@/lib/vista-acoes";
 
 export type CampoFiltro = "regiao" | "pais" | "area" | "saude" | "confianca";
@@ -39,19 +39,12 @@ export function FiltrosAcoes({
       {CAMPOS.map((c) => (
         <div key={c.chave} className="flex flex-col gap-1.5">
           <Label htmlFor={`${id}-${c.chave}`}>{c.rotulo}</Label>
-          <NativeSelect
+          <Escolha
             id={`${id}-${c.chave}`}
-            className="w-full [&_select]:h-11 [&_select]:text-base"
-            value={valores[c.chave] ?? ""}
-            onChange={(e) => onMudar(c.chave, e.target.value)}
-          >
-            <option value="">{c.todos}</option>
-            {opcoes[c.chave].map((o) => (
-              <option key={o.valor} value={o.valor}>
-                {o.rotulo}
-              </option>
-            ))}
-          </NativeSelect>
+            valor={valores[c.chave] ?? ""}
+            onValor={(v) => onMudar(c.chave, v)}
+            opcoes={[{ valor: "", rotulo: c.todos }, ...opcoes[c.chave]]}
+          />
         </div>
       ))}
       <Button type="button" variant="outline" size="lg" onClick={onLimpar}>

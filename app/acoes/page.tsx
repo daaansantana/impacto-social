@@ -2,6 +2,7 @@
 
 import { CartaoAcao } from "@/components/acoes/cartao-acao";
 import { FiltrosAcoes } from "@/components/acoes/filtros";
+import { Escolha } from "@/components/comum/escolha";
 import {
   EstadoCarregar,
   EstadoErro,
@@ -10,7 +11,6 @@ import {
 import { COLUMNS, PageHeader } from "@/components/shell/page-header";
 import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
-import { NativeSelect } from "@/components/ui/native-select";
 import {
   Sheet,
   SheetContent,
@@ -63,18 +63,13 @@ export default function AcoesPage() {
             <div className="flex flex-wrap items-end gap-2">
               <div className="flex flex-col gap-1.5">
                 <Label htmlFor="ordem">Ordenar por</Label>
-                <NativeSelect
+                <Escolha
                   id="ordem"
-                  className="[&_select]:h-11 [&_select]:text-base"
-                  value={a.ordem}
-                  onChange={(e) => a.setOrdem(e.target.value as Ordenacao)}
-                >
-                  {v.opcoes.ordenacoes.map((o) => (
-                    <option key={o.valor} value={o.valor}>
-                      {o.rotulo}
-                    </option>
-                  ))}
-                </NativeSelect>
+                  className="w-auto"
+                  valor={a.ordem}
+                  onValor={(v) => a.setOrdem(v as Ordenacao)}
+                  opcoes={v.opcoes.ordenacoes}
+                />
               </div>
               <Sheet>
                 <SheetTrigger
