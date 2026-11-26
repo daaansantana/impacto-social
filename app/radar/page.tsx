@@ -1,5 +1,6 @@
 "use client";
 
+import { IconeArea } from "@/components/comum/area";
 import { Escolha } from "@/components/comum/escolha";
 import {
   EstadoCarregar,
@@ -45,14 +46,21 @@ export default function RadarPage() {
             id="area"
             valor={r.area}
             onValor={r.setArea}
-            opcoes={v.opcoes.areas}
+            opcoes={v.opcoes.areas.map((a) => ({
+              ...a,
+              icone: <IconeArea area={a.valor} />,
+            }))}
           />
         </div>
       </PageHeader>
       <div className={COLUMNS}>
         <div className="flex flex-col gap-6">
           <section aria-labelledby="mapa" className="flex flex-col gap-3">
-            <h2 id="mapa" className="text-lg font-semibold">
+            <h2
+              id="mapa"
+              className="flex items-center gap-2 text-lg font-semibold"
+            >
+              <IconeArea area={v.area} size={22} />
               Os 12 países: {v.areaNome}
             </h2>
             <MapaRadar pontos={v.pontos} />

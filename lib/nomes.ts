@@ -21,6 +21,28 @@ export const nomePais = (pais: string) => PAISES[pais] ?? pais;
 export const nomeArea = (area: string) =>
   AREAS[area] ?? area.replaceAll("_", " ");
 
+/** Onde fica uma ação: as chaves dos dados, para o ícone e a bandeira, e os nomes para o ecrã. */
+export type Local = {
+  pais: string;
+  paisNome: string;
+  area: string;
+  /** «logística», para as frases */
+  areaNome: string;
+  /** «Logística», para as etiquetas */
+  areaEtiqueta: string;
+};
+
+export function local(pais: string, area: string): Local {
+  const areaNome = nomeArea(area);
+  return {
+    pais,
+    paisNome: nomePais(pais),
+    area,
+    areaNome,
+    areaEtiqueta: areaNome.charAt(0).toUpperCase() + areaNome.slice(1),
+  };
+}
+
 const EM: Record<string, string> = {
   Brasil: "no Brasil",
   Quenia: "no Quénia",

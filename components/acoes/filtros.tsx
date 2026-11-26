@@ -1,5 +1,6 @@
 "use client";
 
+import { IconeArea } from "@/components/comum/area";
 import { Escolha } from "@/components/comum/escolha";
 import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
@@ -43,7 +44,14 @@ export function FiltrosAcoes({
             id={`${id}-${c.chave}`}
             valor={valores[c.chave] ?? ""}
             onValor={(v) => onMudar(c.chave, v)}
-            opcoes={[{ valor: "", rotulo: c.todos }, ...opcoes[c.chave]]}
+            opcoes={[
+              { valor: "", rotulo: c.todos },
+              ...opcoes[c.chave].map((o) =>
+                c.chave === "area"
+                  ? { ...o, icone: <IconeArea area={o.valor} /> }
+                  : o,
+              ),
+            ]}
           />
         </div>
       ))}

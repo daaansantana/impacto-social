@@ -7,7 +7,7 @@ import {
 } from "@/lib/acoes";
 import { numero, percentagem } from "@/lib/format";
 import { alcancePortefolio, iis, PREDEFINICOES } from "@/lib/iis";
-import { nomeArea, nomePais } from "@/lib/nomes";
+import { type Local, local, nomeArea, nomePais } from "@/lib/nomes";
 import type { Dados, PontoMapa } from "@/types";
 
 // O ecrã Início (docs/PLANO-V2.md, secção 3): o alcance, 3 leituras, o mapa e «A confirmar com os parceiros».
@@ -38,6 +38,7 @@ export type ItemAConfirmar = {
   projeto: string;
   nome: string;
   onde: string;
+  local: Local;
   texto: string;
   /** «e mais 1 ponto», quando há mais do que um */
   mais: string | null;
@@ -127,6 +128,7 @@ export function construirInicio(
         projeto: x.projeto,
         nome: x.nome,
         onde: onde(x),
+        local: local(x.pais, x.area),
         texto: maiuscula(x.pontos[0].texto),
         mais:
           resto > 0

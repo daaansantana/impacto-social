@@ -1,5 +1,6 @@
 "use client";
 
+import { IconeArea } from "@/components/comum/area";
 import { Escolha } from "@/components/comum/escolha";
 import { Badge } from "@/components/ui/badge";
 import { Label } from "@/components/ui/label";
@@ -60,7 +61,10 @@ export function PainelNovoProjeto({
             id="np-area"
             valor={valores.area}
             onValor={(v) => onMudar("area", v)}
-            opcoes={areas}
+            opcoes={areas.map((a) => ({
+              ...a,
+              icone: <IconeArea area={a.valor} />,
+            }))}
           />
         </div>
         <div className="flex flex-col gap-1.5">
