@@ -2,48 +2,50 @@
 
 import { useMemo, useState } from "react";
 import { useDados } from "@/hooks/use-dados";
-import {
-  AREAS_RADAR,
-  type EntradaNovoProjeto,
-  LIMITE_EVIDENCIA_EXEMPLO,
-  novoProjetoExemplo,
-  quadranteExemplo,
-  RADAR_EXEMPLO,
-} from "@/lib/exemplo-radar";
+import { juntarAcoes } from "@/lib/acoes";
 import { nomePais } from "@/lib/nomes";
 import {
+  type EntradaNovoProjeto,
+  medianaEvidencia,
+  novoProjeto,
+  quadrante,
+} from "@/lib/radar";
+import {
+  areasDoRadar,
   construirRadar,
   opcoesAreas,
   vistaNovoProjeto,
 } from "@/lib/vista-radar";
 
 /**
- * O Radar. O estado do carregamento e os países vêm dos dados; as células, o quadrante e o
- * novoProjeto, por agora, dos DADOS DE EXEMPLO. Para ligar as funções do Dan, trocam-se só estas
- * quatro peças: dados.radar, medianaEvidencia(dados.impacto), quadrante e novoProjeto (lib/radar.ts).
+ * O Radar: as células do radar.json; o limite da evidência alta é a mediana das ações
+ * (medianaEvidencia); o quadrante e o novoProjeto são os do Dan (lib/radar.ts).
  */
-const FONTE = {
-  exemplo: true,
-  celulas: RADAR_EXEMPLO,
-  limite: LIMITE_EVIDENCIA_EXEMPLO,
-  quadrante: quadranteExemplo,
-  novoProjeto: novoProjetoExemplo,
-};
-
 export function useRadar() {
   const { estado, erro, dados, tentarDeNovo } = useDados();
-  const [area, setArea] = useState<string>(AREAS_RADAR[0]);
+  const [escolhida, setArea] = useState<string | null>(null);
   const [entrada, setEntrada] = useState<EntradaNovoProjeto | null>(null);
+
+  const areas = useMemo(
+    () => (dados ? areasDoRadar(dados.radar) : []),
+    [dados],
+  );
+  const area = escolhida ?? areas[0] ?? "";
+  const acoes = useMemo(
+    () =>
+      dados ? juntarAcoes(dados.impacto, dados.projetos, dados.contexto) : [],
+    [dados],
+  );
 
   const vista = useMemo(
     () =>
-      dados
+      dados && area
         ? construirRadar(
-            FONTE.celulas,
+            dados.radar,
             dados.contexto,
             area,
-            FONTE.limite,
-            FONTE.quadrante,
+            medianaEvidencia(dados.impacto),
+            quadrante,
           )
         : null,
     [dados, area],
@@ -51,29 +53,33 @@ export function useRadar() {
 
   const paises = useMemo(
     () =>
-      [...new Set(FONTE.celulas.map((c) => c.pais))]
+      [...new Set((dados?.radar ?? []).map((c) => c.pais))]
         .map((p) => ({ valor: p, rotulo: nomePais(p) }))
         .sort((a, b) => a.rotulo.localeCompare(b.rotulo, "pt")),
-    [],
+    [dados],
   );
 
   const resultado = useMemo(() => {
-    if (!entrada) return null;
-    const celula = FONTE.celulas.find(
+    if (!entrada || !dados) return null;
+    const celula = dados.radar.find(
       (c) => c.pais === entrada.pais && c.area === entrada.area,
     );
     return vistaNovoProjeto(
-      FONTE.novoProjeto(entrada, { celulas: FONTE.celulas }),
+      novoProjeto(entrada, {
+        acoes,
+        contexto: dados.contexto,
+        celulas: dados.radar,
+      }),
       celula,
+      (projeto) => acoes.find((a) => a.projeto === projeto)?.confianca,
     );
-  }, [entrada]);
+  }, [entrada, dados, acoes]);
 
   return {
     estado,
     erro,
     tentarDeNovo,
-    exemplo: FONTE.exemplo,
-    areas: opcoesAreas(AREAS_RADAR),
+    areas: opcoesAreas(areas),
     paises,
     area,
     setArea,

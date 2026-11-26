@@ -1,14 +1,19 @@
-import type {
-  GruposRadar,
-  LeituraNovoProjeto,
-  NovoProjeto,
-} from "@/lib/exemplo-radar";
 import { euros, numero } from "@/lib/format";
 import { nomeArea, nomePais } from "@/lib/nomes";
+import type {
+  GruposRadar,
+  Leitura as LeituraNovoProjeto,
+  NovoProjeto,
+} from "@/lib/radar";
 import type { Contexto, PontoMapa, Quadrante, RadarCelula } from "@/types";
 
 // O ecrã Radar (docs/PLANO-V2.md, secção 3): onde abrir ou reforçar, por área.
-// As funções quadrante e novoProjeto entram por parâmetro: hoje as de exemplo, depois as do Dan.
+// As funções quadrante e novoProjeto são as do Dan (lib/radar.ts); entram por parâmetro.
+
+/** As áreas do radar.json, pela ordem em que aparecem. */
+export const areasDoRadar = (celulas: RadarCelula[]) => [
+  ...new Set(celulas.map((c) => c.area)),
+];
 
 /** A necessidade no mapa: um só laranja, do mais claro (menos necessidade) ao mais escuro. */
 export const FAIXAS_NECESSIDADE = [

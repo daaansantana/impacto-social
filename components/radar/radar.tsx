@@ -3,7 +3,7 @@
 import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
 import { NativeSelect } from "@/components/ui/native-select";
-import type { EntradaNovoProjeto } from "@/lib/exemplo-radar";
+import type { EntradaNovoProjeto } from "@/lib/radar";
 import type {
   LinhaDiferenca,
   Opcao,
@@ -137,9 +137,6 @@ export function QuadranteRadar({
                 <span className="text-xs font-semibold sm:text-sm">
                   {z.quadrante}
                 </span>
-                <span className="hidden max-w-[22ch] text-xs leading-snug text-muted-foreground sm:block">
-                  {z.explicacao}
-                </span>
               </div>
             ))}
             {quadrante.pontos.map((p) => (
@@ -176,6 +173,15 @@ export function QuadranteRadar({
           </div>
         </div>
       </div>
+      {/* As explicações ficam fora do gráfico: os pontos juntam-se nas linhas e tapavam-nas. */}
+      <dl data-zonas className="grid gap-x-6 gap-y-2 text-sm sm:grid-cols-2">
+        {zonas.map((z) => (
+          <div key={z.quadrante}>
+            <dt className="font-semibold">{z.quadrante}</dt>
+            <dd className="text-muted-foreground">{z.explicacao}</dd>
+          </div>
+        ))}
+      </dl>
       <figcaption className="flex flex-col gap-1 text-sm text-muted-foreground">
         <span className="inline-flex flex-wrap items-center gap-x-4 gap-y-1">
           <span className="inline-flex items-center gap-1.5">

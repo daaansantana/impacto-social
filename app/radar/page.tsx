@@ -5,7 +5,6 @@ import {
   EstadoErro,
   EstadoVazio,
 } from "@/components/estados/estados";
-import { EtiquetaExemplo } from "@/components/inicio/inicio";
 import { MapaAcoes } from "@/components/mapa/mapa-acoes";
 import {
   LegendaRadar,
@@ -46,7 +45,6 @@ export default function RadarPage() {
         title={TITULO}
         intro="A necessidade de cada país, cruzada com a evidência das ações da mesma área."
       >
-        {r.exemplo ? <EtiquetaExemplo /> : null}
         <SeletorArea areas={r.areas} area={r.area} onArea={r.setArea} />
       </PageHeader>
       <div className={COLUMNS}>
