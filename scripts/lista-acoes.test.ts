@@ -19,13 +19,13 @@ const opcoes = opcoesFiltros(acoes);
 const ids = (xs: { projeto: string }[]) => xs.map((x) => x.projeto);
 
 describe("ordenarAcoes", () => {
-  // Os mesmos valores esperados que o gabarito impacto.ordem do Dan (origin/main, 724ee36).
+  // A ordenação é a do Dan (lib/acoes.ts); os valores esperados são os do gabarito impacto.ordem.
   it("por eficiência: do menor para o maior custo por beneficiário", () => {
     const o = ids(ordenarAcoes(acoes, "eficiencia"));
     expect(o.slice(0, 3)).toEqual(["P07", "P11", "P10"]);
     expect(o.at(-1)).toBe("P01");
     const custos = ordenarAcoes(acoes, "eficiencia").map(
-      (a) => a.custoPorPessoa.valor,
+      (a) => a.recursos.custoPorBeneficiario,
     );
     expect(custos).toEqual([...custos].sort((a, b) => a - b));
   });
