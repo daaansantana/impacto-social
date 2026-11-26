@@ -1,5 +1,7 @@
 "use client";
 
+import { IconeArea } from "@/components/comum/area";
+import { Escolha } from "@/components/comum/escolha";
 import {
   EstadoCarregar,
   EstadoErro,
@@ -12,7 +14,6 @@ import { QuadranteRadar } from "@/components/radar/quadrante-radar";
 import { Zonas } from "@/components/radar/zonas";
 import { COLUMNS, PageHeader } from "@/components/shell/page-header";
 import { Label } from "@/components/ui/label";
-import { NativeSelect } from "@/components/ui/native-select";
 import { useRadar } from "@/hooks/use-radar";
 import { COR_SEM_DADO, CORES_NECESSIDADE } from "@/lib/vista-radar";
 
@@ -41,43 +42,45 @@ export default function RadarPage() {
       >
         <div className="flex max-w-xs flex-col gap-1.5">
           <Label htmlFor="area">Área</Label>
-          <NativeSelect
+          <Escolha
             id="area"
-            className="w-full [&_select]:h-11 [&_select]:text-base"
-            value={r.area}
-            onChange={(e) => r.setArea(e.target.value)}
-          >
-            {v.opcoes.areas.map((a) => (
-              <option key={a.valor} value={a.valor}>
-                {a.rotulo}
-              </option>
-            ))}
-          </NativeSelect>
+            valor={r.area}
+            onValor={r.setArea}
+            opcoes={v.opcoes.areas.map((a) => ({
+              ...a,
+              icone: <IconeArea area={a.valor} />,
+            }))}
+          />
         </div>
       </PageHeader>
       <div className={COLUMNS}>
         <div className="flex flex-col gap-6">
           <section aria-labelledby="mapa" className="flex flex-col gap-3">
-            <h2 id="mapa" className="text-lg font-semibold">
+            <h2
+              id="mapa"
+              className="flex items-center gap-2 text-lg font-semibold"
+            >
+              <IconeArea area={v.area} size={22} />
               Os 12 países: {v.areaNome}
             </h2>
             <MapaRadar pontos={v.pontos} />
             <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-muted-foreground">
-              <span>Necessidade:</span>
-              {CORES_NECESSIDADE.map((c) => (
-                <span key={c.rotulo} className="flex items-center gap-1.5">
+              <span className="flex items-center gap-1.5">
+                menos necessidade
+                {CORES_NECESSIDADE.map((c) => (
                   <span
+                    key={c.rotulo}
                     aria-hidden
-                    className="size-3 rounded-full"
+                    className="size-3 rounded-full border border-tinta"
                     style={{ backgroundColor: c.cor }}
                   />
-                  {c.rotulo}
-                </span>
-              ))}
+                ))}
+                mais necessidade
+              </span>
               <span className="flex items-center gap-1.5">
                 <span
                   aria-hidden
-                  className="size-3 rounded-full"
+                  className="size-3 rounded-full border border-tinta"
                   style={{ backgroundColor: COR_SEM_DADO }}
                 />
                 sem dado

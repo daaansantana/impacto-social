@@ -7,7 +7,7 @@ import {
   type Predefinicao,
   rankingIIS,
 } from "@/lib/iis";
-import { nomeArea, nomePais } from "@/lib/nomes";
+import { type Local, local, nomeArea, nomePais } from "@/lib/nomes";
 import { construirConfianca, type VistaConfianca } from "@/lib/vista-confianca";
 import type { Dados } from "@/types";
 
@@ -136,6 +136,7 @@ export type LinhaRanking = {
   id: string;
   nome: string;
   onde: string;
+  local: Local | null;
   /** a 2 casas, para a barra */
   iis: number;
   iisTexto: string;
@@ -184,6 +185,7 @@ export function construirComoMedimos(
             id: l.projeto,
             nome: a?.nome ?? l.projeto,
             onde: a ? `${nomePais(a.pais)}, ${nomeArea(a.area)}` : "",
+            local: a ? local(a.pais, a.area) : null,
             iis: l.iis,
             iisTexto: numero(l.iis),
           };

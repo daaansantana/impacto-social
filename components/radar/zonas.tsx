@@ -1,3 +1,4 @@
+import { Pais } from "@/components/comum/bandeira";
 import type { GruposRadar } from "@/lib/radar";
 import type { VistaRadar } from "@/lib/vista-radar";
 import { ZONAS } from "@/lib/vista-radar";
@@ -27,9 +28,11 @@ export function Zonas({
               <ul className="flex flex-col gap-1 text-sm">
                 {grupos[z.id as Quadrante].map((c) => (
                   <li key={c.pais}>
-                    <span className="font-medium">
-                      {porId.get(c.pais)?.nome ?? c.pais}
-                    </span>
+                    <Pais
+                      pais={c.pais}
+                      nome={porId.get(c.pais)?.nome ?? c.pais}
+                      className="font-medium"
+                    />
                     <span className="text-muted-foreground">
                       {c.estimado
                         ? `: estimado a partir de ${c.n === 1 ? "1 ação" : `${c.n} ações`}`
@@ -52,9 +55,12 @@ export function Zonas({
           <h3 className="font-semibold">Sem dado</h3>
           <p className="text-sm text-muted-foreground">
             Falta o indicador da necessidade para{" "}
-            {grupos.semDado
-              .map((c) => porId.get(c.pais)?.nome ?? c.pais)
-              .join(" e ")}
+            {grupos.semDado.map((c, i) => (
+              <span key={c.pais}>
+                {i > 0 ? " e " : ""}
+                <Pais pais={c.pais} nome={porId.get(c.pais)?.nome ?? c.pais} />
+              </span>
+            ))}
             : confirmar com dados locais.
           </p>
         </section>

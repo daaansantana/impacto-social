@@ -12,6 +12,7 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
+import { Pais } from "@/components/comum/bandeira";
 import type { PontoRadar } from "@/lib/vista-radar";
 
 const EIXO = { fill: "var(--muted-foreground)", fontSize: 12 };
@@ -24,7 +25,9 @@ function Detalhe({
   if (!active || !p) return null;
   return (
     <div className="max-w-64 rounded-md border bg-popover px-3 py-2 text-sm text-popover-foreground shadow-sm">
-      <p className="font-semibold">{p.nome}</p>
+      <p className="font-semibold">
+        <Pais pais={p.pais} nome={p.nome} />
+      </p>
       <p>{p.necessidadeTexto}</p>
       <p className="text-muted-foreground">{p.evidenciaTexto}</p>
     </div>
@@ -99,12 +102,8 @@ export function QuadranteRadar({
                 cx={props.cx}
                 cy={props.cy}
                 r={7}
-                fill={
-                  props.payload?.estimado
-                    ? "var(--background)"
-                    : (props.payload?.cor ?? "var(--primary)")
-                }
-                stroke="var(--foreground)"
+                fill={props.payload?.cor ?? "var(--primary)"}
+                stroke="var(--lupa-tinta)"
                 strokeWidth={1.5}
                 strokeDasharray={props.payload?.estimado ? "3 2" : undefined}
               />

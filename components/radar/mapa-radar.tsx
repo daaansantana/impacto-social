@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { Pais } from "@/components/comum/bandeira";
 import {
   Map as Mapa,
   MapControls,
@@ -52,7 +53,7 @@ export function MapaRadar({
                 type="button"
                 aria-label={`${p.nome}. ${p.necessidadeTexto} ${p.evidenciaTexto}`}
                 aria-pressed={p.id === aberto}
-                className={`block rounded-full border-2 shadow-md outline-none focus-visible:ring-2 focus-visible:ring-ring ${p.estimado ? "border-dashed border-foreground" : "border-white"}`}
+                className={`block rounded-full border-2 border-tinta shadow-md outline-none focus-visible:ring-2 focus-visible:ring-ring ${p.estimado ? "border-dashed" : ""}`}
                 style={{
                   backgroundColor: p.cor,
                   width: p.tamanho,
@@ -71,7 +72,9 @@ export function MapaRadar({
             closeButton
             closeOnClick={false}
           >
-            <p className="pr-5 font-semibold">{ponto.nome}</p>
+            <p className="pr-5 font-semibold">
+              <Pais pais={ponto.pais} nome={ponto.nome} />
+            </p>
             <p className="text-sm">{ponto.necessidadeTexto}</p>
             <p className="text-sm text-muted-foreground">
               {ponto.evidenciaTexto}

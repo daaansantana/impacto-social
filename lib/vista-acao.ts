@@ -60,7 +60,8 @@ export type VistaAcao = {
   nome: string;
   onde: string;
   intro: string;
-  resumo: { rotulo: string; texto: string }[];
+  /** `pais`: a linha «Onde» leva a bandeira */
+  resumo: { rotulo: string; texto: string; pais?: string }[];
   /** o ponto do mini-mapa: a capital do país da ação; null sem coordenadas */
   ponto: PontoMapa | null;
   iisTexto: string;
@@ -186,6 +187,7 @@ export function construirAcao(
       {
         rotulo: "Onde",
         texto: `${nomePais(a.pais)}${a.regiao ? `, ${a.regiao}` : ""}.`,
+        pais: a.pais,
       },
       {
         rotulo: "Formato",

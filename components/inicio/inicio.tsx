@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Onde } from "@/components/comum/area";
 import type {
   ItemAConfirmar,
   LeituraInicio,
@@ -120,16 +121,17 @@ export function AConfirmar({ itens }: { itens: ItemAConfirmar[] }) {
               key={i.projeto}
               className="relative flex flex-col gap-1 p-4 hover:bg-muted/50"
             >
-              <p className="font-semibold">
+              <p className="flex flex-wrap items-center gap-x-2 gap-y-1 font-semibold">
                 <Link
                   href={i.href}
                   className="underline-offset-4 after:absolute after:inset-0 hover:underline focus-visible:outline-none focus-visible:after:rounded-sm focus-visible:after:ring-2 focus-visible:after:ring-ring"
                 >
                   {i.nome}
-                </Link>{" "}
-                <span className="font-normal text-muted-foreground">
-                  {i.onde}
-                </span>
+                </Link>
+                <Onde
+                  local={i.local}
+                  className="font-normal text-muted-foreground"
+                />
               </p>
               <p className="text-pretty">{i.texto}</p>
               {i.mais ? (

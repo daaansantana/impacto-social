@@ -5,6 +5,7 @@ import { useParams } from "next/navigation";
 import { Dimensoes } from "@/components/acoes/dimensoes";
 import { Recursos } from "@/components/acoes/recursos";
 import { SaudeAcao } from "@/components/acoes/saude-acao";
+import { Bandeira } from "@/components/comum/bandeira";
 import {
   EstadoCarregar,
   EstadoErro,
@@ -79,7 +80,10 @@ export default function AcaoPage() {
                   className="grid gap-1 sm:grid-cols-[10rem_minmax(0,1fr)]"
                 >
                   <dt className="text-muted-foreground">{r.rotulo}</dt>
-                  <dd>{r.texto}</dd>
+                  <dd className="flex items-center gap-1.5">
+                    {r.pais ? <Bandeira pais={r.pais} /> : null}
+                    {r.texto}
+                  </dd>
                 </div>
               ))}
             </dl>

@@ -1,8 +1,11 @@
+import { Onde } from "@/components/comum/area";
+import type { Local } from "@/lib/nomes";
+
 /** «Onde faria mais diferença»: as células Reforçar que ainda não têm ação. */
 export function OndeFaria({
   itens,
 }: {
-  itens: { id: string; titulo: string; texto: string }[];
+  itens: { id: string; local: Local; titulo: string; texto: string }[];
 }) {
   return (
     <section
@@ -20,7 +23,10 @@ export function OndeFaria({
         <ol className="flex list-decimal flex-col gap-3 pl-5">
           {itens.map((i) => (
             <li key={i.id}>
-              <p className="font-medium">{i.titulo}</p>
+              <p className="font-medium">
+                <Onde local={i.local} />
+                <span className="sr-only">: {i.titulo}</span>
+              </p>
               <p className="text-sm text-muted-foreground">{i.texto}</p>
             </li>
           ))}

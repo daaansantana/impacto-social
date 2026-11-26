@@ -18,8 +18,49 @@ const AREAS: Record<string, string> = {
 };
 
 export const nomePais = (pais: string) => PAISES[pais] ?? pais;
+
+/** O código ISO 3166-1 de cada país dos dados, para a bandeira. */
+const CODIGOS: Record<string, string> = {
+  Bangladesh: "BD",
+  Brasil: "BR",
+  Colombia: "CO",
+  Filipinas: "PH",
+  Ghana: "GH",
+  India: "IN",
+  Mocambique: "MZ",
+  Peru: "PE",
+  Portugal: "PT",
+  Quenia: "KE",
+  Senegal: "SN",
+  Uganda: "UG",
+};
+
+/** «Mocambique» → «MZ»; `null` para um país sem código. */
+export const codigoPais = (pais: string) => CODIGOS[pais] ?? null;
 export const nomeArea = (area: string) =>
   AREAS[area] ?? area.replaceAll("_", " ");
+
+/** Onde fica uma ação: as chaves dos dados, para o ícone e a bandeira, e os nomes para o ecrã. */
+export type Local = {
+  pais: string;
+  paisNome: string;
+  area: string;
+  /** «logística», para as frases */
+  areaNome: string;
+  /** «Logística», para as etiquetas */
+  areaEtiqueta: string;
+};
+
+export function local(pais: string, area: string): Local {
+  const areaNome = nomeArea(area);
+  return {
+    pais,
+    paisNome: nomePais(pais),
+    area,
+    areaNome,
+    areaEtiqueta: areaNome.charAt(0).toUpperCase() + areaNome.slice(1),
+  };
+}
 
 const EM: Record<string, string> = {
   Brasil: "no Brasil",

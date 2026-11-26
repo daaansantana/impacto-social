@@ -1,9 +1,11 @@
 "use client";
 
 import Link from "next/link";
+import { IconeArea } from "@/components/comum/area";
+import { Bandeira } from "@/components/comum/bandeira";
+import { Escolha } from "@/components/comum/escolha";
 import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
-import { NativeSelect } from "@/components/ui/native-select";
 import {
   Sheet,
   SheetContent,
@@ -54,19 +56,21 @@ export function FiltrosAcoes({
       {campos.map((c) => (
         <div key={c.chave} className="flex min-w-0 flex-col gap-1.5">
           <Label htmlFor={`${id}-${c.chave}`}>{c.rotulo}</Label>
-          <NativeSelect
+          <Escolha
             id={`${id}-${c.chave}`}
-            className="w-full [&_select]:h-10 [&_select]:text-base"
-            value={valores[c.chave] ?? ""}
-            onChange={(e) => onMudar(c.chave, e.target.value)}
-          >
-            <option value="">{c.todos}</option>
-            {opcoes[c.chave].map((o) => (
-              <option key={o.valor} value={o.valor}>
-                {o.rotulo}
-              </option>
-            ))}
-          </NativeSelect>
+            valor={valores[c.chave] ?? ""}
+            onValor={(v) => onMudar(c.chave, v)}
+            opcoes={[
+              { valor: "", rotulo: c.todos },
+              ...opcoes[c.chave].map((o) =>
+                c.chave === "area"
+                  ? { ...o, icone: <IconeArea area={o.valor} /> }
+                  : c.chave === "pais"
+                    ? { ...o, icone: <Bandeira pais={o.valor} /> }
+                    : o,
+              ),
+            ]}
+          />
         </div>
       ))}
       <Button
@@ -122,37 +126,30 @@ export function Ordenar({
   return (
     <div className="flex min-w-0 flex-col gap-1.5">
       <Label htmlFor="ordenar">Ordenar por</Label>
-      <NativeSelect
+      <Escolha
         id="ordenar"
-        className="w-full sm:w-auto [&_select]:h-10 [&_select]:text-base"
-        value={ordem}
-        onChange={(e) => onOrdem(e.target.value as Ordenacao)}
-      >
-        {Object.entries(ordenacoes).map(([valor, rotulo]) => (
-          <option key={valor} value={valor}>
-            {rotulo}
-          </option>
-        ))}
-      </NativeSelect>
+        className="sm:w-auto"
+        valor={ordem}
+        onValor={(v) => onOrdem(v as Ordenacao)}
+        opcoes={Object.entries(ordenacoes).map(([valor, rotulo]) => ({
+          valor,
+          rotulo,
+        }))}
+      />
     </div>
   );
 }
 
+// O vermelho fica só para erros: «a rever» é âmbar.
 const COR_SAUDE: Record<NivelSaude, { fundo: string; ponto: string }> = {
-  forte: {
-    fundo:
-      "bg-emerald-50 text-emerald-900 ring-emerald-200 dark:bg-emerald-950 dark:text-emerald-100 dark:ring-emerald-800",
-    ponto: "bg-emerald-600",
-  },
+  forte: { fundo: "bg-menta text-tinta ring-verde/30", ponto: "bg-verde" },
   "a acompanhar": {
-    fundo:
-      "bg-amber-50 text-amber-900 ring-amber-200 dark:bg-amber-950 dark:text-amber-100 dark:ring-amber-800",
-    ponto: "bg-amber-500",
+    fundo: "bg-muted text-tinta ring-ardosia/30",
+    ponto: "bg-ardosia",
   },
   "a rever": {
-    fundo:
-      "bg-red-50 text-red-900 ring-red-200 dark:bg-red-950 dark:text-red-100 dark:ring-red-800",
-    ponto: "bg-red-600",
+    fundo: "bg-ambar-fundo text-ambar ring-ambar/30",
+    ponto: "bg-ambar",
   },
 };
 

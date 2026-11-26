@@ -10,7 +10,7 @@ import {
 } from "@/lib/acoes";
 import { euros, numero, percentagem } from "@/lib/format";
 import { iis, PREDEFINICOES } from "@/lib/iis";
-import { nomeArea, nomePais } from "@/lib/nomes";
+import { type Local, local, nomeArea, nomePais } from "@/lib/nomes";
 import type { Dados, NivelSaude } from "@/types";
 
 export type CartaoAcao = {
@@ -18,6 +18,7 @@ export type CartaoAcao = {
   nome: string;
   /** «Uganda, logística» */
   onde: string;
+  local: Local;
   /** o IIS a 2 casas, para a barra */
   iis: number;
   /** o IIS em inteiro, com ,5 para cima */
@@ -81,6 +82,7 @@ export function construirAcoes(
         id: a.projeto,
         nome: a.nome,
         onde: `${nomePais(a.pais)}, ${nomeArea(a.area)}`,
+        local: local(a.pais, a.area),
         iis: valor,
         iisTexto: numero(valor),
         saude: saudeGeral(a),

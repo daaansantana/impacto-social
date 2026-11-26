@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { SaudeBadge } from "@/components/acoes/saude-badge";
+import { Onde } from "@/components/comum/area";
 import { Badge } from "@/components/ui/badge";
 import {
   Card,
@@ -23,7 +24,9 @@ export function CartaoAcao({ cartao }: { cartao: Cartao }) {
             {cartao.nome}
           </Link>
         </CardTitle>
-        <CardDescription>{cartao.onde}</CardDescription>
+        <CardDescription>
+          <Onde local={cartao.local} />
+        </CardDescription>
       </CardHeader>
       <CardContent className="flex flex-col gap-3">
         <div>
