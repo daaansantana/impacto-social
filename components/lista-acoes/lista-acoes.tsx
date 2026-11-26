@@ -140,21 +140,16 @@ export function Ordenar({
   );
 }
 
+// O vermelho fica só para erros: «a rever» é âmbar.
 const COR_SAUDE: Record<NivelSaude, { fundo: string; ponto: string }> = {
-  forte: {
-    fundo:
-      "bg-emerald-50 text-emerald-900 ring-emerald-200 dark:bg-emerald-950 dark:text-emerald-100 dark:ring-emerald-800",
-    ponto: "bg-emerald-600",
-  },
+  forte: { fundo: "bg-menta text-tinta ring-verde/30", ponto: "bg-verde" },
   "a acompanhar": {
-    fundo:
-      "bg-amber-50 text-amber-900 ring-amber-200 dark:bg-amber-950 dark:text-amber-100 dark:ring-amber-800",
-    ponto: "bg-amber-500",
+    fundo: "bg-muted text-tinta ring-ardosia/30",
+    ponto: "bg-ardosia",
   },
   "a rever": {
-    fundo:
-      "bg-red-50 text-red-900 ring-red-200 dark:bg-red-950 dark:text-red-100 dark:ring-red-800",
-    ponto: "bg-red-600",
+    fundo: "bg-ambar-fundo text-ambar ring-ambar/30",
+    ponto: "bg-ambar",
   },
 };
 
