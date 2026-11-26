@@ -89,10 +89,15 @@ export function MapaAcoes({
             <MarkerContent>
               <button
                 type="button"
-                aria-label={`${p.nome}: IIS ${Math.round(p.iis)}`}
+                aria-label={
+                  p.rotulo ?? `${p.nome}: IIS ${Math.round(p.iis ?? 0)}`
+                }
                 aria-pressed={p.id === atual}
-                className="block size-4 rounded-full border-2 border-white shadow-md outline-none ring-offset-1 focus-visible:ring-2 focus-visible:ring-ring aria-pressed:size-5 aria-pressed:ring-2 aria-pressed:ring-foreground"
-                style={{ backgroundColor: p.cor }}
+                className={`block rounded-full border-2 border-white shadow-md outline-none ring-offset-1 focus-visible:ring-2 focus-visible:ring-ring aria-pressed:ring-2 aria-pressed:ring-foreground ${p.tamanho ? "" : "size-4 aria-pressed:size-5"}`}
+                style={{
+                  backgroundColor: p.cor,
+                  ...(p.tamanho ? { width: p.tamanho, height: p.tamanho } : {}),
+                }}
               />
             </MarkerContent>
           </MapMarker>
@@ -108,13 +113,21 @@ export function MapaAcoes({
             closeOnClick={false}
           >
             <p className="pr-5 font-semibold">{aberto.nome}</p>
-            <p className="text-sm text-muted-foreground">
-              IIS{" "}
-              <span className="font-semibold text-foreground tabular-nums">
-                {Math.round(aberto.iis)}
-              </span>{" "}
-              em 100
-            </p>
+            {aberto.linhas ? (
+              aberto.linhas.map((l) => (
+                <p key={l} className="text-sm text-muted-foreground">
+                  {l}
+                </p>
+              ))
+            ) : (
+              <p className="text-sm text-muted-foreground">
+                IIS{" "}
+                <span className="font-semibold text-foreground tabular-nums">
+                  {Math.round(aberto.iis ?? 0)}
+                </span>{" "}
+                em 100
+              </p>
+            )}
           </MapPopup>
         ) : null}
       </Mapa>

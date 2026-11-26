@@ -250,8 +250,35 @@ export type PontoMapa = {
   nome: string;
   latitude: number;
   longitude: number;
-  /** de 0 a 100 */
-  iis: number;
+  /** de 0 a 100; sem ele, o popup mostra as `linhas` */
+  iis?: number;
   /** uma cor CSS: hex, rgb() ou var() */
   cor: string;
+  /** o diâmetro do marcador, em px (16 por omissão) */
+  tamanho?: number;
+  /** o nome para leitores de ecrã; por omissão, «nome: IIS n» */
+  rotulo?: string;
+  /** as linhas do popup, por baixo do nome; por omissão, o IIS */
+  linhas?: string[];
+};
+
+export type Quadrante =
+  | "Reforçar"
+  | "Repensar ou apoiar"
+  | "Manter"
+  | "Reavaliar";
+
+/** Uma linha de public/data/radar.json: um país e uma área (docs/PLANO-V2.md, secção 6). */
+export type RadarCelula = {
+  pais: string;
+  area: string;
+  /** null quando o país não tem o indicador da área: o ecrã diz «sem dado» */
+  necessidadePercentil: number | null;
+  /** exata: o IIS sem a necessidade */
+  evidencia: number;
+  /** a evidência vem da mesma área noutros países */
+  estimado: boolean;
+  /** quantas ações estão por trás da evidência */
+  n: number;
+  quadrante: Quadrante | null;
 };
