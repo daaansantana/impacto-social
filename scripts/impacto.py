@@ -199,6 +199,10 @@ def main() -> int:
     projetos = json.loads((DADOS / "projetos.json").read_text(encoding="utf-8"))
     contexto = {c["pais"]: c for c in json.loads((DADOS / "contexto.json").read_text(encoding="utf-8"))}
     desp = pd.DataFrame(json.loads((RAIZ / "data/raw/json/despesas_projeto.json").read_text(encoding="utf-8")))
+    # os tipos de atividade de cada ação (sem duplicados e sem espaços a mais, como no agregar.py)
+    ativ = pd.DataFrame(json.loads((RAIZ / "data/raw/json/atividades_projeto.json").read_text(encoding="utf-8")))
+    ativ = ativ.drop_duplicates()
+    ativ["tipo"] = ativ["tipo_atividade"].astype(str).str.strip()
     proj = pd.DataFrame(
         [{"id": p["id"], "nome": p["nome"], "pais": p["pais"], "area": p["area"], "objetivos": p["objetivos"],
           "historico": p["parceiro"]["historico"], "capacidade": p["parceiro"]["capacidade"]} for p in projetos]
@@ -207,7 +211,7 @@ def main() -> int:
     comp = meses[~meses["fimDeAno"]]
     g = comp.groupby("projeto")
     soma = g[["beneficiarios", "despesa", "atividades", "participantes", "jovensFormados", "horasFormacao",
-              "horasVoluntariado"]].sum()
+              "horasVoluntariado", "horasAtividade"]].sum()
     n_meses = g.size()
     ano = comp["mes"].str[:4]
     benef_ano = comp.groupby([comp["projeto"], ano])["beneficiarios"].sum().unstack()
@@ -302,6 +306,12 @@ def main() -> int:
             "profundidade": {"taxaConclusao": float(m.at[pid, "taxaConclusao"]),
                              "horasFormacaoPorBenef": float(m.at[pid, "horasFormacaoPorBenef"]), "percentil": float(m.at[pid, "profundidade"])},
             "jovensFormados": {"total": float(m.at[pid, "jovensFormados"]), "porMes": float(m.at[pid, "jovensFormadosPorMes"])},
+            # o resumo da ação: o quê (os tipos de atividade, do mais frequente) e o formato (janeiro a outubro)
+            "resumo": {
+                "tiposAtividade": [t.replace("_", " ") for t in ativ[ativ["id_projeto"] == pid]["tipo"].value_counts().index],
+                "participantesPorAtividade": float(soma.at[pid, "participantes"] / soma.at[pid, "atividades"]),
+                "horasPorAtividade": float(soma.at[pid, "horasAtividade"] / soma.at[pid, "atividades"]),
+            },
             # requisito 2: a relação entre despesa, horas de voluntariado e beneficiários, de janeiro a outubro
             "recursos": {
                 "despesa": float(soma.at[pid, "despesa"]),

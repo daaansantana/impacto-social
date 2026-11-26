@@ -20,6 +20,15 @@
    "total": 1020.55,
    "porMes": 51.027499999999996
   },
+  "resumo": {
+   "tiposAtividade": [
+    "oficina educativa",
+    "aula",
+    "apoio estudo"
+   ],
+   "participantesPorAtividade": 37.101711026615966,
+   "horasPorAtividade": 5.557433460076045
+  },
   "recursos": {
    "despesa": 13620215.59,
    "horasVoluntariado": 183348.896483,
@@ -89,6 +98,15 @@
   "jovensFormados": {
    "total": 1298.23,
    "porMes": 64.9115
+  },
+  "resumo": {
+   "tiposAtividade": [
+    "mentoria",
+    "formacao profissional",
+    "workshop"
+   ],
+   "participantesPorAtividade": 36.24706572769953,
+   "horasPorAtividade": 5.504518779342724
   },
   "recursos": {
    "despesa": 2537263.52,
@@ -160,6 +178,15 @@
    "total": 1100.13,
    "porMes": 55.0065
   },
+  "resumo": {
+   "tiposAtividade": [
+    "acolhimento",
+    "rastreio",
+    "palestra saude"
+   ],
+   "participantesPorAtividade": 37.85590778097983,
+   "horasPorAtividade": 5.474386167146974
+  },
   "recursos": {
    "despesa": 1897738.58,
    "horasVoluntariado": 33801.959143,
@@ -230,6 +257,15 @@
    "total": 1117.62,
    "porMes": 55.88099999999999
   },
+  "resumo": {
+   "tiposAtividade": [
+    "suporte tecnico",
+    "laboratorio ti",
+    "formacao digital"
+   ],
+   "participantesPorAtividade": 36.38854576080853,
+   "horasPorAtividade": 5.604396406513195
+  },
   "recursos": {
    "despesa": 1233820.29,
    "horasVoluntariado": 23537.13006,
@@ -295,6 +331,15 @@
   "jovensFormados": {
    "total": 1260.44,
    "porMes": 63.022000000000006
+  },
+  "resumo": {
+   "tiposAtividade": [
+    "distribuicao",
+    "entrega material",
+    "inventario"
+   ],
+   "participantesPorAtividade": 36.73395026026605,
+   "horasPorAtividade": 5.507894736842105
   },
   "recursos": {
    "despesa": 3366185.92,
@@ -362,6 +407,15 @@
    "total": 1230.77,
    "porMes": 61.5385
   },
+  "resumo": {
+   "tiposAtividade": [
+    "mentoria",
+    "workshop",
+    "formacao profissional"
+   ],
+   "participantesPorAtividade": 36.84359400998336,
+   "horasPorAtividade": 5.468596783139212
+  },
   "recursos": {
    "despesa": 949097.97,
    "horasVoluntariado": 19610.043589,
@@ -427,6 +481,15 @@
   "jovensFormados": {
    "total": 1316.72,
    "porMes": 65.836
+  },
+  "resumo": {
+   "tiposAtividade": [
+    "apoio estudo",
+    "aula",
+    "oficina educativa"
+   ],
+   "participantesPorAtividade": 37.8737973967176,
+   "horasPorAtividade": 5.595930956423317
   },
   "recursos": {
    "despesa": 832178.08,
@@ -494,6 +557,15 @@
    "total": 1343.66,
    "porMes": 67.183
   },
+  "resumo": {
+   "tiposAtividade": [
+    "evento comunitario",
+    "campanha",
+    "producao material"
+   ],
+   "participantesPorAtividade": 37.670448099829834,
+   "horasPorAtividade": 5.467838910947249
+  },
   "recursos": {
    "despesa": 2191406.46,
    "horasVoluntariado": 35983.37594,
@@ -554,6 +626,15 @@
   "jovensFormados": {
    "total": 1328.78,
    "porMes": 66.439
+  },
+  "resumo": {
+   "tiposAtividade": [
+    "acolhimento",
+    "palestra saude",
+    "rastreio"
+   ],
+   "participantesPorAtividade": 36.67101531480431,
+   "horasPorAtividade": 5.605099262620533
   },
   "recursos": {
    "despesa": 1553383.61,
@@ -616,6 +697,15 @@
    "total": 1442.62,
    "porMes": 72.131
   },
+  "resumo": {
+   "tiposAtividade": [
+    "aula",
+    "apoio estudo",
+    "oficina educativa"
+   ],
+   "participantesPorAtividade": 37.11449275362319,
+   "horasPorAtividade": 5.499932367149759
+  },
   "recursos": {
    "despesa": 3275621.95,
    "horasVoluntariado": 98001.872239,
@@ -677,6 +767,15 @@
    "total": 1219.38,
    "porMes": 60.96900000000001
   },
+  "resumo": {
+   "tiposAtividade": [
+    "inventario",
+    "entrega material",
+    "distribuicao"
+   ],
+   "participantesPorAtividade": 36.572067039106145,
+   "horasPorAtividade": 5.591033519553073
+  },
   "recursos": {
    "despesa": 687960.71,
    "horasVoluntariado": 15177.26754,
@@ -737,6 +836,15 @@
   "jovensFormados": {
    "total": 946.6,
    "porMes": 47.33
+  },
+  "resumo": {
+   "tiposAtividade": [
+    "suporte tecnico",
+    "laboratorio ti",
+    "formacao digital"
+   ],
+   "participantesPorAtividade": 36.617816091954026,
+   "horasPorAtividade": 5.540879310344828
   },
   "recursos": {
    "despesa": 2714254.73,
