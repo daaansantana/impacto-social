@@ -206,3 +206,41 @@ export function novoProjeto(
     projeto: acao?.projeto ?? null,
   };
 }
+
+/**
+ * «Onde faria mais diferença»: as células Reforçar que ainda não têm ação (estimadas),
+ * da maior necessidade para a menor; num empate, por área e por país.
+ */
+export function ondeFariaDiferenca(
+  celulas: RadarCelula[],
+  quantas = 5,
+): RadarCelula[] {
+  return celulas
+    .filter((c) => c.quadrante === "Reforçar" && c.estimado)
+    .sort(
+      (a, b) =>
+        arredondar(b.necessidadePercentil ?? 0, 2) -
+          arredondar(a.necessidadePercentil ?? 0, 2) ||
+        a.area.localeCompare(b.area) ||
+        a.pais.localeCompare(b.pais),
+    )
+    .slice(0, quantas);
+}
+
+/** A posição do país na necessidade da área (1 = mais necessidade) e quantos países têm dado. */
+export function posicaoNecessidade(
+  celulas: RadarCelula[],
+  celula: RadarCelula,
+): { posicao: number; comDado: number } | null {
+  if (celula.necessidadePercentil === null) return null;
+  const daArea = celulas.filter(
+    (c) => c.area === celula.area && c.necessidadePercentil !== null,
+  );
+  const minha = arredondar(celula.necessidadePercentil, 2);
+  return {
+    posicao:
+      daArea.filter((c) => arredondar(c.necessidadePercentil ?? 0, 2) > minha)
+        .length + 1,
+    comDado: daArea.length,
+  };
+}
