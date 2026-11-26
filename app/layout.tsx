@@ -24,7 +24,7 @@ export default function RootLayout({
             <div className="flex items-baseline gap-3">
               <span className="text-lg font-bold">Lupa</span>
               <span className="hidden text-sm text-muted-foreground sm:inline">
-                Os 12 projetos, com números limpos
+                O impacto social das 12 ações
               </span>
             </div>
             {/* usePathname suspende nas rotas com params desconhecidos no build (/acoes/[id]) */}
