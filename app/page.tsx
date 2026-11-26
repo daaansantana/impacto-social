@@ -16,15 +16,14 @@ import { PergunteLupa } from "@/components/inicio/pergunte-lupa";
 import { MapaAcoes } from "@/components/mapa/mapa-acoes";
 import { COLUMNS, PageHeader } from "@/components/shell/page-header";
 import { useInicio } from "@/hooks/use-inicio";
-import { usePergunte } from "@/hooks/use-pergunte";
+import { useAbrirPergunte } from "@/hooks/use-pergunte";
 import { FAIXAS_MAPA } from "@/lib/vista-inicio";
-import { ConversaLupa } from "./conversa-lupa";
 
 const TITULO = "Como está o impacto";
 
 export default function InicioPage() {
   const p = useInicio();
-  const lupa = usePergunte();
+  const abrirPergunte = useAbrirPergunte();
   const [selecionado, setSelecionado] = useState<string | null>(null);
 
   if (p.estado === "error")
@@ -71,19 +70,7 @@ export default function InicioPage() {
               className="h-80 sm:h-105"
             />
           </section>
-          <PergunteLupa
-            perguntas={lupa.respostas}
-            escolhida={lupa.escolhida?.id ?? null}
-            onEscolher={lupa.escolher}
-            conversa={
-              lupa.escolhida ? (
-                <ConversaLupa
-                  key={lupa.escolhida.id}
-                  resposta={lupa.escolhida}
-                />
-              ) : null
-            }
-          />
+          <PergunteLupa onAbrir={abrirPergunte} />
         </div>
         <AConfirmar itens={v.aConfirmar} />
       </div>

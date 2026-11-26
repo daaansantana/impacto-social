@@ -3,6 +3,7 @@ import "./globals.css";
 import { Geist } from "next/font/google";
 import { Suspense } from "react";
 import { cn } from "@/lib/utils";
+import { FolhaLupa } from "./conversa-lupa";
 import { NavegacaoApp, NavegacaoSemRota } from "./navegacao";
 
 const geist = Geist({ subsets: ["latin"], variable: "--font-sans" });
@@ -20,23 +21,27 @@ export default function RootLayout({
   return (
     <html lang="pt-PT" className={cn("font-sans", geist.variable)}>
       <body className="min-h-dvh bg-background text-foreground antialiased">
-        <header className="border-b">
-          <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-x-6 gap-y-2 px-4 py-3 lg:px-10">
-            <div className="flex items-baseline gap-3">
-              <span className="text-lg font-bold">Lupa</span>
-              <span className="hidden text-sm text-muted-foreground sm:inline">
-                O impacto social das 12 ações
-              </span>
-            </div>
-            {/* usePathname suspende nas rotas com params desconhecidos no build (/acoes/[id]) */}
-            <Suspense fallback={<NavegacaoSemRota />}>
-              <NavegacaoApp />
-            </Suspense>
-          </div>
+        <a
+          href="#conteudo"
+          className="sr-only rounded-lg bg-card px-4 py-3 font-medium focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-50"
+        >
+          Saltar para o conteúdo
+        </a>
+        <header>
+          {/* usePathname suspende nas rotas com params desconhecidos no build (/acoes/[id]) */}
+          <Suspense fallback={<NavegacaoSemRota />}>
+            <NavegacaoApp />
+          </Suspense>
         </header>
-        <main className="mx-auto w-full max-w-6xl px-4 py-8 lg:px-10">
-          {children}
-        </main>
+        <div className="xl:pl-64">
+          <main
+            id="conteudo"
+            className="mx-auto w-full max-w-6xl px-4 py-8 lg:px-10"
+          >
+            {children}
+          </main>
+        </div>
+        <FolhaLupa />
       </body>
     </html>
   );

@@ -7,7 +7,6 @@ import {
   SheetDescription,
   SheetHeader,
   SheetTitle,
-  SheetTrigger,
 } from "@/components/ui/sheet";
 import type { PassoLupa, RespostaLupa } from "@/lib/pergunte";
 
@@ -22,19 +21,8 @@ function Prototipo() {
   );
 }
 
-/** O cartão «Pergunte à Lupa» no Início; abre uma folha com as 4 perguntas sugeridas. */
-export function PergunteLupa({
-  perguntas,
-  escolhida,
-  onEscolher,
-  conversa,
-}: {
-  perguntas: Pick<RespostaLupa, "id" | "pergunta">[];
-  escolhida: RespostaLupa["id"] | null;
-  onEscolher: (id: RespostaLupa["id"]) => void;
-  /** a conversa da pergunta escolhida, já a correr */
-  conversa: ReactNode;
-}) {
+/** O cartão «Pergunte à Lupa» no Início: abre a mesma folha que o botão da barra lateral. */
+export function PergunteLupa({ onAbrir }: { onAbrir: () => void }) {
   return (
     <section
       aria-labelledby="pergunte"
@@ -49,52 +37,72 @@ export function PergunteLupa({
       <p className="text-pretty text-muted-foreground">
         Quatro perguntas, respondidas com as mesmas contas do resto da app.
       </p>
-      <Sheet>
-        <SheetTrigger
-          render={<Button variant="outline" className="h-11 w-fit text-base" />}
-        >
-          Fazer uma pergunta
-        </SheetTrigger>
-        <SheetContent
-          side="right"
-          className="overflow-y-auto data-[side=right]:w-full data-[side=right]:sm:max-w-lg"
-        >
-          <SheetHeader className="pr-12">
-            <div className="flex flex-wrap items-center gap-2">
-              <SheetTitle className="text-lg">Pergunte à Lupa</SheetTitle>
-              <Prototipo />
-            </div>
-            <SheetDescription>
-              Escolha uma pergunta. A Lupa mostra as funções que chama e o que
-              cada uma devolve.
-            </SheetDescription>
-          </SheetHeader>
-          <div className="flex flex-col gap-6 px-4">
-            <ul
-              className="flex flex-col gap-2"
-              aria-label="Perguntas sugeridas"
-            >
-              {perguntas.map((p) => (
-                <li key={p.id}>
-                  <Button
-                    variant={p.id === escolhida ? "secondary" : "outline"}
-                    aria-pressed={p.id === escolhida}
-                    onClick={() => onEscolher(p.id)}
-                    className="h-auto min-h-11 w-full justify-start py-2 text-left text-base whitespace-normal"
-                  >
-                    {p.pergunta}
-                  </Button>
-                </li>
-              ))}
-            </ul>
-            {conversa}
-          </div>
-          <p className="mt-auto border-t p-4 text-sm text-muted-foreground">
-            {NOTA}
-          </p>
-        </SheetContent>
-      </Sheet>
+      <Button
+        variant="outline"
+        className="h-11 w-fit text-base"
+        onClick={onAbrir}
+      >
+        Fazer uma pergunta
+      </Button>
     </section>
+  );
+}
+
+/** A folha «Pergunte à Lupa», com as 4 perguntas sugeridas e a conversa da escolhida. */
+export function FolhaPergunte({
+  aberta,
+  onAberta,
+  perguntas,
+  escolhida,
+  onEscolher,
+  conversa,
+}: {
+  aberta: boolean;
+  onAberta: (aberta: boolean) => void;
+  perguntas: Pick<RespostaLupa, "id" | "pergunta">[];
+  escolhida: RespostaLupa["id"] | null;
+  onEscolher: (id: RespostaLupa["id"]) => void;
+  /** a conversa da pergunta escolhida, já a correr */
+  conversa: ReactNode;
+}) {
+  return (
+    <Sheet open={aberta} onOpenChange={onAberta}>
+      <SheetContent
+        side="right"
+        className="overflow-y-auto data-[side=right]:w-full data-[side=right]:sm:max-w-lg"
+      >
+        <SheetHeader className="pr-12">
+          <div className="flex flex-wrap items-center gap-2">
+            <SheetTitle className="text-lg">Pergunte à Lupa</SheetTitle>
+            <Prototipo />
+          </div>
+          <SheetDescription>
+            Escolha uma pergunta. A Lupa mostra as funções que chama e o que
+            cada uma devolve.
+          </SheetDescription>
+        </SheetHeader>
+        <div className="flex flex-col gap-6 px-4">
+          <ul className="flex flex-col gap-2" aria-label="Perguntas sugeridas">
+            {perguntas.map((p) => (
+              <li key={p.id}>
+                <Button
+                  variant={p.id === escolhida ? "secondary" : "outline"}
+                  aria-pressed={p.id === escolhida}
+                  onClick={() => onEscolher(p.id)}
+                  className="h-auto min-h-11 w-full justify-start py-2 text-left text-base whitespace-normal"
+                >
+                  {p.pergunta}
+                </Button>
+              </li>
+            ))}
+          </ul>
+          {conversa}
+        </div>
+        <p className="mt-auto border-t p-4 text-sm text-muted-foreground">
+          {NOTA}
+        </p>
+      </SheetContent>
+    </Sheet>
   );
 }
 
