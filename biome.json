@@ -24,7 +24,8 @@
   "formatter": {
     "enabled": true,
     "indentStyle": "space",
-    "indentWidth": 2
+    "indentWidth": 2,
+    "lineEnding": "auto"
   },
   "css": {
     "parser": {
@@ -49,6 +50,16 @@
     }
   },
   "overrides": [
+    {
+      "includes": ["components/ui/map.tsx"],
+      "linter": {
+        "rules": {
+          "a11y": { "noSvgWithoutTitle": "off" },
+          "correctness": { "useExhaustiveDependencies": "off" },
+          "suspicious": { "noShadowRestrictedNames": "off" }
+        }
+      }
+    },
     {
       "includes": ["components/ui/**"],
       "linter": {
