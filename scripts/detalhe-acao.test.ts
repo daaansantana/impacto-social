@@ -53,11 +53,11 @@ describe("recursosJanOut", () => {
 describe("construirDetalhe", () => {
   const v = detalhe("P07");
 
-  it("resumo: o quê, onde com a região, o formato e o público sem dado", () => {
+  it("resumo: tipo de atividade, objetivo, localização com a região, o formato e o público sem dado", () => {
     expect(v?.resumo.map((l) => l.rotulo)).toEqual([
-      "O quê",
-      "Objetivo declarado",
-      "Onde",
+      "Tipo de atividade",
+      "Objetivo",
+      "Localização",
       "Formato",
       "Público",
     ]);
@@ -71,25 +71,25 @@ describe("construirDetalhe", () => {
     );
   });
 
-  it("o quê: os 3 tipos registados no CSV, com os nomes do CSV", () => {
+  it("tipo de atividade: os 3 tipos do CSV, sem «_» e com maiúsculas", () => {
     expect(v?.resumo[0]).toEqual({
-      rotulo: "O quê",
-      texto: "apoio_estudo, aula e oficina_educativa.",
+      rotulo: "Tipo de atividade",
+      texto: "Apoio Estudo, Aula e Oficina Educativa.",
     });
   });
 
-  it("o quê: com menos de 3 tipos, mostra os que existem", () => {
+  it("tipo de atividade: com menos de 3 tipos, mostra os que existem", () => {
     const um = detalhe("P07", [{ projeto: "P07", tipos: ["aula"] }]);
     const dois = detalhe("P07", [
-      { projeto: "P07", tipos: ["aula", "mentoria"] },
+      { projeto: "P07", tipos: ["aula", "formacao_profissional"] },
     ]);
-    expect(um?.resumo[0].texto).toBe("aula.");
-    expect(dois?.resumo[0].texto).toBe("aula e mentoria.");
+    expect(um?.resumo[0].texto).toBe("Aula.");
+    expect(dois?.resumo[0].texto).toBe("Aula e Formacao Profissional.");
   });
 
-  it("o quê: sem registos, «Sem dado»", () => {
+  it("tipo de atividade: sem registos, «Sem dado»", () => {
     expect(detalhe("P07", [{ projeto: "P07", tipos: [] }])?.resumo[0]).toEqual({
-      rotulo: "O quê",
+      rotulo: "Tipo de atividade",
       texto: "Sem dado.",
       semDado: true,
     });

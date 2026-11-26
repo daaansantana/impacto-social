@@ -196,8 +196,16 @@ export function construirDetalhe(
     texto: p.texto,
   }));
 
-  // ---- o quê: os tipos de atividade registados, com os nomes do CSV ----
-  const tipos = atividades.find((x) => x.projeto === id)?.tipos ?? [];
+  // ---- tipo de atividade: os tipos registados no CSV, legíveis ----
+  // «apoio_estudo» → «Apoio Estudo»: sem «_» e cada palavra com maiúscula
+  const tipos = (atividades.find((x) => x.projeto === id)?.tipos ?? []).map(
+    (t) =>
+      t
+        .split("_")
+        .filter(Boolean)
+        .map((p) => p.charAt(0).toUpperCase() + p.slice(1))
+        .join(" "),
+  );
   const listaTipos =
     tipos.length > 1
       ? `${tipos.slice(0, -1).join(", ")} e ${tipos[tipos.length - 1]}`
@@ -244,14 +252,14 @@ export function construirDetalhe(
     intro: `${nomePais(a.pais)}, ${nomeArea(a.area)}. IIS de ${numero(valorIIS)} em 100, com confiança ${a.confianca} nos números.`,
     resumo: [
       tipos.length
-        ? { rotulo: "O quê", texto: `${listaTipos}.` }
-        : { rotulo: "O quê", texto: "Sem dado.", semDado: true },
+        ? { rotulo: "Tipo de atividade", texto: `${listaTipos}.` }
+        : { rotulo: "Tipo de atividade", texto: "Sem dado.", semDado: true },
       {
-        rotulo: "Objetivo declarado",
+        rotulo: "Objetivo",
         texto: `${capitalizar(projeto.objetivos)}.`,
       },
       {
-        rotulo: "Onde",
+        rotulo: "Localização",
         texto: `${nomePais(a.pais)}, ${projeto.regiao}${a.regiao ? ` (${a.regiao})` : ""}.`,
       },
       {
