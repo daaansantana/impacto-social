@@ -1,10 +1,6 @@
 import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
-import {
-  construirDetalhe,
-  PEDIDOS_PARCEIRO,
-  recursosJanOut,
-} from "@/lib/detalhe-acao";
+import { construirDetalhe, PEDIDOS_PARCEIRO } from "@/lib/detalhe-acao";
 import { nomeObjetivo, rotuloAtividade } from "@/lib/nomes";
 import type {
   AtividadesAcao,
@@ -24,30 +20,25 @@ const texto = (s: string) => s.replace(/\s/g, " ");
 const detalhe = (id: string, ativ: AtividadesAcao[] = atividades) =>
   construirDetalhe(impacto, projetos, contexto, meses, ativ, id);
 
-describe("recursosJanOut", () => {
-  // Os mesmos valores que o gabarito impacto.recursos do Dan (origin/main, 88a25ba).
-  it("P07: 1457,30 € e 33,41 horas por beneficiário, só de janeiro a outubro", () => {
-    const r = recursosJanOut(meses, "P07");
-    expect(r.meses).toBe(20);
-    expect(r.custoPorBeneficiario).toBeCloseTo(1457.3, 2);
-    expect(r.horasPorBeneficiario).toBeCloseTo(33.41, 2);
+describe("recursos de janeiro a outubro", () => {
+  // Vêm do impacto.json; os valores esperados são os do gabarito impacto.recursos do Dan.
+  it("P07: 1457,30 € e 33,41 horas por beneficiário; P01: 4546,04 € e 61,20 horas", () => {
+    const r = (id: string) => impacto.find((a) => a.projeto === id)?.recursos;
+    expect(r("P07")?.custoPorBeneficiario).toBeCloseTo(1457.3, 2);
+    expect(r("P07")?.horasPorBeneficiario).toBeCloseTo(33.41, 2);
+    expect(r("P01")?.custoPorBeneficiario).toBeCloseTo(4546.04, 2);
+    expect(r("P01")?.horasPorBeneficiario).toBeCloseTo(61.2, 2);
   });
 
-  it("P01: 4546,04 € e 61,20 horas por beneficiário", () => {
-    const r = recursosJanOut(meses, "P01");
-    expect(r.custoPorBeneficiario).toBeCloseTo(4546.04, 2);
-    expect(r.horasPorBeneficiario).toBeCloseTo(61.2, 2);
-  });
-
-  it("deixa novembro e dezembro de fora", () => {
+  it("deixam novembro e dezembro de fora", () => {
     const todos = meses.filter((m) => m.projeto === "P07");
     const janOut = todos.filter((m) => !m.fimDeAno);
-    const r = recursosJanOut(meses, "P07");
-    expect(r.despesa).toBeCloseTo(
+    const despesa = impacto.find((a) => a.projeto === "P07")?.recursos.despesa;
+    expect(despesa).toBeCloseTo(
       janOut.reduce((s, m) => s + m.despesa, 0),
-      6,
+      2,
     );
-    expect(r.despesa).toBeLessThan(todos.reduce((s, m) => s + m.despesa, 0));
+    expect(despesa).toBeLessThan(todos.reduce((s, m) => s + m.despesa, 0));
   });
 });
 

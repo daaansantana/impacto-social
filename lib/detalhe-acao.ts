@@ -63,29 +63,6 @@ const mediana = (xs: number[]) => {
   return o.length % 2 ? o[m] : (o[m - 1] + o[m]) / 2;
 };
 
-/** Os totais de janeiro a outubro de uma ação, a partir do mensal.json. */
-export function recursosJanOut(meses: Mes[], id: string) {
-  const comp = serieProjeto(meses, id).filter((m) => !m.fimDeAno);
-  const soma = (k: keyof Mes) => comp.reduce((s, m) => s + (m[k] as number), 0);
-  const despesa = soma("despesa");
-  const horasVoluntariado = soma("horasVoluntariado");
-  const beneficiarios = soma("beneficiarios");
-  const atividades = soma("atividades");
-  return {
-    meses: comp.length,
-    despesa,
-    horasVoluntariado,
-    beneficiarios,
-    estornos: soma("estornos"),
-    custoPorBeneficiario: beneficiarios ? despesa / beneficiarios : 0,
-    horasPorBeneficiario: beneficiarios ? horasVoluntariado / beneficiarios : 0,
-    participantesPorAtividade: atividades
-      ? soma("participantes") / atividades
-      : 0,
-    horasPorAtividade: atividades ? soma("horasAtividade") / atividades : 0,
-  };
-}
-
 export type LinhaResumo = { rotulo: string; texto: string; semDado?: boolean };
 export type DimensaoDetalhe = {
   titulo: string;
@@ -139,7 +116,13 @@ export function construirDetalhe(
   if (!a || !projeto || !projetoMeses) return null;
 
   const pais = contexto.find((c) => c.pais === a.pais);
-  const r = recursosJanOut(meses, id);
+  // Os recursos e o formato de janeiro a outubro vêm do impacto.json (scripts/impacto.py).
+  const r = {
+    ...a.recursos,
+    participantesPorAtividade: a.resumo.participantesPorAtividade,
+    horasPorAtividade: a.resumo.horasPorAtividade,
+    meses: serieProjeto(meses, id).filter((m) => !m.fimDeAno).length,
+  };
   const valorIIS = iis(a, PESOS);
 
   // ---- as 4 dimensões ----
@@ -234,9 +217,7 @@ export function construirDetalhe(
   const pior = comDado.reduce((m, d) =>
     (d.valor ?? 0) < (m.valor ?? 0) ? d : m,
   );
-  const custos = acoes.map(
-    (x) => recursosJanOut(meses, x.projeto).custoPorBeneficiario,
-  );
+  const custos = acoes.map((x) => x.recursos.custoPorBeneficiario);
   const medianaCusto = mediana(custos);
   const posicaoCusto =
     [...custos].sort((x, y) => x - y).indexOf(r.custoPorBeneficiario) + 1;
