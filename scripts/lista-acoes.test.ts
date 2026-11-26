@@ -30,28 +30,42 @@ describe("ordenarAcoes", () => {
     expect(custos).toEqual([...custos].sort((a, b) => a - b));
   });
 
-  it("por projeto: os 12, do P01 ao P12", () => {
-    expect(ids(ordenarAcoes(acoes, "projeto"))).toEqual(
-      Array.from(
-        { length: 12 },
-        (_, i) => `P${String(i + 1).padStart(2, "0")}`,
-      ),
+  const P01aP12 = Array.from(
+    { length: 12 },
+    (_, i) => `P${String(i + 1).padStart(2, "0")}`,
+  );
+
+  it("projeto, do menor para o maior: os 12, do P01 ao P12", () => {
+    expect(ids(ordenarAcoes(acoes, "projetoAsc"))).toEqual(P01aP12);
+  });
+
+  it("projeto, do maior para o menor: os 12, do P12 ao P01", () => {
+    expect(ids(ordenarAcoes(acoes, "projetoDesc"))).toEqual(
+      [...P01aP12].reverse(),
     );
   });
 
   it("por projeto, com filtros: a mesma ordem, só com as ações filtradas", () => {
-    const l = construirListaAcoes(impacto, projetos, contexto, {
-      filtros: { regiao: "África" },
-      ordem: "projeto",
+    const filtros = { regiao: "África" as const };
+    const asc = construirListaAcoes(impacto, projetos, contexto, {
+      filtros,
+      ordem: "projetoAsc",
     });
-    expect(ids(l.cartoes)).toEqual(["P02", "P05", "P07", "P11", "P12"]);
-    expect(l.cartoes.every((c) => c.destaque === null)).toBe(true);
+    const desc = construirListaAcoes(impacto, projetos, contexto, {
+      filtros,
+      ordem: "projetoDesc",
+    });
+    expect(ids(asc.cartoes)).toEqual(["P02", "P05", "P07", "P11", "P12"]);
+    expect(ids(desc.cartoes)).toEqual(["P12", "P11", "P07", "P05", "P02"]);
+    expect(asc.cartoes.every((c) => c.destaque === null)).toBe(true);
+    expect(desc.cartoes.every((c) => c.destaque === null)).toBe(true);
   });
 
-  it("um link com ordem=projeto repõe a ordenação", () => {
-    expect(lerSelecao(new URLSearchParams("ordem=projeto"), opcoes).ordem).toBe(
-      "projeto",
-    );
+  it("um link com ordem=projetoAsc ou projetoDesc repõe a ordenação", () => {
+    for (const ordem of ["projetoAsc", "projetoDesc"])
+      expect(
+        lerSelecao(new URLSearchParams(`ordem=${ordem}`), opcoes).ordem,
+      ).toBe(ordem);
   });
 
   it("por alcance: P01 primeiro e P11 no fim", () => {
