@@ -113,9 +113,11 @@ export function Auditor({
               {vista.cartoes.map((c) => (
                 <li
                   key={c.titulo}
-                  className={`flex flex-col gap-1 rounded-lg border p-4 ${c.tom === "aviso" ? "border-amber-600/40 bg-amber-50 dark:bg-amber-950/30" : ""}`}
+                  className={`flex flex-col gap-1 rounded-lg border p-4 ${c.tom === "aviso" ? "border-ambar/40 bg-ambar-fundo" : ""}`}
                 >
-                  <p className="text-sm text-muted-foreground">
+                  <p
+                    className={`text-sm ${c.tom === "aviso" ? "text-ambar" : "text-muted-foreground"}`}
+                  >
                     {c.tom === "aviso"
                       ? "A confirmar: "
                       : "Sem nada a assinalar: "}

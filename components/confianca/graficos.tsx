@@ -13,7 +13,9 @@ import type { VistaConfianca } from "@/lib/vista-confianca";
 
 const EIXO = { fill: "var(--muted-foreground)", fontSize: 12 };
 const LEGENDA = { fontSize: 12, color: "var(--foreground)" };
-const COR_FIM_DE_ANO = "#c2410c";
+// Novembro e dezembro em âmbar, o resto em ardósia.
+const COR_FIM_DE_ANO = "var(--lupa-ambar)";
+const COR_RESTO = "var(--lupa-ardosia)";
 
 /** Média por mês, com janeiro a outubro = 100. */
 export function GraficoFimDeAno({
@@ -37,7 +39,7 @@ export function GraficoFimDeAno({
           <Bar
             dataKey="janOut"
             name="Janeiro a outubro (= 100)"
-            fill="var(--primary)"
+            fill={COR_RESTO}
             isAnimationActive={false}
           />
           <Bar

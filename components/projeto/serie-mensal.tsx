@@ -10,7 +10,9 @@ import {
 } from "recharts";
 import type { MesProjeto, SerieProjeto } from "@/lib/vista-projeto";
 
-export const COR_FIM_DE_ANO = "#c2410c";
+// Novembro e dezembro em âmbar, o resto em ardósia.
+export const COR_FIM_DE_ANO = "var(--lupa-ambar)";
+const COR_RESTO = "var(--lupa-ardosia)";
 
 /** Uma medida mês a mês, com novembro e dezembro noutra cor. */
 export function SerieMensal({
@@ -51,7 +53,7 @@ export function SerieMensal({
             <Bar
               dataKey="normal"
               stackId="m"
-              fill="var(--primary)"
+              fill={COR_RESTO}
               isAnimationActive={false}
             />
             <Bar
