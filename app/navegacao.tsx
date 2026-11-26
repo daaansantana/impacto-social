@@ -10,6 +10,19 @@ const ECRAS = [
   { href: "/como-medimos", rotulo: "Como medimos" },
 ];
 
+/** A mesma navegação, sem separador marcado: o fallback enquanto a rota não é conhecida. */
+export function NavegacaoSemRota() {
+  return (
+    <Navegacao
+      itens={ECRAS.map((e) => ({
+        href: e.href,
+        rotulo: e.rotulo,
+        ativo: false,
+      }))}
+    />
+  );
+}
+
 /** Lê a rota e passa-a à navegação por props. O detalhe de uma ação fica em Ações. */
 export function NavegacaoApp() {
   const rota = usePathname();

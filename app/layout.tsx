@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Geist } from "next/font/google";
+import { Suspense } from "react";
 import { cn } from "@/lib/utils";
-import { NavegacaoApp } from "./navegacao";
+import { NavegacaoApp, NavegacaoSemRota } from "./navegacao";
 
 const geist = Geist({ subsets: ["latin"], variable: "--font-sans" });
 
@@ -26,7 +27,10 @@ export default function RootLayout({
                 Os 12 projetos, com números limpos
               </span>
             </div>
-            <NavegacaoApp />
+            {/* usePathname suspende nas rotas com params desconhecidos no build (/acoes/[id]) */}
+            <Suspense fallback={<NavegacaoSemRota />}>
+              <NavegacaoApp />
+            </Suspense>
           </div>
         </header>
         <main className="mx-auto w-full max-w-6xl px-4 py-8 lg:px-10">
