@@ -7,7 +7,7 @@ import { NavegacaoApp } from "./navegacao";
 const geist = Geist({ subsets: ["latin"], variable: "--font-sans" });
 
 export const metadata: Metadata = {
-  title: { default: "Portefólio · Lupa", template: "%s · Lupa" },
+  title: { default: "Início · Lupa", template: "%s · Lupa" },
   description:
     "Compara o alcance e a eficiência dos 12 projetos com números limpos e meses comparáveis.",
 };

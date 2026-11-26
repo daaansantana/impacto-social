@@ -21,7 +21,7 @@ export function Ranking({ linhas }: { linhas: LinhaPortefolio[] }) {
             <div className="min-w-0">
               <p className="font-semibold">
                 <Link
-                  href={`/projetos/${l.id}`}
+                  href={`/acoes/${l.id}`}
                   className="underline-offset-4 after:absolute after:inset-0 hover:underline focus-visible:outline-none focus-visible:after:rounded-sm focus-visible:after:ring-2 focus-visible:after:ring-ring"
                 >
                   {l.nome}

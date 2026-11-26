@@ -20,10 +20,10 @@ import { ROTULO_COMPARAVEIS } from "@/lib/portefolio";
 function Voltar() {
   return (
     <Link
-      href="/"
+      href="/acoes"
       className="text-sm font-medium underline-offset-4 hover:underline"
     >
-      ‹ Portefólio
+      ‹ Ações
     </Link>
   );
 }
@@ -41,7 +41,7 @@ export default function ProjetoPage() {
         <Voltar />
         <PageHeader title={`Projeto ${id}`} />
         <EstadoVazio
-          mensagem={`Não há nenhum projeto ${id} nos dados. Volte ao Portefólio e escolha um dos 12.`}
+          mensagem={`Não há nenhum projeto ${id} nos dados. Volte a Ações e escolha um dos 12.`}
         />
       </div>
     );
