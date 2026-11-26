@@ -19,7 +19,7 @@ Ficam 10 segundos de folga.
 
 ## 1. Capa (A, 10 s)
 
-**No slide:** «Lupa». «O impacto social das 12 ações, e onde fazer mais.» Ana e Dan. Desafio 05, Impacto social.
+**No slide:** «Lupa». «O impacto social das 12 ações, e onde fazer mais.» Ana Carlos e Danillo Santana. Desafio 05, Impacto social.
 
 **A dizer:** «Somos a Ana e o Dan. Esta é a Lupa: mostra o impacto social de 12 ações e onde fazer mais.»
 
