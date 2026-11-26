@@ -239,3 +239,15 @@ export type ImpactoAcao = {
     { nivel: NivelSaude; frase: string }
   >;
 };
+
+/** Um ponto do MapaAcoes: uma ação no mapa, com o IIS e a cor do marcador. */
+export type PontoMapa = {
+  id: string;
+  nome: string;
+  latitude: number;
+  longitude: number;
+  /** de 0 a 100 */
+  iis: number;
+  /** uma cor CSS: hex, rgb() ou var() */
+  cor: string;
+};
