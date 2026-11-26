@@ -30,6 +30,30 @@ describe("ordenarAcoes", () => {
     expect(custos).toEqual([...custos].sort((a, b) => a - b));
   });
 
+  it("por projeto: os 12, do P01 ao P12", () => {
+    expect(ids(ordenarAcoes(acoes, "projeto"))).toEqual(
+      Array.from(
+        { length: 12 },
+        (_, i) => `P${String(i + 1).padStart(2, "0")}`,
+      ),
+    );
+  });
+
+  it("por projeto, com filtros: a mesma ordem, só com as ações filtradas", () => {
+    const l = construirListaAcoes(impacto, projetos, contexto, {
+      filtros: { regiao: "África" },
+      ordem: "projeto",
+    });
+    expect(ids(l.cartoes)).toEqual(["P02", "P05", "P07", "P11", "P12"]);
+    expect(l.cartoes.every((c) => c.destaque === null)).toBe(true);
+  });
+
+  it("um link com ordem=projeto repõe a ordenação", () => {
+    expect(lerSelecao(new URLSearchParams("ordem=projeto"), opcoes).ordem).toBe(
+      "projeto",
+    );
+  });
+
   it("por alcance: P01 primeiro e P11 no fim", () => {
     const o = ids(ordenarAcoes(acoes, "escala"));
     expect(o[0]).toBe("P01");

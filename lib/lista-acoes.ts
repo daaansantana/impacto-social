@@ -25,6 +25,7 @@ export const ORDENACOES = {
   profundidade: "Profundidade",
   necessidade: "Necessidade",
   eficiencia: "Eficiência (custo por beneficiário, do mais baixo)",
+  projeto: "Por projeto (1 a 12)",
 } as const;
 export type Ordenacao = keyof typeof ORDENACOES;
 export const ORDEM_POR_OMISSAO: Ordenacao = "iis";
@@ -48,6 +49,8 @@ export function ordenarAcoes(
     profundidade: (a) => a.profundidade.percentil,
     necessidade: (a) => a.necessidade.percentil ?? Number.NEGATIVE_INFINITY,
     eficiencia: (a) => -a.custoPorPessoa.valor,
+    // todas empatam: fica só o desempate, o id do projeto do P01 ao P12
+    projeto: () => 0,
   };
   const valor = (a: Acao) => {
     const v = chave[por](a);
