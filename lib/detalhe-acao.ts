@@ -306,7 +306,7 @@ export function construirDetalhe(
     mailto: mailtoDe(pedidoTexto),
     aprendemos: [
       `Destaca-se na ${melhor.titulo.toLowerCase()} (${melhor.valorTexto}) e fica mais atrás na ${pior.titulo.toLowerCase()} (${pior.valorTexto}).`,
-      `Cada beneficiário custa ${euros(r.custoPorBeneficiario, 0)}, ${r.custoPorBeneficiario > medianaCusto ? "acima" : "abaixo"} da mediana das 12 ações (${euros(medianaCusto, 0)}): é a ${posicaoCusto}.ª mais barata.`,
+      `Cada beneficiário custa ${euros(r.custoPorBeneficiario, 0)}, ${r.custoPorBeneficiario > medianaCusto ? "acima" : "abaixo"} da mediana das 12 ações (${euros(medianaCusto, 0)}): é a ${posicaoCusto}.ª com menor custo.`,
       `A confiança nos números é ${a.confianca}. ${
         pontos.length
           ? `Há ${pontos.length === 1 ? "1 ponto" : `${pontos.length} pontos`} a confirmar com o parceiro.`

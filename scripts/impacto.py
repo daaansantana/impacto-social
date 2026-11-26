@@ -327,7 +327,7 @@ def main() -> int:
         saude = {
             "relevancia": {"nivel": rel, "frase": ("O objetivo declarado não bate com a área; " if rel == "a rever" else "") + nec_txt[0].upper() + nec_txt[1:] + "." if rel != "a rever" else f"O objetivo declarado não bate com a área; {nec_txt}."},
             "eficacia": {"nivel": nivel(eficacia), "frase": f"{ordinal_acao(pos_prof[pid], 'em profundidade')}, e os beneficiários {'+' if m.at[pid, 'crescimento'] >= 0 else '−'}{pt(abs(m.at[pid, 'crescimento']) * 100)}% de {anos[0]} para {anos[-1]} (janeiro a outubro)."},
-            "eficiencia": {"nivel": nivel(m.at[pid, "eficienciaAjustada"]), "frase": f"Cada pessoa custa {pt(m.at[pid, 'custoPorPessoa'])} €; ajustado aos preços do país, é a {pos_barata[pid]}.ª mais barata por pessoa das 12 ações."},
+            "eficiencia": {"nivel": nivel(m.at[pid, "eficienciaAjustada"]), "frase": f"Cada pessoa custa {pt(m.at[pid, 'custoPorPessoa'])} €; ajustado aos preços do país, é a {pos_barata[pid]}.ª com menor custo por pessoa das 12 ações."},
             "impacto": {"nivel": nivel(m.at[pid, "iis_equilibrado"]), "frase": f"IIS de {pt(m.at[pid, 'iis_equilibrado'])} em 100, com os pesos equilibrados."},
             "sustentabilidade": {"nivel": sust, "frase": f"Parceiro com histórico {hist} e índice de capacidade operacional (sem unidade nos dados) de {p['capacidade']}; em duração (o crescimento dos beneficiários), {ordinal_acao(pos_dur[pid], '').lower()}."},
         }
