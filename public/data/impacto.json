@@ -5,7 +5,9 @@
    "indicador": "SE.LPV.PRIM",
    "valor": 46.8978614807128,
    "ano": 2019,
-   "percentil": 30.0
+   "percentil": 30.0,
+   "posicao": 8,
+   "paisesComDado": 10
   },
   "escala": {
    "beneficiariosPorMes": 149.803,
@@ -58,15 +60,15 @@
   "saude": {
    "relevancia": {
     "nivel": "a rever",
-    "frase": "O objetivo declarado não bate com a área; a necessidade no país está no percentil 30 (SE.LPV.PRIM, 2019)."
+    "frase": "O objetivo declarado não bate com a área; o Brasil é o 8.º país com mais necessidade em educação, entre os 10 países com dado (SE.LPV.PRIM, 2019)."
    },
    "eficacia": {
     "nivel": "a acompanhar",
-    "frase": "Profundidade no percentil 21 e beneficiários +29% de 2024 para 2025 (janeiro a outubro)."
+    "frase": "É a 10.ª das 12 ações em profundidade, e os beneficiários +29% de 2024 para 2025 (janeiro a outubro)."
    },
    "eficiencia": {
     "nivel": "a rever",
-    "frase": "Cada pessoa custa 4546 €; ajustado aos preços do país, fica no percentil 8 das 12 ações (mais alto é mais barato)."
+    "frase": "Cada pessoa custa 4546 €; ajustado aos preços do país, é a 12.ª mais barata por pessoa das 12 ações."
    },
    "impacto": {
     "nivel": "a acompanhar",
@@ -74,7 +76,7 @@
    },
    "sustentabilidade": {
     "nivel": "a acompanhar",
-    "frase": "Parceiro com histórico recente e índice de capacidade operacional (sem unidade nos dados) de 36; duração no percentil 83."
+    "frase": "Parceiro com histórico recente e índice de capacidade operacional (sem unidade nos dados) de 36; em duração (o crescimento dos beneficiários), é a 3.ª das 12 ações."
    }
   }
  },
@@ -84,7 +86,9 @@
    "indicador": "SL.UEM.NEET.ZS",
    "valor": 18.503,
    "ano": 2021,
-   "percentil": 50.0
+   "percentil": 50.0,
+   "posicao": 7,
+   "paisesComDado": 12
   },
   "escala": {
    "beneficiariosPorMes": 58.565999999999995,
@@ -137,15 +141,15 @@
   "saude": {
    "relevancia": {
     "nivel": "a rever",
-    "frase": "O objetivo declarado não bate com a área; a necessidade no país está no percentil 50 (SL.UEM.NEET.ZS, 2021)."
+    "frase": "O objetivo declarado não bate com a área; o Quénia é o 7.º país com mais necessidade em formação, entre os 12 países com dado (SL.UEM.NEET.ZS, 2021)."
    },
    "eficacia": {
     "nivel": "forte",
-    "frase": "Profundidade no percentil 63 e beneficiários +32% de 2024 para 2025 (janeiro a outubro)."
+    "frase": "É a 7.ª das 12 ações em profundidade, e os beneficiários +32% de 2024 para 2025 (janeiro a outubro)."
    },
    "eficiencia": {
     "nivel": "a rever",
-    "frase": "Cada pessoa custa 2166 €; ajustado aos preços do país, fica no percentil 33 das 12 ações (mais alto é mais barato)."
+    "frase": "Cada pessoa custa 2166 €; ajustado aos preços do país, é a 9.ª mais barata por pessoa das 12 ações."
    },
    "impacto": {
     "nivel": "forte",
@@ -153,7 +157,7 @@
    },
    "sustentabilidade": {
     "nivel": "forte",
-    "frase": "Parceiro com histórico longo e índice de capacidade operacional (sem unidade nos dados) de 84; duração no percentil 92."
+    "frase": "Parceiro com histórico longo e índice de capacidade operacional (sem unidade nos dados) de 84; em duração (o crescimento dos beneficiários), é a 2.ª das 12 ações."
    }
   }
  },
@@ -163,7 +167,9 @@
    "indicador": "SH.DYN.MORT",
    "valor": 26.6,
    "ano": 2024,
-   "percentil": 50.0
+   "percentil": 50.0,
+   "posicao": 7,
+   "paisesComDado": 12
   },
   "escala": {
    "beneficiariosPorMes": 50.748000000000005,
@@ -216,15 +222,15 @@
   "saude": {
    "relevancia": {
     "nivel": "a rever",
-    "frase": "O objetivo declarado não bate com a área; a necessidade no país está no percentil 50 (SH.DYN.MORT, 2024)."
+    "frase": "O objetivo declarado não bate com a área; a Índia é o 7.º país com mais necessidade em saúde, entre os 12 países com dado (SH.DYN.MORT, 2024)."
    },
    "eficacia": {
     "nivel": "a acompanhar",
-    "frase": "Profundidade no percentil 67 e beneficiários +20% de 2024 para 2025 (janeiro a outubro)."
+    "frase": "É a 5.ª das 12 ações em profundidade, e os beneficiários +20% de 2024 para 2025 (janeiro a outubro)."
    },
    "eficiencia": {
     "nivel": "a rever",
-    "frase": "Cada pessoa custa 1870 €; ajustado aos preços do país, fica no percentil 17 das 12 ações (mais alto é mais barato)."
+    "frase": "Cada pessoa custa 1870 €; ajustado aos preços do país, é a 11.ª mais barata por pessoa das 12 ações."
    },
    "impacto": {
     "nivel": "a acompanhar",
@@ -232,7 +238,7 @@
    },
    "sustentabilidade": {
     "nivel": "a acompanhar",
-    "frase": "Parceiro com histórico longo e índice de capacidade operacional (sem unidade nos dados) de 75; duração no percentil 33."
+    "frase": "Parceiro com histórico longo e índice de capacidade operacional (sem unidade nos dados) de 75; em duração (o crescimento dos beneficiários), é a 9.ª das 12 ações."
    }
   }
  },
@@ -242,7 +248,9 @@
    "indicador": "IT.NET.USER.ZS",
    "valor": 88.48704454,
    "ano": 2024,
-   "percentil": 8.333333333333332
+   "percentil": 8.333333333333332,
+   "posicao": 12,
+   "paisesComDado": 12
   },
   "escala": {
    "beneficiariosPorMes": 33.5085,
@@ -291,15 +299,15 @@
   "saude": {
    "relevancia": {
     "nivel": "a rever",
-    "frase": "O objetivo declarado não bate com a área; a necessidade no país está no percentil 8 (IT.NET.USER.ZS, 2024)."
+    "frase": "O objetivo declarado não bate com a área; Portugal é o 12.º país com mais necessidade em tecnologia, entre os 12 países com dado (IT.NET.USER.ZS, 2024)."
    },
    "eficacia": {
     "nivel": "forte",
-    "frase": "Profundidade no percentil 71 e beneficiários +28% de 2024 para 2025 (janeiro a outubro)."
+    "frase": "É a 3.ª das 12 ações em profundidade, e os beneficiários +28% de 2024 para 2025 (janeiro a outubro)."
    },
    "eficiencia": {
     "nivel": "forte",
-    "frase": "Cada pessoa custa 1841 €; ajustado aos preços do país, fica no percentil 100 das 12 ações (mais alto é mais barato)."
+    "frase": "Cada pessoa custa 1841 €; ajustado aos preços do país, é a 1.ª mais barata por pessoa das 12 ações."
    },
    "impacto": {
     "nivel": "a acompanhar",
@@ -307,7 +315,7 @@
    },
    "sustentabilidade": {
     "nivel": "a acompanhar",
-    "frase": "Parceiro com histórico recente e índice de capacidade operacional (sem unidade nos dados) de 60; duração no percentil 58."
+    "frase": "Parceiro com histórico recente e índice de capacidade operacional (sem unidade nos dados) de 60; em duração (o crescimento dos beneficiários), é a 6.ª das 12 ações."
    }
   }
  },
@@ -317,7 +325,9 @@
    "indicador": "SI.POV.DDAY",
    "valor": 39,
    "ano": 2016,
-   "percentil": 75.0
+   "percentil": 75.0,
+   "posicao": 4,
+   "paisesComDado": 12
   },
   "escala": {
    "beneficiariosPorMes": 78.5525,
@@ -366,15 +376,15 @@
   "saude": {
    "relevancia": {
     "nivel": "forte",
-    "frase": "A necessidade no país está no percentil 75 (SI.POV.DDAY, 2016)."
+    "frase": "O Gana é o 4.º país com mais necessidade em logística, entre os 12 países com dado (SI.POV.DDAY, 2016)."
    },
    "eficacia": {
     "nivel": "a rever",
-    "frase": "Profundidade no percentil 17 e beneficiários +26% de 2024 para 2025 (janeiro a outubro)."
+    "frase": "É a 11.ª das 12 ações em profundidade, e os beneficiários +26% de 2024 para 2025 (janeiro a outubro)."
    },
    "eficiencia": {
     "nivel": "a acompanhar",
-    "frase": "Cada pessoa custa 2143 €; ajustado aos preços do país, fica no percentil 42 das 12 ações (mais alto é mais barato)."
+    "frase": "Cada pessoa custa 2143 €; ajustado aos preços do país, é a 8.ª mais barata por pessoa das 12 ações."
    },
    "impacto": {
     "nivel": "a acompanhar",
@@ -382,7 +392,7 @@
    },
    "sustentabilidade": {
     "nivel": "a acompanhar",
-    "frase": "Parceiro com histórico medio e índice de capacidade operacional (sem unidade nos dados) de 60; duração no percentil 42."
+    "frase": "Parceiro com histórico medio e índice de capacidade operacional (sem unidade nos dados) de 60; em duração (o crescimento dos beneficiários), é a 8.ª das 12 ações."
    }
   }
  },
@@ -392,7 +402,9 @@
    "indicador": "SL.UEM.NEET.ZS",
    "valor": 22.779,
    "ano": 2022,
-   "percentil": 83.33333333333334
+   "percentil": 83.33333333333334,
+   "posicao": 3,
+   "paisesComDado": 12
   },
   "escala": {
    "beneficiariosPorMes": 26.318,
@@ -441,15 +453,15 @@
   "saude": {
    "relevancia": {
     "nivel": "a rever",
-    "frase": "O objetivo declarado não bate com a área; a necessidade no país está no percentil 83 (SL.UEM.NEET.ZS, 2022)."
+    "frase": "O objetivo declarado não bate com a área; o Peru é o 3.º país com mais necessidade em formação, entre os 12 países com dado (SL.UEM.NEET.ZS, 2022)."
    },
    "eficacia": {
     "nivel": "a acompanhar",
-    "frase": "Profundidade no percentil 67 e beneficiários +19% de 2024 para 2025 (janeiro a outubro)."
+    "frase": "É a 5.ª das 12 ações em profundidade, e os beneficiários +19% de 2024 para 2025 (janeiro a outubro)."
    },
    "eficiencia": {
     "nivel": "forte",
-    "frase": "Cada pessoa custa 1803 €; ajustado aos preços do país, fica no percentil 92 das 12 ações (mais alto é mais barato)."
+    "frase": "Cada pessoa custa 1803 €; ajustado aos preços do país, é a 2.ª mais barata por pessoa das 12 ações."
    },
    "impacto": {
     "nivel": "a acompanhar",
@@ -457,7 +469,7 @@
    },
    "sustentabilidade": {
     "nivel": "a acompanhar",
-    "frase": "Parceiro com histórico longo e índice de capacidade operacional (sem unidade nos dados) de 90; duração no percentil 25."
+    "frase": "Parceiro com histórico longo e índice de capacidade operacional (sem unidade nos dados) de 90; em duração (o crescimento dos beneficiários), é a 10.ª das 12 ações."
    }
   }
  },
@@ -467,7 +479,9 @@
    "indicador": "SE.LPV.PRIM",
    "valor": 68.5682296752929,
    "ano": 2019,
-   "percentil": 70.0
+   "percentil": 70.0,
+   "posicao": 4,
+   "paisesComDado": 10
   },
   "escala": {
    "beneficiariosPorMes": 28.552,
@@ -516,15 +530,15 @@
   "saude": {
    "relevancia": {
     "nivel": "a rever",
-    "frase": "O objetivo declarado não bate com a área; a necessidade no país está no percentil 70 (SE.LPV.PRIM, 2019)."
+    "frase": "O objetivo declarado não bate com a área; o Senegal é o 4.º país com mais necessidade em educação, entre os 10 países com dado (SE.LPV.PRIM, 2019)."
    },
    "eficacia": {
     "nivel": "forte",
-    "frase": "Profundidade no percentil 88 e beneficiários +27% de 2024 para 2025 (janeiro a outubro)."
+    "frase": "É a 2.ª das 12 ações em profundidade, e os beneficiários +27% de 2024 para 2025 (janeiro a outubro)."
    },
    "eficiencia": {
     "nivel": "forte",
-    "frase": "Cada pessoa custa 1457 €; ajustado aos preços do país, fica no percentil 83 das 12 ações (mais alto é mais barato)."
+    "frase": "Cada pessoa custa 1457 €; ajustado aos preços do país, é a 3.ª mais barata por pessoa das 12 ações."
    },
    "impacto": {
     "nivel": "forte",
@@ -532,7 +546,7 @@
    },
    "sustentabilidade": {
     "nivel": "forte",
-    "frase": "Parceiro com histórico longo e índice de capacidade operacional (sem unidade nos dados) de 36; duração no percentil 50."
+    "frase": "Parceiro com histórico longo e índice de capacidade operacional (sem unidade nos dados) de 36; em duração (o crescimento dos beneficiários), é a 7.ª das 12 ações."
    }
   }
  },
@@ -542,7 +556,9 @@
    "indicador": "IT.NET.USER.ZS",
    "valor": 53.42171316,
    "ano": 2024,
-   "percentil": 75.0
+   "percentil": 75.0,
+   "posicao": 4,
+   "paisesComDado": 12
   },
   "escala": {
    "beneficiariosPorMes": 54.6645,
@@ -586,15 +602,15 @@
   "saude": {
    "relevancia": {
     "nivel": "forte",
-    "frase": "A necessidade no país está no percentil 75 (IT.NET.USER.ZS, 2024)."
+    "frase": "O Bangladesh é o 4.º país com mais necessidade em comunicação, entre os 12 países com dado (IT.NET.USER.ZS, 2024)."
    },
    "eficacia": {
     "nivel": "a rever",
-    "frase": "Profundidade no percentil 38 e beneficiários +17% de 2024 para 2025 (janeiro a outubro)."
+    "frase": "É a 9.ª das 12 ações em profundidade, e os beneficiários +17% de 2024 para 2025 (janeiro a outubro)."
    },
    "eficiencia": {
     "nivel": "a rever",
-    "frase": "Cada pessoa custa 2004 €; ajustado aos preços do país, fica no percentil 25 das 12 ações (mais alto é mais barato)."
+    "frase": "Cada pessoa custa 2004 €; ajustado aos preços do país, é a 10.ª mais barata por pessoa das 12 ações."
    },
    "impacto": {
     "nivel": "a acompanhar",
@@ -602,7 +618,7 @@
    },
    "sustentabilidade": {
     "nivel": "a acompanhar",
-    "frase": "Parceiro com histórico longo e índice de capacidade operacional (sem unidade nos dados) de 78; duração no percentil 8."
+    "frase": "Parceiro com histórico longo e índice de capacidade operacional (sem unidade nos dados) de 78; em duração (o crescimento dos beneficiários), é a 12.ª das 12 ações."
    }
   }
  },
@@ -612,7 +628,9 @@
    "indicador": "SH.DYN.MORT",
    "valor": 11.5,
    "ano": 2024,
-   "percentil": 16.666666666666664
+   "percentil": 16.666666666666664,
+   "posicao": 11,
+   "paisesComDado": 12
   },
   "escala": {
    "beneficiariosPorMes": 39.3305,
@@ -656,15 +674,15 @@
   "saude": {
    "relevancia": {
     "nivel": "a acompanhar",
-    "frase": "A necessidade no país está no percentil 17 (SH.DYN.MORT, 2024)."
+    "frase": "A Colômbia é o 11.º país com mais necessidade em saúde, entre os 12 países com dado (SH.DYN.MORT, 2024)."
    },
    "eficacia": {
     "nivel": "forte",
-    "frase": "Profundidade no percentil 71 e beneficiários +28% de 2024 para 2025 (janeiro a outubro)."
+    "frase": "É a 4.ª das 12 ações em profundidade, e os beneficiários +28% de 2024 para 2025 (janeiro a outubro)."
    },
    "eficiencia": {
     "nivel": "a acompanhar",
-    "frase": "Cada pessoa custa 1975 €; ajustado aos preços do país, fica no percentil 58 das 12 ações (mais alto é mais barato)."
+    "frase": "Cada pessoa custa 1975 €; ajustado aos preços do país, é a 6.ª mais barata por pessoa das 12 ações."
    },
    "impacto": {
     "nivel": "a acompanhar",
@@ -672,7 +690,7 @@
    },
    "sustentabilidade": {
     "nivel": "a acompanhar",
-    "frase": "Parceiro com histórico recente e índice de capacidade operacional (sem unidade nos dados) de 44; duração no percentil 67."
+    "frase": "Parceiro com histórico recente e índice de capacidade operacional (sem unidade nos dados) de 44; em duração (o crescimento dos beneficiários), é a 5.ª das 12 ações."
    }
   }
  },
@@ -682,7 +700,9 @@
    "indicador": "SE.LPV.PRIM",
    "valor": 90.9132614135742,
    "ano": 2019,
-   "percentil": 100.0
+   "percentil": 100.0,
+   "posicao": 1,
+   "paisesComDado": 10
   },
   "escala": {
    "beneficiariosPorMes": 101.7495,
@@ -726,15 +746,15 @@
   "saude": {
    "relevancia": {
     "nivel": "forte",
-    "frase": "A necessidade no país está no percentil 100 (SE.LPV.PRIM, 2019)."
+    "frase": "As Filipinas são o país com mais necessidade em educação, entre os 10 países com dado (SE.LPV.PRIM, 2019)."
    },
    "eficacia": {
     "nivel": "a rever",
-    "frase": "Profundidade no percentil 17 e beneficiários +18% de 2024 para 2025 (janeiro a outubro)."
+    "frase": "É a 11.ª das 12 ações em profundidade, e os beneficiários +18% de 2024 para 2025 (janeiro a outubro)."
    },
    "eficiencia": {
     "nivel": "forte",
-    "frase": "Cada pessoa custa 1610 €; ajustado aos preços do país, fica no percentil 67 das 12 ações (mais alto é mais barato)."
+    "frase": "Cada pessoa custa 1610 €; ajustado aos preços do país, é a 5.ª mais barata por pessoa das 12 ações."
    },
    "impacto": {
     "nivel": "a acompanhar",
@@ -742,7 +762,7 @@
    },
    "sustentabilidade": {
     "nivel": "a acompanhar",
-    "frase": "Parceiro com histórico longo e índice de capacidade operacional (sem unidade nos dados) de 36; duração no percentil 17."
+    "frase": "Parceiro com histórico longo e índice de capacidade operacional (sem unidade nos dados) de 36; em duração (o crescimento dos beneficiários), é a 11.ª das 12 ações."
    }
   }
  },
@@ -752,7 +772,9 @@
    "indicador": "SI.POV.DDAY",
    "valor": 54.4,
    "ano": 2023,
-   "percentil": 91.66666666666666
+   "percentil": 91.66666666666666,
+   "posicao": 2,
+   "paisesComDado": 12
   },
   "escala": {
    "beneficiariosPorMes": 22.0985,
@@ -796,15 +818,15 @@
   "saude": {
    "relevancia": {
     "nivel": "forte",
-    "frase": "A necessidade no país está no percentil 92 (SI.POV.DDAY, 2023)."
+    "frase": "O Uganda é o 2.º país com mais necessidade em logística, entre os 12 países com dado (SI.POV.DDAY, 2023)."
    },
    "eficacia": {
     "nivel": "forte",
-    "frase": "Profundidade no percentil 92 e beneficiários +36% de 2024 para 2025 (janeiro a outubro)."
+    "frase": "É a 1.ª das 12 ações em profundidade, e os beneficiários +36% de 2024 para 2025 (janeiro a outubro)."
    },
    "eficiencia": {
     "nivel": "forte",
-    "frase": "Cada pessoa custa 1557 €; ajustado aos preços do país, fica no percentil 75 das 12 ações (mais alto é mais barato)."
+    "frase": "Cada pessoa custa 1557 €; ajustado aos preços do país, é a 4.ª mais barata por pessoa das 12 ações."
    },
    "impacto": {
     "nivel": "forte",
@@ -812,7 +834,7 @@
    },
    "sustentabilidade": {
     "nivel": "a acompanhar",
-    "frase": "Parceiro com histórico recente e índice de capacidade operacional (sem unidade nos dados) de 66; duração no percentil 100."
+    "frase": "Parceiro com histórico recente e índice de capacidade operacional (sem unidade nos dados) de 66; em duração (o crescimento dos beneficiários), é a 1.ª das 12 ações."
    }
   }
  },
@@ -822,7 +844,9 @@
    "indicador": "IT.NET.USER.ZS",
    "valor": 20.52729988,
    "ano": 2024,
-   "percentil": 91.66666666666666
+   "percentil": 91.66666666666666,
+   "posicao": 2,
+   "paisesComDado": 12
   },
   "escala": {
    "beneficiariosPorMes": 67.2625,
@@ -871,15 +895,15 @@
   "saude": {
    "relevancia": {
     "nivel": "forte",
-    "frase": "A necessidade no país está no percentil 92 (IT.NET.USER.ZS, 2024)."
+    "frase": "Moçambique é o 2.º país com mais necessidade em tecnologia, entre os 12 países com dado (IT.NET.USER.ZS, 2024)."
    },
    "eficacia": {
     "nivel": "a acompanhar",
-    "frase": "Profundidade no percentil 42 e beneficiários +29% de 2024 para 2025 (janeiro a outubro)."
+    "frase": "É a 8.ª das 12 ações em profundidade, e os beneficiários +29% de 2024 para 2025 (janeiro a outubro)."
    },
    "eficiencia": {
     "nivel": "a acompanhar",
-    "frase": "Cada pessoa custa 2018 €; ajustado aos preços do país, fica no percentil 50 das 12 ações (mais alto é mais barato)."
+    "frase": "Cada pessoa custa 2018 €; ajustado aos preços do país, é a 7.ª mais barata por pessoa das 12 ações."
    },
    "impacto": {
     "nivel": "forte",
@@ -887,7 +911,7 @@
    },
    "sustentabilidade": {
     "nivel": "a acompanhar",
-    "frase": "Parceiro com histórico recente e índice de capacidade operacional (sem unidade nos dados) de 98; duração no percentil 75."
+    "frase": "Parceiro com histórico recente e índice de capacidade operacional (sem unidade nos dados) de 98; em duração (o crescimento dos beneficiários), é a 4.ª das 12 ações."
    }
   }
  }

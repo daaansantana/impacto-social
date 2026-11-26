@@ -1,7 +1,12 @@
 import { juntarAcoes } from "@/lib/acoes";
 import { arredondar, euros, milhoes, numero, percentagem } from "@/lib/format";
 import { faixaIIS, iis, PREDEFINICOES } from "@/lib/iis";
-import { nomeArea, nomeAtividade, nomePais } from "@/lib/nomes";
+import {
+  fraseNecessidade,
+  nomeArea,
+  nomeAtividade,
+  nomePais,
+} from "@/lib/nomes";
 import { mailtoDe } from "@/lib/vista-auditor";
 import { construirProjeto, type VistaProjeto } from "@/lib/vista-projeto";
 import type { Dados, NivelSaude } from "@/types";
@@ -96,10 +101,6 @@ export function construirAcao(
   const valorIIS = iis(a, PESOS);
   const anos = [...new Set(dados.mensal.map((m) => m.mes.slice(0, 4)))].sort();
   const n = a.necessidade;
-  const metade = (v: number) =>
-    arredondar(v, 2) > 50
-      ? "na metade mais alta dos 12 países"
-      : "na metade mais baixa dos 12 países";
   const emCem = (v: number | null) =>
     v === null ? "sem dado" : `${numero(arredondar(v, 2))} em 100`;
 
@@ -110,9 +111,9 @@ export function construirAcao(
       valor: n.percentil,
       valorTexto: emCem(n.percentil),
       frase:
-        n.valor === null || n.percentil === null
+        n.valor === null || n.posicao === null
           ? `Sem dado do indicador para ${nomePais(a.pais)}.`
-          : `${capitalizar(INDICADOR[n.indicador]?.(n.valor) ?? numero(n.valor, 1))}: fica ${metade(n.percentil)}.`,
+          : `${capitalizar(INDICADOR[n.indicador]?.(n.valor) ?? numero(n.valor, 1))}: ${fraseNecessidade(a.pais, a.area, n.posicao, n.paisesComDado)}.`,
     },
     {
       id: "escala",

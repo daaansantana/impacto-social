@@ -222,6 +222,9 @@ export type ImpactoAcao = {
     valor: number | null;
     ano: number | null;
     percentil: number | null;
+    /** a posição do país entre os que têm o indicador (1 = mais necessidade) */
+    posicao: number | null;
+    paisesComDado: number;
   };
   escala: { beneficiariosPorMes: number; percentil: number };
   profundidade: {

@@ -50,7 +50,7 @@ export function Dimensoes({
       </ul>
       <p className="text-xs text-muted-foreground">
         Cada barra vai de 0 a 100: a posição entre as 12 ações (a necessidade,
-        entre os 12 países). Necessidade: {fonte}
+        entre os países com dado). Necessidade: {fonte}
       </p>
     </section>
   );
