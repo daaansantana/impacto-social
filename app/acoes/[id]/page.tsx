@@ -2,20 +2,26 @@
 
 import Link from "next/link";
 import { useParams } from "next/navigation";
-import { InterruptorComparaveis } from "@/components/comum/interruptor-comparaveis";
+import {
+  Aprendemos,
+  Dobrado,
+  Iis,
+  Pedidos,
+  Pontos,
+  Recursos,
+  Resumo,
+  SaudeAcao,
+} from "@/components/detalhe-acao/detalhe-acao";
 import {
   EstadoCarregar,
   EstadoErro,
   EstadoVazio,
 } from "@/components/estados/estados";
-import { Avisos } from "@/components/projeto/avisos";
-import { Destaque } from "@/components/projeto/destaque";
-import { Porque } from "@/components/projeto/porque";
+import { MapaAcoes } from "@/components/mapa/mapa-acoes";
 import { COR_FIM_DE_ANO, SerieMensal } from "@/components/projeto/serie-mensal";
 import { TabelaMeses } from "@/components/projeto/tabela-meses";
 import { COLUMNS, PageHeader } from "@/components/shell/page-header";
-import { useProjeto } from "@/hooks/use-projeto";
-import { ROTULO_COMPARAVEIS } from "@/lib/portefolio";
+import { useDetalheAcao } from "@/hooks/use-detalhe-acao";
 
 function Voltar() {
   return (
@@ -28,9 +34,9 @@ function Voltar() {
   );
 }
 
-export default function ProjetoPage() {
+export default function AcaoPage() {
   const { id } = useParams<{ id: string }>();
-  const p = useProjeto(id);
+  const p = useDetalheAcao(id);
 
   if (p.estado === "error")
     return <EstadoErro mensagem={p.erro} onTentarDeNovo={p.tentarDeNovo} />;
@@ -39,9 +45,9 @@ export default function ProjetoPage() {
     return (
       <div className="flex flex-col gap-6">
         <Voltar />
-        <PageHeader title={`Projeto ${id}`} />
+        <PageHeader title={`Ação ${id}`} />
         <EstadoVazio
-          mensagem={`Não há nenhum projeto ${id} nos dados. Volte a Ações e escolha um dos 12.`}
+          mensagem={`Não há nenhuma ação ${id} nos dados. Volte a Ações e escolha uma das 12.`}
         />
       </div>
     );
@@ -50,41 +56,59 @@ export default function ProjetoPage() {
   return (
     <div className="flex flex-col gap-8">
       <Voltar />
-      <PageHeader title={`${v.nome}, ${v.onde}`} intro={v.conclusao} emphasis>
-        <InterruptorComparaveis
-          rotulo={ROTULO_COMPARAVEIS}
-          comparaveis={p.comparaveis}
-          onComparaveis={p.setComparaveis}
-        />
-      </PageHeader>
+      <PageHeader title={v.nome} intro={v.intro} />
       <div className={COLUMNS}>
-        <div className="flex flex-col gap-6">
-          <Destaque custo={v.custo} posicao={v.posicao} />
-          <section aria-labelledby="mes-a-mes" className="flex flex-col gap-4">
-            <div className="flex flex-wrap items-baseline justify-between gap-2">
-              <h2 id="mes-a-mes" className="text-xl font-semibold">
-                Mês a mês
+        <div className="flex flex-col gap-8">
+          <Resumo linhas={v.resumo} />
+          <Iis iis={v.iis} dimensoes={v.dimensoes} fonte={v.fonteNecessidade} />
+          <Recursos linhas={v.recursos} relacao={v.relacao} />
+        </div>
+        <div className="flex flex-col gap-8">
+          {v.ponto ? (
+            <section aria-labelledby="onde" className="flex flex-col gap-3">
+              <h2 id="onde" className="text-xl font-semibold">
+                Onde
               </h2>
-              <p className="flex items-center gap-2 text-sm text-muted-foreground">
-                <span
-                  aria-hidden
-                  className="inline-block size-3 rounded-sm"
-                  style={{ background: COR_FIM_DE_ANO }}
-                />
-                Novembro e dezembro
-              </p>
-            </div>
-            {v.series.map((s) => (
-              <SerieMensal key={s.chave} meses={v.meses} serie={s} />
-            ))}
-            <TabelaMeses meses={v.meses} series={v.series} />
-          </section>
+              <MapaAcoes
+                pontos={[v.ponto]}
+                centro={[v.ponto.longitude, v.ponto.latitude]}
+                zoom={3}
+                className="h-56"
+              />
+            </section>
+          ) : null}
+          <SaudeAcao lentes={v.saude} />
         </div>
-        <div className="flex flex-col gap-6 lg:sticky lg:top-6">
-          <Avisos avisos={v.avisos} />
-          <Porque indicadores={v.porque} />
-          <p className="text-sm text-muted-foreground">{v.parceiro}</p>
-        </div>
+      </div>
+      <div className="flex flex-col gap-3">
+        <Dobrado id="evolucao" titulo="Evolução">
+          <p className="flex flex-wrap items-center gap-2 text-sm text-muted-foreground">
+            <span
+              aria-hidden
+              className="inline-block size-3 rounded-sm bg-primary"
+            />
+            Meses comparáveis (janeiro a outubro)
+            <span
+              aria-hidden
+              className="ml-3 inline-block size-3 rounded-sm"
+              style={{ background: COR_FIM_DE_ANO }}
+            />
+            Novembro e dezembro: fim de ano, fora dos totais e dos rácios
+          </p>
+          {v.evolucao.series.map((s) => (
+            <SerieMensal key={s.chave} meses={v.evolucao.meses} serie={s} />
+          ))}
+          <TabelaMeses meses={v.evolucao.meses} series={v.evolucao.series} />
+        </Dobrado>
+        <Dobrado id="pontos" titulo="Pontos de atenção">
+          <Pontos pontos={v.pontos} />
+        </Dobrado>
+        <Dobrado id="pedidos" titulo="O que pedir ao parceiro">
+          <Pedidos pedidos={v.pedidos} mailto={v.mailto} />
+        </Dobrado>
+        <Dobrado id="aprendemos" titulo="O que aprendemos">
+          <Aprendemos frases={v.aprendemos} />
+        </Dobrado>
       </div>
     </div>
   );
