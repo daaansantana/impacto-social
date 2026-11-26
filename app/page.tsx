@@ -9,7 +9,6 @@ import {
 import {
   AConfirmar,
   AlcanceTopo,
-  EtiquetaExemplo,
   LegendaIIS,
   Leituras,
 } from "@/components/inicio/inicio";
@@ -45,9 +44,7 @@ export default function InicioPage() {
 
   return (
     <div className="flex flex-col gap-10">
-      <PageHeader title={TITULO}>
-        {p.exemplo ? <EtiquetaExemplo /> : null}
-      </PageHeader>
+      <PageHeader title={TITULO} />
       <AlcanceTopo alcance={v.alcance} />
       <Leituras leituras={v.leituras} onVerNoMapa={verNoMapa} />
       <div className={COLUMNS}>

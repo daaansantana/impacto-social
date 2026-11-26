@@ -1,8 +1,9 @@
-import { type Acao, precisaAtencao } from "@/lib/acoes";
+import { type Acao, juntarAcoes, precisaAtencao } from "@/lib/acoes";
+import { fimDeAno } from "@/lib/fim-de-ano";
 import { numero, percentagem } from "@/lib/format";
-import { iis, PREDEFINICOES, rankingIIS } from "@/lib/iis";
+import { alcancePortefolio, iis, PREDEFINICOES, rankingIIS } from "@/lib/iis";
 import { nomeArea, nomePais } from "@/lib/nomes";
-import type { Contexto, ImpactoAcao, PontoMapa } from "@/types";
+import type { Contexto, ImpactoAcao, Mes, PontoMapa, Projeto } from "@/types";
 
 // O ecrã Início (docs/PLANO-V2.md, secção 3): o alcance, 3 leituras, o mapa e «A confirmar com os parceiros».
 
@@ -17,23 +18,6 @@ export const FAIXAS_MAPA = [
 
 export function corIIS(valor: number): string {
   return FAIXAS_MAPA[valor >= 60 ? 0 : valor >= 40 ? 1 : 2].cor;
-}
-
-/**
- * Os beneficiários por mês e a parte deles em ações com a necessidade acima do percentil 50.
- * É a conta do alcancePortefolio do Dan (lib/iis.ts no main); troca-se por ele quando chegar a este ramo.
- */
-export function alcance(acoes: ImpactoAcao[]) {
-  const total = acoes.reduce((s, a) => s + a.escala.beneficiariosPorMes, 0);
-  const alta = acoes
-    .filter(
-      (a) => a.necessidade.percentil !== null && a.necessidade.percentil > 50,
-    )
-    .reduce((s, a) => s + a.escala.beneficiariosPorMes, 0);
-  return {
-    beneficiariosPorMes: total,
-    percentagemNecessidadeAlta: total ? (alta / total) * 100 : 0,
-  };
 }
 
 export type LeituraInicio = {
@@ -64,6 +48,12 @@ export type VistaInicio = {
 
 const onde = (a: Acao) => `${nomePais(a.pais)}, ${nomeArea(a.area)}`;
 const maiuscula = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
+const minuscula = (s: string) => s.charAt(0).toLowerCase() + s.slice(1);
+/** Só a primeira frase de um ponto de atenção: o detalhe fica no ecrã da ação. */
+export const primeiraFrase = (texto: string) => {
+  const fim = texto.search(/\.\s/);
+  return fim < 0 ? texto : texto.slice(0, fim + 1);
+};
 
 /** A frase do alcance: quantos em cada 10 beneficiários estão onde a necessidade é alta. */
 export function fraseAlcance(percentagemNecessidadeAlta: number): string {
@@ -76,25 +66,16 @@ export function fraseAlcance(percentagemNecessidadeAlta: number): string {
 /** A vista do Início; null quando não há ações. */
 export function construirInicio(
   impacto: ImpactoAcao[],
-  projetos: { id: string; nome: string; pais: string; area: string }[],
+  projetos: Projeto[],
   contexto: Contexto[],
-  fimDeAno: { beneficiarios: number; despesa: number },
+  meses: Mes[],
 ): VistaInicio | null {
   if (impacto.length === 0) return null;
-  const porId = new Map(projetos.map((p) => [p.id, p]));
   const porPais = new Map(contexto.map((c) => [c.pais, c]));
-  const acoes: Acao[] = impacto.map((a) => {
-    const p = porId.get(a.projeto);
-    return {
-      ...a,
-      nome: p?.nome ?? a.projeto,
-      pais: p?.pais ?? "",
-      regiao: (p && porPais.get(p.pais)?.regiao) ?? null,
-      area: p?.area ?? "",
-    };
-  });
+  const acoes: Acao[] = juntarAcoes(impacto, projetos, contexto);
 
-  const a = alcance(impacto);
+  const a = alcancePortefolio(impacto);
+  const fim = fimDeAno(meses);
   const confirmar = precisaAtencao(acoes, PESOS);
   const leituras: LeituraInicio[] = [];
 
@@ -104,7 +85,7 @@ export function construirInicio(
     leituras.push({
       id: "maisImpacto",
       titulo: "Mais impacto",
-      texto: `A ${melhor.nome} (${onde(melhor)}) tem o maior IIS: ${numero(primeira.iis)} em 100.`,
+      texto: `${melhor.nome} (${onde(melhor)}) tem o maior IIS: ${numero(primeira.iis)} em 100.`,
       ligacao: { href: `/acoes/${melhor.projeto}`, rotulo: "Abrir a ação" },
       noMapa: melhor.projeto,
     });
@@ -114,7 +95,7 @@ export function construirInicio(
     leituras.push({
       id: "aConfirmar",
       titulo: "A confirmar",
-      texto: `${ponto.nome}: ${ponto.pontos[0].texto}`,
+      texto: `${ponto.nome}: ${minuscula(primeiraFrase(ponto.pontos[0].texto))}`,
       ligacao: { href: `/acoes/${ponto.projeto}`, rotulo: "Abrir a ação" },
       noMapa: ponto.projeto,
     });
@@ -122,7 +103,7 @@ export function construirInicio(
   leituras.push({
     id: "fimDeAno",
     titulo: "Fim do ano",
-    texto: `Em novembro e dezembro, os beneficiários sobem ${percentagem(fimDeAno.beneficiarios * 100)} e a despesa só ${percentagem(fimDeAno.despesa * 100)}. Por isso comparamos janeiro a outubro.`,
+    texto: `Em novembro e dezembro, os beneficiários sobem ${percentagem(fim.beneficiariosPorMes.subida * 100)} ${fim.despesaPorMes.subida <= 0 ? "sem aumento da despesa" : `e a despesa só ${percentagem(fim.despesaPorMes.subida * 100)}`}. Por isso comparamos janeiro a outubro.`,
     ligacao: { href: "/como-medimos", rotulo: "Ver como medimos" },
   });
 
@@ -156,7 +137,7 @@ export function construirInicio(
         projeto: x.projeto,
         nome: x.nome,
         onde: onde(x),
-        texto: maiuscula(x.pontos[0].texto),
+        texto: maiuscula(primeiraFrase(x.pontos[0].texto)),
         mais:
           resto > 0
             ? `E mais ${resto === 1 ? "1 ponto" : `${resto} pontos`}.`

@@ -2,31 +2,22 @@
 
 import { useMemo } from "react";
 import { useDados } from "@/hooks/use-dados";
-import {
-  CONTEXTO_EXEMPLO,
-  FIM_DE_ANO_EXEMPLO,
-  IMPACTO_EXEMPLO,
-  PROJETOS_EXEMPLO,
-} from "@/lib/exemplo-inicio";
 import { construirInicio } from "@/lib/vista-inicio";
 
-/**
- * O Início: o estado do carregamento vem dos dados; a vista, por agora, dos DADOS DE EXEMPLO.
- * Quando chegar o alcancePortefolio, passa a usar dados.impacto, dados.projetos e dados.contexto.
- */
+/** O Início: os dados e a vista calculada em lib/, com o alcancePortefolio e o fim de ano reais. */
 export function useInicio() {
-  const { estado, erro, tentarDeNovo } = useDados();
+  const { estado, erro, dados, tentarDeNovo } = useDados();
   const vista = useMemo(
     () =>
-      estado === "ready"
+      dados
         ? construirInicio(
-            IMPACTO_EXEMPLO,
-            PROJETOS_EXEMPLO,
-            CONTEXTO_EXEMPLO,
-            FIM_DE_ANO_EXEMPLO,
+            dados.impacto,
+            dados.projetos,
+            dados.contexto,
+            dados.mensal,
           )
         : null,
-    [estado],
+    [dados],
   );
-  return { estado, erro, tentarDeNovo, vista, exemplo: true as const };
+  return { estado, erro, tentarDeNovo, vista };
 }
