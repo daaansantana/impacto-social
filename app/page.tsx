@@ -17,7 +17,6 @@ import { MapaAcoes } from "@/components/mapa/mapa-acoes";
 import { COLUMNS, PageHeader } from "@/components/shell/page-header";
 import { useInicio } from "@/hooks/use-inicio";
 import { useAbrirPergunte } from "@/hooks/use-pergunte";
-import { FAIXAS_MAPA } from "@/lib/vista-inicio";
 
 const TITULO = "Como está o impacto";
 
@@ -61,7 +60,7 @@ export default function InicioPage() {
               <h2 id="titulo-mapa" className="text-xl font-semibold">
                 As {v.pontos.length} ações
               </h2>
-              <LegendaIIS faixas={FAIXAS_MAPA} />
+              <LegendaIIS faixas={v.faixas} />
             </div>
             <MapaAcoes
               pontos={v.pontos}

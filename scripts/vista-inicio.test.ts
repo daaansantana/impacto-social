@@ -20,7 +20,7 @@ const texto = (s: string) => s.replace(/\s/g, " ");
 const vista = construirInicio(dados);
 
 describe("corIIS", () => {
-  it("um só azul: escuro a partir de 60, médio a partir de 40, claro abaixo", () => {
+  it("verde a partir de 60, ardósia a partir de 40, cinza abaixo", () => {
     expect(corIIS(60)).toBe(FAIXAS_MAPA[0].cor);
     expect(corIIS(59.9)).toBe(FAIXAS_MAPA[1].cor);
     expect(corIIS(40)).toBe(FAIXAS_MAPA[1].cor);

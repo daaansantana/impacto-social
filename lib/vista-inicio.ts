@@ -14,11 +14,11 @@ import type { Dados, PontoMapa } from "@/types";
 
 const PESOS = PREDEFINICOES.equilibrado.pesos;
 
-/** As 3 faixas do IIS no mapa: um só azul, do mais claro (IIS baixo) ao mais escuro (IIS alto). */
+/** As 3 faixas do IIS no mapa, com as cores da Lupa: verde, ardósia e cinza, sempre com contorno branco. */
 export const FAIXAS_MAPA = [
-  { rotulo: "60 ou mais", cor: "#0e3d7e" },
-  { rotulo: "40 a 59", cor: "#257de0" },
-  { rotulo: "menos de 40", cor: "#84b9f3" },
+  { rotulo: "60 ou mais", cor: "#3d6b1e" },
+  { rotulo: "40 a 59", cor: "#36415a" },
+  { rotulo: "menos de 40", cor: "#5b6478" },
 ] as const;
 
 export function corIIS(valor: number): string {
@@ -49,6 +49,8 @@ export type VistaInicio = {
   alcance: { beneficiarios: string; percentagem: string; frase: string };
   leituras: LeituraInicio[];
   pontos: PontoMapa[];
+  /** só as faixas que têm pontos no mapa, para a legenda */
+  faixas: (typeof FAIXAS_MAPA)[number][];
   aConfirmar: ItemAConfirmar[];
 };
 
@@ -122,6 +124,7 @@ export function construirInicio(
     },
     leituras: lerLeituras(acoes, dados.mensal, PESOS).map(cartao),
     pontos,
+    faixas: FAIXAS_MAPA.filter((f) => pontos.some((p) => p.cor === f.cor)),
     aConfirmar: confirmar.map((x) => {
       const resto = x.pontos.length - 1;
       return {
