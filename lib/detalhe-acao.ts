@@ -3,7 +3,7 @@ import { euros, milhoes, numero, percentagem } from "@/lib/format";
 import { iis, PREDEFINICOES } from "@/lib/iis";
 import { ROTULO_SAUDE } from "@/lib/lista-acoes";
 import { serieProjeto } from "@/lib/meses";
-import { nomeArea, nomePais } from "@/lib/nomes";
+import { nomeArea, nomeObjetivo, nomePais, rotuloAtividade } from "@/lib/nomes";
 import { mailtoDe } from "@/lib/vista-auditor";
 import { corIIS } from "@/lib/vista-inicio";
 import {
@@ -197,14 +197,9 @@ export function construirDetalhe(
   }));
 
   // ---- tipo de atividade: os tipos registados no CSV, legíveis ----
-  // «apoio_estudo» → «Apoio Estudo»: sem «_» e cada palavra com maiúscula
+  // «formacao_profissional» → «Formação Profissional»
   const tipos = (atividades.find((x) => x.projeto === id)?.tipos ?? []).map(
-    (t) =>
-      t
-        .split("_")
-        .filter(Boolean)
-        .map((p) => p.charAt(0).toUpperCase() + p.slice(1))
-        .join(" "),
+    rotuloAtividade,
   );
   const listaTipos =
     tipos.length > 1
@@ -256,7 +251,7 @@ export function construirDetalhe(
         : { rotulo: "Tipo de atividade", texto: "Sem dado.", semDado: true },
       {
         rotulo: "Objetivo",
-        texto: `${capitalizar(projeto.objetivos)}.`,
+        texto: `${capitalizar(nomeObjetivo(projeto.objetivos))}.`,
       },
       {
         rotulo: "Localização",

@@ -5,6 +5,7 @@ import {
   PEDIDOS_PARCEIRO,
   recursosJanOut,
 } from "@/lib/detalhe-acao";
+import { nomeObjetivo, rotuloAtividade } from "@/lib/nomes";
 import type {
   AtividadesAcao,
   Contexto,
@@ -84,7 +85,44 @@ describe("construirDetalhe", () => {
       { projeto: "P07", tipos: ["aula", "formacao_profissional"] },
     ]);
     expect(um?.resumo[0].texto).toBe("Aula.");
-    expect(dois?.resumo[0].texto).toBe("Aula e Formacao Profissional.");
+    expect(dois?.resumo[0].texto).toBe("Aula e Formação Profissional.");
+  });
+
+  it("tipo de atividade: os 18 nomes do CSV, com acentos", () => {
+    const tipos = [...new Set(atividades.flatMap((a) => a.tipos))].sort();
+    expect(tipos.map(rotuloAtividade)).toEqual([
+      "Acolhimento",
+      "Apoio Estudo",
+      "Aula",
+      "Campanha",
+      "Distribuição",
+      "Entrega Material",
+      "Evento Comunitário",
+      "Formação Digital",
+      "Formação Profissional",
+      "Inventário",
+      "Laboratório TI",
+      "Mentoria",
+      "Oficina Educativa",
+      "Palestra Saúde",
+      "Produção Material",
+      "Rastreio",
+      "Suporte Técnico",
+      "Workshop",
+    ]);
+  });
+
+  it("objetivo: com acentos", () => {
+    expect([
+      ...new Set(projetos.map((p) => nomeObjetivo(p.objetivos))),
+    ]).toEqual([
+      "ampliar cobertura de saúde preventiva",
+      "aumentar taxa de conclusão escolar",
+      "formar jovens em competências digitais",
+      "apoiar inserção laboral",
+      "melhorar acesso a formação profissional",
+    ]);
+    expect(v?.resumo[1].texto).toBe("Ampliar cobertura de saúde preventiva.");
   });
 
   it("tipo de atividade: sem registos, «Sem dado»", () => {
