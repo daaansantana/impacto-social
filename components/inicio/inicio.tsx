@@ -5,15 +5,6 @@ import type {
   VistaInicio,
 } from "@/lib/vista-inicio";
 
-/** A etiqueta dos dados de exemplo, sempre à vista enquanto não chegam os dados reais. */
-export function EtiquetaExemplo() {
-  return (
-    <span className="inline-flex w-fit items-center rounded-full border border-dashed px-3 py-1 text-sm font-medium text-muted-foreground">
-      Dados de exemplo
-    </span>
-  );
-}
-
 /** A resposta em grande: os beneficiários por mês e a parte onde a necessidade é alta. */
 export function AlcanceTopo({ alcance }: { alcance: VistaInicio["alcance"] }) {
   return (
