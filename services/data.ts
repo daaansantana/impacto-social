@@ -1,5 +1,6 @@
 // Um fetch por ficheiro de public/data. Sem estado: a store guarda o resultado.
 import type {
+  AtividadesAcao,
   Contexto,
   ImpactoAcao,
   Mes,
@@ -24,6 +25,8 @@ export const fetchQualidade = () => lerJson<Qualidade>("qualidade.json");
 export const fetchImpacto = () => lerJson<ImpactoAcao[]>("impacto.json");
 export const fetchContexto = () => lerJson<Contexto[]>("contexto.json");
 export const fetchRadar = () => lerJson<RadarCelula[]>("radar.json");
+export const fetchAtividades = () =>
+  lerJson<AtividadesAcao[]>("atividades.json");
 
 /** Um ficheiro de demonstração do auditor, como texto. */
 export async function fetchDemo(ficheiro: string): Promise<string> {

@@ -107,7 +107,11 @@ export type Dados = {
   impacto: ImpactoAcao[];
   contexto: Contexto[];
   radar: RadarCelula[];
+  atividades: AtividadesAcao[];
 };
+
+/** Uma linha de public/data/atividades.json: os tipos de atividade de uma ação, do mais frequente (scripts/atividades.py). */
+export type AtividadesAcao = { projeto: string; tipos: string[] };
 
 // ---- Resultados de lib/ (docs/SPEC.md, secção 3) ----
 
@@ -277,4 +281,16 @@ export type RadarCelula = {
   /** quantas ações estão por trás da evidência */
   n: number;
   quadrante: Quadrante | null;
+};
+
+/** Um ponto do MapaAcoes: uma ação no mapa, com o IIS e a cor do marcador. */
+export type PontoMapa = {
+  id: string;
+  nome: string;
+  latitude: number;
+  longitude: number;
+  /** de 0 a 100 */
+  iis: number;
+  /** uma cor CSS: hex, rgb() ou var() */
+  cor: string;
 };

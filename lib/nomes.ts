@@ -89,3 +89,32 @@ export function fraseNecessidade(
   const lugar = posicao === 1 ? "o país" : `o ${posicao}.º país`;
   return `${nome} ${verbo} ${lugar} com mais necessidade em ${nomeArea(area)}, entre os ${comDado} países com dado`;
 }
+
+// As palavras sem acento nos tipos de atividade (atividades.json) e nos objetivos (projetos.json).
+const PALAVRAS: Record<string, string> = {
+  comunitario: "comunitário",
+  competencias: "competências",
+  conclusao: "conclusão",
+  distribuicao: "distribuição",
+  formacao: "formação",
+  inventario: "inventário",
+  laboratorio: "laboratório",
+  producao: "produção",
+  saude: "saúde",
+  tecnico: "técnico",
+  ti: "TI",
+};
+const acentuar = (palavra: string) => PALAVRAS[palavra] ?? palavra;
+
+/** «formacao_profissional» → «Formação Profissional»: sem «_», com acentos e cada palavra com maiúscula. */
+export const rotuloAtividade = (tipo: string) =>
+  tipo
+    .split("_")
+    .filter(Boolean)
+    .map(acentuar)
+    .map((p) => p.charAt(0).toUpperCase() + p.slice(1))
+    .join(" ");
+
+/** «ampliar cobertura de saude preventiva» → «ampliar cobertura de saúde preventiva». */
+export const nomeObjetivo = (objetivo: string) =>
+  objetivo.split(" ").map(acentuar).join(" ");

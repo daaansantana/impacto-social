@@ -1,62 +1,75 @@
 "use client";
 
+import { useState } from "react";
 import {
   EstadoCarregar,
   EstadoErro,
   EstadoVazio,
 } from "@/components/estados/estados";
-import { Alcance } from "@/components/portefolio/alcance";
-import { Escolhas } from "@/components/portefolio/escolhas";
-import { Ranking } from "@/components/portefolio/ranking";
-import { TotaisPortefolio } from "@/components/portefolio/totais";
+import {
+  AConfirmar,
+  AlcanceTopo,
+  EtiquetaExemplo,
+  LegendaIIS,
+  Leituras,
+} from "@/components/inicio/inicio";
+import { MapaAcoes } from "@/components/mapa/mapa-acoes";
 import { COLUMNS, PageHeader } from "@/components/shell/page-header";
-import { usePortefolio } from "@/hooks/use-portefolio";
-import { NOTA_BENEFICIARIOS } from "@/lib/avisos";
-import { ROTULO_COMPARAVEIS, UNIDADES } from "@/lib/portefolio";
+import { useInicio } from "@/hooks/use-inicio";
+import { FAIXAS_MAPA } from "@/lib/vista-inicio";
 
-const TITULO = "Onde cada euro chega a mais gente";
+const TITULO = "Como está o impacto";
 
-export default function Portefolio() {
-  const p = usePortefolio();
+export default function InicioPage() {
+  const p = useInicio();
+  const [selecionado, setSelecionado] = useState<string | null>(null);
 
   if (p.estado === "error")
     return <EstadoErro mensagem={p.erro} onTentarDeNovo={p.tentarDeNovo} />;
-  if (!p.vista) return <EstadoCarregar />;
-  if (p.vista.linhas.length === 0)
+  if (p.estado !== "ready") return <EstadoCarregar />;
+  if (!p.vista)
     return (
       <div className="flex flex-col gap-6">
         <PageHeader title={TITULO} />
-        <EstadoVazio mensagem="Não há meses com dados para comparar. Ligue ou desligue «meses comparáveis» para ver outros meses." />
+        <EstadoVazio mensagem="Ainda não há ações com impacto calculado. Gere de novo o impacto.json com o scripts/impacto.py." />
       </div>
     );
 
   const v = p.vista;
+  const verNoMapa = (id: string) => {
+    setSelecionado(id);
+    document
+      .getElementById("mapa")
+      ?.scrollIntoView({ behavior: "smooth", block: "center" });
+  };
+
   return (
-    <div className="flex flex-col gap-8">
-      <PageHeader title={TITULO} intro={v.conclusao} emphasis>
-        <p>
-          <span className="inline-block rounded-full bg-muted px-3 py-1 text-sm font-medium">
-            {v.periodo}
-          </span>
-        </p>
-        <Escolhas
-          unidades={UNIDADES}
-          unidade={p.unidade}
-          onUnidade={p.setUnidade}
-          legenda={v.legenda}
-          comparaveis={p.comparaveis}
-          onComparaveis={p.setComparaveis}
-          rotuloComparaveis={ROTULO_COMPARAVEIS}
-          avisoFimDeAno={v.avisoFimDeAno}
-          notaBeneficiarios={NOTA_BENEFICIARIOS}
-        />
+    <div className="flex flex-col gap-10">
+      <PageHeader title={TITULO}>
+        {p.exemplo ? <EtiquetaExemplo /> : null}
       </PageHeader>
+      <AlcanceTopo alcance={v.alcance} />
+      <Leituras leituras={v.leituras} onVerNoMapa={verNoMapa} />
       <div className={COLUMNS}>
-        <Ranking linhas={v.linhas} />
-        <div className="flex flex-col gap-6 lg:sticky lg:top-6">
-          <Alcance linhas={v.linhas} grafico={v.grafico} />
-          <TotaisPortefolio texto={v.totaisTexto} />
-        </div>
+        <section
+          id="mapa"
+          aria-labelledby="titulo-mapa"
+          className="flex scroll-mt-6 flex-col gap-3"
+        >
+          <div className="flex flex-wrap items-baseline justify-between gap-2">
+            <h2 id="titulo-mapa" className="text-xl font-semibold">
+              As {v.pontos.length} ações
+            </h2>
+            <LegendaIIS faixas={FAIXAS_MAPA} />
+          </div>
+          <MapaAcoes
+            pontos={v.pontos}
+            selecionado={selecionado}
+            onSelecionar={setSelecionado}
+            className="h-80 sm:h-105"
+          />
+        </section>
+        <AConfirmar itens={v.aConfirmar} />
       </div>
     </div>
   );

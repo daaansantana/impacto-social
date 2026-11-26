@@ -1,13 +1,14 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Geist } from "next/font/google";
+import { Suspense } from "react";
 import { cn } from "@/lib/utils";
-import { NavegacaoApp } from "./navegacao";
+import { NavegacaoApp, NavegacaoSemRota } from "./navegacao";
 
 const geist = Geist({ subsets: ["latin"], variable: "--font-sans" });
 
 export const metadata: Metadata = {
-  title: { default: "Portefólio · Lupa", template: "%s · Lupa" },
+  title: { default: "Início · Lupa", template: "%s · Lupa" },
   description:
     "Compara o alcance e a eficiência dos 12 projetos com números limpos e meses comparáveis.",
 };
@@ -26,7 +27,10 @@ export default function RootLayout({
                 Os 12 projetos, com números limpos
               </span>
             </div>
-            <NavegacaoApp />
+            {/* usePathname suspende nas rotas com params desconhecidos no build (/acoes/[id]) */}
+            <Suspense fallback={<NavegacaoSemRota />}>
+              <NavegacaoApp />
+            </Suspense>
           </div>
         </header>
         <main className="mx-auto w-full max-w-6xl px-4 py-8 lg:px-10">

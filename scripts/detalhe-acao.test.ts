@@ -1,0 +1,239 @@
+import { readFileSync } from "node:fs";
+import { describe, expect, it } from "vitest";
+import {
+  construirDetalhe,
+  PEDIDOS_PARCEIRO,
+  recursosJanOut,
+} from "@/lib/detalhe-acao";
+import { nomeObjetivo, rotuloAtividade } from "@/lib/nomes";
+import type {
+  AtividadesAcao,
+  Contexto,
+  ImpactoAcao,
+  Mes,
+  Projeto,
+} from "@/types";
+
+const ler = <T>(c: string) => JSON.parse(readFileSync(c, "utf-8")) as T;
+const impacto = ler<ImpactoAcao[]>("public/data/impacto.json");
+const projetos = ler<Projeto[]>("public/data/projetos.json");
+const contexto = ler<Contexto[]>("public/data/contexto.json");
+const meses = ler<Mes[]>("public/data/mensal.json");
+const atividades = ler<AtividadesAcao[]>("public/data/atividades.json");
+const texto = (s: string) => s.replace(/\s/g, " ");
+const detalhe = (id: string, ativ: AtividadesAcao[] = atividades) =>
+  construirDetalhe(impacto, projetos, contexto, meses, ativ, id);
+
+describe("recursosJanOut", () => {
+  // Os mesmos valores que o gabarito impacto.recursos do Dan (origin/main, 88a25ba).
+  it("P07: 1457,30 € e 33,41 horas por beneficiário, só de janeiro a outubro", () => {
+    const r = recursosJanOut(meses, "P07");
+    expect(r.meses).toBe(20);
+    expect(r.custoPorBeneficiario).toBeCloseTo(1457.3, 2);
+    expect(r.horasPorBeneficiario).toBeCloseTo(33.41, 2);
+  });
+
+  it("P01: 4546,04 € e 61,20 horas por beneficiário", () => {
+    const r = recursosJanOut(meses, "P01");
+    expect(r.custoPorBeneficiario).toBeCloseTo(4546.04, 2);
+    expect(r.horasPorBeneficiario).toBeCloseTo(61.2, 2);
+  });
+
+  it("deixa novembro e dezembro de fora", () => {
+    const todos = meses.filter((m) => m.projeto === "P07");
+    const janOut = todos.filter((m) => !m.fimDeAno);
+    const r = recursosJanOut(meses, "P07");
+    expect(r.despesa).toBeCloseTo(
+      janOut.reduce((s, m) => s + m.despesa, 0),
+      6,
+    );
+    expect(r.despesa).toBeLessThan(todos.reduce((s, m) => s + m.despesa, 0));
+  });
+});
+
+describe("construirDetalhe", () => {
+  const v = detalhe("P07");
+
+  it("resumo: tipo de atividade, objetivo, localização com a região, o formato e o público sem dado", () => {
+    expect(v?.resumo.map((l) => l.rotulo)).toEqual([
+      "Tipo de atividade",
+      "Objetivo",
+      "Localização",
+      "Formato",
+      "Público",
+    ]);
+    expect(v?.resumo[2].texto).toBe("Senegal, Dakar (África).");
+    expect(v?.resumo[4]).toMatchObject({
+      texto: "Sem dado: pedir ao parceiro.",
+      semDado: true,
+    });
+    expect(texto(v?.resumo[3].texto ?? "")).toBe(
+      "Cerca de 38 participantes e 5,6 horas por atividade, de janeiro a outubro.",
+    );
+  });
+
+  it("tipo de atividade: os 3 tipos do CSV, sem «_» e com maiúsculas", () => {
+    expect(v?.resumo[0]).toEqual({
+      rotulo: "Tipo de atividade",
+      texto: "Apoio Estudo, Aula e Oficina Educativa.",
+    });
+  });
+
+  it("tipo de atividade: com menos de 3 tipos, mostra os que existem", () => {
+    const um = detalhe("P07", [{ projeto: "P07", tipos: ["aula"] }]);
+    const dois = detalhe("P07", [
+      { projeto: "P07", tipos: ["aula", "formacao_profissional"] },
+    ]);
+    expect(um?.resumo[0].texto).toBe("Aula.");
+    expect(dois?.resumo[0].texto).toBe("Aula e Formação Profissional.");
+  });
+
+  it("tipo de atividade: os 18 nomes do CSV, com acentos", () => {
+    const tipos = [...new Set(atividades.flatMap((a) => a.tipos))].sort();
+    expect(tipos.map(rotuloAtividade)).toEqual([
+      "Acolhimento",
+      "Apoio Estudo",
+      "Aula",
+      "Campanha",
+      "Distribuição",
+      "Entrega Material",
+      "Evento Comunitário",
+      "Formação Digital",
+      "Formação Profissional",
+      "Inventário",
+      "Laboratório TI",
+      "Mentoria",
+      "Oficina Educativa",
+      "Palestra Saúde",
+      "Produção Material",
+      "Rastreio",
+      "Suporte Técnico",
+      "Workshop",
+    ]);
+  });
+
+  it("objetivo: com acentos", () => {
+    expect([
+      ...new Set(projetos.map((p) => nomeObjetivo(p.objetivos))),
+    ]).toEqual([
+      "ampliar cobertura de saúde preventiva",
+      "aumentar taxa de conclusão escolar",
+      "formar jovens em competências digitais",
+      "apoiar inserção laboral",
+      "melhorar acesso a formação profissional",
+    ]);
+    expect(v?.resumo[1].texto).toBe("Ampliar cobertura de saúde preventiva.");
+  });
+
+  it("tipo de atividade: sem registos, «Sem dado»", () => {
+    expect(detalhe("P07", [{ projeto: "P07", tipos: [] }])?.resumo[0]).toEqual({
+      rotulo: "Tipo de atividade",
+      texto: "Sem dado.",
+      semDado: true,
+    });
+    expect(detalhe("P07", [])?.resumo[0].texto).toBe("Sem dado.");
+  });
+
+  it("o ponto do mini-mapa é a capital do país", () => {
+    expect(v?.ponto).toMatchObject({ latitude: 14.7247, longitude: -17.4734 });
+  });
+
+  it("IIS e 4 dimensões; a necessidade com a fonte e o ano", () => {
+    expect(v?.dimensoes.map((d) => d.titulo)).toEqual([
+      "Necessidade",
+      "Escala",
+      "Profundidade",
+      "Duração",
+    ]);
+    expect(v?.dimensoes[0].valor).toBe(70);
+    expect(v?.fonteNecessidade).toBe(
+      "Fonte: Banco Mundial, WDI (SE.LPV.PRIM), 2019. Percentil entre os 12 países.",
+    );
+  });
+
+  it("recursos: os 5 valores de janeiro a outubro, sem avisos", () => {
+    expect(v?.recursos.map((r) => r.rotulo)).toEqual([
+      "Despesa",
+      "Horas de voluntariado",
+      "Beneficiários",
+      "Custo por beneficiário",
+      "Horas de voluntariado por beneficiário",
+    ]);
+    expect(texto(v?.recursos[3].valor ?? "")).toBe("1457 €");
+    expect(texto(v?.recursos[4].valor ?? "")).toBe("33,4");
+    expect(v?.relacao).toContain("De janeiro a outubro");
+  });
+
+  it("saúde: as 5 lentes com nível e frase", () => {
+    expect(v?.saude.map((s) => s.lente)).toEqual([
+      "Relevância",
+      "Eficácia",
+      "Eficiência",
+      "Impacto",
+      "Sustentabilidade",
+    ]);
+    expect(v?.saude[0]).toMatchObject({
+      nivel: "a rever",
+      nivelTexto: "A rever",
+    });
+    expect(v?.saude.every((s) => s.frase.length > 0)).toBe(true);
+  });
+
+  it("evolução: todos os meses, com novembro e dezembro marcados", () => {
+    const fim = v?.evolucao.meses.filter((m) => m.fimDeAno) ?? [];
+    expect(v?.evolucao.meses).toHaveLength(24);
+    expect(fim.map((m) => m.mes)).toEqual([
+      "2024-11",
+      "2024-12",
+      "2025-11",
+      "2025-12",
+    ]);
+  });
+
+  it("pontos: só os desta ação (sem o fim de ano nem o dia 27)", () => {
+    const ids = v?.pontos.map((p) => p.id);
+    expect(ids).toContain("objetivoArea");
+    expect(ids).not.toContain("fimDeAno");
+    expect(ids).not.toContain("dia27");
+    // os pontos são os do impacto.json: P07 só tem o objetivo e a área
+    expect(ids).toEqual(["objetivoArea"]);
+  });
+
+  it("P01: custo por atividade quantificado, com as ações de comparação", () => {
+    const p = detalhe("P01")?.pontos ?? [];
+    const custo = p.find((x) => x.id === "custoAtividade");
+    expect(custo?.texto).toContain("4,7 vezes");
+    expect(custo?.texto).toContain("P07 e P10");
+    expect(custo?.texto).toContain("Pedir o detalhe das maiores despesas");
+  });
+
+  it("as correções de despesa só são ponto acima de 1,5 vezes a mediana (scripts/impacto.py): nenhuma ação neste ramo", () => {
+    for (const p of projetos)
+      expect(detalhe(p.id)?.pontos.map((x) => x.id)).not.toContain("correcoes");
+  });
+
+  it("os pontos têm o mesmo número que o impacto.json, ação a ação", () => {
+    for (const a of impacto)
+      expect(detalhe(a.projeto)?.pontos).toHaveLength(a.pontos.length);
+  });
+
+  it("o email leva os 5 pedidos e os pontos a confirmar", () => {
+    const corpo = decodeURIComponent(v?.mailto.split("body=")[1] ?? "");
+    const assunto = decodeURIComponent(
+      v?.mailto.split("subject=")[1].split("&")[0] ?? "",
+    );
+    expect(v?.mailto.startsWith("mailto:?subject=")).toBe(true);
+    expect(assunto).toBe("Pedido de informação sobre o Projeto 07");
+    for (const p of PEDIDOS_PARCEIRO) expect(corpo).toContain(p);
+    expect(corpo).toContain("E que nos ajudem a confirmar:");
+    expect(v?.pedidos).toHaveLength(5);
+  });
+
+  it("o que aprendemos: 3 frases", () => {
+    expect(v?.aprendemos).toHaveLength(3);
+  });
+
+  it("uma ação que não existe dá null", () => {
+    expect(detalhe("P99")).toBeNull();
+  });
+});

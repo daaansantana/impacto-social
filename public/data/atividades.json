@@ -1,0 +1,98 @@
+[
+ {
+  "projeto": "P01",
+  "tipos": [
+   "oficina_educativa",
+   "aula",
+   "apoio_estudo"
+  ]
+ },
+ {
+  "projeto": "P02",
+  "tipos": [
+   "mentoria",
+   "formacao_profissional",
+   "workshop"
+  ]
+ },
+ {
+  "projeto": "P03",
+  "tipos": [
+   "acolhimento",
+   "rastreio",
+   "palestra_saude"
+  ]
+ },
+ {
+  "projeto": "P04",
+  "tipos": [
+   "suporte_tecnico",
+   "laboratorio_ti",
+   "formacao_digital"
+  ]
+ },
+ {
+  "projeto": "P05",
+  "tipos": [
+   "distribuicao",
+   "entrega_material",
+   "inventario"
+  ]
+ },
+ {
+  "projeto": "P06",
+  "tipos": [
+   "mentoria",
+   "workshop",
+   "formacao_profissional"
+  ]
+ },
+ {
+  "projeto": "P07",
+  "tipos": [
+   "apoio_estudo",
+   "aula",
+   "oficina_educativa"
+  ]
+ },
+ {
+  "projeto": "P08",
+  "tipos": [
+   "evento_comunitario",
+   "campanha",
+   "producao_material"
+  ]
+ },
+ {
+  "projeto": "P09",
+  "tipos": [
+   "acolhimento",
+   "palestra_saude",
+   "rastreio"
+  ]
+ },
+ {
+  "projeto": "P10",
+  "tipos": [
+   "aula",
+   "apoio_estudo",
+   "oficina_educativa"
+  ]
+ },
+ {
+  "projeto": "P11",
+  "tipos": [
+   "inventario",
+   "entrega_material",
+   "distribuicao"
+  ]
+ },
+ {
+  "projeto": "P12",
+  "tipos": [
+   "suporte_tecnico",
+   "laboratorio_ti",
+   "formacao_digital"
+  ]
+ }
+]
