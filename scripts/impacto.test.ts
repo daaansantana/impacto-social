@@ -88,4 +88,12 @@ describe("impacto.json", () => {
       ).toBeLessThan(1e-6);
     }
   });
+
+  it("o resumo: 3 tipos de atividade, e participantes e horas por atividade", () => {
+    for (const a of acoes) {
+      expect(a.resumo.tiposAtividade, a.projeto).toHaveLength(3);
+      expect(a.resumo.participantesPorAtividade).toBeGreaterThan(0);
+      expect(a.resumo.horasPorAtividade).toBeGreaterThan(0);
+    }
+  });
 });

@@ -14,7 +14,7 @@ export function TabelaMeses({
         Ver os valores numa tabela
       </summary>
       <div className="overflow-x-auto border-t">
-        <table className="w-full text-sm tabular-nums">
+        <table className="w-full min-w-[30rem] text-sm tabular-nums">
           <thead>
             <tr className="border-b text-left">
               <th scope="col" className="p-2">

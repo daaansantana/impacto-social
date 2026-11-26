@@ -38,3 +38,27 @@ const EM: Record<string, string> = {
 
 /** «no Senegal», «na Índia», «em Portugal». */
 export const emPais = (pais: string) => EM[pais] ?? `em ${nomePais(pais)}`;
+
+const ATIVIDADES: Record<string, string> = {
+  "oficina educativa": "oficina educativa",
+  aula: "aula",
+  "apoio estudo": "apoio ao estudo",
+  mentoria: "mentoria",
+  "formacao profissional": "formação profissional",
+  workshop: "workshop",
+  acolhimento: "acolhimento",
+  rastreio: "rastreio",
+  "palestra saude": "palestra de saúde",
+  "suporte tecnico": "suporte técnico",
+  "laboratorio ti": "laboratório de informática",
+  "formacao digital": "formação digital",
+  distribuicao: "distribuição",
+  "entrega material": "entrega de material",
+  inventario: "inventário",
+  "evento comunitario": "evento comunitário",
+  campanha: "campanha",
+  "producao material": "produção de material",
+};
+
+/** O nome de um tipo de atividade, com acentos. */
+export const nomeAtividade = (tipo: string) => ATIVIDADES[tipo] ?? tipo;

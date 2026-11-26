@@ -231,6 +231,12 @@ export type ImpactoAcao = {
   };
   /** um resultado à parte, fora do índice: os jovens formados contam outra população */
   jovensFormados: { total: number; porMes: number };
+  /** o quê (os tipos de atividade, do mais frequente) e o formato, de janeiro a outubro */
+  resumo: {
+    tiposAtividade: string[];
+    participantesPorAtividade: number;
+    horasPorAtividade: number;
+  };
   /** recursos e resultados de janeiro a outubro (requisito 2), exatos */
   recursos: {
     despesa: number;
