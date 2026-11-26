@@ -106,7 +106,11 @@ export type Dados = {
   qualidade: Qualidade;
   impacto: ImpactoAcao[];
   contexto: Contexto[];
+  atividades: AtividadesAcao[];
 };
+
+/** Uma linha de public/data/atividades.json: os tipos de atividade de uma ação, do mais frequente (scripts/atividades.py). */
+export type AtividadesAcao = { projeto: string; tipos: string[] };
 
 // ---- Resultados de lib/ (docs/SPEC.md, secção 3) ----
 
