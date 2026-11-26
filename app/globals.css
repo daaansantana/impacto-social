@@ -5,6 +5,14 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
+  --color-tinta: var(--lupa-tinta);
+  --color-ardosia: var(--lupa-ardosia);
+  --color-lima: var(--lupa-lima);
+  --color-menta: var(--lupa-menta);
+  --color-verde: var(--lupa-verde);
+  --color-ambar: var(--lupa-ambar);
+  --color-ambar-fundo: var(--lupa-ambar-fundo);
+  --color-cinza: var(--lupa-cinza);
   --font-heading: var(--font-sans);
   --font-sans: var(--font-sans);
   --color-sidebar-ring: var(--sidebar-ring);
@@ -47,39 +55,55 @@
   --radius-4xl: calc(var(--radius) * 2.6);
 }
 
+/* Lupa: paleta e tokens. Contrastes (WCAG 2.1) sobre branco:
+   tinta 14,99:1, ardósia 10,19:1, verde 6,32:1, âmbar 5,43:1, cinza 5,93:1, borda dos campos 3,67:1.
+   Lima (1,58:1) e menta (1,14:1) não passam como texto: só como fundo, com texto em tinta.
+   O foco é ardósia sobre claro e lima sobre escuro (a barra lateral troca o --ring). */
 :root {
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
-  --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
-  --chart-1: oklch(0.87 0 0);
-  --chart-2: oklch(0.556 0 0);
-  --chart-3: oklch(0.439 0 0);
-  --chart-4: oklch(0.371 0 0);
-  --chart-5: oklch(0.269 0 0);
-  --radius: 0.625rem;
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.205 0 0);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.97 0 0);
-  --sidebar-accent-foreground: oklch(0.205 0 0);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.708 0 0);
+  --lupa-tinta: #202734;
+  --lupa-ardosia: #36415a;
+  --lupa-lima: #b7d894;
+  --lupa-menta: #e0f8c7;
+  --lupa-verde: #3d6b1e;
+  --lupa-ambar: #9a5b00;
+  --lupa-ambar-fundo: #fff4e0;
+  --lupa-cinza: #5b6478;
+  --lupa-fundo: #f7f9f4;
+
+  --background: var(--lupa-fundo);
+  --foreground: var(--lupa-tinta);
+  --card: #ffffff;
+  --card-foreground: var(--lupa-tinta);
+  --popover: #ffffff;
+  --popover-foreground: var(--lupa-tinta);
+  --primary: var(--lupa-ardosia);
+  --primary-foreground: #ffffff;
+  --secondary: var(--lupa-menta);
+  --secondary-foreground: var(--lupa-tinta);
+  --muted: #eef2ea;
+  --muted-foreground: var(--lupa-cinza);
+  --accent: var(--lupa-lima);
+  --accent-foreground: var(--lupa-tinta);
+  --destructive: #b42318;
+  --border: #dde3d6;
+  --input: #7c8698;
+  --ring: var(--lupa-ardosia);
+  --radius: 0.75rem;
+
+  --chart-1: var(--lupa-ardosia);
+  --chart-2: var(--lupa-verde);
+  --chart-3: var(--lupa-lima);
+  --chart-4: var(--lupa-ambar);
+  --chart-5: var(--lupa-cinza);
+
+  --sidebar: var(--lupa-tinta);
+  --sidebar-foreground: var(--lupa-menta);
+  --sidebar-primary: var(--lupa-lima);
+  --sidebar-primary-foreground: var(--lupa-tinta);
+  --sidebar-accent: var(--lupa-ardosia);
+  --sidebar-accent-foreground: #ffffff;
+  --sidebar-border: var(--lupa-ardosia);
+  --sidebar-ring: var(--lupa-lima);
 }
 
 .dark {
@@ -118,7 +142,7 @@
 
 @layer base {
   * {
-    @apply border-border outline-ring/50;
+    @apply border-border outline-ring;
   }
   body {
     @apply bg-background text-foreground;
@@ -143,5 +167,41 @@
   }
   .maplibregl-ctrl-attrib-button {
     @apply bg-transparent! dark:invert;
+  }
+}
+
+/* Componentes de IA: borda em gradiente e um ponto que pulsa enquanto «analisa». */
+.lupa-ia {
+  border: 1px solid transparent;
+  background:
+    linear-gradient(#ffffff, #ffffff) padding-box,
+    linear-gradient(
+      135deg,
+      var(--lupa-lima),
+      var(--lupa-menta) 45%,
+      var(--lupa-ardosia)
+    )
+    border-box;
+}
+
+@keyframes lupa-pulso {
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.45;
+    transform: scale(0.8);
+  }
+}
+
+.lupa-ao-vivo {
+  animation: lupa-pulso 1.6s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .lupa-ao-vivo {
+    animation: none;
   }
 }
