@@ -4,7 +4,7 @@ import {
   construirInicio,
   corIIS,
   FAIXAS_MAPA,
-  fraseAlcance,
+  NECESSIDADE_ALTA,
 } from "@/lib/vista-inicio";
 import type { Contexto, ImpactoAcao, Mes, Projeto } from "@/types";
 
@@ -19,20 +19,6 @@ const dados = {
 const texto = (s: string) => s.replace(/\s/g, " ");
 const vista = construirInicio(dados);
 
-describe("fraseAlcance", () => {
-  it("diz quantos em cada 10", () => {
-    expect(fraseAlcance(61.57)).toBe(
-      "6 em cada 10 estão onde a necessidade é alta.",
-    );
-    expect(fraseAlcance(3)).toBe(
-      "Quase ninguém está onde a necessidade é alta.",
-    );
-    expect(fraseAlcance(97)).toBe(
-      "Quase todos estão onde a necessidade é alta.",
-    );
-  });
-});
-
 describe("corIIS", () => {
   it("um só azul: escuro a partir de 60, médio a partir de 40, claro abaixo", () => {
     expect(corIIS(60)).toBe(FAIXAS_MAPA[0].cor);
@@ -46,8 +32,9 @@ describe("construirInicio", () => {
   it("o alcance em grande: 711 beneficiários por mês, 53% onde a necessidade é alta", () => {
     expect(vista?.alcance.beneficiarios).toBe("711");
     expect(texto(vista?.alcance.percentagem ?? "")).toBe("53%");
-    expect(vista?.alcance.frase).toBe(
-      "5 em cada 10 estão onde a necessidade é alta.",
+    expect(vista?.alcance.frase).toBe(NECESSIDADE_ALTA);
+    expect(NECESSIDADE_ALTA).toBe(
+      "Necessidade alta: o país está na metade com mais necessidade, no indicador da área, entre os países com dado (Banco Mundial).",
     );
   });
 

@@ -54,13 +54,9 @@ export type VistaInicio = {
 const onde = (a: Acao) => `${nomePais(a.pais)}, ${nomeArea(a.area)}`;
 const maiuscula = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
 
-/** A frase do alcance: quantos em cada 10 beneficiários estão onde a necessidade é alta. */
-export function fraseAlcance(percentagemNecessidadeAlta: number): string {
-  const emDez = Math.round(percentagemNecessidadeAlta / 10);
-  if (emDez === 0) return "Quase ninguém está onde a necessidade é alta.";
-  if (emDez === 10) return "Quase todos estão onde a necessidade é alta.";
-  return `${emDez} em cada 10 estão onde a necessidade é alta.`;
-}
+/** O que quer dizer «necessidade alta» (o alcancePortefolio: acima do meio, entre os países com dado). */
+export const NECESSIDADE_ALTA =
+  "Necessidade alta: o país está na metade com mais necessidade, no indicador da área, entre os países com dado (Banco Mundial).";
 
 const TITULOS: Record<Leitura["id"], string> = {
   maisImpacto: "Mais impacto",
@@ -121,7 +117,7 @@ export function construirInicio(
     alcance: {
       beneficiarios: numero(a.beneficiariosPorMes),
       percentagem: percentagem(a.percentagemNecessidadeAlta),
-      frase: fraseAlcance(a.percentagemNecessidadeAlta),
+      frase: NECESSIDADE_ALTA,
     },
     leituras: lerLeituras(acoes, dados.mensal, PESOS).map(cartao),
     pontos,
