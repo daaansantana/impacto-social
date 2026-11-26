@@ -88,6 +88,8 @@ function acao(
       valor: null,
       ano: null,
       percentil: necessidade,
+      posicao: null,
+      paisesComDado: 12,
     },
     escala: { beneficiariosPorMes, percentil: escala },
     profundidade: {
@@ -96,6 +98,18 @@ function acao(
       percentil: profundidade,
     },
     jovensFormados: { total: 0, porMes: 0 },
+    resumo: {
+      tiposAtividade: [],
+      participantesPorAtividade: 0,
+      horasPorAtividade: 0,
+    },
+    recursos: {
+      despesa: 0,
+      horasVoluntariado: 0,
+      beneficiarios: beneficiariosPorMes,
+      custoPorBeneficiario: 0,
+      horasPorBeneficiario: 0,
+    },
     duracao: { crescimento: 0, percentil: duracao },
     custoPorPessoa: { valor: 0, percentilInvertido: 0 },
     confianca:

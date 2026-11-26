@@ -1,4 +1,5 @@
-import type { ImpactoAcao, NivelSaude } from "@/types";
+import { arredondar } from "@/lib/format";
+import type { ImpactoAcao } from "@/types";
 
 // O Índice de Impacto Social (docs/PLANO-V2.md, secção 2.1).
 
@@ -35,7 +36,10 @@ export function percentis(acao: ImpactoAcao): Record<Dimensao, number | null> {
   };
 }
 
-/** IIS = Σ (peso × percentil) ÷ Σ pesos, de 0 a 100. Uma dimensão sem dado sai da conta só para esta ação. */
+/**
+ * IIS = Σ (peso × percentil) ÷ Σ pesos, de 0 a 100, com os percentis exatos e o resultado arredondado
+ * logo a 2 casas (,5 para cima). As faixas e os cortes usam este valor. Uma dimensão sem dado sai da conta.
+ */
 export function iis(acao: ImpactoAcao, pesos: Pesos): number {
   let soma = 0;
   let total = 0;
@@ -47,7 +51,7 @@ export function iis(acao: ImpactoAcao, pesos: Pesos): number {
     soma += pesos[d] * p;
     total += pesos[d];
   }
-  return total ? soma / total : 0;
+  return total ? arredondar(soma / total, 2) : 0;
 }
 
 export type LinhaIIS = { projeto: string; iis: number; posicao: number };
@@ -60,24 +64,29 @@ export function rankingIIS(acoes: ImpactoAcao[], pesos: Pesos): LinhaIIS[] {
     .map((l, i) => ({ ...l, posicao: i + 1 }));
 }
 
-/** As faixas do IIS: «forte» a partir de 60, «a rever» abaixo de 40 (as mesmas da saúde da ação). */
-export function faixaIIS(valor: number): NivelSaude {
-  return valor >= 60 ? "forte" : valor < 40 ? "a rever" : "a acompanhar";
+/** As faixas do IIS. «Forte», «a acompanhar» e «a rever» ficam só para a saúde da ação. */
+export const FAIXAS_IIS = ["60 ou mais", "40 a 59", "menos de 40"] as const;
+export type FaixaIIS = (typeof FAIXAS_IIS)[number];
+
+export function faixaIIS(valor: number): FaixaIIS {
+  return valor >= 60 ? "60 ou mais" : valor >= 40 ? "40 a 59" : "menos de 40";
 }
 
-/** O IIS do portefólio: a média simples das ações, com quantas há em cada faixa. */
-export function iisPortefolio(acoes: ImpactoAcao[], pesos: Pesos) {
-  const valores = acoes.map((a) => iis(a, pesos));
-  const faixas: Record<NivelSaude, number> = {
-    forte: 0,
-    "a acompanhar": 0,
-    "a rever": 0,
-  };
-  for (const v of valores) faixas[faixaIIS(v)]++;
+/**
+ * O número grande do Início: os beneficiários por mês (média de janeiro a outubro, somando as ações)
+ * e a percentagem deles em ações com a necessidade acima do percentil 50.
+ */
+export function alcancePortefolio(acoes: ImpactoAcao[]) {
+  const total = acoes.reduce((s, a) => s + a.escala.beneficiariosPorMes, 0);
+  const alta = acoes
+    .filter(
+      (a) =>
+        a.necessidade.percentil !== null &&
+        arredondar(a.necessidade.percentil, 2) > 50,
+    )
+    .reduce((s, a) => s + a.escala.beneficiariosPorMes, 0);
   return {
-    media: valores.length
-      ? valores.reduce((s, v) => s + v, 0) / valores.length
-      : 0,
-    faixas,
+    beneficiariosPorMes: total,
+    percentagemNecessidadeAlta: total ? (alta / total) * 100 : 0,
   };
 }

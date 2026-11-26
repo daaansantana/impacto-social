@@ -7,6 +7,7 @@ import {
   fetchPlanos,
   fetchProjetos,
   fetchQualidade,
+  fetchRadar,
 } from "@/services/data";
 import type { Dados, Unidade } from "@/types";
 
@@ -43,6 +44,7 @@ export const useDadosStore = create<DadosState>()((set, get) => ({
         qualidade,
         impacto,
         contexto,
+        radar,
         atividades,
       ] = await Promise.all([
         fetchMensal(),
@@ -51,6 +53,7 @@ export const useDadosStore = create<DadosState>()((set, get) => ({
         fetchQualidade(),
         fetchImpacto(),
         fetchContexto(),
+        fetchRadar(),
         fetchAtividades(),
       ]);
       set({
@@ -62,6 +65,7 @@ export const useDadosStore = create<DadosState>()((set, get) => ({
           qualidade,
           impacto,
           contexto,
+          radar,
           atividades,
         },
       });

@@ -107,6 +107,8 @@ export type Dados = {
   impacto: ImpactoAcao[];
   contexto: Contexto[];
   atividades: AtividadesAcao[];
+
+  radar: RadarCelula[];
 };
 
 /** Uma linha de public/data/atividades.json: os tipos de atividade de uma ação, do mais frequente (scripts/atividades.py). */
@@ -225,6 +227,9 @@ export type ImpactoAcao = {
     valor: number | null;
     ano: number | null;
     percentil: number | null;
+    /** a posição do país entre os que têm o indicador (1 = mais necessidade) */
+    posicao: number | null;
+    paisesComDado: number;
   };
   escala: { beneficiariosPorMes: number; percentil: number };
   profundidade: {
@@ -234,6 +239,20 @@ export type ImpactoAcao = {
   };
   /** um resultado à parte, fora do índice: os jovens formados contam outra população */
   jovensFormados: { total: number; porMes: number };
+  /** o quê (os tipos de atividade, do mais frequente) e o formato, de janeiro a outubro */
+  resumo: {
+    tiposAtividade: string[];
+    participantesPorAtividade: number;
+    horasPorAtividade: number;
+  };
+  /** recursos e resultados de janeiro a outubro (requisito 2), exatos */
+  recursos: {
+    despesa: number;
+    horasVoluntariado: number;
+    beneficiarios: number;
+    custoPorBeneficiario: number;
+    horasPorBeneficiario: number;
+  };
   duracao: { crescimento: number; percentil: number };
   custoPorPessoa: { valor: number; percentilInvertido: number };
   confianca: "alta" | "média" | "baixa";

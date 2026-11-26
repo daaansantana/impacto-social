@@ -97,7 +97,7 @@ export function construirAuditoria(
     });
   if (r.negativos !== undefined)
     cartoes.push({
-      titulo: "Correções de despesa (valores negativos)",
+      titulo: "Correções de despesa (estornos)",
       valor: conta(r.negativos, "valor", "valores"),
       detalhe: r.negativos
         ? "Não trazem referência à despesa original. Pedir a referência."

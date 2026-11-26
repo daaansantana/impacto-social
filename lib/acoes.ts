@@ -1,5 +1,5 @@
 import { fimDeAno } from "@/lib/fim-de-ano";
-import { euros, numero, percentagem } from "@/lib/format";
+import { arredondar, euros, numero, percentagem } from "@/lib/format";
 import { iis, type Pesos, PREDEFINICOES, rankingIIS } from "@/lib/iis";
 import { nomeArea, nomePais } from "@/lib/nomes";
 import type {
@@ -71,7 +71,7 @@ export function filtrarAcoes(acoes: Acao[], filtros: Filtros): Acao[] {
   );
 }
 
-/** Até 3 ações com pontos de atenção próprios: mais pontos primeiro; num empate, o menor IIS. */
+/** O bloco «A confirmar com os parceiros»: até 3 ações com pontos próprios, mais pontos primeiro; num empate, o menor IIS. */
 export function precisaAtencao(
   acoes: Acao[],
   pesos: Pesos = PREDEFINICOES.equilibrado.pesos,
@@ -85,6 +85,39 @@ export function precisaAtencao(
         a.projeto.localeCompare(b.projeto),
     )
     .slice(0, 3);
+}
+
+/** As ordenações da lista de Ações. A eficiência e o alcance separam o impacto total da eficiência. */
+export const ORDENACOES = {
+  iis: "Impacto (IIS)",
+  escala: "Alcance (beneficiários por mês)",
+  profundidade: "Profundidade",
+  necessidade: "Necessidade",
+  eficiencia: "Eficiência (custo por beneficiário, do mais baixo)",
+} as const;
+export type Ordenacao = keyof typeof ORDENACOES;
+
+/** Ordena as ações; compara os valores arredondados a 2 casas e, num empate, o id mais baixo primeiro. */
+export function ordenarAcoes(
+  acoes: Acao[],
+  por: Ordenacao,
+  pesos: Pesos = PREDEFINICOES.equilibrado.pesos,
+): Acao[] {
+  // valor a ordenar do maior para o menor (a eficiência entra com o sinal trocado: menos custo primeiro)
+  const chave: Record<Ordenacao, (a: Acao) => number> = {
+    iis: (a) => iis(a, pesos),
+    escala: (a) => a.escala.beneficiariosPorMes,
+    profundidade: (a) => a.profundidade.percentil,
+    necessidade: (a) => a.necessidade.percentil ?? Number.NEGATIVE_INFINITY,
+    eficiencia: (a) => -a.recursos.custoPorBeneficiario,
+  };
+  const valor = (a: Acao) => {
+    const v = chave[por](a);
+    return Number.isFinite(v) ? arredondar(v, 2) : v;
+  };
+  return [...acoes].sort(
+    (a, b) => valor(b) - valor(a) || a.projeto.localeCompare(b.projeto),
+  );
 }
 
 export type Leitura = {
@@ -101,7 +134,20 @@ const DIMENSOES = {
   duracao: "na duração",
 } as const;
 
-/** As 3 leituras do Início, feitas por regras: a ação com mais impacto, a que precisa de atenção e o fim de ano. */
+/** A posição de um valor numa dimensão entre as ações (1 = a mais alta; os empates partilham a posição). */
+function posicaoEm(
+  acoes: Acao[],
+  dim: keyof typeof DIMENSOES,
+  valor: number,
+): number {
+  const v = (a: Acao) =>
+    (dim === "necessidade" ? a.necessidade.percentil : a[dim].percentil) ?? -1;
+  return (
+    acoes.filter((a) => arredondar(v(a), 2) > arredondar(valor, 2)).length + 1
+  );
+}
+
+/** As 3 leituras do Início, feitas por regras: a ação com mais impacto, a que tem pontos a confirmar com os parceiros e o fim de ano. */
 export function leituras(
   acoes: Acao[],
   meses: Mes[],
@@ -121,7 +167,7 @@ export function leituras(
     ).reduce((m, d) => ((d[1] ?? -1) > (m[1] ?? -1) ? d : m));
     resultado.push({
       id: "maisImpacto",
-      texto: `O ${melhor.nome} (${nomePais(melhor.pais)}, ${nomeArea(melhor.area)}) tem o maior impacto: ${numero(primeira.iis)} em 100. Destaca-se ${DIMENSOES[dim]} (percentil ${numero(p ?? 0)}).`,
+      texto: `O ${melhor.nome} (${nomePais(melhor.pais)}, ${nomeArea(melhor.area)}) tem o maior impacto: ${numero(primeira.iis)} em 100. Destaca-se ${DIMENSOES[dim]}: é a ${posicaoEm(acoes, dim, p ?? 0)}.ª das ${acoes.length} ações.`,
       ligacao: `/acoes/${melhor.projeto}`,
     });
   }
@@ -131,7 +177,7 @@ export function leituras(
     atencao
       ? {
           id: "atencao",
-          texto: `O ${atencao.nome} precisa de atenção: ${atencao.pontos.length === 1 ? "1 ponto" : `${atencao.pontos.length} pontos`} a confirmar com o parceiro.`,
+          texto: `O ${atencao.nome} tem ${atencao.pontos.length === 1 ? "1 ponto" : `${atencao.pontos.length} pontos`} a confirmar com o parceiro.`,
           ligacao: `/acoes/${atencao.projeto}`,
         }
       : {

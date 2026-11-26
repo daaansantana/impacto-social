@@ -7,6 +7,7 @@ import type {
   Plano,
   Projeto,
   Qualidade,
+  RadarCelula,
 } from "@/types";
 
 async function lerJson<T>(ficheiro: string): Promise<T> {
@@ -25,6 +26,8 @@ export const fetchImpacto = () => lerJson<ImpactoAcao[]>("impacto.json");
 export const fetchContexto = () => lerJson<Contexto[]>("contexto.json");
 export const fetchAtividades = () =>
   lerJson<AtividadesAcao[]>("atividades.json");
+
+export const fetchRadar = () => lerJson<RadarCelula[]>("radar.json");
 
 /** Um ficheiro de demonstração do auditor, como texto. */
 export async function fetchDemo(ficheiro: string): Promise<string> {

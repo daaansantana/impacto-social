@@ -102,9 +102,9 @@ Os pontos comuns a todas as ações (o fim de ano e o dia 27) aparecem uma vez, 
 
 | # | Ecrã | Para que serve | O que se vê primeiro | O que se abre a pedido |
 | --- | --- | --- | --- | --- |
-| 1 | **Início** | Como está o impacto | O IIS do portefólio, 3 leituras em frases, o mapa com as 12 ações e «Precisa de atenção» (até 3) | Cada leitura leva à ação ou ao ponto |
-| 2 | **Ações** | Ver e comparar | Uma lista de cartões: nome, país, área, IIS, saúde e confiança | Filtros (região, país, área, saúde, confiança) e ordenação (IIS, escala, profundidade, necessidade) |
-| 3 | **Ação** | Perceber uma ação | Resumo (o quê, onde, formato, público), IIS e as 4 dimensões, saúde da ação | Evolução em meses comparáveis (fim de ano assinalado), pontos de atenção, o que pedir ao parceiro, o que aprendemos |
+| 1 | **Início** | Como está o impacto | O alcance do portefólio (os beneficiários por mês e a parte deles onde a necessidade é alta), 3 leituras em frases, o mapa com as 12 ações e «A confirmar com os parceiros» (até 3) | Cada leitura leva à ação ou ao ponto |
+| 2 | **Ações** | Ver e comparar | Uma lista de cartões: nome, país, área, IIS, saúde e confiança | Filtros (região, país, área, saúde, confiança) e ordenação (IIS, alcance, profundidade, necessidade, eficiência: custo por beneficiário, do mais baixo para o mais alto), com `ordenarAcoes` |
+| 3 | **Ação** | Perceber uma ação | Resumo (o quê, onde, formato, público), IIS e as 4 dimensões, saúde da ação, e «Recursos e resultados»: a despesa, as horas de voluntariado e os beneficiários de janeiro a outubro, com o custo e as horas por beneficiário (`recursos`) | Evolução em meses comparáveis (fim de ano assinalado), pontos de atenção, o que pedir ao parceiro, o que aprendemos |
 | 4 | **Radar** | Onde abrir ou reforçar | Mapa por área (cor = necessidade), quadrante necessidade × evidência, lista «Onde faria mais diferença» | **Novo projeto** (protótipo): país, área, formato e orçamento → alcance estimado, necessidade, confiança e uma leitura: avançar, pilotar ou rever o desenho |
 | 5 | **Como medimos** | Confiar e ajustar | Pesos e predefinições do IIS, as definições e as fontes | Confiança nos dados (limpeza, sazonalidade, dia 27) e o auditor (protótipo) |
 
@@ -165,6 +165,7 @@ type ImpactoAcao = {
   jovensFormados: { total: number; porMes: number }   // à parte, fora do índice
   duracao: { crescimento: number; percentil: number }
   custoPorPessoa: { valor: number; percentilInvertido: number }
+  recursos: { despesa: number; horasVoluntariado: number; beneficiarios: number; custoPorBeneficiario: number; horasPorBeneficiario: number }   // janeiro a outubro
   confianca: "alta" | "média" | "baixa"
   pontos: { id: string; texto: string }[]
   saude: Record<"relevancia" | "eficacia" | "eficiencia" | "impacto" | "sustentabilidade",
@@ -173,9 +174,10 @@ type ImpactoAcao = {
 
 // public/data/radar.json — uma linha por país e área (D5)
 type RadarCelula = {
-  pais: string; area: string; necessidadePercentil: number | null
-  evidencia: number | null; estimado: boolean
-  quadrante: "Reforçar" | "Repensar ou apoiar" | "Manter" | "Reavaliar"
+  pais: string; area: string; necessidadePercentil: number | null   // null: sem indicador, o ecrã diz «sem dado»
+  evidencia: number; estimado: boolean                               // exata: o IIS sem a necessidade
+  n: number                                                          // quantas ações estão por trás da evidência
+  quadrante: "Reforçar" | "Repensar ou apoiar" | "Manter" | "Reavaliar" | null
 }
 ```
 
@@ -231,7 +233,7 @@ Usa a skill data-analysis para verificar as distribuições. Mostra-me a tabela 
 
 **D4: funções e testes**
 ```
-Lê docs/PLANO-V2.md, secção 6. Em lib/, com testes contra scripts/gabaritos.json: iis, rankingIIS, filtrarAcoes, leituras (3 frases por regras: a ação com mais impacto, a que precisa de atenção e o padrão de fim de ano), precisaAtencao e PREDEFINICOES. Se um gabarito falhar, não mudes o valor esperado: para e diz-me. Um commit por função. npm run verificar.
+Lê docs/PLANO-V2.md, secção 6. Em lib/, com testes contra scripts/gabaritos.json: iis, rankingIIS, filtrarAcoes, leituras (3 frases por regras: a ação com mais impacto, a que tem pontos a confirmar com o parceiro e o padrão de fim de ano), precisaAtencao e PREDEFINICOES. Se um gabarito falhar, não mudes o valor esperado: para e diz-me. Um commit por função. npm run verificar.
 ```
 
 **D5: o Radar**
@@ -273,10 +275,10 @@ npm run verificar. Commit.
 **A2: Início**
 ```
 Ecrã Início, segundo a secção 3 do PLANO-V2, com dados de exemplo tipados como ImpactoAcao e Contexto (secção 6) até as funções do Dan chegarem:
-- Em cima, em grande: o IIS do portefólio, com uma frase.
+- Em cima, em grande: o alcance do portefólio (alcancePortefolio: os beneficiários por mês e a parte onde a necessidade é alta), com uma frase.
 - 3 leituras em cartões, cada uma com um link.
 - O MapaAcoes com as 12 ações (a cor é o IIS).
-- «Precisa de atenção», com até 3 ações.
+- «A confirmar com os parceiros», com até 3 ações.
 Pouco texto, nada de painel denso: a regra é «a resposta em grande, o detalhe a pedido». Estados a carregar, erro e vazio. Vê o ecrã a 390 e a 1440 px. Commit.
 ```
 
@@ -284,7 +286,7 @@ Pouco texto, nada de painel denso: a regra é «a resposta em grande, o detalhe 
 ```
 Ecrã Ações:
 - Uma lista de cartões, com nome, país, área, o IIS (barra de 0 a 100), a saúde (3 cores com texto) e a confiança.
-- Filtros: região, país, área, saúde e confiança. Ordenação por IIS, escala, profundidade ou necessidade.
+- Filtros: região, país, área, saúde e confiança. Ordenação por IIS, alcance, profundidade, necessidade ou eficiência (custo por beneficiário, do mais baixo), com `ordenarAcoes`.
 - Os filtros ficam no URL (para se poder partilhar).
 - Num ecrã estreito, os filtros abrem numa folha (sheet).
 Commit.
@@ -295,6 +297,7 @@ Commit.
 Ecrã Ação (/acoes/[id]), segundo a secção 3:
 1. Resumo: o quê (os 3 tipos de atividade), onde (país, região e mini-mapa), formato e público. Se faltar o perfil dos participantes, diz «Sem dado: pedir ao parceiro».
 2. O IIS, com as 4 dimensões em barras e uma frase por dimensão; a fonte e o ano da necessidade.
+   Por baixo, «Recursos e resultados»: a despesa, as horas de voluntariado e os beneficiários de janeiro a outubro, com o custo e as horas por beneficiário. Só a relação: sem avisos nem gráfico das horas por mês.
 3. A saúde da ação: as 5 lentes, cada uma com um nível e uma frase.
 4. Dobrados:
    - a evolução em meses comparáveis, com novembro e dezembro marcados;

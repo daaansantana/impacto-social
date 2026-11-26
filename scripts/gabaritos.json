@@ -680,11 +680,11 @@
  "impacto": {
   "iis": {
    "equilibrado": {
-    "P01": 55.41,
+    "P01": 55.42,
     "P02": 66.25,
     "P03": 51.67,
     "P04": 43.33,
-    "P05": 52.91,
+    "P05": 52.92,
     "P06": 50.0,
     "P07": 60.0,
     "P08": 46.25,
@@ -695,13 +695,13 @@
    },
    "chegarAMaisPessoas": {
     "P01": 71.17,
-    "P02": 67.09,
+    "P02": 67.08,
     "P03": 50.83,
     "P04": 40.83,
     "P05": 62.5,
     "P06": 37.92,
     "P07": 48.0,
-    "P08": 49.16,
+    "P08": 49.17,
     "P09": 47.5,
     "P10": 66.67,
     "P11": 51.25,
@@ -711,13 +711,13 @@
     "P01": 39.96,
     "P02": 64.79,
     "P03": 56.67,
-    "P04": 52.7,
+    "P04": 52.71,
     "P05": 38.75,
     "P06": 58.75,
-    "P07": 72.12,
+    "P07": 72.13,
     "P08": 42.71,
     "P09": 56.46,
-    "P10": 40.84,
+    "P10": 40.83,
     "P11": 84.58,
     "P12": 60.0
    },
@@ -735,6 +735,204 @@
     "P11": 80.42,
     "P12": 76.67
    }
+  },
+  "faixa": {
+   "P01": "40 a 59",
+   "P02": "60 ou mais",
+   "P03": "40 a 59",
+   "P04": "40 a 59",
+   "P05": "40 a 59",
+   "P06": "40 a 59",
+   "P07": "60 ou mais",
+   "P08": "40 a 59",
+   "P09": "40 a 59",
+   "P10": "40 a 59",
+   "P11": "60 ou mais",
+   "P12": "60 ou mais"
+  },
+  "recursos": {
+   "P01": {
+    "despesa": 13620215.59,
+    "horasVoluntariado": 183348.9,
+    "beneficiarios": 2996.06,
+    "custoPorBeneficiario": 4546.04,
+    "horasPorBeneficiario": 61.2
+   },
+   "P02": {
+    "despesa": 2537263.52,
+    "horasVoluntariado": 46305.45,
+    "beneficiarios": 1171.32,
+    "custoPorBeneficiario": 2166.16,
+    "horasPorBeneficiario": 39.53
+   },
+   "P03": {
+    "despesa": 1897738.58,
+    "horasVoluntariado": 33801.96,
+    "beneficiarios": 1014.96,
+    "custoPorBeneficiario": 1869.77,
+    "horasPorBeneficiario": 33.3
+   },
+   "P04": {
+    "despesa": 1233820.29,
+    "horasVoluntariado": 23537.13,
+    "beneficiarios": 670.17,
+    "custoPorBeneficiario": 1841.06,
+    "horasPorBeneficiario": 35.12
+   },
+   "P05": {
+    "despesa": 3366185.92,
+    "horasVoluntariado": 54199.63,
+    "beneficiarios": 1571.05,
+    "custoPorBeneficiario": 2142.63,
+    "horasPorBeneficiario": 34.5
+   },
+   "P06": {
+    "despesa": 949097.97,
+    "horasVoluntariado": 19610.04,
+    "beneficiarios": 526.36,
+    "custoPorBeneficiario": 1803.13,
+    "horasPorBeneficiario": 37.26
+   },
+   "P07": {
+    "despesa": 832178.08,
+    "horasVoluntariado": 19080.1,
+    "beneficiarios": 571.04,
+    "custoPorBeneficiario": 1457.3,
+    "horasPorBeneficiario": 33.41
+   },
+   "P08": {
+    "despesa": 2191406.46,
+    "horasVoluntariado": 35983.38,
+    "beneficiarios": 1093.29,
+    "custoPorBeneficiario": 2004.41,
+    "horasPorBeneficiario": 32.91
+   },
+   "P09": {
+    "despesa": 1553383.61,
+    "horasVoluntariado": 25764.96,
+    "beneficiarios": 786.61,
+    "custoPorBeneficiario": 1974.78,
+    "horasPorBeneficiario": 32.75
+   },
+   "P10": {
+    "despesa": 3275621.95,
+    "horasVoluntariado": 98001.87,
+    "beneficiarios": 2034.99,
+    "custoPorBeneficiario": 1609.65,
+    "horasPorBeneficiario": 48.16
+   },
+   "P11": {
+    "despesa": 687960.71,
+    "horasVoluntariado": 15177.27,
+    "beneficiarios": 441.97,
+    "custoPorBeneficiario": 1556.58,
+    "horasPorBeneficiario": 34.34
+   },
+   "P12": {
+    "despesa": 2714254.73,
+    "horasVoluntariado": 41467.14,
+    "beneficiarios": 1345.25,
+    "custoPorBeneficiario": 2017.66,
+    "horasPorBeneficiario": 30.82
+   }
+  },
+  "resumo": {
+   "P01": {
+    "participantesPorAtividade": 37.1,
+    "horasPorAtividade": 5.56
+   },
+   "P02": {
+    "participantesPorAtividade": 36.25,
+    "horasPorAtividade": 5.5
+   },
+   "P03": {
+    "participantesPorAtividade": 37.86,
+    "horasPorAtividade": 5.47
+   },
+   "P04": {
+    "participantesPorAtividade": 36.39,
+    "horasPorAtividade": 5.6
+   },
+   "P05": {
+    "participantesPorAtividade": 36.73,
+    "horasPorAtividade": 5.51
+   },
+   "P06": {
+    "participantesPorAtividade": 36.84,
+    "horasPorAtividade": 5.47
+   },
+   "P07": {
+    "participantesPorAtividade": 37.87,
+    "horasPorAtividade": 5.6
+   },
+   "P08": {
+    "participantesPorAtividade": 37.67,
+    "horasPorAtividade": 5.47
+   },
+   "P09": {
+    "participantesPorAtividade": 36.67,
+    "horasPorAtividade": 5.61
+   },
+   "P10": {
+    "participantesPorAtividade": 37.11,
+    "horasPorAtividade": 5.5
+   },
+   "P11": {
+    "participantesPorAtividade": 36.57,
+    "horasPorAtividade": 5.59
+   },
+   "P12": {
+    "participantesPorAtividade": 36.62,
+    "horasPorAtividade": 5.54
+   }
+  },
+  "ordem": {
+   "eficiencia": [
+    "P07",
+    "P11",
+    "P10",
+    "P06",
+    "P04",
+    "P03",
+    "P09",
+    "P08",
+    "P12",
+    "P05",
+    "P02",
+    "P01"
+   ],
+   "alcance": [
+    "P01",
+    "P10",
+    "P05",
+    "P12",
+    "P02",
+    "P08",
+    "P03",
+    "P09",
+    "P04",
+    "P07",
+    "P06",
+    "P11"
+   ]
+  },
+  "alcance": {
+   "beneficiariosPorMes": 711.15,
+   "percentagemNecessidadeAlta": 53.32
+  },
+  "saudeGeral": {
+   "P01": "a rever",
+   "P02": "a rever",
+   "P03": "a rever",
+   "P04": "a acompanhar",
+   "P05": "a acompanhar",
+   "P06": "a acompanhar",
+   "P07": "a acompanhar",
+   "P08": "a rever",
+   "P09": "a acompanhar",
+   "P10": "a acompanhar",
+   "P11": "forte",
+   "P12": "a acompanhar"
   },
   "ranking": {
    "equilibrado": [
@@ -793,6 +991,143 @@
     "P09",
     "P04"
    ]
+  }
+ },
+ "radar": {
+  "medianaEvidencia": 55.83,
+  "evidencia": {
+   "P01": 63.89,
+   "P02": 71.67,
+   "P03": 52.22,
+   "P04": 55.0,
+   "P05": 45.56,
+   "P06": 38.89,
+   "P07": 56.67,
+   "P08": 36.67,
+   "P09": 60.0,
+   "P10": 41.67,
+   "P11": 66.11,
+   "P12": 61.67
+  },
+  "celulas": {
+   "Brasil|educacao": "Manter",
+   "Quenia|educacao": "Repensar ou apoiar",
+   "India|educacao": "Repensar ou apoiar",
+   "Portugal|educacao": "Reavaliar",
+   "Ghana|educacao": null,
+   "Peru|educacao": "Reavaliar",
+   "Senegal|educacao": "Reforçar",
+   "Bangladesh|educacao": "Reavaliar",
+   "Colombia|educacao": "Reavaliar",
+   "Filipinas|educacao": "Repensar ou apoiar",
+   "Uganda|educacao": "Repensar ou apoiar",
+   "Mocambique|educacao": null,
+   "Brasil|formacao": "Repensar ou apoiar",
+   "Quenia|formacao": "Manter",
+   "India|formacao": "Repensar ou apoiar",
+   "Portugal|formacao": "Reavaliar",
+   "Ghana|formacao": "Reavaliar",
+   "Peru|formacao": "Repensar ou apoiar",
+   "Senegal|formacao": "Repensar ou apoiar",
+   "Bangladesh|formacao": "Reavaliar",
+   "Colombia|formacao": "Repensar ou apoiar",
+   "Filipinas|formacao": "Reavaliar",
+   "Uganda|formacao": "Reavaliar",
+   "Mocambique|formacao": "Repensar ou apoiar",
+   "Brasil|saude": "Manter",
+   "Quenia|saude": "Reforçar",
+   "India|saude": "Reavaliar",
+   "Portugal|saude": "Manter",
+   "Ghana|saude": "Reforçar",
+   "Peru|saude": "Manter",
+   "Senegal|saude": "Reforçar",
+   "Bangladesh|saude": "Reforçar",
+   "Colombia|saude": "Manter",
+   "Filipinas|saude": "Manter",
+   "Uganda|saude": "Reforçar",
+   "Mocambique|saude": "Reforçar",
+   "Brasil|tecnologia": "Manter",
+   "Quenia|tecnologia": "Reforçar",
+   "India|tecnologia": "Manter",
+   "Portugal|tecnologia": "Reavaliar",
+   "Ghana|tecnologia": "Manter",
+   "Peru|tecnologia": "Manter",
+   "Senegal|tecnologia": "Reforçar",
+   "Bangladesh|tecnologia": "Reforçar",
+   "Colombia|tecnologia": "Manter",
+   "Filipinas|tecnologia": "Reforçar",
+   "Uganda|tecnologia": "Reforçar",
+   "Mocambique|tecnologia": "Reforçar",
+   "Brasil|logistica": "Reavaliar",
+   "Quenia|logistica": "Repensar ou apoiar",
+   "India|logistica": "Reavaliar",
+   "Portugal|logistica": "Reavaliar",
+   "Ghana|logistica": "Repensar ou apoiar",
+   "Peru|logistica": "Reavaliar",
+   "Senegal|logistica": "Repensar ou apoiar",
+   "Bangladesh|logistica": "Reavaliar",
+   "Colombia|logistica": "Repensar ou apoiar",
+   "Filipinas|logistica": "Reavaliar",
+   "Uganda|logistica": "Reforçar",
+   "Mocambique|logistica": "Repensar ou apoiar",
+   "Brasil|comunicacao": "Reavaliar",
+   "Quenia|comunicacao": "Repensar ou apoiar",
+   "India|comunicacao": "Reavaliar",
+   "Portugal|comunicacao": "Reavaliar",
+   "Ghana|comunicacao": "Reavaliar",
+   "Peru|comunicacao": "Reavaliar",
+   "Senegal|comunicacao": "Repensar ou apoiar",
+   "Bangladesh|comunicacao": "Repensar ou apoiar",
+   "Colombia|comunicacao": "Reavaliar",
+   "Filipinas|comunicacao": "Repensar ou apoiar",
+   "Uganda|comunicacao": "Repensar ou apoiar",
+   "Mocambique|comunicacao": "Repensar ou apoiar"
+  },
+  "custoArea": {
+   "educacao": 4853.97,
+   "formacao": 4967.62,
+   "saude": 6667.24,
+   "tecnologia": 4148.13,
+   "logistica": 5037.39,
+   "comunicacao": 7904.64
+  },
+  "novoProjeto": {
+   "Senegal|educacao|100000": {
+    "custoPorBeneficiario": 1457.3,
+    "alcance": 68.62,
+    "quadrante": "Reforçar",
+    "leitura": "avançar"
+   },
+   "Ghana|educacao|100000": {
+    "custoPorBeneficiario": 1836.19,
+    "alcance": 54.46,
+    "quadrante": null,
+    "leitura": "confirmar a necessidade"
+   },
+   "Uganda|formacao|250000": {
+    "custoPorBeneficiario": 1753.1,
+    "alcance": 142.6,
+    "quadrante": "Reavaliar",
+    "leitura": "rever"
+   },
+   "India|comunicacao|50000": {
+    "custoPorBeneficiario": 1821.89,
+    "alcance": 27.44,
+    "quadrante": "Reavaliar",
+    "leitura": "rever"
+   },
+   "Portugal|tecnologia|80000": {
+    "custoPorBeneficiario": 1841.06,
+    "alcance": 43.45,
+    "quadrante": "Reavaliar",
+    "leitura": "rever"
+   },
+   "Mocambique|logistica|120000": {
+    "custoPorBeneficiario": 1937.27,
+    "alcance": 61.94,
+    "quadrante": "Repensar ou apoiar",
+    "leitura": "pilotar"
+   }
   }
  }
 }
