@@ -12,15 +12,19 @@ import {
   LegendaIIS,
   Leituras,
 } from "@/components/inicio/inicio";
+import { PergunteLupa } from "@/components/inicio/pergunte-lupa";
 import { MapaAcoes } from "@/components/mapa/mapa-acoes";
 import { COLUMNS, PageHeader } from "@/components/shell/page-header";
 import { useInicio } from "@/hooks/use-inicio";
+import { usePergunte } from "@/hooks/use-pergunte";
 import { FAIXAS_MAPA } from "@/lib/vista-inicio";
+import { ConversaLupa } from "./conversa-lupa";
 
 const TITULO = "Como está o impacto";
 
 export default function InicioPage() {
   const p = useInicio();
+  const lupa = usePergunte();
   const [selecionado, setSelecionado] = useState<string | null>(null);
 
   if (p.estado === "error")
@@ -48,24 +52,39 @@ export default function InicioPage() {
       <AlcanceTopo alcance={v.alcance} />
       <Leituras leituras={v.leituras} onVerNoMapa={verNoMapa} />
       <div className={COLUMNS}>
-        <section
-          id="mapa"
-          aria-labelledby="titulo-mapa"
-          className="flex scroll-mt-6 flex-col gap-3"
-        >
-          <div className="flex flex-wrap items-baseline justify-between gap-2">
-            <h2 id="titulo-mapa" className="text-xl font-semibold">
-              As {v.pontos.length} ações
-            </h2>
-            <LegendaIIS faixas={FAIXAS_MAPA} />
-          </div>
-          <MapaAcoes
-            pontos={v.pontos}
-            selecionado={selecionado}
-            onSelecionar={setSelecionado}
-            className="h-80 sm:h-105"
+        <div className="flex flex-col gap-10">
+          <section
+            id="mapa"
+            aria-labelledby="titulo-mapa"
+            className="flex scroll-mt-6 flex-col gap-3"
+          >
+            <div className="flex flex-wrap items-baseline justify-between gap-2">
+              <h2 id="titulo-mapa" className="text-xl font-semibold">
+                As {v.pontos.length} ações
+              </h2>
+              <LegendaIIS faixas={FAIXAS_MAPA} />
+            </div>
+            <MapaAcoes
+              pontos={v.pontos}
+              selecionado={selecionado}
+              onSelecionar={setSelecionado}
+              className="h-80 sm:h-105"
+            />
+          </section>
+          <PergunteLupa
+            perguntas={lupa.respostas}
+            escolhida={lupa.escolhida?.id ?? null}
+            onEscolher={lupa.escolher}
+            conversa={
+              lupa.escolhida ? (
+                <ConversaLupa
+                  key={lupa.escolhida.id}
+                  resposta={lupa.escolhida}
+                />
+              ) : null
+            }
           />
-        </section>
+        </div>
         <AConfirmar itens={v.aConfirmar} />
       </div>
     </div>
