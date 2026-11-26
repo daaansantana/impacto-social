@@ -10,6 +10,10 @@ const acoes = ler<ImpactoAcao[]>("public/data/impacto.json");
 const G = ler<{
   impacto: {
     recursos: Record<string, Record<string, number>>;
+    resumo: Record<
+      string,
+      { participantesPorAtividade: number; horasPorAtividade: number }
+    >;
     iis: Record<string, Record<string, number>>;
     ranking: Record<string, string[]>;
   };
@@ -95,5 +99,25 @@ describe("impacto.json", () => {
       expect(a.resumo.participantesPorAtividade).toBeGreaterThan(0);
       expect(a.resumo.horasPorAtividade).toBeGreaterThan(0);
     }
+  });
+
+  it("participantes e horas por atividade, como nos gabaritos (as atividades em bruto)", () => {
+    for (const a of acoes) {
+      const g = G.impacto.resumo[a.projeto];
+      expect(
+        Math.abs(
+          a.resumo.participantesPorAtividade - g.participantesPorAtividade,
+        ),
+        a.projeto,
+      ).toBeLessThanOrEqual(0.01);
+      expect(
+        Math.abs(a.resumo.horasPorAtividade - g.horasPorAtividade),
+        a.projeto,
+      ).toBeLessThanOrEqual(0.01);
+    }
+    expect(G.impacto.resumo.P07).toEqual({
+      participantesPorAtividade: 37.87,
+      horasPorAtividade: 5.6,
+    });
   });
 });

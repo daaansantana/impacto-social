@@ -203,6 +203,9 @@ def main() -> int:
     ativ = pd.DataFrame(json.loads((RAIZ / "data/raw/json/atividades_projeto.json").read_text(encoding="utf-8")))
     ativ = ativ.drop_duplicates()
     ativ["tipo"] = ativ["tipo_atividade"].astype(str).str.strip()
+    # a data de cada atividade, nos dois formatos dos dados (AAAA-MM-DD e DD/MM/AAAA)
+    ativ["dt"] = pd.to_datetime(ativ["data"].astype(str).str.strip(), format="ISO8601", errors="coerce").fillna(
+        pd.to_datetime(ativ["data"].astype(str).str.strip(), format="%d/%m/%Y", errors="coerce"))
     proj = pd.DataFrame(
         [{"id": p["id"], "nome": p["nome"], "pais": p["pais"], "area": p["area"], "objetivos": p["objetivos"],
           "historico": p["parceiro"]["historico"], "capacidade": p["parceiro"]["capacidade"]} for p in projetos]
@@ -338,6 +341,14 @@ def main() -> int:
         "iis": {nome: {pid: m.at[pid, f"iis_{nome}"] for pid in m.index} for nome in PREDEFINICOES},
         "faixa": {pid: faixa(m.at[pid, "iis_equilibrado"]) for pid in m.index},
         "recursos": {a["projeto"]: {k: r2(v) for k, v in a["recursos"].items()} for a in acoes},
+        # o formato do resumo, por outro caminho: as atividades em bruto de janeiro a outubro (sem duplicados)
+        "resumo": {
+            pid: {
+                "participantesPorAtividade": r2(g_["participantes"].mean()),
+                "horasPorAtividade": r2(g_["horas"].mean()),
+            }
+            for pid, g_ in ativ[ativ["dt"].dt.month <= 10].groupby("id_projeto")
+        },
         # requisitos 1 e 3: a eficiência (custo por beneficiário, do mais baixo) e o alcance (beneficiários por mês)
         "ordem": {
             "eficiencia": sorted(m.index, key=lambda pid: (arred(m.at[pid, "custoPorPessoa"]), pid)),
