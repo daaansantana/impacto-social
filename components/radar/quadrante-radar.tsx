@@ -102,12 +102,8 @@ export function QuadranteRadar({
                 cx={props.cx}
                 cy={props.cy}
                 r={7}
-                fill={
-                  props.payload?.estimado
-                    ? "var(--background)"
-                    : (props.payload?.cor ?? "var(--primary)")
-                }
-                stroke="var(--foreground)"
+                fill={props.payload?.cor ?? "var(--primary)"}
+                stroke="var(--lupa-tinta)"
                 strokeWidth={1.5}
                 strokeDasharray={props.payload?.estimado ? "3 2" : undefined}
               />

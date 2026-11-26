@@ -32,12 +32,12 @@ export const AREAS = [
   "logistica",
 ] as const;
 
-/** A cor da necessidade, em 4 níveis (do menos para o mais). */
+/** A cor da necessidade, em 4 tons de menta a verde (do menos para o mais), sempre com contorno tinta. */
 export const CORES_NECESSIDADE = [
-  { ate: 25, cor: "#fde68a", rotulo: "baixa" },
-  { ate: 50, cor: "#fbbf24", rotulo: "média-baixa" },
-  { ate: 75, cor: "#f97316", rotulo: "média-alta" },
-  { ate: 100, cor: "#c2410c", rotulo: "alta" },
+  { ate: 25, cor: "#e0f8c7", rotulo: "baixa" },
+  { ate: 50, cor: "#b7d894", rotulo: "média-baixa" },
+  { ate: 75, cor: "#7fa95a", rotulo: "média-alta" },
+  { ate: 100, cor: "#3d6b1e", rotulo: "alta" },
 ];
 export const COR_SEM_DADO = "#d4d4d4";
 

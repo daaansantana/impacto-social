@@ -65,21 +65,22 @@ export default function RadarPage() {
             </h2>
             <MapaRadar pontos={v.pontos} />
             <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-muted-foreground">
-              <span>Necessidade:</span>
-              {CORES_NECESSIDADE.map((c) => (
-                <span key={c.rotulo} className="flex items-center gap-1.5">
+              <span className="flex items-center gap-1.5">
+                menos necessidade
+                {CORES_NECESSIDADE.map((c) => (
                   <span
+                    key={c.rotulo}
                     aria-hidden
-                    className="size-3 rounded-full"
+                    className="size-3 rounded-full border border-tinta"
                     style={{ backgroundColor: c.cor }}
                   />
-                  {c.rotulo}
-                </span>
-              ))}
+                ))}
+                mais necessidade
+              </span>
               <span className="flex items-center gap-1.5">
                 <span
                   aria-hidden
-                  className="size-3 rounded-full"
+                  className="size-3 rounded-full border border-tinta"
                   style={{ backgroundColor: COR_SEM_DADO }}
                 />
                 sem dado

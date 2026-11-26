@@ -53,7 +53,7 @@ export function MapaRadar({
                 type="button"
                 aria-label={`${p.nome}. ${p.necessidadeTexto} ${p.evidenciaTexto}`}
                 aria-pressed={p.id === aberto}
-                className={`block rounded-full border-2 shadow-md outline-none focus-visible:ring-2 focus-visible:ring-ring ${p.estimado ? "border-dashed border-foreground" : "border-white"}`}
+                className={`block rounded-full border-2 border-tinta shadow-md outline-none focus-visible:ring-2 focus-visible:ring-ring ${p.estimado ? "border-dashed" : ""}`}
                 style={{
                   backgroundColor: p.cor,
                   width: p.tamanho,
